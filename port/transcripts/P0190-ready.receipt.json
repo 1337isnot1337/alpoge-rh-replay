@@ -1,0 +1,1425 @@
+{
+  "target": "P0190",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/28447",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "990c354d292858e6d3e867af20005a78ed3ad7a1",
+  "port_record_commit": "564421b98a06a900a990efbbee5731c3d47a4840",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "b0532414e6b11e2fdc393914a899a451bb65064cb6c2641f8ae0399a68ca409b",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.NormRiemannZetaSubPartialSumLe Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumIccThreeQuartersPowLe Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.TruncatedPerronOfLeTwoVonMangoldt Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.TuranSecondMainTheoremPowerSumsUnitCoefficients Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.WeilCriterionInvariantMeasureHomogeneousSpace Development.AbelianVarietyTheory.Proofs.HeightProofs.BeSumStatementIffDefectSumBound Development.AbelianVarietyTheory.Proofs.HeightProofs.BicommutantTensorFactorPermMemSpan Development.AbelianVarietyTheory.Proofs.HeightProofs.CommutantLiftModStableSelfAdjoint Development.AbelianVarietyTheory.Proofs.HeightProofs.CommutatorGlGeneratorTensorWordMapMatrixUnits Development.AbelianVarietyTheory.Proofs.HeightProofs.CommutingAlgebrasFiniteSpan Development.AbelianVarietyTheory.Proofs.HeightProofs.ExistsSignatureDecompositionDiagonal Development.AbelianVarietyTheory.Proofs.HeightProofs.HasSmoothLogNearOneOfIsUnitaryLieExpData Development.AbelianVarietyTheory.Proofs.HeightProofs.MemAdjoinGlActionOfCommuteTensorPerm Development.AbelianVarietyTheory.Proofs.HeightProofs.OrthogonalAnisotropicFrameBoundedCM Development.AbelianVarietyTheory.Proofs.HeightProofs.PermutationWordGelfandPolynomialModShorter Development.AbelianVarietyTheory.Proofs.HeightProofs.PowEntryCommutator Development.AbelianVarietyTheory.Proofs.HeightProofs.QuadraticExtNormFormOverAlgebra Development.AbelianVarietyTheory.Proofs.HeightProofs.RightDerivativeAlongLieCommutatorEqBracket Development.AbelianVarietyTheory.Proofs.HeightProofs.RightDerivativeAlongLieSmoothAndLinear Development.AbelianVarietyTheory.Proofs.HeightProofs.SmoothInExponentialCoordsIffFirstSecondKind Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.ExistsGlIsometryCompEqOfNondegenerate Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.ExistsIsComplEigenSubOfValuationRing Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.PosIndexMapEqCardOfCongrDiagonal Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.AddXYZOrChordXYZOrOriginXYZNeZero Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.BijectiveProdQuotientOfMemAnnihilatorKer Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.DedekindZetaEqSumRealEisenstein Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsEqTransposeMulDiagonalMul Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsIntegralModelOfForms Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsNumeratorOfInvolution Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueHomogeneousIdealFixedSubalgebra Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueLiftSpecOfIsLocalizationAway Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueRealLinearOfEventuallyAddModDiscrete Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsValuationSubringDominatingSubring Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HasAlgebraicChartsOfIsStandardSmooth Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsLocalHomeomorphAddMonoidHomOfEventuallyEq Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsPrincipalIdealRingOfIsLocalization Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsStandardSmoothOfRelativeDimensionAwayJacobian Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ModularJExpansionAndPolynomialAndIsIntegral Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AddHaarProperSubmoduleEqZeroModuleTopology Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdditiveSystemIntegralSolutionCountOfOrderOneStatement Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdditiveSystemIntegralSurjectivityOfOneStatement Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdditiveSystemPreparationNormalFormOneStatement Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdditiveSystemSurjectivityAndCountOrderZero Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AlgClosedContinuumRingEquivComplexExtending Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BorderedInvariantsAndHankelDetMapRingHom Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BorderedMatrixInvariantSpaceExistsCompactOpenSub Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BoundedPowersOrExistsValuationSubringDvd Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BrauerNesbittExistsEquivOfCharpolyEqBindersStatement Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardCommMapsEqCardHomQuot Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardKerMulCardEq Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardKernelQuotOfBijective Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardRootsClosedBallEqDominantIndex Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardSigmaStableProdLatticeExtSq Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardStableEqCardHom Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardWindowZerosEqIntegralAdditiveSystem Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardWindowZerosInnerEqShiftedOuter Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ClearDenominators Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CocycleEqAddUniformizerSmulAddCoboundaryStatement Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ComapInlMemStLat",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 59 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M065325",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.NormRiemannZetaSubPartialSumLe",
+      "source_sha256": "bc07f0de260aa26a9ccb2e85f54612b1373a3c77a5dcaa4f7b095031d44fef9c",
+      "patch_sha256": null,
+      "built_source_sha256": "bc07f0de260aa26a9ccb2e85f54612b1373a3c77a5dcaa4f7b095031d44fef9c",
+      "olean_sha256": "62b22fa9be91da15513fc083d262b7614f941969623f37fafaa7d1ff2611a17f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M065551",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.SumIccThreeQuartersPowLe",
+      "source_sha256": "ae5cee9dc1a9f8a74235082035c46e39bb2e2c622897a117e4daf53ef183d23a",
+      "patch_sha256": null,
+      "built_source_sha256": "ae5cee9dc1a9f8a74235082035c46e39bb2e2c622897a117e4daf53ef183d23a",
+      "olean_sha256": "c9939928e049aa883de0ec405d50d6b27ebcb64558d2c75e418249eb49df2c3b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M065675",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.TruncatedPerronOfLeTwoVonMangoldt",
+      "source_sha256": "5b0744bf3fbdcd97414c1c0f82ee2045bedd9396732b15af4c7af6f8d5627ff1",
+      "patch_sha256": null,
+      "built_source_sha256": "5b0744bf3fbdcd97414c1c0f82ee2045bedd9396732b15af4c7af6f8d5627ff1",
+      "olean_sha256": "4df3d1ebdc290a1d992a802fca7692b8c8d8a25e1138d7bb1477c97d3576bb94",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M065680",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.TuranSecondMainTheoremPowerSumsUnitCoefficients",
+      "source_sha256": "9bab7a55dc59104e1d9ebffafd832fd495e20c3a7431aee840b890b0323e09e0",
+      "patch_sha256": "0df97a83665aa188d5b0a37952751c2751ff3a7c14e3c9e2affd00aac76c89b5",
+      "built_source_sha256": "4be44e5d89a8feae6dec87c8992a6c77287079eb91d4b591286e27e025a425ff",
+      "olean_sha256": "c19cfeca0c7b16fbbeadd68bd2ae3cd4af2d4591cbbc3f97800124094aac66b2",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M065788",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.WeilCriterionInvariantMeasureHomogeneousSpace",
+      "source_sha256": "e46a44f5362286170628ad89c4daae5dbe4936cdb95bb9363d5d939f1980e685",
+      "patch_sha256": null,
+      "built_source_sha256": "e46a44f5362286170628ad89c4daae5dbe4936cdb95bb9363d5d939f1980e685",
+      "olean_sha256": "f7ae29521db331deab7da575f124cfc006ae87771c783b1afb2b25ddf1f6f107",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M065836",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.BeSumStatementIffDefectSumBound",
+      "source_sha256": "5f9059d12da189a221e98c02d0d1fc25cb5ee0094007eb97e5750a2a9ee22174",
+      "patch_sha256": null,
+      "built_source_sha256": "5f9059d12da189a221e98c02d0d1fc25cb5ee0094007eb97e5750a2a9ee22174",
+      "olean_sha256": "137ddc545aa8b2068cad460f791c5af293810d7111d02a3ed9434b501e493f89",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M065837",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.BicommutantTensorFactorPermMemSpan",
+      "source_sha256": "c75e438d8fd1c841a9847834d116ad14f440bb57b6399ec7110cb9158df9b98c",
+      "patch_sha256": null,
+      "built_source_sha256": "c75e438d8fd1c841a9847834d116ad14f440bb57b6399ec7110cb9158df9b98c",
+      "olean_sha256": "2c5c147b9c5e4ca912f8ccf0eea8319d559270ec45b882c3636100a1123d3935",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M065861",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.CommutantLiftModStableSelfAdjoint",
+      "source_sha256": "a07fe511ee64b1a356536884000587aac03bf38cda7e702a00b5ba4e04cbb28f",
+      "patch_sha256": null,
+      "built_source_sha256": "a07fe511ee64b1a356536884000587aac03bf38cda7e702a00b5ba4e04cbb28f",
+      "olean_sha256": "afaefac67018e4561599f92f46e74337ec11371754c2656e4fb00ad41f9d638d",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M065863",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.CommutatorGlGeneratorTensorWordMapMatrixUnits",
+      "source_sha256": "91f2371a225a10cd5919067fa00ee738bd6928bd6ad8617a6d572766dd1d36af",
+      "patch_sha256": null,
+      "built_source_sha256": "91f2371a225a10cd5919067fa00ee738bd6928bd6ad8617a6d572766dd1d36af",
+      "olean_sha256": "a4bf84778d040becb3d173bc29b8f8643b4908508a8f94158339584805158313",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M065867",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.CommutingAlgebrasFiniteSpan",
+      "source_sha256": "7faa8eb505a8a718b8dda65f081399e07ec9d68a4a81e731724fefc3e2b09974",
+      "patch_sha256": null,
+      "built_source_sha256": "7faa8eb505a8a718b8dda65f081399e07ec9d68a4a81e731724fefc3e2b09974",
+      "olean_sha256": "c8958b6b49a43b64f570dedb3303a02e564b873ed9d11ed46cbe39d20b7bfec7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066042",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.ExistsSignatureDecompositionDiagonal",
+      "source_sha256": "08371d126358d2e9500ea5055868d92f65f428b62a71c60f48d31423d532ac13",
+      "patch_sha256": null,
+      "built_source_sha256": "08371d126358d2e9500ea5055868d92f65f428b62a71c60f48d31423d532ac13",
+      "olean_sha256": "05848fa920aa5f1d942587aa8ae0dbe8907d4b2f8937a515e93b44082f753725",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066109",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.HasSmoothLogNearOneOfIsUnitaryLieExpData",
+      "source_sha256": "f7c49487dba7998df0f9e5a72a690b3be328f9b284731a64a437058193ef5135",
+      "patch_sha256": null,
+      "built_source_sha256": "f7c49487dba7998df0f9e5a72a690b3be328f9b284731a64a437058193ef5135",
+      "olean_sha256": "ab02e4d3f1471242db9e2a04bcb02ab3e0f0790bd29c09ad6232fae051cdb315",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066219",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.MemAdjoinGlActionOfCommuteTensorPerm",
+      "source_sha256": "abcd8b2b4d96bb0be56f4bc8d1f20cd90127deb5a8a1d5a38d4c7e9a171172a0",
+      "patch_sha256": null,
+      "built_source_sha256": "abcd8b2b4d96bb0be56f4bc8d1f20cd90127deb5a8a1d5a38d4c7e9a171172a0",
+      "olean_sha256": "3d31d4f61eecf0cece94b1681f69409f5f44ada7588ba72ce89daafa8f851379",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066254",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.OrthogonalAnisotropicFrameBoundedCM",
+      "source_sha256": "52744ad03792ffeac94f721217987eecb4fd8f3e6a8e6ed40c6d1880ea2738a9",
+      "patch_sha256": null,
+      "built_source_sha256": "52744ad03792ffeac94f721217987eecb4fd8f3e6a8e6ed40c6d1880ea2738a9",
+      "olean_sha256": "c311beb0bb7659e0c5ec0a55a8104763bfb93352ad8a90edd9ee5451f914bb89",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066271",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.PermutationWordGelfandPolynomialModShorter",
+      "source_sha256": "dc404c96290dadf7b22d0584ff2275af0fc580a31a51a1d0e32e013db8db05a8",
+      "patch_sha256": null,
+      "built_source_sha256": "dc404c96290dadf7b22d0584ff2275af0fc580a31a51a1d0e32e013db8db05a8",
+      "olean_sha256": "09ccc8b2ca0b3511553a1a5576df6839b3e37ff0c0c55e612fa52b88ab7c2dee",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066280",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.PowEntryCommutator",
+      "source_sha256": "09c4b4e3f23b03fb583854504b8da65fec3e233c4871bbc668b553e17bb2d20b",
+      "patch_sha256": null,
+      "built_source_sha256": "09c4b4e3f23b03fb583854504b8da65fec3e233c4871bbc668b553e17bb2d20b",
+      "olean_sha256": "c8732f7c03e71b09f43c380ca5c6935600231e58473485c8da3b49939aa52cc5",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066285",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.QuadraticExtNormFormOverAlgebra",
+      "source_sha256": "b2b350b3ee45dbaebec01d2d7b917e6eca7660f3dc17a46aec636a0eef4c41b4",
+      "patch_sha256": null,
+      "built_source_sha256": "b2b350b3ee45dbaebec01d2d7b917e6eca7660f3dc17a46aec636a0eef4c41b4",
+      "olean_sha256": "07219c1ce8d60f548baf6069a228b563470ebca7213235ba44e8de616eb8d0ad",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066305",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.RightDerivativeAlongLieCommutatorEqBracket",
+      "source_sha256": "b45b8e536f89d8adddc61db6cc8b7f8c180b1ee15bd8907f9c2fda7273c9d0ab",
+      "patch_sha256": null,
+      "built_source_sha256": "b45b8e536f89d8adddc61db6cc8b7f8c180b1ee15bd8907f9c2fda7273c9d0ab",
+      "olean_sha256": "86c5c8cac49caf60df06f5b3f27b89334e21e19e98a6a5fba543b48e741caa99",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066307",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.RightDerivativeAlongLieSmoothAndLinear",
+      "source_sha256": "f81c0387868682c08e85a7e9a7ccd9099e72a6511c84af6c8ea83a21320c197e",
+      "patch_sha256": null,
+      "built_source_sha256": "f81c0387868682c08e85a7e9a7ccd9099e72a6511c84af6c8ea83a21320c197e",
+      "olean_sha256": "e92783b62b123c3ea77fa4d79a6e712750ebea1c44d69876f9b2412cff4b842f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066342",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.SmoothInExponentialCoordsIffFirstSecondKind",
+      "source_sha256": "f09b3aa6740854381b5a521a889757688e310403c9717e799ea8c0de38f46840",
+      "patch_sha256": "10904482e37721e4a0b8424d680ed89aaad546c0db2f92a9c2db644b29a033ff",
+      "built_source_sha256": "b8460a93e780c7e972e806b9ad3f1393c3940b5706f290b009de56b124e4108d",
+      "olean_sha256": "7b04f0ea7f6d4624a421c8e82b5e760c5ee805c9cd10051ff57931d266920796",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M066412",
+      "module": "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.ExistsGlIsometryCompEqOfNondegenerate",
+      "source_sha256": "e5888a0f7359d1866cd1157b712ff9fc8debb554d5bf3f1bcb7c4dda53dd8811",
+      "patch_sha256": "9e0a55ad0f698896f1fdbc6e93ab428838503df81318a88bd91a685ca16cfdea",
+      "built_source_sha256": "83da99f2452c922e2cf37cf948f4242615972e725db1b37be5820000cdf40077",
+      "olean_sha256": "f12f4f3b998faeaa0066bec5995636dbfa2b527c8af9d2563b1d9be11da7d0c2",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066413",
+      "module": "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.ExistsIsComplEigenSubOfValuationRing",
+      "source_sha256": "b8974c946f4c133c8451192720424194abf22cbbe8c5d6d0f4fd3bb00775a22c",
+      "patch_sha256": "3182701aef6634f7d17a14138468b591b279a6997c4eef08502079a3c7e3530b",
+      "built_source_sha256": "323213e25fd603b356f644aa343afe03bfde22c3e2d4b76c43d2fc0a7fcfaccf",
+      "olean_sha256": "81c7d1963e897795b3ccac414178b15c80d193da9451e53919642488ce51410b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066418",
+      "module": "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.PosIndexMapEqCardOfCongrDiagonal",
+      "source_sha256": "5bf15b89a13c96ae8bd4eb941e7264982330ae714e52edb0f4c331a59ccfbd61",
+      "patch_sha256": null,
+      "built_source_sha256": "5bf15b89a13c96ae8bd4eb941e7264982330ae714e52edb0f4c331a59ccfbd61",
+      "olean_sha256": "ef92397d48e5fd0d8f6caf180fe1feba716b060f7e36d3d0cd8a712a00365ce7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066421",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.AddXYZOrChordXYZOrOriginXYZNeZero",
+      "source_sha256": "9eb4f3a0faebab9732ec34e6d22b1f8657c650e0f2b7f1978ae4d239a5b1d10d",
+      "patch_sha256": null,
+      "built_source_sha256": "9eb4f3a0faebab9732ec34e6d22b1f8657c650e0f2b7f1978ae4d239a5b1d10d",
+      "olean_sha256": "a2696acfdba2b670aa28c65cc32d4066cc9c5482c8e5aa4b912256daa3e51ffb",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066423",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.BijectiveProdQuotientOfMemAnnihilatorKer",
+      "source_sha256": "7bceff88d85e741a62031d5a49735e2fc12260b7aab2d5d50123cd5a01943c8c",
+      "patch_sha256": "b9348b432290d20972a0de102dd6730b14ef30057b46b938b32e6e839a6ce636",
+      "built_source_sha256": "e94cc75a3b715f2e910fe1fce072471a5d503eecdd64a7636a35a72f957917e5",
+      "olean_sha256": "223d8d333a2c2de2722e400e8fb923bdc1e6b71b5587618b98f688e7daa07811",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066426",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.DedekindZetaEqSumRealEisenstein",
+      "source_sha256": "fb5c776fb47bee4e4e586d11f0d837e9f55803420835200da4d3f3ea93751cf6",
+      "patch_sha256": null,
+      "built_source_sha256": "fb5c776fb47bee4e4e586d11f0d837e9f55803420835200da4d3f3ea93751cf6",
+      "olean_sha256": "6ae9dddcda7c3be6907576637e957a0d518f9a8ea50fcb48014571c3b365fbad",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066438",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsEqTransposeMulDiagonalMul",
+      "source_sha256": "d3c8e89ccec0a47df8f0ce76579bbbf7d9b4dbfbff71abf0e11f420c0a9af62d",
+      "patch_sha256": "8193d8e3c83d566ce3d7bafea4e12767f97c0d07f934e9dc4f6b9743e76e3397",
+      "built_source_sha256": "61190bf58d79dc834de639d0d72095009821046aedfb543c7635b4951ef4fc82",
+      "olean_sha256": "235274b8f4d3b887a4298b9127e178586151d0d173f1c63e18178f47e34388af",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066440",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsIntegralModelOfForms",
+      "source_sha256": "b20a6ca1e83e8253f3e9d6d19c62b301b52b91b26493457fdfb2fb6beb419f39",
+      "patch_sha256": null,
+      "built_source_sha256": "b20a6ca1e83e8253f3e9d6d19c62b301b52b91b26493457fdfb2fb6beb419f39",
+      "olean_sha256": "9241cc17319f2ebcd37645f7cd84002819b624d4f2dbf431a7eba8f134c9a06b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066445",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsNumeratorOfInvolution",
+      "source_sha256": "aadc387f5c0c023b5f8dd87ecba36e5eff662081b07da0aaccc834401cffa4f3",
+      "patch_sha256": null,
+      "built_source_sha256": "aadc387f5c0c023b5f8dd87ecba36e5eff662081b07da0aaccc834401cffa4f3",
+      "olean_sha256": "d4250cabcefcc98c905d54df3cb7b8fcc9475000f0f04ec31e75fbccec3521a6",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066455",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueHomogeneousIdealFixedSubalgebra",
+      "source_sha256": "a968bfd564eb5bb39c82f100e7286810659601a66c95df976863cff2b8e56ce8",
+      "patch_sha256": "53d22d189ffefab09953b987ce349c04dacb1382c25018039c8d8a67c220cb64",
+      "built_source_sha256": "068a8c194f5b1a15676586c9e711791061cef00a5f9850e3e0b827181930d991",
+      "olean_sha256": "5d71e5778261d79768dab9803d7d21b42435858d16ff2cadfcc4fcd79d851ff7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066456",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueLiftSpecOfIsLocalizationAway",
+      "source_sha256": "7688d0f0d23e6b93dfde33107b9726ec2353c19f40457139fbe8503274d2c0fb",
+      "patch_sha256": null,
+      "built_source_sha256": "7688d0f0d23e6b93dfde33107b9726ec2353c19f40457139fbe8503274d2c0fb",
+      "olean_sha256": "9ae9aa4dc3086271dc444d0ed70bf6d8218989b0ee53f68a78b4c856ea5ba8bf",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066457",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsUniqueRealLinearOfEventuallyAddModDiscrete",
+      "source_sha256": "c21ebb3a88fd1873237df6eff5a94e71f3d52ac78bcb9466be59a435892e1c35",
+      "patch_sha256": null,
+      "built_source_sha256": "c21ebb3a88fd1873237df6eff5a94e71f3d52ac78bcb9466be59a435892e1c35",
+      "olean_sha256": "8e3f6848cc2efaedbb32973197bb2658d955d46d104a4b92349c84361eafeac5",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066458",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsValuationSubringDominatingSubring",
+      "source_sha256": "343a6f272c5f9e31e59aecb5ec13adbed29d01eb406af3e07aed459b3fca9172",
+      "patch_sha256": null,
+      "built_source_sha256": "343a6f272c5f9e31e59aecb5ec13adbed29d01eb406af3e07aed459b3fca9172",
+      "olean_sha256": "9ee8c2e0c1ded774d9c2f18660a78bbfb213c8131aa0a308cbb78718c85183bb",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066472",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HasAlgebraicChartsOfIsStandardSmooth",
+      "source_sha256": "6f270220910683cd25070492b116d4c82e38f2cc4829077f10fa2add88b8444e",
+      "patch_sha256": null,
+      "built_source_sha256": "6f270220910683cd25070492b116d4c82e38f2cc4829077f10fa2add88b8444e",
+      "olean_sha256": "78492a023db5b2bfcbf5f9ddeaaff6394090d1b87bff68cf863de98679b32110",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066490",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsLocalHomeomorphAddMonoidHomOfEventuallyEq",
+      "source_sha256": "52591aa1f02781a8532aa9744cc7279f34940864506a7c000fe222cbed533676",
+      "patch_sha256": null,
+      "built_source_sha256": "52591aa1f02781a8532aa9744cc7279f34940864506a7c000fe222cbed533676",
+      "olean_sha256": "c67b0186918046efab1ae8eac5b7228005ca2a69af56ad7e10f2c61eb80ffe25",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066491",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsPrincipalIdealRingOfIsLocalization",
+      "source_sha256": "246d23140940a730f436aa43e54342c43e091e04bded05b3495b37654bbe150b",
+      "patch_sha256": "95ebee5fd4aa01303294b8e542ec17b196e84c4de50827e77f7c297d55fbbaa2",
+      "built_source_sha256": "20cad243a685ade7de3c989b782d16fbe0bccd5dd6ecae4a19f30394894db68c",
+      "olean_sha256": "0451127e22f6e0adee9cb70c1926b30a9efbb35a526fa35d9ce3e5f7c62f4479",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066495",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsStandardSmoothOfRelativeDimensionAwayJacobian",
+      "source_sha256": "7e265675e97a5e0ce8350bea95bdea6db8311d0a6de733e7dfef695b665bf1a4",
+      "patch_sha256": null,
+      "built_source_sha256": "7e265675e97a5e0ce8350bea95bdea6db8311d0a6de733e7dfef695b665bf1a4",
+      "olean_sha256": "3d947c81bd2394942116df597c2bc37967f604ade02248bf7cf6e50f5a920910",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066500",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ModularJExpansionAndPolynomialAndIsIntegral",
+      "source_sha256": "f0ad822fe36aabeb1d5a9a650e2e11709c11dfc77756d4041697507eba90455f",
+      "patch_sha256": null,
+      "built_source_sha256": "f0ad822fe36aabeb1d5a9a650e2e11709c11dfc77756d4041697507eba90455f",
+      "olean_sha256": "f03d54ad6bec490bdb03b7bcdb7c4304420e8416c2506779300400f52ca9bc29",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066572",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AddHaarProperSubmoduleEqZeroModuleTopology",
+      "source_sha256": "1ed29b0ac8ca73daf7f5644edf1566fea5248eaa47df15efc81854012904494d",
+      "patch_sha256": null,
+      "built_source_sha256": "1ed29b0ac8ca73daf7f5644edf1566fea5248eaa47df15efc81854012904494d",
+      "olean_sha256": "37e9e1d7384390f13334cec783783e56a7f5c0d468d1195c0b954b4624834667",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066589",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdditiveSystemIntegralSolutionCountOfOrderOneStatement",
+      "source_sha256": "5fb2d06c76065287f98d689273c22b4fd12f55d8e77d7a64bfc86bb8022fcccd",
+      "patch_sha256": null,
+      "built_source_sha256": "5fb2d06c76065287f98d689273c22b4fd12f55d8e77d7a64bfc86bb8022fcccd",
+      "olean_sha256": "a6d24a7be0f66b78c7589a8cb35bcedfc069564d9051f786757d5efecb09bf89",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066591",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdditiveSystemIntegralSurjectivityOfOneStatement",
+      "source_sha256": "aab45238ba5681a2fd8ba25f660669d467c7e9b46ec9240fea82623bd0e78d8b",
+      "patch_sha256": null,
+      "built_source_sha256": "aab45238ba5681a2fd8ba25f660669d467c7e9b46ec9240fea82623bd0e78d8b",
+      "olean_sha256": "08ef215bd99baef98358748458939331878e5ad85e8c969bdb1bc1163bb8e9a1",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066593",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdditiveSystemPreparationNormalFormOneStatement",
+      "source_sha256": "bc17f333a37fe69d223c3d7bb3dc1a5323c7c5f19d1a7d3978db72ffcff9eddb",
+      "patch_sha256": null,
+      "built_source_sha256": "bc17f333a37fe69d223c3d7bb3dc1a5323c7c5f19d1a7d3978db72ffcff9eddb",
+      "olean_sha256": "1d0a5579ef205b29bba00fca06664bf88c9402ce9dcad5f97056e3cd2658ee8a",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066594",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdditiveSystemSurjectivityAndCountOrderZero",
+      "source_sha256": "7e48e1a3dff0d7463f06323fc412a2d5b60d48e3d25af705d694d80c8e4bb3d8",
+      "patch_sha256": null,
+      "built_source_sha256": "7e48e1a3dff0d7463f06323fc412a2d5b60d48e3d25af705d694d80c8e4bb3d8",
+      "olean_sha256": "df5bb7c6f07f8986d90122f8543e062c81a1096369a1aeb93aafdf6d3b28e6d3",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066770",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AlgClosedContinuumRingEquivComplexExtending",
+      "source_sha256": "fa80d931315789b4af390865aa67182995d1072ba81dc209d03e246aa56b12db",
+      "patch_sha256": null,
+      "built_source_sha256": "fa80d931315789b4af390865aa67182995d1072ba81dc209d03e246aa56b12db",
+      "olean_sha256": "38b3d1ce1ddabe91d2b1392a1aac33c357d5d9402b92f9007aa918d38fcb5455",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067002",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BorderedInvariantsAndHankelDetMapRingHom",
+      "source_sha256": "574034a4088d3a2d05454c416af3351c8865620ba619b5422c33cbd7428041b9",
+      "patch_sha256": null,
+      "built_source_sha256": "574034a4088d3a2d05454c416af3351c8865620ba619b5422c33cbd7428041b9",
+      "olean_sha256": "c354d986b12b4bd7d5504a9561e2ba99204f12d90bb3750c6038f44318a89e45",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067004",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BorderedMatrixInvariantSpaceExistsCompactOpenSub",
+      "source_sha256": "50b0b2ad58ed4235fa93c521bf99e911da1f517d2a3d44f73a3dfe7596af686c",
+      "patch_sha256": null,
+      "built_source_sha256": "50b0b2ad58ed4235fa93c521bf99e911da1f517d2a3d44f73a3dfe7596af686c",
+      "olean_sha256": "48dd0a16a5daef7d8b2d55b2ecbb0be26b2476bdb9386529e20bfeb4453abdff",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067024",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BoundedPowersOrExistsValuationSubringDvd",
+      "source_sha256": "71d50faa2a6815ad83109dc27eb8c0186a2b69b6f2035be4245f95c7b10ca6e0",
+      "patch_sha256": null,
+      "built_source_sha256": "71d50faa2a6815ad83109dc27eb8c0186a2b69b6f2035be4245f95c7b10ca6e0",
+      "olean_sha256": "b20d55d5b1709d702cd97d514ecf579135e4efe8e0ea5b377c486a487b89354a",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067027",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BrauerNesbittExistsEquivOfCharpolyEqBindersStatement",
+      "source_sha256": "984b849cc61b57a9d971adb28e108954b35a0eae0aea29388bf5ab0bc54ed5ce",
+      "patch_sha256": null,
+      "built_source_sha256": "984b849cc61b57a9d971adb28e108954b35a0eae0aea29388bf5ab0bc54ed5ce",
+      "olean_sha256": "090d78ffe090a5ee6d3a6e8ee1e6243fa1cbf069e0ad4961a25a71374fdf0c35",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067201",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardCommMapsEqCardHomQuot",
+      "source_sha256": "d81d61648ab93f39557e1f949033cbf586663c1b92973890664e83a2553447ae",
+      "patch_sha256": null,
+      "built_source_sha256": "d81d61648ab93f39557e1f949033cbf586663c1b92973890664e83a2553447ae",
+      "olean_sha256": "9cee410d7702ba7134c08016ce3dbafaf74f84a56ad45c401ff5f194ff0759f9",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067230",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardKerMulCardEq",
+      "source_sha256": "28fb1b20c78b7c5f16afba620cf3f6b2a468becf888eebcbf3a86f9378cbbc70",
+      "patch_sha256": null,
+      "built_source_sha256": "28fb1b20c78b7c5f16afba620cf3f6b2a468becf888eebcbf3a86f9378cbbc70",
+      "olean_sha256": "5b8f0364a3faf79e46885d253ca915d6b4740af95ac88a0f0e3cb4c544c82dd7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067231",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardKernelQuotOfBijective",
+      "source_sha256": "ffe904b5fe73e7ce9a81d11c6b0af2ddd243e65ee32df8372e40b85a7d677d89",
+      "patch_sha256": null,
+      "built_source_sha256": "ffe904b5fe73e7ce9a81d11c6b0af2ddd243e65ee32df8372e40b85a7d677d89",
+      "olean_sha256": "4062a912f5a2a4ec93c0d75b934426ea73788f033093f0ce5241fdcfed364f62",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067263",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardRootsClosedBallEqDominantIndex",
+      "source_sha256": "01acfbec9a07a8c3c6539b28bce76f6002bec64dab20ab9e864b3ed3ea738b0c",
+      "patch_sha256": null,
+      "built_source_sha256": "01acfbec9a07a8c3c6539b28bce76f6002bec64dab20ab9e864b3ed3ea738b0c",
+      "olean_sha256": "d4b1150a0d2fc7630a16b88e3d2725cf21f3127f577fe8b4e7b07b0ed8c86b2d",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067265",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardSigmaStableProdLatticeExtSq",
+      "source_sha256": "0c5207153a062febda3527f687a6fbb9c5ef9a3a1dfd06912cf81b28bbc6fe55",
+      "patch_sha256": null,
+      "built_source_sha256": "0c5207153a062febda3527f687a6fbb9c5ef9a3a1dfd06912cf81b28bbc6fe55",
+      "olean_sha256": "97fe4c9a9d1121f444094b007098674f3a29703ac297c01e7a687ae43eaae53a",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067267",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardStableEqCardHom",
+      "source_sha256": "da1828570025e57e85e79202cb4361d5f310a071e0301ad655b81772645c0247",
+      "patch_sha256": null,
+      "built_source_sha256": "da1828570025e57e85e79202cb4361d5f310a071e0301ad655b81772645c0247",
+      "olean_sha256": "c5c39b7de8ba68237be9a757922ba326446dea7fb7c07c3a83eb1e114b32968c",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067274",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardWindowZerosEqIntegralAdditiveSystem",
+      "source_sha256": "58e9c3de2404ca86e14e7da163ea31af9980d07d7558d4845a8c3e83954d5543",
+      "patch_sha256": null,
+      "built_source_sha256": "58e9c3de2404ca86e14e7da163ea31af9980d07d7558d4845a8c3e83954d5543",
+      "olean_sha256": "4790f107d0b1fcb683fe8235a0beac63a54b1dad217fd15f15194271861da0dd",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067276",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CardWindowZerosInnerEqShiftedOuter",
+      "source_sha256": "b981b773347f44706a1c741e5c581a7ef57f237b356789d58e87587ad1d99db4",
+      "patch_sha256": null,
+      "built_source_sha256": "b981b773347f44706a1c741e5c581a7ef57f237b356789d58e87587ad1d99db4",
+      "olean_sha256": "a49c23d72a34030f4c53e4fd9f5ec8bfdd257131ed35b5b46c19f501f15cfcf2",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067421",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ClearDenominators",
+      "source_sha256": "45b3916acf52ea45324e62d18474dbc98e59ae07eb3c2cb00e91122d82825eba",
+      "patch_sha256": null,
+      "built_source_sha256": "45b3916acf52ea45324e62d18474dbc98e59ae07eb3c2cb00e91122d82825eba",
+      "olean_sha256": "cd61d699bc6bcb250a087d083296170cb28062b948c437c98dbc414bb7c3a2c1",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067468",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CocycleEqAddUniformizerSmulAddCoboundaryStatement",
+      "source_sha256": "8e08c95e23fefbcd26b37ccdcb220ee866d07caf83fb527bbc2ea8f082170862",
+      "patch_sha256": null,
+      "built_source_sha256": "8e08c95e23fefbcd26b37ccdcb220ee866d07caf83fb527bbc2ea8f082170862",
+      "olean_sha256": "9bf98509e9cd8616c701ad7ffc0593b0bfeb5c5b153aab1f83e0f37e12250941",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067565",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ComapInlMemStLat",
+      "source_sha256": "2c669f7cc6d8ef2bf8c9eece6a17d3e7a7177e3282804e1bf203e2edb309206e",
+      "patch_sha256": null,
+      "built_source_sha256": "2c669f7cc6d8ef2bf8c9eece6a17d3e7a7177e3282804e1bf203e2edb309206e",
+      "olean_sha256": "1c4935263e13fdcb37637765b00cc401078b87a39dfbcd13a1654604035a5165",
+      "exit_code": 0,
+      "validated_output": "reused"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M002284",
+      "module": "Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.InvariantRadonFibre",
+      "source_sha256": "b5401b74812e28ecc774cf2a945296c58f2ced18b337d7a68272454402be9168",
+      "patch_sha256": null,
+      "built_source_sha256": "b5401b74812e28ecc774cf2a945296c58f2ced18b337d7a68272454402be9168",
+      "port_record_sha256": "e2d4a0023f891454c1445b8d49149651ca74232e34bbfe5a81026fa1ab27da90"
+    },
+    {
+      "id": "M002358",
+      "module": "Development.AbelianVarietyTheory.BlockTheory.HeightDefect.SchurLatticeConjugates",
+      "source_sha256": "9771146ea92dc3d2e8a38c03449430f76f4d14c37e13b21e4948f1853f4a1f97",
+      "patch_sha256": "871ac5c451518eff162a2b599080557d8367024c2904d297e2becf9b75a4d50f",
+      "built_source_sha256": "d4de3abb0ddf17773e0efab30ca010d8ebfe120b64bbf67024cfb92d0bab8e2c",
+      "port_record_sha256": "c73b07467fffc352a783ab2cc1b476b9510f8b69222a229619ba1c559ba8839b"
+    },
+    {
+      "id": "M004742",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FourierMatch",
+      "source_sha256": "6b4cab068f2b618cfc66519b993c04f7f2dbd7cb38d0456f305741e4c30be057",
+      "patch_sha256": null,
+      "built_source_sha256": "6b4cab068f2b618cfc66519b993c04f7f2dbd7cb38d0456f305741e4c30be057",
+      "port_record_sha256": "11b023f9509c1e11277b590f7a525958360db212545097c71385d628ab7a430f"
+    },
+    {
+      "id": "M004788",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsTestRep",
+      "source_sha256": "f3d63c4c5c04c42a3dee9d4020d0720f96aad5ed3dec1b66211d8225098a8861",
+      "patch_sha256": null,
+      "built_source_sha256": "f3d63c4c5c04c42a3dee9d4020d0720f96aad5ed3dec1b66211d8225098a8861",
+      "port_record_sha256": "2a451692ed22afd01f595e965865bcf15be6e992c3621231ebc7024085ecbab6"
+    },
+    {
+      "id": "M004811",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.LinearDescent",
+      "source_sha256": "6aebfd3da78b21813fcddf128386453611969205066e1fa11084d7965ea3eb9c",
+      "patch_sha256": null,
+      "built_source_sha256": "6aebfd3da78b21813fcddf128386453611969205066e1fa11084d7965ea3eb9c",
+      "port_record_sha256": "cae060f26d57829ea8de06492e155c6ef7892653ff750775c46cce498d12c11e"
+    },
+    {
+      "id": "M004824",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MooreNorm",
+      "source_sha256": "c80e21b770e1ed7b00508aaa2e7bd117d74307f57a0198f74977958c8d900d64",
+      "patch_sha256": null,
+      "built_source_sha256": "c80e21b770e1ed7b00508aaa2e7bd117d74307f57a0198f74977958c8d900d64",
+      "port_record_sha256": "d2d3fcca510bc4e0540e83d9d48a02e6ce38c27c7ad5a06d67c9b170a141ee84"
+    },
+    {
+      "id": "M004876",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.UnitLemmaGroup",
+      "source_sha256": "7d65a1a41635fc25ef99e2e8e1527fa96a5efdeffe58319ef049b991b2b67cce",
+      "patch_sha256": null,
+      "built_source_sha256": "7d65a1a41635fc25ef99e2e8e1527fa96a5efdeffe58319ef049b991b2b67cce",
+      "port_record_sha256": "a4d9506e6524eaa50888e6fae8b51b19dd3cc449bc9f9f1d5e240756080cce96"
+    },
+    {
+      "id": "M004902",
+      "module": "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.MemSaturatedOrderIsoSubspaceSpanSymmApply",
+      "source_sha256": "0c0d3a5e07e6415230e59bf57c746f2148391bd8f61e75581e7832865071f170",
+      "patch_sha256": null,
+      "built_source_sha256": "0c0d3a5e07e6415230e59bf57c746f2148391bd8f61e75581e7832865071f170",
+      "port_record_sha256": "03cec0f0b79e01e0fe2914043c741f207ff8784384591a3fdc57f48345eca4ea"
+    },
+    {
+      "id": "M005011",
+      "module": "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.AwayLiftCompFromZeroRingHom",
+      "source_sha256": "6a436b5aa3ffbd9f5a8fc72d7a0db6f0dce1465fa35e429695e126d7d49d15c8",
+      "patch_sha256": null,
+      "built_source_sha256": "6a436b5aa3ffbd9f5a8fc72d7a0db6f0dce1465fa35e429695e126d7d49d15c8",
+      "port_record_sha256": "327a9d216e0efe324af7f0e18f0c21f900823446b8a0348607330246f2881fcf"
+    },
+    {
+      "id": "M005020",
+      "module": "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IsOpenOfMemIrreducibleComponentsOfFinite",
+      "source_sha256": "161e118d461b19bad8e17e33392eb908c78a280ff44c8bd67fc20fb762b3b37d",
+      "patch_sha256": "84373aeef243a0dd535eb1d0b08bf326f12dc4547923d1badca8c065d4bc296d",
+      "built_source_sha256": "91e29057e7f04a9a9f61347bef54a9026ddd771062515a2e6333c4f4f8804740",
+      "port_record_sha256": "9be3f44e9ab6cd22dd9ef779fe90da00575134817df0444b782d7a27b6bc0aea"
+    },
+    {
+      "id": "M005021",
+      "module": "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MemPrimitiveTensorsIffIsPrimitiveElem",
+      "source_sha256": "4fdf00c4518e06894dbfa187cf17bf6150993414684bf1e0464bdd35c3db4039",
+      "patch_sha256": "3ec12276dbc994bd28d4757dce38fe67ffe1cdc251ba3438545b9b189e867518",
+      "built_source_sha256": "2a4264ed0a833a2669a5154d83233b71615472ba535fdabcf8ccf0c6031626c2",
+      "port_record_sha256": "4f1d9a4372f9af013273dd612fd7b6b793f85a542da0d1d98e25bf728d332592"
+    },
+    {
+      "id": "M005023",
+      "module": "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.OpensRangeChartYSupOpensRangeChartZ",
+      "source_sha256": "7f94dc91d0537f2998d9233293e06ec3c9e06075a982d6cd842c882d2b90e95c",
+      "patch_sha256": null,
+      "built_source_sha256": "7f94dc91d0537f2998d9233293e06ec3c9e06075a982d6cd842c882d2b90e95c",
+      "port_record_sha256": "5867b8da60912c70713c7d937c8db4eace887306ee43b630c449ef2a30d16cd6"
+    },
+    {
+      "id": "M005049",
+      "module": "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsEventuallyNormRiemannThetaTermLe",
+      "source_sha256": "d7ca9cd2bf55e5a162f400c57502bcb03c9f1f2b52145c0e75374f89e7dc907e",
+      "patch_sha256": "8a8b7a64389ec37577cfc5b2131b22f5518d4818a9343b69734f5908458ded3e",
+      "built_source_sha256": "e2438036c8eb277ef1e91681f5c2f71a23c056fd90594a58b47eca0d48594c7e",
+      "port_record_sha256": "fcda745640de56f5f05f34a1c454978d6dd484603882532bd09e33152f268823"
+    },
+    {
+      "id": "M005051",
+      "module": "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsLinearIndependentNormLeSuccMin",
+      "source_sha256": "14f41a40923491a5b0d42f243fbe92c81b1cb57e5119e415da84c17c02b88c0e",
+      "patch_sha256": null,
+      "built_source_sha256": "14f41a40923491a5b0d42f243fbe92c81b1cb57e5119e415da84c17c02b88c0e",
+      "port_record_sha256": "6d3b1a036f30bcce2e7885e169132cd5e98b6bda1710ddcac70a960f712bdd61"
+    },
+    {
+      "id": "M006316",
+      "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsSaturatedSubmoduleIffExistsIsComplOfValuationR",
+      "source_sha256": "3d773a0ab95dbae0519d76733d1f80206550635fe9e455e159bd3b0139833d4a",
+      "patch_sha256": null,
+      "built_source_sha256": "3d773a0ab95dbae0519d76733d1f80206550635fe9e455e159bd3b0139833d4a",
+      "port_record_sha256": "dbaf08b1653ba085e791f468084bc1ce0410739663edc22426aa1bde4055a517"
+    },
+    {
+      "id": "M006334",
+      "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MapSpanBaseChangeEquivSubmoduleOf",
+      "source_sha256": "51e99a426e151ddaef79aa8c229871ca1ee1225acc111616cefea9494b9159ad",
+      "patch_sha256": "38bd723ae11ddfca7b2ad9b291c734d72c513b46d3f77c22b9c2187e22b82d72",
+      "built_source_sha256": "77b5d0c08bdf6d3a3500fe5aaee263bd3dd824a36f38f575b709a3ce2c6cc39a",
+      "port_record_sha256": "38e28c508537cd50b140c2738dafb2c1aaca6046f82da9d8b38f036cac5ec699"
+    },
+    {
+      "id": "M006359",
+      "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.PredMulSumPadicValNatFactorialAddCardLe",
+      "source_sha256": "b7ea91e9b2ac52f229e062a3167f675acc85a42ac838bf741e27cab54baab87a",
+      "patch_sha256": null,
+      "built_source_sha256": "b7ea91e9b2ac52f229e062a3167f675acc85a42ac838bf741e27cab54baab87a",
+      "port_record_sha256": "e002b18fd0ac4450697c819b615e2d9123d6546315b50931dae2aa5f54b303da"
+    },
+    {
+      "id": "M006406",
+      "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DifferentiableOnOfTendstoLocallyUniformlyOn",
+      "source_sha256": "c15e6bef828059d8e9d746a78ba56b5447545a3f4a0dd6ea5f5715dd9077eb87",
+      "patch_sha256": null,
+      "built_source_sha256": "c15e6bef828059d8e9d746a78ba56b5447545a3f4a0dd6ea5f5715dd9077eb87",
+      "port_record_sha256": "821bbe93f03eba02b2e8af6fa75a624eebced2e81f5c99bd309b8f129d4a27c9"
+    },
+    {
+      "id": "M006468",
+      "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.LatticeFourierOfContDiffFiniteDimensional",
+      "source_sha256": "3c86c10fd70a738b0f6640116a0886b748c95361215e3d560d3eac0adb95d38a",
+      "patch_sha256": null,
+      "built_source_sha256": "3c86c10fd70a738b0f6640116a0886b748c95361215e3d560d3eac0adb95d38a",
+      "port_record_sha256": "539bbd3ba183715061a001a334f974c663f97875035bc15cbbaf5910d2fd5605"
+    },
+    {
+      "id": "M006493",
+      "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.SummableLatticeExpNegPiMulNormSqDiv",
+      "source_sha256": "75a397838f4379c63cb4d0f59fc8831b462892da5f36a8eb979e6fd3a2349371",
+      "patch_sha256": null,
+      "built_source_sha256": "75a397838f4379c63cb4d0f59fc8831b462892da5f36a8eb979e6fd3a2349371",
+      "port_record_sha256": "de0b78d1b35f9f5df0da80d3427596674d591a2b4e008dabeccd61762e83e52a"
+    },
+    {
+      "id": "M060954",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.BijectiveAlgebraMapIntegralClosureOfBirational",
+      "source_sha256": "4a9321086219bd577dbf510abcb69ebdbfe0c990c81f0e952cd9bc5a8027b0e2",
+      "patch_sha256": null,
+      "built_source_sha256": "4a9321086219bd577dbf510abcb69ebdbfe0c990c81f0e952cd9bc5a8027b0e2",
+      "port_record_sha256": "829c0b5b8ed57edb7eb52016fa845ffe3630b840ef7897a4bbfa6a432abfa7c6"
+    },
+    {
+      "id": "M060955",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.BijectiveDualAddChar",
+      "source_sha256": "a5a5cb250fc3d1b9f952cd46672a8ca2cb6ca3a27e627c53e328a8c3170c905e",
+      "patch_sha256": null,
+      "built_source_sha256": "a5a5cb250fc3d1b9f952cd46672a8ca2cb6ca3a27e627c53e328a8c3170c905e",
+      "port_record_sha256": "4c59b7cf1dda3f800859a5621d0a9106cb3987ee54eb022289d700b8d0708111"
+    },
+    {
+      "id": "M060975",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.CardDualZmodModuleEqCard",
+      "source_sha256": "6c044c801df4c3027de890226965859aa8d58c2786321b29249c00fd5b04de11",
+      "patch_sha256": null,
+      "built_source_sha256": "6c044c801df4c3027de890226965859aa8d58c2786321b29249c00fd5b04de11",
+      "port_record_sha256": "ca2247b1bee8e189b8087965b87eb72feed7594869d44b36cfb12a5369debb5a"
+    },
+    {
+      "id": "M062731",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.IsLeftCoactionIffIsCoactionComm",
+      "source_sha256": "6022720950da65e38bd2679371304a6b352d55c618a0bf05326f0222f7878fb1",
+      "patch_sha256": "2839b749a00d0a4c8c7ea2fc785c5ea18230a8630de09e5fe38172d10b62b651",
+      "built_source_sha256": "c4fc9c86fdf822c934e9e7ed049c683374c7debf92b0cc62d96e8d624d529a63",
+      "port_record_sha256": "d124e49cac39f66b04869501cdba534ec4bc9405f66edb510f9e1206b496a5b6"
+    },
+    {
+      "id": "M064663",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.DifferentiableAtFractInt",
+      "source_sha256": "eb5d377fedb48f0ea934aa2e02ba1aaeb5942e5521d62a2f2c24942a33d1d0d2",
+      "patch_sha256": null,
+      "built_source_sha256": "eb5d377fedb48f0ea934aa2e02ba1aaeb5942e5521d62a2f2c24942a33d1d0d2",
+      "port_record_sha256": "84c14649ef16689a8d38f645520dcf32f33d56811cf0c9422ffd7b7650a0b88f"
+    },
+    {
+      "id": "M064732",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsBruhatFunctionClosedSubgroup",
+      "source_sha256": "67a4ce6f8107f79fa5379399b81c79b518c6ea9946ed2cd45758fd2ed2898c38",
+      "patch_sha256": null,
+      "built_source_sha256": "67a4ce6f8107f79fa5379399b81c79b518c6ea9946ed2cd45758fd2ed2898c38",
+      "port_record_sha256": "2d522def89c2f8cf7270c270bb24f561b6b6b22b0a306f9555f914cf31dbf0fe"
+    },
+    {
+      "id": "M064785",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsInterpolationExteriorSmallCoeffs",
+      "source_sha256": "f22c1a233ecab64bd9b5f0282aed5506ceb8e09a40ec03baf4ce7480fe3614df",
+      "patch_sha256": "23adb8cc0f81b7d21d19513974cb4d934f907894a05b3db95d2c6ba77e7225b6",
+      "built_source_sha256": "fffc0e4f8d21fd9f765c9a7e2de4b6210080415ed65232b988225dcf37a86fd8",
+      "port_record_sha256": "eea48de057f9873fea3cdf06def4710b0feecbb8084c2e0c01b3ef8c5c3ebad7"
+    },
+    {
+      "id": "M064786",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsInterpolationExteriorSmallCoeffsStatement",
+      "source_sha256": "f025c454f0394f408719404dd707964ec7282fb6fef54b604c1242612b2dac5d",
+      "patch_sha256": null,
+      "built_source_sha256": "f025c454f0394f408719404dd707964ec7282fb6fef54b604c1242612b2dac5d",
+      "port_record_sha256": "2512281c4c5f4c14d3f1f50ad9e4dd2e9f1509e3069a3f45e39e6e12f20e7f1c"
+    },
+    {
+      "id": "M064836",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsProdAbsSubGeOnSegment",
+      "source_sha256": "86034a3e21ee4ff7bea1402814ea6b904a09f160034ee28351e760856cefb18c",
+      "patch_sha256": null,
+      "built_source_sha256": "86034a3e21ee4ff7bea1402814ea6b904a09f160034ee28351e760856cefb18c",
+      "port_record_sha256": "e34e793b609ab5848039f3ced9fad8f3a69f2c91155ed491f901c03650b15c7e"
+    },
+    {
+      "id": "M064880",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsUniqueHaarOfInvariantRadonOnCosets",
+      "source_sha256": "2816ea8b6332734a5d45f668389b0cd8fe5edde72520a965ca0869fd986d1453",
+      "patch_sha256": null,
+      "built_source_sha256": "2816ea8b6332734a5d45f668389b0cd8fe5edde72520a965ca0869fd986d1453",
+      "port_record_sha256": "de1a225ebfa1a3f7a8195885b635b0e54700fa56381c4f9845d6c2bb60ade29f"
+    },
+    {
+      "id": "M065674",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.TruncatedPerronKernel",
+      "source_sha256": "cf54efb1f92798b693c214c95a1eca839e8446f94fb91bb528d1199c4a286dcc",
+      "patch_sha256": null,
+      "built_source_sha256": "cf54efb1f92798b693c214c95a1eca839e8446f94fb91bb528d1199c4a286dcc",
+      "port_record_sha256": "c0007aa6b11cf76e046b3c9f24b1c0a8a95b9ed63f5a9e01833a3afaed38bf3a"
+    },
+    {
+      "id": "M065676",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.TruncatedPerronPsi",
+      "source_sha256": "f8b6a9b506f27c549e5a0db6dfd6ac43f31af95fc58704973e63e8f108e4bd44",
+      "patch_sha256": null,
+      "built_source_sha256": "f8b6a9b506f27c549e5a0db6dfd6ac43f31af95fc58704973e63e8f108e4bd44",
+      "port_record_sha256": "33339a3396074dc143f711ecfbe9b8709c8f2dcae01b062ee8269f81c0fc28f4"
+    },
+    {
+      "id": "M065783",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.WeightedFejerPositivity",
+      "source_sha256": "833305315abb0f25f9f14fb32586bb07be1573f8db0e26834149d1b28988be3d",
+      "patch_sha256": null,
+      "built_source_sha256": "833305315abb0f25f9f14fb32586bb07be1573f8db0e26834149d1b28988be3d",
+      "port_record_sha256": "77be3e586c8d10ac41c62f6022b70c6c472afd1d05c91b5dbc55d302197548b8"
+    },
+    {
+      "id": "M065784",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.WeightedFejerPositivityStatement",
+      "source_sha256": "83b6ed2e59b8a7f1d73516e6408d17fc4781cdd91dcda0c082597ac897828b54",
+      "patch_sha256": null,
+      "built_source_sha256": "83b6ed2e59b8a7f1d73516e6408d17fc4781cdd91dcda0c082597ac897828b54",
+      "port_record_sha256": "991c770dc502fb7ec42ed22cc7cdb0ba36126306bd930686c1188958ca5e1d81"
+    },
+    {
+      "id": "M065809",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ZetaEqSubIntegralFract",
+      "source_sha256": "42c50d880faa608029c7b382c217af81ca8b50cca951a4935b19fd433ac8032d",
+      "patch_sha256": null,
+      "built_source_sha256": "42c50d880faa608029c7b382c217af81ca8b50cca951a4935b19fd433ac8032d",
+      "port_record_sha256": "0f8a2e2d0fced02100653d54ecc74568c7705311e5f06c5f9157a84e7e0f97cb"
+    },
+    {
+      "id": "M066174",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.IsLieDataCircle",
+      "source_sha256": "6cd1e21782e577d0af1aa48fe871f48c93a67d2c3d6fbcfb6f764fc3fc479f1e",
+      "patch_sha256": null,
+      "built_source_sha256": "6cd1e21782e577d0af1aa48fe871f48c93a67d2c3d6fbcfb6f764fc3fc479f1e",
+      "port_record_sha256": "a8343c31fc2db6bd5abce10a2463b242c23feeebadd076683ad7221ff02416e3"
+    },
+    {
+      "id": "M066228",
+      "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.MulApply",
+      "source_sha256": "f161764abe7ffa529a83fcf19131980de1db5471b7000cd3b852797b541a925c",
+      "patch_sha256": null,
+      "built_source_sha256": "f161764abe7ffa529a83fcf19131980de1db5471b7000cd3b852797b541a925c",
+      "port_record_sha256": "d69b84b66c44ccf23f0ec93e52ecc67cd624fa43b550f3c073e9d424b18de4e8"
+    },
+    {
+      "id": "M066414",
+      "module": "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.ExistsOrthogonalBasisDotProductApplyEq",
+      "source_sha256": "ff40690c8517257af58016af0374fb2d7229a818c4b32a998365dd7b8caf2fee",
+      "patch_sha256": null,
+      "built_source_sha256": "ff40690c8517257af58016af0374fb2d7229a818c4b32a998365dd7b8caf2fee",
+      "port_record_sha256": "6589e251365a20667e68c80ff197fd1d6ba60cd2f96ab161098b2bda456fb34e"
+    },
+    {
+      "id": "M066417",
+      "module": "Development.AbelianVarietyTheory.Proofs.HermitianTraceForms.IsLocallyConstantRankAtStalkEigenSub",
+      "source_sha256": "bab261222dc7cef98e535aa1d9e619a693ce7ef96bdab28ac2f5d20337192e61",
+      "patch_sha256": "4856bc7ee18d0ec9d24f3a7535741f1c18ae144347cc92afd18fddff7dd54278",
+      "built_source_sha256": "636eff194d00c00a47a8a53db74bda43004be296c279e23c8cd6b98b68593732",
+      "port_record_sha256": "6ee49f0e61bbdc9b1466af9c83368774489518357b4006413f4b2b413e84e091"
+    },
+    {
+      "id": "M066425",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ContinuousAevalMvPolynomial",
+      "source_sha256": "7b64b40e8238f64b43bfc90203dfd5f26cd603f667dae57f024191a760932827",
+      "patch_sha256": null,
+      "built_source_sha256": "7b64b40e8238f64b43bfc90203dfd5f26cd603f667dae57f024191a760932827",
+      "port_record_sha256": "a3e4defb6e22617289f49385303282a696dbc267b5a428401fbfeeee0fda74d9"
+    },
+    {
+      "id": "M066427",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.DiagZEqNegAddY",
+      "source_sha256": "3dc889d583265317eb85de95a10ff8928de59ba0bca0d814246d1405bb309575",
+      "patch_sha256": null,
+      "built_source_sha256": "3dc889d583265317eb85de95a10ff8928de59ba0bca0d814246d1405bb309575",
+      "port_record_sha256": "ae7d0af1569b4d489cd03b428651c11a7d87db1622fbddc948c7a2d2dd9d7d54"
+    },
+    {
+      "id": "M066435",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsBasisEmbedding",
+      "source_sha256": "b876e9cce0d89026fa22a97ece5316f8aafc11a4546d25f9e2ae1a951f9bd6b3",
+      "patch_sha256": null,
+      "built_source_sha256": "b876e9cce0d89026fa22a97ece5316f8aafc11a4546d25f9e2ae1a951f9bd6b3",
+      "port_record_sha256": "0b0a72868d488d261c7ffdbc2427a63d2553411fe1d8625f969730feee516635"
+    },
+    {
+      "id": "M066441",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsIsKroneckerCharOfDiscr",
+      "source_sha256": "de3c34f09fb495ed7760ae62f971e67c45c662d35453fd5058d342a4eb539553",
+      "patch_sha256": "72efdca6960cf55e6954bf12cb75b83a6ef7b2194c28bcb4b99bd2d1d0526994",
+      "built_source_sha256": "761f1ed6a41116fe569c6416a6419db71ee27b8369e1c349355ddb3dc9a47ade",
+      "port_record_sha256": "19337d98c052eabe83442c3bdb23950110d9bc233986c1eed752503edb9a8c19"
+    },
+    {
+      "id": "M066442",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsLineOfAddAddEqZero",
+      "source_sha256": "91029c828ff310acf496176ba851870b2d91be33bfe4a98c9f54577624590b91",
+      "patch_sha256": null,
+      "built_source_sha256": "91029c828ff310acf496176ba851870b2d91be33bfe4a98c9f54577624590b91",
+      "port_record_sha256": "a80765ddf27bce8f24a7528b9af08bb46c5eaaebf9d0f300a70618010d569a41"
+    },
+    {
+      "id": "M066446",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsOneTmulOfForallFixed",
+      "source_sha256": "01d5450ad3d595e49b97db7df831f0900c0d459f11c5bd1b5be0e26ad31afb2f",
+      "patch_sha256": "65e8af99f925941927de670c6c84777325f5fc3a40d2b95c98aa7935efe1193b",
+      "built_source_sha256": "06c484cda4f74128b5e98b8feae65d08554cd190b053e1f77ec2db4ef396d430",
+      "port_record_sha256": "b4e2d213c16fc5d12b32e2704adce696e14f8756cd474280115be689e798489d"
+    },
+    {
+      "id": "M066447",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsOpenPartialHomeomorphAnalytic",
+      "source_sha256": "cc2033ed39a4a247e56e3ce8b11cb99d3010655f21cf8b26637fcc57a72f460d",
+      "patch_sha256": null,
+      "built_source_sha256": "cc2033ed39a4a247e56e3ce8b11cb99d3010655f21cf8b26637fcc57a72f460d",
+      "port_record_sha256": "61ad02fd3280c3c418dee644ee2766bbcb3756aadb9c1a92e4961700f3c06671"
+    },
+    {
+      "id": "M066448",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsPolynomialModularJOfHasQExpansion",
+      "source_sha256": "e709909e173100d6afef7e7458ec53cc4f86e065514894fd09b628011341310d",
+      "patch_sha256": "376fe8562df4946caf92ebdee51ae999a14a04f2eb432e2f05d47829ac2906d1",
+      "built_source_sha256": "e063115f8d77e2cf1329ef24a375abf6cccad3372339364b7242de97e38bb4dc",
+      "port_record_sha256": "821929ea648c578664af3cd22f4c7fc79ec746b0d42837a18a1d3ddbe4c803f2"
+    },
+    {
+      "id": "M066450",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsRingEquivOfIsTranscendenceBasis",
+      "source_sha256": "eea1ebfe3b362972efe77d6c3488c1983f27bfe84dc8ab2073f323ed2a88de3f",
+      "patch_sha256": null,
+      "built_source_sha256": "eea1ebfe3b362972efe77d6c3488c1983f27bfe84dc8ab2073f323ed2a88de3f",
+      "port_record_sha256": "184a137835d28a5392d2e2d9db962d588be4d16d6f22498b7fae35d1235c5cac"
+    },
+    {
+      "id": "M066461",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.ExistsVariableChangeEqLatticeCurve",
+      "source_sha256": "c9f4853355f6654bed7c2c3d7683b52c57953f1e8a4c6478b718a4839d9730bf",
+      "patch_sha256": null,
+      "built_source_sha256": "c9f4853355f6654bed7c2c3d7683b52c57953f1e8a4c6478b718a4839d9730bf",
+      "port_record_sha256": "9511a76fb7a55eeaf72ed2af9324b03131dc4d2bcf360c516f3c476f0598c505"
+    },
+    {
+      "id": "M066474",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HasQExpansionModularForm",
+      "source_sha256": "4181b31213fb3ad3b79a79e27837052d8a484cf6932431961dd7fe35b45a8971",
+      "patch_sha256": null,
+      "built_source_sha256": "4181b31213fb3ad3b79a79e27837052d8a484cf6932431961dd7fe35b45a8971",
+      "port_record_sha256": "5aceeb8ee728e12008e7dd2cbc71a48817738fde187ee0cf0b5ad605e8b9fcde"
+    },
+    {
+      "id": "M066475",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.HasRationalTorsionIffMemRange",
+      "source_sha256": "278e32c9a1ef04325c9755977a1fca81b2afb014b8ef00689ab9a7af216b14fd",
+      "patch_sha256": null,
+      "built_source_sha256": "278e32c9a1ef04325c9755977a1fca81b2afb014b8ef00689ab9a7af216b14fd",
+      "port_record_sha256": "c55015f5073619dcf6a82f6f12794117dfe04041f1cd66b6908b25f6e94610f7"
+    },
+    {
+      "id": "M066478",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IrreducibleSpacePrimeSpectrumAway",
+      "source_sha256": "73e6d93d9248143f0e95c12cbfe1f0b2fd1ef9ecd946d18ee69697ec267e4d0e",
+      "patch_sha256": null,
+      "built_source_sha256": "73e6d93d9248143f0e95c12cbfe1f0b2fd1ef9ecd946d18ee69697ec267e4d0e",
+      "port_record_sha256": "12f6d59140277a4f48a5493825657083ff01edc74e63ec3c2da87debc1adf977"
+    },
+    {
+      "id": "M066480",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsAdicCompleteComapConstantCoeff",
+      "source_sha256": "c09a7c33c8c03b7de56f8d0ea07ad99f37072e7107b72300df982075e8d690a3",
+      "patch_sha256": null,
+      "built_source_sha256": "c09a7c33c8c03b7de56f8d0ea07ad99f37072e7107b72300df982075e8d690a3",
+      "port_record_sha256": "998bb998ecd766f0b81545b1bdda1e2f2e1596316c92d1ba1b95617225fb3424"
+    },
+    {
+      "id": "M066486",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsIrreducibleGeneralizations",
+      "source_sha256": "b9dc008dc2a706bd3323b88f021c5cd2217693ed4bfb53c16d545ce4b916420e",
+      "patch_sha256": null,
+      "built_source_sha256": "b9dc008dc2a706bd3323b88f021c5cd2217693ed4bfb53c16d545ce4b916420e",
+      "port_record_sha256": "abd5ef3dd0e9981593622c9fc2450668372b8ab6afc94b23e1a4e7d950014ba7"
+    },
+    {
+      "id": "M066501",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.MvPolynomialIsHomogeneousComapWeighted",
+      "source_sha256": "8cab980e35269cf3cef3f427cc1dcecda401e8a6f71be29393c2054db2e1888c",
+      "patch_sha256": null,
+      "built_source_sha256": "8cab980e35269cf3cef3f427cc1dcecda401e8a6f71be29393c2054db2e1888c",
+      "port_record_sha256": "508adccaef81197ee01e99aa80764953da3e27d52d8fc573e948dd3c6c17d26a"
+    },
+    {
+      "id": "M066506",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.RestrictScalarsMapEqSpan",
+      "source_sha256": "c13b08a4c774a148e6a5c2d0947874e62c0fe4883a49975011754b42564b748b",
+      "patch_sha256": "29b8a5e9ebc253cf6b354940ac8cc102f8896a24528882e368a8359d33df1637",
+      "built_source_sha256": "28cde21f35a3357784f1cf8a6dcbcb58cb2ad730dc323e9c9d86fa5ba0b39b3e",
+      "port_record_sha256": "707ea58ab733f828d2c505ad5395ed77e6372d3720d97eebd2b1f555ae1049e5"
+    },
+    {
+      "id": "M066509",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.SubMulOriginD",
+      "source_sha256": "76d639350278bb0d6f6d9f2afb3c2e16e08211b0a12315b674a7569780275f13",
+      "patch_sha256": null,
+      "built_source_sha256": "76d639350278bb0d6f6d9f2afb3c2e16e08211b0a12315b674a7569780275f13",
+      "port_record_sha256": "4af4bc8504344d97897883df7e6f3d05f678bbda628a120330d448be4a3155cd"
+    },
+    {
+      "id": "M066510",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.SummableAndAbsTsumSubIntegralLe",
+      "source_sha256": "ca396bea087d213350425b10fa63c05092aaf178e72f06c39024f378a22e98f3",
+      "patch_sha256": null,
+      "built_source_sha256": "ca396bea087d213350425b10fa63c05092aaf178e72f06c39024f378a22e98f3",
+      "port_record_sha256": "5bb0d5875d49ad54a690685da1bd900c3e2320977cd9252be9a9387a31318d21"
+    },
+    {
+      "id": "M066511",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.TendstoRealEisensteinSubPole",
+      "source_sha256": "1af530daa683357148b4bf7b8fceb07c1074a79f7c630c2bb366282d68222b3e",
+      "patch_sha256": null,
+      "built_source_sha256": "1af530daa683357148b4bf7b8fceb07c1074a79f7c630c2bb366282d68222b3e",
+      "port_record_sha256": "e015878841271f1165e0b242af23f7261586ab35a3e91995c0002332ec03da16"
+    },
+    {
+      "id": "M066512",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.TendstoUniformlyOnDoublingLogOfContraction",
+      "source_sha256": "6a20494f8d8a661fb0fe86f721e7090f80eb7929aa79c37841decb86b8775f91",
+      "patch_sha256": null,
+      "built_source_sha256": "6a20494f8d8a661fb0fe86f721e7090f80eb7929aa79c37841decb86b8775f91",
+      "port_record_sha256": "92fd20938a7bd82017c6e501a4a6e874182a9436c4bab66a44dce8ef4e1f98cc"
+    },
+    {
+      "id": "M066514",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.WeierstrassCurvePointOfLatticeAddOfGeneric",
+      "source_sha256": "77596b8f2e5061dee92306a674ed0bb06ccc05eb647274c1f847344ae9b0c6ba",
+      "patch_sha256": null,
+      "built_source_sha256": "77596b8f2e5061dee92306a674ed0bb06ccc05eb647274c1f847344ae9b0c6ba",
+      "port_record_sha256": "2507c78f0f58f820ad8077731fa369050dd10413e6e17c39d2774017a28e391c"
+    },
+    {
+      "id": "M066515",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.WeierstrassPAddOfNeOfDerivNeZero",
+      "source_sha256": "a8f0ac5e64a307e78051b9cfd2c2ae9c1046bc0c25b26a81fd9f9be1e575fcfc",
+      "patch_sha256": null,
+      "built_source_sha256": "a8f0ac5e64a307e78051b9cfd2c2ae9c1046bc0c25b26a81fd9f9be1e575fcfc",
+      "port_record_sha256": "b4000d82a047e9d2ecd16762dc26f261ca615bdb4527013c650a4401d2768da5"
+    },
+    {
+      "id": "M066567",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdEApply",
+      "source_sha256": "5842364b1fddb43de665124cca3b047659395d66342896ec6611afaa3349876e",
+      "patch_sha256": null,
+      "built_source_sha256": "5842364b1fddb43de665124cca3b047659395d66342896ec6611afaa3349876e",
+      "port_record_sha256": "5666a7553b10a139a231ad72f2cb914459fd49e9516d627a1040a4ba9a9f2cc1"
+    },
+    {
+      "id": "M066588",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdditiveSystemIntegralSolutionCountOfOrderOne",
+      "source_sha256": "b919b736c04e267b688feb61da88c132499218c0114b51c7123d2f7b0285d745",
+      "patch_sha256": null,
+      "built_source_sha256": "b919b736c04e267b688feb61da88c132499218c0114b51c7123d2f7b0285d745",
+      "port_record_sha256": "7ba7d46a3ba909b54c12b4d4fb12c87c5104e78c748f85ac1703aee1575e58c1"
+    },
+    {
+      "id": "M066590",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdditiveSystemIntegralSurjectivityOfOne",
+      "source_sha256": "8eebef57b52050fd41d47b9adf63dc2fff459fac042d5759beed9d2cdabc91cf",
+      "patch_sha256": null,
+      "built_source_sha256": "8eebef57b52050fd41d47b9adf63dc2fff459fac042d5759beed9d2cdabc91cf",
+      "port_record_sha256": "295280bd966413cece65db78cdf37f15345c8f691788666a8655337e469e8e92"
+    },
+    {
+      "id": "M066592",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdditiveSystemPreparationNormalFormOne",
+      "source_sha256": "8f1620d34fdf3066eaedcf5fddc04c6f6d69d7061812fa053573385ebfc855ba",
+      "patch_sha256": null,
+      "built_source_sha256": "8f1620d34fdf3066eaedcf5fddc04c6f6d69d7061812fa053573385ebfc855ba",
+      "port_record_sha256": "50a73098ad1ed52c004547b716b6f6580079ca480ce85b9fea5e9aacf96bdb2b"
+    },
+    {
+      "id": "M067028",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BrauerNesbittExistsEquivOfCharpolyEqHypotheses",
+      "source_sha256": "539b2db0715337314944181df794ff319e088a7b78104326c2b4ce59252cc58e",
+      "patch_sha256": null,
+      "built_source_sha256": "539b2db0715337314944181df794ff319e088a7b78104326c2b4ce59252cc58e",
+      "port_record_sha256": "dad7336ae28bd06cc1db439092d362b72afccb7cad99ce6fdc22e33a414831fa"
+    },
+    {
+      "id": "M067467",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CocycleEqAddUniformizerSmulAddCoboundary",
+      "source_sha256": "c7c89e8ea70cadf6cbba0ca11c2cd57272a22fa509a86e57f9ead2059f2d3dd8",
+      "patch_sha256": null,
+      "built_source_sha256": "c7c89e8ea70cadf6cbba0ca11c2cd57272a22fa509a86e57f9ead2059f2d3dd8",
+      "port_record_sha256": "d76ed9c7509cc1558396dbd8f82d18920db20758bb47dbc9138b42995a18f79d"
+    },
+    {
+      "id": "M067591",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CompanionMatrixOfCoeffsPowMulVecFirstBasisVector",
+      "source_sha256": "401cfb3bb348638a453d50e634881f502a0504ff47d19bad99bde46aae6ed124",
+      "patch_sha256": null,
+      "built_source_sha256": "401cfb3bb348638a453d50e634881f502a0504ff47d19bad99bde46aae6ed124",
+      "port_record_sha256": "f2d6f42c67a009c8792000358644444ced564402f24d1b4a103b7b79a91d19c5"
+    },
+    {
+      "id": "M069939",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUniqueIntegralAdditiveSystemFrobeniusPower",
+      "source_sha256": "36e8617d84669dfbdafd28a9e67cee2ae185d76a8ebc93f0a5ed3a5fb8e8bb46",
+      "patch_sha256": null,
+      "built_source_sha256": "36e8617d84669dfbdafd28a9e67cee2ae185d76a8ebc93f0a5ed3a5fb8e8bb46",
+      "port_record_sha256": "0e9152e3969622b687bf3f48b294e961d1d9c4a4252de1f881683523a8778591"
+    },
+    {
+      "id": "M069999",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsValuationSubringAlgClosedNotIsUnit",
+      "source_sha256": "1b8aebd7bac05216eff7c298672f8c2e82e77430bf1342a258d44328594a99b8",
+      "patch_sha256": null,
+      "built_source_sha256": "1b8aebd7bac05216eff7c298672f8c2e82e77430bf1342a258d44328594a99b8",
+      "port_record_sha256": "2e07f519ac2643a7f0b74fe5bfda994e98a18787cda72860ebfd72299f76468b"
+    },
+    {
+      "id": "M070000",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsValuationSubringAlgClosedNotIsUnitStatement",
+      "source_sha256": "c89f2c5a8a15efb9265b060309c151625b47fad39217c7006156717a52a4b5ff",
+      "patch_sha256": null,
+      "built_source_sha256": "c89f2c5a8a15efb9265b060309c151625b47fad39217c7006156717a52a4b5ff",
+      "port_record_sha256": "bd0f6bea203e94d747eaa7a68e5778075894ed4d54e7a494f13dc0a1896ff56e"
+    },
+    {
+      "id": "M070564",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.FullToGlIsSelfAdjoint",
+      "source_sha256": "bbcd8e917e403fc4fe3941a6f57e1a21b9e3493d1d43e904a1c0404fed0a203a",
+      "patch_sha256": null,
+      "built_source_sha256": "bbcd8e917e403fc4fe3941a6f57e1a21b9e3493d1d43e904a1c0404fed0a203a",
+      "port_record_sha256": "5b629195b4cab4c462890daa19dee4269efa8f6f772881b3d93738e370d91c75"
+    },
+    {
+      "id": "M072835",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NewtonPolygonDominantIndexXSubCMul",
+      "source_sha256": "0674dc86cb7e28d501bdcd8716b2227a35a4791e103720a8389b90409d4d3d7a",
+      "patch_sha256": null,
+      "built_source_sha256": "0674dc86cb7e28d501bdcd8716b2227a35a4791e103720a8389b90409d4d3d7a",
+      "port_record_sha256": "52ff7da491f5c273e58a987f978c2e288a1d9d26e0abc4b0fdab66cf3f03e73c"
+    },
+    {
+      "id": "M072836",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NewtonPolygonDominantIndexXSubCMulStatement",
+      "source_sha256": "d25180c192fd91ce525ee159e99b3ba199edc196641820d7816d7b9d01d5eadc",
+      "patch_sha256": null,
+      "built_source_sha256": "d25180c192fd91ce525ee159e99b3ba199edc196641820d7816d7b9d01d5eadc",
+      "port_record_sha256": "1e92bf9700741aa955101f38c63f8048902e46236d390921c252ae9c541ad8b0"
+    },
+    {
+      "id": "M072837",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NewtonPolygonLastDominantIndexMulXSubC",
+      "source_sha256": "5e50dc46f9f2da47441d903005ed3abef3e9422179468c60bef9758c66016c72",
+      "patch_sha256": null,
+      "built_source_sha256": "5e50dc46f9f2da47441d903005ed3abef3e9422179468c60bef9758c66016c72",
+      "port_record_sha256": "a69b9e1a6c29948e0f958881fe0b63c3cad01acdbf4533e5d08673402d2e2252"
+    },
+    {
+      "id": "M072838",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NewtonPolygonLastDominantIndexMulXSubCStatement",
+      "source_sha256": "ee4f6c6604180a148b2c106ecb05ab92d3c168b7aa2cd25d914f0445a5be1a60",
+      "patch_sha256": null,
+      "built_source_sha256": "ee4f6c6604180a148b2c106ecb05ab92d3c168b7aa2cd25d914f0445a5be1a60",
+      "port_record_sha256": "7ec34b14a78c0983e1de2cfe7bda38fa0a537e29d4ebcfccec4e2dc66a80b9c0"
+    },
+    {
+      "id": "M072889",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.NonemptyLinearEquivOfCharpolyEq",
+      "source_sha256": "1df01169f052eb10ee329943685b4b24a8e99a4e4e37255bafc57215d7d060b8",
+      "patch_sha256": null,
+      "built_source_sha256": "1df01169f052eb10ee329943685b4b24a8e99a4e4e37255bafc57215d7d060b8",
+      "port_record_sha256": "ba01a6333c2a59c65a450683d899015748550f833b8899d5ebc8d82728b51628"
+    },
+    {
+      "id": "M073756",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.RowTEqRowS",
+      "source_sha256": "9c99cbb1d6e2ab03e875867a4455964d07ac97c0a6a5e7d44b59d944672b1629",
+      "patch_sha256": null,
+      "built_source_sha256": "9c99cbb1d6e2ab03e875867a4455964d07ac97c0a6a5e7d44b59d944672b1629",
+      "port_record_sha256": "1d384e135210f5e978f5354b15855282770672cf679c2b0436c4675d83b22622"
+    },
+    {
+      "id": "M099637",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsRingEquivComplexCompEq",
+      "source_sha256": "1e0ed541410509a18815b381b2244e0fae1f8c56a0af8b6159137f1cc0f6c605",
+      "patch_sha256": null,
+      "built_source_sha256": "1e0ed541410509a18815b381b2244e0fae1f8c56a0af8b6159137f1cc0f6c605",
+      "port_record_sha256": "a2a4ffde59f31860837a10d21193ea5799a5e3b56ae9a6bcb5798b285f365e83"
+    },
+    {
+      "id": "M150237",
+      "module": "Formalism.LocalToGlobal.ProjectiveLattices.ArchimedeanQuadraticData.FinitePlaceArcs.BeSumStatement",
+      "source_sha256": "948f0076ec5d84e188f7d86085e2bccd0ff29bba6182c5d2f0f7c87691049186",
+      "patch_sha256": null,
+      "built_source_sha256": "948f0076ec5d84e188f7d86085e2bccd0ff29bba6182c5d2f0f7c87691049186",
+      "port_record_sha256": "45d96eb9b08648d1401a7e3e97d34eb4a621a0f9378dc83b5c3188d87e90db00"
+    },
+    {
+      "id": "M158050",
+      "module": "Formalism.RealPlaceAnalysis.StatementA",
+      "source_sha256": "40e965df30265424c45c823f241f8ba07639f1273ff3495607e248101505725c",
+      "patch_sha256": null,
+      "built_source_sha256": "40e965df30265424c45c823f241f8ba07639f1273ff3495607e248101505725c",
+      "port_record_sha256": "df49124981e28bf393de1435279bb81efbd90af1766124f3670cba7df766c83d"
+    },
+    {
+      "id": "M158132",
+      "module": "Formalism.SatakeDualWeyl.AdelicIwasawaHecke.SignatureConjugationInvariant",
+      "source_sha256": "b2099b553c25950b00db8d75978c2cbd64ddc5b407e9b9006c423155bc1616c0",
+      "patch_sha256": null,
+      "built_source_sha256": "b2099b553c25950b00db8d75978c2cbd64ddc5b407e9b9006c423155bc1616c0",
+      "port_record_sha256": "d019488f4a096386b18c03c39bac87d2ff1170bb5a8bba60a168d60510b55910"
+    },
+    {
+      "id": "M158150",
+      "module": "Formalism.SatakeDualWeyl.Statement",
+      "source_sha256": "ff0b4971b2c44e6b9eeac44013ff35e5aeb7a126a87d7640d2fd72277147696c",
+      "patch_sha256": null,
+      "built_source_sha256": "ff0b4971b2c44e6b9eeac44013ff35e5aeb7a126a87d7640d2fd72277147696c",
+      "port_record_sha256": "6c93a35b6cfcf393c36ee552d8fabe32d74b8e81081a3497524f704fa231ac7e"
+    },
+    {
+      "id": "M158998",
+      "module": "Formalism.SharpRestriction.GlobalSchurBounds.GeneralLinearActions.GenusMassVolumes",
+      "source_sha256": "a33d33e6070c63f1e118c2a0ce992d57e8de5fb28105a072ca0b9cb6ee48a02b",
+      "patch_sha256": null,
+      "built_source_sha256": "a33d33e6070c63f1e118c2a0ce992d57e8de5fb28105a072ca0b9cb6ee48a02b",
+      "port_record_sha256": "7d880b73619f39d328a2ec3448a889f641cd708bf858355b8b1e839f56b9d3b8"
+    },
+    {
+      "id": "M170749",
+      "module": "Lemmata.FirstBlockLemmaL.Imports",
+      "source_sha256": "ea42ad8227310833160848243ce9c4215b262349bead7ee729ab5082899a63db",
+      "patch_sha256": "266b42ae3c01a5ed31d530490fc32f843e982f30cebb199f64720fa4efe65e51",
+      "built_source_sha256": "6b1e296c08e1ec458d4f9d7d651673b66a5c2e84fb64e50ac0fa04570793fa63",
+      "port_record_sha256": "d1948522b7c930a299b96e0d3796641fb46f048b119ced276ff0d8b5ac4acce9"
+    },
+    {
+      "id": "M170860",
+      "module": "Lemmata.MiscLemmasK.Imports",
+      "source_sha256": "49cce2cca96827dbd6085e07d4c81422b3b13fa2350d53dad98cab2bb36a247f",
+      "patch_sha256": "190ca97bc646f9c1d659888bade4ad22ea06d60cef577edc61c3b5735318d4af",
+      "built_source_sha256": "e4b31a0154dc2790ef702adb5895b0bab680293e07eb012aa7b1b80fd732c37f",
+      "port_record_sha256": "cd19d8e16422adb40740e99919754ea225b2356a7ce639525c1df4a22eff4b1c"
+    },
+    {
+      "id": "M170861",
+      "module": "Lemmata.MiscLemmasL.Imports",
+      "source_sha256": "375915f0303f6d73d676c3d561849dfd3454deb6d5e45ea03ae3874ba2e77aa8",
+      "patch_sha256": null,
+      "built_source_sha256": "375915f0303f6d73d676c3d561849dfd3454deb6d5e45ea03ae3874ba2e77aa8",
+      "port_record_sha256": "15683c156c30967af8a17733466d4441b6de6e7bcf3d4b97ddc572865a73c9f9"
+    },
+    {
+      "id": "M171758",
+      "module": "ReciprocityTheory.DualLattices.ExistsSmulMemOfMemSpan",
+      "source_sha256": "6de1aec28cc9bf20e5c6271e67b662b16d2c9019a2a3bf898f7c8dea37d79dc6",
+      "patch_sha256": null,
+      "built_source_sha256": "6de1aec28cc9bf20e5c6271e67b662b16d2c9019a2a3bf898f7c8dea37d79dc6",
+      "port_record_sha256": "77c699540629bfb59393f51dbf2bc3f8ed0abda552afd4811006ec9dfc1d4994"
+    },
+    {
+      "id": "M171833",
+      "module": "ReciprocityTheory.DualLattices.RidConvolutionDerivation",
+      "source_sha256": "83438a95f5a92d5e4e698eb1466c0d353871b448034be42f3c49ed340f6ae47b",
+      "patch_sha256": "881670f7b1860e39099ab88e25b05cff651eade57f770251167a2a1ca88f7a15",
+      "built_source_sha256": "4fdcfcca450bc3358db033ad163c7f2948b17bbbfb0c50bc2f7c7105919d30a6",
+      "port_record_sha256": "5c0e1b35863b07f2cd4ebc9c37a131472c3c0b2be649ee2aa4cd59e853f2b82a"
+    },
+    {
+      "id": "M171857",
+      "module": "ReciprocityTheory.DualLattices.TensorSpan",
+      "source_sha256": "a46c3697803adb46f897d75c5ef132b5d6e98b46a94441e6f08d366832e9bb93",
+      "patch_sha256": null,
+      "built_source_sha256": "a46c3697803adb46f897d75c5ef132b5d6e98b46a94441e6f08d366832e9bb93",
+      "port_record_sha256": "b17367e2b901de716b5c29a489613851069ae33a2ff500aa48b2e3efd14d5242"
+    },
+    {
+      "id": "M171896",
+      "module": "ReciprocityTheory.GaloisValuations.SeparatedDvrSecondCohomologyMem",
+      "source_sha256": "52e77c27ae46d0c14e80e46af66a7d94d84c36a665165406e512c229ea261bb0",
+      "patch_sha256": null,
+      "built_source_sha256": "52e77c27ae46d0c14e80e46af66a7d94d84c36a665165406e512c229ea261bb0",
+      "port_record_sha256": "025a1f0a0fc3e4ad2ddb712da21a839738a84d02450f221158a897450cda7ef3"
+    },
+    {
+      "id": "M172691",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsCompletedStrictHens",
+      "source_sha256": "606e90ce0831aef4642c275ba0acef8f839611874a65358f34a49dd5dc7782de",
+      "patch_sha256": null,
+      "built_source_sha256": "606e90ce0831aef4642c275ba0acef8f839611874a65358f34a49dd5dc7782de",
+      "port_record_sha256": "c4178f51739456eb04885b98883a7bed7a650464d50d86c702e76e15ea8181ff"
+    },
+    {
+      "id": "M173135",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.Signature",
+      "source_sha256": "a8b8f634c2368fd1bb369faebdc6d40cf11005747d4b16feda5dd1dabe11c054",
+      "patch_sha256": null,
+      "built_source_sha256": "a8b8f634c2368fd1bb369faebdc6d40cf11005747d4b16feda5dd1dabe11c054",
+      "port_record_sha256": "790f40cd1ed1c4c862a8608f82a4b60ca4269a0a28d3affcf41173425903898b"
+    },
+    {
+      "id": "M173359",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.DiffAtOddSt",
+      "source_sha256": "5ca2c9ffa33e9104fe9d06174367ea6e07354117aaedf4555c5535964e3eb270",
+      "patch_sha256": null,
+      "built_source_sha256": "5ca2c9ffa33e9104fe9d06174367ea6e07354117aaedf4555c5535964e3eb270",
+      "port_record_sha256": "5001c490c7a32d0e13c40fe0b07751a8c4389b09c4ae4d38dc1bb8c8a56dba0b"
+    },
+    {
+      "id": "M173427",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.HolomorphicFamilies.PadicValNatAbsNormEqZero",
+      "source_sha256": "554af9a4103fd7e1afa7649a6fe6e9d14e13af5d6aa8082f914f8a295fcaf48c",
+      "patch_sha256": "6295b305652e14b6df720df4535a5565e5032a4127c8c8b6dbba305275b4a2e3",
+      "built_source_sha256": "a94e927d776c1b6e331c864e5f4475f4e52c0910adfef6a8536965e4d530514d",
+      "port_record_sha256": "76b7c145b37a50166b2a5a76f7f4d22cea78d4de8fb3883733e18a39bed1025d"
+    },
+    {
+      "id": "M175174",
+      "module": "ReciprocityTheory.ThetaQuasiPeriods.PeriodLattice",
+      "source_sha256": "3aa68cbaf6b4374299776532420566499685bb1096ab7a44276cf135b16c070c",
+      "patch_sha256": null,
+      "built_source_sha256": "3aa68cbaf6b4374299776532420566499685bb1096ab7a44276cf135b16c070c",
+      "port_record_sha256": "5effe369cbf838bcddd20eabca7a5c6e916349264eae790e449996295ae95e72"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M066636",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AdjoinPrimitiveRootEqIntegersUnramifiedQuadratic",
+      "missing_imports": [
+        "M073087"
+      ]
+    },
+    {
+      "id": "M066726",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AevalEqZeroOfDvd",
+      "missing_imports": [
+        "M004739",
+        "M004817"
+      ]
+    },
+    {
+      "id": "M066780",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AlgebraMapMemNonZeroDivisorsAdicCompletion",
+      "missing_imports": [
+        "M004861"
+      ]
+    },
+    {
+      "id": "M067362",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CharpolyMonoidAlgebraLiftEqOfCharpolyEqStatement",
+      "missing_imports": [
+        "M067361"
+      ]
+    },
+    {
+      "id": "M067589",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CompanionMatrixOfCoeffsCharpolyCoeffEq",
+      "missing_imports": [
+        "M071872"
+      ]
+    }
+  ],
+  "pruned": []
+}
