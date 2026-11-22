@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.BijectiveProdQuotientOfMemAnnihilatorKer",
+  "source_sha256": "7bceff88d85e741a62031d5a49735e2fc12260b7aab2d5d50123cd5a01943c8c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current tensor induction cases, qualify the convolution lemma, and transport distributivity through the injective base-change map."
+}

@@ -1,0 +1,75 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/BijectiveProdQuotientOfMemAnnihilatorKer.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HomogeneousIdeals/BijectiveProdQuotientOfMemAnnihilatorKer.lean
+@@ -52,7 +52,6 @@
+ private theorem tensorToHom_rTensor (f : M →ₗ[R] M') (x : M ⊗[R] C) (w : CartierDual R C) :
+     tensorToHom R M' C (f.rTensor C x) w = f (tensorToHom R M C x w) := by
+   induction x with
+-  | zero => simp
+   | add x y hx hy => simp only [map_add, LinearMap.add_apply, hx, hy]
+   | tmul n m => simp
+ 
+@@ -75,13 +74,11 @@
+     tensorToHom R M (C ⊗[R] C) (TensorProduct.assoc R M C C (ρ.rTensor C x))
+       (toConv (pair R C C (φ ⊗ₜ ψ))) = dualContraction ρ φ (tensorToHom R M C x ψ) := by
+   induction x with
+-  | zero => simp
+   | add x y hx hy => simp only [map_add, LinearMap.add_apply, hx, hy]
+   | tmul m c =>
+     rw [LinearMap.rTensor_tmul, tensorToHom_tmul, map_smul, dualContraction_apply]
+     generalize ρ m = s
+     induction s with
+-    | zero => simp
+     | add x y hx hy => simp only [map_add, LinearMap.add_apply, add_tmul, smul_add, hx, hy]
+     | tmul m' c' => simp [smul_smul, mul_comm]
+ 
+@@ -89,9 +86,8 @@
+     tensorToHom R M (C ⊗[R] C) ((comul : C →ₗ[R] C ⊗[R] C).lTensor M x)
+       (toConv (pair R C C (φ ⊗ₜ ψ))) = tensorToHom R M C x (φ * ψ) := by
+   induction x with
+-  | zero => simp
+   | add x y hx hy => simp only [map_add, LinearMap.add_apply, hx, hy]
+-  | tmul m c => rw [LinearMap.lTensor_tmul, tensorToHom_tmul, tensorToHom_tmul, mul_apply]
++  | tmul m c => rw [LinearMap.lTensor_tmul, tensorToHom_tmul, tensorToHom_tmul, CartierDual.mul_apply]
+ 
+ theorem IsCoaction.dualContraction_one {ρ : M →ₗ[R] M ⊗[R] C} (h : IsCoaction ρ) :
+     dualContraction ρ 1 = 1 :=
+@@ -344,7 +340,6 @@
+     fun _ _ => Commute.all _ _
+   have hπ (t : A ⊗[R] A) : ε (π t) = ε (Algebra.TensorProduct.lmul' R t) := by
+     induction t with
+-    | zero => simp
+     | add a b ha hb => simp only [map_add, ha, hb]
+     | tmul a b => simp [π, Algebra.ofId_apply]
+   have he : π (Algebra.FormallyUnramified.elem R A) ∈ (RingHom.ker ε).annihilator :=
+@@ -393,7 +388,6 @@
+     (1 : K) ⊗ₜ[R] Λ ∈ (RingHom.ker (augmentationBaseChange K ε)).annihilator := by
+   refine mem_annihilator_ker_iff.2 fun w => ?_
+   induction w with
+-  | zero => simp
+   | add a b ha hb => rw [add_mul, ha, hb, map_add, add_smul]
+   | tmul k d =>
+     rw [Algebra.TensorProduct.tmul_mul_tmul, mem_annihilator_ker_iff.1 hΛ,
+@@ -480,7 +474,6 @@
+   rw [dualContraction_apply, dualContraction_apply, (LinearEquiv.eq_symm_apply _).2 (hj m)]
+   generalize ρ m = x
+   induction x with
+-  | zero => simp
+   | add x y hx hy => simp only [map_add, LinearMap.add_apply, hx, hy]
+   | tmul n h => simp
+ 
+@@ -495,8 +488,13 @@
+   rw [counitAlgHom_cartierDual_apply, ← baseChangeLinear_mul, ← map_smul]
+   congr 1
+   induction x with
+-  | zero => simp
+-  | add a b ha hb => rw [add_mul, ha, hb, map_add, ofConv_add, LinearMap.add_apply, add_smul]
++  | add a b ha hb =>
++    apply (baseChangeLinear_bijective K (R := R) (M := H)).1
++    have ha' := congrArg (baseChangeLinear R K H) ha
++    have hb' := congrArg (baseChangeLinear R K H) hb
++    simp only [baseChangeLinear_mul, map_smul] at ha' hb'
++    simp only [baseChangeLinear_mul, map_smul, map_add, add_mul, ha', hb',
++      ofConv_add, LinearMap.add_apply, add_smul]
+   | tmul k d =>
+     rw [Algebra.TensorProduct.tmul_mul_tmul, mem_annihilator_ker_iff.1 hΛ,
+       counitAlgHom_cartierDual_apply, Algebra.TensorProduct.one_def, baseChangeLinear_tmul_tmul,
