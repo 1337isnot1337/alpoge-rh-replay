@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.JetGauges.EndomorphismPullbackRigid",
+  "source_sha256": "89e0bdca9741357cfbdc40f883f710ae80916a19b23026d683a8d87b688117ba",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

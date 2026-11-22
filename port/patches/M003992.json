@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.SmulBasisMemHatIff",
+  "source_sha256": "0f568984c64d38b476f34b81d09e47a8c1356fe98aaf5a68c1883d623eef79e9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

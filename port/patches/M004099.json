@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.Letter",
+  "source_sha256": "a561de4e7f984b539a2c2ecbad077baaddf8d2c74fc8121163a0aa553e1bccd0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

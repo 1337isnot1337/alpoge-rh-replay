@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.EtaSixProductDifferentiable",
+  "source_sha256": "9db59ac628b2cb4d49c481b0a8e33e54f8187de2594c732402639f98f3ef62b0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

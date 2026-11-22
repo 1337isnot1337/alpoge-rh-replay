@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.KernelCharacterDelta",
+  "source_sha256": "0df4ea57a80af5cf0086f5a3c2508da6afeee7b9292140ca086f16f0c897e463",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.PetIPSmulRight",
+  "source_sha256": "e901c697438f9c0797a4acb6a0d590ec319f6768eacfcc9f35e89f181f7eea34",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.IsHilbertSchmidtOfFiniteDimensional",
+  "source_sha256": "dcd8cd393a9664a340f846b23fb07cd5b39660daaa12a9a0c8fa8f960dc9487e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current positivity equivalence and renamed integral of a finite sum."
+}
