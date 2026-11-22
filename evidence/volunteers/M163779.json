@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M163779"
+  ],
+  "started_utc": "2026-11-21T08:16:59.419600+00:00",
+  "ended_utc": "2026-11-21T08:17:14.684376+00:00",
+  "elapsed_seconds": 15.3,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 16423848,
+    "peak_child_rss_kib": 6787872
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsGraphAreaIntegral:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "bbfb35eb14bb3192cf7c1e3ef7346dba83468321f891e3759c3b3af789e6ff0a",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StAreaMultiplicity",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StGraphAreaHolomorphic"
+  ],
+  "objects": {
+    "M163779": "47ab4a09089de2355b44201cc046d0285d8d90d33435cf113ebd1c5317419d34"
+  },
+  "bundle_sha256": "3ede7646dab6eec787cbc76a28261bcff00e23e14552856f7832b04c23b671b1",
+  "packet": "M163779",
+  "contributor": "nicu-chiciuc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17683#issuecomment-7059805950",
+  "reviewed_utc": "2026-11-22T00:50:10.730531+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.StatementsGraphAreaIntegral"
+    ]
+  }
+}

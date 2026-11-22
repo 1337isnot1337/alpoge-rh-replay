@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M015978"
+  ],
+  "started_utc": "2026-11-21T08:37:36.311320+00:00",
+  "ended_utc": "2026-11-21T08:37:47.759411+00:00",
+  "elapsed_seconds": 11.4,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5775204
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.AssociatedOfHeightOneAgree:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e13451b14ec5e06345d6d440aaf05604253ded21f7d26c4c8ba88354199535f8",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.MemRangeOfForallHeightEqOneOfIsReflexive"
+  ],
+  "objects": {
+    "M015978": "029541c35fffc81bb272002156e2c019f072e4843b05297acdad162c24fbe851"
+  },
+  "bundle_sha256": "cf880dcc6ade937c1c33eacc58ddfd5c33fe0420fe49e9d2a640d5dc1f321a47",
+  "packet": "M015978",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18107#issuecomment-7060050579",
+  "reviewed_utc": "2026-11-22T00:52:42.647471+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AssociatedOfHeightOneAgree"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M138187"
+  ],
+  "started_utc": "2026-11-21T08:43:26.278718+00:00",
+  "ended_utc": "2026-11-21T08:44:45.827068+00:00",
+  "elapsed_seconds": 79.5,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6666228
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.FlagImmersions.PartialSumOrderedBounds:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2c4d04fd206b19674fb0fe2b2a3dfb0a624246b60f51b16a8d44bfe2ac95a2e7",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M138187": "04a5cb684416c001bcd13c6132b5fa33c1035aab3089710ad8085bb2f826b984"
+  },
+  "bundle_sha256": "3db01150b364a41abb94617a1b332c6fc4e9ae1480641ae4efc9c432ca2091b5",
+  "packet": "M138187",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18088#issuecomment-7060134464",
+  "reviewed_utc": "2026-11-22T00:52:26.760631+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.WeilBound.CoreStatements.FlagImmersions.PartialSumOrderedBounds"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M107803"
+  ],
+  "started_utc": "2026-11-21T08:32:30.957197+00:00",
+  "ended_utc": "2026-11-21T08:33:07.206722+00:00",
+  "elapsed_seconds": 36.2,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6871120
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ClosureConjugation.GrAlg:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3f2de0d4fd4f99a0256fbc17ad2a778b7389ab0ba90c8724d18c0e1b347dfba6",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.InvAlg",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.FinDefs"
+  ],
+  "objects": {
+    "M107803": "ab76b88776d634b33c0b5d5f46187d271f37c66e3979a56ad0b24b941a73ef9a"
+  },
+  "bundle_sha256": "34dfe8688460595bafe070d897d11c49fdff00d93c5052c6143ecc9e1de42ab9",
+  "packet": "M107803",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18029#issuecomment-7059986600",
+  "reviewed_utc": "2026-11-22T00:51:43.759765+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AutomorphicArithmetic.AutomorphicVarieties.PatchingModules.ClosureConjugation.GrAlg"
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "tasks": [
+    "M100734"
+  ],
+  "started_utc": "2026-11-21T08:23:23.171583+00:00",
+  "ended_utc": "2026-11-21T08:34:46.785823+00:00",
+  "elapsed_seconds": 683.6,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 24607692,
+    "peak_child_rss_kib": 7071036
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.GeometricallyConnectedOfIsIsoRestrict:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f68bf7e283d5853974dad2fbf4e223ef6cb42706e9b2c2878e212b04ab5f582e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.IsOpenOfMemIrreducibleComponentsOfFinite",
+    "Development.AbelianVarietyTheory.Proofs.AbelianSchemeLawProofs.IsIntegralOfSmoothFieldOfConnectedSpace",
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsDomainAndIsIntegrallyClosedAtPrimeOfSmoothOfCo",
+    "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsIrreducibleGeneralizations",
+    "ReciprocityTheory.AnalyticForms.RegularLocalRings.FinalTheorems",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsCompletedStrictHens",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.DegExp",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.DegUnif",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.NonzeroLocus",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.ThickTransComp",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.AbelianSchemeQuotients.IsAbelianScheme",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.AbelianSchemeQuotients.QSurjective",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.AbelianSchemeQuotients.SplitExtDefs",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.CubicalStructures.CubeSymmetricSwapFirst",
+    "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.SplitTori.SplitTorusAff"
+  ],
+  "objects": {
+    "M100734": "1fe913d37ca62d56ca3329bec979559dc0dd9c4ce64b919c446beee72f7c65f4"
+  },
+  "bundle_sha256": "de642e1fa6c2d5d18e6c80c0f59022a6cc61ae22ebc4daff3ef7de013aea5947",
+  "packet": "M100734",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17799#issuecomment-7060006352",
+  "reviewed_utc": "2026-11-22T00:50:30.914331+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.PublishedTheorems.Divisors\u2082.GeometricallyConnectedOfIsIsoRestrict"
+    ]
+  }
+}

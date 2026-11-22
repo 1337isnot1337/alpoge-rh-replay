@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M136110"
+  ],
+  "started_utc": "2026-11-21T08:16:24.414409+00:00",
+  "ended_utc": "2026-11-21T08:16:52.487705+00:00",
+  "elapsed_seconds": 28.1,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6735032
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.EtaleCohomology.KummerTheory.LimitPf:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1f8d4fbcde52c50ee13ed8117f541c400d408093126213cd91438b3103571072",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M136110": "53a461e455ddfccfc5a38cfedcc2848057144a9c1b898339822f44b06da36a09"
+  },
+  "bundle_sha256": "cf903fd23afdb4b81e42bbcb622f37f89904072eee82997940a0875f351998be",
+  "packet": "M136110",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17650#issuecomment-7059802599",
+  "reviewed_utc": "2026-11-22T00:49:53.691854+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.EtaleCohomology.KummerTheory.LimitPf"
+    ]
+  }
+}

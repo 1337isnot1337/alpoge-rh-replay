@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M063244"
+  ],
+  "started_utc": "2026-11-21T08:49:03.616885+00:00",
+  "ended_utc": "2026-11-21T08:49:20.278041+00:00",
+  "elapsed_seconds": 16.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6656120
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.NormDegreeBoundPolynomialCombination:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cac5863e308e0697e9df48b4fedc8d58d839592858afe196ebc0a88bcac4b4fd",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsNormForm"
+  ],
+  "objects": {
+    "M063244": "b5b3a076a04e052a999fe02c3ce58940aaf9159909d1b67755dd8b24bab3db41"
+  },
+  "bundle_sha256": "586b876794e97eb5b1dfe3e92d898612528626f68c34166b51d6a69f040ce387",
+  "packet": "M063244",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18229#issuecomment-7060172682",
+  "reviewed_utc": "2026-11-22T00:54:07.302322+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.FoundationProofs.NormDegreeBoundPolynomialCombination"
+    ]
+  }
+}
