@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.InPartMulOutPartMulSq",
+  "source_sha256": "b8c57a015c5dd469323754b03369cab7a239d29fd1356026ea4f54680aa1d42b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the reconstruction theorem for the factorization of this integer. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0251-lean436-20261121/packet-result.json"
+}

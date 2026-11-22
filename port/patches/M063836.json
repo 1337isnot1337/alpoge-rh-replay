@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumDivSubLeTwoLogOfPartialSums",
+  "source_sha256": "8be8603d69a31df599eafbc7bbb2b6f5ba335d6d330e64c8a7905bf3e3655712",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0251-lean436-20261121/packet-result.json"
+}
