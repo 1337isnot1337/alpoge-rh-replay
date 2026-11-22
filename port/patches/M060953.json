@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.BigCellMemUnitary",
+  "source_sha256": "22d14bbaf143d350843953b5727a36367444d8c73950aefb2691e5c5ce02e9e8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
