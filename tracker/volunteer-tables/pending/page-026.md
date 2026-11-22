@@ -165,3 +165,6 @@
 | [@t-choudhury](https://github.com/t-choudhury) | [M153025](https://github.com/rohanarun/alpoge-rh-replay/issues/30162#issuecomment-7075378510) | Pending review |
 | [@emsi](https://github.com/emsi) | [M059096](https://github.com/rohanarun/alpoge-rh-replay/issues/30199#issuecomment-7075370614) | Pending review |
 | [@f10etclawdbot](https://github.com/f10etclawdbot) | [M120101](https://github.com/rohanarun/alpoge-rh-replay/issues/30201#issuecomment-7075295256) | Pending review |
+| [@JamCh01](https://github.com/JamCh01) | [P2761](https://github.com/rohanarun/alpoge-rh-replay/issues/30202#issuecomment-7075419714) | Pending review |
+| [@f10etclawdbot](https://github.com/f10etclawdbot) | [M120298](https://github.com/rohanarun/alpoge-rh-replay/issues/30203#issuecomment-7075324468) | Pending review |
+| [@f10etclawdbot](https://github.com/f10etclawdbot) | [M138335](https://github.com/rohanarun/alpoge-rh-replay/issues/30236#issuecomment-7075392830) | Pending review |
