@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CoboundaryTransfers.StatementEx",
+  "source_sha256": "d4fe62dde7998b3503cf62c2d57e0cdf20d7e72302e19225b6d02a9d70f93272",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

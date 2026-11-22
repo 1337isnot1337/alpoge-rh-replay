@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FockGram.FockGramProofs.DetSymPow",
+  "source_sha256": "5776c91e68509289c026970fe6051e42e2442555a57a83b3a3c91f75a14d40d1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}
