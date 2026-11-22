@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PolynomialDifferentialWords.KappaMain",
+  "source_sha256": "3a9cf749ece987a5b8c2c2a70fd9f094ec2a4ca7fe1425f6a88927c0de1950f0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use polynomial-first coefficient projections with the same polynomial/index in proof-local facts and private helper identities, and the underlying coefficient-addition projection. Use the underlying zero coefficient projection. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0278-lean436-20261121/packet-result.json"
+}
