@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ArithmeticGeometry.AbelianVarieties.KernelCard",
+  "source_sha256": "e82b83c0b3c9f8a55fd76567c067ef19fbca09fee43665a6f94f201d9cf5fcd4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only adaptation: Polynomial is now an abbrev for AddMonoidAlgebra R ℕ, and coeff is the AddMonoidAlgebra.coeff field, so the bare coeff under open Polynomial no longer resolves. Use AddMonoidAlgebra.coeff · n, which is the same coefficient (p.coeff n). No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

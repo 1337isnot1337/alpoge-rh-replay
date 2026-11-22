@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.ZetaNonvanishing.MellinSAux",
+  "source_sha256": "0cacb10e18ef0fd1cab68be9ae10d24d39d10794885c04ed8b090eaac16529df",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only rename: AEMeasurable.ennreal_tsum is now AEMeasurable.tsum. No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

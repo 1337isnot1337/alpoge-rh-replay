@@ -1,0 +1,10 @@
+--- a/src/GroundTheory/AutomorphicForms/QuotientRightRegular.lean
++++ b/src/GroundTheory/AutomorphicForms/QuotientRightRegular.lean
+@@ -151,6 +151,7 @@
+     rw [eLpNorm_congr_ae ((hae g).sub (hae g₀)),
+       eLpNorm_eq_lintegral_rpow_enorm_toReal (by norm_num) (by norm_num)]
+     simp only [Pi.sub_apply, ENNReal.toReal_ofNat]
++    exact ((Lp.aestronglyMeasurable _).sub (Lp.aestronglyMeasurable _)).congr ((hae g).sub (hae g₀))
+   simp_rw [heq]
+   have := ((ENNReal.continuous_rpow_const (y := 1 / (2 : ℝ))).tendsto 0).comp
+     (tendsto_lintegral_rightMul_sub Γ μ hc hs g₀)

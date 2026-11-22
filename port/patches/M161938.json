@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WachLatticeTwists.LagrangeExtensionCocycles.ExtensionCocycleProofs.SumVal",
+  "source_sha256": "4ce19f9c1713bb6ae6d427922df70e401961e0b32ad9d1c670b6e022453f1a4a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only adaptation: move goals to multiplicity with Nat.padicValNat_def before the padicValNat.mul rewrites; Legendre's formula now comes from Nat.Prime.sub_one_mul_multiplicity_factorial; Nat.factorization_def now targets multiplicity; padicValInt now unfolds to multiplicity, so unfold both sides consistently. No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

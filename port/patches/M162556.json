@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.DixmierMalliavinLineBounds",
+  "source_sha256": "47cf0f71e194fb3643770793ecc2129b9d5403f770b56c12c073966119f01324",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

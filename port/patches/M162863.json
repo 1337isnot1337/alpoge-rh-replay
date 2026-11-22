@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.QuotientRightRegular",
+  "source_sha256": "618fd4ef2b7c85cb0e0c6ee9991eec5c6f86bb7ba85bb3ae5dbd49bd88e20e0e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only adaptation: eLpNorm_eq_lintegral_rpow_enorm_toReal now requires AEStronglyMeasurable; discharge it from the two Lp elements' measurability transported along the existing a.e. equalities hae. No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

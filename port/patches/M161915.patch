@@ -1,0 +1,43 @@
+--- a/src/Formalism/WachLatticeTwists/HodgeTateChains/HodgeTateFiltrations/MinimalExponentAttained.lean
++++ b/src/Formalism/WachLatticeTwists/HodgeTateChains/HodgeTateFiltrations/MinimalExponentAttained.lean
+@@ -127,8 +127,9 @@
+ lemma val_factorial_pred (ℓ : ℕ) (hℓ : ℓ.Prime) (e : ℕ) (he : 1 ≤ e) :
+     padicValNat ℓ e.factorial = padicValNat ℓ e + padicValNat ℓ (e - 1).factorial := by
+   have := Fact.mk hℓ
+-  rw [← Nat.mul_factorial_pred (by omega : e ≠ 0),
+-    padicValNat.mul (by omega) (Nat.factorial_ne_zero _)]
++  rw [← Nat.mul_factorial_pred (by omega : e ≠ 0)]
++  simp only [Nat.padicValNat_def]
++  rw [padicValNat.mul (by omega) (Nat.factorial_ne_zero _)]
+ 
+ theorem betaCount : StatBetaCount := by
+   intro ℓ hℓ s e he
+@@ -161,8 +162,9 @@
+     have h2 : ∑ j ∈ Finset.range e, padicValNat ℓ (j + 1) = padicValNat ℓ e.factorial := by
+       clear hr
+       induction e with
+-      | zero => simp
++      | zero => simp [Nat.padicValNat_def]
+       | succ k ih =>
++        simp only [Nat.padicValNat_def] at ih ⊢
+         rw [Finset.sum_range_succ, ih, Nat.factorial_succ,
+           padicValNat.mul (by omega) (Nat.factorial_ne_zero _)]
+         ring
+@@ -182,7 +184,7 @@
+     split_ifs with h0
+     · subst h0
+       have : ceilE (d + 2) 0 = 0 := by have := ceilE_le_self d 0; omega
+-      rw [this]; simp
++      rw [this]; simp [Nat.padicValNat_def]
+     · rw [val_factorial_pred _ hℓ e (by omega)]
+       push_cast
+       ring
+@@ -198,7 +200,7 @@
+   intro ℓ hℓ s m e gK U
+   have := Fact.mk hℓ
+   have h1 : cLL ℓ m U 0 ((e : ℤ) + 1) (ℓ ^ (m - s)) = (m - s) + cM ℓ m U 0 ((e : ℤ) + 1) := by
+-    unfold cLL; rw [padicValNat.prime_pow]
++    unfold cLL; rw [Nat.padicValNat_def, padicValNat.prime_pow]
+   refine ⟨h1, ?_⟩
+   have h2 := (aCount ℓ hℓ s e).2.2
+   unfold cTB cTBof

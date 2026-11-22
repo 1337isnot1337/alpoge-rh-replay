@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.HarishChandraCentre.ConstantCoeffRhoOneCanonMonomial",
+  "source_sha256": "fe8d46f1efc9933fc02aabd29de01e6f0cd29e4acf1a101b2f460818cc02f915",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

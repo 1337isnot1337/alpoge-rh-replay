@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WachLatticeTwists.WachProductBases.Statement",
+  "source_sha256": "6b09a4288b3f728c2b05590f4f7f50722b27e607f1bfdc9681ff34c5b72904bc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.ZetaNonvanishing.LandauLemma",
+  "source_sha256": "8a61c3a20982d2b26a65bed5d18f719d5b609ea31851aa28178de181131854d4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0224-lean436-20261122/P0224-receipt.json"
+}

@@ -1,0 +1,38 @@
+--- a/src/Formalism/WachLatticeTwists/HodgeTateChains/HodgeTateFiltrations/GeomFact.lean
++++ b/src/Formalism/WachLatticeTwists/HodgeTateChains/HodgeTateFiltrations/GeomFact.lean
+@@ -9,21 +9,22 @@
+   intro ℓ hℓ s ρ hs h2 hρ hρs j hj1 hjs
+   have := Fact.mk hℓ
+   have hv : padicValNat ℓ j ≤ s := by
+-    refine le_trans (padicValNat_le_nat_log j) ?_
++    refine le_trans (Nat.padicValNat_def.trans_le (multiplicity_le_nat_log j)) ?_
+     calc Nat.log ℓ j ≤ Nat.log ℓ (ℓ ^ s) := Nat.log_mono_right hjs
+       _ = s := Nat.log_pow hℓ.one_lt s
+   have hvq : (padicValNat ℓ j : ℚ) ≤ s := by exact_mod_cast hv
+   rcases Nat.lt_or_ge j 3 with h3 | h3
+   · interval_cases j
+-    · simp only [padicValNat.one]; push_cast; linarith
++    · simp only [Nat.padicValNat_def, multiplicity_one_right]; push_cast; linarith
+     · have hv2 : padicValNat ℓ 2 + 1 ≤ s := by
+         by_cases hl : ℓ = 2
+         · subst hl
+-          have : padicValNat 2 2 = 1 := padicValNat.self (by norm_num)
++          have : padicValNat 2 2 = 1 := Nat.padicValNat_def.trans (Nat.multiplicity_self (by norm_num))
+           have := h2 rfl
+           omega
+         · have : padicValNat ℓ 2 = 0 := by
+-            apply padicValNat.eq_zero_of_not_dvd
++            rw [Nat.padicValNat_def]
++            apply multiplicity_eq_zero_of_not_dvd
+             intro hd
+             exact hl ((Nat.prime_dvd_prime_iff_eq hℓ Nat.prime_two).1 hd)
+           omega
+@@ -99,7 +100,7 @@
+   obtain ⟨c, hc⟩ : ∃ c : ℤ_[ℓ]ˣ, (((u ^ e : ℤ_[ℓ]ˣ) : ℤ_[ℓ]) - 1)
+       = (c : ℤ_[ℓ]) * (ℓ : ℤ_[ℓ]) ^ (s + padicValNat ℓ e) := by
+     have h := PadicInt.unitCoeff_spec hne
+-    rw [hval] at h
++    rw [hval, ← Nat.padicValNat_def] at h
+     exact ⟨_, h⟩
+   obtain ⟨la, hla1, hla⟩ := hV (fun j =>
+     ((ℓ : ℤ_[ℓ]) ^ ((e + 1) * (s - 1) - e * (s - j) - (if j = 1 then s - 1 else s - j + 1))) •
