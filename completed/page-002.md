@@ -2,6 +2,7 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M000779 | P1323 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicHaarMeasureScalingStatement` | build-observed |
 | M000780 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicHaarScalingByRealIdele` | volunteer-build-reviewed |
 | M000781 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicHaarScalingByRealIdeleStatement` | volunteer-build-reviewed |
 | M000782 | P1349 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.AdelicLatticeMeasureFormula` | build-observed |
@@ -193,6 +194,7 @@
 | M001019 | P0172 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramTransposeDualTraceIdentity` | volunteer-build-reviewed |
 | M001020 | P0237 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GramTransposeDualTraceIdentityStatement` | volunteer-build-reviewed |
 | M001021 | P0001 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GroupActionHaarScalingContinuous` | volunteer-build-reviewed |
+| M001022 | P0094 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.GroupActionHaarScalingContinuousStatement` | volunteer-build-reviewed |
 | M001023 | P1217 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarFundamentalDomainExistsUnitary` | volunteer-build-reviewed |
 | M001024 | P1244 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarFundamentalDomainExistsUnitaryStatement` | volunteer-build-reviewed |
 | M001027 | P2013 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.HaarFundamentalDomainRankOneDensity` | build-observed |
@@ -400,5 +402,3 @@
 | M001316 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitChoiceOfIsArtinianRingIsReduced` | volunteer-build-reviewed |
 | M001317 | P0238 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitProductClosureProperties` | volunteer-build-reviewed |
 | M001318 | P0293 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitProductClosurePropertiesStatement` | volunteer-build-reviewed |
-| M001319 | P0346 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionConsTupleMeasurable` | volunteer-build-reviewed |
-| M001320 | P0392 | `CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.UnitaryActionConsTupleMeasurableStatement` | volunteer-build-reviewed |
