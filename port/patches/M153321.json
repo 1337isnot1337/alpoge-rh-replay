@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.MoebiusJetDuality.Statement",
+  "source_sha256": "befb3a7dc80ba86a4a63dc7acc93caed33b986159f2f779815340dd43d0620ec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use polynomial-first coefficient projection in IsIntegralJet, evOp and DerivCoeff, preserving each polynomial argument, coefficient index and the original mathematical definitions.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121-r2/packet-result.json"
+}

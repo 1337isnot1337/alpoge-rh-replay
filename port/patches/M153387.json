@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PadicSubsetSums.StableGradedCounts.IRRGoodDualStable",
+  "source_sha256": "e3c296088b1e8eebe8c8102c91d8788dd5ad77bec959a32d0b5157084724f6f4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121-r2/packet-result.json"
+}

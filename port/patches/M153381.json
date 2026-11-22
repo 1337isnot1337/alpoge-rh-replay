@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PadicSubsetSums.StableGradedCounts.IRRCycleProbPrime",
+  "source_sha256": "373b5b8395f06374f0d4f978a45cb0d2533e53c492533c72d3786af4c5a622f5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121-r2/packet-result.json"
+}

@@ -1,0 +1,14 @@
+--- a/src/Formalism/PadicSubsetSums/StableGradedCounts/IRRPrimeRecipSum.lean
++++ b/src/Formalism/PadicSubsetSums/StableGradedCounts/IRRPrimeRecipSum.lean
+@@ -114,8 +114,11 @@
+       · exact chk_sound hM hF h3 N h1 hN
+       · exact ih _ h4 N (by omega) h2
+ 
++set_option Elab.async false in
+ theorem factorial_ladder_thirteen : ladder 1000000000 (Nat.factorial 13) 13 196 60 100 = true := by decide +kernel
++set_option Elab.async false in
+ theorem factorial_ladder_thirty_one : ladder 1000000000 (Nat.factorial 31) 31 1024 60 196 = true := by decide +kernel
++set_option Elab.async false in
+ theorem factorial_ladder_one_forty_one : ladder 1000000000 (Nat.factorial 141) 141 20000 60 1024 = true := by
+   decide +kernel
+ 

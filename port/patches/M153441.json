@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.AdelicOrbitU",
+  "source_sha256": "d4c20ce411c84c2fbf0c5789a25d1c98bc6bdc078c8d348df85aa49a96f4a408",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121-r2/packet-result.json"
+}

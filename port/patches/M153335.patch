@@ -1,0 +1,11 @@
+--- a/src/Formalism/NormUnitaryBounds/DetPolynomialWeights/LtSuccOfMemWeightCompositions.lean
++++ b/src/Formalism/NormUnitaryBounds/DetPolynomialWeights/LtSuccOfMemWeightCompositions.lean
+@@ -93,7 +93,7 @@
+       · exact hS F F.2 m hm
+     apply Subtype.ext
+     ext d
+-    have := congrArg (coeff d) (h0 (Finsupp.weight φ d))
++    have := congrArg (fun p : MvPolynomial σ K => p.coeff d) (h0 (Finsupp.weight φ d))
+     rw [coeff_weightedHomogeneousComponent, if_pos rfl] at this
+     simpa using this
+   have hsurj : Function.Surjective Φ := by

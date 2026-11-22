@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PadicSubsetSums.CentralIdempotents.GL2UnipotentBruhatDecomposition",
+  "source_sha256": "0aa5495c96c5bc2db238e9d17ee7931c77a4fa1ca4f723a9d30705232e455c19",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The coefficient ring of PowerSeries.derivative is now implicit, inferred from the same input series. All occurrences in exported statements retain exactly the same derivative and coefficient ring.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121-r2/packet-result.json"
+}

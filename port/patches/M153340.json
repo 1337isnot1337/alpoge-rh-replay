@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.NormUnitaryBounds.DetPolynomialWeights.ShearHypothesisOneHolds",
+  "source_sha256": "06b8b12817cb6b248eed5b119b377ee59ee35bfeeb8817c14c41db83c8339dd3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121-r2/packet-result.json"
+}

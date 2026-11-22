@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.MeanHeightDescent.AverageDegreeBounds.CombinedAverageDegreeBoundOf",
+  "source_sha256": "a9bbd7a098fa4e7533217eb00831d2359ec63657c8a0ccd27c5aa105fe5c9a3a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121-r2/packet-result.json"
+}

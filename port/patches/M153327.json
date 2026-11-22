@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.MonomialMeanResidues.MonomialMean",
+  "source_sha256": "7f6d46532fc7401c537d4360b4e0ccbfa9dd22fb7a2be59c9c36a8fd5140e683",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121-r2/packet-result.json"
+}

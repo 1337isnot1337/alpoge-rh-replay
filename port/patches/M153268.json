@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.MahlerMeasure.TieVars",
+  "source_sha256": "5f974a726f90d82117c5bb007e3cee87045eddd3716ea620d9c400d5ce7a0c19",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0215-lean436-20261121-r2/packet-result.json"
+}
