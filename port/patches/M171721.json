@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.ConstantCoeffRowSubst",
+  "source_sha256": "96587caa418195e2a73b64576722abbc5b7b35988f07be26e9e8107015514b98",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the multivariate polynomial coefficient projection with the same zero exponent."
+}

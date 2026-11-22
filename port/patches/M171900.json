@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.GeometryOfNumbers.AsymptoticSequences.DefectSt",
+  "source_sha256": "844b117abd70f2ebf7d22b7940c1565d3b548f4aeababfc3a64bf23c81f9e9e0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

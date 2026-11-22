@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.DiscreteTopologyLatOf",
+  "source_sha256": "1976a88960a32eab63a849f0abbadf29fd974604277d1c6b90310082c30cf769",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

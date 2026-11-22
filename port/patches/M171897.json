@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.GaloisValuations.SymplecticRankFourModularity",
+  "source_sha256": "381fe79b1fa0efcf95f14b977b8ee9584cc2359a9682440e2e4dc0f9f2ec33a4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

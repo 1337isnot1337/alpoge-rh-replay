@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.ZmodTrichotomy",
+  "source_sha256": "3b86707941124aa7f06cb0f6623dbc2c09b659872ceb531936c5976fc448fdcf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

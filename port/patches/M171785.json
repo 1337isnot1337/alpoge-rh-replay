@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.IsLocalOfIntegers",
+  "source_sha256": "4452ca846b27447a5e73f93a845f3e407b9f56c4164a03d26c896f6a288e7a38",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

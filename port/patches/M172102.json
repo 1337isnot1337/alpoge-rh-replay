@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.Mollifiers.FderivMollApply",
+  "source_sha256": "934b038f10e0efaa61eca02d8f3a5abce8a5e9bc9cd7468a022a1f4ab8ab4e5e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed finite-sum lemmas for continuity and the Bochner integral."
+}

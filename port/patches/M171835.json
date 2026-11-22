@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.SgAlgebraMap",
+  "source_sha256": "7f1bbaec479aee71d8e9856f01a889b8aabad5df184701c2a9ee0f77d5875f0b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
