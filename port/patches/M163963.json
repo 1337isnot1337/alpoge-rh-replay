@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Imports",
+  "source_sha256": "209fc88aeb996ea38e361aaf1f27763aec53aa67f51ffa3e22a621ecd48b22ad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0226-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,37 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PGenericNoetherNormalisation.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PGenericNoetherNormalisation.lean
+@@ -58,8 +58,8 @@
+     rw [add_comm (Polynomial.C _), natDegree_X_pow_add_C, mul_comm])
+ 
+ theorem degreeOf_nagata_ne_of_ne (hv : v ∈ f.support) (hw : w ∈ f.support) (ne : v ≠ w) :
+-    (nagataEquiv f <| monomial v <| coeff v f).degreeOf 0 ≠
+-    (nagataEquiv f <| monomial w <| coeff w f).degreeOf 0 := by
++    (nagataEquiv f <| monomial v <| f.coeff v).degreeOf 0 ≠
++    (nagataEquiv f <| monomial w <| f.coeff w).degreeOf 0 := by
+   rw [degreeOf_zero_nagata _ _ <| mem_support_iff.mp hv,
+     degreeOf_zero_nagata _ _ <| mem_support_iff.mp hw]
+   refine sum_r_mul_ne f v w (fun i ↦ ?_) (fun i ↦ ?_) ne <;>
+@@ -67,8 +67,8 @@
+     (by lia)
+ 
+ theorem leadingCoeff_finSuccEquiv_nagata :
+-    (finSuccEquiv A n ((nagataEquiv f) ((monomial v) (coeff v f)))).leadingCoeff =
+-    algebraMap A _ (coeff v f) := by
++    (finSuccEquiv A n ((nagataEquiv f) ((monomial v) (f.coeff v)))).leadingCoeff =
++    algebraMap A _ (f.coeff v) := by
+   rw [monomial_eq, Finsupp.prod_fintype]
+   · simp only [map_mul, map_prod, leadingCoeff_mul, leadingCoeff_prod]
+     rw [AlgEquiv.ofAlgHom_apply, algHom_C, algebraMap_eq, finSuccEquiv_apply,
+@@ -87,9 +87,9 @@
+ theorem exists_leadingCoeff_nagata (fne : f ≠ 0) :
+     ∃ c : A, c ≠ 0 ∧ (finSuccEquiv A n (nagataEquiv f f)).leadingCoeff = MvPolynomial.C c := by
+   obtain ⟨v, vin, vs⟩ := Finset.exists_max_image f.support
+-    (fun v ↦ (nagataEquiv f ((monomial v) (coeff v f))).degreeOf 0) (support_nonempty.mpr fne)
+-  refine ⟨coeff v f, mem_support_iff.mp vin, ?_⟩
+-  set h := fun w ↦ (MvPolynomial.monomial w) (coeff w f)
++    (fun v ↦ (nagataEquiv f ((monomial v) (f.coeff v))).degreeOf 0) (support_nonempty.mpr fne)
++  refine ⟨f.coeff v, mem_support_iff.mp vin, ?_⟩
++  set h := fun w ↦ (MvPolynomial.monomial w) (f.coeff w)
+   simp only [← natDegree_finSuccEquiv] at vs
+   replace vs : ∀ x ∈ f.support \ {v}, (finSuccEquiv A n ((nagataEquiv f) (h x))).degree <
+       (finSuccEquiv A n ((nagataEquiv f) (h v))).degree := by

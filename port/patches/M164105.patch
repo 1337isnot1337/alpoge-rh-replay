@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PFiniteProjectionsGeneric.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PFiniteProjectionsGeneric.lean
+@@ -54,7 +54,7 @@
+   have hdn : d ≤ n := by
+     have h := ringKrullDim_quotient_le J
+     rw [hd, MvPolynomial.ringKrullDim_of_isNoetherianRing, ringKrullDim_eq_zero_of_field,
+-      Nat.card_eq_fintype_card, Fintype.card_fin, zero_add] at h
++      ENat.card_eq_coe_fintype_card, Fintype.card_fin, zero_add] at h
+     exact_mod_cast h
+   refine ⟨⟨W, ⟨S, hS⟩, ⟨A₀, hA₀⟩, hsub⟩, fun D hD hcl => ?_, fun m F => ?_⟩
+   · obtain ⟨U, hUu, hUp⟩ := hU n (rowsPoly 1 (Fin.castLE hdn) p)

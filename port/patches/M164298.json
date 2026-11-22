@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPrimitiveElementFibres",
+  "source_sha256": "075610c49ab12c42f30cf820983ec95117c427fa2b62a9a102816753376271d0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the existing projection-algebra scalar action before constructing the polynomial scalar tower, avoiding recursive instance search. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0226-lean436-20261121/packet-result.json"
+}
