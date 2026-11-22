@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.JumpKernelCokernel.JumpShiftProofs.JumpShift",
+  "source_sha256": "02fa96507dab54696e489f48aa6ff875237ef3d764ecfc1cc1424c24328c3319",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-m147346-lean436/receipt.json"
+}
