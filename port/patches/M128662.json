@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedDualFamilyHolds",
+  "source_sha256": "eb4b83fbc222a614086af6724fbba0df999028cf2a17d7f19a55e22122f0e777",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current valuation comparison and finite-sum coercion lemmas."
+}

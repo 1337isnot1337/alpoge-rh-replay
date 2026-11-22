@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/DivisibilityProofs/PolarizationPolynomialCoeffBound.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/DivisibilityProofs/PolarizationPolynomialCoeffBound.lean
+@@ -5,7 +5,7 @@
+ 
+ namespace GlobalTheory.CompanionTheory.Ar.Top
+ 
+-theorem polarisation_functional : ∀ (J : Type) [Fintype J] [DecidableEq J] (d : ℕ) (Φ : MvPolynomial J ℝ →ₗ[ℝ] ℝ), ∃ Pl : MvPolynomial J ℝ, Pl.IsHomogeneous d ∧ (∀ c : J → ℝ, eval c Pl = Φ ((-∑ x, C (c x) * X x) ^ d)) ∧ (∀ m : J →₀ ℕ, m.degree = d → coeff m Pl = (-1) ^ d * (m.multinomial : ℝ) * Φ (monomial m 1)) ∧ ∀ m : J →₀ ℕ, m.degree = d → |Φ (monomial m 1)| ≤ |coeff m Pl| :=
++theorem polarisation_functional : ∀ (J : Type) [Fintype J] [DecidableEq J] (d : ℕ) (Φ : MvPolynomial J ℝ →ₗ[ℝ] ℝ), ∃ Pl : MvPolynomial J ℝ, Pl.IsHomogeneous d ∧ (∀ c : J → ℝ, eval c Pl = Φ ((-∑ x, C (c x) * X x) ^ d)) ∧ (∀ m : J →₀ ℕ, m.degree = d → Pl.coeff m = (-1) ^ d * (m.multinomial : ℝ) * Φ (monomial m 1)) ∧ ∀ m : J →₀ ℕ, m.degree = d → |Φ (monomial m 1)| ≤ |Pl.coeff m| :=
+   @RootFieldNumerics.polarization_coefficients_bound
+ 
+ end GlobalTheory.CompanionTheory.Ar.Top

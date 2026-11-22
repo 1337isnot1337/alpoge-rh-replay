@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.EigenComponentMapCompat",
+  "source_sha256": "7e6963e3b4aad8899faef45d69364b6429a5856d4e6605ee20918d1428e0b1ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed finite-sum criterion for independent submodules."
+}

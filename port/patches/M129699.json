@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.BtOrderEqTopOfEtale",
+  "source_sha256": "15e16315dfe7e7a5075dca1b78e83ca1cdc0ab9dd91e75c7ac95bba865f58f10",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current primality instance for the zero ideal."
+}

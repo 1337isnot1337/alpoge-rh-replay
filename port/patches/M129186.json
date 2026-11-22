@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FlagDegreeWeightFormula",
+  "source_sha256": "701a7bb371000d989fbb6d39829f480122ac680c5c6d18dd922df833af7eb564",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

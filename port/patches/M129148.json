@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.DominantPartialSumBounds",
+  "source_sha256": "f7dab8182f39ca8caf23e646e09a049dcd14a36954745ad635d0ba70a77a59e5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

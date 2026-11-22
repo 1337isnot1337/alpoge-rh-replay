@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FlagDegreeSymmetries",
+  "source_sha256": "c167b69e7e07a09dc69db72901ca6b58c0e3edc441e4bb2b01ec031c6112e6c2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

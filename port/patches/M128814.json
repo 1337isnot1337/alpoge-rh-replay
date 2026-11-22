@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WedgeSubspaceBoundStatement",
+  "source_sha256": "db1886fb05e2693567c072ddb37779c79c0e5355ea3d468d924ab19a845f1b24",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

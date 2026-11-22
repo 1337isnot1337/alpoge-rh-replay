@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnipotentHeckeFourthProperty",
+  "source_sha256": "5ea8b35e1c4cd7f02c727a958a74307c580ff6c012dedacdf136006f0fc77e3a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

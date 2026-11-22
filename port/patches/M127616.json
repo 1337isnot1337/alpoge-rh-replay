@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SmoothSpreadsOutStatement",
+  "source_sha256": "319885834ab02a9ca0cf21ba3b8467e7934c5374d4c6ae947022075238510886",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

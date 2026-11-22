@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SeparableNormCommuting",
+  "source_sha256": "8cffa9e00a8ccea1194623e0c30f8904a7932dd79b6c16aada78f357443e8361",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

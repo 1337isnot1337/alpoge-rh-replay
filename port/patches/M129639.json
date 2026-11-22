@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.BaseChangePointsCompat",
+  "source_sha256": "e31394abfbae09a47c01f9e53fdfef1ec3fe2052b2539d034076ad0667048357",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

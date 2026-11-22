@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ValuationOfLocalDichotomy",
+  "source_sha256": "e74de073ca038ceae6146118995b0168b37dadcd7f64a2f42b58cb3eb3e3632c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
