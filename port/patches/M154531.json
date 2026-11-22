@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ChebyshevPrimeBounds.CountSuccLe",
+  "source_sha256": "d72567b042c001bf57d3c44f15e7d5339b3371cdf49850ca3e9baeb51bf5498b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only adaptation: add set_option maxRecDepth 4096 (as in the merged M144725), because elaborating the power with exponent 256 now exceeds the default recursion depth on v4.36. Even plain Mathlib `pow_pos h _ : 0 < x ^ 256` hits this. The proof is unchanged. No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0216-lean436-20261122/P0216-receipt.json"
+}
