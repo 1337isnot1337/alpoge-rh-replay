@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.PLeviHolPerturb",
+  "source_sha256": "4fe6909c0272e48d2f70206121b3f7f5a04963592d9a7f2b7a85549a623cb865",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0230-lean436-20261121/packet-result.json"
+}

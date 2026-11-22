@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PCoinvIdealRepresentation",
+  "source_sha256": "bda09eddb7514a10c8dd3f001ed39396987db2c2f717bea66c3ce72cb846cde9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0230-lean436-20261121/packet-result.json"
+}

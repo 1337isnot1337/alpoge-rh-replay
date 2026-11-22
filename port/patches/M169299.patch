@@ -1,0 +1,21 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/PCoinvPolynomialReduction.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/PCoinvPolynomialReduction.lean
+@@ -12,13 +12,13 @@
+     CoinvPolynomialReduction.Statement := by
+   intro K _ _ f n H
+   choose v hv hvI using fun d => h1 K f n d
+-  refine ⟨∑ d ∈ H.support, coeff d H • v d, ?_, ?_⟩
++  refine ⟨∑ d ∈ H.support, H.coeff d • v d, ?_, ?_⟩
+   · exact Submodule.sum_mem _ fun d _ => Submodule.smul_mem _ _ (hv d)
+-  · have e1 : H - ∑ d ∈ H.support, coeff d H • v d =
+-        (∑ d ∈ H.support, monomial d (coeff d H)) - ∑ d ∈ H.support, coeff d H • v d := by
++  · have e1 : H - ∑ d ∈ H.support, H.coeff d • v d =
++        (∑ d ∈ H.support, monomial d (H.coeff d)) - ∑ d ∈ H.support, H.coeff d • v d := by
+       rw [← H.as_sum]
+-    have e2 : (∑ d ∈ H.support, monomial d (coeff d H)) - ∑ d ∈ H.support, coeff d H • v d =
+-        ∑ d ∈ H.support, C (coeff d H) * (monomial d (1 : K) - v d) := by
++    have e2 : (∑ d ∈ H.support, monomial d (H.coeff d)) - ∑ d ∈ H.support, H.coeff d • v d =
++        ∑ d ∈ H.support, C (H.coeff d) * (monomial d (1 : K) - v d) := by
+       rw [← Finset.sum_sub_distrib]
+       refine Finset.sum_congr rfl fun d _ => ?_
+       rw [mul_sub, C_mul_monomial, mul_one, smul_eq_C_mul]

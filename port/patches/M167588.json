@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.IntegralModels.IsIsoPullbackObjUnitToUnit",
+  "source_sha256": "7f81760cfc02ea809eca802c6167a3e16dc3e81ebceb9394592f119b3496a479",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Evaluate the target extended-natural finite cardinal using Fintype cardinality; remove the now-redundant final reflexivity step. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0230-lean436-20261121/packet-result.json"
+}

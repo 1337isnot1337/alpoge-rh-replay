@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.Intersections.AvoidRing",
+  "source_sha256": "cfe2534a92518f1d7c21e6148c31f013730697b5e29f9db480986da3a8052a59",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0230-lean436-20261121/packet-result.json"
+}

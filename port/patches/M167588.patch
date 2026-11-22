@@ -1,0 +1,13 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/IntegralModels/IsIsoPullbackObjUnitToUnit.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/IntegralModels/IsIsoPullbackObjUnitToUnit.lean
+@@ -489,8 +489,8 @@
+     have hc : Nat.card ((_ : Unit) × Fin 2) = 2 := by
+       rw [Nat.card_eq_fintype_card, Fintype.card_sigma]
+       simp
+-    rw [hc, Fintype.card_unit]
+-    rfl
++    rw [ENat.card_eq_coe_fintype_card, Fintype.card_sigma, Fintype.card_unit]
++    simp
+   · have h := isWeightedHomogeneous_X ℚ (blockWeight (fun _ : Unit => Fin 2)) ⟨(), 0⟩
+     have e : blockWeight (fun _ : Unit => Fin 2) ⟨(), 0⟩ = fun _ => 1 := by
+       funext k
