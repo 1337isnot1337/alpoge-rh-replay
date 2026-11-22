@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GradedWeylDivisibility.StatementA",
+  "source_sha256": "7741f3f5e0c82b0774c93bbb7b966fd69d4b5665b8b947d00a40724fd388915d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121-r2/packet-result.json"
+}
