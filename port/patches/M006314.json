@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsRegularOfSupportDimQuotientAddLengthLe",
+  "source_sha256": "bf262f5e6f069ba83babccf45b860f37ff2c5062ea34d2f2a26b121fb4d4ccc1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove only the obsolete tensor-induction zero alternatives reported by the compiler; preserve other recursors. Convert the Jacobson radical of the zero ideal to the equal Ring.jacobson notion. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0176-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CharacterTheory.IsCharTraceMulIdempotent",
+  "source_sha256": "167de98790c04efa6ec2bac565a01ce967a7c89db568c4d2a543e646298a8615",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0176-lean436-20261121/packet-result.json"
+}

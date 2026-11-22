@@ -1,0 +1,19 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsRegularOfSupportDimQuotientAddLengthLe.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsRegularOfSupportDimQuotientAddLengthLe.lean
+@@ -51,7 +51,6 @@
+     rw [eq_top_iff]
+     rintro t -
+     induction t with
+-    | zero => exact zero_mem _
+     | add x y hx hy => exact add_mem hx hy
+     | tmul y j =>
+       have hy : y ∈ Submodule.span A (Set.range m) ⊔ I • ⊤ := by rw [hsurj]; trivial
+@@ -98,7 +97,7 @@
+     have := Submodule.mem_map_of_mem (f := TensorProduct.mk A M J (m s)) (h3 s)
+     rw [Submodule.map_smul''] at this
+     exact Submodule.smul_mono le_rfl le_top this
+-  have h0 := Ideal.iInf_pow_smul_eq_bot_of_le_jacobson (M := M ⊗[A] J) _ hI
++  have h0 := Ideal.iInf_pow_smul_eq_bot_of_le_jacobson (M := M ⊗[A] J) (Ideal.map (algebraMap A B) I) (by simpa only [Ideal.jacobson_bot] using hI)
+   rw [← Submodule.mem_bot B, ← h0, Submodule.mem_iInf]
+   intro n
+   rw [← Ideal.map_pow, ← Submodule.restrictScalars_mem A, Ideal.smul_restrictScalars]

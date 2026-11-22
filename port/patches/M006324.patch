@@ -1,0 +1,71 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/LengthCommensurableSpanSpanOfDetNeZero.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/LengthCommensurableSpanSpanOfDetNeZero.lean
+@@ -207,7 +207,7 @@
+   have hx : x ≠ 0 := by
+     rintro rfl
+     simp at h
+-  rw [Ring.ordFrac_eq_ord R hx, Ring.ordMonoidWithZeroHom_eq_coe R
++  rw [Ring.ordFrac_eq_ord R, Ring.ordMonoidWithZeroHom_eq_coe R
+     (mem_nonZeroDivisors_of_ne_zero hx) ((Ring.ord_eq_addVal x).trans h)]
+   rfl
+ 
+@@ -295,12 +295,12 @@
+   rfl
+ 
+ omit [IsDiscreteValuationRing R] [Fintype ι] [DecidableEq ι] in
+-private theorem span_range_extendOfIsLattice {A : Submodule R V} [A.IsLattice K]
+-    (a : Basis ι R A) : Submodule.span R (Set.range (a.extendOfIsLattice K)) = A := by
++private theorem span_range_extendOfIsFullLattice {A : Submodule R V} [A.IsFullLattice K]
++    (a : Basis ι R A) : Submodule.span R (Set.range (a.extendOfIsFullLattice K)) = A := by
+   refine Eq.trans ?_ (span_range_coe_basis a)
+   congr 2
+   funext i
+-  exact a.extendOfIsLattice_apply K i
++  exact a.extendOfIsFullLattice_apply K i
+ 
+ theorem signedLength_eq_log_ordFrac_det_of_bases {A B : Submodule R V} (a : Basis ι R A)
+     (b : Basis ι R B) (g : Matrix ι ι K) (hg : g.det ≠ 0)
+@@ -315,7 +315,7 @@
+   | (intros; apply @_root_.GlobalTheory.SignedLengthLogDet.signedLength_eq_log_ordFrac_det <;> first | assumption | infer_instance)
+   | (intros; exact _root_.GlobalTheory.SignedLengthLogDet.signedLength_eq_log_ordFrac_det ..)
+ 
+-theorem signedLength_map_eq_log_ordFrac_det (A : Submodule R V) [A.IsLattice K] (g : V →ₗ[K] V)
++theorem signedLength_map_eq_log_ordFrac_det (A : Submodule R V) [A.IsFullLattice K] (g : V →ₗ[K] V)
+     (hg : LinearMap.det g ≠ 0) :
+     LengthCommensurable A (A.map (g.restrictScalars R)) ∧
+       signedLength A (A.map (g.restrictScalars R)) =
+@@ -329,7 +329,7 @@
+   | (intros; apply @_root_.GlobalTheory.SignedLengthMapLogDet.signedLength_map_eq_log_ordFrac_det <;> first | assumption | infer_instance)
+   | (intros; exact _root_.GlobalTheory.SignedLengthMapLogDet.signedLength_map_eq_log_ordFrac_det ..)
+ 
+-theorem signedLength_eq_log_ordFrac_det_of_map_eq {A B : Submodule R V} [A.IsLattice K]
++theorem signedLength_eq_log_ordFrac_det_of_map_eq {A B : Submodule R V} [A.IsFullLattice K]
+     (g : V ≃ₗ[K] V) (h : A.map ((g : V →ₗ[K] V).restrictScalars R) = B) :
+     LengthCommensurable A B ∧
+       signedLength A B = WithZero.log (Ring.ordFrac R (LinearMap.det (g : V →ₗ[K] V))) :=
+@@ -337,8 +337,8 @@
+ 
+ variable (K) in
+ 
+-theorem exists_linearEquiv_map_eq_of_isLattice (A B : Submodule R V) [A.IsLattice K]
+-    [B.IsLattice K] : ∃ g : V ≃ₗ[K] V, A.map ((g : V →ₗ[K] V).restrictScalars R) = B := by
++theorem exists_linearEquiv_map_eq_of_isLattice (A B : Submodule R V) [A.IsFullLattice K]
++    [B.IsFullLattice K] : ∃ g : V ≃ₗ[K] V, A.map ((g : V →ₗ[K] V).restrictScalars R) = B := by
+   first
+   | (rename_i h_1 h_2 h_3 h_5 h_6 h_7 h_9 h_10 h_11 h_12 h_15 h_16; revert R h_1 h_2 h_3 K h_5 h_6 h_7 V h_9 h_10 h_11 h_12 A B h_15 h_16; exact @_root_.GlobalTheory.LatticeLinearEquivBasis.exists_linearEquiv_map_lattice_eq)
+   | exact @_root_.GlobalTheory.LatticeLinearEquivBasis.exists_linearEquiv_map_lattice_eq
+@@ -350,12 +350,12 @@
+ 
+ variable (K) in
+ 
+-theorem lengthCommensurable_of_isLattice (A B : Submodule R V) [A.IsLattice K] [B.IsLattice K] :
++theorem lengthCommensurable_of_isLattice (A B : Submodule R V) [A.IsFullLattice K] [B.IsFullLattice K] :
+     LengthCommensurable A B :=
+   have ⟨g, h⟩ := exists_linearEquiv_map_eq_of_isLattice K A B
+   (signedLength_eq_log_ordFrac_det_of_map_eq g h).1
+ 
+-theorem valuation_det_eq_exp_neg_signedLength {A B : Submodule R V} [A.IsLattice K]
++theorem valuation_det_eq_exp_neg_signedLength {A B : Submodule R V} [A.IsFullLattice K]
+     (g : V ≃ₗ[K] V) (h : A.map ((g : V →ₗ[K] V).restrictScalars R) = B) :
+     (IsDiscreteValuationRing.maximalIdeal R).valuation K (LinearMap.det (g : V →ₗ[K] V)) =
+       WithZero.exp (-signedLength A B) := by

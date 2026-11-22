@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.LengthCommensurableSpanSpanOfDetNeZero",
+  "source_sha256": "1cab30f81486b53ad40d07008557620d2c6e4d4aa7a2bb0ef519b67db2d4dbb2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the pinned finite-generation-and-full-span lattice notion with IsFullLattice. Here K is the fraction field of R, so IsLattice.of_fg supplies the independence field; IsFullLattice is equivalent to the pinned FG \u2227 span = top definition. Preserve the original full-span assumptions and adapt its constructors and basis API. Use the now-unconditional ordFrac algebra-map formula.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0176-lean436-20261121/packet-result.json"
+}
