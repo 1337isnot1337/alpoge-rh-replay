@@ -1,0 +1,20 @@
+--- a/src/ReciprocityTheory/SemistableReduction/SemiContractA.lean
++++ b/src/ReciprocityTheory/SemistableReduction/SemiContractA.lean
+@@ -28,7 +28,7 @@
+   rw [hdet, Complex.ofReal_re, Complex.ofReal_im]
+   refine ⟨?_, rfl⟩
+   calc (1 : ℝ) = ∏ _i : m, (1 : ℝ) := by simp
+-    _ < ∏ i, (1 + d i) := Finset.prod_lt_prod_of_nonempty (fun _ _ => one_pos)
++    _ < ∏ i, (1 + d i) := Finset.prod_lt_prod_of_nonempty₀ (fun _ _ => one_pos)
+         (fun i _ => by linarith [hdpos i]) Finset.univ_nonempty
+ 
+ theorem sc_one_add_det {m : Type*} [Fintype m] [DecidableEq m] [Nonempty m]
+@@ -61,8 +61,6 @@
+   have hDhH : Dhᴴ = Dh := by
+     rw [hDh, diagonal_conjTranspose]
+     congr 1
+-    funext i
+-    simp
+   obtain ⟨B, hB⟩ : ∃ B : Matrix m m ℂ, B = Dh * star U := ⟨_, rfl⟩
+   have hBB : Bᴴ * B = E := by
+     rw [hB, conjTranspose_mul, hDhH, hsp, ← hDD]

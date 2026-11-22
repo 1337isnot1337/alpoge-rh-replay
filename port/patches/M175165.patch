@@ -1,0 +1,13 @@
+--- a/src/ReciprocityTheory/SemistableReduction/TorusMeanA.lean
++++ b/src/ReciprocityTheory/SemistableReduction/TorusMeanA.lean
+@@ -85,7 +85,9 @@
+     volume.restrict (Set.Ioc (0 : ℝ) 1) {t | p.eval (circPt t) = 0} = 0 := by
+   rw [Measure.restrict_apply' measurableSet_Ioc]
+   apply Set.Finite.measure_zero _ volume
+-  apply Set.Finite.of_finite_image (f := circPt) _ (circPt_injOn.mono fun _ h => h.2)
++  apply Set.Finite.of_finite_image
++    (s := {t : ℝ | p.eval (circPt t) = 0} ∩ Set.Ioc (0 : ℝ) 1)
++    (f := circPt) _ (circPt_injOn.mono Set.inter_subset_right)
+   apply p.roots.finite_toSet.subset
+   rintro _ ⟨t, ⟨ht, _⟩, rfl⟩
+   simpa [mem_roots hp] using ht

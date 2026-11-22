@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.PlaceCounting.RaySplA",
+  "source_sha256": "eb6677297faec3c22b86c33274b3c96a0471195b8cbbba604d826a9cf06d4ac7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only compatibility repair for the pinned Lean/Mathlib target. Original declarations and imports retained."
+}

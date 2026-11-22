@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.BWPolyA",
+  "source_sha256": "380ded55dd501bcf5bd0231769d123d7aabb11286059d8149ce11c422ac7aba9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only compatibility repair for the pinned Lean/Mathlib target. Original declarations and imports retained."
+}
