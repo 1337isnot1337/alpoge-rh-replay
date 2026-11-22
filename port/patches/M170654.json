@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ProfiniteCohomology.RestrictedRamification.SPicFinite",
+  "source_sha256": "2d8709e318bce57c9728a9fdd1b20d78534d8fd265efe6a5dcdc9a0d4cb55785",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}

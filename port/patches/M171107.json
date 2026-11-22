@@ -1,0 +1,8 @@
+{
+  "module": "PositivityTheory.AutomorphicForms.PublishedInputs.JacquetLanglands.TorusKernels.CuspRegionVolumeFiniteProof",
+  "source_sha256": "5dc2235b4308d52d1d9f46aed3f8734833b991c21d74483526bb74667972941c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Give the comparison integral its explicit complex integrand, avoiding expensive higher-order inference. Retain a finite 200000-heartbeat budget. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}

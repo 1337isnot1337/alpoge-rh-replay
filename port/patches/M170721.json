@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.TateCohomology.UniquelyDivisible",
+  "source_sha256": "394c4a66c89a4feb5d69eec0b7440fcfe5f44a40e13988dd7cff5498b85d92f8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.PotentialTheory.ContDiffOnFubiniStudyProfileInvNormSqFirst",
+  "source_sha256": "d3e7f3ff8c3dd933dd7759f5820250cc1ec7d48d968dd89832591ae3790934ba",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the constant dependent family in the coordinate smoothness lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}

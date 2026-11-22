@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ProfiniteCohomology.IsProPGroupSubgroupIffIsPGroupMap",
+  "source_sha256": "c308a66bffd87c01bd2dda083b1f495b05155071a7d5e4612226f9c4a8ddcf9a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.TateCohomology.DimensionShift",
+  "source_sha256": "f552cf7fc482c06c41685c2dea2ef703cc67ddf61117de7da30deaa93bae98c4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0232-lean436-20261121/packet-result.json"
+}

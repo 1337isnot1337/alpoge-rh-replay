@@ -1,0 +1,41 @@
+--- a/src/PositivityTheory/AutomorphicForms/PublishedInputs/JacquetLanglands/TorusKernels/KernelSeriesConvergesProof.lean
++++ b/src/PositivityTheory/AutomorphicForms/PublishedInputs/JacquetLanglands/TorusKernels/KernelSeriesConvergesProof.lean
+@@ -1,4 +1,6 @@
+ import PositivityTheory.AutomorphicForms.PublishedInputs.JacquetLanglands.TorusKernels.MultivariableReproducingFormula
++
++set_option maxHeartbeats 200000
+ 
+ noncomputable section
+ 
+@@ -136,7 +138,7 @@
+       _ ≤ max CE 0 * Kap k y.2 (γ • y.2 : D.Xs) := mul_le_mul_of_nonneg_right (le_max_left _ _) (Kap_nonneg _ _ _)
+       _ = max CE 0 * ((Kap k y.2 (γ • y.2) * ∏ v, (|(y.2 v).1.im| / |((γ • y.2 : D.Xs) v).1.im|) ^ ((1 : ℝ) / 2)) *
+             ((∏ v, |((γ • y.2 : D.Xs) v).1.im|) / ∏ v, |(y.2 v).1.im|) ^ ((1 : ℝ) / 2)) := by
+-          congr 1; exact kap_split k y.2 _
++          exact congrArg (fun x : ℝ => max CE 0 * x) (kap_split k y.2 _)
+       _ ≤ max CE 0 * ((Kap k y.2 (γ • y.2) * ∏ v, (|(y.2 v).1.im| / |((γ • y.2 : D.Xs) v).1.im|) ^ ((1 : ℝ) / 2)) *
+             (Real.sqrt C' / Ht)) :=
+           mul_le_mul_of_nonneg_left (mul_le_mul_of_nonneg_left hsq hX) (le_max_right _ _)
+@@ -182,7 +184,11 @@
+         (fun γ' => ENNReal.ofReal K * h (γ' • y.2)) γ.1 := ENNReal.tsum_le_tsum hpt
+     _ ≤ ∑' γ : PG F, ∑ i, ({γ' : PG F | γ' • y.1 = ((D.rep y.1 * a i : Gf) : Gf ⧸ D.H)}).indicator
+         (fun γ' => ENNReal.ofReal K * h (γ' • y.2)) γ :=
+-        ENNReal.tsum_comp_le_tsum_of_injective Subtype.val_injective _
++        ENNReal.tsum_comp_le_tsum_of_injective
++          (f := (Subtype.val : {γ : PG F // ¬ Fix ![0, 1] γ} → PG F))
++          Subtype.val_injective (fun γ : PG F => ∑ i : ι,
++            ({γ' : PG F | γ' • y.1 = ((D.rep y.1 * a i : Gf) : Gf ⧸ D.H)}).indicator
++              (fun γ' => ENNReal.ofReal K * h (γ' • y.2)) γ)
+     _ = ∑ i, ∑' γ : PG F, ({γ' : PG F | γ' • y.1 = ((D.rep y.1 * a i : Gf) : Gf ⧸ D.H)}).indicator
+         (fun γ' => ENNReal.ofReal K * h (γ' • y.2)) γ := Summable.tsum_finsetSum (fun _ _ => ENNReal.summable)
+     _ ≤ ∑ i : ι, ENNReal.ofReal K * (Cp * A * ENNReal.ofReal (max CM 0 * (1 + Ht)) * CK) :=
+@@ -216,7 +222,8 @@
+     (MulAut.conj (δ : PG F)).toEquiv.subtypeEquiv hfix
+   calc ∑' γ : {γ : PG F // ¬ Fix s γ}, ‖D.kk k a γ.1 y‖ₑ
+       = ∑' γ : {γ : PG F // ¬ Fix s γ}, ‖D.kk k a (e γ).1 ((δ : PG F) • y)‖ₑ := by
+-        congr 1; funext γ
++        apply tsum_congr
++        intro γ
+         rw [show (e γ).1 = (δ : PG F) * γ.1 * (δ : PG F)⁻¹ from rfl, h2c]
+     _ = ∑' γ : {γ : PG F // ¬ Fix ![0, 1] γ}, ‖D.kk k a γ.1 ((δ : PG F) • y)‖ₑ :=
+         e.tsum_eq (fun γ => ‖D.kk k a γ.1 ((δ : PG F) • y)‖ₑ)
