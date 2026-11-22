@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FrameDual",
+  "source_sha256": "f1ecfc06fe183916c916648af3f1e7124e75ba760a18ccf0f95be67fadd68419",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
