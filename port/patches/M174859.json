@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.UnitarizeA",
+  "source_sha256": "3903ecd1dad580470f419f3685fd052397eb5242bfdc3866146cd73fb28ffecf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Preserve the pinned finite exponent-2 seminorm for arbitrary functions by using eLpNorm' at exponent 2. The pinned eLpNorm selects exactly this branch; target eLpNorm returns infinity without AE strong measurability. For AE strongly measurable inputs the target equality eLpNorm_eq_eLpNorm' reconnects MemLp/Lp APIs. Exported theorem statements and hypotheses are unchanged."
+}

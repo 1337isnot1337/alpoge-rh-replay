@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.TensorRepresentations.CoefAInnerEqZero",
+  "source_sha256": "d0a56076bbd61346fa9f4cd2b5f1da08dd14c58ebe18044c58d99a202df707ed",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only compatibility repair for the pinned Lean/Mathlib target. Original declarations and imports retained."
+}

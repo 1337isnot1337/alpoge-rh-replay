@@ -1,0 +1,74 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/TensorRepresentations/UnitarizeA.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/TensorRepresentations/UnitarizeA.lean
+@@ -12,7 +12,13 @@
+ 
+ def pr (a b : G → ℂ) : ℂ := ∫ x, star (a x) * b x ∂μ
+ 
+-def nrm (a : G → ℂ) : ℝ := (eLpNorm a 2 μ).toReal
++def nrm (a : G → ℂ) : ℝ := (eLpNorm' a 2 μ).toReal
++
++private theorem nrm_eq_eLpNorm {a : G → ℂ} (ha : AEStronglyMeasurable a μ) :
++    nrm μ a = (eLpNorm a 2 μ).toReal := by
++  unfold nrm
++  rw [eLpNorm_eq_eLpNorm' (by norm_num) (by norm_num) ha]
++  simp
+ 
+ variable {μ}
+ 
+@@ -35,7 +41,8 @@
+     ‖pr μ a b‖ ≤ nrm μ a * nrm μ b := by
+   rw [pr_eq_inner ha hb]
+   have h := norm_inner_le_norm (𝕜 := ℂ) (ha.toLp a) (hb.toLp b)
+-  simpa only [nrm, Lp.norm_toLp] using h
++  simpa only [nrm_eq_eLpNorm μ ha.aestronglyMeasurable,
++    nrm_eq_eLpNorm μ hb.aestronglyMeasurable, Lp.norm_toLp] using h
+ 
+ theorem pr_star (a b : G → ℂ) : star (pr μ a b) = pr μ b a := by
+   unfold pr
+@@ -76,7 +83,8 @@
+   rw [h1]
+   calc inner ℝ (hA.toLp _) (hB.toLp _) ≤ ‖hA.toLp _‖ * ‖hB.toLp _‖ := real_inner_le_norm _ _
+     _ = nrm μ a * nrm μ b := by
+-      simp only [nrm, Lp.norm_toLp, eLpNorm_norm]
++      simp only [nrm_eq_eLpNorm μ ha.aestronglyMeasurable, nrm_eq_eLpNorm μ hb.aestronglyMeasurable,
++        Lp.norm_toLp, eLpNorm_norm a ha.aestronglyMeasurable, eLpNorm_norm b hb.aestronglyMeasurable]
+ 
+ theorem pr_add_left {a a₁ b : G → ℂ} (ha : MemLp a 2 μ) (ha₁ : MemLp a₁ 2 μ) (hb : MemLp b 2 μ) :
+     pr μ (a + a₁) b = pr μ a b + pr μ a₁ b := by
+@@ -132,9 +140,11 @@
+ 
+ theorem nrm_rt {a : G → ℂ} (ha : AEStronglyMeasurable a μ) (g : G) :
+     nrm μ (fun x => a (x * g)) = nrm μ a := by
+-  unfold nrm
+-  have h := eLpNorm_comp_measurePreserving (p := 2) ha (measurePreserving_mul_right μ g)
+-  exact congrArg ENNReal.toReal h
++  have hmp := measurePreserving_mul_right μ g
++  have hcomp : AEStronglyMeasurable (fun x => a (x * g)) μ :=
++    (hmp.map_eq ▸ ha).comp_aemeasurable hmp.aemeasurable
++  rw [nrm_eq_eLpNorm μ hcomp, nrm_eq_eLpNorm μ ha]
++  exact congrArg ENNReal.toReal (eLpNorm_comp_measurePreserving (p := 2) ha hmp)
+ 
+ theorem pr_rt (a b : G → ℂ) (g : G) :
+     pr μ (fun x => a (x * g)) (fun x => b (x * g)) = pr μ a b := by
+@@ -259,7 +269,7 @@
+       have hn : nrm μ (fun x => (-b') (x * φ (-r))) = nrm μ b' := by
+         rw [nrm_rt hb'L.neg.aestronglyMeasurable]
+         unfold nrm
+-        rw [eLpNorm_neg]
++        rw [eLpNorm'_neg]
+       rw [hn] at h
+       exact h
+     rw [e3, norm_star, e2]
+@@ -289,10 +299,10 @@
+   have hψa : ∀ s t, φ (-(s + t)) = φ (-s) * φ (-t) := fun s t => by rw [neg_add, hφa]
+   have hnv : nrm μ (fun y => -v' y) = nrm μ v' := by
+     unfold nrm
+-    rw [show (fun y => -v' y) = -v' from rfl, eLpNorm_neg]
++    rw [show (fun y => -v' y) = -v' from rfl, eLpNorm'_neg]
+   have hnu : nrm μ (fun y => -u' y) = nrm μ u' := by
+     unfold nrm
+-    rw [show (fun y => -u' y) = -u' from rfl, eLpNorm_neg]
++    rw [show (fun y => -u' y) = -u' from rfl, eLpNorm'_neg]
+   suffices h : pr μ u' v + pr μ u v' = 0 by linear_combination h
+   apply small_zero (C := 2 * (nrm μ u' * nrm μ v'))
+   intro t ht0 ht1
