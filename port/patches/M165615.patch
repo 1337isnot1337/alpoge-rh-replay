@@ -1,0 +1,13 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/FieldsOfNumbers/HilbEventuallyPolyQualified.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/FieldsOfNumbers/HilbEventuallyPolyQualified.lean
+@@ -94,8 +94,8 @@
+         rw [hw] at h0
+         simp only at h0
+         omega
+-      have hmono : monomial d (coeff d f) =
+-          X ⟨k, i⟩ * monomial (d - Finsupp.single ⟨k, i⟩ 1) (coeff d f) := by
++      have hmono : monomial d ((f).coeff d) =
++          X ⟨k, i⟩ * monomial (d - Finsupp.single ⟨k, i⟩ 1) ((f).coeff d) := by
+         rw [X, monomial_mul, one_mul, add_tsub_cancel_of_le]
+         rw [Finsupp.single_le_iff]
+         omega
