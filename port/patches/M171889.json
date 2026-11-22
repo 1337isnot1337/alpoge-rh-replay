@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.GaloisValuations.ArithOfA",
+  "source_sha256": "efcd7436940427baa807c60bfb0cd1f2c38feea2f227cdc5a3f403a057a91789",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0290-lean436-20261121/packet-result.json"
+}

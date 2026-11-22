@@ -1,0 +1,70 @@
+--- a/src/ReciprocityTheory/L2DbarEstimates/Localization/IntegrableFd.lean
++++ b/src/ReciprocityTheory/L2DbarEstimates/Localization/IntegrableFd.lean
+@@ -11,18 +11,23 @@
+ namespace FlatWeightedEstimates
+ 
+ lemma lint_sq {α E : Type*} [MeasurableSpace α] [NormedAddCommGroup E] (f : α → E)
+-    (μ : Measure α) : ∫⁻ x, ‖f x‖ₑ ^ 2 ∂μ = eLpNorm f 2 μ ^ 2 := by
+-  have h := eLpNorm_nnreal_pow_eq_lintegral (f := f) (μ := μ) (p := 2) two_ne_zero
+-  have e : ((2 : NNReal) : ℝ) = ((2 : ℕ) : ℝ) := by norm_num
+-  rw [e] at h
+-  simp only [ENNReal.rpow_natCast] at h
+-  simpa using h.symm
++    (μ : Measure α) : ∫⁻ x, ‖f x‖ₑ ^ 2 ∂μ = eLpNorm' f 2 μ ^ 2 := by
++  simpa only [ENNReal.rpow_two] using
++    (lintegral_rpow_eNorm_eq_rpow_eLpNorm' (f := f) (μ := μ) (q := 2) (by norm_num))
+ 
+ lemma tendsto_lint {ι α E : Type*} [MeasurableSpace α] [NormedAddCommGroup E] {l : Filter ι}
+-    {μ : Measure α} (F : ι → α → E) (h : Tendsto (fun i => eLpNorm (F i) 2 μ) l (𝓝 0)) :
++    {μ : Measure α} (F : ι → α → E) (h : Tendsto (fun i => eLpNorm' (F i) 2 μ) l (𝓝 0)) :
+     Tendsto (fun i => ∫⁻ x, ‖F i x‖ₑ ^ 2 ∂μ) l (𝓝 0) := by
+   simp_rw [lint_sq]
+   simpa using ENNReal.Tendsto.pow (n := 2) h
++
++private lemma tendsto_lint_of_eLpNorm {ι α E : Type*} [MeasurableSpace α]
++    [NormedAddCommGroup E] {l : Filter ι} {μ : Measure α} (F : ι → α → E)
++    (h : Tendsto (fun i => eLpNorm (F i) 2 μ) l (𝓝 0)) :
++    Tendsto (fun i => ∫⁻ x, ‖F i x‖ₑ ^ 2 ∂μ) l (𝓝 0) := by
++  apply tendsto_lint F
++  refine tendsto_const_nhds.squeeze h (fun _ => bot_le) (fun i => ?_)
++  by_cases hi : AEStronglyMeasurable (F i) μ <;> simp [eLpNorm, hi]
+ 
+ lemma enorm_sq_V {n : ℕ} (x : V n) : ‖x‖ₑ ^ 2 = ∑ j, ‖x j‖ₑ ^ 2 := by
+   simp only [← ofReal_norm]
+@@ -144,15 +149,15 @@
+   have T1 : Tendsto (fun t => ∑ j, ∫⁻ y,
+       ‖B.moll (B.Kernel.std (V n) volume t) (fun u => G u j) y - G y j‖ₑ ^ 2) (𝓝[>] 0) (𝓝 0) := by
+     have := tendsto_finsetSum Finset.univ
+-      (fun j _ => tendsto_lint _ (hGD.1 (finProdFinEquiv (j, 0))))
++      (fun j _ => tendsto_lint_of_eLpNorm _ (hGD.1 (finProdFinEquiv (j, 0))))
+     simpa using this
+-  have T2 := tendsto_lint _ hGD.2
++  have T2 := tendsto_lint_of_eLpNorm _ hGD.2
+   have T3 : Tendsto (fun t => ∑ j, ∑ k, ∫⁻ y, ‖(B.Dop cS (vS n j k)
+       (fun p => B.moll (B.Kernel.std (V n) volume t)
+         (![fun u => G u k, fun u => G u k, fun u => G u j, fun u => G u j] p)) -
+       fun u => S u j k) y‖ₑ ^ 2) (𝓝[>] 0) (𝓝 0) := by
+     have := tendsto_finsetSum Finset.univ (fun j _ => tendsto_finsetSum Finset.univ
+-      (fun k _ => tendsto_lint _ (hGS j k).2))
++      (fun k _ => tendsto_lint_of_eLpNorm _ (hGS j k).2))
+     simpa using this
+   have e4 : ∀ᶠ t in 𝓝[>] (0 : ℝ), 0 < t := self_mem_nhdsWithin
+   have e5 : ∀ᶠ t in 𝓝[>] (0 : ℝ), t < r := nhdsWithin_le_nhds (Iio_mem_nhds hr)
+@@ -185,7 +190,7 @@
+     refine (lintegral_congr fun y => ?_).trans (lintegral_finsetSum' _ (fun j _ => ?_))
+     · rw [enorm_sq_V]
+       rfl
+-    · exact (((hmc j).continuous.aestronglyMeasurable.sub (hGj j).1).enorm).pow_const 2
++    · exact (((hmc j).continuous.aestronglyMeasurable.sub (hGj j).aestronglyMeasurable).enorm).pow_const 2
+   · refine lt_of_le_of_lt (le_of_eq (lintegral_congr fun y => ?_)) h2
+     exact congrArg (fun s => ‖s - D y‖ₑ ^ 2)
+       (dop_div (fun j => B.moll (B.Kernel.std (V n) volume t) (fun u => G u j)) y).symm
+@@ -195,7 +200,7 @@
+         fun u => S u j k) y‖ₑ ^ 2
+     have hmeas : ∀ j k, AEMeasurable (Q j k) volume := fun j k =>
+       ((((Finset.measurable_sum _ fun p _ => (measurable_fderiv_apply_const ℝ _ _).const_mul
+-        _).aestronglyMeasurable).sub (hSjk j k).1).enorm).pow_const 2
++        _).aestronglyMeasurable).sub (hSjk j k).aestronglyMeasurable).enorm).pow_const 2
+     have hsum : ∫⁻ y, ∑ j, ∑ k, Q j k y = ∑ j, ∑ k, ∫⁻ y, Q j k y := by
+       rw [lintegral_finsetSum' _ (fun j _ => Finset.aemeasurable_fun_sum _ fun k _ => hmeas j k)]
+       exact Finset.sum_congr rfl fun j _ => lintegral_finsetSum' _ fun k _ => hmeas j k

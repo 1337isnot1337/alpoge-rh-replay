@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.UniNilp",
+  "source_sha256": "93a1a6ef8fd9ab64aa985f30b88007f9ad2dda2ff3f09dc31ca586918dd73e7b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0290-lean436-20261121/packet-result.json"
+}

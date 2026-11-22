@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.APrimeA",
+  "source_sha256": "1969ea73423fccc99220a3476209c6e5e4291b8f26da7900c82ff5abdecdadfc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the differentiation scalar field before deriving continuity and measurability. Provide the standard product continuous-scalar-action instance explicitly. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0290-lean436-20261121/packet-result.json"
+}

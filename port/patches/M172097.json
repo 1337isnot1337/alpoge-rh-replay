@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.MinimalSolutions.HilbertLemmas",
+  "source_sha256": "2b98c432ef7256338a12693f01700b8340c0ebbe5ed0fe71e98f5cabb5874c12",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0290-lean436-20261121/packet-result.json"
+}

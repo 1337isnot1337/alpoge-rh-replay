@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.Localization.IntegrableFd",
+  "source_sha256": "865d01eb54900673fc3b04ffb34b2944363b5e43b3c6c390390b3c95eb2c7ef7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Preserve the original exported lint_sq and tendsto_lint statements using eLpNorm' at exponent 2: this is exactly the pinned integral-based eLpNorm at 2 for all functions. Target eLpNorm instead assigns infinity to nonmeasurable functions, so merely adding measurability would weaken the original helper. A private bridge derives convergence of the original seminorm from the stronger target norm by pointwise domination; downstream MemLp measurability uses the equivalent target accessor. Use the extended-nonnegative-real squeeze theorem and square power identity.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0290-lean436-20261121/packet-result.json"
+}

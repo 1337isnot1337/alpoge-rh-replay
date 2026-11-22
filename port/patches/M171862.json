@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.ToSigmaAddFstZeroFst",
+  "source_sha256": "36222b6e4c628dac1cabb1fe35a7a4630817948707d7993bac1481c7dc15b8e3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0290-lean436-20261121/packet-result.json"
+}
