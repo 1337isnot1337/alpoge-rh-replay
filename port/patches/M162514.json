@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.CuspidalDiscreteness.MixedDifference",
+  "source_sha256": "08a15e5859ef666c742b9a9a11d64cdcd06532c2a3d87f7af8556e1fcf5b4d7c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0159-lean436-20261121/packet-result.json"
+}

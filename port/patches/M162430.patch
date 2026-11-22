@@ -1,0 +1,10 @@
+--- a/src/GroundTheory/ArithmeticGeometry/ToricVarieties/Lattice.lean
++++ b/src/GroundTheory/ArithmeticGeometry/ToricVarieties/Lattice.lean
+@@ -254,6 +254,7 @@
+       (Set.Finite.pi (fun j => Set.finite_Icc _ _)).preimage
+         (fun m _ m' _ h => e.ext fun j => congrFun h j)
+     exact hbig.subset fun m hm => Set.mem_preimage.2 (Set.mem_univ_pi.2 fun j => hm.2 j)
++  apply AddSubmonoid.isAddFG_iff.mpr
+   refine ⟨(hKfin.union T.finite_toSet).toFinset, ?_⟩
+   rw [Set.Finite.coe_toFinset]
+   apply le_antisymm
