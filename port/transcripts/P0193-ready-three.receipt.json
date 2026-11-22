@@ -1,0 +1,406 @@
+{
+  "target": "P0193",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/29789",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "a1c5ccdb52733eaeed7a5cabb5a85cee0bcb5e32",
+  "port_record_commit": "78ddaaf02a1c9fa168c79fbb21cf9075e5e84744",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "efb1bb810d0398caab7a3340a0577e98bd5d3d108200276a539c873fa81d55fd",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TwistedCentralizerIsNormOneTorus Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnifConst Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitaryActionHermitianInvariantsTransitiveStatement",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 3 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M074828",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TwistedCentralizerIsNormOneTorus",
+      "source_sha256": "0a461c61ec6ae6af9eedefad99a17e7a55e665072f9b9e36dfaac8bb2bbea3d0",
+      "patch_sha256": null,
+      "built_source_sha256": "0a461c61ec6ae6af9eedefad99a17e7a55e665072f9b9e36dfaac8bb2bbea3d0",
+      "olean_sha256": "2d2e4f9764407b0cea9ffb9fb1e4282bac3ee29ad9fefb3f12e20824f110d42d",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M074933",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnifConst",
+      "source_sha256": "9836e25b68a72c407d7d2293a22ef8651321a1279983b429a29124fbdc8b5770",
+      "patch_sha256": null,
+      "built_source_sha256": "9836e25b68a72c407d7d2293a22ef8651321a1279983b429a29124fbdc8b5770",
+      "olean_sha256": "1524fbe920f81352d179f05ee7b3baec5e97b85fd8e2dde7f0085ba6cd3c4e17",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M074994",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitaryActionHermitianInvariantsTransitiveStatement",
+      "source_sha256": "72aefa2531805641a99fa00f9a6cf93e77a9f8ee6f3eea303c5e1b4c88362539",
+      "patch_sha256": null,
+      "built_source_sha256": "72aefa2531805641a99fa00f9a6cf93e77a9f8ee6f3eea303c5e1b4c88362539",
+      "olean_sha256": "e0bccb2e862454b859f460114a2637eaf9cb62e25ad3ee18553b0f64e44d71b5",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M004742",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FourierMatch",
+      "source_sha256": "6b4cab068f2b618cfc66519b993c04f7f2dbd7cb38d0456f305741e4c30be057",
+      "patch_sha256": null,
+      "built_source_sha256": "6b4cab068f2b618cfc66519b993c04f7f2dbd7cb38d0456f305741e4c30be057",
+      "port_record_sha256": "11b023f9509c1e11277b590f7a525958360db212545097c71385d628ab7a430f"
+    },
+    {
+      "id": "M004788",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsTestRep",
+      "source_sha256": "f3d63c4c5c04c42a3dee9d4020d0720f96aad5ed3dec1b66211d8225098a8861",
+      "patch_sha256": null,
+      "built_source_sha256": "f3d63c4c5c04c42a3dee9d4020d0720f96aad5ed3dec1b66211d8225098a8861",
+      "port_record_sha256": "2a451692ed22afd01f595e965865bcf15be6e992c3621231ebc7024085ecbab6"
+    },
+    {
+      "id": "M004820",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MemCentIffTwConj",
+      "source_sha256": "c8fadd2a1f491066a10efdf76e6bcf446e8ebaf6e9f4e77e2516fbdce6e03ef0",
+      "patch_sha256": null,
+      "built_source_sha256": "c8fadd2a1f491066a10efdf76e6bcf446e8ebaf6e9f4e77e2516fbdce6e03ef0",
+      "port_record_sha256": "011ec3aa3351a27b09f2cbd90f6493185a669affcab16d40277d64f70d966cc2"
+    },
+    {
+      "id": "M004872",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.TwConj",
+      "source_sha256": "ec3b2bd2ec20315ff3a07879a311ffeb6cfd2b6732a712c6bc037d86c8ac3cb3",
+      "patch_sha256": null,
+      "built_source_sha256": "ec3b2bd2ec20315ff3a07879a311ffeb6cfd2b6732a712c6bc037d86c8ac3cb3",
+      "port_record_sha256": "a24480cc101a8d188b054d995b4cebcb4aad304afae86563feddeff31282fa66"
+    },
+    {
+      "id": "M074993",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitaryActionHermitianInvariantsTransitive",
+      "source_sha256": "836ee8b6580ac4adae3c885c9a833e6b9f9619ec6429e567ba74ab78142cf93d",
+      "patch_sha256": "975acca6a67e7290408db31bfdd786c6553981ef31dba0d595a5e64ef80361d4",
+      "built_source_sha256": "0c9da2719067e66d3a2716b514d0fbd35ecaabeb92ee87fbc6fa94bb7d49154d",
+      "port_record_sha256": "89290a8c70f82087849aa4beccfcc1f99967c713a539ceb4696f2b702a30283f"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M073999",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SgnLatSpanBasis",
+      "missing_imports": []
+    },
+    {
+      "id": "M074055",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.Sl2GeneratedWeylUnipotent",
+      "missing_imports": []
+    },
+    {
+      "id": "M074110",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SpanSelfDual",
+      "missing_imports": []
+    },
+    {
+      "id": "M074261",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.StdLatticeMapEqIffMemGLintValuationSubringStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M074294",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.SubIdBijOfContracting",
+      "missing_imports": []
+    },
+    {
+      "id": "M074509",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TensorRepApply",
+      "missing_imports": []
+    },
+    {
+      "id": "M074669",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ToMatrixTwRight",
+      "missing_imports": []
+    },
+    {
+      "id": "M074701",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TorusInvMulPowValuationNonnegIffStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M074704",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TorusOrbitLatticeCountBoundedByRho",
+      "missing_imports": []
+    },
+    {
+      "id": "M074707",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TorusSubmoduleMulLeftImageMemSelfDualStableLattiStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M074720",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TraceEqSumCoordsOfAlgEquiv",
+      "missing_imports": []
+    },
+    {
+      "id": "M074740",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TraceTowerFiniteEtaleHermitianPair",
+      "missing_imports": []
+    },
+    {
+      "id": "M074759",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TransportSelfDualHaarMeasureKernelAddEquiv",
+      "missing_imports": []
+    },
+    {
+      "id": "M074780",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TruncatedSetEmptyOutsideNormCoset",
+      "missing_imports": []
+    },
+    {
+      "id": "M074902",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UUEqSumOverTorusOrbits",
+      "missing_imports": []
+    },
+    {
+      "id": "M074960",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitIndicatorGLBlockIsLocallyConstantCompactSupp",
+      "missing_imports": []
+    },
+    {
+      "id": "M074964",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitIndicatorHermitianBlockLiftLastBasisOfNormLe",
+      "missing_imports": []
+    },
+    {
+      "id": "M074966",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitIndicatorsMatchAtOfOneLtNormFirstMoment",
+      "missing_imports": []
+    },
+    {
+      "id": "M074979",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitMulPowOfMaximalIdealEqSpan",
+      "missing_imports": [
+        "M004848"
+      ]
+    },
+    {
+      "id": "M074980",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitPrescribedResidueReducedFiniteAlgebra",
+      "missing_imports": []
+    },
+    {
+      "id": "M074989",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitaryActHermitianBlockDiagOneLiftLastBasis",
+      "missing_imports": []
+    },
+    {
+      "id": "M075003",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitaryGroupPositiveCharacterTrivialAndUnimodula",
+      "missing_imports": [
+        "M071496"
+      ]
+    },
+    {
+      "id": "M075011",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitaryOrbitProperOfInvertibleKrylovColumns",
+      "missing_imports": []
+    },
+    {
+      "id": "M075061",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedInvolutionExtMapsIntegersToIntegers",
+      "missing_imports": [
+        "M073087"
+      ]
+    },
+    {
+      "id": "M075080",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedQuadraticIntegralTraceFormPerfectStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M075082",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedQuadraticNormsTraceUniformizerFactsStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M075083",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnramifiedQuadraticTraceEqAddStar",
+      "missing_imports": []
+    },
+    {
+      "id": "M075178",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.VanishAtHodgeTateCocharacter",
+      "missing_imports": []
+    },
+    {
+      "id": "M075186",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WHyp",
+      "missing_imports": []
+    },
+    {
+      "id": "M075295",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WeierstrassDivisionEisensteinPowIntegral",
+      "missing_imports": [
+        "M004836",
+        "M004861"
+      ]
+    },
+    {
+      "id": "M075370",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WeylNumeratorLaplace",
+      "missing_imports": []
+    },
+    {
+      "id": "M075407",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WindowSummedRowPowEqAdditiveSystemPowerSum",
+      "missing_imports": []
+    },
+    {
+      "id": "M075423",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.WittVectorGaussNormUltrametricStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M075451",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ZValuationsAtIndicesTorusEqOneIffStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M075453",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ZValuationsAtIndicesTorusSurjectiveStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M075719",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.AssociatedPrimeLocalizationDvrStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M076076",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CharpolyDvdPowFinrankOfAevalEqZeroStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M076081",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CharpolyMulBaseChangeFiniteMapOfIsPushoutStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M076083",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.CharpolyRevMulCharpolyRevEqOneOfTracePowAddEqZerStatement",
+      "missing_imports": [
+        "M076082"
+      ]
+    },
+    {
+      "id": "M076709",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DetPowerProductMulMemDelWShiftIffStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M076715",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DiagMatLower",
+      "missing_imports": [
+        "M003177"
+      ]
+    },
+    {
+      "id": "M076734",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DifferentiableAtCoordinateCauchyIntegral",
+      "missing_imports": []
+    },
+    {
+      "id": "M076756",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.DiscrMulMemOfIsIntegral",
+      "missing_imports": [
+        "M080171"
+      ]
+    },
+    {
+      "id": "M076932",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.EqZeroOfCoefficientsSeparatingCharactersEqZero",
+      "missing_imports": []
+    },
+    {
+      "id": "M077918",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLeftInverseOfFibrewiseInjectiveStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M077965",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLinearIndependentRatBasisAdaptedSubspaceStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M078002",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsLocalSectionOfIsIntegralElemNormalScheme",
+      "missing_imports": []
+    },
+    {
+      "id": "M078779",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FactorThroughGenericFiberStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M078834",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.FiniteDimensionalEigenspaceSumSqInvariantFieldsA",
+      "missing_imports": [
+        "M081939"
+      ]
+    },
+    {
+      "id": "M079321",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.GlueOfDenseOpenImmersion",
+      "missing_imports": []
+    },
+    {
+      "id": "M079550",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.HeisenbergSmoothVectorDerivativeCalculus",
+      "missing_imports": [
+        "M080117"
+      ]
+    },
+    {
+      "id": "M080009",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsIntegrallyClosedOfConductorNonZeroDivisorOfAssStatement",
+      "missing_imports": [
+        "M080008"
+      ]
+    },
+    {
+      "id": "M080018",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsIsoOfIsProperOfExistsUniqueFieldPointOfIsInteg",
+      "missing_imports": []
+    },
+    {
+      "id": "M080048",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.IsNoetherianRingAdicCompletionOfNoetherian",
+      "missing_imports": []
+    },
+    {
+      "id": "M080345",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LatticeThetaAsymptotics",
+      "missing_imports": []
+    },
+    {
+      "id": "M080702",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.LocalizationAtPrimeIsDiscreteValuationRingOfHeigStatement",
+      "missing_imports": [
+        "M080701"
+      ]
+    },
+    {
+      "id": "M080806",
+      "module": "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.MeasurePreservingCompEquiv",
+      "missing_imports": []
+    }
+  ],
+  "pruned": [
+    "M075717",
+    "M077052",
+    "M077646",
+    "M078686"
+  ]
+}
