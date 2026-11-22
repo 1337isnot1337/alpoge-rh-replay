@@ -3,5 +3,5 @@
   "source_sha256": "96cb9f1b12f0286e7f32d990907fadbde74514a659f1436aaf41400a6c0dcd7e",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "unchanged"
+  "notes": "Proof-only: use MvPolynomial.ringKrullDim_of_isNoetherianRing_of_finite at two sites. Mathlib generalized the old lemma name to ENat.card; the finite-case lemma has the original Nat.card conclusion, and both proofs already have the required Finite instance. All 14 theorem statements, assumptions, maps, imports, attributes, options and limits are unchanged."
 }
