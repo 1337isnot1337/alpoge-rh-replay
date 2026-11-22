@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasSumAbsNormCpowUnitClassesPartialZeta",
+  "source_sha256": "7475b2ca9cdbf6e65977ff055b4ab2171c6ebd2c38f2c184a974cd07d2fe94e9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the generator equality directly after simplification, which now applies spanSingleton_eq_zero_iff."
+}
