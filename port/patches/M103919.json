@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.OrdinaryHeckeCharacters.FnIndep",
+  "source_sha256": "2a4399b68e836eb287cde15d63344cf36ad456fd38021c5be415abfaabc4784f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the current lemma for evaluating a finite sum of finitely supported functions."
+}

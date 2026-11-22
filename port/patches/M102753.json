@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebraHeight.OfDetToDet",
+  "source_sha256": "d43af07eaef2fd79c414f687fadc9d310ec1cd149e731216f4078354d42a35a9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the current tensor-product induction principle with pure-tensor and addition cases."
+}

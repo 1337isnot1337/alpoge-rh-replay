@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.EisensteinModularTowers.ExistsIsLocallyConstantLiftToGeometricGalois",
+  "source_sha256": "804ad2f8d9ed5a1e09066775885d8ce756af8d0d769cfea699271e85ea9c65f8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
