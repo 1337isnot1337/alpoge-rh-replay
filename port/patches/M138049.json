@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.CompactAveragingSplitting.EigenvectorLifting.SiegelTransportAn",
+  "source_sha256": "912309c4d952e672de5bdccd6fc59f391f1f7500becffe5ae1f6be7775cb4224",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

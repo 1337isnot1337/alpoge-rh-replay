@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.ValAtRestrict",
+  "source_sha256": "2fc584930c41f9786958fd1c07873226aad2cbdaac74be9e2a0ca0ca4c1e3dae",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

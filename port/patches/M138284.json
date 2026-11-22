@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.BtOrderOfPoints",
+  "source_sha256": "0ee2f3b60f83ba554dc606e08d9409cf394ada9f2c5fb511f75e36d9b54aa088",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed finite-sum subtype coercion lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

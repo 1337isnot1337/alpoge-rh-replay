@@ -1,0 +1,8 @@
+{
+  "module": "Development.DiscreteGroups.PiInvariants.CompactSupportTwists.TsumEnormEq",
+  "source_sha256": "464cb2479b1d7de4ffa25c04befa894ed81ebf521bed428f338ad979a6ff1791",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use MemLp.aestronglyMeasurable: target MemLp is finite eLpNorm, which already implies measurability. The same measurable hypothesis follows without any additional assumption. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

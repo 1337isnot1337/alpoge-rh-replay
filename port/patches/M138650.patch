@@ -1,0 +1,13 @@
+--- a/src/Development/WeilBound/CoreStatements/HomogeneousNonvanishing/TwGXi.lean
++++ b/src/Development/WeilBound/CoreStatements/HomogeneousNonvanishing/TwGXi.lean
+@@ -86,7 +86,9 @@
+         by_contra h
+         exact hne m h (by simpa using hm))
+     have hpQ : (p : 𝓞 E) ∈ Q := by
+-      have : (p : ℤ) ∈ Q.comap (algebraMap ℤ (𝓞 E)) := hQp ▸ Ideal.mem_span_singleton_self _
++      have : (p : ℤ) ∈ Q.under ℤ := by
++        rw [hQp]
++        exact Ideal.mem_span_singleton_self _
+       simpa using this
+     have hQ0 : Q ≠ ⊥ := by
+       rintro rfl

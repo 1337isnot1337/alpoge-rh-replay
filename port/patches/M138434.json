@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.KftwoExt",
+  "source_sha256": "d38feaae381048a3058aa2f6d2af0f02a31b23386d5670d4e549c8c8f6a55044",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Expose the under ideal as a comap before using the injective map kernel identity. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

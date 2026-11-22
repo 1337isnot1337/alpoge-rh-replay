@@ -1,0 +1,48 @@
+--- a/src/Development/WeilBound/CoreStatements/AutomorphicKernels/SiegelWeilFormula/ThetaSplitting/ActUDiagMonomial.lean
++++ b/src/Development/WeilBound/CoreStatements/AutomorphicKernels/SiegelWeilFormula/ThetaSplitting/ActUDiagMonomial.lean
+@@ -24,14 +24,14 @@
+ 
+ theorem lin_lf (φ : PX m n →ₗ[ℂ] PX m n) (b : Bool) (N M : Matrix (Fin m) (Fin m) ℂ) (a : Fin m) (i : Fin n)
+     (h : ∀ c, φ (X (c, i, b)) = lf b N c i) : φ (lf b M a i) = lf b (M * N) a i := by
+-  simp only [lf, C_mul', map_sum, map_smul, h, Finset.smul_sum, smul_smul, mul_apply]
++  simp only [lf, C_mul', map_sum, map_smul, h, Finset.smul_sum, smul_smul, Matrix.mul_apply]
+   rw [Finset.sum_comm]
+   refine Finset.sum_congr rfl fun e _ => ?_
+   rw [Finset.sum_mul]
+   exact Finset.sum_congr rfl fun x _ => C_mul'.symm
+ 
+ theorem mstar_mul (A B : Matrix (Fin m) (Fin m) ℂ) : (A * B).map star = A.map star * B.map star := by
+-  ext i j; simp [mul_apply, star_sum]
++  ext i j; simp [Matrix.mul_apply, star_sum]
+ 
+ theorem am_mul (b : Bool) (A B : Matrix (Fin m) (Fin m) ℂ) : am b (A * B) = am b A * am b B := by
+   cases b <;> simp [am, mstar_mul]
+@@ -51,7 +51,7 @@
+   have h : actU (n := n) (1 : Matrix (Fin m) (Fin m) ℂ) = AlgHom.id ℂ _ := by
+     apply MvPolynomial.algHom_ext
+     rintro ⟨a, i, b⟩
+-    cases b <;> simp [actU, one_apply]
++    cases b <;> simp [actU, Matrix.one_apply]
+   rw [h]; rfl
+ 
+ theorem evX_actU (u : Matrix (Fin m) (Fin m) ℂ) (P : PX m n) (v : Matrix (Fin m) (Fin n) ℂ) :
+@@ -62,8 +62,8 @@
+     apply MvPolynomial.algHom_ext
+     rintro ⟨a, i, b⟩
+     cases b
+-    · simp [actU, mul_apply]
+-    · simp [actU, mul_apply, star_sum]
++    · simp [actU, Matrix.mul_apply]
++    · simp [actU, Matrix.mul_apply, star_sum]
+   have e := congrArg (fun f : PX m n →ₐ[ℂ] ℂ => f P) h
+   simp only [AlgHom.comp_apply, coe_aeval_eq_eval] at e
+   exact e
+@@ -241,7 +241,7 @@
+       rw [kill_charged Λ hΛ s a ha, mul_zero]
+   rw [P.as_sum, map_sum, map_sum]
+   refine Finset.sum_eq_zero fun s _ => ?_
+-  rw [show (monomial s (coeff s P) : PX m n) = coeff s P • monomial s 1 by rw [smul_monomial, smul_eq_mul, mul_one],
++  rw [show (monomial s (P.coeff s) : PX m n) = P.coeff s • monomial s 1 by rw [smul_monomial, smul_eq_mul, mul_one],
+     (dY (diagonal d)).map_smul, map_smul, hmon, smul_zero]
+ 
+ theorem kill_herm (Λ : PX m n →ₗ[ℂ] ℂ) (hΛ : ∀ u ∈ unitaryGroup (Fin m) ℂ, ∀ P, Λ (actU u P) = Λ P)

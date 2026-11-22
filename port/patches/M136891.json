@@ -1,0 +1,8 @@
+{
+  "module": "Development.ResolutionOfSingularities.Foundations.Blowup.AffineBlowupProper",
+  "source_sha256": "9cfbb17b539c6d8b5323e578171ac9d2f597f4361a1ff481d4dc5e6189f6899f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

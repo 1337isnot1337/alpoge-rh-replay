@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.HomogeneousNonvanishing.TwGXi",
+  "source_sha256": "deb78c3387b09b157d1f74cce090060ef26a7ea4b766b61488649872be40669b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target under-ideal representation in the proof-local membership equality. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0209-lean436-20261121/packet-result.json"
+}

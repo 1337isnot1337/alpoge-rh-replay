@@ -1,0 +1,11 @@
+--- a/src/Development/EtaleCohomology/EtaleSheaves/LeafFinValPf.lean
++++ b/src/Development/EtaleCohomology/EtaleSheaves/LeafFinValPf.lean
+@@ -40,7 +40,7 @@
+     (fun v => ⟨v.asIdeal, v.isPrime, ⟨?_⟩⟩) ?_
+   · have := v.isMaximal
+     exact (IsLocalRing.eq_maximalIdeal
+-      (Ideal.isMaximal_comap_of_isIntegral_of_isMaximal (R := A) v.asIdeal)).symm
++      (Ideal.isMaximal_under_of_isIntegral_of_isMaximal (R := A) v.asIdeal)).symm
+   · intro v w h
+     exact HeightOneSpectrum.ext (congrArg Subtype.val h)
+ 
