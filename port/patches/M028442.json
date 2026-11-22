@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimitiveAnnihilator",
+  "source_sha256": "111adc8cf1474fe8f51795664cea52c558854ca57c793063662e6f5f282498bf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Ideal.eq_bot_of_comap_eq_bot` now states its goal with `Ideal.under`, so rewrite with `Ideal.under_def` before `RingHom.comap_ker`."
+}

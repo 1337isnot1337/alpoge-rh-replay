@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPowEqOneIsUnitOneSubPow",
+  "source_sha256": "827d0d9c44440f1da14250e64eaa69ddb2aab44eb778d18c9c28046aadc5eaf1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Polynomial.eval_finset_sum` is now `Polynomial.eval_finsetSum`."
+}
