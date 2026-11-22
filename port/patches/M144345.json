@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.EllipticTorsion.JetsCube",
+  "source_sha256": "6095c7d13b658576c59e45cab0ea8cfe067c64a995a82d062ab305f07319736b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Lets the current univariate and multivariate derivations infer the coefficient ring from the original series."
+}

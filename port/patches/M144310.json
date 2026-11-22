@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.EllipticTorsion.EllipticTorsionProofs.CubeThree",
+  "source_sha256": "92b6233184ccc4811aef8d7e87a0757fdc1539059056ba765b7a150da9c34707",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

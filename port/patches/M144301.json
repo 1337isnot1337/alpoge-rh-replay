@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.EisensteinCokernelLengths.RationalTailBound",
+  "source_sha256": "88589fe0a32f1ffa6d3af6c082bc4f39a2d19c26bf201cbf77c06ac3056719ec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.EllipticTorsion.UnitCancel",
+  "source_sha256": "fc87b2ff3212c8970858b7c23edd58d7517a3fceb96f7e23329848a666c5860f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

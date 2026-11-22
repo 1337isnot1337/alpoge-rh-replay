@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GL3MeanSquares.HookFormulaTorsion.HasDerivAtLogSquareAntiderivative",
+  "source_sha256": "3d3f103f4a20ae2b15391e93623205707eff19aefd641a2baf8d15d8d8272586",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.DoubleCosetMeasures.LowerUnipotentOrbits.MeasureUniformizerMatrixSetMulCard",
+  "source_sha256": "102be18d94d2984e50af8987f25b47af08b9f552900951134bee6f2140037582",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the current continuity lemma for multiplication by a constant and proves matrix measurability through its entries."
+}

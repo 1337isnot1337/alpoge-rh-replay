@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FilteredPoleLength.LocalDescentLevels.LengthBaseChange",
+  "source_sha256": "0ab190210825ba9de92c94d2bd047fcdc86f4ff5441e501815c894a9e37a4866",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

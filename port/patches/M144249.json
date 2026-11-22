@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.DistinguishedUnitIdeals.DistinguishedOrderProofs.SplittingOfPositiveLevel",
+  "source_sha256": "1ee8d6f80a4e327c1556f865330c1a37515bc129b6c614549c694f005604b77f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

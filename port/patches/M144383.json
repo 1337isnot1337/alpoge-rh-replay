@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FilteredPoleLength.ReducedBasisBounds.LocalStepLevelsExt",
+  "source_sha256": "f3c963b49b5864bfcd3a518deb1c0051d9d806f305068e838c053b3f5720065e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

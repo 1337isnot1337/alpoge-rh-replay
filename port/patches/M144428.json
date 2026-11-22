@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FlagUnipotentLattices.MinkowskiFactorialBounds.DetMulEqSumProdMulDetSubmatrix",
+  "source_sha256": "18f2894df3dfb614019d522f91717151fff21c98d718887394b1ce9390d7c4d7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the current monotonicity lemma for products of nonnegative factors."
+}

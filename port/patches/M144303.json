@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.EllipticTorsion.ChangeIntegral",
+  "source_sha256": "599ba8ef115597f26d4164a6578df1de0ed874c596b15d0aa702732018869ebc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.DistinguishedUnitIdeals.DistinguishedOrderProofs.BaseGamC",
+  "source_sha256": "f40670e9c1b329c7c5727313181a130b68a04ec88307e03f079c8651ff1c0277",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

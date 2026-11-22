@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GL3MeanSquares.HookFormulaTorsion.FourierCommutesHeckeScalar",
+  "source_sha256": "7eec55590e4b25d94d52d888899b3b8fe1d1faf652496ac829c80cfb0ea0c9dd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.DistinguishedUnitIdeals.DistinguishedOrderProofs.LinExtEqZeroOfMemExt",
+  "source_sha256": "c61d2fbfa67be2f6fa9eeb14fbeeb325e1d143100874d735c849e8acf62a82e5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

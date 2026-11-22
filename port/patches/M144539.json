@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FrobeniusBaseCase.FrobeniusBaseCaseProofs.ChainI",
+  "source_sha256": "26efa02c4079796783a4479f04c219006edf78bd4b90ed49fab48ddb02939446",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

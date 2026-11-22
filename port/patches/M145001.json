@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.GL3MeanSquares.HookFormulaTorsion.SquareMomentArithmeticBound",
+  "source_sha256": "34311d2fdc88aa505ebb68153a0790b597149483d396b4fde10b0b4a3ef2eaa6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

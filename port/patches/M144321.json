@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.EllipticTorsion.EllipticTorsionProofs.IntegralPSBserSubOne",
+  "source_sha256": "a5ef325e6e4597b45bcdfae8731d3fbe6da59318cd93ad3978d8082bdc49b1d6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Infers the derivation coefficient ring and proves coefficientwise that the current logarithmic derivative is the pinned signed geometric series."
+}

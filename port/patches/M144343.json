@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.EllipticTorsion.FormalGroupPointsTorsionFree",
+  "source_sha256": "818adc8a7da3858613e8d1c1d94b6af0755af12f7b2d33ac0ba5165dbc4d12e1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

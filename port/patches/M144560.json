@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FrobeniusOrbits.DiscrMaximalRealCyclotomic",
+  "source_sha256": "ee0921b4423d7f92fa117c4cb5c57064391f54c2d5a6999381db0ff9af7fa9f9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FormalDegreeBessel.FormalDegreeRatio.BFCell",
+  "source_sha256": "1a90616b480ac7d8e0f9fbcf6d1fd25f9701f477a05677379397d2e04c950005",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualifies the protected lemma that expands a matrix product entry into a finite sum."
+}

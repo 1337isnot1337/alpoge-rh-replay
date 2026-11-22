@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.FockGram.SymGramPosSemidef",
+  "source_sha256": "2f8225dff54c2bbd96aba3772f8ac8ffe74e566b4863a24c9124056adc19bfe8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
