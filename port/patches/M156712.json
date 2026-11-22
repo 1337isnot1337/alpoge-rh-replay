@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SquarefreeRootShift.SumLeProdOfTwoLe",
+  "source_sha256": "7c22be07e5d26dbde62a77197c8d6e8e54d0c69e73efc317d213dcd4785b1bd8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Relate computational p-adic valuations to multiplicity at the existing lifting-the-exponent and factorization steps, preserving all exported statements. Supply the base and argument to the power-divisibility theorem. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0278-lean436-20261121/packet-result.json"
+}

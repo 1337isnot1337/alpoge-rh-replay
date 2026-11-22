@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SquarefreeDivisorDegree.FibreNonempty",
+  "source_sha256": "dbeb2c33893acd6a25ef7d29c4db5744d83cd385b71d0e57b725261621ef7f7c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0278-lean436-20261121/packet-result.json"
+}

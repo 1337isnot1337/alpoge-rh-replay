@@ -1,0 +1,11 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SquarefreeRootsInjective/WitBase.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SquarefreeRootsInjective/WitBase.lean
+@@ -37,7 +37,7 @@
+     x ^ (ℓ ^ padicValNat ℓ N) = (primeToPart ℓ x) ^ (ℓ ^ padicValNat ℓ N) := by
+   have hx : 0 < orderOf x := Nat.pos_of_ne_zero fun h => hN (Nat.eq_zero_of_zero_dvd (h ▸ hxN))
+   have hle : (orderOf x).factorization ℓ ≤ padicValNat ℓ N := by
+-    rw [← Nat.factorization_def N hℓ]
++    rw [Nat.padicValNat_def, ← Nat.factorization_def N hℓ]
+     exact (Nat.factorization_le_iff_dvd hx.ne' hN).2 hxN ℓ
+   have key := pow_eq_part_pow ℓ hℓ x hx
+   rw [← Nat.add_sub_cancel' hle, pow_add, pow_mul, pow_mul, key]

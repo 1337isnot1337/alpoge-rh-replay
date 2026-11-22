@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerVolume.LocDensFFIn",
+  "source_sha256": "4f4a879a9888c5c5ee49a8aaffef34542cefa9e259494bd2f75850bcff100be3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current polynomial nonzero and degree lemmas with the same exponent bound. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0278-lean436-20261121/packet-result.json"
+}

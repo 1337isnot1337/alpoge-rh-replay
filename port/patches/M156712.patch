@@ -1,0 +1,30 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SquarefreeRootShift/SumLeProdOfTwoLe.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SquarefreeRootShift/SumLeProdOfTwoLe.lean
+@@ -127,6 +127,7 @@
+   have e3 : (2 : ℤ) = ((2 : ℕ) : ℤ) := by norm_num
+   rw [e1, e2, e3, Int.natCast_emultiplicity, Int.natCast_emultiplicity,
+     Int.natCast_emultiplicity] at key
++  simp only [Nat.padicValNat_def]
+   rw [← Nat.cast_inj (R := ℕ∞), Nat.cast_add, padicValNat_eq_emultiplicity hne1,
+     padicValNat_eq_emultiplicity hne2, padicValNat_eq_emultiplicity hk]
+   exact key
+@@ -140,7 +141,7 @@
+     exact (Fact.out : p.Prime).one_lt.ne' (Nat.dvd_one.mp h2)
+   have := padicValNat.pow_sub_pow (p := p) (x := g) (y := 1) hp (by omega) (by simpa using hpg)
+     hx hk
+-  simpa using this
++  simpa only [Nat.padicValNat_def, one_pow] using this
+ 
+ theorem pp_lte {p g k : ℕ} (hp : p.Prime) (hg : 2 ≤ g) (h4 : 4 ∣ g - 1) (hpg : p ∣ g - 1)
+     (hk : k ≠ 0) : p ^ (g ^ k - 1).factorization p ≤ k * p ^ (g - 1).factorization p := by
+@@ -149,8 +150,9 @@
+     rcases hp.eq_two_or_odd' with rfl | hodd
+     · exact lte_two hg h4 hk
+     · exact lte_odd hodd hg hpg hk
++  simp only [Nat.padicValNat_def] at hv
+   rw [Nat.factorization_def _ hp, Nat.factorization_def _ hp, hv, pow_add, mul_comm k]
+-  exact Nat.mul_le_mul_left _ (Nat.le_of_dvd (Nat.pos_of_ne_zero hk) pow_padicValNat_dvd)
++  exact Nat.mul_le_mul_left _ (Nat.le_of_dvd (Nat.pos_of_ne_zero hk) (pow_multiplicity_dvd p k))
+ 
+ theorem arith2 {g k : ℕ} (hg : 2 ≤ g) (h4 : 4 ∣ g - 1) (hk : k ≠ 0) :
+     ppSum (g ^ k - 1) ≤ k * ppSum (g - 1) + (g ^ k - 1) / (g - 1) := by
