@@ -155,4 +155,6 @@
 | [@f10etclawdbot](https://github.com/f10etclawdbot) | [M106068](https://github.com/rohanarun/alpoge-rh-replay/issues/30095#issuecomment-7075115603) | Pending review |
 | [@1337isnot1337](https://github.com/1337isnot1337) | [M165304](https://github.com/rohanarun/alpoge-rh-replay/issues/30096#issuecomment-7075113007) | Pending review |
 | [@hipotures](https://github.com/hipotures) | [P2723](https://github.com/rohanarun/alpoge-rh-replay/issues/30112#issuecomment-7075198759) | Pending review |
+| [@JamCh01](https://github.com/JamCh01) | [P2717](https://github.com/rohanarun/alpoge-rh-replay/issues/30124#issuecomment-7075240100) | Pending review |
 | [@emsi](https://github.com/emsi) | [P2749](https://github.com/rohanarun/alpoge-rh-replay/issues/30125#issuecomment-7075213348) | Pending review |
+| [@f10etclawdbot](https://github.com/f10etclawdbot) | [M106106](https://github.com/rohanarun/alpoge-rh-replay/issues/30159#issuecomment-7075220402) | Pending review |

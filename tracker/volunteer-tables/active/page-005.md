@@ -196,4 +196,7 @@
 | [@BenCaunt](https://github.com/BenCaunt) | [M154515](https://github.com/rohanarun/alpoge-rh-replay/issues/30000) | Claimed |
 | [@BenCaunt](https://github.com/BenCaunt) | [M126615](https://github.com/rohanarun/alpoge-rh-replay/issues/30041) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P2739](https://github.com/rohanarun/alpoge-rh-replay/issues/30109) | Claimed |
-| [@JamCh01](https://github.com/JamCh01) | [P2717](https://github.com/rohanarun/alpoge-rh-replay/issues/30124) | Claimed |
+| [@hipotures](https://github.com/hipotures) | [P2728](https://github.com/rohanarun/alpoge-rh-replay/issues/30128) | Claimed |
+| [@emsi](https://github.com/emsi) | [P2741](https://github.com/rohanarun/alpoge-rh-replay/issues/30161) | Claimed |
+| [@t-choudhury](https://github.com/t-choudhury) | [M153025](https://github.com/rohanarun/alpoge-rh-replay/issues/30162) | Claimed |
+| [@t-choudhury](https://github.com/t-choudhury) | [M039712](https://github.com/rohanarun/alpoge-rh-replay/issues/30164) | Claimed |
