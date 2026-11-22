@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.KummerAlgebraZmodTorsorBijectiveStatement",
+  "source_sha256": "d028c14d53f5da58f23be6d3b3c81af4f0b38663b88b562d6a5a7a317c05e4c8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Target multilinear maps take a scalar ring homomorphism; the identity on B gives the same original B-multilinearity in the exported statement.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0183-lean436-20261121/packet-result.json"
+}

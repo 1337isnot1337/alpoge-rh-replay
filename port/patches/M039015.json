@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsSplittingSplitOm",
+  "source_sha256": "164dcc653721984842e81e17876384648ad3d8927945c2440bd68903d8da1d0f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify matrix multiplication expansion to distinguish it from function multiplication. Keep scalar-action simplification distinct from qualified matrix multiplication. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0183-lean436-20261121/packet-result.json"
+}
