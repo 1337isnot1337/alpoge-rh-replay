@@ -55,6 +55,9 @@ class ClaimsGraphQL:
                 time.sleep(GATEWAY_DELAY * (attempt + 1))
 
     def snapshot(self):
+        started = time.monotonic()
+        issue_pages = 0
+        scanned_issues = 0
         query = '''
         query($owner:String!, $repo:String!, $after:String) {
           repository(owner:$owner, name:$repo) {
@@ -74,6 +77,8 @@ class ClaimsGraphQL:
             data = self.read_query(query, owner=self.owner, repo=self.repo, after=after)['repository']
             self.labels = {name: data[key]['id'] for name, key in zip(LABELS, ('claim', 'granted', 'conflict'))}
             issue_page = data['issues']
+            issue_pages += 1
+            scanned_issues += len(issue_page['nodes'])
             for issue in issue_page['nodes']:
                 labels = issue['labels']['nodes']
                 if not (re.fullmatch(r'Claim (P\d{4}|M\d{6})', issue['title'])
@@ -94,6 +99,10 @@ class ClaimsGraphQL:
             if not info['hasNextPage']:
                 break
             after = info['endCursor']
+        elapsed = time.monotonic() - started
+        print(f'Claim snapshot read {scanned_issues} open issues across {issue_pages} issue pages '
+              f'in {elapsed:.1f}s, retaining {len(self.issues)} claims and {len(self.comments)} bot comments.',
+              flush=True)
 
     def history(self, issue):
         page = issue['comments']
