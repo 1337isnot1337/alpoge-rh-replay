@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.EventuallyCompSideMulEq",
+  "source_sha256": "953529a791973133d4d4dc6d99e232c953e28664c2d1a18da2502600c00ad3a0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
