@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M089616"
+  ],
+  "started_utc": "2026-11-21T19:51:17.725063+00:00",
+  "ended_utc": "2026-11-21T19:51:35.622771+00:00",
+  "elapsed_seconds": 17.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5338812
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.ThetaDistributionHeisenbergInvariant:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1f7be78b02c943b50306b61be28cf7526ae2bcebae8eeb45d1c7e2b0883dfa3c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.IsNilpotentOfTracePow",
+    "Development.AbelianVarietyTheory.Proofs.SatakeParameters.TraceMulEq",
+    "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.TracePowEqZeroOfLeDim",
+    "ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.UniNilp"
+  ],
+  "objects": {
+    "M089616": "ad3c10ac95c93c6c3bd9a08276439738831e48303e14ba74a21bdeec568e1293"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "39e343d5d247b7d421cfd8f54f528e3f5c9730ff043f63f961408885c8bcefbd",
+  "packet": "M089616",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25369#issuecomment-7068339008",
+  "reviewed_utc": "2026-11-21T20:02:16.567037+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,12 @@
+--- a/src/PositivityTheory/AutomorphicForms/PublishedInputs/JacquetLanglands/TorusKernels/HyperbolicBallVolumeProof.lean
++++ b/src/PositivityTheory/AutomorphicForms/PublishedInputs/JacquetLanglands/TorusKernels/HyperbolicBallVolumeProof.lean
+@@ -96,7 +96,8 @@
+   have h2 : Measurable fun w : P => |w.1.im| :=
+     (Complex.continuous_im.comp continuous_subtype_val).abs.measurable
+   unfold H
+-  exact ENNReal.measurable_ofReal.comp ((h1.pow_const 2).mul (measurable_const.add (h2.pow_const _)))
++  exact ENNReal.measurable_ofReal.comp
++    ((h1.pow_const 2).mul (measurable_const.add (h2.pow_const (-(1 / 2 : ℝ)))))
+ 
+ def B (y : ℝ) : ℝ≥0∞ :=
+   if 0 < y then ENNReal.ofReal (16 * y ^ 2 / ((1 + y) ^ 2) * (1 + y ^ (-(1 / 2 : ℝ)))) * (ENNReal.ofReal y⁻¹ * A) else 0

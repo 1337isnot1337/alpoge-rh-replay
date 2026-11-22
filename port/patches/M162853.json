@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.PartialDifferential.SobolevEmbedding",
+  "source_sha256": "f3207e9a28800d6f3329745339aaed9cd7eac2d4005ab7928f2f0b34e91046c4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

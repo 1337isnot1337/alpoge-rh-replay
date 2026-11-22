@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsSmulMemSupLattice",
+  "source_sha256": "88e5a0ebae7667c2f4347809a18b10af91aa85bb1d900c642336be8508c9bcec",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.SharpRestriction.ValuationFrobeniusEpsilon.LeastPrimeTwists.QuotientShiftIrreducible.NoetherianQuotientCalc.RuleDev",
+  "source_sha256": "6d28abe585e969beb4d6cfe56563f9aa88b526ca5ce516f95fe55252455ab297",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Apply Eq.symm as a separate tactic before Submodule.span_eq_bot, so Lean 4.36 infers the generating set before elaborating the membership projection. This changes only the proof of good_bot; no definition, theorem statement, or instance is changed."
+}

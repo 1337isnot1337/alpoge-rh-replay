@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.MemPowSub",
+  "source_sha256": "3146e059772d4dfdb1394013e8461327f87c8c62e67a54571e54488818ba1173",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

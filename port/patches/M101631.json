@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.ResNormal",
+  "source_sha256": "602ccec140a65b98abf192cfa4bc42ff140ecab95db839682987de0e80352cd8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: express the existing empty intersection as disjointness for the updated compactness lemma, and apply its finite-subfamily disjointness conclusion to the same witness. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0131-lean436-20261121/packet-result.json"
+}

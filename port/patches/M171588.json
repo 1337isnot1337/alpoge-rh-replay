@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ClassFieldTheory.GlobalClassField.AsGabLimB",
+  "source_sha256": "2e20143c9601397731fbe503cba993c7d8fa6ce5a0e5c7df5f1a394168b48ee4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

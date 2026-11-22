@@ -1,0 +1,19 @@
+--- a/src/Formalism/PeriodIntegrals/OrbitalBoundsConclusion/PhProdConv.lean
++++ b/src/Formalism/PeriodIntegrals/OrbitalBoundsConclusion/PhProdConv.lean
+@@ -3,7 +3,7 @@
+ 
+ theorem isConvIdempotent_pi : PI.PhProdConv.ProdConv := by
+   intro ι _ _ G _ _ _ _ _ _ μ _ _ _ ph m hint hconv
+-  refine ⟨MeasureTheory.Integrable.fintype_prod_dep hint, ?_⟩
++  refine ⟨MeasureTheory.Integrable.fintype_prod_dep (f := ph) (μ := μ) hint, ?_⟩
+   unfold PI.PhProdConv.PhConv
+   refine ⟨?_, fun g => ?_, fun x y => ?_⟩
+   · exact Finset.prod_eq_one (fun i _ => (hconv i).1)
+@@ -22,6 +22,7 @@
+         ∂(MeasureTheory.Measure.pi μ) = (∏ i, m i (x i)) * ∏ i, ph i (y i)
+     rw [key]
+     refine ⟨MeasureTheory.Integrable.fintype_prod_dep
++      (f := fun i h => ph i h * ph i ((x i)⁻¹ * h⁻¹ * y i)) (μ := μ)
+       (fun i => ((hconv i).2.2 (x i) (y i)).1), ?_⟩
+     rw [MeasureTheory.integral_fintype_prod_eq_prod (𝕜 := ℂ)
+       (fun i (h : G i) => ph i h * ph i ((x i)⁻¹ * h⁻¹ * y i)), ← Finset.prod_mul_distrib]

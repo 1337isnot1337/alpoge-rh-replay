@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.NontrivialTransvection",
+  "source_sha256": "774b9512154d43cca9e12b3038dcd1dc1fcf44a19abc18c8bd536d313b12b28e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

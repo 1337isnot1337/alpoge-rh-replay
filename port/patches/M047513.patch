@@ -1,0 +1,15 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/RatIntOfIsIntegral.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/RatIntOfIsIntegral.lean
+@@ -21,10 +21,10 @@
+     hy.map (c.toRingHom.toIntAlgHom)
+   have hinj : Function.Injective (algebraMap ℚ L) := (algebraMap ℚ L).injective
+   have htI : IsIntegral ℤ ((t : ℚ)) := by
+-    rw [← isIntegral_algebraMap_iff hinj, ← ht]
++    rw [← isIntegral_algebraMap_iff (B := L), ← ht]
+     exact hx.mul (hcint _ hx)
+   have ht'I : IsIntegral ℤ ((t' : ℚ)) := by
+-    rw [← isIntegral_algebraMap_iff hinj, ← ht']
++    rw [← isIntegral_algebraMap_iff (B := L), ← ht']
+     exact hxi.mul (hcint _ hxi)
+   obtain ⟨n, hn⟩ := LKTorus.rat_int_of_isIntegral htI
+   obtain ⟨m, hm⟩ := LKTorus.rat_int_of_isIntegral ht'I

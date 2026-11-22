@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WedgeBoundFinitePlaces",
+  "source_sha256": "02bb15e8cf5bbb4704f2ea81e8c8b1acca635519f517fd6d00034a7e72ad04bd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify matrix entry lemmas to disambiguate them from pointwise operation lemmas."
+}

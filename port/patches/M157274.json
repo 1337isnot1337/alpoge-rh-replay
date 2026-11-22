@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnipotentCost.ZIterB",
+  "source_sha256": "6d081eb6e6da9da08720fa1e615f50145e3f9cc52182aff84a9ab0935d0d7002",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the matrix representation equivalence directly and raise typeclass heartbeats only for cF_bound."
+}

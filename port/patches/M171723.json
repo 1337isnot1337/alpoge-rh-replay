@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.CyclicRecursion",
+  "source_sha256": "515fda2ec309bd7f542d3f0a20b9d67f357064eadbb7de4d0330c49a0abc5050",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

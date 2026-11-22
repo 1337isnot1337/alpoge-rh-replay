@@ -1,0 +1,10 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/MultiplicityOne/JRankOne.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/DiscreteSeries/MultiplicityOne/JRankOne.lean
+@@ -23,7 +23,6 @@
+     have hst : star (κ y x0 / (Real.sqrt r : ℂ)) = κ x0 y / (Real.sqrt r : ℂ) := by
+       rw [star_div₀, ← hherm x0 y]
+       congr 1
+-      exact Complex.conj_ofReal _
+     rw [hst, div_mul_div_comm, hs, ← hk0, hmin x x0 x0 y, mul_div_assoc, div_self hx0, mul_one]
+   · push_neg at h
+     refine ⟨fun _ => 0, fun x y => ?_⟩

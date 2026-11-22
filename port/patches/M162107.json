@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WachModuleLifts.WachModuleProofs.LemmaCSharpG",
+  "source_sha256": "d5b831299bc343affb9a39d7c199b8806906ed98f1939b2325730f060f791e0a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: apply the remaining normalization tactics only to goals still open after congruence. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0159-lean436-20261121/packet-result.json"
+}

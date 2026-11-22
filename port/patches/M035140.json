@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HeightOneContractionOfEtalePrime",
+  "source_sha256": "e858ded378e0e89f93319780367d82023e824af4264129767a3c4fa79670da9c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

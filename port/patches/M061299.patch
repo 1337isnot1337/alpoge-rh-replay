@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/DerivativeCyclotomicMul.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/DerivativeCyclotomicMul.lean
+@@ -94,7 +94,7 @@
+     rw [hC, (aeval_dual _ _ _).2]; simp
+   let L : (R[X][X] ⧸ I) →ₗ[R] S :=
+     { toFun := fun z => (ψ z).snd
+-      map_add' := fun a b => by rw [map_add, snd_add]
++      map_add' := fun a b => by rw [RingHom.map_add, snd_add]
+       map_smul' := fun c z => by
+         rw [Algebra.smul_def, hleib, halg, smul_zero, add_zero, RingHom.id_apply, algebraMap_smul] }
+   refine ⟨Derivation.mk' L hleib, ?_, ?_⟩

@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/GrSpan.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/GrSpan.lean
+@@ -97,7 +97,7 @@
+     rw [MvPowerSeries.isUnit_iff_constantCoeff]
+     simpa [MvPowerSeries.algebraMap_apply] using key _
+   haveI hQA : IsHausdorff (m.map (algebraMap Λ (MvPowerSeries σ Λ)))
+-      (MvPowerSeries σ Λ ⧸ Ideal.span (Set.range w)) := IsHausdorff.of_le_jacobson _ _ hjac
++      (MvPowerSeries σ Λ ⧸ Ideal.span (Set.range w)) := IsHausdorff.of_le_jacobson _ _ (by simpa only [Ideal.jacobson_bot] using hjac)
+   haveI : IsHausdorff m (MvPowerSeries σ Λ ⧸ Ideal.span (Set.range w)) :=
+     IsHausdorff.of_map (S := MvPowerSeries σ Λ)
+       (J := m.map (algebraMap Λ (MvPowerSeries σ Λ))) (hIJ := le_rfl)

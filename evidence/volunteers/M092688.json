@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M092688"
+  ],
+  "started_utc": "2026-11-21T19:47:34.312290+00:00",
+  "ended_utc": "2026-11-21T19:47:58.825305+00:00",
+  "elapsed_seconds": 24.5,
+  "host": {
+    "cpu_count": 32,
+    "mem_total_kib": 32388268,
+    "peak_child_rss_kib": 8233608
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.TwistedOperators.DarbouxModelAlgebraicVectorsLeAdelicSchwartzStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "dbad619ae9ff78fd653e657555f87fa644dfc359cdfca6da92cf4906d561b04e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.DarbouxModelAlgebraicVectorsLeAdelicSchwartz",
+    "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsRtensOp"
+  ],
+  "objects": {
+    "M092688": "3e50b888ca3dd2bb841416b404e6f8d4bfad5d2b42ac4b13db7ff69aac99cdcb"
+  },
+  "bundle_sha256": "6882673b7ca006f3181ad6d65e4793b0c9d34eed25ed04ae0bbdcb6ac2fedc5c",
+  "packet": "M092688",
+  "contributor": "loremcdmx",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25362#issuecomment-7068306171",
+  "reviewed_utc": "2026-11-21T20:02:19.582785+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

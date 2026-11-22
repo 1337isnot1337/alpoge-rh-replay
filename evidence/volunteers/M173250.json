@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    "M173250"
+  ],
+  "started_utc": "2026-11-21T19:19:45.510755+00:00",
+  "ended_utc": "2026-11-21T19:19:52.562429+00:00",
+  "elapsed_seconds": 7.1,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16078420,
+    "peak_child_rss_kib": 7230476
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.Hadamard:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5627c2412b3b0cc5c202509f55f39f4ca451aa8cadfb35f5e2d48f1a5ad4a3b6",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M173250": "dff25215f3aaa24f8758452b93c032caedbacae3d3748e6a5d87985742e658af"
+  },
+  "project_root": "/home/runner/work/_temp/replay/lean",
+  "bundle_sha256": "4bdfd8bad255150272e554718de3ced878bde64442ce1d1ab6b6398f4b173e13",
+  "run": "https://github.com/JanSimeonMetzger/alpoge-rh-replay/actions/runs/44940144077",
+  "packet": "M173250",
+  "contributor": "JanSimeonMetzger",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25055#issuecomment-7067950972",
+  "reviewed_utc": "2026-11-21T20:02:52.558656+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

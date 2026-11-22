@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.RiemannFormHermitianLattice",
+  "source_sha256": "b063cc24eb642256f5ef7dbcfa23182b69f6369336c400a4b7d8d0b5ddcafe4c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: qualify Matrix.mul_apply to expand matrix multiplication rather than an unrelated multiplication-application lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0142-lean436-20261121/packet-result.json"
+}

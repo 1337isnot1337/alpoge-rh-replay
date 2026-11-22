@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.NormOrdLengthResidue",
+  "source_sha256": "cb486bd3d47e21cefb451b1a155e99f055f4c0713fa77192fe7c3bf110ac8190",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

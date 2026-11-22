@@ -1,0 +1,20 @@
+--- a/src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/FewLargeParts.lean
++++ b/src/Formalism/GaloisIrreducibility/GaloisIrreducibilityProofs/FewLargeParts.lean
+@@ -18,7 +18,7 @@
+       have hl'p : l'.Prime := hS l' (Finset.mem_insert_of_mem hl')
+       apply Nat.Coprime.pow
+       exact (Nat.coprime_primes hlp hl'p).2 (fun h => hl (h ▸ hl'))
+-    · exact pow_padicValNat_dvd
++    · simpa only [Nat.padicValNat_def] using (pow_multiplicity_dvd l n)
+     · exact ih'
+ 
+ theorem few_large_cycle_parts : FewLargeParts := by
+@@ -27,7 +27,7 @@
+   have hle : (∏ l ∈ S, l ^ padicValNat l n) ≤ n := Nat.le_of_dvd (by omega) hdvd
+   calc B ^ S.card = ∏ _l ∈ S, B := by rw [Finset.prod_const]
+     _ < ∏ l ∈ S, ((l ^ padicValNat l n : ℕ) : ℝ) :=
+-        Finset.prod_lt_prod_of_nonempty (fun _ _ => hB) hlarge hne
++        Finset.prod_lt_prod_of_nonempty₀ (fun _ _ => hB) hlarge hne
+     _ = ((∏ l ∈ S, l ^ padicValNat l n : ℕ) : ℝ) := by rw [Nat.cast_prod]
+     _ ≤ n := by exact_mod_cast hle
+ 

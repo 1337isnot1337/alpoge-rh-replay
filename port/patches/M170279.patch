@@ -1,0 +1,20 @@
+--- a/src/GroundTheory/ProfiniteCohomology/DiscreteModules/IsDiscreteRepIffForallExistsOpenNormalSubgroup.lean
++++ b/src/GroundTheory/ProfiniteCohomology/DiscreteModules/IsDiscreteRepIffForallExistsOpenNormalSubgroup.lean
+@@ -44,7 +44,7 @@
+ 
+ theorem stabilizer_eq_top_of_isTrivial [ρ.IsTrivial] (a : V) : stabilizer ρ a = ⊤ := by
+   ext g
+-  simp
++  simp [Representation.isTrivial_apply]
+ 
+ end Stabilizer
+ 
+@@ -231,7 +231,7 @@
+     exact IsDiscreteRep.of_surjective f ((Rep.epi_iff_surjective f).1 ‹_›)
+ 
+ instance : (isDiscreteRep.{w} k G).ContainsZero where
+-  exists_zero := ⟨Rep.trivial k G PUnit, (Rep.isZero_iff k G _).2 inferInstance,
++  exists_zero := ⟨Rep.trivial k G PUnit, (Rep.isZero_iff _).2 inferInstance,
+     IsDiscreteRep.of_subsingleton _⟩
+ 
+ instance : (isDiscreteRep.{w} k G).IsClosedUnderFiniteProducts where

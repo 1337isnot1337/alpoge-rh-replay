@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.DivisorFrames.ValuationRingOfFiniteDominating",
+  "source_sha256": "702aeada2a0165b5bce689e2a7b4b50e7ce3cf3ab346265cd37efd1a2a182654",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0135-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.MahlerMeasure.MahlerMeasureProofs.LevelAct",
+  "source_sha256": "04bc23248b1cf921b3f6f0d414e7e89365eb5e37699a1ee824dc3a24b2e4de5e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation: use polynomial.coeff index instead of the former coeff index polynomial. All polynomial expressions, indices, scalar types and theorem hypotheses/conclusions are preserved.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

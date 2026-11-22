@@ -1,0 +1,13 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/WeilGroupCharacters/RepAlg.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/WeilGroupCharacters/RepAlg.lean
+@@ -109,8 +109,8 @@
+ 
+ def CH : Set (MonoidAlgebra A G) :=
+   {z | ∃ (m : ℕ) (y : Fin m → MonoidAlgebra A G) (β : Fin m →₀ ℕ), ∀ g : G,
+-    z.coeff g = MvPolynomial.coeff β
+-      ((Polynomial.aeval (gen y) ((D.map (MvPolynomial.C : A →+* MvPolynomial (Fin m) A)).chi (gen y))).coeff g)}
++    z.coeff g =
++      ((Polynomial.aeval (gen y) ((D.map (MvPolynomial.C : A →+* MvPolynomial (Fin m) A)).chi (gen y))).coeff g).coeff β}
+ 
+ variable [TopologicalSpace G]
+ 

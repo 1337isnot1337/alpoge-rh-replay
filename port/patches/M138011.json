@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.CommonZeroEvaluation.EventuallyRoot",
+  "source_sha256": "93ebb7a2af440805d2b74f50094d4a634405d8bc420046622600b3bcb0d33bff",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`Polynomial.finset_sum_coeff` is now `Polynomial.finsetSum_coeff`."
+}

@@ -1,0 +1,19 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ExactAndKerBaseChangeOfForallResidueField.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ExactAndKerBaseChangeOfForallResidueField.lean
+@@ -85,7 +85,7 @@
+       (LinearMap.lTensor_surjective _ (Submodule.mkQ_surjective _))
+       (lTensor_exact _ l.exact_map_mkQ_range (Submodule.mkQ_surjective _)) (hloc m)
+     infer_instance
+-  have := (Exact.split_tfae l.exact_map_mkQ_range hinj (Submodule.mkQ_surjective _)).out 0 1
++  have := (Exact.split_tfae l.exact_map_mkQ_range hinj (Submodule.mkQ_surjective _)).out 1 2
+   rw [← this]
+   exact Module.projective_lifting_property _ _ (Submodule.mkQ_surjective _)
+ 
+@@ -285,7 +285,6 @@
+       change TensorProduct.congr e (LinearEquiv.refl R M) (s • x) =
+         s • TensorProduct.congr e (LinearEquiv.refl R M) x
+       induction x with
+-      | zero => simp
+       | tmul a m => rfl
+       | add x y hx hy => rw [smul_add, map_add, map_add, hx, hy, smul_add] }
+ 

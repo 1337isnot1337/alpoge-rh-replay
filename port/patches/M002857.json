@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Counterexamples.JetSurvey.LowKAddStrictAnti",
+  "source_sha256": "e3a4bba56cadcbcd54cd1243a7669d12db2b15232664834e60e58197705679d8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

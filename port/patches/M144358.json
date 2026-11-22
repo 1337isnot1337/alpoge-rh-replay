@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FilteredPoleLength.LocalDescentLevels.IntegralMulExpNegSq",
+  "source_sha256": "3d3e4a046a524d7f4e03330df550aa0f2ef863e81ec6ef5bf02a488d3a1d3266",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

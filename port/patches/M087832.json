@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.GeneralLinearTransitiveOnLatticesOverDVR",
+  "source_sha256": "2cdfa125a4d741757def80fc684818178c45ab6557eeae9fc87d5ec2c862b914",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent lattice interface: the pinned IsLattice included spanning the ambient K-module, expressed by IsFullLattice on the target and by the landed Lat and glMap_isLattice ports."
+}

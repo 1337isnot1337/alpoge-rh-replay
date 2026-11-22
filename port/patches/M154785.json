@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelOrder.ValNatCastEqOne",
+  "source_sha256": "f244cf57f3e81cf28a2a651a5e93d71844179b8d4891572f683b7dff05fd7655",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed coprimality lemma for multiplication on the left."
+}

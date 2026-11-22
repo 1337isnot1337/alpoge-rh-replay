@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FrobeniusOrbits.Statement",
+  "source_sha256": "be6f07f572e21568d41366bad89e578cb716b1bd4622b9eea7b195063465abad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

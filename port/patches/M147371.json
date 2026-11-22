@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LagrangeIdealLifts.CocyclePolynomialDivision.CoeffSumXPowMulExpand",
+  "source_sha256": "76827f17865c3bc2f0a0dbdada32fc3c5ad6bec9d2b8501f6bdc975402dea191",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0148-lean436-20261121/packet-result.json"
+}

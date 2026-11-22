@@ -1,0 +1,10 @@
+--- a/src/GroundTheory/GlobalFields/CyclotomicCharacters/Character.lean
++++ b/src/GroundTheory/GlobalFields/CyclotomicCharacters/Character.lean
+@@ -18,7 +18,6 @@
+   let i : Algebra ℚ ℚ̄ := AlgebraicClosure.instAlgebra ℚ (R := ℚ)
+   have h : IsAlgClosure ℚ ℚ̄ := inferInstance
+   convert h
+-  exact Subsingleton.elim _ _
+ 
+ section FixingSubgroup
+ 

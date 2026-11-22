@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ClassFieldTheory.LocalClassField.UnitsHerbrandB",
+  "source_sha256": "b9a83418a8e532e6561e72b6a8dfad364f59f121847d6e4f10475dbd9f559530",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

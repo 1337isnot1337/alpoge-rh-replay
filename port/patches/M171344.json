@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.AnalyticCharts.Osgood",
+  "source_sha256": "3e7cc00d1bd88c51edbf2894c57a8e426bb3a90475ae875a54b7b3b435b95871",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

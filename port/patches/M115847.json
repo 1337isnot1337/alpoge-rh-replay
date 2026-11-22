@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.IsOpenStabOfMemNhds",
+  "source_sha256": "7d66a30afc252e8e03503458bb9948dd678da77b9fbce204f85d32bf46064e1c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

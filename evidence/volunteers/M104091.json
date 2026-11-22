@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M104091"
+  ],
+  "started_utc": "2026-11-21T19:55:30.381905+00:00",
+  "ended_utc": "2026-11-21T19:56:25.780009+00:00",
+  "elapsed_seconds": 55.4,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5544776
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Hnf:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2b17f24e850ee5911631883ae12b93e015bf9db66d2ec21ff04200f971e7c5e6",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.NerveFaceClosed",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Hnfeq",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Hnfone",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.Scinv",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.SmulNeZeroLat",
+    "Development.AutomorphicArithmetic.AutomorphicVarieties.HermiteNormalForms.SmulStrictMono"
+  ],
+  "objects": {
+    "M104091": "afb3126063abe367aad9fdf33335fe8bd3ff3493f2eedc6da1d9c19825abe457"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "0a12b0c8cd8c4674df2204ff2889042adfc0fc77356a1e4719f887bb23ad5a35",
+  "packet": "M104091",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25418#issuecomment-7068398717",
+  "reviewed_utc": "2026-11-21T20:02:11.268510+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.CmValuesMinPadicValBound",
+  "source_sha256": "e639b7f51a358209427e5191beab14a774aae76a10d158fd749db149c5a1af3f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite via Nat.padicValNat_def and padicValNat_self to bridge multiplicity and padicValNat"
+}

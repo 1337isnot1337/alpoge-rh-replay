@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.LinearDescent",
+  "source_sha256": "6aebfd3da78b21813fcddf128386453611969205066e1fa11084d7965ea3eb9c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

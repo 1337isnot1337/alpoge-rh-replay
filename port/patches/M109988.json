@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.CyclotomicBounds.RootsOfUnity.ResidueEisenstein",
+  "source_sha256": "a0e5edc66bf94e502177e5ab0f264dab1e8c2cce1e4ed5e647fc7b10340b1fdb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: replace MonoidHom.finset_prod_apply with its target API MonoidHom.finsetProd_apply, retaining the existing witnesses and mathematical operation. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0135-lean436-20261121/packet-result.json"
+}

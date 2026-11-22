@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RepresentationsEqualTracesConjugate",
+  "source_sha256": "e26927a50b30ef163f596a1907ab8d0558211353b3768d02d5829dfac2592d4d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

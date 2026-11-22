@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.TensorProductTheorem.MatrixCoeff",
+  "source_sha256": "392bbd7ec74cc391e4aac428bcfe866aebd99ce6a419d90a6def07d020fd13e0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

@@ -1,0 +1,1065 @@
+{
+  "target": "P0152",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/27447",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "67be0d3a90f3d5df3291a2452a12ed387d2080e0",
+  "port_record_commit": "97e95967d7651ba4123f4e8a9f588e79c46cdb31",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "2b2b819b6895d8c89b9273ee4d598f96993982656e039894042ce28165fa936c",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AlgebraicValuesFinite.NormEqOneOfForallZpow Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.GrpTube Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.IsUnimodular Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.SdTest Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.TupPlace Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArtinSchreierRoots.ExistsRootOC Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BesselDerivatives.ContDiffOnDirectionalDerivative Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BiadditiveCubes.ConstantCoeffLogEqZero Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BiadditivePadicLinear.Cont2 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BigCellConjugation.Monomial Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BochnerTheorem.RMKComplex Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CMTraceSurjective.IsTrMulConjOfMem Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterExtension.UnitsComplexExistsZpow Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterIdempotents.Development Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ChebyshevPrimeBounds.PrimeCountBoundOf Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CircleGaugeAction.DglApplyOff Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CoefficientBaseChange.CoordBaseChange Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CommutingMultiplicity.SchurStep Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGelfandAverage.AvgStep Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGroupIntegrability.InstCompactUG Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ConstantCoefficientKernel.RingHomCoeffZero Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ConvolutionProjection.ConvProjOf Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountNonIntegrality.T2SpaceOfNonarchimedeanLocalField Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.CTEqConjTranspose Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CubeFormalIdentities.CoeffPowMulPowEqZero Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CubicExponentialFactor.NormAddLeOne Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantIdentity.StNormOne Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelFiniteness.ExistsNatMulMemFracFam Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelOrder.ValNatCastEqOne Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DiagonalPadicSubstitution.SubstOps Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DiagonalRank.DetOneSubPNe Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run1 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run2 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run3 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run4 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.ThetaDiff Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EmbeddingPermutations.CjEq Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EmbeddingTraceSum.Imports Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.GoodHeightExists Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.LogDerivBoundOfZeroFree Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialIntegrality.Development Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorLower.RealStep Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorRays.DetOfOffdiag Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialTriangular.SortedSpec Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiltrationLength.LengthQuotLeOfKerLe Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteExtensionTopology.Imports Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteOrderReduction.Bridge Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.ConjTMulMulApply Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.HasSignatureExistsNonneg Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.NatAddZeroFinOne Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.SumMulCommMulVec Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockHarmonicSplitting.FockInnerSelfReNonneg Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockRaisingLowering.SameSign Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupPoints.ConstantCoeffLogEqZero Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupPoints.ConstantCoeffPsubst Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupSplitting.Development Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupTriangles.CoeffSubstUpdZero Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FourSquareQuaternions.FourSqOf Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FunctionalEquationSeries.Development Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaloisTorsionConjugacy.WpBridge Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianDualMeasure.DualMeasure Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianUniqueness.MulMApply",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 62 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M154253",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AlgebraicValuesFinite.NormEqOneOfForallZpow",
+      "source_sha256": "fe2d4bf35918f1e8ca39de2ae95cdedb2b3676e186ce6b91f98d845d849d7a46",
+      "patch_sha256": null,
+      "built_source_sha256": "fe2d4bf35918f1e8ca39de2ae95cdedb2b3676e186ce6b91f98d845d849d7a46",
+      "olean_sha256": "e6f43cc7a07fca3dba3ef823c0fbba95d827816cadf3f9d7974bb9ed3518b813",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154334",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.GrpTube",
+      "source_sha256": "49cec0c9b704187dff8ed384ff87da96283fe258c3b14d4dd66d7bf565a0d9ff",
+      "patch_sha256": null,
+      "built_source_sha256": "49cec0c9b704187dff8ed384ff87da96283fe258c3b14d4dd66d7bf565a0d9ff",
+      "olean_sha256": "90d8e87177b49ea2076c2275f14dcd9d52ce342c0aa08ed65bb96376087dd90c",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154345",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.IsUnimodular",
+      "source_sha256": "337b5a93c9ffdd6606e61d5780a83b5140d884b6c5c111d09571969201cd9036",
+      "patch_sha256": null,
+      "built_source_sha256": "337b5a93c9ffdd6606e61d5780a83b5140d884b6c5c111d09571969201cd9036",
+      "olean_sha256": "63e956a6744d74ad043f4063c5f311fa5c1de39e5f787fcdf25612f83834bff8",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154400",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.SdTest",
+      "source_sha256": "fa54895f0a91b2bf87e25a7df8eac475ee1333d816a8172f45c4cc7cb9e1fbd6",
+      "patch_sha256": null,
+      "built_source_sha256": "fa54895f0a91b2bf87e25a7df8eac475ee1333d816a8172f45c4cc7cb9e1fbd6",
+      "olean_sha256": "a384453148ed04428a356bef3a3cde089476b35e0333463df2a4d5556d193c13",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154409",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.TupPlace",
+      "source_sha256": "0377bb86c2bd7ce94d3650c3882d4412e3ae77b80bfe7a4a15f52602c8efe50c",
+      "patch_sha256": null,
+      "built_source_sha256": "0377bb86c2bd7ce94d3650c3882d4412e3ae77b80bfe7a4a15f52602c8efe50c",
+      "olean_sha256": "ce0e6dc1dab8665e0c44418ca0ebd211e1b12292a9348a812a9c401b03a162a5",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154418",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArtinSchreierRoots.ExistsRootOC",
+      "source_sha256": "69da7e57ae7af2be6c45da4895636a51bebbf59e2cbaf116c3eb37355c1cc43a",
+      "patch_sha256": null,
+      "built_source_sha256": "69da7e57ae7af2be6c45da4895636a51bebbf59e2cbaf116c3eb37355c1cc43a",
+      "olean_sha256": "e499449519cf950ede6d5f9e1b9796839fa25f3b8f2c91af5db829ce7fd290e5",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154439",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BesselDerivatives.ContDiffOnDirectionalDerivative",
+      "source_sha256": "1463997d3135a39209be3eba41e0ecfe403c590bd60d0e18ffa0af4a7679c60c",
+      "patch_sha256": null,
+      "built_source_sha256": "1463997d3135a39209be3eba41e0ecfe403c590bd60d0e18ffa0af4a7679c60c",
+      "olean_sha256": "d03254e7ea05877a4b44e33ce6c99f736d597c4f6e7ba98d9baf1067d382389c",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154468",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BiadditiveCubes.ConstantCoeffLogEqZero",
+      "source_sha256": "43fe66d3462707410b084e4641bf0089711610b1ddd8ad2f4b3b089b70138c21",
+      "patch_sha256": null,
+      "built_source_sha256": "43fe66d3462707410b084e4641bf0089711610b1ddd8ad2f4b3b089b70138c21",
+      "olean_sha256": "5248dd7048a2160ddd949530188d30d619493ff479cde5a2eca69210df3fc7cd",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154471",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BiadditivePadicLinear.Cont2",
+      "source_sha256": "98820b93d57cffa8022982d9a6e4c5041e1709bef98cded58f59e24ca323036e",
+      "patch_sha256": null,
+      "built_source_sha256": "98820b93d57cffa8022982d9a6e4c5041e1709bef98cded58f59e24ca323036e",
+      "olean_sha256": "beeef798294e3fc3a7c3d6f8aed31f6c1f912a488a510ff87312b17c9be63a6b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154472",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BigCellConjugation.Monomial",
+      "source_sha256": "46f6bd5596dab4e7e8503a21de341d538f95320d9c7d987a5e3ce624d4ed915a",
+      "patch_sha256": null,
+      "built_source_sha256": "46f6bd5596dab4e7e8503a21de341d538f95320d9c7d987a5e3ce624d4ed915a",
+      "olean_sha256": "f1f6c67f31cf6072fba24ca4c0b170db952e960a45581564385b8214a45f1450",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154475",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BochnerTheorem.RMKComplex",
+      "source_sha256": "a4d769503419c4ff4042cb2c7aa3e1cd8f61fe9d237292d5246652fe89a2141a",
+      "patch_sha256": null,
+      "built_source_sha256": "a4d769503419c4ff4042cb2c7aa3e1cd8f61fe9d237292d5246652fe89a2141a",
+      "olean_sha256": "ada462cbee62b0167c22ba2837965ea7f62e68562643048c85c0fc6b9f393cb7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154500",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CMTraceSurjective.IsTrMulConjOfMem",
+      "source_sha256": "215b5f26fda03c0efe91fd0ae117e017a67ca44aa0b14c76075608d4f45a7a24",
+      "patch_sha256": null,
+      "built_source_sha256": "215b5f26fda03c0efe91fd0ae117e017a67ca44aa0b14c76075608d4f45a7a24",
+      "olean_sha256": "2b1a42e0497b2359b48d30aacc3057b4ff9106d40334d2b36e049c4470cc1c5b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154524",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterExtension.UnitsComplexExistsZpow",
+      "source_sha256": "f0159505bfe98464ab082b752928ca88ac389e3dc50fbd48f9d0ab931fe5fa33",
+      "patch_sha256": null,
+      "built_source_sha256": "f0159505bfe98464ab082b752928ca88ac389e3dc50fbd48f9d0ab931fe5fa33",
+      "olean_sha256": "30ccd3192ea984c69d36907b90801c591bc5f11e6ed675140588acebda2e7776",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154527",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterIdempotents.Development",
+      "source_sha256": "743129248ee287ba86bec5f3e8b9fb5aedb0b92fc337fde5c9c674d48e4167e0",
+      "patch_sha256": null,
+      "built_source_sha256": "743129248ee287ba86bec5f3e8b9fb5aedb0b92fc337fde5c9c674d48e4167e0",
+      "olean_sha256": "ff760cac6fe0b44d4d69debb0ca037f82086fec8884366069ac80b6eb9698963",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154534",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ChebyshevPrimeBounds.PrimeCountBoundOf",
+      "source_sha256": "896e213244cc7ad62846de42cc5e25ec57a4c883a7b985403c7543101e5cb0f9",
+      "patch_sha256": null,
+      "built_source_sha256": "896e213244cc7ad62846de42cc5e25ec57a4c883a7b985403c7543101e5cb0f9",
+      "olean_sha256": "285ae25bf694e98fbc30719f1be5aa896836bb9cad99ce1c6818f3ebf4ddcb39",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154539",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CircleGaugeAction.DglApplyOff",
+      "source_sha256": "68aada9b886a6618c2f9472d105d8f2f97ffae0485968320e2f0b40ea56a7557",
+      "patch_sha256": null,
+      "built_source_sha256": "68aada9b886a6618c2f9472d105d8f2f97ffae0485968320e2f0b40ea56a7557",
+      "olean_sha256": "fcd3d796015a11063968fc9a183b3660397ef005caa9c05952aa6a7435febed7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154542",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CoefficientBaseChange.CoordBaseChange",
+      "source_sha256": "1561af2227e301cd6cd54d9d0c771a42e12c18746c9daf9875c4f8e764bdec39",
+      "patch_sha256": null,
+      "built_source_sha256": "1561af2227e301cd6cd54d9d0c771a42e12c18746c9daf9875c4f8e764bdec39",
+      "olean_sha256": "6b1fad701ede41550491c439ec96c2d086f5462cc2ada446dc4932188fce541d",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154548",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CommutingMultiplicity.SchurStep",
+      "source_sha256": "6213d1e640e95d45a1e8c30f1ace98a040d9c8f9fed44b9f60c96c75905be724",
+      "patch_sha256": null,
+      "built_source_sha256": "6213d1e640e95d45a1e8c30f1ace98a040d9c8f9fed44b9f60c96c75905be724",
+      "olean_sha256": "d111acedcf70b6cb8964bd902bc87c967ae2ec8e0dfc38ce5999f0142e3c6261",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154550",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGelfandAverage.AvgStep",
+      "source_sha256": "f2856bcfb1c1787263ea60912889b2651cfaaaa40c4fdfb51b0cb5a5cac69aec",
+      "patch_sha256": null,
+      "built_source_sha256": "f2856bcfb1c1787263ea60912889b2651cfaaaa40c4fdfb51b0cb5a5cac69aec",
+      "olean_sha256": "88fb019dd16e5f6eea8d503ebb419a02f56b85560ecbe2571c0e2fd595243be0",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154555",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGroupIntegrability.InstCompactUG",
+      "source_sha256": "cd220fe8b6f77f5d3748c81f72911936b43da14c6e7b13f79ba3957eea8496c4",
+      "patch_sha256": "92288e19bd8421d0fe2ad7cff8debfb33e5907990cbcb1f7f9a68f765380edee",
+      "built_source_sha256": "41136d0de1a3657451a70f9fe96c11409b36d681bff18198ace91addf2c77eb4",
+      "olean_sha256": "a00fc4366ee395a6bfde6c2c99a1ad1e628d52dcb0f1a182e5f5770a403d97ae",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154585",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ConstantCoefficientKernel.RingHomCoeffZero",
+      "source_sha256": "bd187a5a594343c3ffebb7a0022fcc738605a37a4253dde4c93dee436d8af6f6",
+      "patch_sha256": null,
+      "built_source_sha256": "bd187a5a594343c3ffebb7a0022fcc738605a37a4253dde4c93dee436d8af6f6",
+      "olean_sha256": "109518cf640ecd81afc3feb0a043effd15ea92cbea33e8b482a0b50f95a43a0e",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154586",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ConvolutionProjection.ConvProjOf",
+      "source_sha256": "ec0db5f2152525a04ea5f302308a026166982c8d131aa3963fde96d08c84f9b6",
+      "patch_sha256": null,
+      "built_source_sha256": "ec0db5f2152525a04ea5f302308a026166982c8d131aa3963fde96d08c84f9b6",
+      "olean_sha256": "27e8a91e346d44442489b716541bd871285c1c73d8f593b4738b53f7f7dcdaa2",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154603",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountNonIntegrality.T2SpaceOfNonarchimedeanLocalField",
+      "source_sha256": "33a7d8b5253e9711fe878574db53b9f83f0ac5446dad327dc0a01b97c95b5888",
+      "patch_sha256": null,
+      "built_source_sha256": "33a7d8b5253e9711fe878574db53b9f83f0ac5446dad327dc0a01b97c95b5888",
+      "olean_sha256": "d4ec021758796cede892ba0f9b5801cd12d440a9c90297abafc3ad4535bcf2d4",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154614",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.CTEqConjTranspose",
+      "source_sha256": "3c9e66e1755abfd58b04543738f2205f41d41dbce0831354326c51b515432332",
+      "patch_sha256": null,
+      "built_source_sha256": "3c9e66e1755abfd58b04543738f2205f41d41dbce0831354326c51b515432332",
+      "olean_sha256": "8f8c6db291a945520f6303be57bd417e6a9bde76b117984c7db69b5ce5b43cc2",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154748",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CubeFormalIdentities.CoeffPowMulPowEqZero",
+      "source_sha256": "b3614ba46a158a36ca7768622bf798e7e93af07f12300c180c492ae019b20e22",
+      "patch_sha256": null,
+      "built_source_sha256": "b3614ba46a158a36ca7768622bf798e7e93af07f12300c180c492ae019b20e22",
+      "olean_sha256": "0f4843f594cf8bd62f6b079f70e09bf1d3f7350bb00c9079e6585f57be2ccdc2",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154751",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CubicExponentialFactor.NormAddLeOne",
+      "source_sha256": "3cf5bdefead1353e9542990f0bcf5b46881cb92f6cccc0319a242a91dac77529",
+      "patch_sha256": null,
+      "built_source_sha256": "3cf5bdefead1353e9542990f0bcf5b46881cb92f6cccc0319a242a91dac77529",
+      "olean_sha256": "8e689363a392c500fe334a0f40e4740728f386df987333e989e511ddb725b2cb",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154781",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantIdentity.StNormOne",
+      "source_sha256": "871d69ae54562d2a740e51f5a5fc611c4a904c2135fb421d53898669efc5204a",
+      "patch_sha256": null,
+      "built_source_sha256": "871d69ae54562d2a740e51f5a5fc611c4a904c2135fb421d53898669efc5204a",
+      "olean_sha256": "b12de8104c6a0c70c58ecc96b636c35337b4e3bf5540c4efa509aa4e28b6953b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154783",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelFiniteness.ExistsNatMulMemFracFam",
+      "source_sha256": "0e851dd38a0583b946e64f692d008932dee6944923cd4db195d3c377747bb5ca",
+      "patch_sha256": null,
+      "built_source_sha256": "0e851dd38a0583b946e64f692d008932dee6944923cd4db195d3c377747bb5ca",
+      "olean_sha256": "e8cd42a39c1cde212ff8e06e6906ce23d60df384e0fac1cecbb556c9ff0e537f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154785",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelOrder.ValNatCastEqOne",
+      "source_sha256": "f244cf57f3e81cf28a2a651a5e93d71844179b8d4891572f683b7dff05fd7655",
+      "patch_sha256": "00975797a589709240d4253a94d4ab2e7c8d397132ca792415cf27fe6602083d",
+      "built_source_sha256": "0f1663a918a9d2d77f5843e143921cea285ddd8249f11a42af842249ce3f10e0",
+      "olean_sha256": "1c8925afa371cda65438c5aaaa6f3b28c3cd6b2d06da24afb03096939f3a77cf",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154791",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DiagonalPadicSubstitution.SubstOps",
+      "source_sha256": "af07e838a0377d4073fec15f71c0e7680667b358e34e05bbe8e847727c1ad6a8",
+      "patch_sha256": null,
+      "built_source_sha256": "af07e838a0377d4073fec15f71c0e7680667b358e34e05bbe8e847727c1ad6a8",
+      "olean_sha256": "6c950434c01972cfc54e86ed080b8a83b24cbb6f162159a98b24ce97b73641d4",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154793",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DiagonalRank.DetOneSubPNe",
+      "source_sha256": "d3f9c3fed3ce225e22ac767e5d8d2340742a76e9ae8b0e7841aaa1c81fdad30d",
+      "patch_sha256": "42af30df0d63f3098f58e09bb4c4b7ce7f59e70893a26a4f4e38e578c95348e1",
+      "built_source_sha256": "32383dce6f821e3f8653202fa422bd2beeee49fc1748c4e2646fa1ecf1f3c759",
+      "olean_sha256": "318c19495dce227cb1ba7d1895bf399425d2659283023792f360df2a8f374d67",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154808",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run1",
+      "source_sha256": "a3f7bd442f936d7d317a7f11a730a3d58f22d8546e30178bf9ed2772f6166f57",
+      "patch_sha256": null,
+      "built_source_sha256": "a3f7bd442f936d7d317a7f11a730a3d58f22d8546e30178bf9ed2772f6166f57",
+      "olean_sha256": "344f0ec0a7000cf68dfb7fb90eea542badf2dcd0e092eefd6f21993315bdec85",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154809",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run2",
+      "source_sha256": "19284282a954b56fb26a1985decbce111e8bac5d17b42f790eb80f1c3d847568",
+      "patch_sha256": null,
+      "built_source_sha256": "19284282a954b56fb26a1985decbce111e8bac5d17b42f790eb80f1c3d847568",
+      "olean_sha256": "3404d308a5125c0f77d7ae98469e71ea32998bff7722de3d98621b7b898ea044",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154810",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run3",
+      "source_sha256": "7f0c9b85a43a4bba215d86b366035ac02bacbdbae09463bebe3a8f637c08f27e",
+      "patch_sha256": null,
+      "built_source_sha256": "7f0c9b85a43a4bba215d86b366035ac02bacbdbae09463bebe3a8f637c08f27e",
+      "olean_sha256": "37a774fcb46ae44f08642f1c09c03d6d65a929d8561eda20893dd71982940144",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154811",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run4",
+      "source_sha256": "d03e71c8f02c7cd083feba55b9489bb650dde0fa5cc2ff4a7d6430ed1c8268a7",
+      "patch_sha256": null,
+      "built_source_sha256": "d03e71c8f02c7cd083feba55b9489bb650dde0fa5cc2ff4a7d6430ed1c8268a7",
+      "olean_sha256": "2d3892b82e757f39c89bf6a268d2000d6ae8c9795058ad8e51f23bbdebc29e47",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154814",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.ThetaDiff",
+      "source_sha256": "8abf52e34b519ee129982da3f2c1b7efdb8b35af0a4038d4460db1601c581513",
+      "patch_sha256": null,
+      "built_source_sha256": "8abf52e34b519ee129982da3f2c1b7efdb8b35af0a4038d4460db1601c581513",
+      "olean_sha256": "3511fa441e35e190605a48cd5f55f508006ac3a35843d576ac0bf11b1e12644e",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154838",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EmbeddingPermutations.CjEq",
+      "source_sha256": "9d4091520d4af1760bc6a467e131f46ad7b5550cd27cb6ff645b12f44c3edeb4",
+      "patch_sha256": null,
+      "built_source_sha256": "9d4091520d4af1760bc6a467e131f46ad7b5550cd27cb6ff645b12f44c3edeb4",
+      "olean_sha256": "caf2332c4b86c7d8b4a049e897311c5117c6b9516d8212fc8578f3caba78a156",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154839",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EmbeddingTraceSum.Imports",
+      "source_sha256": "03defee8a1da94490be23ee3998962a4098e6b2f004f28f61d8996df615ed4a0",
+      "patch_sha256": null,
+      "built_source_sha256": "03defee8a1da94490be23ee3998962a4098e6b2f004f28f61d8996df615ed4a0",
+      "olean_sha256": "c919c3f49c726926ec31cdfa765271e58189d7afd8fce7915de8d10e103232af",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154849",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.GoodHeightExists",
+      "source_sha256": "6021320654ad07c3c1a892b4c187c7a48fa4c79f466b97c0aa8b6b26610e5719",
+      "patch_sha256": null,
+      "built_source_sha256": "6021320654ad07c3c1a892b4c187c7a48fa4c79f466b97c0aa8b6b26610e5719",
+      "olean_sha256": "9199cd647683a53a3ed4ebcb5644e4c5f7416d7501e37ec692299d8b3031df1d",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154863",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.LogDerivBoundOfZeroFree",
+      "source_sha256": "463ddcefb592ee00aa5c7bd14268c8a161288afbbb1ca9c1cabd7538e760d3d0",
+      "patch_sha256": null,
+      "built_source_sha256": "463ddcefb592ee00aa5c7bd14268c8a161288afbbb1ca9c1cabd7538e760d3d0",
+      "olean_sha256": "c591adeecd293fb2e120892f19f629fef268cf1c23b61b2c0d625296ef016f34",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154883",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialIntegrality.Development",
+      "source_sha256": "79593ce00354fb19f63a6b8c5120f606faf47ac6e4915e0e6edafc462ff514e8",
+      "patch_sha256": null,
+      "built_source_sha256": "79593ce00354fb19f63a6b8c5120f606faf47ac6e4915e0e6edafc462ff514e8",
+      "olean_sha256": "3af957036f42670860580f4dd08b7258c6f2725d01b2189b8848ae5cdb193a92",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154888",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorLower.RealStep",
+      "source_sha256": "a0d31cf4f751dee5ba4c6f93094bbdba68641bf133c317452bf48453b420e721",
+      "patch_sha256": null,
+      "built_source_sha256": "a0d31cf4f751dee5ba4c6f93094bbdba68641bf133c317452bf48453b420e721",
+      "olean_sha256": "a6cf8fea3472f35bea756d27d5c8c6c34de9e4bc99e518702e1183fa249503a2",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154889",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorRays.DetOfOffdiag",
+      "source_sha256": "9a4b83d0bcab7616bfd27a3b163fa467d94831280a0fc10857ad03410f2ff8e1",
+      "patch_sha256": null,
+      "built_source_sha256": "9a4b83d0bcab7616bfd27a3b163fa467d94831280a0fc10857ad03410f2ff8e1",
+      "olean_sha256": "34d674eddddeaf26d9f2423a43a1b36dd6d188e9cedab2bdf51e6b13cf5f33e2",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154895",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialTriangular.SortedSpec",
+      "source_sha256": "780a1f32fae9f0474b7d8dc3488b9b064d3144c48ce95591ec5e7bb6664385eb",
+      "patch_sha256": null,
+      "built_source_sha256": "780a1f32fae9f0474b7d8dc3488b9b064d3144c48ce95591ec5e7bb6664385eb",
+      "olean_sha256": "c3cc0d679d298261811f695494457957f1d895996725e65f2203265e71bd6749",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154899",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiltrationLength.LengthQuotLeOfKerLe",
+      "source_sha256": "3874aa67f237b74202ccfb80ee9b73d708f721045d09c56d9cbb717d5ab31d94",
+      "patch_sha256": null,
+      "built_source_sha256": "3874aa67f237b74202ccfb80ee9b73d708f721045d09c56d9cbb717d5ab31d94",
+      "olean_sha256": "f0a3d821252ccf90351652d4369d30a3f0e985c47d7d1aac05d0bb2d416e9c06",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154908",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteExtensionTopology.Imports",
+      "source_sha256": "1eafe1c092d59e13fb70dcd60a8ad3ecf73624b27bd9c35561b9c5cb44fa663a",
+      "patch_sha256": null,
+      "built_source_sha256": "1eafe1c092d59e13fb70dcd60a8ad3ecf73624b27bd9c35561b9c5cb44fa663a",
+      "olean_sha256": "63a26ef9e1182fc352d840f230e3355638310eb2b7ba8d242e0ca68cd16cdcaf",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154909",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteOrderReduction.Bridge",
+      "source_sha256": "bab90534fe1c43fe927f87dcad7b00b7141aa5f3a8341337a043a90d3b36c980",
+      "patch_sha256": null,
+      "built_source_sha256": "bab90534fe1c43fe927f87dcad7b00b7141aa5f3a8341337a043a90d3b36c980",
+      "olean_sha256": "56d891f3d11eade9cf2bc4924df01f42f161a54b7414c88bcc9caac87798371e",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154915",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.ConjTMulMulApply",
+      "source_sha256": "ff7054890896d27a8a0a142ede438b5b1418dd005bdd78df559bc8a79bdaf4ac",
+      "patch_sha256": "5885bd34a5becc71cf545ba2a64feead06352f95b6a5c07407ecfd52da5b703b",
+      "built_source_sha256": "8f1edb6600e008a88ef67177fe3ea268dfa8be0e8e75533421eb808721a10b81",
+      "olean_sha256": "092025a8baf4f4573c896e9222806ee2af76a69a4c4d4e02732bd1817bf155a8",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154917",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.HasSignatureExistsNonneg",
+      "source_sha256": "d651020374f918d531927f1c3dcba7b278adc1f905479987beadb61fc236f3a0",
+      "patch_sha256": null,
+      "built_source_sha256": "d651020374f918d531927f1c3dcba7b278adc1f905479987beadb61fc236f3a0",
+      "olean_sha256": "ae224e4f55ccb0368a26272e19412f10f5f874ed572103472518ddd41a35a61d",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154918",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.NatAddZeroFinOne",
+      "source_sha256": "960d551e094ad3018bda21c192c59c403e696b98c76c05692e60487f767d8e39",
+      "patch_sha256": null,
+      "built_source_sha256": "960d551e094ad3018bda21c192c59c403e696b98c76c05692e60487f767d8e39",
+      "olean_sha256": "8de5d7ecc56aa5ce8079a292d8d13757399013cc1c0e46686805c3a0c8f2a976",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154919",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.SumMulCommMulVec",
+      "source_sha256": "afcea00844065e0e25a2530a69911129bec9ee9fea73864c0eab917235accc16",
+      "patch_sha256": null,
+      "built_source_sha256": "afcea00844065e0e25a2530a69911129bec9ee9fea73864c0eab917235accc16",
+      "olean_sha256": "9f131bf3eaa857f32c4d8a70ffe8d649c85fa0d57fe83c34a6122540e2daab99",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154940",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockHarmonicSplitting.FockInnerSelfReNonneg",
+      "source_sha256": "3e682b5a7dce5aa61b4383cfbd782d6024963748c876c693eabf11de9f6fd1ec",
+      "patch_sha256": "2f2cc7b5666f9ce6228ac8d6f82a99e46bc2f000201a9a0166de41a7e96ed2a5",
+      "built_source_sha256": "7e59ccbde617f5c1b1dc03335282a7ccb4836da9519380dd1b5a391468be83a4",
+      "olean_sha256": "c60a7e20493838ef12f6b896d2b824858252ee38c775198f103751c6c3d672b2",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M154977",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockRaisingLowering.SameSign",
+      "source_sha256": "6539f7c08dcef55dc1a62378b43fee61384d7fc340802906c8f8059cf99ae037",
+      "patch_sha256": null,
+      "built_source_sha256": "6539f7c08dcef55dc1a62378b43fee61384d7fc340802906c8f8059cf99ae037",
+      "olean_sha256": "a734cdfd6f7d09caea5ef580fae77c99ffdefbb647b6a6580cf8355ab4cfd67b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M155004",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupPoints.ConstantCoeffLogEqZero",
+      "source_sha256": "d14e165f9a9c4c639e514e3789135bfdeb069c5008018aa83c2302996456470e",
+      "patch_sha256": null,
+      "built_source_sha256": "d14e165f9a9c4c639e514e3789135bfdeb069c5008018aa83c2302996456470e",
+      "olean_sha256": "9ee7eb7fd33ea2794573ae60e544fed47d0e4e37f9a4689f81079210dbee2131",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M155005",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupPoints.ConstantCoeffPsubst",
+      "source_sha256": "ffaac377f3156bb4200841053aa59e5899721da6892617e2c89d607a9f53b078",
+      "patch_sha256": null,
+      "built_source_sha256": "ffaac377f3156bb4200841053aa59e5899721da6892617e2c89d607a9f53b078",
+      "olean_sha256": "d69e54bf1f0161f242080f47f0b476900c7f32732b28338a92e7f3ef19001d5f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M155008",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupSplitting.Development",
+      "source_sha256": "40e7fcfc621e4b91e721e3bf19753c0b6ca93f02367f39d6fc3be2c1c3e1ab06",
+      "patch_sha256": null,
+      "built_source_sha256": "40e7fcfc621e4b91e721e3bf19753c0b6ca93f02367f39d6fc3be2c1c3e1ab06",
+      "olean_sha256": "36b8ffb88a55648210817d033dfb84bf2258c307d729f0c570c6a630cd6d533b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M155012",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupTriangles.CoeffSubstUpdZero",
+      "source_sha256": "8d22ce05463083cc90b11ae877c410389dec5479a60f1d5d5ed4fa01a0ab07e5",
+      "patch_sha256": null,
+      "built_source_sha256": "8d22ce05463083cc90b11ae877c410389dec5479a60f1d5d5ed4fa01a0ab07e5",
+      "olean_sha256": "cab7badb108763448f5db938f8dee5bdfdca4558f733a47392fea76d05d2c14a",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M155017",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FourSquareQuaternions.FourSqOf",
+      "source_sha256": "e79cd3fe996430c0a8c25b9515b61000a4bf6921c46daea8d812a31076ab6315",
+      "patch_sha256": null,
+      "built_source_sha256": "e79cd3fe996430c0a8c25b9515b61000a4bf6921c46daea8d812a31076ab6315",
+      "olean_sha256": "7483fafc3ebdbc5b014c3a7efef7ede772f82fbf0e76d7070e78d07d3ed88030",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M155040",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FunctionalEquationSeries.Development",
+      "source_sha256": "96101ee25e62d7f7704ddaeb14286433644f0927b0da34ff476611724c1c8d0e",
+      "patch_sha256": null,
+      "built_source_sha256": "96101ee25e62d7f7704ddaeb14286433644f0927b0da34ff476611724c1c8d0e",
+      "olean_sha256": "d189e780f7b05c242cd10e4186435b11d5745770f5e8d8e750bc2a4aff2149fe",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M155050",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaloisTorsionConjugacy.WpBridge",
+      "source_sha256": "be225e462161d0d303a56a5a5db8d7f24ccdd809d1fcfda6c50d8e22339d2491",
+      "patch_sha256": null,
+      "built_source_sha256": "be225e462161d0d303a56a5a5db8d7f24ccdd809d1fcfda6c50d8e22339d2491",
+      "olean_sha256": "78d1302551e87494c9c9271aae2a5e575e56044d624d761491503c23000c1f88",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M155052",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianDualMeasure.DualMeasure",
+      "source_sha256": "2f9e51fbbe079f4e97da99e584d950be0df342bf6073d853fe3e10a2b28a430d",
+      "patch_sha256": null,
+      "built_source_sha256": "2f9e51fbbe079f4e97da99e584d950be0df342bf6073d853fe3e10a2b28a430d",
+      "olean_sha256": "90e335a969e4e3de1c12e6363128f012210b5587b80209f925536b4465a5f7aa",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M155055",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianUniqueness.MulMApply",
+      "source_sha256": "a5b54721fd46cab4c8f87a3cc042f9f1432e5507daff1f142b9b83ca6ee7fb1f",
+      "patch_sha256": null,
+      "built_source_sha256": "a5b54721fd46cab4c8f87a3cc042f9f1432e5507daff1f142b9b83ca6ee7fb1f",
+      "olean_sha256": "6662421bcdad710fba4a79e9454eabf975a77fb3459e0724dea8415a1202b040",
+      "exit_code": 0,
+      "validated_output": "reused"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M115152",
+      "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EqOneOfForallZpow",
+      "source_sha256": "32fa0528113bbb32ae3574941c3f1c20eec48eca52ca8c25d6822b89645557c7",
+      "patch_sha256": null,
+      "built_source_sha256": "32fa0528113bbb32ae3574941c3f1c20eec48eca52ca8c25d6822b89645557c7",
+      "port_record_sha256": "5476dad9bb6cd4e9e22931b78e60c2c88c44a433042da62d45ff4ba62f287591"
+    },
+    {
+      "id": "M115158",
+      "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EvalDet",
+      "source_sha256": "eb4dc2f5ead0b956cac1ffa7af944195efd95e2c2d2bc3d540eddcaedbd32df2",
+      "patch_sha256": null,
+      "built_source_sha256": "eb4dc2f5ead0b956cac1ffa7af944195efd95e2c2d2bc3d540eddcaedbd32df2",
+      "port_record_sha256": "60465e426397e2185453959309bcaf01cfde2d2670fb3504b9813be2178250d5"
+    },
+    {
+      "id": "M153450",
+      "module": "Formalism.PeriodIntegrals.ArtSch",
+      "source_sha256": "f5fe00af5174e09ac45c4b3c47fec2245ee6fe36b6d9ebee83518a5c43b2a5fc",
+      "patch_sha256": null,
+      "built_source_sha256": "f5fe00af5174e09ac45c4b3c47fec2245ee6fe36b6d9ebee83518a5c43b2a5fc",
+      "port_record_sha256": "b6e8d7e980a6b8f3ea7af573bc8d558401dbd57706ea266787d39f928036725f"
+    },
+    {
+      "id": "M153454",
+      "module": "Formalism.PeriodIntegrals.BeDiagZp",
+      "source_sha256": "8c727fca7a7f2f98dc6186760475b7bde5b23a022ea1b5be00b4c063be4407bc",
+      "patch_sha256": null,
+      "built_source_sha256": "8c727fca7a7f2f98dc6186760475b7bde5b23a022ea1b5be00b4c063be4407bc",
+      "port_record_sha256": "e4ddb3c694b2aab6c978d53541771b49cd9ccbb9575f87f3e2392c7740371b57"
+    },
+    {
+      "id": "M153461",
+      "module": "Formalism.PeriodIntegrals.BiaddOfCube",
+      "source_sha256": "fc76ee1205d70061d67044a78a6fe43a4894eb06754990de1fe6b02b6cfc5592",
+      "patch_sha256": null,
+      "built_source_sha256": "fc76ee1205d70061d67044a78a6fe43a4894eb06754990de1fe6b02b6cfc5592",
+      "port_record_sha256": "8506c3139652f775296c43634687b0f39142611bdd116f3ebf0d067b124c9ac5"
+    },
+    {
+      "id": "M153462",
+      "module": "Formalism.PeriodIntegrals.BiaddZpLin",
+      "source_sha256": "964696219c4b50cffb32c36c4e30008be1898daa729772ce651ad58773123d65",
+      "patch_sha256": null,
+      "built_source_sha256": "964696219c4b50cffb32c36c4e30008be1898daa729772ce651ad58773123d65",
+      "port_record_sha256": "e2f9830126c8e44b7ed16f0d4fe337264f386cda51cff7516032ced9af67148b"
+    },
+    {
+      "id": "M153467",
+      "module": "Formalism.PeriodIntegrals.CMTraceOnto",
+      "source_sha256": "a6e9eb72995d98399b6c85c1469ecd0f34b2952ac189957a45a467a474e3414b",
+      "patch_sha256": null,
+      "built_source_sha256": "a6e9eb72995d98399b6c85c1469ecd0f34b2952ac189957a45a467a474e3414b",
+      "port_record_sha256": "2011a92c69e0ddce998d1861b4d60c28c10b3474f5d496f80ab7b8ad9d5fab46"
+    },
+    {
+      "id": "M153470",
+      "module": "Formalism.PeriodIntegrals.CharExtend",
+      "source_sha256": "724aed431d6cc52d02705a348f6e938955fe44973feb167974d5d1193321dc54",
+      "patch_sha256": null,
+      "built_source_sha256": "724aed431d6cc52d02705a348f6e938955fe44973feb167974d5d1193321dc54",
+      "port_record_sha256": "8fd86bdd0325385728821c440ca13792e268218ff618237a27a6cec22ef1ad43"
+    },
+    {
+      "id": "M153471",
+      "module": "Formalism.PeriodIntegrals.CharIdem",
+      "source_sha256": "c8359af4c266e382ee5c490cd03b2509a965f30944a16dc5c9f14c63a09e64fe",
+      "patch_sha256": null,
+      "built_source_sha256": "c8359af4c266e382ee5c490cd03b2509a965f30944a16dc5c9f14c63a09e64fe",
+      "port_record_sha256": "6a5b1ba8e6f753927ab2ef24f4650aece649fd9e99aa87134e8f1b7c9332fbd3"
+    },
+    {
+      "id": "M153478",
+      "module": "Formalism.PeriodIntegrals.CubicExponentialFactor",
+      "source_sha256": "9a64de62e3350d77c4756c934191fc40283a18d7e6f07812f860ac822baccd69",
+      "patch_sha256": null,
+      "built_source_sha256": "9a64de62e3350d77c4756c934191fc40283a18d7e6f07812f860ac822baccd69",
+      "port_record_sha256": "d1816aa3acd367dfb4d7b2443c42d7766eff6011ece144802bc97cad8473bb98"
+    },
+    {
+      "id": "M153486",
+      "module": "Formalism.PeriodIntegrals.DetIdPG",
+      "source_sha256": "6266283bec5c9440e0faa1200651d8885dfe9f5177dff6c3287c595a230e45f9",
+      "patch_sha256": null,
+      "built_source_sha256": "6266283bec5c9440e0faa1200651d8885dfe9f5177dff6c3287c595a230e45f9",
+      "port_record_sha256": "4398bc5a55aedbc6883b256e08328faed0e8fb02228d7717e13f741108af722b"
+    },
+    {
+      "id": "M153487",
+      "module": "Formalism.PeriodIntegrals.DiagRank",
+      "source_sha256": "7a495edc5943b2c8a88c1e13261a95d9e91e4f38711878ca99e583c53a14b53b",
+      "patch_sha256": null,
+      "built_source_sha256": "7a495edc5943b2c8a88c1e13261a95d9e91e4f38711878ca99e583c53a14b53b",
+      "port_record_sha256": "a1ff612e42b860befee41e4da48823a0a3c5539f049cd6f6c9f394a9bd8f74d3"
+    },
+    {
+      "id": "M153489",
+      "module": "Formalism.PeriodIntegrals.DiscIn",
+      "source_sha256": "27dcb2c4e4a0498da529959adc88f7614c5789010d269bcf920d115929fec20d",
+      "patch_sha256": null,
+      "built_source_sha256": "27dcb2c4e4a0498da529959adc88f7614c5789010d269bcf920d115929fec20d",
+      "port_record_sha256": "25bb838058017195f031b92354836450ca4f46756d5e4435285a4c0ef6504dc0"
+    },
+    {
+      "id": "M153497",
+      "module": "Formalism.PeriodIntegrals.EmbPerm",
+      "source_sha256": "40801bb55334ee3f4fe750415767fb7e39071fa394667cc4f9249c86df36a33a",
+      "patch_sha256": null,
+      "built_source_sha256": "40801bb55334ee3f4fe750415767fb7e39071fa394667cc4f9249c86df36a33a",
+      "port_record_sha256": "1d58fae9e87f730f4b353a348da26cff319eb7e9c41959ebba737fc1e748754c"
+    },
+    {
+      "id": "M153498",
+      "module": "Formalism.PeriodIntegrals.EmbTraceSum",
+      "source_sha256": "a57b618ef903c17869a17d87fc6250766483bc6635dd1fda46e3685841823646",
+      "patch_sha256": null,
+      "built_source_sha256": "a57b618ef903c17869a17d87fc6250766483bc6635dd1fda46e3685841823646",
+      "port_record_sha256": "a08703198281fae58f68d34b786f82756c064c5d04726af293a3f153b5be6323"
+    },
+    {
+      "id": "M153502",
+      "module": "Formalism.PeriodIntegrals.ExistsGaugeMeasureForEachRank",
+      "source_sha256": "b0c6aadbaf47224b4e1f59c752e0e0fed7582c17bf3bd9974cd6f403aacbfa05",
+      "patch_sha256": null,
+      "built_source_sha256": "b0c6aadbaf47224b4e1f59c752e0e0fed7582c17bf3bd9974cd6f403aacbfa05",
+      "port_record_sha256": "bedc36d04b035c6a522db82459bc65871e09ec5349ca0ecd0dfcb33673342d2d"
+    },
+    {
+      "id": "M153503",
+      "module": "Formalism.PeriodIntegrals.ExpIntW",
+      "source_sha256": "22f70a2f53ad2ade752de5b7b20f299a40570c8e50920aa8addb9e1526297950",
+      "patch_sha256": null,
+      "built_source_sha256": "22f70a2f53ad2ade752de5b7b20f299a40570c8e50920aa8addb9e1526297950",
+      "port_record_sha256": "c16aba65af0007bbf9a21da66aa1d332a1c2e7024f7d47f25d37686f7b3bd3b2"
+    },
+    {
+      "id": "M153504",
+      "module": "Formalism.PeriodIntegrals.ExpTri",
+      "source_sha256": "0bb32d932f2eb24313392a2816dcba2b749826d2d38094f0b36fe4738be3b0af",
+      "patch_sha256": null,
+      "built_source_sha256": "0bb32d932f2eb24313392a2816dcba2b749826d2d38094f0b36fe4738be3b0af",
+      "port_record_sha256": "b3e0f56831b6fdc419697039886f029fd3f67d64aa3ba492fb717a5b6ee9b321"
+    },
+    {
+      "id": "M153505",
+      "module": "Formalism.PeriodIntegrals.ExplicitFormula",
+      "source_sha256": "42c23e43b1e392adabf7f31ae01cd6398c330212479cdc3e7c1b816104cc01c2",
+      "patch_sha256": null,
+      "built_source_sha256": "42c23e43b1e392adabf7f31ae01cd6398c330212479cdc3e7c1b816104cc01c2",
+      "port_record_sha256": "3d247607c57820709c8e31182a5cc99290e6b3f1d800299b3623ff6bf2110b9a"
+    },
+    {
+      "id": "M153518",
+      "module": "Formalism.PeriodIntegrals.FglGram",
+      "source_sha256": "9a14b369762be9856df6b952f849a4d97d7a759d9292ac4d6039f0d4ea610fc4",
+      "patch_sha256": null,
+      "built_source_sha256": "9a14b369762be9856df6b952f849a4d97d7a759d9292ac4d6039f0d4ea610fc4",
+      "port_record_sha256": "1196efd8f4a3ce8da9b898ccfdc2e983789f9378e751e67615ca6920ca3acea7"
+    },
+    {
+      "id": "M153519",
+      "module": "Formalism.PeriodIntegrals.FglPhSplit",
+      "source_sha256": "a6f05a04a19791a3153ca7b63e86960dc3dcfa6ba4fecf7c0ab31d0c78e2c686",
+      "patch_sha256": null,
+      "built_source_sha256": "a6f05a04a19791a3153ca7b63e86960dc3dcfa6ba4fecf7c0ab31d0c78e2c686",
+      "port_record_sha256": "75430e4f66d106756bab94074fe10f30bbd64c96e37d49372403ca0f475a3ccd"
+    },
+    {
+      "id": "M153520",
+      "module": "Formalism.PeriodIntegrals.FglPtW",
+      "source_sha256": "bbce9db3f464b1562b741fb902771afeefb3a0c9b54260d71521b5247287c988",
+      "patch_sha256": null,
+      "built_source_sha256": "bbce9db3f464b1562b741fb902771afeefb3a0c9b54260d71521b5247287c988",
+      "port_record_sha256": "802a2fffd55fe071fe645d64681049b6fba9d282195065b4adf4219053b0ca46"
+    },
+    {
+      "id": "M153522",
+      "module": "Formalism.PeriodIntegrals.FiltLen",
+      "source_sha256": "e620f3d1313760bb6828fff8f5870d5ed2e0fb73ba83154f6de3fe9b452f770f",
+      "patch_sha256": null,
+      "built_source_sha256": "e620f3d1313760bb6828fff8f5870d5ed2e0fb73ba83154f6de3fe9b452f770f",
+      "port_record_sha256": "c67d449c0ac55aff7ce38ff72260c14c2bd18dfd49ca1a92a28e8b5f4cd3276a"
+    },
+    {
+      "id": "M153524",
+      "module": "Formalism.PeriodIntegrals.FinExtTop",
+      "source_sha256": "3a5b786848a21df1c2ab42448b786616ad3b39c044d7f61ebe9e8efc8a00431a",
+      "patch_sha256": null,
+      "built_source_sha256": "3a5b786848a21df1c2ab42448b786616ad3b39c044d7f61ebe9e8efc8a00431a",
+      "port_record_sha256": "d197025892c5d0197219d256a0c795e31e6fd1f6a36f5395718e66f515e06dec"
+    },
+    {
+      "id": "M153526",
+      "module": "Formalism.PeriodIntegrals.FinOrdRedOne",
+      "source_sha256": "e665507888a42077507413cf301caf2bc318f3d30d55aac8669e3a9a133fed8f",
+      "patch_sha256": null,
+      "built_source_sha256": "e665507888a42077507413cf301caf2bc318f3d30d55aac8669e3a9a133fed8f",
+      "port_record_sha256": "7eedc222419c40ed551853c1979c62231a7092150b6453b456d49d6aa03dcacf"
+    },
+    {
+      "id": "M153527",
+      "module": "Formalism.PeriodIntegrals.FlagGramNonneg",
+      "source_sha256": "31f4b0b841f6b61978e5171e07fec91a81ac1484a7d199d58995b297326ea01e",
+      "patch_sha256": null,
+      "built_source_sha256": "31f4b0b841f6b61978e5171e07fec91a81ac1484a7d199d58995b297326ea01e",
+      "port_record_sha256": "e9580c28cf4af48687f53646a4d3bb83915efad343d7b19ebc6d99a5120f7a29"
+    },
+    {
+      "id": "M153533",
+      "module": "Formalism.PeriodIntegrals.FunEqAll",
+      "source_sha256": "b2b3cf70f40efaaec33321072727564f89ae4cd7f98857f11ce7346a2c957c4b",
+      "patch_sha256": null,
+      "built_source_sha256": "b2b3cf70f40efaaec33321072727564f89ae4cd7f98857f11ce7346a2c957c4b",
+      "port_record_sha256": "11d0be932a26c5d5986f8023d11afb313d2e95fb2b23cd022ca827f6fd9dcd65"
+    },
+    {
+      "id": "M153540",
+      "module": "Formalism.PeriodIntegrals.GalTorsConj",
+      "source_sha256": "250ed70c8ba3dca5b5f5bdf69731b7227c54e6864d44368a6fbc3b8890a5f1ba",
+      "patch_sha256": null,
+      "built_source_sha256": "250ed70c8ba3dca5b5f5bdf69731b7227c54e6864d44368a6fbc3b8890a5f1ba",
+      "port_record_sha256": "f133e13b160bcc99f33bdbcb68d16fcac126af06d4f51f6d8cc8fa056961df48"
+    },
+    {
+      "id": "M153542",
+      "module": "Formalism.PeriodIntegrals.GaussIntegral",
+      "source_sha256": "f4f524566324ed0e53bcb328760f2090c2b9e08fb6a6d627eaafc0b08f827744",
+      "patch_sha256": null,
+      "built_source_sha256": "f4f524566324ed0e53bcb328760f2090c2b9e08fb6a6d627eaafc0b08f827744",
+      "port_record_sha256": "1830e3f7cf58b2cbeb74aa0f78faa86169e921a659eb6b1791b59b7c135f1807"
+    },
+    {
+      "id": "M153591",
+      "module": "Formalism.PeriodIntegrals.JointBlockShapes.MinusPart",
+      "source_sha256": "91f0d93a0b077e8d2ae1bbee1015e72bb7c87e6c7a5138f22709880b63c530a7",
+      "patch_sha256": "89a2479d89b0712339a02dd09503cedd6c85eec409bb2732987385a60b0d979b",
+      "built_source_sha256": "462a67cd8d14a6cd84a10a268ba10958ad45a06c1d1639ac2766bed53430706a",
+      "port_record_sha256": "24d25acea0b777e431c32c6a59c6cc12356f1a3711d1b3c0990bbf799018078f"
+    },
+    {
+      "id": "M153593",
+      "module": "Formalism.PeriodIntegrals.KerIso",
+      "source_sha256": "164926dcf8e9571ec6ed4e79dea9c0d18dde7e8df0f97c80258b2685421a4ed8",
+      "patch_sha256": null,
+      "built_source_sha256": "164926dcf8e9571ec6ed4e79dea9c0d18dde7e8df0f97c80258b2685421a4ed8",
+      "port_record_sha256": "4c60836c772cdd085f4af55a6a8a3cad7c7868ee227bc0ec2bbc9760a95b4053"
+    },
+    {
+      "id": "M153621",
+      "module": "Formalism.PeriodIntegrals.LongWeylElementSquare",
+      "source_sha256": "7c2e6c05cccc85718f8874e24862f376dd5544ce882ea2fb98fc4196d65a8d2e",
+      "patch_sha256": null,
+      "built_source_sha256": "7c2e6c05cccc85718f8874e24862f376dd5544ce882ea2fb98fc4196d65a8d2e",
+      "port_record_sha256": "01e8ade970dc1b5024c5518273f67cbfecb085163902b30fa0209adfe51523c9"
+    },
+    {
+      "id": "M154032",
+      "module": "Formalism.PeriodIntegrals.PhConvProj",
+      "source_sha256": "a9790644c1ee7df20d6beb46426faa802f44080a660180c64f0f838ba2d020e9",
+      "patch_sha256": null,
+      "built_source_sha256": "a9790644c1ee7df20d6beb46426faa802f44080a660180c64f0f838ba2d020e9",
+      "port_record_sha256": "c51a6b043fce0043b73aa820bb15db9b57d5e38256a95906b256cbef52ef4a8e"
+    },
+    {
+      "id": "M154043",
+      "module": "Formalism.PeriodIntegrals.PrimeCount",
+      "source_sha256": "1c9f263f9b02a4e800157d802bb90baeb2ada8e08a803b32fa88dfac57dbf9d4",
+      "patch_sha256": null,
+      "built_source_sha256": "1c9f263f9b02a4e800157d802bb90baeb2ada8e08a803b32fa88dfac57dbf9d4",
+      "port_record_sha256": "b4582e88d3196f89af6f6bcf9004ef085dc7ee5e042d9c104170ef47bdc6c508"
+    },
+    {
+      "id": "M154045",
+      "module": "Formalism.PeriodIntegrals.PrimesDyadicRS",
+      "source_sha256": "2e9c4a15c5d77c8825990bbb71591e880618591d89be545c7ea39f40d30065ee",
+      "patch_sha256": null,
+      "built_source_sha256": "2e9c4a15c5d77c8825990bbb71591e880618591d89be545c7ea39f40d30065ee",
+      "port_record_sha256": "b07bd1fd4356496dd920d8c4a73a898c28afe75235cdd786dcb227a43eec5794"
+    },
+    {
+      "id": "M154127",
+      "module": "Formalism.PeriodIntegrals.UMultOne",
+      "source_sha256": "f1b651f0be2293d4656e4fda6d0618379f994b6006bf18248b11f008235f8d2d",
+      "patch_sha256": null,
+      "built_source_sha256": "f1b651f0be2293d4656e4fda6d0618379f994b6006bf18248b11f008235f8d2d",
+      "port_record_sha256": "3497d65e7d4be1ae0642bede8a1a57f4a725e6cc83a325d5a3deaafc46345681"
+    },
+    {
+      "id": "M154148",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdditiveIntegralGroups.SubstMem",
+      "source_sha256": "353e6d990966e18ea11813a90a399275e085d866f2382dda3ce52b3432ab9055",
+      "patch_sha256": null,
+      "built_source_sha256": "353e6d990966e18ea11813a90a399275e085d866f2382dda3ce52b3432ab9055",
+      "port_record_sha256": "621db223109459303056c41fc36e46f7dd820a88ea162b1dc975537b2f5c3cb4"
+    },
+    {
+      "id": "M154341",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.Imports",
+      "source_sha256": "0384f3714133ebed6a02b5faf462aa8fa3b95314ac02e1f2d7a737334ed771ae",
+      "patch_sha256": null,
+      "built_source_sha256": "0384f3714133ebed6a02b5faf462aa8fa3b95314ac02e1f2d7a737334ed771ae",
+      "port_record_sha256": "9d377fd3987655221a780ec6c318578e904e9569ec0afc3123e9cda9f0e5bb0d"
+    },
+    {
+      "id": "M154353",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.LintegralMulRightOfMem",
+      "source_sha256": "44f9363025fa16bbac7af958f45f2f9cfb1c1e1deed67b7476dec97a3dce4f8e",
+      "patch_sha256": null,
+      "built_source_sha256": "44f9363025fa16bbac7af958f45f2f9cfb1c1e1deed67b7476dec97a3dce4f8e",
+      "port_record_sha256": "61046d3277313e5485bdca483a3618f711a1ef20843beb2def68f061ecb96079"
+    },
+    {
+      "id": "M154441",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BesselDerivatives.LiftAOneZero",
+      "source_sha256": "14a1eef35efa801c56d72e05ce951fcbdc7e6884819cc14ff5227552e678fae5",
+      "patch_sha256": null,
+      "built_source_sha256": "14a1eef35efa801c56d72e05ce951fcbdc7e6884819cc14ff5227552e678fae5",
+      "port_record_sha256": "acaeccc0eb2cc5b580449c50ed53e73d639dc800f0a59900baebe8151c5f6c84"
+    },
+    {
+      "id": "M154476",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BochnerTheorem.StepGelfand",
+      "source_sha256": "4cbff7548d193494d6d0643ddc053c9e7b97f6cfef21fb13b3d7b11334e54c4e",
+      "patch_sha256": null,
+      "built_source_sha256": "4cbff7548d193494d6d0643ddc053c9e7b97f6cfef21fb13b3d7b11334e54c4e",
+      "port_record_sha256": "0c3718e4d980f779fc5b9762802808e965de600e2743f8cec4184f954adb7781"
+    },
+    {
+      "id": "M154544",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CoefficientBaseChange.InvBaseChange",
+      "source_sha256": "dd3751beac3bf753e2fe60c8a9dd974ead576138ce28bfb48158d9df6ee4bb46",
+      "patch_sha256": null,
+      "built_source_sha256": "dd3751beac3bf753e2fe60c8a9dd974ead576138ce28bfb48158d9df6ee4bb46",
+      "port_record_sha256": "cfa3cd5cc06622adb7a96682666147c3c568cc217b41e45b6ade7337c8f69d0d"
+    },
+    {
+      "id": "M154590",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountNonIntegrality.DSurjDef",
+      "source_sha256": "4fa4a204a532e332ae78756026df4973410b9b1181dc995ae19a14b42031131f",
+      "patch_sha256": null,
+      "built_source_sha256": "4fa4a204a532e332ae78756026df4973410b9b1181dc995ae19a14b42031131f",
+      "port_record_sha256": "550dae85f0566d4735b1e3918a6d76b3ae7e9b0d9dc73f102e142b1502c2081c"
+    },
+    {
+      "id": "M154812",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.SmallLoop",
+      "source_sha256": "f17159bfad09b9c7aed3ee81a3017b60cdf8c953d9760e0db693b1aa70b5e8b9",
+      "patch_sha256": null,
+      "built_source_sha256": "f17159bfad09b9c7aed3ee81a3017b60cdf8c953d9760e0db693b1aa70b5e8b9",
+      "port_record_sha256": "b904350fbe305f03e39d3aa74e87f21c6cd9221347daef022181e1206377e30c"
+    },
+    {
+      "id": "M154910",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteOrderReduction.EqOneOfIsOfFinOrder",
+      "source_sha256": "50046ccca9b3ffee15093b1e46847b0a097cc01964c7fd62b76933f0076f82f4",
+      "patch_sha256": null,
+      "built_source_sha256": "50046ccca9b3ffee15093b1e46847b0a097cc01964c7fd62b76933f0076f82f4",
+      "port_record_sha256": "2da72624c50a172b5c6bf8fe8b9c90de4caba0f88330869c7002339f9e5cda38"
+    },
+    {
+      "id": "M157781",
+      "module": "Formalism.PeriodIntegrals.ZerosWindow",
+      "source_sha256": "191302e250d53e5c93ade37455589671ec98a3a4fb77a486b646287a28c5938b",
+      "patch_sha256": null,
+      "built_source_sha256": "191302e250d53e5c93ade37455589671ec98a3a4fb77a486b646287a28c5938b",
+      "port_record_sha256": "2d2571d1ea56e46d5c421c0d0a4cb8ed5a6558a6984b72923cd38ac58b190f27"
+    },
+    {
+      "id": "M158005",
+      "module": "Formalism.RealPlaceAnalysis.Complexify",
+      "source_sha256": "462b2cd8d25fd18e2df70aa0abf4bf205b0f2d7f20f29c49bbd2671f03c357c0",
+      "patch_sha256": null,
+      "built_source_sha256": "462b2cd8d25fd18e2df70aa0abf4bf205b0f2d7f20f29c49bbd2671f03c357c0",
+      "port_record_sha256": "04dc43c19847bfe6ffc6e3d7e4af564ac59bdc4502709a8c13a94c2ddcfe5ce7"
+    },
+    {
+      "id": "M158150",
+      "module": "Formalism.SatakeDualWeyl.Statement",
+      "source_sha256": "ff0b4971b2c44e6b9eeac44013ff35e5aeb7a126a87d7640d2fd72277147696c",
+      "patch_sha256": null,
+      "built_source_sha256": "ff0b4971b2c44e6b9eeac44013ff35e5aeb7a126a87d7640d2fd72277147696c",
+      "port_record_sha256": "6c93a35b6cfcf393c36ee552d8fabe32d74b8e81081a3497524f704fa231ac7e"
+    },
+    {
+      "id": "M159034",
+      "module": "Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.UnitTraceSumBounds.CBFiLower",
+      "source_sha256": "ad6fea63bc660eff007dbc35259154ee045093d61db112e9fa600ac83e2158e4",
+      "patch_sha256": null,
+      "built_source_sha256": "ad6fea63bc660eff007dbc35259154ee045093d61db112e9fa600ac83e2158e4",
+      "port_record_sha256": "54d1b761240209110f23ef10a8f3795a47e94565cc4b8fdb2661b8d9da9193a1"
+    },
+    {
+      "id": "M170827",
+      "module": "Lemmata.GeneralBFactThirdFurther.Imports",
+      "source_sha256": "4ddb65591b836d6c738d4d0e08eed9b6b5ec6e01b737c5fd8a492f46e515901b",
+      "patch_sha256": null,
+      "built_source_sha256": "4ddb65591b836d6c738d4d0e08eed9b6b5ec6e01b737c5fd8a492f46e515901b",
+      "port_record_sha256": "5382241497494a7750634c20f8aac7afb16808f729f700d0b8238e93f4ec699f"
+    },
+    {
+      "id": "M170858",
+      "module": "Lemmata.MiscLemmasI.Imports",
+      "source_sha256": "5fd25defe59e9033a258c973aca31fc01c7fd504e5d1496080ddee552f492867",
+      "patch_sha256": null,
+      "built_source_sha256": "5fd25defe59e9033a258c973aca31fc01c7fd504e5d1496080ddee552f492867",
+      "port_record_sha256": "a4ff4d79d1762bae29e1dc9259ce6e408abf2e9a2f195f4577393a337c648b42"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M154815",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicStableLattices.AlgebraMapMkO",
+      "missing_imports": [
+        "M154822"
+      ]
+    },
+    {
+      "id": "M154852",
+      "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.LGrowthFE",
+      "missing_imports": [
+        "M154854"
+      ]
+    }
+  ],
+  "pruned": []
+}

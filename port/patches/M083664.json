@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsGeneratingCharacters",
+  "source_sha256": "517c74c89bae8b8f7799831e1d16b2c46fade3a05c3126b090cb97a6f19b143a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

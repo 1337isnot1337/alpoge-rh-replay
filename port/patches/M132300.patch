@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/TraceIntegralSubringExtension.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/TraceIntegralSubringExtension.lean
+@@ -92,7 +92,7 @@
+     intro k
+     rw [← pb.basis_eq_pow k]
+     exact pb.basis.repr_self k
+-  rw [aeval_eq_sum_range' hr, map_sum, Finsupp.finset_sum_apply]
++  rw [aeval_eq_sum_range' hr, map_sum, Finsupp.finsetSum_apply]
+   rw [Finset.sum_eq_single (i : ℕ)]
+   · rw [map_smul, Finsupp.smul_apply, hrep i]
+     simp

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.CechAcyclic",
+  "source_sha256": "094e6a6afb558033fa94c81dccca46ac7aa7e7e74898015d74f8016c22c2f445",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

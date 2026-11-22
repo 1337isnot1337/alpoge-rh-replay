@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/HeightKernels/AltFrob.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/HeightKernels/AltFrob.lean
+@@ -103,7 +103,7 @@
+       (∏ a : Fin r, (((r - 1 - (a : ℕ)).factorial : ℕ) : ℚ)) *
+         ∏ a : Fin r, ((s + ν a + (r - 1 - (a : ℕ))).factorial : ℚ) := by
+   rw [← prod_mul_distrib, ← prod_mul_distrib]
+-  apply prod_le_prod
++  apply prod_le_prod₀
+   · intro a _; positivity
+   · intro a _
+     have := factorial_mul_le s (r - 1 - (a : ℕ)) (ν a)

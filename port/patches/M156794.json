@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerOrbitVolume.LocDensCntQ",
+  "source_sha256": "39f652eb3457af5574408a7c1d1615f411120daeebbbec1055e7197d5d1a54f8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the constant polynomial coefficient explicitly."
+}

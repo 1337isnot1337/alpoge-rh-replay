@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnipotentValuation.VwIntEqZero",
+  "source_sha256": "4bafe99889671ee89cf533bdcd6949857c24df39e4a996483b26d9dd63b434d5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use multiplicity in the proofs via Nat.padicValNat_def, preserving the original statements."
+}

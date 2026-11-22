@@ -1,0 +1,13 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/PConstantsDescend.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/PConstantsDescend.lean
+@@ -140,7 +140,9 @@
+       obtain ⟨Q, hQ, hQI⟩ := Ideal.exists_ideal_over_maximal_of_isIntegral I hk
+       intro htop
+       apply hQ.ne_top
+-      rw [eq_top_iff, ← htop, Ideal.map_le_iff_le_comap, hQI]
++      rw [eq_top_iff, ← htop, Ideal.map_le_iff_le_comap]
++      change I ≤ Q.under A
++      rw [hQI]
+     have hsmul : (⊤ : Submodule A (B ⧸ N)) ≤ I • ⊤ := by
+       rintro x -
+       obtain ⟨b, rfl⟩ := Submodule.Quotient.mk_surjective N x

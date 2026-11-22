@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.TorsionIntegrality.SecondCoefficientNorms.IntBinomScalar",
+  "source_sha256": "c10fd2a6f08aea550a3c207902f24ec73f2ab359fc2bbb8bc9d2266588961cad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent partial-derivative API adaptation: supply the same scalar ring K as an implicit named argument. The indices, iterates, power series and identities are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

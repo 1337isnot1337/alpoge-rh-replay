@@ -1,0 +1,15 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/FiniteCovolume/PUnipotentModulusHaar.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/FiniteCovolume/PUnipotentModulusHaar.lean
+@@ -57,7 +57,11 @@
+     exact (φ.isCompact_preimage.2 hK).measure_lt_top
+   have : (lam.map φ).IsOpenPosMeasure := φ.continuous.isOpenPosMeasure_map φ.surjective
+   have : (lam.map φ).IsHaarMeasure := {}
+-  rw [Measure.isMulLeftInvariant_eq_smul μ (lam.map φ), Measure.map_smul]
++  have hmc : Measurable c := by
++    convert hφ.comp (hC.measurable.comp φ.symm.continuous.measurable) using 1
++    ext x
++    simp
++  rw [Measure.isMulLeftInvariant_eq_smul μ (lam.map φ), Measure.map_smul (hf := hmc.aemeasurable)]
+   congr 1
+   have e : c = φ ∘ (fun x => φ.symm (c (φ x))) ∘ φ.symm := by
+     funext x

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.SeparatingAlgebras.TriMat",
+  "source_sha256": "07b18a0047b73741bb62f391bfeb1b9b2ca6c3195e2bba9208a7aead0ceaf501",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: replace Finsupp.finset_sum_apply with its target API Finsupp.finsetSum_apply, retaining the existing witnesses and mathematical operation. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0135-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,21 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/ResNormal.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/ResNormal.lean
+@@ -47,7 +47,7 @@
+     rw [mem_proLRes]
+     intro N hN
+     exact hall ⟨N, hN⟩
+-  obtain ⟨u, hu⟩ := hs.elim_finite_subfamily_closed t ht hempty
++  obtain ⟨u, hu⟩ := hs.elim_finite_subfamily_closed t ht (Set.disjoint_iff_inter_eq_empty.mpr hempty)
+   have hk : ∀ i : ι, ∃ k : ℕ, g ^ l ^ k ∈ (i.1.toOpenSubgroup : Subgroup G) := fun i =>
+     (pq_iff l G _).mp i.2 g
+   choose kf hkf using hk
+@@ -63,8 +63,7 @@
+     show g ^ l ^ (∑ j ∈ u, kf j) ∈ ((i.1.toOpenSubgroup : Subgroup G) : Set G)
+     rw [heq, pow_mul]
+     exact Subgroup.pow_mem _ (hkf i) _
+-  rw [hu] at hmem
+-  exact hmem
++  exact Set.disjoint_left.1 hu hmem.1 hmem.2
+ 
+ theorem UpperTheory.V.AlgebraTools.proLResOf_normal :
+     ∀ (l : ℕ) [Fact l.Prime] (G : Type) [Group G] [TopologicalSpace G] [IsTopologicalGroup G] [CompactSpace G] [TotallyDisconnectedSpace G] (H : Subgroup G) [H.Normal], IsClosed (H : Set G) →

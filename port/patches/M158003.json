@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RankGapBounds.TheoremALocOfLemmaA",
+  "source_sha256": "b950e37e7a1d932412fd9a042b4ca8589d1f7a9a29e5cd53f93844b55dc09142",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

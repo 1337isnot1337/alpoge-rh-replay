@@ -150,39 +150,20 @@ rc=$?
 cat "$OUT/export.stats"
 [[ $rc -eq 0 ]] || fail "lean4export failed (see $OUT/export.log)"
 EXPORT_BYTES="$(stat -c%s "$OUT/pilot.ndjson")"
-DECLS="$(python3 - "$OUT/pilot.ndjson" <<'PYEOF'
-import json, sys
-# Declaration record kinds in the NDJSON export format (format_ndjson.md):
-# axiom, definition ("def"), theorem ("thm"), opaque, quot, inductive.
-# Constructors and recursors are grouped inside the inductive record, so
-# an independent checker may report a higher declaration count than the
-# record count here. A declaration record is a single-key object whose
-# key is one of the kinds; every other record in the format is the meta
-# line (single key "meta") or a name/level/expression record whose object
-# has several keys and contains no declaration kind. Count every kind
-# encountered and FAIL on anything unrecognized: a silently skipped kind
-# publishes a wrong total. (That is not hypothetical — axioms were once
-# counted under the key "ax", which the exporter never emits, and the
-# 3 axiom records dropped out of the published count.)
-decl_kinds = {"axiom", "def", "thm", "opaque", "quot", "inductive"}
-counts = {k: 0 for k in decl_kinds}
-with open(sys.argv[1]) as f:
-    for line in f:
-        try:
-            obj = json.loads(line)
-        except Exception:
-            continue
-        if not isinstance(obj, dict):
-            continue
-        kinds = decl_kinds.intersection(obj)
-        if len(obj) == 1 and kinds:
-            counts[next(iter(kinds))] += 1
-        elif kinds or (len(obj) == 1 and "meta" not in obj):
-            sys.exit(f"unrecognized record shape in export: {sorted(obj)[:4]}")
+DECLS="$(python3 - "$OUT/pilot.ndjson" "$SCRIPT_DIR" <<'PYEOF'
+from pathlib import Path
+import sys
+sys.path.insert(0, sys.argv[2])
+from packet_check import count_export_records
+# Share the packet pilot's strict parser and structural axiom-name check.
+# Dotted strings alone cannot distinguish Lean names such as
+# Classical.choice from the single-component name «Classical.choice».
+result = count_export_records(Path(sys.argv[1]))
+counts = result["counts"]
 print(" ".join(f"{k}={counts[k]}" for k in sorted(counts)), file=sys.stderr)
-print(sum(counts.values()))
+print(result["total_declarations"])
 PYEOF
-)" || fail "counting declaration records in the export failed"
+)" || fail "validating declaration records and axiom names in the export failed"
 echo "EXPORT_DONE bytes=$EXPORT_BYTES declarations=$DECLS file=$OUT/pilot.ndjson"
 
 # ---- step 3: independent kernel check ----------------------------------------

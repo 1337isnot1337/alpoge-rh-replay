@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ComapEqKerIff",
+  "source_sha256": "dc7940729fc00a2ed7843dee7d838ff33151876e5f0b1b71c77cdb5713484b87",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

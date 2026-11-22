@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CommonEigenvectorExistence",
+  "source_sha256": "96f2d18dd92266443cf333fd575bd286fd2ef6c65a4b0f116f9dd9ea90743072",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

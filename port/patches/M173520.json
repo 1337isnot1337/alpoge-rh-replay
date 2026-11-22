@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.Rationality.BasisChangePf",
+  "source_sha256": "b5efea6a0f366e60597ccee25fd4266abdf419f3ad1c252edb0356aa055eb92a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation in CB and its proofs: Q.coeff \u03bc is the same coefficient as the former coeff \u03bc Q. The bound, polynomial, indices, quantifiers and all exported propositions are preserved.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0169-lean436-20261121/packet-result.json"
+}

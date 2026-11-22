@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogVandermondeBounds.LogVandermondeProofs.CardStabilizerVector",
+  "source_sha256": "a2cce9722aae137a1ce5b688504f94e0e90e76aaeddaf30dec3f0718c5dd3b6d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

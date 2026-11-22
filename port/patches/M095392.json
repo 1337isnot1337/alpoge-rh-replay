@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IteratedLineDerivMemWeylAlg",
+  "source_sha256": "4a2b25d54bd65d9f26c1169da1aa3e8c7f2dd203a3260887b56991ccdbaed3aa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Prove Continuous u and positivity in exists_norm_toLp_one_le explicitly with continuous_const, continuous_norm, pow_ne_zero, and add_pos_of_pos_of_nonneg for Mathlib v4.36.0."
+}

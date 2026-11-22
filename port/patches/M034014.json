@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.GramDetChangeOfBasesStatement",
+  "source_sha256": "bfc5d787b3f613653f26abc53e36097a500034f2ac869cb9a4676c521f7f87ed",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

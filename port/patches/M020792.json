@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegreeCountGenerates",
+  "source_sha256": "8820633b71dedcd33e9f78b119f5d9de0bed5b6b3a657505f77442bbf3bc5767",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

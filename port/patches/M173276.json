@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.HeightTheory.LaTIsPrime",
+  "source_sha256": "6c10973fb20333061f62738f910956c56b3909b0bd7b6ff3a64c40f5ae6fc362",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Add noncomputable to AdmissibleOmegaFamiliesAtPrime, whose unchanged body depends on existing noncomputable definitions under the target compiler. The type, defining expression, quantifiers and mathematical meaning are unchanged; this only disables executable code generation.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0169-lean436-20261121/packet-result.json"
+}

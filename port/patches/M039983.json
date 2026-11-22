@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.KummerAlgebraFiniteProjectiveFaithfullyFlat",
+  "source_sha256": "366a21915c0a0b1dd18b16d2c181ace497e68082673cef6ef9e6e0cee38aac87",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MultilinearMap takes the ring homomorphism explicitly (RingHom.id B, 12 sites); rewrite with RingHom.id_apply where the explicit sigma leaks into the goal."
+}

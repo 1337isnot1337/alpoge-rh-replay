@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerOrbitVolume.LintFibre",
+  "source_sha256": "5b41001f995709f1105c0ec80eb8b84af7405a8b2dd2e655e4f230a8134836e0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the general measurability lemma for the same ENNReal sum."
+}

@@ -1,0 +1,20 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/MomentEntryBounds/UnitaryConeEstimates/ContVal.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/LiteratureResults/KTheoryStability/ReductionBoundsTorsion/MomentEntryBounds/UnitaryConeEstimates/ContVal.lean
+@@ -73,7 +73,7 @@
+     · exact isClosed_iInter fun w => isClosed_iInter fun i =>
+         isClosed_le continuous_const (cont_mt w i i).norm
+     · exact isClosed_iInter fun i =>
+-        isClosed_eq (continuous_finset_prod _ fun w _ => (cont_mt w i i).norm) continuous_const
++        isClosed_eq (continuous_finsetProd _ fun w _ => (cont_mt w i i).norm) continuous_const
+   · intro p hp
+     exact hp.2.1
+ 
+@@ -85,7 +85,7 @@
+ theorem cpt_S (T : ℝ) (m : Fin N → ℤ) : IsCompact
+     {s : {s : Fin N → ℝ // ∑ i, s i = 0} | Cone T s.1 ∧ ∀ i, (m i : ℝ) ≤ s.1 i ∧ s.1 i ≤ m i + 1} := by
+   have hemb : Topology.IsClosedEmbedding (Subtype.val : {s : Fin N → ℝ // ∑ i, s i = 0} → (Fin N → ℝ)) :=
+-    (isClosed_eq (continuous_finset_sum _ fun i _ => continuous_apply i) continuous_const).isClosedEmbedding_subtypeVal
++    (isClosed_eq (continuous_finsetSum _ fun i _ => continuous_apply i) continuous_const).isClosedEmbedding_subtypeVal
+   have hbox : IsCompact {s : Fin N → ℝ | Cone T s ∧ ∀ i, (m i : ℝ) ≤ s i ∧ s i ≤ m i + 1} := by
+     refine (isCompact_univ_pi fun i => isCompact_Icc (a := (m i : ℝ)) (b := m i + 1)).of_isClosed_subset ?_ ?_
+     · have hc1 : IsClosed {s : Fin N → ℝ | Cone T s} := by

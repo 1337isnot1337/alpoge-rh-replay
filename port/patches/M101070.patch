@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/NegOneNotSqSqrtTwo.lean
++++ b/src/Development/AbelianVarietyTheory/PublishedTheorems/TwistedTraceFormula/NegOneNotSqSqrtTwo.lean
+@@ -167,7 +167,6 @@
+     (fun _ => Subsingleton.elim _ _) H
+   refine ⟨v, ?_⟩
+   convert eta_eq_neg_one_iff.1 hv
+-  exact Subsingleton.elim _ _
+ 
+ end GlobalTheory.QuadSymbol.Model
+ 

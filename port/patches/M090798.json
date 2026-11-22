@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.MulVecCongrDeg",
+  "source_sha256": "954dfccb21f79b5a126946a9f1dda3d40a90e19d4ae00e22ed6dd211a449f11a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SchurOpOfSchurL",
+  "source_sha256": "8dad5fccc97aa8d6ea4987c18075ec93122a1a314dfac548eced2392a7676116",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "At exponent 2 the old eLpNorm unfolds to eLpNorm' for every function. The new eLpNorm adds a measurability guard; retain the unconditional identity with eLpNorm' and use the guarded norm on the a.e. strongly measurable functions in the Schur bound. Update MemLp projections to the named lemmas."
+}

@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M084544"
+  ],
+  "started_utc": "2026-11-21T19:36:29.174498+00:00",
+  "ended_utc": "2026-11-21T19:37:05.481652+00:00",
+  "elapsed_seconds": 36.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5740416
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.JetHarmonics.TorsionLiftPairingInOrthogonalFrameStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4a6cabd395798260af337002ba1529842b3366b7d531686faf8ddb00b4b9429f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.ImagQuadraticMaximalOrderArithmeticAtSplitPrime",
+    "Development.AbelianVarietyTheory.Proofs.JetHarmonics.TorsionLiftPairingInOrthogonalFrame",
+    "Development.AbelianVarietyTheory.Proofs.ToricGeometry.IsUnitOfLagrangian",
+    "Formalism.LocalToGlobal.KernelLattices.DeterminantCokernelCount.CokernelIndexFactors.StatementB"
+  ],
+  "objects": {
+    "M084544": "e1ff6fecd359fb6c2f40376051208b7da0ad5861e83edeaffa31c57304f05d35"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "79b55761a2b5cd333f08db843ad4004e0e7033f96fd2e1a35f8db2264df4b225",
+  "packet": "M084544",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25236#issuecomment-7068160130",
+  "reviewed_utc": "2026-11-21T20:02:28.754137+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

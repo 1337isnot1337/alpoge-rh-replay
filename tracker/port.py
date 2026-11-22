@@ -1,6 +1,6 @@
 """Pick and reserve porting work (see PORTING.md).
 
-  python3 tracker/port.py next [--limit 10]   # shallowest open packets with no open Port issue
+  python3 tracker/port.py next [--limit 10]   # shallowest packets without a port reservation
   python3 tracker/port.py next --include-partial  # also show packets with some ready modules
   python3 tracker/port.py show P0123          # modules, depth, and port status of one packet
   python3 tracker/port.py show P0123 --ready-only  # unported modules whose imports are ready
@@ -21,10 +21,17 @@ import tasks
 ROOT = Path(__file__).resolve().parent.parent
 PATCHES = ROOT / 'port' / 'patches'
 TRIAGE = ROOT / 'port' / 'triage' / 'results.json'
+PRUNED = ROOT / 'port' / 'pruned.txt'
 
 
 def ported():
     return {p.stem for p in PATCHES.glob('M*.json')}
+
+
+def pruned():
+    if not PRUNED.exists():
+        return set()
+    return {line.strip() for line in PRUNED.read_text().splitlines() if line.strip() and not line.startswith('#')}
 
 
 def check_unported(target, members):
@@ -54,9 +61,15 @@ def triage():
 
 
 def port_issues():
+    """Reservations from open claim issues and pending port pull requests."""
     taken = set()
     for issue in tasks.open_issues():
         if 'pull_request' in issue:
+            labels = {label if isinstance(label, str) else label['name']
+                      for label in issue.get('labels', [])}
+            if ('port' in labels or re.search(r'\bport(?:s|ing)?\b', issue['title'], re.I)):
+                taken.update(match.upper() for match in
+                             re.findall(r'\b(?:P\d{4}|M\d{6})\b', issue['title'], re.I))
             continue
         match = re.fullmatch(r'Port (P\d{4}|M\d{6})', issue['title'])
         if match:
@@ -124,7 +137,8 @@ def main():
 
     rows = list(tasks.module_rows())
     by_id = {r['id']: r for r in rows}
-    done, status = ported(), triage()
+    done, skipped, status = ported(), pruned(), triage()
+    resolved = done | skipped
     groups = packets(rows)
 
     if args.command == 'show':
@@ -132,9 +146,14 @@ def main():
         if selected is None:
             selected = [by_id[args.packet]] if args.packet in by_id else []
         if args.ready_only:
-            selected = ready_members(selected, done)
+            selected = ready_members([r for r in selected if r['id'] not in skipped], done)
         for r in sorted(selected, key=lambda r: r['id']):
-            state = 'ported' if r['id'] in done else status.get(r['id'], 'untriaged')
+            if r['id'] in done:
+                state = 'ported'
+            elif r['id'] in skipped:
+                state = 'pruned'
+            else:
+                state = status.get(r['id'], 'untriaged')
             print(r['id'], r['depth'], state, r['module'])
         return
     if args.command == 'claim':
@@ -150,12 +169,15 @@ def main():
             checked.add(target)
         for target in requested:
             members = groups[target] if target in groups else [by_id[target]]
-            check_unported(target, members)
+            live_members = [r for r in members if r['id'] not in skipped]
+            if not live_members:
+                raise SystemExit(f'{target} is pruned on upstream main and does not need porting.')
+            check_unported(target, live_members)
         taken = port_issues()
         for target in requested:
             conflict = reservation_conflict(target, groups, by_id, taken)
             if conflict is not None:
-                raise SystemExit(f'Already reserved by an open Port issue: Port {conflict}')
+                raise SystemExit(f'Already reserved by an open port issue or pull request: Port {conflict}')
         # Validate every requested reservation before creating the first issue.
         for target in requested:
             subprocess.run(['gh', 'issue', 'create', '--repo', tasks.repo, '--title', f'Port {target}',
@@ -166,19 +188,20 @@ def main():
     choices = []
     for packet, members in groups.items():
         if (reservation_conflict(packet, groups, by_id, taken) is not None
-                or all(r['id'] in done for r in members)):
+                or all(r['id'] in resolved for r in members)):
             continue
-        partial = not ready(members, done)
+        live_members = [r for r in members if r['id'] not in skipped]
+        partial = not ready(live_members, done)
         if partial and not args.include_partial:
             continue
-        available = ready_members(members, done) if partial else [r for r in members if r['id'] not in done]
+        available = ready_members(live_members, done) if partial else [r for r in live_members if r['id'] not in done]
         if not available:
             continue
-        depth = max(r['depth'] for r in members)
-        failing = sum(status.get(r['id']) == 'fail' for r in (available if partial else members))
-        remaining = sum(r['id'] not in done for r in members)
+        depth = max(r['depth'] for r in live_members)
+        failing = sum(status.get(r['id']) == 'fail' for r in (available if partial else live_members))
+        remaining = sum(r['id'] not in done for r in live_members)
         choices.append((partial, depth, -len(available) if partial else 0,
-                        -failing, packet, len(members), len(available), remaining))
+                        -failing, packet, len(live_members), len(available), remaining))
     for partial, depth, _, negative_failing, packet, size, count, remaining in sorted(choices)[:args.limit]:
         if partial:
             print(f'{packet}\tdepth {depth}\t{count}/{remaining} unported modules ready '

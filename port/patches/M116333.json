@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.RealBands.EigBand",
+  "source_sha256": "fc0e2f016d1b13b6e2b49ac79a311a7bacbd5c4e7d7d5aef99d65ffd670666e4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

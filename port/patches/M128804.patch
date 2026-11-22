@@ -1,0 +1,65 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/WedgeBoundFinitePlaces.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/WedgeBoundFinitePlaces.lean
+@@ -36,7 +36,7 @@
+ theorem int_mul [IsUltrametricDist K] [Fintype κ] {a : Matrix ι κ K} {b : Matrix κ ι' K}
+     (ha : ∀ i j, ‖a i j‖ ≤ 1) (hb : ∀ i j, ‖b i j‖ ≤ 1) : ∀ i j, ‖(a * b) i j‖ ≤ 1 := by
+   intro i j
+-  rw [mul_apply]
++  rw [Matrix.mul_apply]
+   refine IsUltrametricDist.norm_sum_le_of_forall_le_of_nonneg zero_le_one fun k _ => ?_
+   rw [norm_mul]
+   exact mul_le_one₀ (ha i k) (norm_nonneg _) (hb k j)
+@@ -54,7 +54,7 @@
+ 
+ theorem int_one [DecidableEq ι] : ∀ i j, ‖(1 : Matrix ι ι K) i j‖ ≤ 1 := by
+   intro i j
+-  rw [one_apply]
++  rw [Matrix.one_apply]
+   split_ifs <;> simp
+ 
+ theorem nF_mul_le (hM : MulF) [IsUltrametricDist K] [Fintype ι] [Fintype ι'] [Fintype κ]
+@@ -67,7 +67,7 @@
+ theorem sel_mul [DecidableEq ι] [Fintype ι] (s : κ → ι) (M : Matrix ι ι' K) :
+     (1 : Matrix ι ι K).submatrix s id * M = M.submatrix s id := by
+   ext a b
+-  simp [mul_apply, one_apply]
++  simp [Matrix.mul_apply, Matrix.one_apply]
+ 
+ theorem norm_det_perm [Fintype κ] [DecidableEq κ] (M : Matrix κ κ K) (e : Equiv.Perm κ) :
+     ‖(M.submatrix e id).det‖ = ‖M.det‖ := by
+@@ -87,7 +87,7 @@
+     obtain ⟨k, hk⟩ := hu
+     have : ((fromCols Eᵀ C).submatrix u id).det = 0 := by
+       refine det_eq_zero_of_column_eq_zero (Sum.inl k) fun x => ?_
+-      simpa [hE, one_apply] using hk x
++      simpa [hE, Matrix.one_apply] using hk x
+     rw [this, norm_zero]
+     exact nF_nonneg' C
+   by_cases inj : Function.Injective u
+@@ -114,7 +114,7 @@
+   have hb : ((fromCols Eᵀ C).submatrix u id).submatrix e id =
+       fromBlocks 1 0 (Eᵀ.submatrix (u ∘ e ∘ Sum.inr) id) (C.submatrix (u ∘ e ∘ Sum.inr) id) := by
+     ext (a | a) (b | b)
+-    · simp [he, hσ, hE, one_apply, hs.eq_iff, eq_comm]
++    · simp [he, hσ, hE, Matrix.one_apply, hs.eq_iff, eq_comm]
+     · simpa [he, hσ] using congrFun (congrFun hC a) b
+     · simp
+     · simp
+@@ -143,14 +143,14 @@
+     by_contra hne
+     have h1 := congrFun (congrFun hD a) a
+     have h2 := congrFun (congrFun hD b) a
+-    simp only [submatrix_apply, id, hab, one_apply_eq] at h1
+-    rw [submatrix_apply, id, one_apply_ne (Ne.symm hne)] at h2
++    simp only [submatrix_apply, id, hab, Matrix.one_apply_eq] at h1
++    rw [submatrix_apply, id, Matrix.one_apply_ne (Ne.symm hne)] at h2
+     exact one_ne_zero (h1.symm.trans h2)
+   set E := (1 : Matrix ι ι K).submatrix s id with hE
+   have hEE : E * Eᵀ = 1 := by
+     rw [hE, sel_mul]
+     ext a b
+-    simp [one_apply, hs.eq_iff, eq_comm]
++    simp [Matrix.one_apply, hs.eq_iff, eq_comm]
+   have hEC : E * C = 0 := by rw [hE, sel_mul, hC]
+   have hEint : ∀ i j, ‖E i j‖ ≤ 1 := fun i j => int_one _ _
+   have hEtint : ∀ i j, ‖Eᵀ i j‖ ≤ 1 := fun i j => int_one _ _

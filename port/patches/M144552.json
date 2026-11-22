@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FrobeniusContraction.FrobeniusContractionProofs.FrobIterQModPrimeHolds",
+  "source_sha256": "583f33d3fec6d3461b5be8780904aae1a8e4c3b01a1a87a08fe21642d666f1d6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

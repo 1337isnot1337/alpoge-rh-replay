@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.KFinSmooth",
+  "source_sha256": "b69aa778c165f668d9ec1d03a2ae124f9e1982e9ddccf0ba04f7262c74447f38",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0151-lean436-20261121/packet-result.json"
+}

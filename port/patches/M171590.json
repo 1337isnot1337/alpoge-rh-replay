@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ClassFieldTheory.GlobalClassField.LocPowB",
+  "source_sha256": "1e9786e116860b1dd9d20efcd811d5f6e200337d4e3938a955376769a9cdf680",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

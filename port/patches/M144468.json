@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FockGram.FockGramProofs.FockSesq",
+  "source_sha256": "e1dc3a7be6c5eb0ae47c76a7da40921c03a75a1f8b4ed6bf17c6e02a1668870b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

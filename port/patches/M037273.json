@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IntegralityFromPadicNormBound",
+  "source_sha256": "350dbc711b6a6dc9cb25beba69b5d38eca62908d79a9b5af58bd00843e4c4d07",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: express the local denominator valuation bound using multiplicity, equal to the old natural p-adic valuation by Nat.padicValNat_def, matching the updated definition of padicValRat. The exported theorem is unchanged. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0108-lean436-20261121/packet-result.json"
+}

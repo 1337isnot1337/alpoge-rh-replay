@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.TateCohomology.TateLow",
+  "source_sha256": "d296c02ea50fb107c8677bb7b627530f84c2f78e760901365938dcd60829ee6d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

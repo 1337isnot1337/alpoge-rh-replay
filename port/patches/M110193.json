@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.DivisorFrames.ExistsTestFourierNonvanishing",
+  "source_sha256": "1b5777d1814416e8a67f26535f1b8e76fbbba85d5e8ef94701f9766e5a59b91a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0135-lean436-20261121/packet-result.json"
+}

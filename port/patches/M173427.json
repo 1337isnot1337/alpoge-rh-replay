@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.HolomorphicFamilies.PadicValNatAbsNormEqZero",
+  "source_sha256": "554af9a4103fd7e1afa7649a6fe6e9d14e13af5d6aa8082f914f8a295fcaf48c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: normalize natural valuations to multiplicity via Nat.padicValNat_def inside proofs and use the corresponding multiplication, prime-power and nondivisibility lemmas. Exported statements retain padicValNat. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0169-lean436-20261121/packet-result.json"
+}

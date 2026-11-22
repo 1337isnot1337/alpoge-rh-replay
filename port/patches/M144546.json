@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FrobeniusBaseCase.StatementFix",
+  "source_sha256": "0a9999233748554f7ce4ae719cfe7fb3cb7690c19730a1929d1126098c0ea5ba",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

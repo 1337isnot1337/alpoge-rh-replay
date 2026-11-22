@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.ThetaCorrespondence.HoweDuality.PartStable",
+  "source_sha256": "07abcb189cbc2e1337c40c0d70e162db1eb2bfc81cf290ddff031a6de712fd2c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove redundant rfl subgoals resolved directly by convert ... using 3"
+}

@@ -1,0 +1,11 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/HermitianClassFiniteness/ClassSetFinIdx.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/HermitianClassFiniteness/ClassSetFinIdx.lean
+@@ -31,7 +31,7 @@
+   refine Finite.of_surjective f ?_
+   intro q
+   obtain ⟨g, rfl⟩ := Quotient.mk''_surjective q
+-  obtain ⟨a, b, ha, hb, hab⟩ := DoubleCoset.mk_out_eq_mul Γ K g
++  obtain ⟨a, ha, b, hb, hab⟩ := DoubleCoset.mk_out_eq_mul Γ K g
+   let k : K := ⟨b⁻¹, K.inv_mem hb⟩
+   refine ⟨(DoubleCoset.mk Γ K g, (QuotientGroup.mk k : K ⧸ K'.subgroupOf K)), ?_⟩
+   have ht : ((QuotientGroup.mk k : K ⧸ K'.subgroupOf K).out)⁻¹ * k ∈ K'.subgroupOf K :=

@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/LogInt.lean
++++ b/src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/LogInt.lean
+@@ -144,7 +144,7 @@
+ 
+ theorem logMonoLocInt_thm : LogMonoLocIntStatement := by
+   intro D m
+-  exact locallyIntegrable_finset_sum (μ := volume) Finset.univ
++  exact locallyIntegrable_finsetSum (μ := volume) Finset.univ
+     (f := fun i (z : Fin D → ℂ) => (m i : ℝ) * Real.log ‖z i‖)
+     (fun i _ => (logCoordLocInt_thm D i).smul (m i : ℝ))
+ 

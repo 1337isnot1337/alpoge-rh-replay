@@ -20,11 +20,13 @@ The port asks a different question: does the same proof still go through on a cu
 
 ## Triage results
 
-A Google Cloud job compiles each depth-0 module unchanged on the target toolchain and records whether it builds. When it fails, it records the first errors. Results are published in `port/triage/`. Start with modules marked `fail`. Modules marked `ok` need only an `unchanged` record.
+A Google Cloud job compiles each depth-0 module unchanged on the target toolchain and records whether it builds. When it fails, it records the first errors. Results are published in `port/triage/`. Start with modules marked `fail`. Modules marked `ok` need only an `unchanged` record, unless the `IsLattice` audit below reports them: compiling unchanged is not enough there.
 
 ## Unit of work
 
 Work in **packets**, the same 64-module groups the replay uses (`python3 tracker/tasks.py show P0123`), in import-depth order. A module can only be ported once everything it imports is ported, so start at depth 0 and move up. `python3 tracker/tasks.py next --cold` lists shallow packets.
+
+The port build, patch, and evidence commands omit packet members listed in `port/pruned.txt`. Every import used by a selected member must still have a port record.
 
 Each ported module is stored as a **patch against its pinned source**, not as a copy of the archive:
 
@@ -38,8 +40,16 @@ port/patches/<ModuleId>.json        # {"module", "source_sha256", "lean", "mathl
 ## Claim and submit
 
 1. **Reserve.** Run `python3 tracker/port.py next` for the shallowest open packets whose imports are already ported, then `python3 tracker/port.py claim P0123`. Before opening a `Port P0123` issue with the `port` label, the command checks the target pins and whether any requested module still needs a record on upstream `main`. The replay claims bot ignores these titles, and maintainers resolve overlaps: the earlier open issue wins. Close the issue if you stop.
-2. **Port.** Use a fresh checkout of the pinned archive with the target toolchain and Mathlib. Fix each module until `lake build +<Module>:olean` succeeds.
-3. **Submit a PR to `main`** that adds the packet's `port/patches/` files and links the issue. Include the build transcript for every module in the packet, ending in success, plus the exact toolchain and Mathlib commit.
+2. **Port.** Use a fresh checkout of the pinned archive with the target toolchain and Mathlib. Fix each module until `lake build +<Module>:olean` succeeds. Then run the `IsLattice` audit (below) on the packet's modules. Convert every hit, including in modules that built unchanged, or explain in the notes why the weaker notion is intended.
+3. **Submit a PR to `main`** that adds the packet's completed `port/patches/` files and links the issue. Include the build transcript for every submitted module, ending in success, plus the exact toolchain and Mathlib commit. A partial submission must follow the rules below; it does not mark the whole packet complete.
+
+Use a title such as `Port P0123 to Lean 4.36` for the PR. The queue and claim
+commands recognize packet/module IDs in open PR titles containing `port`,
+`ports`, or `porting` (or carrying the `port` label). This keeps pending port
+submissions reserved if their claim issue closes before the PR merges. These
+checks share the existing live issue scan; unrelated replay PRs do not reserve
+port work. Titles without task IDs cannot be recognized, so keep the claim open
+until the PR merges.
 
 If no whole packet is ready, `python3 tracker/port.py next --include-partial` also
 lists unreserved packets with some ready modules. Whole packets come first;
@@ -47,9 +57,29 @@ partial packets are ordered by depth and then the number of ready modules.
 Use `python3 tracker/port.py show P0123 --ready-only` to list the unported modules
 whose imports are satisfied by records on your checkout or by other ready members
 of the same packet. Refresh `main` before using these suggestions. Reserve the
-packet, build only its ready members, and retain their successful outputs while
-the other prerequisites are being ported. Recheck the remaining members after
-updating `main`; submit the packet only when all its modules build successfully.
+packet and build only its ready members. When other members are blocked on
+unported imports, you may submit the completed subset so that downstream modules
+can use its records. Retain the successful outputs and recheck the remaining
+members after updating `main`.
+
+A partial packet submission must:
+
+- Include records only for modules that built successfully on the target pins.
+  Every project import must have a matching record on `main` or in the same PR;
+  a queued PR or an import that merely builds unchanged is not an accepted record.
+- List the submitted module IDs, the remaining live IDs and their missing imports,
+  and any pruned IDs excluded from the packet. Link the transcript and source,
+  patch and output digests for every submitted module, including reused outputs.
+- Use a title such as `Port P0123: 60 ready modules to Lean 4.36`, link the existing
+  packet claim without closing it, and state that the packet remains incomplete.
+  Keep one open submission per packet; add newly completed members to that PR or
+  submit a follow-up after it merges. Preserve previously accepted records.
+- Retain the packet reservation while working on the remaining members. Close it
+  if stopping, and close it as complete only once every live member has an accepted
+  record. A merged partial PR is not a full packet result or replay credit.
+
+Pruned modules are omitted from the queue. An import of a pruned module in the
+pinned source still requires a port record.
 
 To reserve several independent packets, use `python3 tracker/port.py claim P0123 P0124`.
 The command checks every target against upstream `main`, rejects overlapping
@@ -57,13 +87,28 @@ requests, and checks all reservations with one complete live issue scan before
 creating any issue. Issue creation is sequential: if GitHub rejects a later
 creation, earlier issues remain open. Review the printed issue URLs before retrying.
 
+`tracker/port_build.py` can do steps 2 and 3 on Linux with elan, Git, GNU `patch` and `diff`. `prepare WORK` extracts the verified archive into `WORK/lean` on the target pins. `check P0123 WORK` builds each module of the packet and prints the first errors of each failure, after applying the merged patches of the packet's project imports; `--ready-only` builds just the members `port.py show P0123 --ready-only` lists. Edit the failing modules in `WORK/lean/src`, then `diff P0123 WORK` writes their patches against the pinned sources. `reproduce P0123 WORK OUT --issue N` rebuilds the packet in a fresh tree from the pinned archive plus the import and packet patches with `--no-cache`, and writes the build transcript, per-module logs and a receipt with source, patch, object and log digests. `records P0123 WORK --evidence URL --notes notes.json` writes the packet's records; the notes file maps each patched module to its note. For a partial packet, `reproduce --ready-only` and `records --ready-only` cover the same ready members as `check --ready-only`, and the receipt lists the members left for later under `remaining`, so the retained evidence states what it does not cover.
+
+A module can build unchanged and still change meaning when Mathlib reuses a name for a different notion, as with `Submodule.IsLattice` (#26196). `check` warns when an unchanged module mentions a name on the tool's `REUSED_NAMES` list, and `records` refuses to record such a module as `unchanged` until you confirm with `--reviewed M000001` that every use keeps its pinned meaning. Add a name to the list when a port finds another one.
+
 ## Rules a port PR must follow
 
 - **No `sorry`, `admit`, new `axiom`, `@[implemented_by]`, `native_decide` or `unsafe`** that the original module didn't have.
 - **Don't change statements.** Proofs may change freely. A changed definition, theorem statement or instance needs a `notes` entry explaining why it is equivalent. Any change to `Main`, `Statements` or the five public theorems is reviewed separately and will usually be refused.
 - **Keep it mechanical.** Prefer the smallest change: renamed lemmas, changed tactic behavior, new implicit arguments. Don't refactor or golf proofs as part of a port.
 - **One packet per PR.** That keeps review and rework manageable.
+- **`Submodule.IsLattice` must become `Submodule.IsFullLattice`.** Mathlib #44365 renamed the pinned `IsLattice` (finitely generated and spanning) to `IsFullLattice` and reused the name `IsLattice` for a weaker notion without `span_eq_top`. A statement or definition that still says `IsLattice` usually compiles unchanged but silently means the weaker notion. Replace it with `IsFullLattice` and add an equivalence note: when the scalars are the fraction field of the coefficient ring, as for `𝓞 E` in a number field `E`, `IsFullLattice ↔ FG ∧ span = ⊤`, which is the pinned definition, because `Submodule.IsLattice.of_fg` supplies the new field. Proofs may still use the new `IsLattice` API, for example `IsLattice.of_fg` or `IsLattice.free`.
+
+## `IsLattice` audit
+
+Text search cannot find these cases reliably: dot notation (`L.IsLattice K`) hides the namespace, and the archive defines several unrelated declarations named `IsLattice` in its own namespaces. `port/islattice_audit.lean` asks the elaborated environment instead. It reports every declaration of the given modules whose type, or whose body if it is a definition, refers to the constant `Submodule.IsLattice`, and exits with status 1 if there are any. From the ported tree, after building the modules:
+
+```
+lake env lean --run /path/to/port/islattice_audit.lean Module.One Module.Two ...
+```
+
+Run it on every module of a packet before submitting. Run it as well before landing `unchanged` records in bulk from triage: build the modules whose pinned source mentions `IsLattice`, then audit them.
 
 ## When the port is complete
 
-When every module has a patch or an `unchanged` record, a maintainer assembles the ported tree from the pinned archive plus the patches. They then build `Main`, run the axiom audit and the Mathlib-only statement comparison, and run the independent checkers on the target toolchain. That result is reported **separately** from the replay's own verdict.
+When every module has a patch or an `unchanged` record, a maintainer assembles the ported tree from the pinned archive plus the patches. They then build `Main`, run the axiom audit, the `IsLattice` audit over all project modules and the Mathlib-only statement comparison, and run the independent checkers on the target toolchain. That result is reported **separately** from the replay's own verdict.

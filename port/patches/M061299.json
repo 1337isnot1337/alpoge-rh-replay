@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.DerivativeCyclotomicMul",
+  "source_sha256": "caf7a565cc2b38ab5728642ece8c1e5fc7e3f9d6293fe0656c65676b0b7c0df1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Disambiguate map_add as RingHom.map_add"
+}

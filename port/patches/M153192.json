@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogVandermondeBounds.GaussOperatorProductFormula",
+  "source_sha256": "4c7b3c426470446f3c49bc60bd1f16d8e28e973048f1e879101617bbab2f7250",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.BranchSandwichDivisors.NormLog",
+  "source_sha256": "0a792a2d9ec81e58477b61ab762d3bda2fa4119f46ef676886c13f75bf8b328d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

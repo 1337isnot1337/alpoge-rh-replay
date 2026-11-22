@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.EulerProductNeZeroOneOfEntire",
+  "source_sha256": "130a2f9d37ccccc552faa0cec831cc4ba62b48769630f47bef6fbf8ee5c81edf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Apply congrArg to Complex.exp explicitly instead of congr searching through its analytic definition. The explicit exponential congruence passed its reduced-heartbeat diagnostic; restore the original compiler limit for final evidence. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0096-lean436-20261121/packet-result.json"
+}

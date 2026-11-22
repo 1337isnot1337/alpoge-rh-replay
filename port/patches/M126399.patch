@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ParabolicHaarDecomposition.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/ParabolicHaarDecomposition.lean
+@@ -80,7 +80,7 @@
+     have hg : ι γ ∈ Γ := hΓ γ hγ
+     have hqmp : Measure.QuasiMeasurePreserving
+         (fun m : π.ker => MulAut.conjNormal (ι γ) m) ν ν := by
+-      refine ⟨(hcont _).measurable, ?_⟩
++      refine ⟨(hcont _).measurable.aemeasurable, ?_⟩
+       rw [ha γ]
+       intro s hs
+       rw [Measure.smul_apply, hs, smul_zero]

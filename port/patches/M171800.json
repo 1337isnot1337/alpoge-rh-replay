@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.MapSmulOneMulVec",
+  "source_sha256": "951fca6d9e0e22d1c9a5169e8e00072e6355b579781af7d10cd4fd184f8b7a3f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

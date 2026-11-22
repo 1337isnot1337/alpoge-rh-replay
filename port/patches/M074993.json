@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitaryActionHermitianInvariantsTransitive",
+  "source_sha256": "836ee8b6580ac4adae3c885c9a833e6b9f9619ec6429e567ba74ab78142cf93d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify matrix multiplication and identity entry lemmas."
+}

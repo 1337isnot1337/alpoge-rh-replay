@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RootSubgroupBasics.TriShear",
+  "source_sha256": "8f42326439a5eca3d8cbf8bf666978af502b0856e3bb94e79b2301da344fd307",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use Measurable.of_eval with the same coordinate-wise measurability proofs; the function argument is now implicit. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0154-lean436-20261121/packet-result.json"
+}

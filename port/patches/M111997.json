@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.AnnihilatorModels.SameNormBasic",
+  "source_sha256": "8ba916c5f9a186d327fc03273bf33cac398d4b2dad1ca71350a4e2b063340916",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation in the definitions: use polynomial.coeff index in place of the former MvPolynomial.coeff index polynomial. All coefficient indices, polynomial expressions, scalar rings, quantifiers and integral/Gauss hypotheses are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0135-lean436-20261121/packet-result.json"
+}

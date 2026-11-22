@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.HermitianCurvature.StatementK",
+  "source_sha256": "1b56306d7f2afeb5aa38e41acd63a30bcd02945d0e7a0dc7a2318a80622eb11c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0148-lean436-20261121/packet-result.json"
+}

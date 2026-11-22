@@ -1,0 +1,38 @@
+--- a/src/Formalism/LogSumExpBounds/CharacterSumPhase/LatSum.lean
++++ b/src/Formalism/LogSumExpBounds/CharacterSumPhase/LatSum.lean
+@@ -113,7 +113,7 @@
+     _ = ∏ _v : Fin f, ((∑ n ∈ T, psi n) * (∑ n ∈ T, psi n)) := by
+         rw [sum_mul_sum, sum_product]
+     _ ≤ ∏ _v : Fin f, ((∑' n, psi n) ^ 2) := by
+-        apply prod_le_prod
++        apply prod_le_prod₀
+         · intro v _
+           exact mul_nonneg (sum_nonneg fun n _ => psi_nonneg n) (sum_nonneg fun n _ => psi_nonneg n)
+         · intro v _
+@@ -144,7 +144,7 @@
+     have hmem : o - o' ∈ La := La.sub_mem (hS o ho).1 (hS o' ho').1
+     have h1 := hLa (o - o') hmem (sub_ne_zero.mpr hoo)
+     have h2 : ∏ v, ‖(o - o') v‖ ≤ ∏ v, x v := by
+-      apply prod_le_prod (fun v _ => norm_nonneg _)
++      apply prod_le_prod₀ (fun v _ => norm_nonneg _)
+       intro v _
+       have hcv := congrFun hc v
+       simp only [c, Prod.mk.injEq] at hcv
+@@ -171,7 +171,7 @@
+     calc ∏ v, min 1 ((x v / ‖o v‖) ^ K)
+         ≤ ∏ v, ((x v / ‖o v‖) ^ ((K : ℝ) - 5 / 2) *
+             ((min 1 (x v / ‖o v‖)) ^ (5 / 4 : ℝ) * (min 1 (x v / ‖o v‖)) ^ (5 / 4 : ℝ))) := by
+-          apply prod_le_prod
++          apply prod_le_prod₀
+           · intro v _
+             exact le_min zero_le_one (pow_nonneg (ht v).le _)
+           · intro v _
+@@ -186,7 +186,7 @@
+             apply Real.rpow_le_rpow (prod_nonneg fun v _ => (ht v).le) _ (by linarith)
+             rw [prod_div_distrib]
+             exact div_le_self (prod_nonneg fun v _ => (hx v).le) (hLa o (hS o ho).1 (hS o ho).2)
+-          · apply prod_le_prod
++          · apply prod_le_prod₀
+             · intro v _
+               have h0 : 0 ≤ min 1 (x v / ‖o v‖) := le_min zero_le_one (ht v).le
+               positivity

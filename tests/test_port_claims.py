@@ -114,6 +114,44 @@ class PortClaimTests(unittest.TestCase):
         self.assertEqual([call.args[0][call.args[0].index('--title') + 1]
                           for call in self.gh.call_args_list], ['Port P0001', 'Port P0002'])
 
+    def test_pending_port_pr_reserves_packet_without_open_claim_issue(self):
+        self.issues.append({'title': 'Port P0001 to Lean 4.36', 'pull_request': {}})
+        self.assertEqual([line.split('\t')[0] for line in self.run_cli('next').splitlines()],
+                         ['P0002'])
+        for target in ['P0001', 'M000001']:
+            with self.subTest(target=target), self.assertRaisesRegex(SystemExit, 'Port P0001'):
+                self.run_cli('claim', target)
+        self.gh.assert_not_called()
+
+    def test_pending_module_port_pr_reserves_containing_packet(self):
+        self.issues.append({'title': '[port] M000002: adapt coefficients', 'pull_request': {}})
+        with self.assertRaisesRegex(SystemExit, 'Port M000002'):
+            self.run_cli('claim', 'P0001')
+        self.gh.assert_not_called()
+
+    def test_pending_pr_recognition_accepts_case_labels_and_multiple_ids(self):
+        self.issues.extend([
+            {'title': 'Porting p0001 and M000003', 'pull_request': {}},
+            {'title': 'M000002: compatibility fixes', 'pull_request': {},
+             'labels': [{'name': 'port'}]},
+        ])
+        self.assertEqual(self.port.port_issues(), {'P0001', 'M000002', 'M000003'})
+
+    def test_unrelated_prs_and_nonclaim_issues_do_not_reserve_ports(self):
+        self.issues.extend([
+            {'title': 'Replay P0001', 'pull_request': {}},
+            {'title': 'Transport P0002', 'pull_request': {}},
+            {'title': 'Question about Port P0001'},
+            {'title': 'Port queue improvements', 'pull_request': {}},
+        ])
+        self.assertEqual(self.port.port_issues(), set())
+
+    def test_later_pending_pr_conflict_prevents_entire_claim_batch(self):
+        self.issues.append({'title': 'Port P0002', 'pull_request': {}})
+        with self.assertRaisesRegex(SystemExit, 'Port P0002'):
+            self.run_cli('claim', 'P0001', 'P0002')
+        self.gh.assert_not_called()
+
     def test_later_reservation_conflict_prevents_all_creations(self):
         self.reserve('M000003')
         with self.assertRaisesRegex(SystemExit, 'Port M000003'):

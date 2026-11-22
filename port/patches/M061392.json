@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.EichlerIntegralFromISlashChangeOfVariables",
+  "source_sha256": "5262cd1224b1d81f98e2ca81fe84a69887ec78fba7fe06fcf5952bc1572fe220",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update finset_sum_coeff to finsetSum_coeff and qualify Polynomial.coeff_smul"
+}

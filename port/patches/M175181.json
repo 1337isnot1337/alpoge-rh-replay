@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ThetaSummability.TailSumEstimates.ConeDefs",
+  "source_sha256": "d153df80444101a9ea4c1d8aef1820f03430e103d17ad1aef33e66a9dda29d2f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

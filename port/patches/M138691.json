@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.IdealCycleValues.LengthLocQuot",
+  "source_sha256": "273cb443feb242caafc36b1b8af11135c20927d933ecaf3f2d7301f2f083aed0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

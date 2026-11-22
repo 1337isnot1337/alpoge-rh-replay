@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExpandPiOfExpandEachStatement",
+  "source_sha256": "b4fa443b8fe8e31b7b894f585e33cf7c1a9913f215d9b02297dfdd01737a2b03",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

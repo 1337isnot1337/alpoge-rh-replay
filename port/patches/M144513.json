@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FormalGroupLog.Statement",
+  "source_sha256": "c7aca667a0ff620455c0bfc01637c5c6806302db64383a24f0832ee7021df277",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent partial-derivative API adaptation: supply the same scalar ring K as an implicit named argument. The indices, iterates, power series and identities are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

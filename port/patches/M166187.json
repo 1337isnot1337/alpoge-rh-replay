@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightKernels.PHadamardPSD",
+  "source_sha256": "f0583488d81b67a11dacccde0ab7b7097ca96f83de9c3dda3560776c795e851f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: infer the vector in the positive-semidefinite kernel equivalence and use the ordered-ring finite-product inequality with its original nonnegativity proofs. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0164-lean436-20261121/packet-result.json"
+}

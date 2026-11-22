@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.HyperbolicPlaceProducts.SubgroupIndexCounts.CountO",
+  "source_sha256": "810fc8008ce604fca731494145803e0502d101e787638a4dca36bb27b8250ca3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0148-lean436-20261121/packet-result.json"
+}

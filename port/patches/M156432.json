@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RamificationBound.CtNonneg",
+  "source_sha256": "af1a51c9d01e876a139484956756e4649ffb061c089c533f37e43c6dc71fdbdb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation in GaussAlg: w.coeff n denotes the same coefficient at multi-index n as the original coeff n w. The quantified polynomials, coefficient ring, subring membership and gaussGe conclusion are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0154-lean436-20261121/packet-result.json"
+}

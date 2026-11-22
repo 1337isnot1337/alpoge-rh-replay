@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/ExistsIntegerUnitSplitPlaceConjugatePrime.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/ExistsIntegerUnitSplitPlaceConjugatePrime.lean
+@@ -25,6 +25,7 @@
+     hU ⟨y₀, hy₀⟩
+   exact ⟨k, hk⟩
+ 
++set_option synthInstance.maxHeartbeats 100000 in
+ variable (L) in
+ 
+ theorem exists_sep (s : ReciprocityTheory.Aut.SplitPlace L) :

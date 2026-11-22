@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.FlagBasic",
+  "source_sha256": "a8269c66b73f7a56c30a0f3414bdf145799dab8034bd9d5d1a21c8f6307f1d78",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target additive coefficient lemma for the same linearity proof."
+}

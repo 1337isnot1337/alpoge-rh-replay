@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RealRepTmul",
+  "source_sha256": "2454c9d6147b393666acb9bb8c73f81a9417952a5f7e93daa48dfb92a1b55bbc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

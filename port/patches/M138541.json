@@ -1,0 +1,7 @@
+{
+  "module": "Development.WeilBound.CoreStatements.HodgeTatePoints.SiuaNum",
+  "source_sha256": "02dae6ddb6608fd3e06f5f6e0e3d32886b5ca33b6814c9af6e95b9f8c953ab0e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: `MultilinearMap ℤ` becomes `MultilinearMap (RingHom.id ℤ)` (printed `→ₘₗ[ℤ]`) in `expand`, `form`, `form_cast`, `form_smul`, `form_cont` and `siu_num`. Mathlib generalized `MultilinearMap` to maps semilinear over a ring hom, so `MultilinearMap ℤ M N` no longer elaborates. Over `RingHom.id ℤ` the fields `toFun` and `map_update_add'` are the pinned ones and `map_update_smul'` reads `RingHom.id ℤ c • _`, definitionally the pinned `c • _`. Also `simp only [RingHom.id_apply]` after `map_smul_univ`."
+}

@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.RealGroups.FormalDegrees.ArchimedeanFormalDegrees.MomentRecursion.MomStep",
+  "source_sha256": "396f5a8d62ec5ac8f572f00bbd990767a4d919b7e95215228e77144c03ad5326",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the ordered-ring finite-product upper bound with the original nonnegativity hypotheses. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0094-lean436-20261121/packet-result.json"
+}

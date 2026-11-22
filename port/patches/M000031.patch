@@ -1,0 +1,12 @@
+diff --git a/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/LagSum.lean b/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/LagSum.lean
+--- a/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/LagSum.lean
++++ b/src/CompanionTheory/AutomorphicTheory/BesselWaveGrids/InterlacingGrids/LagSum.lean
+@@ -12,7 +12,7 @@ theorem lag_abs_term_le {d : ℕ} (y : Fin (d + 1) → ℝ) (h : ∀ i j, i ≠
+     rw [Finset.card_erase_of_mem (mem_univ j)]; simp
+   calc ∏ i ∈ (univ : Finset (Fin (d + 1))).erase j, |(y j - y i)⁻¹|
+       ≤ ∏ _i ∈ (univ : Finset (Fin (d + 1))).erase j, (1 / 5 : ℝ) := by
+-        apply Finset.prod_le_prod
++        apply Finset.prod_le_prod₀
+         · intro i _; exact abs_nonneg _
+         · intro i hi
+           have hij : j ≠ i := (Finset.ne_of_mem_erase hi).symm

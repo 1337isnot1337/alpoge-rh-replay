@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.DoubleCosetMeasures.LowerUnipotentOrbits.LemmaU",
+  "source_sha256": "1b650a7771203b59c7a32171c9416f630d0ce79d3a1d8381d653c98df27e73f9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "measurable_pi_lambda now takes the function implicitly; drop the placeholder. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

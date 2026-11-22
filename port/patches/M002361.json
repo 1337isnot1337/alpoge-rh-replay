@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.HeightDefect.SphereBlockLogMean",
+  "source_sha256": "ec2b577cdefd22f99772eb9f6ccd5014c62d2ef161821e0c526faa9da989acc1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the polynomial coefficient projection in IsBlockHomogeneous, gaussAbsValue and their statements. This is definitionally the same pinned coefficient operation; no homogeneity or size condition changes. Supply the existing measurability proof for the map of a scaled measure.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0001-lean436-20261121/packet-result.json"
+}

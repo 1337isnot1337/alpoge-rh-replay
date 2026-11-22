@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianClassFiniteness.ClassSetFinIdx",
+  "source_sha256": "e2dce2039c9612124a67259a84d63f305db364b589b9367b6e233aca9e6bd87f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Destructure double-coset representatives in the updated witness and membership order."
+}

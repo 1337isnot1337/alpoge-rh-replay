@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.EllipsoidSt",
+  "source_sha256": "b7b68614698ad45a9231a43b7440c6892c801f2fb847cf80390a7c395e25f6e6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0168-issue-26518/P0168-receipt.json"
+}

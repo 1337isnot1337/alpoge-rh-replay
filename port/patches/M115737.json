@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.SpecialLinearTensor",
+  "source_sha256": "1f53f3e6555c6d77af578fd20cc22a0f3f8b30a8a4aa0750ad9f902b8d3a2828",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Omit explicit PiTensorProduct.lift type ascription where MultilinearMap gained semilinear ring hom parameter in Mathlib v4.36.0"
+}

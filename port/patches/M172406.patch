@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovVolumes/UpperBounds/IntegralStatementPfA.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArakelovVolumes/UpperBounds/IntegralStatementPfA.lean
+@@ -36,7 +36,7 @@
+   classical
+   conv_lhs => rw [← sum_homogeneousComponent f]
+   rw [map_sum, Polynomial.finsetSum_coeff]
+-  simp_rw [cone_homog a (homogeneousComponent_isHomogeneous _ f), Polynomial.coeff_monomial]
++  simp_rw [cone_homog a (homogeneousComponent_isHomogeneous _ f), Polynomial.coeff_monomial, Finsupp.single_apply]
+   rw [Finset.sum_ite_eq']
+   split_ifs with h
+   · rfl

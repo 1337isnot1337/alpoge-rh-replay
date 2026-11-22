@@ -1,0 +1,11 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/LocDensCntQ.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/LocDensCntQ.lean
+@@ -45,7 +45,7 @@
+           ring
+   · push Not at hsq
+     let f : k[X] := X ^ 2 - C D
+-    have hfdeg : f.natDegree = 2 := natDegree_X_pow_sub_C
++    have hfdeg : f.natDegree = 2 := natDegree_X_pow_sub_C D
+     have hnr : ∀ x, ¬ IsRoot f x := by
+       intro x hx
+       apply hsq x

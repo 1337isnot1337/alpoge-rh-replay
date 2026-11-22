@@ -1,0 +1,52 @@
+--- a/src/Formalism/PadicSubsetSums/StableGradedCounts/PadicValCardGL.lean
++++ b/src/Formalism/PadicSubsetSums/StableGradedCounts/PadicValCardGL.lean
+@@ -3,7 +3,7 @@
+ namespace Formalism.IrreducibleCountingLemmas.WindowSums
+ 
+ theorem padicValNat_finset_prod {ι : Type} (p : ℕ) [Fact p.Prime] (s : Finset ι) (f : ι → ℕ)
+-    (h : ∀ i ∈ s, f i ≠ 0) : padicValNat p (∏ i ∈ s, f i) = ∑ i ∈ s, padicValNat p (f i) := by
++    (h : ∀ i ∈ s, f i ≠ 0) : multiplicity p (∏ i ∈ s, f i) = ∑ i ∈ s, multiplicity p (f i) := by
+   classical
+   revert h
+   refine Finset.induction_on s (fun _ => by simp) ?_
+@@ -22,9 +22,9 @@
+   simp [mul_add]
+ 
+ theorem padicValNat_prod_pow_sub (g q r : ℕ) [Fact g.Prime] (hq : 2 ≤ q) :
+-    padicValNat g (∏ i ∈ Finset.range r, (q ^ r - q ^ i)) =
+-      (∑ i ∈ Finset.range r, i) * padicValNat g q +
+-        ∑ a ∈ Finset.Icc 1 r, padicValNat g (q ^ a - 1) := by
++    multiplicity g (∏ i ∈ Finset.range r, (q ^ r - q ^ i)) =
++      (∑ i ∈ Finset.range r, i) * multiplicity g q +
++        ∑ a ∈ Finset.Icc 1 r, multiplicity g (q ^ a - 1) := by
+   have hq0 : 0 < q := by omega
+   have hbig : ∀ i ∈ Finset.range r, q ^ (r - i) - 1 ≠ 0 := by
+     intro i hi
+@@ -36,8 +36,8 @@
+     intro i hi
+     rw [pow_sub_pow_eq_pow_mul_pow_sub_one_of_lt q r i hq0 (Finset.mem_range.mp hi)]
+     exact Nat.mul_ne_zero (pow_ne_zero _ hq0.ne') (hbig i hi)
+-  have term : ∀ i ∈ Finset.range r, padicValNat g (q ^ r - q ^ i) =
+-      i * padicValNat g q + padicValNat g (q ^ (r - i) - 1) := by
++  have term : ∀ i ∈ Finset.range r, multiplicity g (q ^ r - q ^ i) =
++      i * multiplicity g q + multiplicity g (q ^ (r - i) - 1) := by
+     intro i hi
+     rw [pow_sub_pow_eq_pow_mul_pow_sub_one_of_lt q r i hq0 (Finset.mem_range.mp hi),
+       padicValNat.mul (pow_ne_zero _ hq0.ne') (hbig i hi), padicValNat.pow]
+@@ -59,6 +59,7 @@
+ theorem padicValCardGeneralLinear : GLCardVal := by
+   unfold GLCardVal
+   intro g g' r instg instg' hne
++  simp only [Nat.padicValNat_def]
+   have hg : g.Prime := instg.out
+   have hg' : g'.Prime := instg'.out
+   constructor
+@@ -77,7 +78,7 @@
+     rw [Nat.sub_sub_self h2] at h3
+     exact hg.one_lt.ne' (Nat.dvd_one.mp h3)
+   · rw [card_GL_zmod, padicValNat_prod_pow_sub g g' r hg'.two_le]
+-    have h0 : padicValNat g g' = 0 :=
++    have h0 : multiplicity g g' = 0 :=
+       padicValNat.eq_zero_of_not_dvd fun hd => hne ((Nat.prime_dvd_prime_iff_eq hg hg').mp hd)
+     rw [h0, mul_zero, zero_add]
+ 

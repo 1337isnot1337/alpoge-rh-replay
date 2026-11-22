@@ -1,0 +1,50 @@
+name: Independent kernel export guards
+on:
+  pull_request:
+    paths: ['kernel/packet_check.py', 'kernel/independent-check.sh', 'kernel/test_packet_check.py', 'kernel/tools.lock', 'tests/kernel-axiom-names-native.py', '.github/workflows/kernel-export-guards.yml']
+  push:
+    paths: ['kernel/packet_check.py', 'kernel/independent-check.sh', 'kernel/test_packet_check.py', 'kernel/tools.lock', 'tests/kernel-axiom-names-native.py', '.github/workflows/kernel-export-guards.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  kernel-export-guards:
+    if: github.event_name != 'push' || github.event.repository.fork || github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Install pinned toolchains
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y elan
+          elan toolchain install leanprover/lean4:v4.33.1
+          rustup toolchain install 1.100.0 --profile minimal
+          rustup default 1.100.0
+      - name: Check parser regressions and shell syntax
+        run: |
+          python3 -m unittest discover -s kernel -p 'test_packet_check.py' -v
+          bash -n kernel/independent-check.sh
+      - name: Reject aliased axiom names with native pinned tools
+        env:
+          LEAN_NUM_THREADS: '2'
+        run: |
+          export KERNEL_TEST_TC_BIN="$(elan run leanprover/lean4:v4.33.1 lean --print-prefix)/bin"
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+          import subprocess
+          import sys
+          sys.path.insert(0, 'kernel')
+          import packet_check
+          tc = Path(os.environ['KERNEL_TEST_TC_BIN'])
+          out = Path(os.environ['RUNNER_TEMP']) / 'kernel-axiom-name-tools'
+          out.mkdir()
+          env = os.environ.copy()
+          env['PATH'] = str(tc) + os.pathsep + env['PATH']
+          exporter = packet_check.ensure_lean4export(out, tc, env)
+          nanoda = packet_check.ensure_nanoda(out, 2)
+          subprocess.run([sys.executable, 'tests/kernel-axiom-names-native.py', str(tc), str(exporter), str(nanoda)], check=True)
+          PY

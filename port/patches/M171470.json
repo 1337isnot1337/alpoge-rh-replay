@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.RegularLocalRings.DivSheafA",
+  "source_sha256": "7de1c888ddff332c769fe15af192b60b27d9cd9ca302356a6adfa05f9d2d111d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

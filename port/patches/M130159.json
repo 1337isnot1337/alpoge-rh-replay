@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.EpiRingHomFieldClosure",
+  "source_sha256": "b825b2877530849a90b3258e7e2e79136cd49e758edb3ab5b0d806b9e06bd14b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0142-lean436-20261121/packet-result.json"
+}

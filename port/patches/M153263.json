@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.MahlerMeasure.StatementB",
+  "source_sha256": "4792ff7be8f3dc94545cbee7e936ae4dfa0198b7d0ed8feb4218b427bb7af38b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0150-lean436-20261121/packet-result.json"
+}

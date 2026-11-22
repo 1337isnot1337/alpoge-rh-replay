@@ -1,0 +1,61 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/IsUnitDetOfProductMapNeZero.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/IsUnitDetOfProductMapNeZero.lean
+@@ -110,7 +110,7 @@
+     intro M hM
+     haveI : M.IsMaximal := hM.2
+     have hMc : (M.comap (algebraMap S (S ⊗[R] B))).IsMaximal :=
+-      Ideal.isMaximal_comap_of_isIntegral_of_isMaximal M
++      Ideal.isMaximal_under_of_isIntegral_of_isMaximal (R := S) M
+     have h2 := hx j
+     unfold Ideal.jacobson at h2
+     exact Ideal.mem_sInf.mp h2 ⟨bot_le, hMc⟩
+@@ -219,7 +219,7 @@
+     obtain ⟨P, hP, hwP⟩ := Ideal.exists_le_maximal (Ideal.span {w})
+       (by rwa [Ne, Ideal.span_singleton_eq_top])
+     have hPc : P.comap (algebraMap R B) = maximalIdeal R :=
+-      IsLocalRing.eq_maximalIdeal (Ideal.isMaximal_comap_of_isIntegral_of_isMaximal P)
++      IsLocalRing.eq_maximalIdeal (Ideal.isMaximal_under_of_isIntegral_of_isMaximal (R := R) P)
+     have hmP : (maximalIdeal R).map (algebraMap R B) ≤ P := by
+       rw [Ideal.map_le_iff_le_comap, hPc]
+     have hν : w - algebraMap R B c ∈ P :=
+@@ -299,7 +299,7 @@
+   have hm : (P.comap (algebraMap R B)).IsMaximal := by
+     rw [hcomap]; exact maximalIdeal.isMaximal R
+   haveI : Algebra.IsIntegral R B := Algebra.IsIntegral.of_finite R B
+-  haveI hPmax : P.IsMaximal := Ideal.isMaximal_of_isIntegral_of_isMaximal_comap P hm
++  haveI hPmax : P.IsMaximal := Ideal.isMaximal_of_isIntegral_of_isMaximal_under (R := R) P hm
+   have hmax : (P.comap (algebraMap S B)).IsMaximal := Ideal.comap_isMaximal_of_surjective _ hsurj
+   unfold Ideal.jacobson at hx
+   exact Ideal.mem_sInf.mp hx ⟨bot_le, hmax⟩
+@@ -386,7 +386,7 @@
+     (b : Module.Basis (Fin d) R (MvPowerSeries (Fin g) R ⧸ Ideal.span (Set.range f)))
+     (hf : ∀ i, constantCoeff (f i) ∈ maximalIdeal R) :
+     Associated (Algebra.discr R b) (Algebra.norm R (Ideal.Quotient.mk (Ideal.span (Set.range f))
+-      (Matrix.of fun i j => pderiv R j (f i)).det)) := by
++      (Matrix.of fun i j => pderiv (R := R) j (f i)).det)) := by
+   classical
+   haveI : Module.Finite R (MvPowerSeries (Fin g) R ⧸ Ideal.span (Set.range f)) :=
+     Module.Finite.of_basis b
+@@ -434,7 +434,7 @@
+       (TensorProduct.tmul R x 1 - TensorProduct.tmul R 1 x) = 0 := by
+     intro x; rw [← hDe]; exact hann x
+   have hJ : ∑ i, ∑ j, M i j • (b i * b j) = Ideal.Quotient.mk (Ideal.span (Set.range f))
+-      (Matrix.of fun i j => pderiv R j (f i)).det := by
++      (Matrix.of fun i j => pderiv (R := R) j (f i)).det := by
+     have hlm : ∀ t, Algebra.TensorProduct.lmul' R (Algebra.TensorProduct.map
+         (IsScalarTower.toAlgHom R (MvPowerSeries (Fin g) R)
+           (MvPowerSeries (Fin g) R ⧸ Ideal.span (Set.range f))) (AlgHom.id R _) t) =
+@@ -445,11 +445,11 @@
+       | zero => simp
+       | add y z hy hz => rw [map_add, map_add, hy, hz, map_add]
+       | tmul s w => simp
+-    have hentry : ∀ i j, Ideal.Quotient.mk (Ideal.span (Set.range f)) (pderiv R j (f i)) =
++    have hentry : ∀ i j, Ideal.Quotient.mk (Ideal.span (Set.range f)) (pderiv (R := R) j (f i)) =
+         _root_.GlobalTheory.DiscrJacobian.mu R (MvPowerSeries (Fin g) R)
+           (MvPowerSeries (Fin g) R ⧸ Ideal.span (Set.range f)) (a i j) := by
+       intro i j
+-      have := algebraMap_derivation_eq_sum_mu_mul (pderiv R j) X f (Matrix.of a) ha i
++      have := algebraMap_derivation_eq_sum_mu_mul (pderiv (R := R) j) X f (Matrix.of a) ha i
+       rw [← Ideal.Quotient.algebraMap_eq, this]
+       simp only [Matrix.of_apply]
+       rw [Finset.sum_eq_single j (fun k _ hk => by rw [pderiv_X_of_ne hk, map_zero, mul_zero])

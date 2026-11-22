@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NoetherNormalizationHomogeneous",
+  "source_sha256": "4e6e45758619078d2c43b9c4663d2eb02f4a75195c8b9a5855594db925a1dab1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the polynomial coefficient projection and finite-sum lemma, typed quotient-ring rewrites and explicit ring arguments. At integral transitivity, select the canonical scalar action from the integral-closure algebra explicitly: unconstrained SMul instance search instead tried an unavailable ambient-S algebra structure on the integral closure and exhausted its bound. All mathematical statements and original compiler options are preserved. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0140-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,36 @@
+{
+  "tasks": [
+    "M078093"
+  ],
+  "started_utc": "2026-11-21T19:21:51.340732+00:00",
+  "ended_utc": "2026-11-21T19:32:46.086419+00:00",
+  "elapsed_seconds": 654.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 7483068
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.ExistsNatMulIsIntegralIwasawaDecomposition:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "264e3c8223ba54fd56addb7458271a96f7ef338b2ba3c35f81244ddca0ddd90e",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.IwasawaDecomposition.OneAddSmulVecMulVecMulVec"
+  ],
+  "objects": {
+    "M078093": "821badde6f1bbfef0956397eb7633a3f821f7c883d06b05ef16586c7ea771fe1"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "b4f00d8b5f5250dd6b37decea79ee68745aecd48a2e50f471765ce0f97f8d4a5",
+  "packet": "M078093",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25105#issuecomment-7068103683",
+  "reviewed_utc": "2026-11-21T20:02:44.292717+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RepTraceEqMulTraceStatement",
+  "source_sha256": "fecb2c690c8f62e3cf0984bfeacdffd7400a4751db953ab4fbc0286e37cc4504",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

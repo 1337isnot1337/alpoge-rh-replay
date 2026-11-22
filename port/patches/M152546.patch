@@ -1,0 +1,11 @@
+--- a/src/Formalism/LocalToGlobal/SiegelLatticeTheory/SiegelMassRatios/ClassAct.lean
++++ b/src/Formalism/LocalToGlobal/SiegelLatticeTheory/SiegelMassRatios/ClassAct.lean
+@@ -31,7 +31,7 @@
+ theorem diaFree_of_isNeat {Γ K K₀ D : Subgroup G} (hK : K ≤ K₀) (hD : D ≤ K₀) (hn : IsNeat Γ K₀) :
+     DiaFree Γ K D := by
+   intro x δ hδ h
+-  obtain ⟨γ, hγ, κ, hκ, hx⟩ := (DoubleCoset.eq Γ K (x * δ) x).mp h
++  obtain ⟨γ, hγ, κ, hκ, hx⟩ := DoubleCoset.eq.mp h
+ 
+   have hst : (⟨γ⁻¹, Γ.inv_mem hγ⟩ : Γ) ∈ stabAt Γ K₀ x := by
+     show x⁻¹ * γ⁻¹ * x ∈ K₀

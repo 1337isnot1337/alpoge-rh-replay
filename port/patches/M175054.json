@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.AevalIsWeightedHomogeneous",
+  "source_sha256": "ae81e528d0ea4a4bf4401462c061797b519bbb52ba41c23b505a7ce502025550",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The coefficient accessor in exists_torus_coeff_le is the current polynomial projection, definitionally the pinned coefficient operation; its bound and quantifiers are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0171-lean436-20261121/packet-result.json"
+}

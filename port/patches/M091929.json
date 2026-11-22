@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.AedisjointPairGroupSmulShearedDomain",
+  "source_sha256": "e642ccd60bdf846c0d60a7412d09000a70f8d50e0f733adc8393260bbc0c6beb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace private Measure.prod_prod_le with Measure.prod_prod in aedisjoint_pairGroup_smul_shear_image for Mathlib v4.36.0."
+}

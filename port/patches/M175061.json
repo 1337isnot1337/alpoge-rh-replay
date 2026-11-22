@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.ApproxGraphA",
+  "source_sha256": "833100586a19fa8098ec6945fc7a4364710e629eb54cabbe2bd7ae933b317b51",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0171-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorLower.RealStep",
+  "source_sha256": "a0d31cf4f751dee5ba4c6f93094bbdba68641bf133c317452bf48453b420e721",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

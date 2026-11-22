@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/LaTIsPrime.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/HeightTheory/LaTIsPrime.lean
+@@ -166,7 +166,7 @@
+ noncomputable def bvec (hd : d.Ax 𝒜) : Fin d.del → ∀ c, OmS (Ω c) d.D d.N :=
+   d.bvecG hd.sel (d.eF hd)
+ 
+-def AdmissibleOmegaFamiliesAtPrime (hd : d.Ax 𝒜) (la : IsDedekindDomain.HeightOneSpectrum (𝓞 K)) :
++noncomputable def AdmissibleOmegaFamiliesAtPrime (hd : d.Ax 𝒜) (la : IsDedekindDomain.HeightOneSpectrum (𝓞 K)) :
+     Set (∀ c, OmS (Ω c) d.D d.N) :=
+   d.AdmissibleOmegaFamiliesAtPrimeOfSection (d.eF hd) la
+ 

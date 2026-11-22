@@ -1,0 +1,12 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ProjectiveOfIsLocallyConstantFinrankFiber.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/ProjectiveOfIsLocallyConstantFinrankFiber.lean
+@@ -85,7 +85,8 @@
+     obtain ⟨h2, h3⟩ := hf (show (⟨J, hJ⟩ : PrimeSpectrum R) ∈ _ from hfJ)
+     have hinj : Injective (φ.baseChange J.ResidueField) :=
+       (LinearMap.injective_iff_surjective_of_finrank_eq_finrank
+-        ((finrank_baseChange_fin _ _).trans h2.symm)).2 h3
++        (f := φ.baseChange J.ResidueField)
++        ((finrank_baseChange_fin (R := R) J.ResidueField _).trans h2.symm)).2 h3
+     have h4 : (1 : J.ResidueField) ⊗ₜ[R] x = 0 := hinj (by simp [hx])
+     have h5 := congrFun (congrArg (TensorProduct.piScalarRight R J.ResidueField J.ResidueField _) h4) j
+     refine J.mul_mem_left _ ?_

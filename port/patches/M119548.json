@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.WhittakerHecke.FiniteTranslatesMatrixCoefficient",
+  "source_sha256": "1702b8920b0a72383bbc892a448f51d3c53f2e2db4258831d50f8d43f93176d6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

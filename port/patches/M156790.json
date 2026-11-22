@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.StabilizerOrbitVolume.LocDensChLift",
+  "source_sha256": "19f7a01b48135eec8caa0ea9f5cc220965d8ee1eecfb33b000bac9dcf4f8d152",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed continuity lemma for finite sums."
+}

@@ -1,0 +1,51 @@
+{
+  "tasks": [
+    "M130195"
+  ],
+  "started_utc": "2026-11-21T19:22:11.308126+00:00",
+  "ended_utc": "2026-11-21T19:40:57.422920+00:00",
+  "elapsed_seconds": 1125.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5731832
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsCompatibleLieModelStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b44a5d620b5641682d732abe056f2592a8a15b90ca73c40b0a289e1546fda932",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.ProIsoAt",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.AdelicGroupAlgebraActionInjective",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.CoordsAt",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.EigLat",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.EtaleLocalizationAtPrimeTensorOfLowHeight",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ExistsGenOfIsVBOne",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ExistsUnitFormLocalizationEtaleNbhd",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.GlueApplyOfNotInFibre",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.HasValues",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.InjectiveOfIsCptGen",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCptGen",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsHTFormOver",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LieModel",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsCompatibleLieModel",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.LieModelPullbackCorrespondence",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.StalkClosedPointToToStalk"
+  ],
+  "objects": {
+    "M130195": "dea31334a6c9269a87801a840828c81bb4e7969fb3bf5810e657748dd43ae1aa"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "884ef0e2cf277c3e5e27ce6fc4ad9927a3c7865e1c49de7ea67cc0a97f3d21af",
+  "packet": "M130195",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25121#issuecomment-7068204543",
+  "reviewed_utc": "2026-11-21T20:02:41.018374+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

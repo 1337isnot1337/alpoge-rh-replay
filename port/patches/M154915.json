@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.ConjTMulMulApply",
+  "source_sha256": "ff7054890896d27a8a0a142ede438b5b1418dd005bdd78df559bc8a79bdaf4ac",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify Matrix.mul_apply to use matrix multiplication rather than pointwise multiplication."
+}

@@ -1,0 +1,14 @@
+diff --git a/src/CompanionTheory/HarishChandraModules/KFiniteAnalyticVectors/AdmissibleSmoothVectors/IwaChol.lean b/src/CompanionTheory/HarishChandraModules/KFiniteAnalyticVectors/AdmissibleSmoothVectors/IwaChol.lean
+--- a/src/CompanionTheory/HarishChandraModules/KFiniteAnalyticVectors/AdmissibleSmoothVectors/IwaChol.lean
++++ b/src/CompanionTheory/HarishChandraModules/KFiniteAnalyticVectors/AdmissibleSmoothVectors/IwaChol.lean
+@@ -25,8 +25,8 @@ variable [WellFoundedLT n] [LocallyFiniteOrderBot n]
+ 
+ theorem exists_isUpperTriangular_conjTranspose_mul_self {S : Matrix n n 𝕜} (hS : S.PosDef) :
+     ∃ R : Matrix n n 𝕜, R.IsUpperTriangular ∧ Rᴴ * R = S := by
+-  have hLi : (LDL.lowerInv hS).IsLowerTriangular := fun i j hij =>
+-    LDL.lowerInv_triangular hS (OrderDual.toDual_lt_toDual.1 hij)
++  have hLi : (LDL.lowerInv hS).IsLowerTriangular :=
++    LDL.isLowerTriangular_lowerInv hS
+   have hL : (LDL.lower hS).IsLowerTriangular := blockTriangular_inv_of_blockTriangular hLi
+   have hD : (LDL.diag hS).PosDef := by
+     rw [LDL.diag_eq_lowerInv_conj]

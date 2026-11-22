@@ -102,7 +102,61 @@ class PortReadinessTest(unittest.TestCase):
         with patch.object(sys, 'argv', ['port.py', 'show', 'P0001', '--ready-only']), \
                 patch.object(port.tasks, 'module_rows', return_value=rows), \
                 patch.object(port, 'ported', return_value={'M000001', 'M900001'}), \
+                patch.object(port, 'pruned', return_value=set()), \
                 patch.object(port, 'triage', return_value={}), \
                 redirect_stdout(io.StringIO()) as output:
             port.main()
             self.assertEqual(output.getvalue().splitlines(), ['M000002 1 untriaged Ready'])
+
+    def test_pruned_modules_are_skipped_in_next_and_show(self):
+        rows = [
+            dict(id='M000001', module='DeadOnly', packet='P0001', depth=0, imports=[]),
+            dict(id='M000002', module='DeadInMixed', packet='P0002', depth=1, imports=['M999999']),
+            dict(id='M000003', module='LiveInMixed', packet='P0002', depth=0, imports=[]),
+        ]
+        with patch.object(sys, 'argv', ['port.py', 'next']), \
+                patch.object(port.tasks, 'module_rows', return_value=rows), \
+                patch.object(port, 'ported', return_value=set()), \
+                patch.object(port, 'pruned', return_value={'M000001', 'M000002'}), \
+                patch.object(port, 'triage', return_value={}), \
+                patch.object(port, 'port_issues', return_value=set()), \
+                redirect_stdout(io.StringIO()) as output:
+            port.main()
+            lines = output.getvalue().splitlines()
+            self.assertEqual([l.split()[0] for l in lines], ['P0002'])
+            self.assertIn('1 modules', lines[0])
+
+        with patch.object(sys, 'argv', ['port.py', 'show', 'P0002']), \
+                patch.object(port.tasks, 'module_rows', return_value=rows), \
+                patch.object(port, 'ported', return_value=set()), \
+                patch.object(port, 'pruned', return_value={'M000001', 'M000002'}), \
+                patch.object(port, 'triage', return_value={}), \
+                redirect_stdout(io.StringIO()) as output:
+            port.main()
+            self.assertEqual(output.getvalue().splitlines(), [
+                'M000002 1 pruned DeadInMixed',
+                'M000003 0 untriaged LiveInMixed',
+            ])
+
+    def test_missing_record_for_pruned_import_blocks_readiness(self):
+        rows = [
+            dict(id='M000001', module='PrunedImport', packet='P0001', depth=0, imports=[]),
+            dict(id='M000002', module='StillImportsIt', packet='P0002', depth=1, imports=['M000001']),
+            dict(id='M000003', module='Independent', packet='P0002', depth=1, imports=[]),
+        ]
+        cases = [
+            (['next'], []),
+            (['next', '--include-partial'],
+             ['P0002\tdepth 1\t1/2 unported modules ready (2 total)\t1 waiting for imports']),
+            (['show', 'P0002', '--ready-only'], ['M000003 1 untriaged Independent']),
+        ]
+        with patch.object(port.tasks, 'module_rows', return_value=rows), \
+                patch.object(port, 'ported', return_value=set()), \
+                patch.object(port, 'pruned', return_value={'M000001'}), \
+                patch.object(port, 'triage', return_value={}), \
+                patch.object(port, 'port_issues', return_value=set()):
+            for args, expected in cases:
+                with self.subTest(args=args), patch.object(sys, 'argv', ['port.py', *args]), \
+                        redirect_stdout(io.StringIO()) as output:
+                    port.main()
+                    self.assertEqual(output.getvalue().splitlines(), expected)

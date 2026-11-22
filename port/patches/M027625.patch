@@ -1,0 +1,24 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMultilinearFormOfPicTorsion.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ExistsMultilinearFormOfPicTorsion.lean
+@@ -44,7 +44,7 @@
+       PiTensorProduct.tmulEquiv B (Pic.AsModule c) ≪≫ₗ PiTensorProduct.reindex B _ finSumFinEquiv⟩
+ 
+ theorem exists_form : ∀ (B : Type) [CommRing B] (q : ℕ) (c : CommRing.Pic B), c ^ q = 1 →
+-    ∃ φ : MultilinearMap B (fun _ : Fin q => CommRing.Pic.AsModule c) B,
++    ∃ φ : MultilinearMap (RingHom.id B) (fun _ : Fin q => CommRing.Pic.AsModule c) B,
+       ∀ p : Ideal B, p.IsPrime → ∃ e : CommRing.Pic.AsModule c, φ (fun _ => e) ∉ p := by
+   intro B _ q c hc
+   obtain ⟨T⟩ := tensorPow_equiv c q
+@@ -65,10 +65,10 @@
+   have hmem' : ψ (PiTensorProduct.tprod B fun _ => e) ∈ p := hmem
+   have h1 : ψ (PiTensorProduct.tprod B (fun i => w i • x i)) =
+       (∏ i, w i) * ψ (PiTensorProduct.tprod B x) := by
+-    rw [MultilinearMap.map_smul_univ, map_smul, smul_eq_mul]
++    rw [MultilinearMap.map_smul_univ, map_smul, smul_eq_mul]; simp only [RingHom.id_apply]
+   have h2 : ψ (PiTensorProduct.tprod B (fun i => w i • x i)) =
+       (∏ i, a i) * ψ (PiTensorProduct.tprod B (fun _ => e)) := by
+-    simp_rw [hwa]; rw [MultilinearMap.map_smul_univ, map_smul, smul_eq_mul]
++    simp_rw [hwa]; rw [MultilinearMap.map_smul_univ, map_smul, smul_eq_mul]; simp only [RingHom.id_apply]
+   have hin : (∏ i, w i) * ψ (PiTensorProduct.tprod B x) ∈ p := by
+     rw [← h1, h2]; exact p.mul_mem_left _ hmem'
+   rcases hp.mem_or_mem hin with h | h

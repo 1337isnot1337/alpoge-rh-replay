@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M134759"
+  ],
+  "started_utc": "2026-11-21T19:46:57.527164+00:00",
+  "ended_utc": "2026-11-21T19:48:32.329742+00:00",
+  "elapsed_seconds": 94.8,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5921416
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Statements.GeometryStatements.ExistsDiff:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "7c598d5a5f2308c5d5d3721ad3951c33efe6155257d95537f0cf967b16d8e7c6",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.GaIsHTFormOver",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCocharLie",
+    "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.IsCocharLieLieModel",
+    "Development.AutomorphicSpectrum.Proofs.GeometryProofs.StdSmoothMvPolynomial"
+  ],
+  "objects": {
+    "M134759": "b22c0f1918c63da695897a8daa9a1be6de3a84c8fa9d25fc96d57efdd2c5d5f8"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "10c626a62af1dde6582eed43f18d994ff087ca522a7fa7eb0e785e991a12fe53",
+  "packet": "M134759",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25357#issuecomment-7068297551",
+  "reviewed_utc": "2026-11-21T20:02:21.219496+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

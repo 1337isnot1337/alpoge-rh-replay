@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.TensorOperator.Development",
+  "source_sha256": "872138a96e82a03716ce9879fb0582fe4b8f1cfe3f9dcd4449b2c7e8a824064c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

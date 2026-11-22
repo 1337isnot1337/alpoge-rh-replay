@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.UnimodularOrthogonal.MatOrthoLocal",
+  "source_sha256": "3fe5412009a216bec5571f22429df7c9169694a2fdc289a79077d872056342dd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HasSumCosetsEulerProductStatement",
+  "source_sha256": "81a6eaac1a5f19f451817612f837a0657c2bcda14828ee5920e6e17bdc139353",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

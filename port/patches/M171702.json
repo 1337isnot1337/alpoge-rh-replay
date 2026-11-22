@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.CommutativeAlgebra.WeakRegularity.GorIndepStatement",
+  "source_sha256": "83467ee3368bd5c11526aac7418c46f21a69f5006e786f7c41e68b1fdf495aeb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

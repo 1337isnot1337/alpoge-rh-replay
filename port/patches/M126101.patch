@@ -1,0 +1,54 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/NoetherNormalizationHomogeneous.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/NoetherNormalizationHomogeneous.lean
+@@ -33,7 +33,7 @@
+     simpa [Finsupp.degree_eq_sum, Finsupp.weight_apply, Finsupp.sum_fintype] using this
+   let p : Polynomial R := aeval g F
+   have hp : p = ∑ d ∈ F.support,
+-      Polynomial.C (algebraMap K R (coeff d F)) * ∏ i, g i ^ d i := by
++      Polynomial.C (algebraMap K R (F.coeff d)) * ∏ i, g i ^ d i := by
+     simp only [p, aeval_def, eval₂_eq']
+     rfl
+   have hpd : p.natDegree ≤ n := by
+@@ -43,7 +43,7 @@
+     have := (prod_pow_lead Finset.univ d g _ hgd hgc).1
+     rwa [hdeg d hd] at this
+   have hpc : p.coeff n = algebraMap K R (eval a F) := by
+-    rw [hp, eval_eq', map_sum, Polynomial.finset_sum_coeff]
++    rw [hp, eval_eq', map_sum, Polynomial.finsetSum_coeff]
+     refine Finset.sum_congr rfl fun d hd => ?_
+     have := (prod_pow_lead Finset.univ d g _ hgd hgc).2
+     rw [hdeg d hd] at this
+@@ -112,8 +112,11 @@
+       map_zero' := rfl
+       map_add' := fun _ _ => rfl }
+   have h1 : IsIntegral (integralClosure R S) s :=
+-    IsIntegral.map_of_comp_eq φ (RingHom.id S) (by ext; rfl) hs
+-  exact isIntegral_trans s h1
++    IsIntegral.map_of_comp_eq (R := ↥A) (S := S) (T := ↥(integralClosure R S)) (U := S) φ (RingHom.id S) (RingHom.ext fun x => rfl) hs
++  letI : SMul R (integralClosure R S) := (integralClosure R S).algebra.toSMul
++  letI : IsScalarTower R (integralClosure R S) S :=
++    IsScalarTower.of_algebraMap_eq (R := ↥R) (S := ↥(integralClosure R S)) (A := S) fun _ => rfl
++  exact _root_.isIntegral_trans (R := ↥R) (A := integralClosure R S) (B := S) s h1
+ 
+ theorem exists_linear_of_integral {K σ : Type} [Field K] [Infinite K]
+     (I : Ideal (MvPolynomial σ K)) (hI : ∀ f ∈ I, ∀ n : ℕ, homogeneousComponent n f ∈ I)
+@@ -185,7 +188,7 @@
+         algebraMap K (MvPolynomial σ K ⧸ I) (a i) * Ideal.Quotient.mk I u =
+         Ideal.Quotient.mk I (l i) := fun i => by
+       have : algebraMap K (MvPolynomial σ K ⧸ I) (a i) = Ideal.Quotient.mk I (C (a i)) := rfl
+-      rw [this, ← map_mul, ← map_add]
++      rw [this, ← RingHom.map_mul (Ideal.Quotient.mk I), ← RingHom.map_add (Ideal.Quotient.mk I)]
+       simp only [v, sub_add_cancel]
+     have hu : IsIntegral R (Ideal.Quotient.mk I u) := by
+       refine isIntegral_of_homogeneous_relation (X j * F) hGd a ha
+@@ -230,8 +233,8 @@
+     obtain ⟨f, rfl⟩ := Ideal.Quotient.mk_surjective s
+     induction f using MvPolynomial.induction_on with
+     | C a => exact Subalgebra.algebraMap_mem _ a
+-    | add p q hp hq => rw [map_add]; exact add_mem hp hq
+-    | mul_X p i hp => rw [map_mul]; exact mul_mem hp (Algebra.subset_adjoin ⟨i, rfl⟩)
++    | add p q hp hq => rw [RingHom.map_add (Ideal.Quotient.mk I)]; exact add_mem hp hq
++    | mul_X p i hp => rw [RingHom.map_mul (Ideal.Quotient.mk I)]; exact mul_mem hp (Algebra.subset_adjoin ⟨i, rfl⟩)
+   obtain ⟨m, y, hy, hind, hint⟩ := exists_linear_of_integral I hI hne _ (Fin (N + 1)) X rfl
+     (fun i => isHomogeneous_X K i)
+     (fun s => isIntegral_algebraMap (x := (⟨s, htop s⟩ :

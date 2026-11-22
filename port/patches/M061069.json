@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.CmValuesExponentLogSumLe",
+  "source_sha256": "484463b271cfd8703869656ea303f9a6780882071a43742749c6532633112cd8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite via Nat.padicValNat_def to bridge multiplicity and padicValNat"
+}

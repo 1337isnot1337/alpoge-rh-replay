@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ProjectiveCokerOfIsLocallyConstantFinrankRange",
+  "source_sha256": "e303d40763fdf6131af806d0396c31e48d375cbcaffe86775c90ed4dc58b1083",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the base-changed linear map and the base-ring/residue-field arguments in the fiber-dimension comparison to avoid a Lean 4.36 whnf inference timeout. Theorem statements and limits are unchanged."
+}

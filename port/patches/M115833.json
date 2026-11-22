@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.Envelope",
+  "source_sha256": "7542457fbf1743ec36820dfdd5fe31e8fc5530654c1a2a6308652bcc606257a2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Supply explicit (s := Set.Ico (m + 1) (q * M)) argument to pow_dvd_of_mem_dpSpan so hk type is resolved before projection"
+}

@@ -1,0 +1,21 @@
+diff --git a/src/CompanionTheory/HarishChandraModules/BesselParameterIntegrals/ContDiffOnExpPartialHomeomorphSymm.lean b/src/CompanionTheory/HarishChandraModules/BesselParameterIntegrals/ContDiffOnExpPartialHomeomorphSymm.lean
+--- a/src/CompanionTheory/HarishChandraModules/BesselParameterIntegrals/ContDiffOnExpPartialHomeomorphSymm.lean
++++ b/src/CompanionTheory/HarishChandraModules/BesselParameterIntegrals/ContDiffOnExpPartialHomeomorphSymm.lean
+@@ -213,7 +213,7 @@ variable {G : Subgroup 𝔸ˣ} {𝔤 : Submodule ℝ 𝔸} (h : IsExpLieAlgebra
+ 
+ local notation "𝔢" => expPartialHomeomorph ℝ 𝔸
+ 
+-def nhd : Set 𝔸 := h.exists_nhds.choose
++noncomputable def nhd : Set 𝔸 := h.exists_nhds.choose
+ 
+ theorem isOpen_nhd : IsOpen h.nhd := h.exists_nhds.choose_spec.1
+ theorem zero_mem_nhd : (0 : 𝔸) ∈ h.nhd := h.exists_nhds.choose_spec.2.1
+@@ -221,7 +221,7 @@ theorem nhd_subset : h.nhd ⊆ (𝔢).source := h.exists_nhds.choose_spec.2.2.1
+ theorem mem_of_mem_nhd {X : 𝔸} (hX : X ∈ h.nhd) (hG : expUnit ℝ 𝔸 X ∈ G) : X ∈ 𝔤 :=
+   h.exists_nhds.choose_spec.2.2.2 X hX hG
+ 
+-def nhdOne : Set 𝔸 := 𝔢 '' h.nhd
++noncomputable def nhdOne : Set 𝔸 := 𝔢 '' h.nhd
+ 
+ theorem isOpen_nhdOne : IsOpen h.nhdOne := (𝔢).isOpen_image_of_subset_source h.isOpen_nhd h.nhd_subset
+ 

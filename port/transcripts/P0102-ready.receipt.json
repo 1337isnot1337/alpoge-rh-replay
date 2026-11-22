@@ -1,0 +1,229 @@
+{
+  "target": "P0102",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/27627",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "a08d087738d005be76f1b71ea39144d427c21d17",
+  "port_record_commit": "c6d022fa01fd391c7db764c70294c109976cc6a7",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "9620b517c45d4b8ed3309056f792d124f93208816f06e71f16b64e68275d41e0",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.DivisorProofs.CycleListPermInvariant Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicIrreducibleOfNotDvdDiscr Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMBlockEntries Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMuEqExtDerivation Development.AbelianVarietyTheory.Proofs.DivisorProofs.DedekindPowerLocalization Development.AbelianVarietyTheory.Proofs.DivisorProofs.DefiniteFrameLeadingMinorsSign Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegreeCountGenerates Development.AbelianVarietyTheory.Proofs.DivisorProofs.DenseRangeRealEmbeddings Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationDetEqDoubleSumAdjugateEntryStatement Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetEqOneUnitaryPrincipalCongruenceLevelThree Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleChartLocalizationFiniteTypeFormallyUnramifi",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 11 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M020363",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CycleListPermInvariant",
+      "source_sha256": "621f3cbd9d0255d4cb7cb5a82bdb1a39cbc5985cffd2ea5b04c82adb2a5a9940",
+      "patch_sha256": null,
+      "built_source_sha256": "621f3cbd9d0255d4cb7cb5a82bdb1a39cbc5985cffd2ea5b04c82adb2a5a9940",
+      "olean_sha256": "4c94dd73b1bc7bf2ef8fcf85a8791c4838e9b8ad0194919b8ae6d5b44e9c302b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M020367",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicIrreducibleOfNotDvdDiscr",
+      "source_sha256": "f769b1bab48703fd89c83091036aa94dd5db8fd4fe305b28ede5badfd104d199",
+      "patch_sha256": null,
+      "built_source_sha256": "f769b1bab48703fd89c83091036aa94dd5db8fd4fe305b28ede5badfd104d199",
+      "olean_sha256": "da990ec9753443b8df17cfefa29e911247f75d7a727f5e2f8737dfbea6b50c0c",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M020382",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMBlockEntries",
+      "source_sha256": "f6a1f7460b6337a3cf80dc82a0a7ba479d37689b185fe80d808abd0d82e57244",
+      "patch_sha256": null,
+      "built_source_sha256": "f6a1f7460b6337a3cf80dc82a0a7ba479d37689b185fe80d808abd0d82e57244",
+      "olean_sha256": "51f3944c5dc5d681bd03c56b4f361d05509d74b75b65c4d125633b2213ba625b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M020384",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMuEqExtDerivation",
+      "source_sha256": "d087060bd1f5be7ba2de6bc5152b0ab0f2adf6951218d59c278d2ceb12ecd78f",
+      "patch_sha256": null,
+      "built_source_sha256": "d087060bd1f5be7ba2de6bc5152b0ab0f2adf6951218d59c278d2ceb12ecd78f",
+      "olean_sha256": "156457cde36483c7a6e276cbc07e6da91651534a92cef2b178788d2ee6e33e46",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M020617",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DedekindPowerLocalization",
+      "source_sha256": "ecd5a2c44b42056aa57ffc21cda5314b5b014be72135744f5538077ff4270b3e",
+      "patch_sha256": null,
+      "built_source_sha256": "ecd5a2c44b42056aa57ffc21cda5314b5b014be72135744f5538077ff4270b3e",
+      "olean_sha256": "32aebfdfb1003e314bc76ac775d034beedcf461f814b067656de5d8e5b06f3c4",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M020687",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DefiniteFrameLeadingMinorsSign",
+      "source_sha256": "672387f2c843d74d1337805b8c86fa48f85e2da6b25a4a809dccfa74b695cfa5",
+      "patch_sha256": null,
+      "built_source_sha256": "672387f2c843d74d1337805b8c86fa48f85e2da6b25a4a809dccfa74b695cfa5",
+      "olean_sha256": "3c5f35e2587b41cf6e461d1a3a09eba8909e683fb3af1f83c8cdffe5475c65a9",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M020792",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DegreeCountGenerates",
+      "source_sha256": "8820633b71dedcd33e9f78b119f5d9de0bed5b6b3a657505f77442bbf3bc5767",
+      "patch_sha256": null,
+      "built_source_sha256": "8820633b71dedcd33e9f78b119f5d9de0bed5b6b3a657505f77442bbf3bc5767",
+      "olean_sha256": "aceadbe5f5e76d185b257aea25aac44917e3c60da859ba0a82f2e147edad7543",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M020893",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DenseRangeRealEmbeddings",
+      "source_sha256": "20aa1de42ff887f283c4e71a9e4ceb177490127c7ba98d8f312b50c9973d7dbb",
+      "patch_sha256": "2f4699b15d550b2ae244f516f061b37481c8db5a4b2e6eef09c9ddc2e14d082c",
+      "built_source_sha256": "68eb38a160656d48d3b085bb81f8f7a80200808706baaad480a4d9b47293cc48",
+      "olean_sha256": "b762ecb25869b65f403cd8ef3dfc041c5ad5107dd96b75d172262ba6c6e0456f",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M020958",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationDetEqDoubleSumAdjugateEntryStatement",
+      "source_sha256": "4d99f3ee5233771d9eccc853f4cfc4bb1ab84d1e51c0438073ed96811682d134",
+      "patch_sha256": null,
+      "built_source_sha256": "4d99f3ee5233771d9eccc853f4cfc4bb1ab84d1e51c0438073ed96811682d134",
+      "olean_sha256": "2d010c805d7ebad502882fa7bc18c5c6c0b002a8f059da832cdcdb9ccecc2f67",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M021076",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetEqOneUnitaryPrincipalCongruenceLevelThree",
+      "source_sha256": "c8e7745bb1af1848f2fc38726b09888b3143d892e00c636b9b515a001fe13455",
+      "patch_sha256": "771eb9e4950c321217f0f8abb6f6286dba2ab88f3f1824ba5330a2075948c763",
+      "built_source_sha256": "95b8fc2fd27f8f14cfdb9ca2cdef32c837f6d4dc8b1be94107d528b283aacdb1",
+      "olean_sha256": "76b003df764b85f4382198326c56c9cff88767bcc04486fa3ae9a8b58bf4112b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M022742",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleChartLocalizationFiniteTypeFormallyUnramifi",
+      "source_sha256": "1f9e5fa3bb906650fa127652f76d2afbad5cc0a372bcbf1a4a84eb846f9f31e2",
+      "patch_sha256": "67881263a9083c0f262827733dcbcc55ea2b0577a861882d9cc9f685fb29ae46",
+      "built_source_sha256": "9e5ba08cef13f24c484c589a244cdf72111ccb7a4f295dbcd41128b80f71c115",
+      "olean_sha256": "ba747d527ba1bf1b0b389eed62b2cd2c544329611868c760a3853104b26b0b0f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M003725",
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.IsSimplicial",
+      "source_sha256": "7ef191b96f7725263219355dc8cf58884875129bf6398c8e1080e97ad1213f0f",
+      "patch_sha256": null,
+      "built_source_sha256": "7ef191b96f7725263219355dc8cf58884875129bf6398c8e1080e97ad1213f0f",
+      "port_record_sha256": "28065a1406ee35abe5675455d6204d984ec132166307b6649219765b3e2f9f2e"
+    },
+    {
+      "id": "M003923",
+      "module": "Development.AbelianVarietyTheory.Definitions.Divisors.TCoefMInMMul",
+      "source_sha256": "38621732250b19211df100dcd5b833a2957885c182de83d0a2d9cc4a3f8abc9a",
+      "patch_sha256": null,
+      "built_source_sha256": "38621732250b19211df100dcd5b833a2957885c182de83d0a2d9cc4a3f8abc9a",
+      "port_record_sha256": "707d1ec024cf9e31acdc39835fddaf3f1225c06aeb444613f339fdebfd185af4"
+    },
+    {
+      "id": "M015316",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.AlgebraMapQuotBijective",
+      "source_sha256": "802b0d55cf8bb15b4838f58db501f2082b0984c423f67765ffafe7bd1f8ecb35",
+      "patch_sha256": null,
+      "built_source_sha256": "802b0d55cf8bb15b4838f58db501f2082b0984c423f67765ffafe7bd1f8ecb35",
+      "port_record_sha256": "f5c23701e0115b833e03afe3d4c247e9de247f1d17b5698c84effca75695c49e"
+    },
+    {
+      "id": "M017275",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CentreCompat",
+      "source_sha256": "974452aba7518fc6cc2d0736d8da5ceb8b9deeb4f53c5e16c69898e4db01f90f",
+      "patch_sha256": null,
+      "built_source_sha256": "974452aba7518fc6cc2d0736d8da5ceb8b9deeb4f53c5e16c69898e4db01f90f",
+      "port_record_sha256": "3e5c8be678c454fe8ae249ebd3bfe7ff617207391a3b1a6c5a2c0003d750ebc5"
+    },
+    {
+      "id": "M020957",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DerivationDetEqDoubleSumAdjugateEntry",
+      "source_sha256": "b5199d38a1f66c7c5dbe23ee2893a4929ac4e6c22c074cf93ae4928492a503a7",
+      "patch_sha256": null,
+      "built_source_sha256": "b5199d38a1f66c7c5dbe23ee2893a4929ac4e6c22c074cf93ae4928492a503a7",
+      "port_record_sha256": "0d9d56a7d80732ab98fff857ba8f5dfdeef67bfb6aa733f2b7c35cb94cb7a5ba"
+    },
+    {
+      "id": "M022708",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtChart",
+      "source_sha256": "51d923625c84c195e37abe6de1d60351496e4d8d4a4185b08baf651d11db1c50",
+      "patch_sha256": null,
+      "built_source_sha256": "51d923625c84c195e37abe6de1d60351496e4d8d4a4185b08baf651d11db1c50",
+      "port_record_sha256": "ef24b0ebc8c41bc2fd9bf5fe3097b3f48df6adf8639e697f815eb7a49f4ab01d"
+    },
+    {
+      "id": "M035444",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HermitianLocalContinuousCongruenceSection",
+      "source_sha256": "9b99c28414b0dc0ccfed0d38d317cb5fcc73549b8079b019e4f9de8e97de34a8",
+      "patch_sha256": null,
+      "built_source_sha256": "9b99c28414b0dc0ccfed0d38d317cb5fcc73549b8079b019e4f9de8e97de34a8",
+      "port_record_sha256": "41b95ee5bd6a9bfe5b7a90f0cd89eabc79d543231e847d5eab332992f19c3fdd"
+    },
+    {
+      "id": "M044974",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.OptionEquivLeftRenameSomeComplexEqC",
+      "source_sha256": "878cb595be81f72fb99735a280290456d21c05bca63f797c34e5e3863e34718a",
+      "patch_sha256": null,
+      "built_source_sha256": "878cb595be81f72fb99735a280290456d21c05bca63f797c34e5e3863e34718a",
+      "port_record_sha256": "d52352d3de5dc069a193ceb91b72c967bbff5f10c1b0d9c48de8c763f0ad54e2"
+    },
+    {
+      "id": "M171553",
+      "module": "ReciprocityTheory.Chebotarev.CyclotomicIrreducibleOfForallIsUnramifiedAt",
+      "source_sha256": "d4b66f3a8ccab57ffc7285d7820aefa4a28c7809b2911fc0a0b168a6f39d4e5f",
+      "patch_sha256": null,
+      "built_source_sha256": "d4b66f3a8ccab57ffc7285d7820aefa4a28c7809b2911fc0a0b168a6f39d4e5f",
+      "port_record_sha256": "0e99aaa521b47b87bb6ada6ee4ea4743d18035729c44154909b97eed6af7e635"
+    },
+    {
+      "id": "M173135",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.FundamentalDomains.Signature",
+      "source_sha256": "a8b8f634c2368fd1bb369faebdc6d40cf11005747d4b16feda5dd1dabe11c054",
+      "patch_sha256": null,
+      "built_source_sha256": "a8b8f634c2368fd1bb369faebdc6d40cf11005747d4b16feda5dd1dabe11c054",
+      "port_record_sha256": "790f40cd1ed1c4c862a8608f82a4b60ca4269a0a28d3affcf41173425903898b"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M022909",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleMaximalQuotientAlgebraic",
+      "missing_imports": [
+        "M026561"
+      ]
+    }
+  ],
+  "pruned": [
+    "M020875",
+    "M020878",
+    "M020897",
+    "M021349",
+    "M021399",
+    "M021884",
+    "M022884",
+    "M022989"
+  ]
+}

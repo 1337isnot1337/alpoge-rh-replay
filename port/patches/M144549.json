@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FrobeniusContraction.FrobeniusContractionProofs.ContractBij",
+  "source_sha256": "a272af450dff92222104d8465f88ad1173534326f465328fabb07a10e492fa4e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0147-lean436-20261121/packet-result.json"
+}

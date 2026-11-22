@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.CommutativeAlgebra.PolynomialHeights.PolyStep",
+  "source_sha256": "a77511b9813a9e637df90477d39bcc44d932b0498199e876e8fbe28b0805cfb2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

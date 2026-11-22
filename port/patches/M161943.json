@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WachLatticeTwists.LagrangeExtensionCocycles.Statement",
+  "source_sha256": "25e4ae8478d18ba82b7465d15a6c377f2a0a65c8d4aa3f140f617288f2b76be0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d1-v3: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

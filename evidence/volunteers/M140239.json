@@ -1,0 +1,37 @@
+{
+  "tasks": [
+    "M140239"
+  ],
+  "started_utc": "2026-11-21T19:35:39.909188+00:00",
+  "ended_utc": "2026-11-21T19:35:52.101645+00:00",
+  "elapsed_seconds": 12.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5447648
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.CoreStatements.SesquilinearFractions.NPlaces:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "437bc1fec5819cc1eb2810590ccfc57a93d34532188c785d8e6f60a7955fd2a4",
+  "rebuilt_project_modules": [
+    "Development.WeilBound.CoreStatements.SesquilinearFractions.NIdeal",
+    "Development.WeilBound.CoreStatements.SesquilinearFractions.RatProductFormula"
+  ],
+  "objects": {
+    "M140239": "87b2cfe9f8ac84514b2eae49e4cdd66088b050ef659ff475615b47efc71abe74"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "fda4026bace563e1f26aa1310ed1becf2a4cc46bbdf2dd6627ac674a1f7d7437",
+  "packet": "M140239",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25231#issuecomment-7068140785",
+  "reviewed_utc": "2026-11-21T20:02:29.102700+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

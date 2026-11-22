@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M169846"
+  ],
+  "started_utc": "2026-11-21T19:35:55.934178+00:00",
+  "ended_utc": "2026-11-21T19:36:26.683920+00:00",
+  "elapsed_seconds": 30.7,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5528388
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.LocalFields.BrauerInductionLocal:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b1764758d2ab39910368cb985dae847212927816e00f545b02d5712620ace5cf",
+  "rebuilt_project_modules": [
+    "GroundTheory.LocalFields.BrauerInductionCharacters",
+    "GroundTheory.LocalFields.BrauerInductionElementary",
+    "GroundTheory.LocalFields.BrauerInductionInduced",
+    "GroundTheory.LocalFields.BrauerInductionIntegral",
+    "GroundTheory.LocalFields.BrauerInductionSpan"
+  ],
+  "objects": {
+    "M169846": "2f4bbf7415864cb234473f21858abe060b417f24715849a563da9e208da7fed4"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "0c76cdb992c81d3b7ec21163042acd928131e22490585e408215fa877020e0ed",
+  "packet": "M169846",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25235#issuecomment-7068159731",
+  "reviewed_utc": "2026-11-21T20:02:28.772228+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

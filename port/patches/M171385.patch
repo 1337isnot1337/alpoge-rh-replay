@@ -1,0 +1,19 @@
+--- a/src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/MdiscPos.lean
++++ b/src/ReciprocityTheory/AnalyticForms/PlurisubharmonicFunctions/MdiscPos.lean
+@@ -142,14 +142,14 @@
+     ∃ v : Fin D → Fin D → ℂ, ∀ a b, A a b = ∑ r, v r a * star (v r b) := by
+   obtain ⟨B, hB⟩ := CStarAlgebra.nonneg_iff_eq_star_mul_self.mp hA.nonneg
+   refine ⟨fun r a => star (B r a), fun a b => ?_⟩
+-  rw [hB, star_eq_conjTranspose, mul_apply]
++  rw [hB, star_eq_conjTranspose, Matrix.mul_apply]
+   simp [conjTranspose_apply]
+ 
+ open scoped MatrixOrder in
+ theorem pm_exists_gram_add_of_posDef [Nonempty (Fin D)] {A : Matrix (Fin D) (Fin D) ℂ}
+     (hA : A.PosDef) : ∃ r : ℝ, 0 < r ∧ ∃ v : Fin D → Fin D → ℂ,
+       ∀ a b, A a b = ∑ s, v s a * star (v s b) + if a = b then (r : ℂ) else 0 := by
+-  obtain ⟨r, hr, hle⟩ := (CFC.exists_pos_algebraMap_le_iff (A := Matrix (Fin D) (Fin D) ℂ)
++  obtain ⟨r, hr, hle⟩ := (CFC.exists_pos_algebraMap_le_iff A
+     hA.isStrictlyPositive.isSelfAdjoint).2 fun x hx => hA.isStrictlyPositive.spectrum_pos hx
+   obtain ⟨v, hv⟩ := pm_exists_gram_of_posSemidef (Matrix.le_iff.mp hle)
+   refine ⟨r, hr, v, fun a b => ?_⟩

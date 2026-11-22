@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.DiagUnitsEqLocalIdele",
+  "source_sha256": "266c806017d7b1221001b7188eb9802550d7629a2738161c3cbc6578000eb146",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

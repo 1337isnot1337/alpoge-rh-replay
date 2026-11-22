@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.FlagImmersions.LinearRootPowerLipschitz",
+  "source_sha256": "d57d8ca2e7e7ff0aace7a19afd2ae9811b8a83529eed89fbbc8a2a78babe7b2e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Proof-only: use the ordered-ring product bound and explicitly supply the existing coordinate product factors. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0144-lean436-20261121/packet-result.json"
+}

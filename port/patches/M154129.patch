@@ -1,0 +1,11 @@
+--- a/src/Formalism/PeriodIntegrals/UnimodGenus.lean
++++ b/src/Formalism/PeriodIntegrals/UnimodGenus.lean
+@@ -88,7 +88,7 @@
+ 
+ def UnimodGenus : Prop :=
+   ∀ (E : Type) [Field E] [NumberField E] [StarRing E] (n : ℕ), IsCMUnram E →
+-    ∀ N : Submodule (𝓞 E) (Sp E n), Submodule.IsLattice E N → IsUnimodular (hStd E n) N →
++    ∀ N : Submodule (𝓞 E) (Sp E n), Submodule.IsFullLattice E N → IsUnimodular (hStd E n) N →
+       SameGenus (hStd E n) (stdLat E n) N
+ 
+ end PI

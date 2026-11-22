@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.RegularQuotientGenerators",
+  "source_sha256": "9e6302f4a8893cc275ef974de54557fe521dbbd5eb55477b521304c69dbc3473",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

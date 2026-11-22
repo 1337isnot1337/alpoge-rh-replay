@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HeightOneSpectrumPlacesOverFiniteSet",
+  "source_sha256": "0301e8644f63423582761f4da0a67ce3c0df5e3c25fed3adc5bf361bcdf140ae",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: bridge the original two-ideal ramification index to the target one-ideal/base-ring formulation using the existing nonzero prime ideal. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0097-lean436-20261121/packet-result.json"
+}

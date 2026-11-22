@@ -1,0 +1,12 @@
+diff --git a/src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/NodalSeriesPeriods.lean b/src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/NodalSeriesPeriods.lean
+--- a/src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/NodalSeriesPeriods.lean
++++ b/src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/NodalSeriesPeriods.lean
+@@ -144,7 +144,7 @@ theorem _root_.GlobalTheory.IndefiniteRowSideFullHecke.NodalSeriesPeriods.wSer_e
+ 
+ def epSer : A⟦X⟧ := invOfUnit (vSer W) 1
+ 
+-def numSer : A⟦X⟧ := X * d⁄dX A (epSer W) - 2 * epSer W
++def numSer : A⟦X⟧ := X * d⁄dX (epSer W) - 2 * epSer W
+ 
+ def denSer : A⟦X⟧ := -2 * epSer W + C W.a₁ * X * epSer W + C W.a₃ * X ^ 3
+ 

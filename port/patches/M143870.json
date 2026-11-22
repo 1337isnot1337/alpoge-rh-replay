@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.SphericalLattices.ExistsIsUnitAddMul",
+  "source_sha256": "02750db0fa95632ea380e8f85e9c9123cd3460915a3af650db10d021b01a0363",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0145-lean436-20261121/packet-result.json"
+}

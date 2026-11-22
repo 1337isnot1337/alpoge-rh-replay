@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzDenseHasCompactSupport",
+  "source_sha256": "cd695449392af16623c29b51bba867be55d6c7a91b9be5c6b4fa164d196e2894",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

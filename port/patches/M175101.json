@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.NormValuationEqFactorization",
+  "source_sha256": "157b7f492861ed82c69cc0fd1ae54549866c3cc7de782f171d473157c473338d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0171-lean436-20261121/packet-result.json"
+}

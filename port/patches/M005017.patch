@@ -1,0 +1,19 @@
+--- a/src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/GlActionMemBalFormsOfSemilinear.lean
++++ b/src/Development/AbelianVarietyTheory/Definitions/ShimuraVarieties/GlActionMemBalFormsOfSemilinear.lean
+@@ -329,7 +329,7 @@
+       have := SymmetricPower.tprod_equiv (R := ℤ) (Equiv.swap (0 : Fin 2) 1) ![y', y]
+       refine Eq.trans (congrArg (SymmetricPower.tprod ℤ) ?_) this
+       ext i; fin_cases i <;> simp⟩).toAddMonoidHom
+-  let m : MultilinearMap ℤ (fun _ : Fin 2 => Y) (SymSq Y) :=
++  let m : MultilinearMap (RingHom.id ℤ) (fun _ : Fin 2 => Y) (SymSq Y) :=
+     { toFun := fun f => mk (f 0) (f 1)
+       map_update_add' := fun f i a b => by
+         fin_cases i <;> simp [Function.update_apply]
+@@ -803,7 +803,6 @@
+   convert h using 2
+   · ext b
+     simp [mem_level]
+-  · rfl
+ 
+ theorem pullback_mem_level (f : Y →ₗ[ℤ] Y') {L : Submodule ℤ (Bil Y ℤ)}
+     {L' : Submodule ℤ (Bil Y' ℤ)} (h : ∀ b ∈ L', pullback ℤ ℤ f b ∈ L) (M : ℤ) {b : Bil Y' ℤ}

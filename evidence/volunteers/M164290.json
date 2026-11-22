@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    "M164290"
+  ],
+  "started_utc": "2026-11-21T19:37:35.939970+00:00",
+  "ended_utc": "2026-11-21T19:43:14.627941+00:00",
+  "elapsed_seconds": 338.7,
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPrimeGermCanonicalCover:olean"
+  ],
+  "exit_code": 0,
+  "host": {
+    "cpu_count": 9,
+    "peak_child_rss_kib": 12196
+  },
+  "source_sha256": "23b7a2712937c79f7ac2151725dc8aa62d20ac2831565bb0e72fcb75f91a6047",
+  "log_sha256": "eb117ac6d3f2b5720843b035031e07b33ee87bfda2b59949ceb9a7c4cc800b0d",
+  "objects": {
+    "M164290": "15946419b8d6305e17c0fe472cae7badb7956f95a062883030ec8fea67354ec0"
+  },
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.AnalyticGerm",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StNormalModel",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPrimeGermCanonicalCover",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPrimeGermNullstellensatz",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPrimeGermPrimitivePresentation",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StPrimitivePresentationCover",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StZariskiAnalyticNormality"
+  ],
+  "packet": "M164290",
+  "contributor": "t-choudhury",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25259#issuecomment-7068327439",
+  "reviewed_utc": "2026-11-21T20:02:28.358225+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

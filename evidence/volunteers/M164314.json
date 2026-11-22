@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M164314"
+  ],
+  "started_utc": "2026-11-21T19:46:58.054942+00:00",
+  "ended_utc": "2026-11-21T19:50:19.566318+00:00",
+  "elapsed_seconds": 201.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16375588,
+    "peak_child_rss_kib": 5764316
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperHolomorphicSurjective:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d1c9982a182a94b38127334a0e91bc934bb6ac8c0c3f08603b5f254f7f084ad0",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.OsgoodSeparate",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StCompactHolomorphicFibreFinite",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHausdorffNullComplementConnected",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StHolomorphicZeroSetDimH",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StProperHolomorphicSurjective",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StRankDeficientFibreInfinite",
+    "GroundTheory.HeightsAndTheta.Heights.Regularisation.PRiemannExtensionSlices",
+    "GroundTheory.HeightsAndTheta.Heights.Regularisation.StRiemannSlices"
+  ],
+  "objects": {
+    "M164314": "83cacbf70b39253c820afda0d5a0a3d11a361b814c948f37ef96d87e510d85e7"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "d66854c4e1ea3a70dff3e4ee7e22870bdaf63334ff450c1e30bae9d9367efca2",
+  "packet": "M164314",
+  "contributor": "UnityChaos",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25359#issuecomment-7068317201",
+  "reviewed_utc": "2026-11-21T20:02:20.228542+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum."
+}

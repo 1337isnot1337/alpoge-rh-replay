@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HaarMapConjNormalizingLatticeEqSelf",
+  "source_sha256": "ee86535dc57cb6d3fefd09ca38176aadaf7c12b535eb76e3da53fad79deaf307",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass e.continuous.measurable.aemeasurable to QuasiMeasurePreserving.mk in map_conj_eq_self for Mathlib v4.36.0."
+}

@@ -1,0 +1,39 @@
+{
+  "tasks": [
+    "M169373"
+  ],
+  "started_utc": "2026-11-21T19:52:39.413928+00:00",
+  "ended_utc": "2026-11-21T19:53:02.734704+00:00",
+  "elapsed_seconds": 23.3,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 8025700,
+    "peak_child_rss_kib": 5365180
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PLinearTermValue:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "91394814e3f59d6991af483b141ee4af7f979b0cd8f9e4fa9696349943bbeed3",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.BlockValue",
+    "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Expand",
+    "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PSameFactorFormula",
+    "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.StatementsTop"
+  ],
+  "objects": {
+    "M169373": "5f2e52592b839e87e87d2a64b4e15ce25f6772b91b815cb9203c1aef8c287f3d"
+  },
+  "project_root": "/work/vol/lean",
+  "bundle_sha256": "4cd2724c43826bcfbe4cca5f3aaa7507da1d5617832da157808e0d04350dde4f",
+  "packet": "M169373",
+  "contributor": "vivekshivarajkumar",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/25406#issuecomment-7068360875",
+  "reviewed_utc": "2026-11-21T20:02:14.928695+00:00",
+  "review": "Verified the grant, pinned source hashes, receipt pins and exact targets, and matching successful build transcript. No binary bundle was supplied for independent checksum review."
+}

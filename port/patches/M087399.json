@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.ExistsIntegerUnitSplitPlaceConjugatePrime",
+  "source_sha256": "241d0af0fa94956ffa5019dc96c32962141d9f3c5ae9bb30dd60f826e9b44808",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Raise the typeclass synthesis heartbeat limit locally for exists_sep and its completion topology instances."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.QuadraticCharacters.PreHostA",
+  "source_sha256": "3d1c83a7022d8c6b98345a6f7c50c2511407ed300a3f3ff4bd764a7b8141b60d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

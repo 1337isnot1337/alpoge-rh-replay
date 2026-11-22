@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SplitDensity.FiberCard",
+  "source_sha256": "c4926be8eaf649a3f38750fc0e1ae689e5b04122c6a6d513051b752e817a0984",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

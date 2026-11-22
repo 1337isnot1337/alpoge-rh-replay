@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInvariantPosDefHermitian",
+  "source_sha256": "99f2cf5a51ff184d1d19316f7e2622a54034fa902b291c2feacd5cdf2d85c4d5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "`continuous_finset_sum` is now `continuous_finsetSum`."
+}

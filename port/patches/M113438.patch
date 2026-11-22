@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/SeparatingAlgebras/TriMat.lean
++++ b/src/Development/AutomorphicArithmetic/Foundations/GaloisRepresentations/SeparatingAlgebras/TriMat.lean
+@@ -9,7 +9,7 @@
+     ext y
+     simp [Finset.sum_apply, Pi.single_apply]
+   conv_rhs => rw [hv]
+-  simp [map_sum, Finsupp.finset_sum_apply, mul_comm]
++  simp [map_sum, Finsupp.finsetSum_apply, mul_comm]
+ 
+ private lemma conj_apply {k X ι : Type*} [Field k] [Fintype X] [DecidableEq X] [Fintype ι]
+     (b : Module.Basis ι k (X → k)) (M : Matrix X X k) (i j : ι) :

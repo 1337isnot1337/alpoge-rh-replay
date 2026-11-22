@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteTypeVectorMatrixCoefficients",
+  "source_sha256": "d5e292e2fded2bbd23b3cfff3ead5ffd9147c51f886f31ec40a6833edc1c2c7a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use Matrix.toLpLin_apply for the unchanged toEuclideanLin abbreviation, whose domain and codomain exponents are both 2. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0106-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.DividedPowersValuations",
+  "source_sha256": "94e86f56defbdf136e108abd055a72da7113e411c328968a115535c145aa79f1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Bridge multiplicity and padicValNat with Nat.padicValNat_def"
+}

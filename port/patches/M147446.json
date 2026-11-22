@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LatticeRigidity.HeightMinimum.SqrtAbsNormLeProd",
+  "source_sha256": "526232268a783b65ae0a7482d1770afd03db87e12edf34d0c198d7f23d2c9b20",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: Use prod_le_prod\u2080 for the original nonnegative real-product inequality. Use prod_lt_prod_of_nonempty\u2080 for the original nonnegative real-product inequality. Use the current Real.finsetProd_rpow API. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0148-lean436-20261121/packet-result.json"
+}

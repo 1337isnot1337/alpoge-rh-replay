@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsMultilinearSlotwiseExtensionOfEquivariantStatement",
+  "source_sha256": "aff2dbc35b5e4056b3455662bf62305d3a845c2431a11ca7ec7cf62531596e83",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Statement change, equivalent: MultilinearMap \u2102 H E becomes MultilinearMap (RingHom.id \u2102) H E (printed \u2192\u2098\u2097[\u2102]) in exists_multilinear_positionwise_extension statement to match M093542 in Mathlib v4.36.0."
+}

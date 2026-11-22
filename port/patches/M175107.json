@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.SJCoreB",
+  "source_sha256": "d46ece4e6afad5a8f4729f3d7de362d2fcfd064f1e8878ba8215cc21e63c89c2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0171-lean436-20261121/packet-result.json"
+}

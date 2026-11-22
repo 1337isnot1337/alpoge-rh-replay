@@ -1,0 +1,16 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/NormOneSubConjMul.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/NormOneSubConjMul.lean
+@@ -220,11 +220,12 @@
+       have e : f = fun z => (∏ w ∈ S, (z - w) ^ m w) * g z := funext hfg
+       rw [← logDeriv_apply, ← logDeriv_apply]
+       conv_lhs => rw [e]
++      change logDeriv ((fun z => ∏ w ∈ S, (z - w) ^ m w) * g) z = _
+       rw [logDeriv_mul (f := fun z => ∏ w ∈ S, (z - w) ^ m w) z
+         (Finset.prod_ne_zero_iff.2 fun w hw => pow_ne_zero _ (hzw w hw)) (hgne z hzb)
+         (by fun_prop) (hg z (hsub hzb)).differentiableAt]
+       congr 1
+-      rw [logDeriv_prod (f := fun w z => (z - w) ^ m w) (fun w hw => pow_ne_zero _ (hzw w hw))
++      rw [logDeriv_fun_prod (f := fun w z => (z - w) ^ m w) (fun w hw => pow_ne_zero _ (hzw w hw))
+         (fun w hw => by fun_prop)]
+       refine Finset.sum_congr rfl fun w hw => ?_
+       rw [logDeriv_fun_pow (by fun_prop), logDeriv_apply]

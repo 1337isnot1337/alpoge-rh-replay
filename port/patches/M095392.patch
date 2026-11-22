@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/IteratedLineDerivMemWeylAlg.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/IteratedLineDerivMemWeylAlg.lean
+@@ -118,7 +118,7 @@
+     simp only [u]
+     rw [norm_real, Real.norm_of_nonneg (by positivity)]
+   have hc : Continuous u := by
+-    refine continuous_ofReal.comp (Continuous.inv₀ (by fun_prop) fun x => by positivity)
++    refine continuous_ofReal.comp (Continuous.inv₀ ((continuous_const.add (continuous_norm.pow 2)).pow N) fun x => pow_ne_zero N (add_pos_of_pos_of_nonneg one_pos (sq_nonneg _)).ne')
+   have hu : MemLp u (ENNReal.ofReal 2) volume := by
+     rw [show ENNReal.ofReal 2 = 2 by simp, memLp_two_iff_integrable_sq_norm hc.aestronglyMeasurable]
+     have := integrable_rpow_neg_one_add_norm_sq (E := EuclideanSpace ℝ l) (μ := volume) (r := 4 * N)

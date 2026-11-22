@@ -1,0 +1,11 @@
+--- a/src/Formalism/HermitianCurvature/HermitianCurvatureProofs/UnitaryInvariantGaussian.lean
++++ b/src/Formalism/HermitianCurvature/HermitianCurvatureProofs/UnitaryInvariantGaussian.lean
+@@ -41,7 +41,7 @@
+ theorem unitaryInvariant : UnitaryInvariant := by
+   intro d β W hW
+   refine ⟨measurable_mulVec d W, ?_⟩
+-  rw [muPi_eq, Measure.map_smul, volume_unitary d W hW]
++  rw [muPi_eq, Measure.map_smul (hf := (measurable_mulVec d W).aemeasurable), volume_unitary d W hW]
+ 
+ theorem cpow_half_mul (u : ℂ) (hu : 0 < u.re) (R : ℝ) (hR : 0 < R) :
+     ((Real.pi : ℂ) / u) ^ (1 / 2 : ℂ) * ((Real.pi : ℂ) / ((R : ℂ) / u)) ^ (1 / 2 : ℂ) =

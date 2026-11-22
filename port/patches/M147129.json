@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.UnitaryInvariantGaussian",
+  "source_sha256": "e7cdcc404ede1f6fc4441b7fb44f17d12c9cd91fe524604d613a6b611b801f81",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: Supply the existing measurable linear transformation to the measure-map scalar rule. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0148-lean436-20261121/packet-result.json"
+}

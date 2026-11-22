@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.UnitaryRepresentations.IsInvariantIffCommuteStarProjection",
+  "source_sha256": "3cb70098961bf0593ed32f222f8c88a71a8cb63c6ab961175a75b6e6c1d0cd67",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "port triage port-triage-d0-rem-v2: compiled unchanged on Google Cloud (port/triage/results.json)"
+}

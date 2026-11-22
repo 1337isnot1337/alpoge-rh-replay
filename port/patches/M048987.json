@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.SchwartzExtensionFromSubspace",
+  "source_sha256": "ac9b508d308d8915ee30a0dbdbea2e25630a9957e561a9db1a7b26958131bc77",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

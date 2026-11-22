@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.FiniteCovolume.PUnipotentModulusHaar",
+  "source_sha256": "bd7ce8d28e55ffd9cb6a4946d634a3962429a7d612f24bbd9a4fe8e373212dd4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: derive measurability of the same map by conjugating the given measure-preserving coordinate map through the homeomorphism, and supply it to map_smul. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0164-lean436-20261121/packet-result.json"
+}

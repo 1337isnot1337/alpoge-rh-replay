@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ProjectionLattices.IsIntegralTraceOfPow",
+  "source_sha256": "ad92e4addb1ab6031dc9edf429a84dd996ef2cfa187ea61323d495d1242ab546",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: let the field algebra faithful-scalar-action instance supply injectivity in the updated integrality equivalence. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0154-lean436-20261121/packet-result.json"
+}

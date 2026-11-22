@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.AutomorphismOnExtensionPointwise",
+  "source_sha256": "dfca89962c8f3d1383a840bcef5c691c352e5c81315f7ba4fd4d6e7ef2edd9d0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

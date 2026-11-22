@@ -1,0 +1,215 @@
+{
+  "target": "P0121",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/28017",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "5043bdb319f7733aec21f2a91ff9518d8051a73e",
+  "port_record_commit": "8a25e04fcc426dfaea3f6debaeb4ea41ebc6fd2c",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "637cc18f2c5cbee3c6d5d0ae1c21a3995220cb3e5bd343aae38488e6ddd2ece0",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AssociatedTraceAndLvlDvd Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BaseChangePolynomialAnnihilatesDescentStatement Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CloseVectorNeZero Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CompanionMatrixOfCoeffsPowMulVecFirstBasisVector Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ConjTransposeVecMulVecSelf Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DetSuccEqSubSumUpdateRow Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsConstOfLvlInvariant Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsContinuousCongruenceNearSymmetricMatrix Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIndepSpan Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralSolutionFrobeniusSubMulVecEq",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 10 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M066841",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AssociatedTraceAndLvlDvd",
+      "source_sha256": "5a2208c843756fd5bb68c93ade97ee327fa831a9e479f555c7631730e96228f6",
+      "patch_sha256": null,
+      "built_source_sha256": "5a2208c843756fd5bb68c93ade97ee327fa831a9e479f555c7631730e96228f6",
+      "olean_sha256": "b4a3e3b18779ff60efa4916b7fc3d83725bb421e14f1572538702d0006429329",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M066868",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BaseChangePolynomialAnnihilatesDescentStatement",
+      "source_sha256": "651008593d72bef1667f70e32b6d67c6602a077377f1d7a9a60d28ad79c13ab9",
+      "patch_sha256": null,
+      "built_source_sha256": "651008593d72bef1667f70e32b6d67c6602a077377f1d7a9a60d28ad79c13ab9",
+      "olean_sha256": "c9836e941d7304e197f051ad11f4b10a2ddf5582ec08432b08b46cb0e86ebde9",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067422",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CloseVectorNeZero",
+      "source_sha256": "81678b5ba2066569604af6c482d52c710921c43dce5305bead0314857e69897b",
+      "patch_sha256": null,
+      "built_source_sha256": "81678b5ba2066569604af6c482d52c710921c43dce5305bead0314857e69897b",
+      "olean_sha256": "bfb32724d2c435eb4e272e64a27d8b48a82ea713e54d6724f076cbbdf9d8c543",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067591",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CompanionMatrixOfCoeffsPowMulVecFirstBasisVector",
+      "source_sha256": "401cfb3bb348638a453d50e634881f502a0504ff47d19bad99bde46aae6ed124",
+      "patch_sha256": null,
+      "built_source_sha256": "401cfb3bb348638a453d50e634881f502a0504ff47d19bad99bde46aae6ed124",
+      "olean_sha256": "c09875a87f8689d9ee275984ea8d65de45962650b3efa2a1d224f2732427d408",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M067691",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ConjTransposeVecMulVecSelf",
+      "source_sha256": "8d497862b9e6c250ff21a93393d6c11e9e8e3c86bb6c64f2b8252939ace91308",
+      "patch_sha256": "4a3f30b527d4c8ba20903edd4cff14a9a7c15bfe9210e12d6f288a464d328884",
+      "built_source_sha256": "62d723152702b51d166ffeb2d6049b4ea9a1c037a0995d4e510db3aabc255592",
+      "olean_sha256": "a56e9592177bfc1a278dc2bf2640b19cd1bbf51cbc62fda0fe5abf216602f129",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M068207",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DetSuccEqSubSumUpdateRow",
+      "source_sha256": "7873531df12fdf6ba1feec4b509e104e69606519b01e6df3304c0b634b70bf75",
+      "patch_sha256": null,
+      "built_source_sha256": "7873531df12fdf6ba1feec4b509e104e69606519b01e6df3304c0b634b70bf75",
+      "olean_sha256": "b5d9932ea044abb331f763d936a6794b754d5ebfaad3769c959c74c6507a2b0b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M068758",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsConstOfLvlInvariant",
+      "source_sha256": "308fee8d17a54825bcc90698ad89b4102b8a9ebaf5e7fceaee3f749cc1e74aeb",
+      "patch_sha256": "5b9316b71e470c53b58c28c9d814a5c368994a2f80ca83e529f5ee769d6ad3a2",
+      "built_source_sha256": "6cde6b726cd347deca1a34f12d51419b1a83a05308532042d2d09b15d2d73195",
+      "olean_sha256": "41e9dde0a706fec4157d0103f62e86917b17ad7a737accda1b23dd13ecea088b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M068766",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsContinuousCongruenceNearSymmetricMatrix",
+      "source_sha256": "b8ac0a573f55a04911c59092697dfbc9eb3574df91a513ca4e0cf818963f30ef",
+      "patch_sha256": null,
+      "built_source_sha256": "b8ac0a573f55a04911c59092697dfbc9eb3574df91a513ca4e0cf818963f30ef",
+      "olean_sha256": "c201acfebca1f4645c0b0ec150f833820ca68a7a085d344aede78ffbf9c4f38e",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M069191",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIndepSpan",
+      "source_sha256": "a81d67fec43b005e6fee0382df15ba0401d70c6ea1621280b81f2cfad278c348",
+      "patch_sha256": null,
+      "built_source_sha256": "a81d67fec43b005e6fee0382df15ba0401d70c6ea1621280b81f2cfad278c348",
+      "olean_sha256": "d17e8bc4b2262cf9a61e0de51a7547705cfe01d805c9808db249dd9038d6f88d",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M069261",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralSolutionFrobeniusSubMulVecEq",
+      "source_sha256": "9626bf10255d0eb22e9bb56e8b29c97d33df93d29348db98f263e89dcc075513",
+      "patch_sha256": null,
+      "built_source_sha256": "9626bf10255d0eb22e9bb56e8b29c97d33df93d29348db98f263e89dcc075513",
+      "olean_sha256": "f2607c2c22c41e2e403146918ef56de484b29d6a503e1ba3f4ff0c7298a56f7e",
+      "exit_code": 0,
+      "validated_output": "reused"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M004742",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FourierMatch",
+      "source_sha256": "6b4cab068f2b618cfc66519b993c04f7f2dbd7cb38d0456f305741e4c30be057",
+      "patch_sha256": null,
+      "built_source_sha256": "6b4cab068f2b618cfc66519b993c04f7f2dbd7cb38d0456f305741e4c30be057",
+      "port_record_sha256": "11b023f9509c1e11277b590f7a525958360db212545097c71385d628ab7a430f"
+    },
+    {
+      "id": "M004779",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsPsCharOne",
+      "source_sha256": "1a1f729bed12d351aad68780a2910184658465114041aa97425878341d86914b",
+      "patch_sha256": null,
+      "built_source_sha256": "1a1f729bed12d351aad68780a2910184658465114041aa97425878341d86914b",
+      "port_record_sha256": "b2173b777dd51ff68975b69ca62f2946a5dba018e10b5c4506e6c3d6a519b4be"
+    },
+    {
+      "id": "M004824",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MooreNorm",
+      "source_sha256": "c80e21b770e1ed7b00508aaa2e7bd117d74307f57a0198f74977958c8d900d64",
+      "patch_sha256": null,
+      "built_source_sha256": "c80e21b770e1ed7b00508aaa2e7bd117d74307f57a0198f74977958c8d900d64",
+      "port_record_sha256": "d2d3fcca510bc4e0540e83d9d48a02e6ce38c27c7ad5a06d67c9b170a141ee84"
+    },
+    {
+      "id": "M004846",
+      "module": "Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.PowerSeriesOneAddConstMulXMulInv",
+      "source_sha256": "5f74bd4e6cdf2bd495010033ac41b102d05d181eab3ac5169e6c553b11412f86",
+      "patch_sha256": null,
+      "built_source_sha256": "5f74bd4e6cdf2bd495010033ac41b102d05d181eab3ac5169e6c553b11412f86",
+      "port_record_sha256": "54aff58614266fe4ce90def469c00c02b4b16ed430a49b85d4c738da33e2891a"
+    },
+    {
+      "id": "M066867",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BaseChangePolynomialAnnihilatesDescent",
+      "source_sha256": "55da0cc89d99193a92ed0809286c63e0d8c1a09e0c4961e3df6efe7f1ca869ac",
+      "patch_sha256": null,
+      "built_source_sha256": "55da0cc89d99193a92ed0809286c63e0d8c1a09e0c4961e3df6efe7f1ca869ac",
+      "port_record_sha256": "bda95bde1dc32bfaaf48d215311cb0034210877841fcbeba1e6cfe4bd9d5007e"
+    },
+    {
+      "id": "M068334",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DvdSubOfDvdSubX",
+      "source_sha256": "5aa0897e56b801f65339e1645544bfa1a2bb256a5ec843d11592c262486a725f",
+      "patch_sha256": null,
+      "built_source_sha256": "5aa0897e56b801f65339e1645544bfa1a2bb256a5ec843d11592c262486a725f",
+      "port_record_sha256": "05bb32a52a4be6c99a6446b938a94c1b4ed0cbfc67fd2f1f3b67b6dc43664d32"
+    },
+    {
+      "id": "M073057",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.OneAddXMulDerivativeBin",
+      "source_sha256": "6171e8f849ea5a80a3c7cd3e9f8b8581bb11caadf23dc08f446362bd696fea87",
+      "patch_sha256": "396187b96396cb8ffa76c844e5d9156fe6111cb759786a37ae02e3f10e267086",
+      "built_source_sha256": "589d9961fb65fcbeef848dae0f85ba6a24c2188d187ed68d425ea6e0361dd6fd",
+      "port_record_sha256": "a8e2520fcac9801bf2bded8faba621badc4d25305fcde082a0014302cdcc4715"
+    },
+    {
+      "id": "M170125",
+      "module": "GroundTheory.PAdicHodge.SemilinearResidue",
+      "source_sha256": "9b57b7ba4ab47fa4cb955ca5fd1f23564ce3b4972202ed0a43a634bcec55b4ad",
+      "patch_sha256": null,
+      "built_source_sha256": "9b57b7ba4ab47fa4cb955ca5fd1f23564ce3b4972202ed0a43a634bcec55b4ad",
+      "port_record_sha256": "d71de5803d9f46c6097f9c80bccd2f2dbb81d3fe4ef9b4b0fdebbccd46b46586"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M067188",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CMemCoeffSub",
+      "missing_imports": [
+        "M068206"
+      ]
+    },
+    {
+      "id": "M067361",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CharpolyMonoidAlgebraLiftEqOfCharpolyEq",
+      "missing_imports": [
+        "M067505"
+      ]
+    },
+    {
+      "id": "M067530",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CoeffZeroSmulMemMapOfAevalMulEqZero",
+      "missing_imports": [
+        "M067529"
+      ]
+    },
+    {
+      "id": "M069255",
+      "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralPowerSeriesDivisionApprox",
+      "missing_imports": [
+        "M004836"
+      ]
+    }
+  ],
+  "pruned": []
+}
