@@ -1,0 +1,13 @@
+--- a/src/Formalism/LocalToGlobal/SiegelLatticeTheory/TraceIntegralEstimates/SchurTensSpan.lean
++++ b/src/Formalism/LocalToGlobal/SiegelLatticeTheory/TraceIntegralEstimates/SchurTensSpan.lean
+@@ -160,7 +160,9 @@
+     rw [h.2.1, h.2.1, h.1, h.1, map_prod, ← Finset.prod_mul_distrib]
+   refine ⟨?_, ?_⟩
+   · rw [hf]
+-    exact Integrable.fintype_prod_dep fun v => ((hS v).2 (α v) (β v) (α' v) (β' v)).1
++    exact Integrable.fintype_prod_dep
++       (f := fun v x => ⟪β v, σ v x (α v)⟫_ℂ * conj ⟪β' v, σ v x (α' v)⟫_ℂ)
++       (μ := μ) fun v => ((hS v).2 (α v) (β v) (α' v) (β' v)).1
+   · rw [hf, integral_fintype_prod_eq_prod (fun v y => ⟪β v, σ v y (α v)⟫_ℂ * conj ⟪β' v, σ v y (α' v)⟫_ℂ)]
+     simp only [fun v => ((hS v).2 (α v) (β v) (α' v) (β' v)).2]
+     rw [h.1, h.1, Finset.prod_div_distrib, Finset.prod_mul_distrib, Complex.ofReal_prod]

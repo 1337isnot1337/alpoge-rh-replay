@@ -1,0 +1,22 @@
+--- a/src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaBasic.lean
++++ b/src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/SigmaBasic.lean
+@@ -32,7 +32,7 @@
+   refine Eventually.of_forall fun s => ?_
+   refine Differentiable.differentiableOn ?_
+   intro x
+-  exact DifferentiableAt.fun_finset_prod fun l _ => differentiable_wFactor _ x
++  exact DifferentiableAt.fun_finsetProd fun l _ => differentiable_wFactor _ x
+ 
+ end SigmaBasic
+ 
+@@ -48,8 +48,8 @@
+   have hP : ∏' l : L.lattice, wFactor (l : ℂ) (-z) = ∏' l : L.lattice, wFactor (l : ℂ) z := by
+     have e := (Equiv.neg L.lattice).tprod_eq (fun l : L.lattice => wFactor (l : ℂ) (-z))
+     rw [← e]
+-    congr 1
+-    ext l
++    apply tprod_congr
++    intro l
+     simp [wFactor_neg_neg]
+   unfold wSigma
+   rw [hP]

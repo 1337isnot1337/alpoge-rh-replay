@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.ProjectiveLattices.RdOrbIntOfLatZ",
+  "source_sha256": "853adcefa184ef18d1a117fd6dd525bd6d89ea22de6d7e84bdb1067cd8ada877",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121-r2/packet-result.json"
+}

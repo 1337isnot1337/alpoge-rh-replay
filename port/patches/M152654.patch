@@ -1,0 +1,11 @@
+--- a/src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/EtaEis.lean
++++ b/src/Formalism/LocalToGlobal/TorsionIntegrality/EisensteinTranslationProducts/AnalyticIdentityTheorems/EtaEis.lean
+@@ -216,7 +216,7 @@
+     calc 2 * wZeta L (L.ω₂ / 2) = wZeta L (L.ω₂ / 2) - -wZeta L (L.ω₂ / 2) := by ring
+       _ = _ := h
+       _ = _ := by
+-        congr 1
++        apply congrArg (fun s : ℂ => L.ω₂ * s)
+         refine tsum_congr fun m => tsum_congr fun n => ?_
+         rw [add_comm]
+ 

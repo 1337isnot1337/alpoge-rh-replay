@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogVandermondeBounds.LogVandermondeProofs.VandNSuccRight",
+  "source_sha256": "d3e3294f76e15a897ddc8547733b34a131e34ac979a306181fa6f439b3a78e92",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the finite-product inequality with the original nonnegativity premises. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121-r2/packet-result.json"
+}

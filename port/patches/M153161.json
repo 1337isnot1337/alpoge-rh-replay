@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LogFactorialBounds.LogFactorialProofs.PrimeSum",
+  "source_sha256": "deab1693d1cb050ddade1cc386557c2f6a7ee98e460f123a63a5aea429ed8945",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed primorial bound. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0214-lean436-20261121-r2/packet-result.json"
+}
