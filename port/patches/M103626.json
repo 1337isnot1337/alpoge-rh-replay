@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.SelmerTransport.DenseGen",
+  "source_sha256": "6a0cfb1d6ec690c0e2d09c2408542f08762a99b8496de7f15ae32d62b4192545",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current continuity lemmas for fixed-factor multiplication. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0260-lean436-20261121/packet-result.json"
+}
