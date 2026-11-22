@@ -1,0 +1,12 @@
+--- a/src/Formalism/LocalToGlobal/CharacterGerms/NatCastMulTmul.lean
++++ b/src/Formalism/LocalToGlobal/CharacterGerms/NatCastMulTmul.lean
+@@ -89,7 +89,8 @@
+       Submodule (ℤ_[l] ⊗[ℤ] OE) (ℤ_[l] ⊗[ℤ] OE))]) → x = 0 := by
+     intro x hx
+     apply bR.repr.injective
+-    ext i
++    apply Finsupp.ext
++    intro i
+     rw [map_zero, Finsupp.zero_apply]
+     apply hZ.toIsHausdorff.haus
+     intro n

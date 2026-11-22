@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.IncomingBounds.FlowDegreeBounds.Cayley",
+  "source_sha256": "caed1e53c613a9cdefbfa53df2ea15ecd361a7e6df7b629bce2dc093b0210f77",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use polynomial-first coefficient projection in the exported finite-sum identities and dm definition, preserving the same coefficients. Qualify coefficient addition and matrix multiplication lemmas.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

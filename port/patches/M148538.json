@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.BlockActions.LatSOfMem",
+  "source_sha256": "43b005cb0848354d78ac7fd9046507f2fe106876d98e1ff1dbb77c2b3af756c9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

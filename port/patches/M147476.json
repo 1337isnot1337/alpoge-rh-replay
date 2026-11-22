@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LatticeTheta.LatticeThetaProofs.InnerDualVecBasis",
+  "source_sha256": "b46d79fc6366ffbd65b83e811a002533b8e9ff494850afbadd2401342343f85d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

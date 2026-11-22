@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.IndefiniteReal.HaarTransfer.MinfUnique",
+  "source_sha256": "b4450d166d511e35a09ccabc04c53534cfdc645ba2d07db7be0455e031d772f1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

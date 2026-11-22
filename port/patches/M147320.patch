@@ -1,0 +1,63 @@
+--- a/src/Formalism/IncomingBounds/FlowDegreeBounds/PadicValFactorialRatioProd.lean
++++ b/src/Formalism/IncomingBounds/FlowDegreeBounds/PadicValFactorialRatioProd.lean
+@@ -48,7 +48,7 @@
+   have hB : 0 < (l : ℝ) - 1 := by linarith
+   refine ⟨?_, ?_⟩
+   · intro n hn
+-    have hle : l ^ padicValNat l n ≤ n := Nat.le_of_dvd (by omega) pow_padicValNat_dvd
++    have hle : l ^ padicValNat l n ≤ n := Nat.le_of_dvd (by omega) (by simpa only [Nat.padicValNat_def] using pow_multiplicity_dvd l n)
+     have hleR : (l : ℝ) ^ padicValNat l n ≤ n := by exact_mod_cast hle
+     have hb := one_add_mul_le_one_add_pow ((l : ℝ) - 1) hB.le (padicValNat l n)
+     rw [show (1 : ℝ) + ((l : ℝ) - 1) = l by ring] at hb
+@@ -130,11 +130,11 @@
+ private theorem sub_one_mul_padicValNat_factorial_eq (l m : ℕ) (hl : l.Prime) :
+     ((l : ℝ) - 1) * (padicValNat l m.factorial : ℝ) = (m : ℝ) - ((l.digits m).sum : ℝ) := by
+   have := Fact.mk hl
+-  have h := sub_one_mul_padicValNat_factorial (p := l) m
++  have h := hl.sub_one_mul_multiplicity_factorial (n := m)
+   have hs := Nat.digit_sum_le l m
+   have h1 : 1 ≤ l := hl.one_lt.le
+   have h' : (((l - 1) * padicValNat l m.factorial : ℕ) : ℝ) = ((m - (l.digits m).sum : ℕ) : ℝ) := by
+-    rw [h]
++    rw [Nat.padicValNat_def, h]
+   push_cast [Nat.cast_sub h1, Nat.cast_sub hs] at h'
+   simpa [Nat.cast_list_sum] using h'
+ 
+@@ -147,7 +147,7 @@
+   · subst h0
+     simp only [Nat.digits_zero, List.sum_nil, Nat.cast_zero]
+     exact mul_nonneg (by linarith) (by linarith)
+-  · have hlen : (l.digits a).length = Nat.log l a + 1 := Nat.digits_len l a (by omega) (by omega)
++  · have hlen : (l.digits a).length = Nat.log l a + 1 := Nat.length_digits l a (by omega) (by omega)
+     have hsum : (l.digits a).sum ≤ (l.digits a).length • (l - 1) :=
+       List.sum_le_card_nsmul (l.digits a) (l - 1) (fun x hx => by
+         have := Nat.digits_lt_base (by omega) hx
+@@ -175,7 +175,8 @@
+     (Nat.mul_div_cancel' hdvd).symm
+   have hv : padicValNat l (y + a).factorial =
+       padicValNat l a.factorial + padicValNat l ((y + a).factorial / a.factorial) := by
+-    rw [← padicValNat.mul (Nat.factorial_ne_zero a) hq0, ← hsplit]
++    simp only [Nat.padicValNat_def]
++    rw [← Nat.multiplicity_mul (Nat.factorial_ne_zero a) hq0, ← hsplit]
+   have hv' : (padicValNat l (y + a).factorial : ℝ) =
+       (padicValNat l a.factorial : ℝ) + (padicValNat l ((y + a).factorial / a.factorial) : ℝ) := by
+     exact_mod_cast hv
+@@ -199,7 +200,7 @@
+       (m : ℝ) * y / ((l : ℝ) - 1) + m * (Real.logb l n + 1) := by
+     intro m
+     induction m with
+-    | zero => intro _; simp [capNat]
++    | zero => intro _; simp [capNat, Nat.padicValNat_def]
+     | succ m ih =>
+       intro hm
+       have hne1 : capNat m y ≠ 0 := by
+@@ -213,7 +214,8 @@
+           capNat m y * ((y + m).factorial / m.factorial) := by
+         unfold capNat
+         rw [Finset.prod_range_succ]
+-      rw [hsplit, padicValNat.mul hne1 hne2]
++      rw [hsplit, Nat.padicValNat_def, Nat.multiplicity_mul hne1 hne2,
++        ← Nat.padicValNat_def, ← Nat.padicValNat_def]
+       push_cast
+       have h1 := ih (by omega)
+       have h2 := padicValNat_factorial_div_factorial_le l hl y m n (by omega)

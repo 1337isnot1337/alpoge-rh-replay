@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LatticeSlopes.LatticeSlopesProofs.MuMaxAttained",
+  "source_sha256": "0d19b63baae38c72a4ba2a469c1187e989a412d3b348ad58d932e6073fe7a8d8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

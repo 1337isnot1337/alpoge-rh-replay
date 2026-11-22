@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.IncomingBounds.FlowDegreeBounds.AltChooseSumEqZero",
+  "source_sha256": "10fc09752953066cb7cbafa8461229644b554f9c08df2f1532863dbc29411f43",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the integer codomain of the finite-difference identity. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.IndefiniteReal.LocalNormSurjectivity.MemMaxVAIff",
+  "source_sha256": "f31e9e4c023a13d6a6d45217b23616d00844567dbee5beca20ed6a64804a4495",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LatticeSlopes.LatticeSlopesProofs.SlopesBdd",
+  "source_sha256": "839b48569d4b8779ba23b3b8c91403af09abd06d380228d7bf8c7c9acbf1c9a6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

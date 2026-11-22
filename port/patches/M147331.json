@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.IncomingBounds.ValuationWindowImpliesOriginal",
+  "source_sha256": "2636f5b0259f67e30a4ff647f2cd804a32fdc0f726cb19481a88c1ebf2e6da0f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

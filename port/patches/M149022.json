@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.GroupLattices.LevelCharts.SignBlockDeterminant",
+  "source_sha256": "5fa8d5e310946434b48df261e81c5c4062600fe69f95b322126e4704c9d3bc27",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

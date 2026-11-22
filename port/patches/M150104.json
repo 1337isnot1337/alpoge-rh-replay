@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.PairingIndexBounds.ModelLatticeMoves.GoodLat",
+  "source_sha256": "ae0bed4f024bf67843d8b814b8f01234084cb23e3cc6ff5a0650afca9fb36efc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.GlobalTheory.GL3.CubicFields.EpsteinZeta.UnitsEqOneOrNegOne",
+  "source_sha256": "2fc92125429a8dc4a16fff049775c55925d63ffdc7a36764e3c925a7267ff065",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

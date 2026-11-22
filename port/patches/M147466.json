@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LatticeSlopes.LatticeSlopesProofs.SlopeInequality",
+  "source_sha256": "e004beada3d947be96ee4598e1c60bdc20bdb3d318b9b06b365622c2cb414422",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}
