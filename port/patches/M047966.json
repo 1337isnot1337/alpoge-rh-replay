@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.RegularLocalDifferentialsBasis",
+  "source_sha256": "f67e107ec98b5bcc947541ce5cc03af1ca57ee10db681d8bd448fa89e749a1e8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
