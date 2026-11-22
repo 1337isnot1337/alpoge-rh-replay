@@ -1,0 +1,1326 @@
+{
+  "target": "P0207",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/28319",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "f2b1eba3dbf6d646c2a2c67e5b1864fe0c64780d",
+  "port_record_commit": "bec0b020c57d89422e7d1776ecff1b686f459e16",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "cb048d8ed5d16b53680dfced793bb5fea6a7314044b99d7f0cd6bf046622cfe3",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ScoreTZeroEqLevelCountStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionInvarianceCosetSumStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionLawHoldsStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionOrthogonalIdempotentSumStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionOverIdempotentPropertiesStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SeparableNormCommuting Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShuffleOfPermStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShufflePermFlattenStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShuffleWeightSquareLengthLtStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SmoothSpreadsOutStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SmulMemRangeLTensorOfLTensorEqZero Development.AutomorphicSpectrum.Proofs.BlockDecomposition.StagedEstimateHoldsStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SurjectivePreservesClosednessComparabilityStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorEvalFixedOfFixedStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorIdealMapInjective Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TorsQuot Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TraceDiagonalBlockConjugateFormulaStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingBasisEvalStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingFrobeniusCompatStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingGaloisEquivariantStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingLTensorNaturalityStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingSmulDualStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingSmulLeftStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TransferOfSectionAndWallLaws Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwistOfSectionLaw Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwistedJacquetExactSmooth Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwoUnif Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UniformBoundednessStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnipotentHeckeFourthProperty Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnitFundamentalLemmaFirstHolds Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnitFundamentalLemmaSecondHolds Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedDualFamilyHolds Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedExtensionIntegralBasis Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuotientCard Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ValuationOfLocalDichotomy Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ValuationPowerIffStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VandermondeSquaresStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VecCloseOfKerBasicColSq Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VecInnerOfKerBasic Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VecLimOf Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VecNormOfVecClose Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WallLawOfSectionLawStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WedgeBoundFinitePlacesStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WedgeBoundInfinitePlacesStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WedgeSubspaceBoundStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WeylDenominatorProductStatement Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WpPf Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.ArithFunctionalLipschitzWeights Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.DominantPartialSumBounds Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.ExistsFlagDegreeOnePolys Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FlagDegreeSymmetries Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FlagDegreeWeightFormula Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FlagShiftTotalLinRootPowerStatement Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.PolarizationPolynomialCoeffBound Development.AutomorphicSpectrum.Proofs.GeometryProofs.BaseChangePointsCompat Development.AutomorphicSpectrum.Proofs.GeometryProofs.BtOrderComapHom Development.AutomorphicSpectrum.Proofs.GeometryProofs.BtOrderEqTopOfEtale Development.AutomorphicSpectrum.Proofs.GeometryProofs.DerRingInjective Development.AutomorphicSpectrum.Proofs.GeometryProofs.DiscriminantValuationDifferent Development.AutomorphicSpectrum.Proofs.GeometryProofs.EigenComponentMapCompat Development.AutomorphicSpectrum.Proofs.GeometryProofs.EpiRingHomFieldClosureStatement Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsDenominatorRegular Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsLieModelStatement",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 63 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M127274",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ScoreTZeroEqLevelCountStatement",
+      "source_sha256": "81f4663d3696a6208bf86e301335010773f9a6fa9dd2c1f1d893194bb1ab3adc",
+      "patch_sha256": null,
+      "built_source_sha256": "81f4663d3696a6208bf86e301335010773f9a6fa9dd2c1f1d893194bb1ab3adc",
+      "olean_sha256": "557c2c4783f3efaaf8d2ec187a518d55e915364552e4ce4299cf544f100f4bcf",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M127305",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionInvarianceCosetSumStatement",
+      "source_sha256": "018c5534f2f534deb5eea3ece4e2c8419854e3ea5d10b287397f8b694f37c7e8",
+      "patch_sha256": null,
+      "built_source_sha256": "018c5534f2f534deb5eea3ece4e2c8419854e3ea5d10b287397f8b694f37c7e8",
+      "olean_sha256": "31b4525b7b18907e2f943a07053cf010d6ff0e04032222fdf1f763738d9b861a",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M127309",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionLawHoldsStatement",
+      "source_sha256": "687f53b956e4c6257c50add56b91cbedc398c1b36a820783fc398fa6d00f4d52",
+      "patch_sha256": null,
+      "built_source_sha256": "687f53b956e4c6257c50add56b91cbedc398c1b36a820783fc398fa6d00f4d52",
+      "olean_sha256": "7ed0b13742ef1865741e74f1bb2ab1062faae6998f8461588c03775c2abe3a15",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M127318",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionOrthogonalIdempotentSumStatement",
+      "source_sha256": "0d1d91c262e730b4a13f62debcae0ca662fc6ecdc35bc4dd4c338489b30b2b94",
+      "patch_sha256": null,
+      "built_source_sha256": "0d1d91c262e730b4a13f62debcae0ca662fc6ecdc35bc4dd4c338489b30b2b94",
+      "olean_sha256": "fe47356dc0ccc75824b259ced27153b3e0a1300067b30ab79d39e32931fffaae",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M127320",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionOverIdempotentPropertiesStatement",
+      "source_sha256": "d54329cd404e3b625a972bccc7d225202c628544ba0e12c9682af0f7b8a2987f",
+      "patch_sha256": null,
+      "built_source_sha256": "d54329cd404e3b625a972bccc7d225202c628544ba0e12c9682af0f7b8a2987f",
+      "olean_sha256": "78d31f0063d98453c7a5b5ff2d7593defeec7ed817bb2eb7069e3021ece3fefd",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M127375",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SeparableNormCommuting",
+      "source_sha256": "8cffa9e00a8ccea1194623e0c30f8904a7932dd79b6c16aada78f357443e8361",
+      "patch_sha256": null,
+      "built_source_sha256": "8cffa9e00a8ccea1194623e0c30f8904a7932dd79b6c16aada78f357443e8361",
+      "olean_sha256": "131c1e6cba333bfa7432fc7949784266ca50ad1f286e68153a25108b0bd3a968",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M127454",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShuffleOfPermStatement",
+      "source_sha256": "a378eadac76e27903e82bf0c1ea9a3130b57adf80b1d05e4ecbb9556df8efc91",
+      "patch_sha256": null,
+      "built_source_sha256": "a378eadac76e27903e82bf0c1ea9a3130b57adf80b1d05e4ecbb9556df8efc91",
+      "olean_sha256": "d5d64390a21be2cc7217001ae96b807621012f194bd47d3484a61414d011fee6",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M127456",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShufflePermFlattenStatement",
+      "source_sha256": "e92d77ad1aa92f122d5a8b6cdedbed60bb56addc8f7d6f2a873d6404f06a9d07",
+      "patch_sha256": null,
+      "built_source_sha256": "e92d77ad1aa92f122d5a8b6cdedbed60bb56addc8f7d6f2a873d6404f06a9d07",
+      "olean_sha256": "cc423b8c4b51b68533b0a2d7cebcec0dfe5251a6d0e204b28140929836d766fc",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M127460",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShuffleWeightSquareLengthLtStatement",
+      "source_sha256": "c09bb1b3ea821f0b0933366ff952b2d8de5a5353f1b51b525e8f87036b99fe3f",
+      "patch_sha256": null,
+      "built_source_sha256": "c09bb1b3ea821f0b0933366ff952b2d8de5a5353f1b51b525e8f87036b99fe3f",
+      "olean_sha256": "39c19471351ba021abf6e15ff9703dd1c32eb620c659a8ded436491116f198e8",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M127616",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SmoothSpreadsOutStatement",
+      "source_sha256": "319885834ab02a9ca0cf21ba3b8467e7934c5374d4c6ae947022075238510886",
+      "patch_sha256": null,
+      "built_source_sha256": "319885834ab02a9ca0cf21ba3b8467e7934c5374d4c6ae947022075238510886",
+      "olean_sha256": "796888162ac3e0fe1f161368d68d0c5761ae5811f4f19b4e705fd37e3b78dca8",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M127656",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SmulMemRangeLTensorOfLTensorEqZero",
+      "source_sha256": "e6ffbe87a281967483f35a07c9cc27d4a33b762836052b54bb140125477da2d3",
+      "patch_sha256": "aded65734e42ae587d3c7db6fa5b0e65af33ab40c4d58316dcf7f61a573af9bb",
+      "built_source_sha256": "222ea451065796d57fb13666366b258bfc38461181f376db4cd6711b63935cc3",
+      "olean_sha256": "f08ee3fc561e18a3d386b8488111f30d29144f41d137641aac3f033cc81d5d70",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M127802",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.StagedEstimateHoldsStatement",
+      "source_sha256": "f6549116a6b3e21c8aadd540dbf6c6c924971c063fe9c847c7844cf737ebe2d2",
+      "patch_sha256": null,
+      "built_source_sha256": "f6549116a6b3e21c8aadd540dbf6c6c924971c063fe9c847c7844cf737ebe2d2",
+      "olean_sha256": "411226d8a8a19b721ef7b24d3e74f00e2e080aa1ce186c3fa8844637b2e90e08",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M127952",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SurjectivePreservesClosednessComparabilityStatement",
+      "source_sha256": "46f4403034c91341b8b8619b9f4ddd6a9a40f3a04a23a2ff0f07e3dfdad18782",
+      "patch_sha256": null,
+      "built_source_sha256": "46f4403034c91341b8b8619b9f4ddd6a9a40f3a04a23a2ff0f07e3dfdad18782",
+      "olean_sha256": "e3f4fdcb6bb1c4fa1abe5a304372f68bcc7daf31ac758132b08a42a253d01221",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128039",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorEvalFixedOfFixedStatement",
+      "source_sha256": "cd5786617346b7b1a1af9562b545444281596675311aacdad26e1c492117a72c",
+      "patch_sha256": null,
+      "built_source_sha256": "cd5786617346b7b1a1af9562b545444281596675311aacdad26e1c492117a72c",
+      "olean_sha256": "fb0821a23dfe462b984ec3a83e1513694e3cdddd4c9e200849c75d9cf9665c93",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128046",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorIdealMapInjective",
+      "source_sha256": "cde56c86c3569e9c54c8c88f99ca697f532642bb1c1b4d9dae9720dcbb6f54b9",
+      "patch_sha256": null,
+      "built_source_sha256": "cde56c86c3569e9c54c8c88f99ca697f532642bb1c1b4d9dae9720dcbb6f54b9",
+      "olean_sha256": "b7c0a7fbb47213f862d972ba20d3f0ee7837969ac08336375c3f483aba5f48e7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128194",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TorsQuot",
+      "source_sha256": "8473a9d05c98cb574f023253f2c5f87f14b3461c6d7a6e898fdbdf9ad66950e2",
+      "patch_sha256": "3283c67fc18da370540752f16c85d9c6fa6c4e1be01b8d77456a2d6fe4221e70",
+      "built_source_sha256": "8d66f678017440e063915167cb6b2a892ade4ec1bc1b013d3a5a04fb8cbedc57",
+      "olean_sha256": "67367bc65ec193e9ea14bbd096b34b196a09bb470e1d8a6fc69f688a5531beb4",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128239",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TraceDiagonalBlockConjugateFormulaStatement",
+      "source_sha256": "e42eb4befe9966edfd0358f53f8c22e519e7ec17057a080cc4727128841dbb96",
+      "patch_sha256": null,
+      "built_source_sha256": "e42eb4befe9966edfd0358f53f8c22e519e7ec17057a080cc4727128841dbb96",
+      "olean_sha256": "1f9cd435eddcfe827a173365c6e6dafe6505c4ffa381430760fa2975686f3f91",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128260",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingBasisEvalStatement",
+      "source_sha256": "cdbae375dc018222e929a75a4a265fadd91f23bd76101ff221bfc94648a1cf3c",
+      "patch_sha256": null,
+      "built_source_sha256": "cdbae375dc018222e929a75a4a265fadd91f23bd76101ff221bfc94648a1cf3c",
+      "olean_sha256": "74e3e3237b6965f9063654f55948a29a573b16b438c79b8d6aa7e1b26a0075bf",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128262",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingFrobeniusCompatStatement",
+      "source_sha256": "71a36c9abfcba9e0bd38eb225ed329b9ba6d5dd4dc4377e06477a4b895a9a3bb",
+      "patch_sha256": null,
+      "built_source_sha256": "71a36c9abfcba9e0bd38eb225ed329b9ba6d5dd4dc4377e06477a4b895a9a3bb",
+      "olean_sha256": "4352982deab16451a394004d2a4206a4fb886dbecad22e59fa3cc3e8e12a4c06",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128264",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingGaloisEquivariantStatement",
+      "source_sha256": "e4d65023847d95907ca7621b241995a883c4f2b3431e6650d257f3f848181f6c",
+      "patch_sha256": null,
+      "built_source_sha256": "e4d65023847d95907ca7621b241995a883c4f2b3431e6650d257f3f848181f6c",
+      "olean_sha256": "421a061a7bde7ea7f048b52fe61db65bca74c9097ebf25575d2b94a9ba5f740a",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128266",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingLTensorNaturalityStatement",
+      "source_sha256": "50c23df5334012f3355a06ffd370971f1b85a15f8caf03b7418425529d61caad",
+      "patch_sha256": null,
+      "built_source_sha256": "50c23df5334012f3355a06ffd370971f1b85a15f8caf03b7418425529d61caad",
+      "olean_sha256": "079912cf5f28892934c3ef9ada134446c3bd189db781f6457a26b6082d669b3c",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128268",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingSmulDualStatement",
+      "source_sha256": "ba297ffeb9310b9ff26a0cd17f4954504624214b4ef10da6bb585af32f73567e",
+      "patch_sha256": null,
+      "built_source_sha256": "ba297ffeb9310b9ff26a0cd17f4954504624214b4ef10da6bb585af32f73567e",
+      "olean_sha256": "9dfffe9153d5c03b499bbf75063a36a79c4e4e1dbf67b16652d1441576c4c9e5",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128270",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingSmulLeftStatement",
+      "source_sha256": "aea4726cc9225e471eac2acb611b41b78ecc9a575655319c124042b33e797d8b",
+      "patch_sha256": null,
+      "built_source_sha256": "aea4726cc9225e471eac2acb611b41b78ecc9a575655319c124042b33e797d8b",
+      "olean_sha256": "c5ae23da2c582a51ce3f1003acecf10acf8a7348ff67d55cacb7030ea8462e0a",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128272",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TransferOfSectionAndWallLaws",
+      "source_sha256": "188023c3e47fcf886d7d49839a59c81e038f1fb7e41ddf0112e239d18c9b9f4a",
+      "patch_sha256": null,
+      "built_source_sha256": "188023c3e47fcf886d7d49839a59c81e038f1fb7e41ddf0112e239d18c9b9f4a",
+      "olean_sha256": "a1da015031de12f4e6f52f2bc186f7187ee451685e4a63ee8a582bd15bbb2786",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128338",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwistOfSectionLaw",
+      "source_sha256": "05c552b246055c9fed75e3b39392225c19fe7ac55ae4128558d2041d763e9754",
+      "patch_sha256": null,
+      "built_source_sha256": "05c552b246055c9fed75e3b39392225c19fe7ac55ae4128558d2041d763e9754",
+      "olean_sha256": "f38877d04188a551e51419441622ce417de0250fab8898e8006b242b2c15dd47",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128372",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwistedJacquetExactSmooth",
+      "source_sha256": "d7461a023a7cffb2b96e229411dc642a66a35e47d01ab138f0aa2da2e6e95e23",
+      "patch_sha256": null,
+      "built_source_sha256": "d7461a023a7cffb2b96e229411dc642a66a35e47d01ab138f0aa2da2e6e95e23",
+      "olean_sha256": "3674500d376b249b453045a951f38818ba78230611c7c8ac30e61c571bca605b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128417",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwoUnif",
+      "source_sha256": "bb6c15c844bf4377779d19f9fd0cf43c53c6a0c6d6dc43e5e09119d8743c46db",
+      "patch_sha256": null,
+      "built_source_sha256": "bb6c15c844bf4377779d19f9fd0cf43c53c6a0c6d6dc43e5e09119d8743c46db",
+      "olean_sha256": "d4055773b4f3ec806f7d9d158d7ccd556b3725e3e844daf3f156a9019354fd68",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128449",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UniformBoundednessStatement",
+      "source_sha256": "936e1b6d70e2c99785fcc0ef8537978d23801de3907eee6228239d744f30afcc",
+      "patch_sha256": "740a7ff81351da335bbe0edb1c4b55af4be6d5a8d39794f89091978f3b31691e",
+      "built_source_sha256": "2a124693f9652ab8b7efb66371ebb0988af5683b38109dc654547818085e2dae",
+      "olean_sha256": "07c2241cac686ca193e84326d6af9da3aef5771be81d080016186434b593277a",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128512",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnipotentHeckeFourthProperty",
+      "source_sha256": "5ea8b35e1c4cd7f02c727a958a74307c580ff6c012dedacdf136006f0fc77e3a",
+      "patch_sha256": null,
+      "built_source_sha256": "5ea8b35e1c4cd7f02c727a958a74307c580ff6c012dedacdf136006f0fc77e3a",
+      "olean_sha256": "b8b0cdb46f6d40c9c66f0376952a3bd74972b4ee4e8a189fb4f90ef5deff274e",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128548",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnitFundamentalLemmaFirstHolds",
+      "source_sha256": "3ffa26f817c26e88e3566e193393fdaa21adbf80b868b33c9f0cdb27acac3f90",
+      "patch_sha256": null,
+      "built_source_sha256": "3ffa26f817c26e88e3566e193393fdaa21adbf80b868b33c9f0cdb27acac3f90",
+      "olean_sha256": "e4d00955ceae7f05e22d01a94d5f23cae4ca3b7347b4ef5c2341b6dc101eccf9",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128550",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnitFundamentalLemmaSecondHolds",
+      "source_sha256": "0e2560d0d62d8475c128d719db4c3ac53505767e9ea00356f2e52003af78327f",
+      "patch_sha256": null,
+      "built_source_sha256": "0e2560d0d62d8475c128d719db4c3ac53505767e9ea00356f2e52003af78327f",
+      "olean_sha256": "8ce8eeede02c4b05409d7c8cc5add6b295b180ea00b286e486ba76df7737c1e3",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128662",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedDualFamilyHolds",
+      "source_sha256": "eb4b83fbc222a614086af6724fbba0df999028cf2a17d7f19a55e22122f0e777",
+      "patch_sha256": "48af08202478da2fe4ece369698e7e11d5f64cbb990ae93409b44dd2f1bc19f9",
+      "built_source_sha256": "1813f9524e2fce25a0b7c28de5390a0cb041401037f605cc92bd54119d95f2ba",
+      "olean_sha256": "61298a6411437fd3419d6ecfc45d2593da0873fe984a76d8ed3449fc138f0322",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128664",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedExtensionIntegralBasis",
+      "source_sha256": "795f13b35bb3d02b6c8d7caf4450a5b93b8ecdb4cb624924fa2a6331d722e123",
+      "patch_sha256": null,
+      "built_source_sha256": "795f13b35bb3d02b6c8d7caf4450a5b93b8ecdb4cb624924fa2a6331d722e123",
+      "olean_sha256": "f2053ee1fdb16fc3d4669ba3a0b7da9ec6024700cd5b75e14fcb096fcafd8a11",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128693",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.UnramifiedQuotientCard",
+      "source_sha256": "4e1891ded2e660656f7e110613fb41e284e10c47f7375ec3ed8d19ed75b4a99f",
+      "patch_sha256": null,
+      "built_source_sha256": "4e1891ded2e660656f7e110613fb41e284e10c47f7375ec3ed8d19ed75b4a99f",
+      "olean_sha256": "3cd7c77f85cc8ab95666b8f76c001b2349ab0bf29e1c04e913acd548827a3ff3",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128729",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ValuationOfLocalDichotomy",
+      "source_sha256": "e74de073ca038ceae6146118995b0168b37dadcd7f64a2f42b58cb3eb3e3632c",
+      "patch_sha256": null,
+      "built_source_sha256": "e74de073ca038ceae6146118995b0168b37dadcd7f64a2f42b58cb3eb3e3632c",
+      "olean_sha256": "92d0a7680c0bca536e2600622204512bdd922a50c5f5cdf58dd96d7174eac0cb",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128732",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ValuationPowerIffStatement",
+      "source_sha256": "12974af297b03c91295a274af6cd2b439684787fb43c7445754eb69afe4df7c9",
+      "patch_sha256": null,
+      "built_source_sha256": "12974af297b03c91295a274af6cd2b439684787fb43c7445754eb69afe4df7c9",
+      "olean_sha256": "fbbeebcf474d7f43c4d6d51f112accd215714a28b08fd16cb220647d1b56d1e8",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128738",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VandermondeSquaresStatement",
+      "source_sha256": "a7ac6f737d0be1b6ba4b570e7e431dc458ac591d81f943a23a3ce14fc9b7ed07",
+      "patch_sha256": null,
+      "built_source_sha256": "a7ac6f737d0be1b6ba4b570e7e431dc458ac591d81f943a23a3ce14fc9b7ed07",
+      "olean_sha256": "d145e6265aedbeaf001cd6266139a6c203609e0e104aa4f1f59f82206122c65a",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128744",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VecCloseOfKerBasicColSq",
+      "source_sha256": "23d51b1dca0fdf1ee7615bd44d77f6095b911febcc0366e06d55653df9242aa2",
+      "patch_sha256": "1c9e48d7e19d36dc1d745d1735d185cc6891c1c90f94109b3aef26ec3bb4593c",
+      "built_source_sha256": "dffdd06de4a68f9e22b9ff44b73067e861a573e6c824a41ee01499ea4ce818a3",
+      "olean_sha256": "45274b6c57a0028c820fabc7fc682bc0f3ac709185537526ba4b76f5ca6353a8",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128745",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VecInnerOfKerBasic",
+      "source_sha256": "b9fe327788c28b00e636dcc720659f05feb5f47ad816764f3eab35c85e5822f9",
+      "patch_sha256": null,
+      "built_source_sha256": "b9fe327788c28b00e636dcc720659f05feb5f47ad816764f3eab35c85e5822f9",
+      "olean_sha256": "ddf1e7a33f45989e6a240aeee2d26718f95e3e82c3d10966da51da48c65099d6",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128748",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VecLimOf",
+      "source_sha256": "8cd3f209d57d279ec66f10f26dd7146861212f6c310f0ed42a416b151008ab7c",
+      "patch_sha256": null,
+      "built_source_sha256": "8cd3f209d57d279ec66f10f26dd7146861212f6c310f0ed42a416b151008ab7c",
+      "olean_sha256": "98cb03881ffd8e74544a48f6f3b6490f1ea4a0d1018597104bae5aa49c78ed5a",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128749",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VecNormOfVecClose",
+      "source_sha256": "32a0701b3e17565af9e6d26faea7a472edd84ddfe2a6e547605549895ccab1ae",
+      "patch_sha256": null,
+      "built_source_sha256": "32a0701b3e17565af9e6d26faea7a472edd84ddfe2a6e547605549895ccab1ae",
+      "olean_sha256": "038bb78991be620c8d3f9f2aff20beadabd8498665b0ef41a0b2e9561c6881cb",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128770",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WallLawOfSectionLawStatement",
+      "source_sha256": "8d8c2508793455b7387002960c14e3f4a3b3fe3d750247171f5a3fb67f54eb38",
+      "patch_sha256": null,
+      "built_source_sha256": "8d8c2508793455b7387002960c14e3f4a3b3fe3d750247171f5a3fb67f54eb38",
+      "olean_sha256": "b5e6c76005a2ba68628d3651ed729e69a156babe169ca4685b82e0312111c71c",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128805",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WedgeBoundFinitePlacesStatement",
+      "source_sha256": "852899cccd96a0b1975525b50b4a60e43465d8fb306a0ba1f1921db8d3434271",
+      "patch_sha256": null,
+      "built_source_sha256": "852899cccd96a0b1975525b50b4a60e43465d8fb306a0ba1f1921db8d3434271",
+      "olean_sha256": "4a1815795ae00dda3be3006e16515adead9842976b524d885d7e56db17142e64",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128807",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WedgeBoundInfinitePlacesStatement",
+      "source_sha256": "820f7549cd1edba4b281c02aa06bc554b7be512be2faf0af4555d8db4ae13ea4",
+      "patch_sha256": null,
+      "built_source_sha256": "820f7549cd1edba4b281c02aa06bc554b7be512be2faf0af4555d8db4ae13ea4",
+      "olean_sha256": "00992a26225b508d82905f49a4f8249bdfc101c66976f77e2267b2dcb48419d9",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128814",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WedgeSubspaceBoundStatement",
+      "source_sha256": "db1886fb05e2693567c072ddb37779c79c0e5355ea3d468d924ab19a845f1b24",
+      "patch_sha256": null,
+      "built_source_sha256": "db1886fb05e2693567c072ddb37779c79c0e5355ea3d468d924ab19a845f1b24",
+      "olean_sha256": "3036f4545800a39f2757a6e73018adf8f9dbc3d9fb5a85052b9685d680262778",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M128918",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WeylDenominatorProductStatement",
+      "source_sha256": "451668d8672a08a8f524cfbbffbe146cddcb831c897bb249edc0570528ea7623",
+      "patch_sha256": null,
+      "built_source_sha256": "451668d8672a08a8f524cfbbffbe146cddcb831c897bb249edc0570528ea7623",
+      "olean_sha256": "6ded9dae029d40fe53daf017e14a0ab05a30ad29eb8059328e8f637538a4b8ef",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M129059",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WpPf",
+      "source_sha256": "1b01851f9a687f764d3837580af6eb9dc778306dbcd43843cfe55cd46e74f025",
+      "patch_sha256": null,
+      "built_source_sha256": "1b01851f9a687f764d3837580af6eb9dc778306dbcd43843cfe55cd46e74f025",
+      "olean_sha256": "97c5037c1802b0f7be04f4312e58bf9661eb643c248534d7654ebea244dcb8a1",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M129093",
+      "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.ArithFunctionalLipschitzWeights",
+      "source_sha256": "4d6d5fe72b7065c3abdf9c388b645cf6b4e99f441291e4a82e8a458f22c67194",
+      "patch_sha256": null,
+      "built_source_sha256": "4d6d5fe72b7065c3abdf9c388b645cf6b4e99f441291e4a82e8a458f22c67194",
+      "olean_sha256": "4bb3e8d0686ca98c2861b41c23e27184a2b460c16efc241770f4f2ac18960ef7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M129148",
+      "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.DominantPartialSumBounds",
+      "source_sha256": "f7dab8182f39ca8caf23e646e09a049dcd14a36954745ad635d0ba70a77a59e5",
+      "patch_sha256": null,
+      "built_source_sha256": "f7dab8182f39ca8caf23e646e09a049dcd14a36954745ad635d0ba70a77a59e5",
+      "olean_sha256": "9b041da4b3bb2dd3ed8b52819848ae780ac7238a84563ec5728b27bfda6e258b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M129153",
+      "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.ExistsFlagDegreeOnePolys",
+      "source_sha256": "6f0bcd55af18cc773935cfd906a960c7c8d000c12378909c724c0acd2ef163ca",
+      "patch_sha256": null,
+      "built_source_sha256": "6f0bcd55af18cc773935cfd906a960c7c8d000c12378909c724c0acd2ef163ca",
+      "olean_sha256": "b3be56cfdfa8d486ccb2064b03ffc9466c4701e8911200cee3f65df5f01bb72d",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M129184",
+      "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FlagDegreeSymmetries",
+      "source_sha256": "c167b69e7e07a09dc69db72901ca6b58c0e3edc441e4bb2b01ec031c6112e6c2",
+      "patch_sha256": null,
+      "built_source_sha256": "c167b69e7e07a09dc69db72901ca6b58c0e3edc441e4bb2b01ec031c6112e6c2",
+      "olean_sha256": "67fbdd7aaa764c3a0094704001e065ecb26435f6186932c351fb1515db3f6414",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M129186",
+      "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FlagDegreeWeightFormula",
+      "source_sha256": "701a7bb371000d989fbb6d39829f480122ac680c5c6d18dd922df833af7eb564",
+      "patch_sha256": null,
+      "built_source_sha256": "701a7bb371000d989fbb6d39829f480122ac680c5c6d18dd922df833af7eb564",
+      "olean_sha256": "f19c377e9a5a22e1c813da4dc2d3e0f74beeb79a079dcbc8b7c76cf60c1828bb",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M129207",
+      "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FlagShiftTotalLinRootPowerStatement",
+      "source_sha256": "1833ef46ccf4a42708a05fb32afb89b3fc5a41d585d0843ebbd4dc2f30f6699b",
+      "patch_sha256": null,
+      "built_source_sha256": "1833ef46ccf4a42708a05fb32afb89b3fc5a41d585d0843ebbd4dc2f30f6699b",
+      "olean_sha256": "e4a6a0609b6db851aa4013b401fe4bd090e7a4aaa2c19252bd6352fa381e6a44",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M129318",
+      "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.PolarizationPolynomialCoeffBound",
+      "source_sha256": "a934ee0b3780c84b413351297c3fe700dde8957dd7bdae34db08f7c4dc99657f",
+      "patch_sha256": "31ed11b521f3adf52a6efba738c499e1dda4061557ad8dbea371c50ef652365d",
+      "built_source_sha256": "54a90985f8f22a70aeaac2a10ff982af1ae839221a7b305c32d17d23e081f802",
+      "olean_sha256": "b946b761b7b02c5c0c1b44ca86971e8cd4d5455dff59735f22caf5d75eaf65cd",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M129639",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.BaseChangePointsCompat",
+      "source_sha256": "e31394abfbae09a47c01f9e53fdfef1ec3fe2052b2539d034076ad0667048357",
+      "patch_sha256": null,
+      "built_source_sha256": "e31394abfbae09a47c01f9e53fdfef1ec3fe2052b2539d034076ad0667048357",
+      "olean_sha256": "5a8a9f8f956d3c2ef1cb4d90d77d879bde3ed7b98fa3c10fc9e2efea30563ec5",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M129685",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.BtOrderComapHom",
+      "source_sha256": "f9717871d534385a34bb37680d15938ab51ea1a14e3a3430bc0e609e90141992",
+      "patch_sha256": null,
+      "built_source_sha256": "f9717871d534385a34bb37680d15938ab51ea1a14e3a3430bc0e609e90141992",
+      "olean_sha256": "8923b3d095ea486e7c4ad9926bfdfd1a8f468e12f599d9137124ad54e287c4b6",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M129699",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.BtOrderEqTopOfEtale",
+      "source_sha256": "15e16315dfe7e7a5075dca1b78e83ca1cdc0ab9dd91e75c7ac95bba865f58f10",
+      "patch_sha256": "20e63469f9d967ab03793e2ee925e84419dd198cd37b00b16a015fbc163a56a6",
+      "built_source_sha256": "c62fae084796db50342c2e504bd305ef4d9886e3ccdfa2b24ce021364af60904",
+      "olean_sha256": "72257800e1f923e1344a2dc836102eedf275821c2d2e31cb074594005833ccde",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M130028",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.DerRingInjective",
+      "source_sha256": "f8fe6464966d8a1a110d6fcaa8f8f06526b231d233e343df5fb6684f913bfeda",
+      "patch_sha256": null,
+      "built_source_sha256": "f8fe6464966d8a1a110d6fcaa8f8f06526b231d233e343df5fb6684f913bfeda",
+      "olean_sha256": "ded9768aab29662ba2038b42344bbba01004077d7805dab33079a0ef5e031523",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M130049",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.DiscriminantValuationDifferent",
+      "source_sha256": "48071ad7698d421cecc484d214dd2439d7e28f546267c09b62ff3cb1d90e736d",
+      "patch_sha256": "72698019a518df0f438a4f7699eae1bc79b0fa5bc1b002b2d974640efeca0bb5",
+      "built_source_sha256": "ddd6390c11d003e70d92e4efe5b9a624c65aed99bc84fdb3d3acdcd0e07b0227",
+      "olean_sha256": "29b9e540b3f10fd39101218405bffdff38758a41d25448cade044105aa1226e0",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M130110",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.EigenComponentMapCompat",
+      "source_sha256": "7e6963e3b4aad8899faef45d69364b6429a5856d4e6605ee20918d1428e0b1ab",
+      "patch_sha256": "4f847f393a2a8859028267bcf87c7287a2a8465a1b56f4e3f8802717c11569f8",
+      "built_source_sha256": "82d3ff2dfa6b1be9cd3061e47b92f7be9aab8be4502edd491ad2add843524b0c",
+      "olean_sha256": "ef76be565dfce718ff3613c19e0c10c0a362a4c1776a8cb03ac99b40db127285",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M130160",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.EpiRingHomFieldClosureStatement",
+      "source_sha256": "703ba918cf1f9c8456bafd772d31f6bce814b55b670eb434720be258046ffaae",
+      "patch_sha256": null,
+      "built_source_sha256": "703ba918cf1f9c8456bafd772d31f6bce814b55b670eb434720be258046ffaae",
+      "olean_sha256": "1c120871013e7300f8f4487328e3dfbe1dfe2ac0a7b6b1cc47c0260ea3f58ed4",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M130209",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsDenominatorRegular",
+      "source_sha256": "80b24ff21787fc6ebad7aaf233c1be191292e6b279fddd46530ecdb327f73221",
+      "patch_sha256": null,
+      "built_source_sha256": "80b24ff21787fc6ebad7aaf233c1be191292e6b279fddd46530ecdb327f73221",
+      "olean_sha256": "86dc4a568ca5f423cbd017b79173ffee8e245cfd74a59a6ca3ad1b2eae8ec8e2",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M130284",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsLieModelStatement",
+      "source_sha256": "24d7536506b1529dddeccfcb00587ee6bb3548dc0a22fba0622473c947785597",
+      "patch_sha256": null,
+      "built_source_sha256": "24d7536506b1529dddeccfcb00587ee6bb3548dc0a22fba0622473c947785597",
+      "olean_sha256": "9097c93c13c44bf66c660c3358e1383af5ccf6511f466d9764c1e45bfbf906ca",
+      "exit_code": 0,
+      "validated_output": "reused"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M004149",
+      "module": "Development.AbelianVarietyTheory.Definitions.Foundations.SmoothPartStable",
+      "source_sha256": "592fad187e9468878f81c31007aea0129c7d3a8b8c8a7f5f892de8c316fa864f",
+      "patch_sha256": null,
+      "built_source_sha256": "592fad187e9468878f81c31007aea0129c7d3a8b8c8a7f5f892de8c316fa864f",
+      "port_record_sha256": "bc795934a4a19d2ed1a87cdace3978608dd3458a3ad2a9e959ac0e2d3608a8fd"
+    },
+    {
+      "id": "M017461",
+      "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharpolyEqPowOfIrreducible",
+      "source_sha256": "1a9be7074d18a7054f3e5f113444e8442acef19c6215f57d1cd46f09ffd7d7f7",
+      "patch_sha256": null,
+      "built_source_sha256": "1a9be7074d18a7054f3e5f113444e8442acef19c6215f57d1cd46f09ffd7d7f7",
+      "port_record_sha256": "9d6357a70bd5ba10355a179272f42d2aabc6ecc097e1a3e16aaa1b809264322d"
+    },
+    {
+      "id": "M066483",
+      "module": "Development.AbelianVarietyTheory.Proofs.HomogeneousIdeals.IsDomainAndIsIntegrallyClosedAtPrimeOfSmoothOfCo",
+      "source_sha256": "2abfbdf40b94e76d42516f223911599a3e9d223e60ad7901b43fb439728278a8",
+      "patch_sha256": "26070a4fb5fe1ee1b5a550d97e9a127c885cd248bb56f546a92b5db96a5932ee",
+      "built_source_sha256": "a7897f4b16171d19edff964b49ca41ac60293e4b564d8ab6efc24b0ece58c9d0",
+      "port_record_sha256": "e99092ac90806ed8ca633d4cc261de26cf03948f3cc222fdba2d5457d37a9fa1"
+    },
+    {
+      "id": "M115484",
+      "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.Iwa",
+      "source_sha256": "847dea5369f6267eb9db4c75472ac03d167a1afdc7ed427925396059660f222e",
+      "patch_sha256": null,
+      "built_source_sha256": "847dea5369f6267eb9db4c75472ac03d167a1afdc7ed427925396059660f222e",
+      "port_record_sha256": "0bd273341831d6db0976536693fa6f493ae635f8fe21a7afb5898c41c36b21e1"
+    },
+    {
+      "id": "M119655",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.DualOrder",
+      "source_sha256": "92fba579c03a8d711b01cdfe90f6d57427b9e00abead41daba4d11668660d7cd",
+      "patch_sha256": null,
+      "built_source_sha256": "92fba579c03a8d711b01cdfe90f6d57427b9e00abead41daba4d11668660d7cd",
+      "port_record_sha256": "016f9161cc5a53508874ae65b6843ef441e4a8a8594c2d3cfffd9a304ef95e49"
+    },
+    {
+      "id": "M119672",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.Models",
+      "source_sha256": "cec48562b70c8c3098a0f1c8a132d639ca527639737484b66a8c079a425710b7",
+      "patch_sha256": null,
+      "built_source_sha256": "cec48562b70c8c3098a0f1c8a132d639ca527639737484b66a8c079a425710b7",
+      "port_record_sha256": "d12a729ad067bdbe569e54fcecf58f31cd0921f6f1e20b551383ea127e5ae9d2"
+    },
+    {
+      "id": "M119679",
+      "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.TranslateMemIndOrder",
+      "source_sha256": "7cbec1be13e794f6db93ec4ca645596cb9d8d64f5b687efced285d981f0e28fd",
+      "patch_sha256": null,
+      "built_source_sha256": "7cbec1be13e794f6db93ec4ca645596cb9d8d64f5b687efced285d981f0e28fd",
+      "port_record_sha256": "14091243f3dae6b374817e0ac200bdb553fdc3767303f6adcf91aa5d2b802818"
+    },
+    {
+      "id": "M119684",
+      "module": "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.CompactGapsGE",
+      "source_sha256": "f0b3cc3288c790783c6fad76f990b07dfd3cfc0ffa03c68ed08f6353b57fda2a",
+      "patch_sha256": null,
+      "built_source_sha256": "f0b3cc3288c790783c6fad76f990b07dfd3cfc0ffa03c68ed08f6353b57fda2a",
+      "port_record_sha256": "62f9d1cc67bca1ade6001131c8f2f76168146f9f7cf27052a80270ae9f2fd659"
+    },
+    {
+      "id": "M119721",
+      "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.ExistsUnitFormLocalizationEtaleNbhd",
+      "source_sha256": "e9ebc1eb609432367ee904bbed20e377d24a9ab1623e651be3f0b20d304fb32a",
+      "patch_sha256": null,
+      "built_source_sha256": "e9ebc1eb609432367ee904bbed20e377d24a9ab1623e651be3f0b20d304fb32a",
+      "port_record_sha256": "48901520f1e8ac8de6d9094f60b1890237acac60654c72515380377667b7e69d"
+    },
+    {
+      "id": "M119737",
+      "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.HasValues",
+      "source_sha256": "dd93e007affdd2749f827b62dedfce4a6a2889f5c1063f824183d0f624923ce6",
+      "patch_sha256": null,
+      "built_source_sha256": "dd93e007affdd2749f827b62dedfce4a6a2889f5c1063f824183d0f624923ce6",
+      "port_record_sha256": "c685a8118775d2d06ddc98aef149da191c6d9f09ed128b87c84fe5482ce34e45"
+    },
+    {
+      "id": "M119770",
+      "module": "Development.AutomorphicSpectrum.Definitions.GlobalGeometry.LieModel",
+      "source_sha256": "6dd729b9c7e8bcfc5f1890b33a297fb34c251d8df7a62240b66e94164e1f6105",
+      "patch_sha256": null,
+      "built_source_sha256": "6dd729b9c7e8bcfc5f1890b33a297fb34c251d8df7a62240b66e94164e1f6105",
+      "port_record_sha256": "0fcda7464b2dade6ca57cb554befe8e19fa895ea1ad625d9076d17c1aaa3a7e8"
+    },
+    {
+      "id": "M119811",
+      "module": "Development.AutomorphicSpectrum.Definitions.MetricPeriods.ExistsIntSmulIsAdicIntegralInTensorBasis",
+      "source_sha256": "a6951de229d8d1ea10189d13fa9e534ad756c26ad88ed1299ad38ecb7eff2189",
+      "patch_sha256": null,
+      "built_source_sha256": "a6951de229d8d1ea10189d13fa9e534ad756c26ad88ed1299ad38ecb7eff2189",
+      "port_record_sha256": "41ec32d147ea9c6d14a605e2461b93f9e70a3c13e7948ae332c7e5a7b03aa3a6"
+    },
+    {
+      "id": "M121991",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CorrESymmCoe",
+      "source_sha256": "38625d11b96e5c93b616eead7fcbc6776ea392b2d6216a7c32f9a6a51123e3be",
+      "patch_sha256": null,
+      "built_source_sha256": "38625d11b96e5c93b616eead7fcbc6776ea392b2d6216a7c32f9a6a51123e3be",
+      "port_record_sha256": "0b0fd0c6451482d0464616ded46f946db6baae0d909783c00e394fca8d0208c3"
+    },
+    {
+      "id": "M122781",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsFiniteSupport",
+      "source_sha256": "41bb4e0a34493c840c7c8230d73596ff8329b06d03291728e2bca59e47c5766a",
+      "patch_sha256": null,
+      "built_source_sha256": "41bb4e0a34493c840c7c8230d73596ff8329b06d03291728e2bca59e47c5766a",
+      "port_record_sha256": "41fa01233f9d2ae12c70968f52151fd4e59ed4ff415bfd71fdd8dd275af5f852"
+    },
+    {
+      "id": "M122967",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsRingHomPowPrimePow",
+      "source_sha256": "b9c34b3487505aa79ffeb13b27822bf3d04a65b8662206c727ff4defa360025e",
+      "patch_sha256": null,
+      "built_source_sha256": "b9c34b3487505aa79ffeb13b27822bf3d04a65b8662206c727ff4defa360025e",
+      "port_record_sha256": "8e1fc0f7e4b94db7d95e339fa6ec43991c980295f87d1a03c97af90220539da5"
+    },
+    {
+      "id": "M124199",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IdempotentLocalInduction",
+      "source_sha256": "905b3fb428af6d8f2488413ccdddbc0fba849573789047dbe221cfea01b67629",
+      "patch_sha256": null,
+      "built_source_sha256": "905b3fb428af6d8f2488413ccdddbc0fba849573789047dbe221cfea01b67629",
+      "port_record_sha256": "cebc5b089d01516bc13d3a9b4b8c73efa0860ff4f1faefa677a593fd58df14e6"
+    },
+    {
+      "id": "M124816",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.JpUnif",
+      "source_sha256": "c96f0bbc0c3b8917042a40326ce0704f285540d7325afe4a7720916f404779b5",
+      "patch_sha256": null,
+      "built_source_sha256": "c96f0bbc0c3b8917042a40326ce0704f285540d7325afe4a7720916f404779b5",
+      "port_record_sha256": "a231c2caa946c104d76532aa9881d158c96c587a39c49d17ecdb946843b52df0"
+    },
+    {
+      "id": "M125578",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LowerLeftBlock",
+      "source_sha256": "32bf92ae99fe41362e82922c5f5aba5cd55968d16f9a5d82afd56281d2ffd8cb",
+      "patch_sha256": null,
+      "built_source_sha256": "32bf92ae99fe41362e82922c5f5aba5cd55968d16f9a5d82afd56281d2ffd8cb",
+      "port_record_sha256": "cdf048360ef9162b590eb2d44542655c7589b2395678d956aaf1e6aa6a8d0577"
+    },
+    {
+      "id": "M125760",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.MemIdempotentComplementIff",
+      "source_sha256": "9d81a781d5c9fe5f1506fc11786f1b0e94ca86521c4dbaaf5f309978b1d92a53",
+      "patch_sha256": null,
+      "built_source_sha256": "9d81a781d5c9fe5f1506fc11786f1b0e94ca86521c4dbaaf5f309978b1d92a53",
+      "port_record_sha256": "656ad7aa2fbc5c8c39f825a44529f3d465adc7d129753e092a3236da5f75a455"
+    },
+    {
+      "id": "M126513",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.PfFacts",
+      "source_sha256": "101209369e8a517a2c7216af091fbdb5ea2996cf093af4770afdf8f44ccbefd0",
+      "patch_sha256": null,
+      "built_source_sha256": "101209369e8a517a2c7216af091fbdb5ea2996cf093af4770afdf8f44ccbefd0",
+      "port_record_sha256": "303f6ce934429600e4e6ebedffa42c1196624ea1778849b530dce8c1a828a81e"
+    },
+    {
+      "id": "M127069",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ResAlgSplitTwo",
+      "source_sha256": "61f11b8e58f8d3e72c368c6f2577bc5d9e99effe0af2eec618f9f202b754b416",
+      "patch_sha256": null,
+      "built_source_sha256": "61f11b8e58f8d3e72c368c6f2577bc5d9e99effe0af2eec618f9f202b754b416",
+      "port_record_sha256": "626e8af407826abfd86fc52f6563278d214de88e6baddb9f9068f0f75a33945f"
+    },
+    {
+      "id": "M127273",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ScoreTZeroEqLevelCount",
+      "source_sha256": "45d4e511447d9e7620b9ca14df0b6635902508ec218a76515dfe4b2f3bb47fac",
+      "patch_sha256": null,
+      "built_source_sha256": "45d4e511447d9e7620b9ca14df0b6635902508ec218a76515dfe4b2f3bb47fac",
+      "port_record_sha256": "738b403bc401f99c4976e77d2d69b90d0ad326a791d7fb938cfc6ad73548ade2"
+    },
+    {
+      "id": "M127304",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionInvarianceCosetSum",
+      "source_sha256": "16edb4d83a338c6cdabfdc8714516f1daf5f6c6c9c7f0d111dd8f42b648bdeb8",
+      "patch_sha256": null,
+      "built_source_sha256": "16edb4d83a338c6cdabfdc8714516f1daf5f6c6c9c7f0d111dd8f42b648bdeb8",
+      "port_record_sha256": "d000ad447ee405f5f0cf8d9fc78cb9394cb49f9349abbf3439d1ddd984545c5b"
+    },
+    {
+      "id": "M127308",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionLawHolds",
+      "source_sha256": "a6980ec4dea4461163f52d8535a97cf15e64b1fffa18fb8ed3b0a6bb3b940e22",
+      "patch_sha256": null,
+      "built_source_sha256": "a6980ec4dea4461163f52d8535a97cf15e64b1fffa18fb8ed3b0a6bb3b940e22",
+      "port_record_sha256": "2dccb38ee35333482872dfed04bd753af65e9a668424a6c1a65a490216898768"
+    },
+    {
+      "id": "M127317",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionOrthogonalIdempotentSum",
+      "source_sha256": "1d07abac7713ddb6bc2120ab4d7f5c820f3b71e1e27c7f49e58bbc53a12a47ca",
+      "patch_sha256": null,
+      "built_source_sha256": "1d07abac7713ddb6bc2120ab4d7f5c820f3b71e1e27c7f49e58bbc53a12a47ca",
+      "port_record_sha256": "7b59fb4d9f561ac13ee088d85d3131b3176dafc250de44a579d9af98ed8b6a89"
+    },
+    {
+      "id": "M127319",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SectionOverIdempotentProperties",
+      "source_sha256": "21868973e91122a75b76da6c0825e7347541c713d207e4b72bd9958b64eb5226",
+      "patch_sha256": null,
+      "built_source_sha256": "21868973e91122a75b76da6c0825e7347541c713d207e4b72bd9958b64eb5226",
+      "port_record_sha256": "c0e5acf946bd0669a01fe12f9940899fad925853e81937113c6a599128e2be07"
+    },
+    {
+      "id": "M127453",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShuffleOfPerm",
+      "source_sha256": "d5e11748006bb83cb1ffcbb3bba7827db845c0deaf0e9ca8b84d5cf993ae3855",
+      "patch_sha256": null,
+      "built_source_sha256": "d5e11748006bb83cb1ffcbb3bba7827db845c0deaf0e9ca8b84d5cf993ae3855",
+      "port_record_sha256": "ebf438d73e51007c9c845fbc4e510fc581c412894f417c256915725facea6fd8"
+    },
+    {
+      "id": "M127455",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShufflePermFlatten",
+      "source_sha256": "b0e50824944f00bec8128ce0830ae81fc9be58d12aae1296d76f6077c058748c",
+      "patch_sha256": null,
+      "built_source_sha256": "b0e50824944f00bec8128ce0830ae81fc9be58d12aae1296d76f6077c058748c",
+      "port_record_sha256": "7a692d4bb3b12f9828d655e365e0dc7c0b59be1f2f4984ff715bc64d19a50ef9"
+    },
+    {
+      "id": "M127459",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShuffleWeightSquareLengthLt",
+      "source_sha256": "3779ade60f4d73101d5981f82682a5556307d924493ca15efbf52ddd869a10c6",
+      "patch_sha256": null,
+      "built_source_sha256": "3779ade60f4d73101d5981f82682a5556307d924493ca15efbf52ddd869a10c6",
+      "port_record_sha256": "69c2ae29de7983604252478f0c4c11636c13b31df0ca2000f7d874ebb0b9c24c"
+    },
+    {
+      "id": "M127615",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SmoothSpreadsOut",
+      "source_sha256": "5c4ee87977fb4297ac2ad66643817fa17ed5957e730036fe9b7797e22f593baa",
+      "patch_sha256": null,
+      "built_source_sha256": "5c4ee87977fb4297ac2ad66643817fa17ed5957e730036fe9b7797e22f593baa",
+      "port_record_sha256": "eff8a28fd71cd1c6c7cce3e0e6ed3777d4266e4666b43eb7aa31a88970638cd1"
+    },
+    {
+      "id": "M127651",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SmulEqZeroOfLTensorSubtypeEqZero",
+      "source_sha256": "9909ec7122e83430db4760b67ebdd467ed0c054ad623fddbbefd5d4143d7a494",
+      "patch_sha256": null,
+      "built_source_sha256": "9909ec7122e83430db4760b67ebdd467ed0c054ad623fddbbefd5d4143d7a494",
+      "port_record_sha256": "00b47cc0809006caf837f7e52796bfedd390a0dc8f075f0ad94a550118192333"
+    },
+    {
+      "id": "M127801",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.StagedEstimateHolds",
+      "source_sha256": "f5049b45333a66959fe3b1d8dc8fd529d2d146673e3d2b0ad3e2b7844b0a659c",
+      "patch_sha256": null,
+      "built_source_sha256": "f5049b45333a66959fe3b1d8dc8fd529d2d146673e3d2b0ad3e2b7844b0a659c",
+      "port_record_sha256": "787e5e0dbc699d890282ccabc440ef414318456865c7e9ad011ee97f2788e714"
+    },
+    {
+      "id": "M127951",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SurjectivePreservesClosednessComparability",
+      "source_sha256": "1d3368c35ab6c538b64f38c96940485115ad520a4192a8ad96b5d8cd298026b7",
+      "patch_sha256": null,
+      "built_source_sha256": "1d3368c35ab6c538b64f38c96940485115ad520a4192a8ad96b5d8cd298026b7",
+      "port_record_sha256": "b5f21e5d83224ed543424dd8adf3f5fbbfa0cf527803fd7f5aef4455d9205c9b"
+    },
+    {
+      "id": "M127968",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TZero",
+      "source_sha256": "4db5bda242a69c3c13d8a2eb8a151aeee31aa1b4f374a42fb2932bc3befad55f",
+      "patch_sha256": null,
+      "built_source_sha256": "4db5bda242a69c3c13d8a2eb8a151aeee31aa1b4f374a42fb2932bc3befad55f",
+      "port_record_sha256": "335e60a6970e01148f99ea345ddbb791ce9cd5765e40d46d335f672ab2ccbce6"
+    },
+    {
+      "id": "M128038",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorEvalFixedOfFixed",
+      "source_sha256": "bc108488e8580a1aff0e8b99e59e30b0b8efffca8db1427fab33eddf768bfed0",
+      "patch_sha256": null,
+      "built_source_sha256": "bc108488e8580a1aff0e8b99e59e30b0b8efffca8db1427fab33eddf768bfed0",
+      "port_record_sha256": "7c812a608e11b4af16e968d67a3b912b565fb0989c43a7093b2a1da275aadec2"
+    },
+    {
+      "id": "M128238",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TraceDiagonalBlockConjugateFormula",
+      "source_sha256": "a959c36533aa7f2f03c89f1915a0dd77ab021c579dfcf7bb13d49b35ec0e5ae0",
+      "patch_sha256": null,
+      "built_source_sha256": "a959c36533aa7f2f03c89f1915a0dd77ab021c579dfcf7bb13d49b35ec0e5ae0",
+      "port_record_sha256": "ea6765b065e58945570051c8343208fd3964fa30ba05443378feb0949c3187a4"
+    },
+    {
+      "id": "M128259",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingBasisEval",
+      "source_sha256": "7fe5f2b32213606d61804b3f7070716a3a5faa9cb733ef46f4ea34b9fec80976",
+      "patch_sha256": null,
+      "built_source_sha256": "7fe5f2b32213606d61804b3f7070716a3a5faa9cb733ef46f4ea34b9fec80976",
+      "port_record_sha256": "ece15ba7a60fcba9f7bc93accd1ceafab07986f116fc5cba9deb5cba3bbf0b42"
+    },
+    {
+      "id": "M128261",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingFrobeniusCompat",
+      "source_sha256": "0b3d109f197dcfd2fc7e14f81a8cc618d6f62010b0cb778430d7664884e080de",
+      "patch_sha256": null,
+      "built_source_sha256": "0b3d109f197dcfd2fc7e14f81a8cc618d6f62010b0cb778430d7664884e080de",
+      "port_record_sha256": "46861a2e02c74280848fd455c9f14a8f097b52de5e9e63074c292da2759a1dcb"
+    },
+    {
+      "id": "M128263",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingGaloisEquivariant",
+      "source_sha256": "3816909161c8c594025b7ff022059b71e7ef24aa7a02544ecbea91e8367a54e1",
+      "patch_sha256": "ceee847de059efcf4d51251dc93ad47067efc882d2b4470c670f74f5a81faf32",
+      "built_source_sha256": "bff9c1226f99c16e683f73b8c3f12cf422fe6a94c0643b53461007354f2283c7",
+      "port_record_sha256": "d4b4654ab55e796a687353c24f6e4b9e36b16548540d11cf0c97f709d78030d5"
+    },
+    {
+      "id": "M128265",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingLTensorNaturality",
+      "source_sha256": "59e9109b1d3294c329a48ea0162c79643c57bccc6e56faf4fed6a5f2e156d12b",
+      "patch_sha256": null,
+      "built_source_sha256": "59e9109b1d3294c329a48ea0162c79643c57bccc6e56faf4fed6a5f2e156d12b",
+      "port_record_sha256": "1c161cfc6922b93c07bc00ae9a2275dbbe7418ef20f62996e5bbfd583cd1af98"
+    },
+    {
+      "id": "M128267",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingSmulDual",
+      "source_sha256": "32e7f3bbd2b70e01a021e2dddc7ddce09de19f11fe82be36a3f281a5ad954ba5",
+      "patch_sha256": null,
+      "built_source_sha256": "32e7f3bbd2b70e01a021e2dddc7ddce09de19f11fe82be36a3f281a5ad954ba5",
+      "port_record_sha256": "f1167c826870e27e38845a887e0463ec1e53e254af851c7bc7863394e18f359f"
+    },
+    {
+      "id": "M128269",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingSmulLeft",
+      "source_sha256": "cd806991ae2718844d067ad8d0d60851a92d8ce19f923c470bd138ec68635207",
+      "patch_sha256": null,
+      "built_source_sha256": "cd806991ae2718844d067ad8d0d60851a92d8ce19f923c470bd138ec68635207",
+      "port_record_sha256": "b98def18c846e7a103c095fdfaca5bb1d86286c6c59e1cd0ce99922a917a2077"
+    },
+    {
+      "id": "M128330",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwKerEqMapOfSurjective",
+      "source_sha256": "93b990778971585024b32d648851ce03d1694e66095db6f0182cb599dd39aa37",
+      "patch_sha256": null,
+      "built_source_sha256": "93b990778971585024b32d648851ce03d1694e66095db6f0182cb599dd39aa37",
+      "port_record_sha256": "1c4dbd7758dc88fdd5bd387257ea05a9b96b82a9258d09cd0c43df45b7c6bc5b"
+    },
+    {
+      "id": "M128731",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ValuationPowerIff",
+      "source_sha256": "0689f5a0e64e9bfacc29e489e14c79f4d955c3c4b41fc8644e965fcc28d5e778",
+      "patch_sha256": null,
+      "built_source_sha256": "0689f5a0e64e9bfacc29e489e14c79f4d955c3c4b41fc8644e965fcc28d5e778",
+      "port_record_sha256": "0fbe6bd721942a52cf8e0eb8c1c935b187f91e3772dc7238a7c878da71594219"
+    },
+    {
+      "id": "M128737",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VandermondeSquares",
+      "source_sha256": "1f3e88b01dcec8496a274cd36b0186a39d771398240b058ea292687cc9521039",
+      "patch_sha256": null,
+      "built_source_sha256": "1f3e88b01dcec8496a274cd36b0186a39d771398240b058ea292687cc9521039",
+      "port_record_sha256": "7d2829ba120ddacd18602e2501d6c17603385e2d547354d315d4152b82be0e6c"
+    },
+    {
+      "id": "M128769",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WallLawOfSectionLaw",
+      "source_sha256": "545318b40435c6ea092b4d054fa88653ed73526cf6a1ce51cba042d36d17b5f2",
+      "patch_sha256": null,
+      "built_source_sha256": "545318b40435c6ea092b4d054fa88653ed73526cf6a1ce51cba042d36d17b5f2",
+      "port_record_sha256": "078c48df4662c80fbcd5cdb5641f0ca6060ffb066090d5f3fa132cd2827be2e5"
+    },
+    {
+      "id": "M128804",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WedgeBoundFinitePlaces",
+      "source_sha256": "02bb15e8cf5bbb4704f2ea81e8c8b1acca635519f517fd6d00034a7e72ad04bd",
+      "patch_sha256": "8e471a34d55de32405c6b2ae30bd1f1e5b9f2d7c7d5dc3b00decdf1e6a10abc4",
+      "built_source_sha256": "34cff8633ca83d1fb51621e1b0fa92ac8fba3959727fcdaf33ee78b0bb2a8261",
+      "port_record_sha256": "f631948e433bb9ca838a99e79baa5d7a5859bf586ac56c2de3b93fe7d0832f38"
+    },
+    {
+      "id": "M128806",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WedgeBoundInfinitePlaces",
+      "source_sha256": "7abceb9be22f6424ec7e920d479931c1560807bdce8c51594df21f717c7c7600",
+      "patch_sha256": null,
+      "built_source_sha256": "7abceb9be22f6424ec7e920d479931c1560807bdce8c51594df21f717c7c7600",
+      "port_record_sha256": "11f67d437f2b2a30333aaeffc5fa4d26162a824ac8adc420e00c895e83ea5950"
+    },
+    {
+      "id": "M128813",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WedgeSubspaceBound",
+      "source_sha256": "a2211c1c31cd604193a37fc164cf32c73418d500ee13692c175b2853a16e46f2",
+      "patch_sha256": null,
+      "built_source_sha256": "a2211c1c31cd604193a37fc164cf32c73418d500ee13692c175b2853a16e46f2",
+      "port_record_sha256": "d52f94bddf8d71ffc46f07c3d4b0a4209fe16db811042159eeaae2a93ffce02c"
+    },
+    {
+      "id": "M128917",
+      "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.WeylDenominatorProduct",
+      "source_sha256": "93bbbe7fed8255be1922111299a4e7317ef1bb220ffb2f0d5e0932f9de007843",
+      "patch_sha256": null,
+      "built_source_sha256": "93bbbe7fed8255be1922111299a4e7317ef1bb220ffb2f0d5e0932f9de007843",
+      "port_record_sha256": "4f4846a993e6c399ca3d31479ee1bb899a69cd3ac4d4934633b4aa69c6e0c998"
+    },
+    {
+      "id": "M129206",
+      "module": "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.FlagShiftTotalLinRootPower",
+      "source_sha256": "26b7912c4c76dc2846236b92f586bc38c5ceca55ab263c9858782b4b9b860942",
+      "patch_sha256": null,
+      "built_source_sha256": "26b7912c4c76dc2846236b92f586bc38c5ceca55ab263c9858782b4b9b860942",
+      "port_record_sha256": "4167b16b26cd52d9f49ecef93e2afa1a2ebac51e75a8ad2dc0664c0dcd1e3f9c"
+    },
+    {
+      "id": "M130159",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.EpiRingHomFieldClosure",
+      "source_sha256": "b825b2877530849a90b3258e7e2e79136cd49e758edb3ab5b0d806b9e06bd14b",
+      "patch_sha256": null,
+      "built_source_sha256": "b825b2877530849a90b3258e7e2e79136cd49e758edb3ab5b0d806b9e06bd14b",
+      "port_record_sha256": "7c8ff8055cb534f092c6902cb610e9b2ec885370de0d8848c029e5167727740f"
+    },
+    {
+      "id": "M130281",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsLieModel",
+      "source_sha256": "f0c3d7bd6da2b59c84d93f0a85cc7add5834eac9ee2200587bd67a563530f88f",
+      "patch_sha256": null,
+      "built_source_sha256": "f0c3d7bd6da2b59c84d93f0a85cc7add5834eac9ee2200587bd67a563530f88f",
+      "port_record_sha256": "b05afede109ce4350ddf2083323fe2fb815328b8f3e7b00e21f43c95a0570dab"
+    },
+    {
+      "id": "M137896",
+      "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.UnitarySchrodingerModel.LocalDefs",
+      "source_sha256": "6b7cfcba685b6ff2794df4c14cec8f2bcd814e75cc912cb3f22c4836f606e48e",
+      "patch_sha256": null,
+      "built_source_sha256": "6b7cfcba685b6ff2794df4c14cec8f2bcd814e75cc912cb3f22c4836f606e48e",
+      "port_record_sha256": "e1e2255b61c5d9d1b92b6ec84457419cf5aee5777c86bb0f87ce3403253626f7"
+    },
+    {
+      "id": "M138132",
+      "module": "Development.WeilBound.CoreStatements.FlagImmersions.DegFlSymmetryInvariance",
+      "source_sha256": "a343b20fa151d18e7dfaee280c8fd5d12081927a7014e8e637336b76eaf2bf98",
+      "patch_sha256": "e758bb0e72fc8b946dbc974641b2a4d54a19b5c5912b919f6f69524120e7dcd5",
+      "built_source_sha256": "d3dc2ac690f186e18f38d9c8663878ba4e0df8e57e9320633748c4f67db9f2a3",
+      "port_record_sha256": "c69270e35f3562ce06a35257b9ca118cc22b464b11bac065b36f6f7ed54076cd"
+    },
+    {
+      "id": "M138138",
+      "module": "Development.WeilBound.CoreStatements.FlagImmersions.ExistsDegreeOneClass",
+      "source_sha256": "6dee872b650d0f6b4ffbe14ebd797067530a4d853ffd93f1d0e5181b980c0a7a",
+      "patch_sha256": null,
+      "built_source_sha256": "6dee872b650d0f6b4ffbe14ebd797067530a4d853ffd93f1d0e5181b980c0a7a",
+      "port_record_sha256": "ae05473cb3640aea926c8060e000fdb0c0c396de3a5c791f6b8252a3005b773b"
+    },
+    {
+      "id": "M138176",
+      "module": "Development.WeilBound.CoreStatements.FlagImmersions.LinearRootPowerLipschitz",
+      "source_sha256": "d57d8ca2e7e7ff0aace7a19afd2ae9811b8a83529eed89fbbc8a2a78babe7b2e",
+      "patch_sha256": "304503578be45a98594728126df6fdda9e4547de0dc4b15a10d6d5d0ff863f21",
+      "built_source_sha256": "fb8f8f04be6b67fceb11c34112e6cc54827b65838f7da0132928041033cb7948",
+      "port_record_sha256": "c816468672a92ce31305578257e877718b5f18fcb1cc244a40638decc152e063"
+    },
+    {
+      "id": "M138180",
+      "module": "Development.WeilBound.CoreStatements.FlagImmersions.MapProdLinear",
+      "source_sha256": "2d81f31a088b19582bf8f6f0ff5a2b660d66a8d8c317ea9426d6f7a1bde6a4c6",
+      "patch_sha256": null,
+      "built_source_sha256": "2d81f31a088b19582bf8f6f0ff5a2b660d66a8d8c317ea9426d6f7a1bde6a4c6",
+      "port_record_sha256": "b33c8dbfc008d859237cb27b19b0efc036e6952db516258090f07cbc8988beb7"
+    },
+    {
+      "id": "M138187",
+      "module": "Development.WeilBound.CoreStatements.FlagImmersions.PartialSumOrderedBounds",
+      "source_sha256": "6a341dece61c2e10ac757ca37d18d6c06bdb649ab1bc9e7f14b2619ab49fe106",
+      "patch_sha256": null,
+      "built_source_sha256": "6a341dece61c2e10ac757ca37d18d6c06bdb649ab1bc9e7f14b2619ab49fe106",
+      "port_record_sha256": "0b804d797fd932dd718437533a2f6e087585ebe0d7e0b8f0e52b78fec5ace758"
+    },
+    {
+      "id": "M138191",
+      "module": "Development.WeilBound.CoreStatements.FlagImmersions.PolarizationCoefficientsBound",
+      "source_sha256": "fcb69a898f59ed238cd4eb5128c67946f1085697bd3eafb15a1f8ee522c7f336",
+      "patch_sha256": "51a18bdf27f450e4cf01ef4608060c83ab93fdd8f26b442e3724a00433f6847e",
+      "built_source_sha256": "e0f854b9487cf7b1742c357bd2b010646b91c2a90aff7a1f9044a2595603d155",
+      "port_record_sha256": "c858946cd628653dd6bbd091177c7d3e2dce08f86cab66241747b64977dac97c"
+    },
+    {
+      "id": "M138635",
+      "module": "Development.WeilBound.CoreStatements.HomogeneousNonvanishing.SubfieldClosureEqTopOfEpi",
+      "source_sha256": "960ff8b6a15fe5a6582135eecdd6c6564cf95218692c5512e324da20d94e536c",
+      "patch_sha256": null,
+      "built_source_sha256": "960ff8b6a15fe5a6582135eecdd6c6564cf95218692c5512e324da20d94e536c",
+      "port_record_sha256": "ea349ddf040a2b18b45d2053f40e1e19c6a1a20737e8f2ff5f5e792bcac6d4aa"
+    },
+    {
+      "id": "M138835",
+      "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.AcrisKummerUnits.Splits",
+      "source_sha256": "7f58506bb9da0777912d3bb21499190f54b4d05ff134eacae92672f3a7062417",
+      "patch_sha256": null,
+      "built_source_sha256": "7f58506bb9da0777912d3bb21499190f54b4d05ff134eacae92672f3a7062417",
+      "port_record_sha256": "f9c1919a28a85111fde6cb8bcdba0fd533ea812b685dacad88699fc020e0254f"
+    },
+    {
+      "id": "M139122",
+      "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.PerfectoidPullbacks.FrobeniusWittActions.PsiApply",
+      "source_sha256": "f5659193b23984ec49e674f6587db78210397e266989e4cdd72e2c47f34b2d2b",
+      "patch_sha256": null,
+      "built_source_sha256": "f5659193b23984ec49e674f6587db78210397e266989e4cdd72e2c47f34b2d2b",
+      "port_record_sha256": "58bcecb7719c45186b354d05165e782172cbc44f2ed1751f3a2039754bd7e322"
+    },
+    {
+      "id": "M139237",
+      "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.WittExactSequences.IsCompl",
+      "source_sha256": "7c5ef124f3797d197c62d8348afacd90eacb3c80506229d9739290391bb7453f",
+      "patch_sha256": null,
+      "built_source_sha256": "7c5ef124f3797d197c62d8348afacd90eacb3c80506229d9739290391bb7453f",
+      "port_record_sha256": "717045149d436e4c2e5520e3ab93663011bee9aeacfaea7a98b6b1b63977909f"
+    },
+    {
+      "id": "M140279",
+      "module": "Development.WeilBound.CoreStatements.TemperedRepresentationTheory.CubeTheorem.SchemeModels",
+      "source_sha256": "0b086d4e34794c9a0ec96bd0278e0dcb2671caf867ae9ac01a637a63f1798408",
+      "patch_sha256": null,
+      "built_source_sha256": "0b086d4e34794c9a0ec96bd0278e0dcb2671caf867ae9ac01a637a63f1798408",
+      "port_record_sha256": "8431c1bdffc77f74704727e0940dd2857868a2d0b7fa21acc9aeae0da57402b1"
+    },
+    {
+      "id": "M140321",
+      "module": "Development.WeilBound.CoreStatements.TemperedRepresentationTheory.MirabolicDerivatives.TwistedKernels.TwKerLeComapOf",
+      "source_sha256": "e849d37212ec33227b0c4512eb537ec4183eff50d6660eae3ce63092177c060f",
+      "patch_sha256": null,
+      "built_source_sha256": "e849d37212ec33227b0c4512eb537ec4183eff50d6660eae3ce63092177c060f",
+      "port_record_sha256": "45c46f2b9e53036f9d5a467760efd405221cfe705688a61c6480fcd50e697fb7"
+    },
+    {
+      "id": "M140366",
+      "module": "Development.WeilBound.CoreStatements.TemperedRepresentationTheory.ZelevinskyJacquet.ZelevinskyInterleaving.Interleave",
+      "source_sha256": "e91524de045a20bdbb074cec912994b342326ef8d5d1f4fceea65a37f78dbc86",
+      "patch_sha256": null,
+      "built_source_sha256": "e91524de045a20bdbb074cec912994b342326ef8d5d1f4fceea65a37f78dbc86",
+      "port_record_sha256": "6fb6bbcc17464614eae0468ca9db15514d6f4f93b6a71bdefa38ae9903210f55"
+    },
+    {
+      "id": "M140982",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.IsotropicMahlerBounds.LogAbsoluteWedges.WedgeSub",
+      "source_sha256": "46a68383d6b1fc8f55652bd2900626e126fa3a2f9156a68eb1880744370b23e7",
+      "patch_sha256": null,
+      "built_source_sha256": "46a68383d6b1fc8f55652bd2900626e126fa3a2f9156a68eb1880744370b23e7",
+      "port_record_sha256": "d0f309fe2cac1183efc88fe6a344714e1494b3a6c63f4d24b1e4a0238596b8f2"
+    },
+    {
+      "id": "M141426",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ThetaCellCovers.KernelL2RowsColumns",
+      "source_sha256": "cf2cc169174218a2bcfd2c1aba476f7dd658fa7190d25a92ba18b73c832c810d",
+      "patch_sha256": null,
+      "built_source_sha256": "cf2cc169174218a2bcfd2c1aba476f7dd658fa7190d25a92ba18b73c832c810d",
+      "port_record_sha256": "acb87b8d2f461a687a0e68ac5dbc354cd33cb9e0043ceaecab6fae95c09dfaf4"
+    },
+    {
+      "id": "M141433",
+      "module": "Development.WeilBound.RepresentationTheoryGL.ArchimedeanBaseChange.ArchimedeanBaseChangeProof.ThetaCellCovers.VecClose",
+      "source_sha256": "ac340d572b86cb1e70f1db7d7193d717b8a21bcbf5d7001c1d9beeb1ce2d6b08",
+      "patch_sha256": null,
+      "built_source_sha256": "ac340d572b86cb1e70f1db7d7193d717b8a21bcbf5d7001c1d9beeb1ce2d6b08",
+      "port_record_sha256": "bed47ef83527cef5540bf5e49beaadfede10f0eb11a0d1fb65692d7c581685a3"
+    },
+    {
+      "id": "M141616",
+      "module": "Development.WeilBound.RepresentationTheoryGL.EisensteinSeries.SiegelEisensteinContinuation.Descend",
+      "source_sha256": "17e23212b7186da091bbf7713ae6b6435fe4f647944f752b2b6ebe44150bdba4",
+      "patch_sha256": null,
+      "built_source_sha256": "17e23212b7186da091bbf7713ae6b6435fe4f647944f752b2b6ebe44150bdba4",
+      "port_record_sha256": "241acdbe6b1f67b17e8016a14593c5ed2700ec626d6e7cd4d0cce43785f10ae5"
+    },
+    {
+      "id": "M141625",
+      "module": "Development.WeilBound.RepresentationTheoryGL.EisensteinSeries.SiegelEisensteinContinuation.StripEntire",
+      "source_sha256": "c4fe388f40b5f622a679309033ff1c63a91362f91e4eac51e1049a6f6a860d19",
+      "patch_sha256": null,
+      "built_source_sha256": "c4fe388f40b5f622a679309033ff1c63a91362f91e4eac51e1049a6f6a860d19",
+      "port_record_sha256": "abe3d7625d755ccc89cd3808b107d5ca12c0a205cbf61bc1ef43070319aaa758"
+    },
+    {
+      "id": "M141757",
+      "module": "Development.WeilBound.RepresentationTheoryGL.HolomorphicDiscreteSeries.EmbeddedFrames.PfD",
+      "source_sha256": "ba4904fb19b7455bd6fd1bfcbd1bb3dc39bf351518e39ce7b16d745835ae3185",
+      "patch_sha256": null,
+      "built_source_sha256": "ba4904fb19b7455bd6fd1bfcbd1bb3dc39bf351518e39ce7b16d745835ae3185",
+      "port_record_sha256": "bdc96583e7aff1ffdbd40714072f273544ff7d4b607ec138532dcf547c9f9085"
+    },
+    {
+      "id": "M142853",
+      "module": "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.IntegralUnitBaseChange.Development",
+      "source_sha256": "34dfdb5cbfda80e0199e923226adae34735a58f090839b635c652faf40be0a9e",
+      "patch_sha256": null,
+      "built_source_sha256": "34dfdb5cbfda80e0199e923226adae34735a58f090839b635c652faf40be0a9e",
+      "port_record_sha256": "5f818507846d6f7b3703e5ad4badb2837e62e757dcf72d35c3c1be10fbbc1863"
+    },
+    {
+      "id": "M142854",
+      "module": "Development.WeilBound.RepresentationTheoryGL.TwistedFactors.IntegralUnitBaseChange.InvTransposeGLInvTransposeGL",
+      "source_sha256": "3ab186f231d580a3238ae1da71737aaaf10360e2dc5dfd56c0c64a36699c3c5b",
+      "patch_sha256": "77ced4701b711b91b6d6b13baa946f12277b72e34da297f21399aa5bce6ea57e",
+      "built_source_sha256": "3ec4af02f1f485bd59b2530243f4667dba32c94540954ffcc05afc951ff620db",
+      "port_record_sha256": "7e8c23b317329de628810670fc97f316fc61f220b24dbb5ac686212223ee6707"
+    },
+    {
+      "id": "M144210",
+      "module": "Formalism.DegreeFormula.FlagDegFormula",
+      "source_sha256": "aaaf54513f25ac93916956f7ec953f2feb297088ae511aa4dcba796972881fea",
+      "patch_sha256": null,
+      "built_source_sha256": "aaaf54513f25ac93916956f7ec953f2feb297088ae511aa4dcba796972881fea",
+      "port_record_sha256": "2ff1a66bfd311dcebf513fe92bc24a0bd277be7637e53f863bb1b209eaeae765"
+    },
+    {
+      "id": "M144211",
+      "module": "Formalism.DegreeFormula.PointDegree.FlagDeg",
+      "source_sha256": "4840c7e2360a8caa4ae2cb7d6ea91bc47034d41ef28ea4ce56968934a2e47441",
+      "patch_sha256": null,
+      "built_source_sha256": "4840c7e2360a8caa4ae2cb7d6ea91bc47034d41ef28ea4ce56968934a2e47441",
+      "port_record_sha256": "e55e594704ebdb3ebc1a4c735ad3b6341df8bdbc1e9026cf76b23adbd2d9a600"
+    },
+    {
+      "id": "M158005",
+      "module": "Formalism.RealPlaceAnalysis.Complexify",
+      "source_sha256": "462b2cd8d25fd18e2df70aa0abf4bf205b0f2d7f20f29c49bbd2671f03c357c0",
+      "patch_sha256": null,
+      "built_source_sha256": "462b2cd8d25fd18e2df70aa0abf4bf205b0f2d7f20f29c49bbd2671f03c357c0",
+      "port_record_sha256": "04dc43c19847bfe6ffc6e3d7e4af564ac59bdc4502709a8c13a94c2ddcfe5ce7"
+    },
+    {
+      "id": "M170081",
+      "module": "GroundTheory.PAdicHodge.FiniteFlat",
+      "source_sha256": "bac14cd6376e5d022c39e9e98d7331683d72a55f6fdee5108728ffc6e76fe46a",
+      "patch_sha256": null,
+      "built_source_sha256": "bac14cd6376e5d022c39e9e98d7331683d72a55f6fdee5108728ffc6e76fe46a",
+      "port_record_sha256": "76a99b85a421d67677587cf7aec738ad1b9b94ccf27e7bf443dbb60b3f7535af"
+    },
+    {
+      "id": "M170749",
+      "module": "Lemmata.FirstBlockLemmaL.Imports",
+      "source_sha256": "ea42ad8227310833160848243ce9c4215b262349bead7ee729ab5082899a63db",
+      "patch_sha256": "266b42ae3c01a5ed31d530490fc32f843e982f30cebb199f64720fa4efe65e51",
+      "built_source_sha256": "6b1e296c08e1ec458d4f9d7d651673b66a5c2e84fb64e50ac0fa04570793fa63",
+      "port_record_sha256": "d1948522b7c930a299b96e0d3796641fb46f048b119ced276ff0d8b5ac4acce9"
+    },
+    {
+      "id": "M170860",
+      "module": "Lemmata.MiscLemmasK.Imports",
+      "source_sha256": "49cce2cca96827dbd6085e07d4c81422b3b13fa2350d53dad98cab2bb36a247f",
+      "patch_sha256": "190ca97bc646f9c1d659888bade4ad22ea06d60cef577edc61c3b5735318d4af",
+      "built_source_sha256": "e4b31a0154dc2790ef702adb5895b0bab680293e07eb012aa7b1b80fd732c37f",
+      "port_record_sha256": "cd19d8e16422adb40740e99919754ea225b2356a7ce639525c1df4a22eff4b1c"
+    },
+    {
+      "id": "M173359",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.DiffAtOddSt",
+      "source_sha256": "5ca2c9ffa33e9104fe9d06174367ea6e07354117aaedf4555c5535964e3eb270",
+      "patch_sha256": null,
+      "built_source_sha256": "5ca2c9ffa33e9104fe9d06174367ea6e07354117aaedf4555c5535964e3eb270",
+      "port_record_sha256": "5001c490c7a32d0e13c40fe0b07751a8c4389b09c4ae4d38dc1bb8c8a56dba0b"
+    },
+    {
+      "id": "M173427",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.PullbackSections.HolomorphicFamilies.PadicValNatAbsNormEqZero",
+      "source_sha256": "554af9a4103fd7e1afa7649a6fe6e9d14e13af5d6aa8082f914f8a295fcaf48c",
+      "patch_sha256": "6295b305652e14b6df720df4535a5565e5032a4127c8c8b6dbba305275b4a2e3",
+      "built_source_sha256": "a94e927d776c1b6e331c864e5f4475f4e52c0910adfef6a8536965e4d530514d",
+      "port_record_sha256": "76b7c145b37a50166b2a5a76f7f4d22cea78d4de8fb3883733e18a39bed1025d"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M129573",
+      "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.AntisymmetricPerturbationHolds",
+      "missing_imports": [
+        "M165461",
+        "M165462",
+        "M165463"
+      ]
+    }
+  ],
+  "pruned": []
+}
