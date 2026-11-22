@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.StatementsSchur",
+  "source_sha256": "98f2657e47d152869739d86fc67bc16a68074c08b4a49bf8f002427966fcc231",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the equivalent multivariate coefficient projections at the same indices in the Schur statements."
+}

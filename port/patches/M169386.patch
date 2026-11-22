@@ -1,0 +1,46 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/PSameFactorBound.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/PSameFactorBound.lean
+@@ -85,13 +85,13 @@
+     congr 1
+     simp [powerSumHom, hchi]
+   set e : Fin (r + a) →₀ ℕ := Finsupp.single (⟨k - 1, by omega⟩ : Fin (r + a)) 1 with he
+-  have hcoef : |coeff e S| ≤
++  have hcoef : |S.coeff e| ≤
+       (∑ nu ∈ (partitionsOf r k).filter (fun nu => ∀ i : Fin r, (i : ℕ) ≠ 0 → nu i ≤ 1),
+         |chi nu|) / k := by
+     rw [hSeq, coeff_sum]
+     simp only [coeff_C_mul]
+-    calc |∑ nu ∈ partitionsOf r k, chi nu * coeff e (Sν nu)|
+-        ≤ ∑ nu ∈ partitionsOf r k, |chi nu * coeff e (Sν nu)| := Finset.abs_sum_le_sum_abs _ _
++    calc |∑ nu ∈ partitionsOf r k, chi nu * (Sν nu).coeff e|
++        ≤ ∑ nu ∈ partitionsOf r k, |chi nu * (Sν nu).coeff e| := Finset.abs_sum_le_sum_abs _ _
+       _ = ∑ nu ∈ partitionsOf r k,
+             if ∀ i : Fin r, (i : ℕ) ≠ 0 → nu i ≤ 1 then |chi nu| / k else 0 := by
+           refine Finset.sum_congr rfl fun nu hnu => ?_
+@@ -112,7 +112,7 @@
+       (numStandardTable (rectangle r a) : ℚ) ^ (f' + 1 - 1) with hK
+   have hK0 : 0 ≤ K := by positivity
+   have hTabs : |restTerm (f' + 1) (r + a) Q k τ (smallPowerSum (f' + 1) r a c (k - 1) τ)| =
+-      |C₀| * K * |coeff e S| := by
++      |C₀| * K * |S.coeff e| := by
+     rw [hTk, show ∀ x : ℚ, C₀ * k * ((f' + 1) * (r * a) + 1).factorial /
+         (((r * a + 1).factorial : ℚ) * ((r * a).factorial : ℚ) ^ (f' + 1 - 1)) *
+         (numStandardTable (rectangle r a) : ℚ) ^ (f' + 1 - 1) * x = C₀ * K * x from
+@@ -121,7 +121,7 @@
+   set B : ℚ := (Nat.choose (r * a + k) k : ℚ) * 2 ^ (k - 1) *
+     numStandardTable (rectangle r a) with hBdef
+   have hk0 : (0 : ℚ) < k := by exact_mod_cast (show 0 < k by omega)
+-  have hcoefB : |coeff e S| ≤ B / k := le_trans hcoef (div_le_div_of_nonneg_right hhook hk0.le)
++  have hcoefB : |S.coeff e| ≤ B / k := le_trans hcoef (div_le_div_of_nonneg_right hhook hk0.le)
+   have hKB : K * (B / k) = ((f' + 1) * (r * a) + 1 : ℕ) *
+       ((((f' + 1) * (r * a)).factorial / ((r * a).factorial : ℚ) ^ (f' + 1) *
+         (numStandardTable (rectangle r a) : ℚ) ^ (f' + 1))) *
+@@ -135,7 +135,7 @@
+   have hP : (0 : ℚ) ≤ ((f' + 1) * (r * a) + 1 : ℕ) *
+       ((((f' + 1) * (r * a)).factorial / ((r * a).factorial : ℚ) ^ (f' + 1) *
+         (numStandardTable (rectangle r a) : ℚ) ^ (f' + 1))) := by positivity
+-  calc |C₀| * K * |coeff e S| ≤ |C₀| * K * (B / k) :=
++  calc |C₀| * K * |S.coeff e| ≤ |C₀| * K * (B / k) :=
+         mul_le_mul_of_nonneg_left hcoefB (by positivity)
+     _ = |C₀| * (((f' + 1) * (r * a) + 1 : ℕ) *
+           ((((f' + 1) * (r * a)).factorial / ((r * a).factorial : ℚ) ^ (f' + 1) *

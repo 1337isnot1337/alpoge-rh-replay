@@ -1,0 +1,10 @@
+--- a/src/GroundTheory/HeightsAndTheta/Theta/GaussianExample.lean
++++ b/src/GroundTheory/HeightsAndTheta/Theta/GaussianExample.lean
+@@ -20,7 +20,6 @@
+ 
+ theorem gaussBasis_zero : gaussBasis 0 = 1 := by
+   simp [gaussBasis, QuadraticAlgebra.basis]
+-  rfl
+ 
+ theorem gaussBasis_one : gaussBasis 1 = ⟨0, 1⟩ := by
+   simp [gaussBasis, QuadraticAlgebra.basis]

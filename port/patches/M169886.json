@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.LocalFields.Integers",
+  "source_sha256": "9e2f5b9b65c67e93b2f780bc08f9a94941fdd7aa201bc48a6166f23c7bfebc54",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Binds the endpoints implicitly to match the current valuative-extension field."
+}

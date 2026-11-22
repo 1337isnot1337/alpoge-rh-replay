@@ -1,0 +1,16 @@
+--- a/src/GroundTheory/LocalFields/IntermediateField.lean
++++ b/src/GroundTheory/LocalFields/IntermediateField.lean
+@@ -23,11 +23,11 @@
+   by exact (valuation L).vle_iff_le
+ 
+ instance intermediateField_valuativeExtension_right : ValuativeExtension E L :=
+-  ⟨IntermediateField.coe_vle_coe_iff⟩
++  ⟨fun {a b} ↦ IntermediateField.coe_vle_coe_iff a b⟩
+ 
+ instance intermediateField_valuativeExtension_left [ValuativeRel K] [ValuativeExtension K L] :
+     ValuativeExtension K E :=
+-  ⟨fun a b ↦ by
++  ⟨fun {a b} ↦ by
+     rw [← IntermediateField.coe_vle_coe_iff, IntermediateField.coe_algebraMap_apply,
+       IntermediateField.coe_algebraMap_apply, ValuativeExtension.vle_iff_vle]⟩
+ 

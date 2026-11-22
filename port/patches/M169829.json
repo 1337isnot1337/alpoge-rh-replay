@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.LocalFields.AbstractLocalReciprocity.UniqueQuotientSubgroupOfSelf",
+  "source_sha256": "a574491e88bf03ddbe500cb532a4ce5c1412d540550f9e2f35c52b04e9b4fa15",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

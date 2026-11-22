@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.LocalFields.CompleteTrivialLocal",
+  "source_sha256": "368c12914553c54a2732397b2ff6e1988b6c495a3e8956d2fbf66e65293cb8bb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

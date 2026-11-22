@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.RealEisensteinNonneg",
+  "source_sha256": "96dc985812b0cb9b272450931db4edd3f0b38b91b4b50027fc1c775b45c1e353",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

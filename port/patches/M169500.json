@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.PDifferentExtNorm",
+  "source_sha256": "fdae680a703f313a09cea312a5bc49084b1b888125c116f20346138c69e9aea7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/LocalFields/Integers.lean
++++ b/src/GroundTheory/LocalFields/Integers.lean
+@@ -161,7 +161,7 @@
+ 
+ theorem valuativeExtension_trans [ValuativeExtension K L] [ValuativeExtension L M] :
+     ValuativeExtension K M where
+-  vle_iff_vle a b := by
++  vle_iff_vle {a b} := by
+     rw [IsScalarTower.algebraMap_apply K L M, IsScalarTower.algebraMap_apply K L M,
+       ValuativeExtension.vle_iff_vle, ValuativeExtension.vle_iff_vle]
+ 

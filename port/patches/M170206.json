@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.PowerSubgroups.CountableNeighbourhoods.PSectionBoundedCountable",
+  "source_sha256": "ce28d084bc2b1f6bfaea61c06fcc1a2453e939ba31f0312b7acbc08f5f307581",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the equivalent multivariate coefficient projection at the same index and the current nonnegative-product monotonicity lemma."
+}

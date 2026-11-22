@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PRestPrimeBoundOfFactor",
+  "source_sha256": "dda56f1a31a32f3590f8e3e479cb6c3c270576b8b8a4a0da0ea3ce59f64b8410",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PRestKSumBound",
+  "source_sha256": "edc2cbef841ee5a50b442b51be7bd6a9f578d30ff0e7346492906e6dc11875a3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

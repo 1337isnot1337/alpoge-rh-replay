@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.StatementsFlag",
+  "source_sha256": "2ef114779a9a184a81b74e39bbcc53fe3525ca7647bf28b96c887799abf8c6fd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the equivalent multivariate coefficient projections at the same multi-indices in the flag statements."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.PAdicHodge.ThetaPlus",
+  "source_sha256": "4505d0b386d230e377b74817e4963bf7aa2e61d71a44a832bb6b5e02923ad207",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

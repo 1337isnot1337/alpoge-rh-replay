@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PRestPolynomialDecomposes",
+  "source_sha256": "d454611a871526f81f7d20bb3a59dcc9d6fe9fb3c024eba1272a6943a30a3c20",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.WeightedScaling",
+  "source_sha256": "5ddc589eb08244c18a6e5227ea7e042b41665ea3892c60472494bd0557c83121",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

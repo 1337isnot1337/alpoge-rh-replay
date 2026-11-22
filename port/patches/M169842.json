@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.LocalFields.BrauerInductionClifford",
+  "source_sha256": "8517b130c4fb17add37a4cd252a0669a2bbc6515ff0de884534b0520195616b2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

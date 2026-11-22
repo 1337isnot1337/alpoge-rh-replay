@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PRestPolynomialHomogeneous",
+  "source_sha256": "16f91183d5f120fe45783e44142483c447787528d1696ae81b6ad2e15f5c9484",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
