@@ -9,7 +9,7 @@
  
    fn : lat →ₗ[𝒪[k]] 𝓀[k]
    fn_ne : fn ≠ 0
-@@ -110,10 +110,10 @@
+@@ -110,10 +110,11 @@
    rw [(residue_eq_zero_iff s).2 hs, zero_mul] at this
    exact mem_ker.2 this
  
@@ -18,11 +18,12 @@
    obtain ⟨q⟩ : Nonempty (Unif k) := inferInstance
    haveI := P.isLat
 -  refine ⟨?_, ?_⟩
++  haveI := Submodule.IsLattice.finite k P.lat
 +  refine { toIsLattice := Submodule.IsLattice.of_fg k ?_, span_eq_top := ?_ }
    · haveI : IsNoetherian 𝒪[k] P.lat := inferInstance
      exact (IsNoetherian.noetherian _).map _
    · rw [eq_top_iff, ← P.isLat.span_eq_top, Submodule.span_le]
-@@ -151,12 +151,12 @@
+@@ -151,12 +152,12 @@
  end Pair
  
  structure IsGlue (L : Submodule 𝒪[k] (n → k)) (e : n → k) : Prop where
@@ -37,7 +38,7 @@
    refine ⟨fun h => ⟨h.1, h.2, h.3 _ q.mem_max⟩, fun h => ⟨h.1, h.2.1, fun s hs => ?_⟩⟩
    obtain ⟨t, rfl⟩ := q.mem_max_iff.1 hs
    rw [mul_comm, mul_smul]
-@@ -201,7 +201,7 @@
+@@ -201,7 +202,7 @@
    have he : e ∈ M := Submodule.mem_sup_right (Submodule.mem_span_singleton_self e)
    have hfe : f ⟨e, he⟩ = 1 := hinj (by rw [hf, ← map_one (residue 𝒪[k]), hι, one_smul])
    haveI := h.isLat
@@ -46,7 +47,7 @@
      (h.isLat.fg.sup (Submodule.fg_span_singleton e))
    refine ⟨⟨M, hlat, f, fun h0 => by simp [h0] at hfe⟩, ?_, he, hfe⟩
    ext x
-@@ -244,7 +244,7 @@
+@@ -244,7 +245,7 @@
  structure GluePair (n : Type*) where
  
    ker : Submodule 𝒪[k] (n → k)
@@ -55,7 +56,7 @@
  
    cls : (n → k) ⧸ ker
    cls_ne : cls ≠ 0
-@@ -279,8 +279,8 @@
+@@ -279,8 +280,8 @@
  
  namespace Pair
  
@@ -66,12 +67,13 @@
  
  instance : SMul 𝓀[k]ˣ (Pair k n) where
    smul c P := ⟨P.lat, P.isLat, (c : 𝓀[k]) • P.fn, smul_ne_zero c.ne_zero P.fn_ne⟩
-@@ -353,20 +353,20 @@
+@@ -353,20 +354,22 @@
  
  @[simp] theorem mk_out (x : Red L) : mk L x.out = x := (mk_surjective L x).choose_spec
  
 -instance [L.IsLattice k] : Module.Finite 𝓀[k] (Red L) :=
 +instance [L.IsFullLattice k] : Module.Finite 𝓀[k] (Red L) :=
++  haveI := Submodule.IsLattice.finite k L
    haveI : Module.Finite 𝒪[k] (Red L) := Module.Finite.of_surjective _ (mk_surjective L)
    Module.Finite.of_restrictScalars_finite 𝒪[k] _ _
  
@@ -85,6 +87,7 @@
 +instance [L.IsFullLattice k] : Finite (Module.Dual 𝓀[k] (Red L)) := Module.finite_of_finite 𝓀[k]
 +
 +theorem finrank_eq [Fintype n] [L.IsFullLattice k] : Module.finrank 𝓀[k] (Red L) = Fintype.card n := by
++  haveI := Submodule.IsLattice.free k L
    let e : TensorProduct 𝒪[k] 𝓀[k] L ≃ₗ[𝒪[k]] Red L := TensorProduct.quotTensorEquivQuotSMul L (maximalIdeal 𝒪[k])
    let e' : TensorProduct 𝒪[k] 𝓀[k] L ≃ₗ[𝓀[k]] Red L := e.extendScalarsOfSurjective residue_surjective
    rw [← e'.finrank_eq, Module.finrank_baseChange, Submodule.IsLattice.finrank_of_pi k L]
@@ -94,7 +97,7 @@
    rw [Module.natCard_eq_pow_finrank (K := 𝓀[k]), finrank_eq]
    rfl
  
-@@ -384,7 +384,7 @@
+@@ -384,7 +387,7 @@
    P.fn_ne (LinearMap.ext fun x => by rw [← P.red_mk, h]; rfl)
  
  section
@@ -103,7 +106,7 @@
  
  def ofDual (f : {f : Module.Dual 𝓀[k] (Red L) // f ≠ 0}) : Pair k n where
    lat := L
-@@ -468,14 +468,14 @@
+@@ -468,14 +471,14 @@
  @[simp] theorem mem_withKer {L : Submodule 𝒪[k] (n → k)} {P : Pair k n} : P ∈ withKer L ↔ P.ker = L :=
    (finite_ker L).mem_toFinset
  
@@ -120,7 +123,7 @@
      [Fintype {x : Red L // x ≠ 0}] (F : Pair k n → M) :
      ∑ P ∈ withKer L, F P = ∑ x, F (up L q x) := by
    haveI : Fintype {P : Pair k n // P.ker = L} := Fintype.ofEquiv _ (kerEquiv L q)
-@@ -496,7 +496,7 @@
+@@ -496,7 +499,7 @@
    rw [q.smul_inv_smul] at h
    rw [h.unique (P.hasVal_fn _), ← P.red_mk, Red.mk_out]
  
@@ -129,7 +132,7 @@
      (f : {f : Module.Dual 𝓀[k] (Red L) // f ≠ 0}) : cross q (up L q x) (ofDual L f) = f.1 x.1 := by
    have h := cross_hasVal q (P := ofDual L f) (up_ker L q x).symm ((up_hasVal_iff _ q x x.1.out).2 (Red.mk_out _))
    rw [q.smul_inv_smul] at h
-@@ -521,8 +521,10 @@
+@@ -521,14 +524,16 @@
    refine (Submodule.mem_smul_pointwise_iff_exists x g L).trans ?_
    exact ⟨fun ⟨y, hy, h⟩ => by simpa [← h] using hy, fun h => ⟨_, h, smul_inv_smul _ _⟩⟩
  
@@ -142,16 +145,61 @@
    rw [eq_top_iff]
    intro x _
    have hx : g⁻¹ • x ∈ Submodule.span k (L : Set (n → k)) := hL.span_eq_top ▸ trivial
-@@ -582,7 +584,7 @@
+   have h : Submodule.span k (L : Set (n → k)) ≤
+       (Submodule.span k ((g • L : Submodule 𝒪[k] (n → k)) : Set (n → k))).comap
+-        (DistribMulAction.toLinearMap k _ g) :=
++        (DistribSMul.toLinearMap k _ g) :=
+     Submodule.span_le.2 fun y hy => Submodule.subset_span (Submodule.smul_mem_pointwise_smul y g L hy)
+   have h2 : g • g⁻¹ • x ∈ Submodule.span k ((g • L : Submodule 𝒪[k] (n → k)) : Set (n → k)) := h hx
+   rwa [smul_inv_smul] at h2
+@@ -541,7 +546,7 @@
+   smul g P :=
+     { lat := g • P.lat
+       isLat := inferInstance
+-      fn := P.fn ∘ₗ (DistribMulAction.toLinearMap 𝒪[k] _ g⁻¹).restrict fun _ hx => mem_smul_iff.1 hx
++      fn := P.fn ∘ₗ (DistribSMul.toLinearMap 𝒪[k] _ g⁻¹).restrict fun _ hx => mem_smul_iff.1 hx
+       fn_ne := fun h => by
+         have h1 := LinearMap.congr_fun h ⟨g • P.vec, Submodule.smul_mem_pointwise_smul _ g _ P.hasVal_vec.mem⟩
+         have h2 : P.HasVal (g⁻¹ • g • P.vec) 0 := ⟨_, h1⟩
+@@ -582,15 +587,16 @@
    rw [← smul_comm g] at h1
    exact h1.unique ((cross_hasVal q h P₁.hasVal_vec).gl_smul g)
  
 -theorem exists_gl_of_equiv {L L' : Submodule 𝒪[k] (n → k)} [L.IsLattice k] [L'.IsLattice k] (e : L ≃ₗ[𝒪[k]] L') :
 +theorem exists_gl_of_equiv {L L' : Submodule 𝒪[k] (n → k)} [L.IsFullLattice k] [L'.IsFullLattice k] (e : L ≃ₗ[𝒪[k]] L') :
      ∃ g : GL n k, ∀ x : L, g • (x : n → k) = e x := by
++  haveI := Submodule.IsLattice.free k L
    let b := Module.Free.chooseBasis 𝒪[k] L
    let E : (n → k) ≃ₗ[k] (n → k) := (b.extendOfIsLattice k).equiv ((b.map e).extendOfIsLattice k) (Equiv.refl _)
-@@ -661,9 +663,13 @@
+   refine ⟨Matrix.GeneralLinearGroup.toLin.symm (LinearMap.GeneralLinearGroup.ofLinearEquiv E), ?_⟩
+   have : (E.toLinearMap.restrictScalars 𝒪[k]) ∘ₗ L.subtype = L'.subtype ∘ₗ e.toLinearMap := by
+     refine b.ext fun i => ?_
+     have := (b.extendOfIsLattice k).equiv_apply i ((b.map e).extendOfIsLattice k) (Equiv.refl _)
+-    simpa [E] using this
++    simpa only [E, Module.Basis.extendOfIsLattice_apply, Module.Basis.map_apply, Equiv.refl_apply] using this
+   intro x
+   refine Eq.trans ?_ (LinearMap.congr_fun this x)
+   change LinearMap.toMatrix' E.toLinearMap *ᵥ (x : n → k) = E x
+@@ -601,6 +607,7 @@
+ 
+ theorem Pair.exists_split (P : Pair k n) :
+     ∃ (K : Submodule 𝒪[k] P.lat) (e : (K × 𝒪[k]) ≃ₗ[𝒪[k]] P.lat), ∀ z, P.fn (e z) = residue 𝒪[k] z.2 := by
++  haveI := Submodule.IsLattice.free k P.lat
+   obtain ⟨F, hF⟩ := Module.projective_lifting_property (Algebra.linearMap 𝒪[k] 𝓀[k]) P.fn residue_surjective
+   have hF' : ∀ x, residue 𝒪[k] (F x) = P.fn x := fun x => LinearMap.congr_fun hF x
+   have hu : IsUnit (F ⟨P.vec, P.hasVal_vec.mem⟩) := by
+@@ -624,6 +631,10 @@
+ 
+ instance : MulAction.IsPretransitive (GL n k) (Pair k n) where
+   exists_smul_eq P Q := by
++    haveI := Submodule.IsLattice.finite k P.lat
++    haveI := Submodule.IsLattice.free k P.lat
++    haveI := Submodule.IsLattice.finite k Q.lat
++    haveI := Submodule.IsLattice.free k Q.lat
+     obtain ⟨K, e, he⟩ := P.exists_split
+     obtain ⟨K', e', he'⟩ := Q.exists_split
+     have h1 := e.finrank_eq
+@@ -661,9 +672,13 @@
  theorem mem_stdLat {x : n → k} : x ∈ stdLat k n ↔ ∀ i, x i ∈ 𝒪[k] :=
    ⟨fun ⟨y, hy⟩ i => hy ▸ (y i).2, fun h => ⟨fun i => ⟨x i, h i⟩, rfl⟩⟩
  
