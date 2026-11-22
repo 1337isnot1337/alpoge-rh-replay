@@ -3,6 +3,6 @@
   "source_sha256": "bfe8b635997292f00b59a00715766c8dfc9391b34580cf5545e4409677926cb4",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "unchanged Use polynomial-first coefficients in the proof-local monomial expansion. No exported declaration statements, definitions or instances changed.",
+  "notes": "Use polynomial-first coefficients in the proof-local monomial expansion. No exported declaration statements, definitions or instances changed.",
   "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0217-lean436-20261121/packet-result.json"
 }

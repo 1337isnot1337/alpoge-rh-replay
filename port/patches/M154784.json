@@ -3,6 +3,6 @@
   "source_sha256": "6b839771b71efaa0fa567156b1ba45881f2e6fc9b09857262fe0800564ba746d",
   "lean": "leanprover/lean4:v4.36.0",
   "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
-  "notes": "unchanged Use the target coprimality-of-product lemma. No exported declaration statements, definitions or instances changed.",
+  "notes": "Use the target coprimality-of-product lemma. No exported declaration statements, definitions or instances changed.",
   "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0217-lean436-20261121/packet-result.json"
 }
