@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.CountStA",
+  "source_sha256": "23d7539242185d66c8e6b0f969a737e050be7fef23bdabfdc36ac237da00ba46",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

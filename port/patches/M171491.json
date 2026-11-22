@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.AnalyticForms.RegularLocalRings.JacChartB",
+  "source_sha256": "f5a6a5f0ac33d6ffb44843a3a8249ede99c57445bb931cae758f18cbd4f8655a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed submonoid sum coercion and the specialized ring-homomorphism subtraction rewrites for the residue and evaluation maps."
+}

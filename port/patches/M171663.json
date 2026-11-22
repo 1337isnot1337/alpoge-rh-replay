@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ClassFieldTheory.LocalClassField.UnrDefs",
+  "source_sha256": "7c8d6d52150e0bc8bba8c1e523b4d8ea799975c7c2f99985b95e458b70eeba81",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

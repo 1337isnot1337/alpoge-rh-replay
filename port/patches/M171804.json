@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.MemDualLat",
+  "source_sha256": "34cae6b552be174a898f91ca376ddce3b88c31f05eabe47fcd7daae151e6deaf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.LeviForms.OfRealNormSqSumMul",
+  "source_sha256": "30314b2fe04eb79e8f0bd72d12776505e978b8c0a1bd00208ac83a14b252b1a8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

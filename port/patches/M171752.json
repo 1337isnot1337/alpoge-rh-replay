@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.ExistsFamilyValuationDetEqOne",
+  "source_sha256": "b36306606adf74a647b04fe4d1b25b5a85f2a481b3421521d59c484d9dea782a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

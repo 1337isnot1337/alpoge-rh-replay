@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.DiscriminantColengthStatement",
+  "source_sha256": "645bd8ea9287403f2047d2a505702923fd4864b43fd912833e6a86aee7c8643c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

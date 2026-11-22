@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.ModuliPointsState",
+  "source_sha256": "51e8e465b26b42d1d0edade647e38bbccf1bd5ca828961e13310485133270c5f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

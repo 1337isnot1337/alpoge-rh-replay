@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.GaloisValuations.Global",
+  "source_sha256": "c8e9465c22e48ca68c4e2cfec74c1f9407d8c471b2eb5e2440f11b910a6bfbd6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.MemAugIdeal",
+  "source_sha256": "51814dc250c59654dd8fafb1289b599cb5c57d32bc7a638736f9c3bf400ee386",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

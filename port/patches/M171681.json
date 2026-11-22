@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.CommutativeAlgebra.CohenMacaulay.ExistsIsRegularAppendOfModDepthGE",
+  "source_sha256": "dc2f017147c681c2993ea19e513b7942f4f4a11e02d768100080008616b656ee",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

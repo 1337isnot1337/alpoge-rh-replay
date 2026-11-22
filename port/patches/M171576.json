@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.SplitD",
+  "source_sha256": "2dcdd2bbc6903fca35c2b5150caa3ad5040457860ce126ae60645ebf325e0b4a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
