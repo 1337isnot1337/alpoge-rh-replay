@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PDivCycleMul",
+  "source_sha256": "7b44bb2bcc590eec8a8f5d98f60ece6da14a1bd5ef3746155ead419cab9fbace",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0284-lean436-20261121/packet-result.json"
+}

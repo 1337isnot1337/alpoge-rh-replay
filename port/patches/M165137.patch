@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/DiscreteValuationNumbers/PGenericDimBound.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/DiscreteValuationNumbers/PGenericDimBound.lean
+@@ -26,7 +26,7 @@
+     intro f hf
+     have h0 := hP.multiHomog f hf 0
+     rw [weightedHomogeneousComponent_zero] at h0
+-    · have : coeff 0 f ∈ P.comap (C : O →+* S) := h0
++    · have : f.coeff 0 ∈ P.comap (C : O →+* S) := h0
+       rw [hT, Ideal.mem_bot] at this
+       rw [constantCoeff_eq]
+       exact this
