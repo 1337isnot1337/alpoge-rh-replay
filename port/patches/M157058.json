@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SymmetricDistance.SymDistOf",
+  "source_sha256": "4affd56c3d73c55322969644f8889a61529eee60e6cd597189f0b9c9e96a2504",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0220-lean436-20261121-r2/packet-result.json"
+}
