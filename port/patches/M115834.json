@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.IntegralCasts.CrystallinePeriods.EqZeroOfPMulEqZero",
+  "source_sha256": "94fd8047057e978a88b123088aa9d58a176ff6712d1f3b357fb30d82c0eb39ff",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed finite-sum subtype coercion lemma. Specify the quotient homomorphism and its two inputs before the reverse additivity rewrite, preventing unconstrained typeclass search. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0203-lean436-20261121-r2/packet-result.json"
+}
