@@ -32,16 +32,21 @@ def rate_limit_delay(stderr, attempt):
 
 
 def gh_output(command):
-    """Run a read-only gh command and return its stdout, waiting out GitHub rate limits."""
+    """Run a read-only gh command, retrying rate limits and temporary server errors."""
     for attempt in range(ATTEMPTS):
         result = subprocess.run(command, capture_output=True, text=True)
         if result.returncode == 0:
             return result.stdout
         delay = rate_limit_delay(result.stderr, attempt)
+        reason = 'rate limit'
+        if delay is None and (re.search(r'\(HTTP (?:500|502|503|504)\)', result.stderr)
+                              or 'something went wrong while executing your query' in result.stderr.lower()):
+            delay = 2 ** attempt
+            reason = 'server error'
         if delay is None or attempt == ATTEMPTS - 1:
             sys.stderr.write(result.stderr)
             raise subprocess.CalledProcessError(result.returncode, command, result.stdout, result.stderr)
-        print(f'GitHub rate limit on `{" ".join(command[:3])}`. Retrying after {delay}s.', file=sys.stderr, flush=True)
+        print(f'GitHub {reason} on `{" ".join(command[:3])}`. Retrying after {delay}s.', file=sys.stderr, flush=True)
         time.sleep(delay)
 
 
