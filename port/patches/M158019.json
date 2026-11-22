@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexificationHolds",
+  "source_sha256": "d6c602772eee6c38a957206f839285aa955cd64da6e270705d365cfd2f8d8f93",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename continuous_finset_sum to continuous_finsetSum at the two nested finite sums. The target lemma has the same finite-sum continuity conclusion and hypotheses. Only the proof of continuity changes; all definitions and theorem statements are unchanged."
+}

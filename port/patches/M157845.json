@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PieriBlockIdeals.PieriColumnMinors.PadicValIntProdElevenMultiples",
+  "source_sha256": "7d317f80d8b3c455e9c973825020a366cf431d928be7333c6a17f5931a4d76c5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

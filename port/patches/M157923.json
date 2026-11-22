@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PrimeAboveExistence.LenEqPlaces",
+  "source_sha256": "c78d8390cad9be91519a9536750b6e600ca36cec3f61b242499c485b0198c381",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

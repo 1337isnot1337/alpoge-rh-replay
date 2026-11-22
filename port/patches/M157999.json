@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RankGapBounds.RankGapProofs.RandomSubsetLemmaCounterexample",
+  "source_sha256": "509ebcbcf89b761bf5495fbff82c2992b9a91629a1ab9afa84812630b2cf5af6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

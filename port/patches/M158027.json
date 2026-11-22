@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RealPlaceAnalysis.RealPlaceTaylor.IndefiniteUnitaryPreservesForm",
+  "source_sha256": "6b6f24f2e5c3e1f874e6649e274bf846cd1975ab670530525d28aa524c323d97",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

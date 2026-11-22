@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RealPlaceAnalysis.SmoothOnG",
+  "source_sha256": "babd5c059699836044794b7ff0667cd733d98491e5325ad3bbbecd4218a47846",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

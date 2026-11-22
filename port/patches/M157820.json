@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PieriBlockIdeals.PieriColumnMinors.HeightDescentMinors",
+  "source_sha256": "397d784dc54488930e83bc19cf3b5556f3fd668ade7ce7698bde7c9e6791976f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove the explicit coefficient-ring argument from d\u2044dX R f: PowerSeries.derivative now infers R from the unchanged type of f, while retaining the same formal derivative from MvPowerSeries.pderiv at (). The four affected theorem statements have the same assumptions and mathematical propositions; only argument syntax changes. Supply a proof-local HasUniqueDiv instance using IsAddTorsionFree.hasUniqueDiv for the existing nsmul_right_injective step. The existing CommRing assumption makes the old unconditional additive torsion-free condition equivalent to the target condition restricted to commuting elements; no theorem assumptions are strengthened. Register BinomialRing.toHasUniqueDiv directly instead of its deprecated toIsAddTorsionFree alias, whose generalized parameters fail instance synthesization-order checking. See port/evidence/P0156/statement-scan.md."
+}

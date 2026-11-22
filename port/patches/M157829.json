@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PieriBlockIdeals.PieriColumnMinors.LabelSumNeedsLeFalse",
+  "source_sha256": "7631adfb2ca63d8a5653c6cdb87e7195f38fad63e2b877b9bd3344ccc9ce6f1d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use pow_multiplicity_dvd with Nat.padicValNat_def in the existing divisibility proof, and include the same equality when simplifying padicValInt. Nat.padicValNat_def proves that the computational natural valuation equals the target multiplicity expression. Only the proof of label_vl_le_one changes; definitions and theorem statements are unchanged."
+}
