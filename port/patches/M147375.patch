@@ -1,0 +1,16 @@
+--- a/src/Formalism/LagrangeIdealLifts/CocyclePolynomialDivision/LagrangeIdealCyc.lean
++++ b/src/Formalism/LagrangeIdealLifts/CocyclePolynomialDivision/LagrangeIdealCyc.lean
+@@ -47,11 +47,12 @@
+       (2 * a).factorial := by
+     rw [← prod_pow_eq_pow_sum]
+     refine (prod_dvd_prod_of_dvd (fun m : ℕ => ℓ ^ padicValInt ℓ ((a' : ℤ) - m)) (fun m : ℕ => ((a' : ℤ) - m).natAbs)
+-      fun m _ => pow_padicValNat_dvd).trans ?_
++      fun m _ => by simpa only [padicValInt, Nat.padicValNat_def] using pow_multiplicity_dvd ℓ ((a' : ℤ) - m).natAbs).trans ?_
+     rw [prod_natAbs_sub_erase (2 * a) a' (by omega)]
+     exact (Nat.factorial_mul_factorial_dvd_factorial_add _ _).trans
+       (Nat.factorial_dvd_factorial (by omega))
+   have h1 := (padicValNat_dvd_iff_le (Nat.factorial_ne_zero _)).1 hdvd
++  rw [← Nat.padicValNat_def] at h1
+   have h2 : (2 * a - 1) * s ≤ 2 * a * s := Nat.mul_le_mul_right _ (by omega)
+   omega
+ 

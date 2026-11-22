@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LocalToGlobal.CharacterGerms.NatCastMulTmul",
+  "source_sha256": "0ca9c9e20a8b9e7321c89755ceb1cea63810e7ebb190236586e08dc91ea4e246",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Use explicit Finsupp extensionality so coordinate goals stay in the p-adic integer ring before applying Hausdorffness. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

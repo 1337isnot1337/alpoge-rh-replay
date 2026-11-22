@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LatticeTheta.LatticeThetaProofs.FundamentalDomainEqPreimage",
+  "source_sha256": "5651f4dd0090f52003504e13472212771a41369320a2f8f3e86b955af33201fe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.WhittakerVanishingImpliesZero",
+  "source_sha256": "77cfa9efabd2ae399f205391eb31522af699acbf986631fd7c4194ccc7b9adef",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use finite-product inequalities with the original nonnegativity premises and provide the coordinate scalar family to the target differentiation API. Supply the now-implicit coordinate codomain explicitly. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

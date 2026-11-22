@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LatticeRigidity.HeightMinimum.OneLeProdOfInt",
+  "source_sha256": "64c2c96dd2308ed18d4270782313df874a27fe58e6e897a077538c3c50e81c3c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

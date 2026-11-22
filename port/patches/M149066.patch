@@ -1,0 +1,23 @@
+--- a/src/Formalism/LocalToGlobal/GroupLattices/PendingLemmas/WittFractionToCpAlgebraMap.lean
++++ b/src/Formalism/LocalToGlobal/GroupLattices/PendingLemmas/WittFractionToCpAlgebraMap.lean
+@@ -115,7 +115,10 @@
+ 
+ abbrev Kalg : IntermediateField ℚ_[p] (K0 p) := algebraicClosure ℚ_[p] (K0 p)
+ 
+-def phi : Kalg p →ₐ[ℚ_[p]] ℂ_[p] := IsAlgClosed.lift
++def phi : Kalg p →ₐ[ℚ_[p]] ℂ_[p] := by
++  letI : Module.IsTorsionFree ℚ_[p] (Kalg p) := DivisionSemiring.to_moduleIsTorsionFree
++  letI : Module.IsTorsionFree ℚ_[p] ℂ_[p] := DivisionSemiring.to_moduleIsTorsionFree
++  exact IsAlgClosed.lift
+ 
+ theorem norm_p_C : ‖(p : ℂ_[p])‖ = (p : ℝ)⁻¹ := by
+   have h := PadicComplex.norm_extends' p (p : ℚ_[p])
+@@ -204,7 +207,7 @@
+ theorem teich_mem (y : kb p) : algebraMap (WW p) (K0 p) (WittVector.teichmuller p y) ∈ Kalg p := by
+   obtain ⟨q, hq, hy⟩ := exists_pow_eq p y
+   rw [mem_algebraicClosure_iff]
+-  refine ⟨X ^ q - X, FiniteField.X_pow_card_sub_X_ne_zero _ hq, ?_⟩
++  refine ⟨X ^ q - X, Polynomial.X_pow_sub_X_ne_zero hq, ?_⟩
+   rw [map_sub, map_pow, aeval_X, ← map_pow, ← map_pow, hy, sub_self]
+ 
+ theorem exists_approx (x : WW p) (N : ℕ) : ∃ z, Approx p N x z := by

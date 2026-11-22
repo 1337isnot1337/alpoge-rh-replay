@@ -1,0 +1,11 @@
+--- a/src/Formalism/IncomingBounds/FlowDegreeBounds/AltChooseSumEqZero.lean
++++ b/src/Formalism/IncomingBounds/FlowDegreeBounds/AltChooseSumEqZero.lean
+@@ -14,7 +14,7 @@
+   have hz : (fwdDiff (1 : ℕ))^[D + 1] (fun x ↦ (x.choose s : ℤ) : ℕ → ℤ) y = 0 := by
+     obtain ⟨k, hk⟩ : ∃ k, D + 1 = (k + 1) + s := ⟨D - s, by omega⟩
+     rw [hk, Function.iterate_add_apply]
+-    have h0 := fwdDiff_iter_choose 0 s
++    have h0 := fwdDiff_iter_choose (R := ℤ) 0 s
+     simp only [add_zero] at h0
+     rw [h0]
+     simp only [Nat.choose_zero_right, Nat.cast_one, Function.iterate_succ_apply, fwdDiff_const]

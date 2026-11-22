@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LatticeTheta.LatticeThetaProofs.LatticeSummableDecay",
+  "source_sha256": "3c607a1698e6759e19b950ff7aaf5a8514246bd906608ae36e5fab2482da3d60",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Use the renamed subgroup parameter in discrete-subgroup closedness. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

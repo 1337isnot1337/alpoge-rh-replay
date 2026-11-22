@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LatticeSlopes.LatticeSlopesProofs.CovolPos",
+  "source_sha256": "b9fd7ecf74b5d000081c1168d5897e1537a3acc16ee52cc3364ad85ddafbacde",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

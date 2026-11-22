@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.HermitianLattices.StatementLat",
+  "source_sha256": "38a4a07538f89db787edb0f968266e3e34732c459c662e1d48c4e3be6b2bd4e6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Preserve the pinned lattice predicate FG \u2227 span = top. In genus and IsomAct, R and K are arbitrary scalar extensions, so these two conditions are written explicitly: target IsFullLattice would additionally require preservation of linear independence, which is not assumed here. In DualLattice, ClassSetFinite, NeighbourBasic, IndexBasic and ExampleZ, K is the fraction field of R (including ring-of-integers and Z/Q cases), so IsFullLattice is equivalent to the pinned predicate via IsLattice.of_fg. No hypothesis is added or removed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}

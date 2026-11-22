@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.LagrangeIdealLifts.CocyclePolynomialDivision.LagrangeIdealCyc",
+  "source_sha256": "758e1379ff0bc496f995c4a753eb2abcc4c173d01462e352ac6ebd90719f678a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Bridge padicValInt and padicValNat to multiplicity in proof-local divisibility estimates. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0213-lean436-20261121/packet-result.json"
+}
