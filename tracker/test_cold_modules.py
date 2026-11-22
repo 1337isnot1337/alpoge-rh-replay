@@ -1,4 +1,5 @@
 import io
+import json
 import subprocess
 import unittest
 from contextlib import redirect_stdout
@@ -44,6 +45,24 @@ class OpenIssueTests(unittest.TestCase):
              f'repos/{tasks.repo}/issues?state=open&per_page=100'], text=True,
         )
         anonymous.assert_not_called()
+
+
+class ClaimLookupTests(unittest.TestCase):
+    def test_authenticated_lookup_reads_unlabeled_claims_across_pages(self):
+        pages = [
+            {'data': {'repository': {'issues': {'nodes': [{'title': title} for title in titles]}}}}
+            for titles in [['Claim M000001', 'Claim M000002 edited'], ['Claim P0123', 'Other issue']]
+        ]
+        with patch.object(tasks, 'authenticated_gh', return_value='/bin/gh'), \
+             patch.object(tasks.subprocess, 'check_output', return_value=json.dumps(pages)) as api, \
+             patch.object(tasks, 'open_issues') as rest:
+            self.assertEqual(tasks.claims(), {'M000001', 'P0123'})
+
+        command = api.call_args.args[0]
+        self.assertEqual(command[:7],
+                         ['/bin/gh', 'api', 'graphql', '--hostname', 'github.com', '--paginate', '--slurp'])
+        self.assertIn('nodes { title }', command[-1])
+        rest.assert_not_called()
 
 
 class ColdModuleTests(unittest.TestCase):

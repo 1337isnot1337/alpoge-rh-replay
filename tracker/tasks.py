@@ -141,13 +141,28 @@ def open_issues():
 
 
 def claims():
-    refs = set()
-    for issue in open_issues():
-        if 'pull_request' not in issue:
-            match = re.fullmatch(r'Claim (M\d{6}|P\d{4})', issue['title'])
-            if match:
-                refs.add(match[1])
-    return refs
+    cli = authenticated_gh()
+    if cli:
+        owner, name = repo.split('/')
+        query = '''
+        query($owner: String!, $name: String!, $endCursor: String) {
+          repository(owner: $owner, name: $name) {
+            issues(states: OPEN, first: 100, after: $endCursor) {
+              nodes { title }
+              pageInfo { hasNextPage endCursor }
+            }
+          }
+        }
+        '''
+        pages = json.loads(subprocess.check_output(
+            [cli, 'api', 'graphql', '--hostname', 'github.com', '--paginate', '--slurp',
+             '-f', f'owner={owner}', '-f', f'name={name}', '-f', f'query={query}'],
+            text=True))
+        titles = (issue['title'] for page in pages
+                  for issue in page['data']['repository']['issues']['nodes'])
+    else:
+        titles = (issue['title'] for issue in open_issues() if 'pull_request' not in issue)
+    return {match[1] for title in titles if (match := re.fullmatch(r'Claim (M\d{6}|P\d{4})', title))}
 
 def run(targets,checkout,out,bundle,fast_bundle=False,*,project_modules=None):
  project=checkout.resolve();output=out.resolve()
