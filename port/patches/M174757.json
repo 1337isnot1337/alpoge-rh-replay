@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.TailIntegrals.PolynomialGrowthIntegrals",
+  "source_sha256": "a316a75418f2ed72dbf0bf9ac06032a7d9aed0f5545dbb970ae984eb311910d9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0171-lean436-20261121/packet-result.json"
+}

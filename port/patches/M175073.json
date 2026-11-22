@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.DetSubtypeCompAssociatedProd",
+  "source_sha256": "fa192996697be068be36b75d9e4e603e6751a2e8eb32a3ae1bd6bf77e475f8d4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0171-lean436-20261121/packet-result.json"
+}

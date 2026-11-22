@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ThetaSummability.RealCoinvariants.CoinvSubLeComap",
+  "source_sha256": "25cc3878331273c3cfc7966787b2603afd292774c39157be99cf84cded2f0ec0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0171-lean436-20261121/packet-result.json"
+}

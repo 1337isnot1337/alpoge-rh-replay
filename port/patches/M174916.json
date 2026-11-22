@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.SymplecticTraces.WeylCharacters.SqCharA",
+  "source_sha256": "365966f0b928204855da346bcce3559c8c806a0757760d04cf5909a637c99c0c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0171-lean436-20261121/packet-result.json"
+}
