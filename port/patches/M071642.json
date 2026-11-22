@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.IsLocalRingOfFinite",
+  "source_sha256": "74fcc95b08675b0bac9eaf63a70e2c2b5c3bc2a2597f556a70ee8e30ad6b495f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use target tensor induction without the redundant zero case, bridge the ring Jacobson radical, update polynomial nonvanishing arguments and use one-based TFAE indices. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0192-lean436-20261121/packet-result.json"
+}

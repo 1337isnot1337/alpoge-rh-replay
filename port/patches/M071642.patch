@@ -1,0 +1,46 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IsLocalRingOfFinite.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/IsLocalRingOfFinite.lean
+@@ -13,7 +13,6 @@
+   intro z
+   obtain ⟨t, rfl⟩ := AdicCompletion.ofTensorProduct_surjective_of_finite I M z
+   induction t with
+-  | zero => exact ⟨0, by simp⟩
+   | tmul r x =>
+     obtain ⟨a, rfl⟩ := AdicCompletion.of_surjective I O r
+     refine ⟨a • x, ?_⟩
+@@ -61,7 +60,7 @@
+   haveI : Finite (R ⧸ J) := Module.finite_of_finite (O ⧸ IsLocalRing.maximalIdeal O)
+   have hjac : ∀ y ∈ J, IsUnit (1 + y) := by
+     intro y hy
+-    have := Ideal.mem_jacobson_bot.1 (hH.jac hy) 1
++    have := Ideal.mem_jacobson_bot.1 (by simpa only [Ideal.jacobson_bot] using hH.jac hy) (1 : R)
+     simpa [add_comm] using this
+   refine IsLocalRing.of_isUnit_or_isUnit_one_sub_self fun x => ?_
+   obtain ⟨n, hn, h⟩ := exists_pow_idem (R ⧸ J) (Ideal.Quotient.mk J x)
+@@ -148,7 +147,7 @@
+   have h1s : 1 < q ^ f := by rw [← hcF]; exact Fintype.one_lt_card
+   have haF : a ∉ (F : Set k).toFinset := by
+     rw [Set.mem_toFinset]; exact fun h => hta ((hF a).1 h)
+-  refine FiniteField.X_pow_card_sub_X_ne_zero k h1s ?_
++  refine Polynomial.X_pow_sub_X_ne_zero (R := k) h1s ?_
+   refine Polynomial.eq_zero_of_natDegree_lt_card_of_eval_eq_zero' _
+     (insert a (F : Set k).toFinset) ?_ ?_
+   · intro x hx
+@@ -159,7 +158,7 @@
+       rw [hcF] at this
+       simp only [eval_sub, eval_pow, eval_X]
+       exact sub_eq_zero.2 this
+-  · rw [FiniteField.X_pow_card_sub_X_natDegree_eq k h1s, Finset.card_insert_of_notMem haF,
++  · rw [Polynomial.natDegree_X_pow_sub_X (R := k) h1s, Finset.card_insert_of_notMem haF,
+       Set.toFinset_card]
+     have : Fintype.card (F : Set k) = q ^ f := by
+       rw [← hcard, Nat.card_eq_fintype_card]; exact Fintype.card_congr (Equiv.refl _)
+@@ -219,7 +218,7 @@
+     IsDiscreteValuationRing.not_isField K.O
+       ((Algebra.IsIntegral.isField_iff_isField injR).2 h)
+   haveI : IsDiscreteValuationRing R :=
+-    ((IsDiscreteValuationRing.TFAE R hnf).out 2 0).1 ‹IsDedekindDomain R›
++    ((IsDiscreteValuationRing.TFAE R hnf).out 3 1).1 ‹IsDedekindDomain R›
+   have hint : ∀ x : R, τ (x : L) ∈ R := by
+     intro x
+     exact IsIntegral.map_of_comp_eq c τ (by ext z; simp [hτO]) x.2
