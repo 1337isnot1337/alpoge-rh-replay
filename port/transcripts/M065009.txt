@@ -1,0 +1,96 @@
+Packet P0189, partial submission
+Upstream base 3a9aaeff68740027cd5fcb157f549e93b5640224
+Port record commit bc550af8ab152a4a260f5bd21269de4771f0e15f
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M065009
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.HermitianFormFiniteZerosOnLineCmExt
+islattice-audit: 1 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+
+Build verification on the upstream base
+Building 1 explicitly requested module(s).
+Resolved 2 transitive project import(s) (3 total module(s) to materialize).
+[FETCH] Materializing 3 SHA-256-verified source file(s)...
+[FETCH] Verified 3/3 source file(s).
+[PATCH] M065009: applied M065009.patch
+[KEEP]  M158150: unchanged (verified against archive source)
+[KEEP]  M158998: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 1 module(s) with `lake build`...
+        IDs: M065009
+⚠ [18250/18254] Replayed Formalism.SatakeDualWeyl.Statement
+warning: src/Formalism/SatakeDualWeyl/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SatakeDualWeyl/Statement.lean:23:0: automatically included section variable(s) unused in theorem `Formalism.UG.cT_one`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18251/18254] Ran Formalism.SatakeDualWeyl.Statement:irArts
+warning: src/Formalism/SatakeDualWeyl/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Replayed Formalism.SharpRestriction.GlobalSchurBounds.GeneralLinearActions.GenusMassVolumes
+warning: src/Formalism/SharpRestriction/GlobalSchurBounds/GeneralLinearActions/GenusMassVolumes.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SharpRestriction/GlobalSchurBounds/GeneralLinearActions/GenusMassVolumes.lean:72:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/SharpRestriction/GlobalSchurBounds/GeneralLinearActions/GenusMassVolumes.lean:76:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+⚠ [18253/18254] Ran Formalism.SharpRestriction.GlobalSchurBounds.GeneralLinearActions.GenusMassVolumes:irArts
+warning: src/Formalism/SharpRestriction/GlobalSchurBounds/GeneralLinearActions/GenusMassVolumes.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.HermitianFormFiniteZerosOnLineCmExt (7.1s)
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/HermitianFormFiniteZerosOnLineCmExt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/HermitianFormFiniteZerosOnLineCmExt.lean:123:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/HermitianFormFiniteZerosOnLineCmExt.lean:133:13: This simp argument is unused:
+  AlgHom.coe_toRingHom
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [RingHom.coe_coe]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/HermitianFormFiniteZerosOnLineCmExt.lean:160:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/HermitianFormFiniteZerosOnLineCmExt.lean:177:10: `Polynomial.finite_setOf_isRoot` has been deprecated: Use `Polynomial.finite_setOfPred_isRoot` instead
+
+Hint: Replace the deprecated name:
+  Polynomial.finite_setOfP̲r̲e̲d̲_isRoot
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/HermitianFormFiniteZerosOnLineCmExt.lean:178:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/HermitianFormFiniteZerosOnLineCmExt.lean:175:13: This simp argument is unused:
+  Polynomial.coeff_X
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [p, Polynomial.coeff_C] at this
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/HermitianFormFiniteZerosOnLineCmExt.lean:175:33: This simp argument is unused:
+  Polynomial.coeff_C
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [p, Polynomial.coeff_X] at this
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (18254 jobs).
+[PASS]  M065009 (Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.HermitianFormFiniteZerosOnLineCmExt)
+
+PORT_BUILD_PASSED all 1 module(s).

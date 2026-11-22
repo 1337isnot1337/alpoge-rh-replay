@@ -1,0 +1,354 @@
+{
+  "target": "P0189",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/29574",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "3a9aaeff68740027cd5fcb157f549e93b5640224",
+  "port_record_commit": "bc550af8ab152a4a260f5bd21269de4771f0e15f",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "b9c8c0eae43f8c5ef8e8fbdd2001e55c8a20eb30e4df7108084294ce6f84f912",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.HermitianFormFiniteZerosOnLineCmExt",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 1 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M065009",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.HermitianFormFiniteZerosOnLineCmExt",
+      "source_sha256": "bd22c39ed0731cd47d65396ea5d3d2cdbe170721269210589a532d5241d4ee7a",
+      "patch_sha256": "880b3d7f61e4dc1596bee31faee42f4b4d0ddd93df6f8c9c78aac025b2c40877",
+      "built_source_sha256": "7ca901533c277d46963693f852843c06b12d9b670fa1df1aa752c1196ee5edb8",
+      "olean_sha256": "f4b11ca1d461298bf154b348c7a9bbb63a36aa34018368c7c292911ca1c034b8",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M158150",
+      "module": "Formalism.SatakeDualWeyl.Statement",
+      "source_sha256": "ff0b4971b2c44e6b9eeac44013ff35e5aeb7a126a87d7640d2fd72277147696c",
+      "patch_sha256": null,
+      "built_source_sha256": "ff0b4971b2c44e6b9eeac44013ff35e5aeb7a126a87d7640d2fd72277147696c",
+      "port_record_sha256": "6c93a35b6cfcf393c36ee552d8fabe32d74b8e81081a3497524f704fa231ac7e"
+    },
+    {
+      "id": "M158998",
+      "module": "Formalism.SharpRestriction.GlobalSchurBounds.GeneralLinearActions.GenusMassVolumes",
+      "source_sha256": "a33d33e6070c63f1e118c2a0ce992d57e8de5fb28105a072ca0b9cb6ee48a02b",
+      "patch_sha256": null,
+      "built_source_sha256": "a33d33e6070c63f1e118c2a0ce992d57e8de5fb28105a072ca0b9cb6ee48a02b",
+      "port_record_sha256": "7d880b73619f39d328a2ec3448a889f641cd708bf858355b8b1e839f56b9d3b8"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M063428",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.PolyDegreeSlashActionMatrixMul",
+      "missing_imports": []
+    },
+    {
+      "id": "M063431",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.PolyDegreeSlashActionRightActionPropertiesStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063446",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.PowSmulHeckeVOperatorExplicitEqSlashDiagStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063466",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.PrimitiveCharDoubleSumPrimePowEvalStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063507",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ProdSmoothedThetaQProductDistribution",
+      "missing_imports": []
+    },
+    {
+      "id": "M063512",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.PsumGaloisUnitPiece",
+      "missing_imports": []
+    },
+    {
+      "id": "M063524",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.QExpansionCoeffPeriodOneEqOfHasSumStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063642",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SeparatingFamilySumClosedUnderProdStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063662",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SiegelFunctionHolomorphic",
+      "missing_imports": []
+    },
+    {
+      "id": "M063663",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SiegelFunctionNeZero",
+      "missing_imports": []
+    },
+    {
+      "id": "M063730",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SlashQExpansionCoeffWidthTransformStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063732",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SlashRatIsBoundedAtGamma1InterGamma0LevelStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063735",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SlashSubQExpansionPartialSumIsBigOStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063742",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedEisensteinFxCoefficientSeqOneMemSubringStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063743",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedEisensteinFxSumRowLiftsDistribution",
+      "missing_imports": []
+    },
+    {
+      "id": "M063748",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedSiegelUnitIndexAddIntVector",
+      "missing_imports": []
+    },
+    {
+      "id": "M063750",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedSiegelUnitModularGroupTSmul",
+      "missing_imports": []
+    },
+    {
+      "id": "M063754",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedSiegelUnitQExpansionCoeffsIntegral",
+      "missing_imports": []
+    },
+    {
+      "id": "M063758",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SmoothedThetaQProductEqOddThetaProductQuotient",
+      "missing_imports": []
+    },
+    {
+      "id": "M063769",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SpanHeisenbergTranslatesVacuumEqTop",
+      "missing_imports": []
+    },
+    {
+      "id": "M063816",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.StripEvalPolynomialDecayMulImRpowStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063839",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumFinrankLevelOneLeFinrankCuspFormOfFrameStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063841",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumFinrankLevelOneLeFinrankOfFrameStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063842",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumGl2FirstColumnUnitSetSuccFibre",
+      "missing_imports": []
+    },
+    {
+      "id": "M063846",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumMulCosetRepresentativeTraceEqStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063852",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.SumOpTransversalStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M063913",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.TendstoSmulInvOfMulTendstoInvertibleMatrixStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M064011",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ThreeMulCardOddFrameWeightsDvdThreeStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M064043",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.TowerGaloisFixedEqDivLevelElements",
+      "missing_imports": []
+    },
+    {
+      "id": "M064045",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.TowerGnExponentsKummerCochains",
+      "missing_imports": []
+    },
+    {
+      "id": "M064069",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.TraceTowerAlmostDualBasesAdjoinKummerRoot",
+      "missing_imports": []
+    },
+    {
+      "id": "M064159",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.UnramifiedIntegersAdicCompleteStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M064175",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperMulEqMulDiamondDiagGamma1InterGamma0Statement",
+      "missing_imports": []
+    },
+    {
+      "id": "M064177",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.UpperTriangularMulEqMulUpperTriangularGamma1InteStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M064190",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationAddPowSubLeStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M064194",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationEqOneOfPowEqSpanStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M064196",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationFrobeniusSumSubLeNatCastPrimeStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M064197",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationLeOneIffIsIntegralOfCompleteDvr",
+      "missing_imports": []
+    },
+    {
+      "id": "M064207",
+      "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ValuationSubOnePowEqPrimeStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M064359",
+      "module": "Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsIntegralPointThrough",
+      "missing_imports": []
+    },
+    {
+      "id": "M064391",
+      "module": "Development.AbelianVarietyTheory.Proofs.GenericRegularity.ExistsUnramifiedExtension",
+      "missing_imports": []
+    },
+    {
+      "id": "M064442",
+      "module": "Development.AbelianVarietyTheory.Proofs.GenericRegularity.IsNoetherianRingTensor",
+      "missing_imports": []
+    },
+    {
+      "id": "M064474",
+      "module": "Development.AbelianVarietyTheory.Proofs.GenericRegularity.PeriodCoordinatesFramesLiftTendstoStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M064521",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.AdditiveCharConductorExistsStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M064641",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ContDensityOnEqFibreMass",
+      "missing_imports": []
+    },
+    {
+      "id": "M064665",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.DifferentiableOddTheta",
+      "missing_imports": []
+    },
+    {
+      "id": "M064733",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsBruhatFunctionOfClosedEmbedding",
+      "missing_imports": []
+    },
+    {
+      "id": "M064881",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ExistsUniqueHaarOfInvariantRadonOnCosetsStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M064920",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.FibOfZero",
+      "missing_imports": []
+    },
+    {
+      "id": "M065034",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.ImportsMore",
+      "missing_imports": []
+    },
+    {
+      "id": "M065039",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.IneLeFixingSubgroup",
+      "missing_imports": []
+    },
+    {
+      "id": "M065063",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.IsAlgClosureAlgebraicClosureRat",
+      "missing_imports": []
+    },
+    {
+      "id": "M065072",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.IsFibreFamilyEqAtContinuityPoint",
+      "missing_imports": []
+    },
+    {
+      "id": "M065074",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.IsFibreFamilyUnivOfNullCone",
+      "missing_imports": []
+    },
+    {
+      "id": "M065078",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.IsFieldAdicCompletionTensorOfInert",
+      "missing_imports": []
+    },
+    {
+      "id": "M065084",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.IsLocallyConstantRed",
+      "missing_imports": []
+    },
+    {
+      "id": "M065191",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LintegralComplexEqLintegralSqrtMulExpStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M065214",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LogDerivDirichletLFunctionLocalZeroSum",
+      "missing_imports": []
+    },
+    {
+      "id": "M065218",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LogDerivLFunctionStrip",
+      "missing_imports": []
+    },
+    {
+      "id": "M065219",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LogDerivRiemannZetaLocalZeroSum",
+      "missing_imports": []
+    },
+    {
+      "id": "M065266",
+      "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.MemOfFiniteDimensionalSpanRightTranslatesStatement",
+      "missing_imports": []
+    }
+  ],
+  "pruned": []
+}
