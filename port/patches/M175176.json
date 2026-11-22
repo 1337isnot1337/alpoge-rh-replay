@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ThetaQuasiPeriods.Transl",
+  "source_sha256": "7af4fa83462601ada4187557c9a61817b84c767a1e1aaac827c6134fa8135bc5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace generic congruence with congruence of multiplication by the common theta value to prevent unfolding complex exponentials. Retain a finite 200000-heartbeat budget; diagnostic profiling removed. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0236-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.SemiDegSt",
+  "source_sha256": "05f237ae91705183fcaab2967b026f53b1ab90f239e7ad3063dba2a9ce2dcef3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0236-lean436-20261121/packet-result.json"
+}

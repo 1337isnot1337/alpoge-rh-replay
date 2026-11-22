@@ -1,0 +1,18 @@
+--- a/src/ReciprocityTheory/ThetaQuasiPeriods/Transl.lean
++++ b/src/ReciprocityTheory/ThetaQuasiPeriods/Transl.lean
+@@ -1,4 +1,6 @@
+ import ReciprocityTheory.ThetaQuasiPeriods.ThetaQuasiPeriodStatement
++
++set_option maxHeartbeats 200000
+ 
+ noncomputable section
+ 
+@@ -98,7 +100,7 @@
+   have h1 := thetaRealTransl_holds ι a b (fun i => (n i : ℝ)) (fun i => (n' i : ℝ)) z τ hτ
+   simp only [ofRealVec_intCast] at h1
+   rw [h1, thetaIntChar_holds, ← mul_assoc]
+-  congr 1
++  apply congrArg (fun w : ℂ => w * theta a b z τ)
+   unfold autFactor
+   rw [← eC_add, ← eC_add]
+   have hk : ofIntVec n ⬝ᵥ ofIntVec n' = ((n ⬝ᵥ n' : ℤ) : ℂ) := by

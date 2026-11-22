@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ThetaQuasiPeriods.NormInvSmulMemSphere",
+  "source_sha256": "3ef2d9cb2e398b68c2ffa0c99e01c83893266a2bc856788c905dc6a16147b3e7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Reduce the matrix equivalence inverse before broader simplification unfolds its coercions. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0236-lean436-20261121/packet-result.json"
+}

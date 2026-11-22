@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.UnramifiedIntegrals.ModGEis",
+  "source_sha256": "66e9359f5085ce5c6f9d43496cd4686f799a51f0617b506e8e2d7e8afa066536",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0236-lean436-20261121/packet-result.json"
+}

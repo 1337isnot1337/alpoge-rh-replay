@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ThetaSummability.TailSumEstimates.ConeExp",
+  "source_sha256": "cd2d4b5eabc8726d38c75b1b209da92a1199da713bcb7b3c0ecc71f312eb2318",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0236-lean436-20261121/packet-result.json"
+}
