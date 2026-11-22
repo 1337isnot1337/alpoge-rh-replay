@@ -1,0 +1,19 @@
+--- a/src/GroundTheory/ArithmeticGeometry/SchemeCohomology/InvertibleSheaf.lean
++++ b/src/GroundTheory/ArithmeticGeometry/SchemeCohomology/InvertibleSheaf.lean
+@@ -241,6 +241,7 @@
+   have e : resM (P ⊗ Q) h (s ⊗ₜ t : (P ⊗ Q).obj (op U)) =
+       (resM P h s ⊗ₜ resM Q h t : (P ⊗ Q).obj (op V)) := rfl
+   rw [e]
++  letI : CommRing (ringOn X V) := inferInstanceAs (CommRing (X.sheaf.obj.obj (op V)))
+   let eP := LinearEquiv.ofBijective (LinearMap.toSpanSingleton (ringOn X V) _ (resM P h s)) (hs V h)
+   let eQ := LinearEquiv.ofBijective (LinearMap.toSpanSingleton (ringOn X V) _ (resM Q h t)) (ht V h)
+   let E := (TensorProduct.lid (ringOn X V) (ringOn X V)).symm ≪≫ₗ TensorProduct.congr eP eQ
+@@ -249,7 +250,7 @@
+     change eP 1 ⊗ₜ eQ r = _
+     change ((1 : ringOn X V) • resM P h s) ⊗ₜ (r • resM Q h t) = _
+     rw [one_smul, TensorProduct.tmul_smul]
+-  have : (fun r : ringOn X V => r • (resM P h s ⊗ₜ resM Q h t : (P ⊗ Q).obj (op V))) = E := by
++  have : (fun r : X.sheaf.obj.obj (op V) => r • (resM P h s ⊗ₜ resM Q h t : (P ⊗ Q).obj (op V))) = E := by
+     funext r
+     exact (hE r).symm
+   have hb := E.bijective

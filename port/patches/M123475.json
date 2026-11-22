@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.FourierInjectiveMatrixSpaceStatement",
+  "source_sha256": "853e94c4c06b484f70f0b0416c4a9f3ad36212f88cfbe01eadd080f5caf23b54",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0139-lean436-20261121/packet-result.json"
+}

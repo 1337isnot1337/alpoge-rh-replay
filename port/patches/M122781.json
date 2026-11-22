@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsFiniteSupport",
+  "source_sha256": "41bb4e0a34493c840c7c8230d73596ff8329b06d03291728e2bca59e47c5766a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0138-lean436-20261121/packet-result.json"
+}

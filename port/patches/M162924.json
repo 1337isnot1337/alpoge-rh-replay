@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.TensorProductTheorem.GenWindow",
+  "source_sha256": "c261eb8410520f5bae873ed4ff884629d55bfeed406efddeebb1a5f8cd869983",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

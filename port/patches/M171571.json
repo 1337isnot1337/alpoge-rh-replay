@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.PrimeSum",
+  "source_sha256": "8b326706b3041de89d81c1db2fa16b8d659593bca51841ee449ce499c4031227",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

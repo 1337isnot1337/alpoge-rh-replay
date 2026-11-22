@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.PrimeHopfOrderStatement",
+  "source_sha256": "48fcb0bf8c08966562c9ab77db8a26fa1fbd167ff022c2cbfd4f253ac36e5106",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

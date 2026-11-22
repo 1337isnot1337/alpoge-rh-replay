@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ResidueLatticeCount.ThirdLeLog",
+  "source_sha256": "060e6069e6af04545053b2304615c3fa1e0035a839730ae2d88e595bbd777a6e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

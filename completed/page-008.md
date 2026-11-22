@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M005028 | P0347 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.FirstCoordinateAdmissible` | wave-reused |
+| M005030 | P0003 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IMemSiegel` | wave-reused |
+| M005031 | P0096 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IntMIffInt` | volunteer-build-reviewed |
+| M005032 | P1001 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsBaseClassLevelAdapted` | volunteer-build-reviewed |
+| M005033 | P0393 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsHeatZero` | wave-reused |
+| M005034 | P0974 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsStabForm` | build-observed |
+| M005035 | P0946 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsSystem` | wave-reused |
+| M005036 | P1169 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsWeakOfDatum` | build-observed |
+| M005040 | P0731 | `Development.AbelianVarietyTheory.Definitions.TeichmullerDepth.HasTeich` | wave-reused |
+| M005041 | P0678 | `Development.AbelianVarietyTheory.Definitions.TeichmullerDepth.IsEigBasisIff` | wave-reused |
+| M005042 | P0891 | `Development.AbelianVarietyTheory.Definitions.TeichmullerDepth.PsJetEqToJetOfNonempty` | build-observed |
+| M005043 | P0174 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.AevalEqZeroOfHomogeneousComponent` | wave-reused |
+| M005044 | P0239 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.AwayToSectionFromZero` | wave-reused |
+| M005045 | P0475 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.CoeNonzeroLocusCanonicalEqComplRange` | wave-reused |
+| M005046 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.EqZeroOrSingleOfDegreeLtTwo` | wave-reused |
+| M005047 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.EventuallyDifferentiableAtOfContDiffAtTwo` | volunteer-build-reviewed |
+| M005048 | P0239 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsAlgebraicIndependentGenericPoint` | volunteer-build-reviewed |
 | M005049 | P0096 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsEventuallyNormRiemannThetaTermLe` | wave-reused |
 | M005050 | P0758 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsFormOfEqRatioPowMul` | wave-reused |
 | M005051 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsLinearIndependentNormLeSuccMin` | wave-reused |
@@ -382,23 +399,6 @@
 | M005537 | P0516 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRatLinearParamBlockDiagKernelStatement` | build-observed |
 | M005538 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRatOfForallComplexRingEquivFixed` | build-observed |
 | M005539 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRatOfForallComplexRingEquivFixedStatement` | build-observed |
+| M005540 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRatPolyEvalEqTensorPowerSumRightAction` | volunteer-build-reviewed |
+| M005541 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRatPolyEvalEqTensorPowerSumRightActionStatement` | volunteer-build-reviewed |
 | M005542 | P0394 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRatProjectorOfAutStableMatrices` | build-observed |
-| M005543 | P0436 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRatProjectorOfAutStableMatricesStatement` | build-observed |
-| M005544 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRationalCoordPolynomialBaseChange` | volunteer-build-reviewed |
-| M005546 | P0239 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRationalEquationsWeilRestriction` | volunteer-build-reviewed |
-| M005548 | P0811 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRationalInvariantTensor` | build-observed |
-| M005549 | P0839 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRationalInvariantTensorStatement` | build-observed |
-| M005550 | P0616 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRationalMatrixApproxAdeleLinearMap` | build-observed |
-| M005551 | P0648 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRationalMatrixApproxAdeleLinearMapStatement` | build-observed |
-| M005556 | P0295 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRealTranslateIsMinNormTensorInOrbit` | volunteer-build-reviewed |
-| M005557 | P0348 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRealTranslateIsMinNormTensorInOrbitStatement` | volunteer-build-reviewed |
-| M005559 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsReynoldsOfCompletelyReducible` | volunteer-build-reviewed |
-| M005560 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsReynoldsOfCompletelyReducibleStatement` | volunteer-build-reviewed |
-| M005561 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRingEquivApplyNeOfIsAlgebraic` | volunteer-build-reviewed |
-| M005562 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRingEquivNeOfTranscendental` | volunteer-build-reviewed |
-| M005563 | P0003 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRingHomAdicCompletion` | wave-reused |
-| M005564 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsRingHomAdicCompletionUnder` | wave-reused |
-| M005567 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsSmoothCompactSupportHasSumLatticeTranslate` | build-observed |
-| M005568 | P0174 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsSmoothHomogeneousHasSumUnitSmul` | build-observed |
-| M005569 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsSubSqLtOneOfTwoLtOne` | wave-reused |
-| M005571 | P0096 | `Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsSupersetMemSUnits` | wave-reused |

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DMBlockEntries",
+  "source_sha256": "f6a1f7460b6337a3cf80dc82a0a7ba479d37689b185fe80d808abd0d82e57244",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

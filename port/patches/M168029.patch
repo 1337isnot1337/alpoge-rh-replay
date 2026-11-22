@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/Intersections/StatementsFibreLocal.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/Intersections/StatementsFibreLocal.lean
+@@ -10,7 +10,7 @@
+ 
+ def momentPoly {Ω : Type*} [MeasurableSpace Ω] (μ : Measure Ω) (w : Ω → ℝ)
+     (Q : MvPolynomial (Fin 3) (Ω → ℝ)) : MvPolynomial (Fin 3) ℝ :=
+-  ∑ m ∈ Q.support, monomial m (∫ p, w p * coeff m Q p ∂μ)
++  ∑ m ∈ Q.support, monomial m (∫ p, w p * Q.coeff m p ∂μ)
+ 
+ def dotPoly {Ω : Type*} (n : Ω → S2) : MvPolynomial (Fin 3) (Ω → ℝ) :=
+   ∑ i, X i * C (fun p => (n p : E3) i)

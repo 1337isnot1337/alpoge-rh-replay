@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PieriBlockIdeals.PieriColumnMinors.ContentLinkageHolds",
+  "source_sha256": "5d1af3f44a13c0e3d1eb1b3a994f11d386764475ebcc3a8d20c7840700c0bf65",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

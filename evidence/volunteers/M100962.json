@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M100962"
+  ],
+  "started_utc": "2026-11-21T08:27:26.092510+00:00",
+  "ended_utc": "2026-11-21T08:28:29.885329+00:00",
+  "elapsed_seconds": 63.8,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6963776
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.PublishedTheorems.GlobalTheta.PlaneFormNondegenerate:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "43fa5a73332908dc6c77159369dbf35193e5b2247353a3223a2d02c153ef96e0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.EqOneOfPowClose"
+  ],
+  "objects": {
+    "M100962": "b31de25765fea9d62cc1e1401578d75fdec7aa3e7e184d519963f1ed4d83c78a"
+  },
+  "bundle_sha256": "4dc590eca7ed35dff7bad77f437eab56a1c6e4c0847a60f22f2e5973240d6fbf",
+  "packet": "M100962",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/17676#issuecomment-7059943681",
+  "reviewed_utc": "2026-11-22T00:50:09.581458+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.PublishedTheorems.GlobalTheta.PlaneFormNondegenerate"
+    ]
+  }
+}

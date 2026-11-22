@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.NormTensorProductMapLeftStatement",
+  "source_sha256": "b0e8f60f993ec64c5285fa198587b2f3edf02e634b8128bad896fe60d24bc5c4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

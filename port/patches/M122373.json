@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DirectedSystemTrR",
+  "source_sha256": "4587cd7ac19d92b05258e11f7f62ddf15d62c20e9bf47cb120d9d14eb453a1b5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent natural-number recursion API: the family parameter of Nat.leRecOn and its equations is now named motive. The transition maps, identity base map, index inequalities and all statements are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0138-lean436-20261121/packet-result.json"
+}

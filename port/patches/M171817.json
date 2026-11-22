@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.NsmulFstAddSnd",
+  "source_sha256": "b3cbe55e1ff05bac72e775515ed81a63d7629bd4c8f4c4c8d9896349ee7c0606",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

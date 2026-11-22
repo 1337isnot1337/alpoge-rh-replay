@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HermitianGroupLattices.StarMapTraceOfPowEqOne",
+  "source_sha256": "a74c5bc3bf024a1808e51a774d9f222012f54d337cd4744374917d797a51445d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

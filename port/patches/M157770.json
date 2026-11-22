@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.WfSubst",
+  "source_sha256": "7f4d4eb3b9a8baf3b09ac5155900ab2a579cbb877ef7cdc70e9130a834974288",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ProfiniteCohomology.KummerFinite",
+  "source_sha256": "4f4098591279e0d8dc31641893b9635770e4ea90c2dfc6163379edf43b28a4e8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}

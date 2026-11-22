@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.NormIteratedFDerivApplyLeOfHomogeneousPart",
+  "source_sha256": "8d43085617e5b5fd016b831b5118b35be09b764f5474ceb44a84b0259dec20e6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0099-lean436-20261121/packet-result.json"
+}

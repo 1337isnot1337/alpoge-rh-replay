@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.HeckeCharacterChoice.IsAntiHecke",
+  "source_sha256": "ad4718c1963a6cf8de39ebadcd10002269c9b11ce6b001ba9e1eb9062fb55677",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0201-lean436-20261121/packet-result.json"
+}

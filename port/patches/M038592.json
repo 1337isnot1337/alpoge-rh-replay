@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsOpenConnectedComponentOfIsLocallyNoetherianStatement",
+  "source_sha256": "11d55546245a6a7af9d433d0dafa43936a1dd7c390891f30ec19a8491cf46ccc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "local full-packet verification: lake build over all 64 P0109 targets on the port toolchain, Build completed successfully, exit 0"
+}

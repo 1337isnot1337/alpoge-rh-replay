@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.EffectiveHilbertSamuel.PLocUnifAnalytic",
+  "source_sha256": "618dc4b9270149b76e4a214a3a083dee65050e5556875af701fd2ffffb853a35",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Add noncomputable to torusSet, whose unchanged body depends on existing noncomputable definitions under the target compiler. The type, defining expression, quantifiers and mathematical meaning are unchanged; this only disables executable code generation.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0163-lean436-20261121/packet-result.json"
+}

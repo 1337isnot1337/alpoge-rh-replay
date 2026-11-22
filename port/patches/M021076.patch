@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DetEqOneUnitaryPrincipalCongruenceLevelThree.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DetEqOneUnitaryPrincipalCongruenceLevelThree.lean
+@@ -22,7 +22,7 @@
+     intro k; funext a; simp [mulVec, dotProduct, Pi.single_apply]
+   have hij := h (Pi.single i 1) (Pi.single j 1)
+   simp only [herm, cc_eq, hs] at hij
+-  simp only [mul_apply, transpose_apply, map_apply, Finset.sum_mul]
++  simp only [Matrix.mul_apply, transpose_apply, map_apply, Finset.sum_mul]
+   rw [Finset.sum_comm, hij]
+   simp [Pi.single_apply]
+ 

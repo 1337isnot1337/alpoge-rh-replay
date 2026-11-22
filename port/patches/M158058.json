@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RealPlaceAnalysis.UJLocCompact",
+  "source_sha256": "36732d3e1b0bf5cadfa90b60d86eea2c989a3c4f09138af8ae0ad7ffb6d5023c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

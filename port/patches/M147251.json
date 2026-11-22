@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.HermitianCurvature.ThetaExistenceInductiveFromPieces",
+  "source_sha256": "774ed1c6403ef49ab1fc05cc392db51e0ea330f49f0a91af8895711ff462bbac",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

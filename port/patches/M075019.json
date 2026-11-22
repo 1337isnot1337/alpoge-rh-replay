@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.UnitaryTwistInvolutionGLProperties",
+  "source_sha256": "daa6b3fa952a18c7c40079ed5524fafc991956dffa23ab4c25eae6ca09d21627",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify matrix multiplication and identity entry lemmas."
+}

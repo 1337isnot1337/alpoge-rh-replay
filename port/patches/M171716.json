@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.ColengthCotangentBoundStatement",
+  "source_sha256": "fa2be62ecf0bade4bd111943b05dd9148fc585b0bf23ba17aab8e1293bf010c0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

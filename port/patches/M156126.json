@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.MinkowskiBound.Assemble",
+  "source_sha256": "d88de865cec14f02b72d822cbb66cd6cd1b0a8207bab638c67dba9e16bece74a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite padicValNat to the equal natural-number multiplicity before using the updated Mathlib lemmas."
+}

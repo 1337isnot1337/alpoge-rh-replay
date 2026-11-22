@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightKernels.StatementsChartHessCompare",
+  "source_sha256": "eb94d0137b7d0cc466634e1cfdb3a6cf5668e8acb7b41b01612afa6e82cf443a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0229-lean436-20261121/packet-result.json"
+}

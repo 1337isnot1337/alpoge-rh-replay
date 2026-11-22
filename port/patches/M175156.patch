@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/SemistableReduction/SphereTorusC.lean
++++ b/src/ReciprocityTheory/SemistableReduction/SphereTorusC.lean
+@@ -83,7 +83,7 @@
+     MeasurePreserving f (sphereProb n) (sphereProb n) := by
+   refine ⟨hf.measurable, ?_⟩
+   simp only [sphereProb, ProbabilityTheory.cond, Measure.restrict_univ]
+-  rw [Measure.map_smul, hf.map_eq]
++  rw [Measure.map_smul _ hf.measurable.aemeasurable, hf.map_eq]
+ 
+ theorem measurePreserving_sphereRot {n : ℕ} (u : Fin n → Circle) :
+     MeasurePreserving (sphereRot u) (sphereProb n) (sphereProb n) :=

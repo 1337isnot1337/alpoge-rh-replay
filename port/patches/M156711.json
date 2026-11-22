@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SquarefreeRootShift.Development",
+  "source_sha256": "33ca48380381ee7edf9a6a57683b07a6a1c2d0a0f3ee130b71b2eab5b1c258da",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

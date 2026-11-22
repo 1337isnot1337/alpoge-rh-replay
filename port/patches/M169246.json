@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.Regularisation.PPuncturedExpOrder",
+  "source_sha256": "74e23c304a0c50b84c9563f3eac2f7cae4e1a73f0b663b1c395f5cf8f9f073a4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

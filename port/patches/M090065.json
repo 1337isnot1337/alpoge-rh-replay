@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.EchEqOneIff",
+  "source_sha256": "b6d87f0f235a7cdcca6c7f600c3a3b8044b4f6d89963ed3c453b4b941cef6fd4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

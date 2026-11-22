@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.JetIntegrality.CoeffPowEqZeroOfDegreeLt",
+  "source_sha256": "859710947aad6a74a4a8a27f1aa2f7e08b63a123282351970a78a8324ca8a6a2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the coefficient ring as a named argument to the power-series derivatives."
+}

@@ -1,0 +1,35 @@
+--- a/src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsSepClosedResidueFieldPowerSeriesComplex.lean
++++ b/src/Development/AbelianVarietyTheory/Definitions/GaloisGeometry/IsSepClosedResidueFieldPowerSeriesComplex.lean
+@@ -238,24 +238,25 @@
+       (pushInertia R K p π n x L σ).comp (pushAut R K p π g hg n x L) :=
+   gfibPull_rep R K _ _ n σ
+ 
+-def pushAct {X' : Scheme.{0}} (π : X' ⟶ X) {G : Type} [Group G] (ρ : G →* End X') (hρ : ∀ g, ρ g ≫ π = π) (n : ℕ)
++def pushAct {X' : Scheme.{0}} (π : X' ⟶ X) {G : Type} [Group G] (ρ : G →* End X') (hρ : ∀ g, (ρ g).asHom ≫ π = π) (n : ℕ)
+     (x : SpecialPoint p) (L : StrictLoc X x.1) : Representation R G (pushStalk R K p π n x L) where
+-  toFun g := pushAut R K p π (ρ g⁻¹) (hρ _) n x L
++  toFun g := pushAut R K p π (ρ g⁻¹).asHom (hρ _) n x L
+   map_one' := by
+-    rw [pushAut_congr R K p π (show ρ 1⁻¹ = 𝟙 X' by rw [inv_one, map_one]; rfl) _ (Category.id_comp _),
++    rw [pushAut_congr R K p π (show (ρ 1⁻¹).asHom = 𝟙 X' by simp) _ (Category.id_comp _),
+       pushAut_id]
+     rfl
+   map_mul' g h := by
+-    rw [pushAut_congr R K p π (show ρ (g * h)⁻¹ = ρ g⁻¹ ≫ ρ h⁻¹ by rw [mul_inv_rev, map_mul]; rfl) _
++    rw [pushAut_congr R K p π (show (ρ (g * h)⁻¹).asHom = (ρ g⁻¹).asHom ≫ (ρ h⁻¹).asHom by
++      simp only [mul_inv_rev, map_mul, End.mul_asHom]) _
+       (by rw [Category.assoc, hρ, hρ]), pushAut_comp]
+     rfl
+ 
+-theorem pushAct_apply {X' : Scheme.{0}} (π : X' ⟶ X) {G : Type} [Group G] (ρ : G →* End X') (hρ : ∀ g, ρ g ≫ π = π)
++theorem pushAct_apply {X' : Scheme.{0}} (π : X' ⟶ X) {G : Type} [Group G] (ρ : G →* End X') (hρ : ∀ g, (ρ g).asHom ≫ π = π)
+     (n : ℕ) (x : SpecialPoint p) (L : StrictLoc X x.1) (g : G) :
+-    pushAct R K p π ρ hρ n x L g = pushAut R K p π (ρ g⁻¹) (hρ _) n x L := rfl
++    pushAct R K p π ρ hρ n x L g = pushAut R K p π (ρ g⁻¹).asHom (hρ _) n x L := rfl
+ 
+ theorem pushAct_inertia {X' : Scheme.{0}} (π : X' ⟶ X) {G : Type} [Group G] (ρ : G →* End X')
+-    (hρ : ∀ g, ρ g ≫ π = π) (n : ℕ) (x : SpecialPoint p) (L : StrictLoc X x.1) (g : G) (σ : K ≃ₐ[O] K) :
++    (hρ : ∀ g, (ρ g).asHom ≫ π = π) (n : ℕ) (x : SpecialPoint p) (L : StrictLoc X x.1) (g : G) (σ : K ≃ₐ[O] K) :
+     (pushAct R K p π ρ hρ n x L g).comp (pushInertia R K p π n x L σ) =
+       (pushInertia R K p π n x L σ).comp (pushAct R K p π ρ hρ n x L g) :=
+   pushAut_inertia R K p π _ (hρ _) n x L σ

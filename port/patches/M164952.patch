@@ -1,0 +1,20 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/CountingLowerBound/PMeanCountBound.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/CountingLowerBound/PMeanCountBound.lean
+@@ -95,7 +95,7 @@
+     have hint : ∀ i : ℕ, Integrable (cnt (θ ^ (i + 1) * r)) μ := fun i =>
+       h.integrable _ (mul_pos (pow_pos hθ0 _) hr)
+     have hGi : Integrable G μ :=
+-      (integrable_const _).add (integrable_finsetSum _ fun i _ => (hint i).const_mul _)
++      (integrable_const _).add (integrable_finsetSum (range N) fun i _ => (hint i).const_mul ((36 * 12 ^ (i + 1) : ℝ) ^ a))
+     have hsum_nonneg : ∀ z, 0 ≤ ∑ i ∈ range N, (36 * 12 ^ (i + 1) : ℝ) ^ a *
+         cnt (θ ^ (i + 1) * r) z := fun z =>
+       sum_nonneg fun i _ => mul_nonneg (by positivity) (h.cnt_nonneg _ _)
+@@ -134,7 +134,7 @@
+     have hGint : ∫ z, G z ∂μ = 36 ^ a + ∑ i ∈ range N,
+         (36 * 12 ^ (i + 1) : ℝ) ^ a * meanCount μ cnt (θ ^ (i + 1) * r) := by
+       rw [hG, integral_add (integrable_const _)
+-        (integrable_finsetSum _ fun i _ => (hint i).const_mul _),
++        (integrable_finsetSum (range N) fun i _ => (hint i).const_mul ((36 * 12 ^ (i + 1) : ℝ) ^ a)),
+         integral_finsetSum _ fun i _ => (hint i).const_mul _]
+       simp [integral_const_mul, meanCount]
+     have hgeo : ∑ i ∈ range N, (36 * 12 ^ (i + 1) : ℝ) ^ a *

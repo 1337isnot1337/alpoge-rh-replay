@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PFibreBound",
+  "source_sha256": "b1cef2c3e2bc30e83cb61f117b04b22d4457760beda65a1ac25dff25d68a8898",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Replace the removed coefficient function with the same polynomial coefficient projection; coefficient values, including any occurrences in statements, are definitionally unchanged. Proof-only: make the existing scalar action explicit in the algebra rewrite. Proof-only: expose the finitely-supported monomial coefficient and register the scalar action of the existing projection algebra. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0161-lean436-20261121/packet-result.json"
+}

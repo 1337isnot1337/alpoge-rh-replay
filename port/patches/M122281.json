@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.DerivationCommutesWithTraceStatement",
+  "source_sha256": "d63974bf0bd1185103f9e3aa5cfee737f7a23479653cfda8c414fee910a0e80f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0138-lean436-20261121/packet-result.json"
+}

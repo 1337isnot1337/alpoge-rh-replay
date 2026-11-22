@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CharmatrixBlockDiagonal",
+  "source_sha256": "cd0d67e3e64e375f05f362a76175f3bed23aeab8cb4832d770b2afc99415608a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

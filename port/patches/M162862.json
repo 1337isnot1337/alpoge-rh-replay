@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.QuotientMeasure",
+  "source_sha256": "285ea05563898cc1f8f874d011e147494c75b4df978fb9c56890c310d145989d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Supply the now-explicit group argument in the completeness proof. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

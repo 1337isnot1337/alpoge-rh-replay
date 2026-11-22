@@ -1,0 +1,11 @@
+--- a/src/Development/WeilBound/CoreStatements/PadicHodgeComparison/EtaleCohomologyComparison/PerfectoidPullbacks/ConeSectionRestriction/RaTpowSinglePow.lean
++++ b/src/Development/WeilBound/CoreStatements/PadicHodgeComparison/EtaleCohomologyComparison/PerfectoidPullbacks/ConeSectionRestriction/RaTpowSinglePow.lean
+@@ -164,7 +164,7 @@
+ theorem torusS_succ_span (t : Fin (n + 1) → Rˣ) (k : Fin (n + 1)) :
+     ∀ x ∈ torusS K t (Finset.univ.erase k.succ), x ∈ Submodule.span K (tpow t '' {m | m ≠ fun _ => -1}) := by
+   intro x hx
+-  refine Submodule.span_mono (Set.image_mono fun m hm h => ?_) (ra_torusS_le_span t _ x hx)
++  refine Submodule.span_mono (Set.image_mono (s := expS (Finset.univ.erase k.succ)) (t := {m : Fin (n + 1) → ℤ | m ≠ fun _ => -1}) fun m hm h => ?_) (ra_torusS_le_span t _ x hx)
+   have := hm.1 k (by simp)
+   rw [h] at this
+   norm_num at this

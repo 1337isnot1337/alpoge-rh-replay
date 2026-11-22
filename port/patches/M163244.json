@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.IdeleGroups.Restricted",
+  "source_sha256": "55e3f3105e5461028b885f2ba0796959d2438cd162ba149f860d93a35eab504d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

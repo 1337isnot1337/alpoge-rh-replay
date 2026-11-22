@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsLinearOfMulPeriod",
+  "source_sha256": "4e9f75229967a8f9a43aaf3c8aedbf1cf0da111270dbfe3519b4f178c7feeb05",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

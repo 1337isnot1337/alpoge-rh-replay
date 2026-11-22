@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.EllFamNontrivial",
+  "source_sha256": "3625c8e25c8c1675fd0ee93af71ed5e4eb24ae855f377e9e67a8daf884eacf8a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Name the additive maps in the cocycle identity."
+}

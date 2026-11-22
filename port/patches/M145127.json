@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GaussJetBounds.StatementC",
+  "source_sha256": "12a37b3882ca770ea9845db6ad7a34f7b8eded7f4d56b4eac09614dc59af69cc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}

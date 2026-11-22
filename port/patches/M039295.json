@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsolateMaximalAmongPrimesContainingEtaleStatement",
+  "source_sha256": "89f2b92f4c85fd4119741e9b9538292c7811743f3153b3ecf40f71e4c6540365",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "local full-packet verification: lake build over all 64 P0109 targets on the port toolchain, Build completed successfully, exit 0"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupSplitting.Development",
+  "source_sha256": "40e7fcfc621e4b91e721e3bf19753c0b6ca93f02367f39d6fc3be2c1c3e1ab06",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GeometricProductBound.OneSubSumLeProd",
+  "source_sha256": "83e3059ff96abcef3aba6a3baba019604fc00a1661dbf5f05fdc8b186df82a24",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed finite-product bound with nonnegativity hypotheses."
+}

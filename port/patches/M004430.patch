@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Definitions/Jets/CmLatticeCommutatorPairingPowEqOneOfGoodLift.lean
++++ b/src/Development/AbelianVarietyTheory/Definitions/Jets/CmLatticeCommutatorPairingPowEqOneOfGoodLift.lean
+@@ -47,7 +47,7 @@
+ 
+ def mulS (a : ℤ_[q]) : ℂ_[q]⟦X⟧ := PowerSeries.mk fun n => if n = 0 then 0 else zc (Ring.choose a n)
+ 
+-def DT (f : ℂ_[q]⟦X⟧) : ℂ_[q]⟦X⟧ := (1 + X) * derivative ℂ_[q] f
++def DT (f : ℂ_[q]⟦X⟧) : ℂ_[q]⟦X⟧ := (1 + X) * derivative f
+ 
+ def Bd (C : ℝ) (f : ℂ_[q]⟦X⟧) : Prop := ∀ n, ‖coeff n f‖ ≤ C
+ 

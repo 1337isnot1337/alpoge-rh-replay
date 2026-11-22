@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PushoutResidueLinearIndependentStatement",
+  "source_sha256": "5f6b3511bade57715832552d297c8f4af17f21eebc6ee870a14352ebbffecd12",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0112-lean436-20261121/packet-result.json"
+}

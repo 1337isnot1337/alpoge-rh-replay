@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GL3MeanSquares.HookFormulaTorsion.SumLogFactorialRowsBounds",
+  "source_sha256": "4f9d48dcee2818bdf120a061411be8dccc364b73bd56550838cf5afe00ebca0c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the finite-product inequality with the existing nonnegativity premises. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}

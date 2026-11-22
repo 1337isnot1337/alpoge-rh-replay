@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.LocallyConstantTwoCochain",
+  "source_sha256": "f7eccccf56c6a0c99f1a110d4e340778146b66654e6cd0c07d342faa4c804bdb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

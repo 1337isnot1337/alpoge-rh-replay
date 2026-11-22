@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.ZetaActRefl",
+  "source_sha256": "3aa2b2c4224c0f7c7b935b0e9c42a36a657a81e23a54cb5fae5a6c6b2fea725e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

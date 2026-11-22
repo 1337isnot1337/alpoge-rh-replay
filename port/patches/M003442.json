@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.CircleAsphGNontrivial",
+  "source_sha256": "d31ab653336569e8297a275f0d0d44a6b9583758d7531735e84a2be70beba093",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

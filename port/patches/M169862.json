@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.LocalFields.ExamplesCharZero",
+  "source_sha256": "afaf9fdbb2d1897f8dd6febd3352b8c90756609911f2fa05ea6a858855bfebd0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "ValuativeExtension.vle_iff_vle now takes its two arguments implicitly; pass them through a lambda. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}

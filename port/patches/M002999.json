@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.IsHermForm",
+  "source_sha256": "22afa2d2263abc878170a4fcb3f86a4d83faa24ae8aed039ac882a63fbbf20ca",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

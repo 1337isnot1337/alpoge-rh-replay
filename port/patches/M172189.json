@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.SymmetricSections.EsymmZero",
+  "source_sha256": "f290ef8dad2c6b03daf24ddf8ad529e0503b9a19242c62403a16721093a5dae7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

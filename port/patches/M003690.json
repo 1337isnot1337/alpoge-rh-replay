@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.IsKMOne",
+  "source_sha256": "bcf39abeffa62636c8862115fcbbd7e5da5dce20ffc78b6cd8ad87572e845b8b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

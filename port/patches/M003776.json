@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.LogAbsVpOfNormalised",
+  "source_sha256": "b5f4540b920ae0fcc0c14d71a3caa04e8dd67628f837d7df988bd445551e872d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

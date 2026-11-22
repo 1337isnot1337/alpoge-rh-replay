@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/BlockTheory/AbelianSchemeLaw/TrivialBiextension.lean
++++ b/src/Development/AbelianVarietyTheory/BlockTheory/AbelianSchemeLaw/TrivialBiextension.lean
+@@ -187,7 +187,7 @@
+ end
+ 
+ def trivBiext [IsCommMonObj G] : Biext G (trivLB (G2 G).left) where
+-  isLB := ⟨@iSup_const _ PUnit _ _ _, fun _ => map_one _, fun _ _ _ =>
++  isLB := ⟨(by simp only [trivLB, iSup_const]), fun _ => map_one _, fun _ _ _ =>
+     ((congrArg₂ (· * ·) (map_one _) (map_one _)).trans (_root_.mul_one _)).trans (map_one _).symm⟩
+   law₁ := ⟨fun _ => 1⟩
+   law₁_isGen := isGen_one _ _

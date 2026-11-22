@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfVanish",
+  "source_sha256": "3068420557ee456414403e62740baf8f9afaaefa424d4fc588953320b08e01ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

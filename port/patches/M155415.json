@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.IsometryDualPair.SymmetricMeasureL2NormEqResolutionL2",
+  "source_sha256": "7396a22a7878514066a35c67c4e93963dea17480b4f6f71abc27888b9b812da3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "State the finite-dimensional instances, finrank equality and linear map explicitly in the surjectivity argument."
+}

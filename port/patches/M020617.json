@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DedekindPowerLocalization",
+  "source_sha256": "ecd5a2c44b42056aa57ffc21cda5314b5b014be72135744f5538077ff4270b3e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

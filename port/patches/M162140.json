@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WindowSums.AnnihilatorPolynomials.ValProd",
+  "source_sha256": "77309c76def0ba15e6d66496cee0685cc69eeadc7a1ce899044e538d97efcdf1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent natural-valuation API adaptation: multiplicity p n equals padicValNat p n by Nat.padicValNat_def, for every natural p and n including zero and one. Replace this notation in helper statements and proofs while retaining all quantifiers, hypotheses, valuation equalities and the imported final proposition. Use corresponding multiplication and prime-power lemmas.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0159-lean436-20261121/packet-result.json"
+}

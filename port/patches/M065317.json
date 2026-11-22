@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.NormOneSubConjMul",
+  "source_sha256": "41024947de1bae8c0a9ae00715ada3d2cb441ad82485c7ee0f01cfe430b631c5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Proof-only: expose pointwise function multiplication before rewriting the logarithmic derivative. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0120-lean436-20261121/packet-result.json"
+}

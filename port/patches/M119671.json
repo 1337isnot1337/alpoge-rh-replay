@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Definitions.CommutativeAlgebra.LieLatticeData",
+  "source_sha256": "078271d892f0a856f68bce9649424d4f67d1c884fb6b617178b0ec0263651660",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent scalar-action additive homomorphism API: the renamed DistribSMul.toAddMonoidHom V c is the same map v \u21a6 c \u2022 v. The image and preimage lattice definitions are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0137-lean436-20261121/packet-result.json"
+}

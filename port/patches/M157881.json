@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PieriBlockIdeals.WEChain",
+  "source_sha256": "37b17f055673b191ee1d425f1cfcb750b43c6ff790b31a3aaf9d9f9905647b90",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

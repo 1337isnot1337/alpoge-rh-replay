@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.ImportsBis",
+  "source_sha256": "de0492b4f88eb2f006f702bc3b387c22358965f02e4c1421d80e06a309adb278",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

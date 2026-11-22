@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices\u2082.ExistsIntMulIsIntegralOfTrace",
+  "source_sha256": "f28cd6b57ab16d570725a100c18a32c04e7ef9edce51e09dcd266be3a4b97e07",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use HasUniqueDiv for the proof-local rational module instance: this is the renamed old IsAddTorsionFree condition that positive nsmul maps are injective. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0197-lean436-20261121/packet-result.json"
+}

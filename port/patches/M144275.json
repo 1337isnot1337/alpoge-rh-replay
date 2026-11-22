@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.DoubleCosetMeasures.LowerUnipotentOrbits.IsClosedLowUni",
+  "source_sha256": "14e89fda18a8f003c21daaa5a947dd161593cd69bfea90f3de403e2f8e6b50a6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

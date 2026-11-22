@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SubmatrixMulOfSupport",
+  "source_sha256": "02ef02d4fe50da59c94833a37dfe3286c4796297612389bfea6b3a5c901670c6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

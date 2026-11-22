@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GaussValuationBounds.GaussUnit",
+  "source_sha256": "b1b876037e1fffd3b8666d0046d731d08998358232d89bb741f0bc1d328b0410",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}

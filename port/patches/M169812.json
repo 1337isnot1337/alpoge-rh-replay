@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.LocalFields.AbstractLocalReciprocity.ExistsEqNsmulOfProjEqZero",
+  "source_sha256": "c553cc0adc5a28372f19aa9050e0e65cf7193d7bffc1b5d2f0bf9e5c69112983",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The pinned IsAddTorsionFree field nsmul_right_injective became HasUniqueDiv, and IsAddTorsionFree now has the single field eq_of_nsmul_eq_nsmul_of_addCommute with an extra AddCommute hypothesis. The instance still provides IsAddTorsionFree ℤ̂; ℤ̂ is commutative, so the new class means the same as the pinned one there. The old proof fills the new field with the commute hypothesis unused, and drops a simp only at h that the new field's statement no longer needs.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.PTrdegAdjoinLe",
+  "source_sha256": "f5bf74479f6474446bdb8521372fb2efdc6173b2e23c0cf19a0278de33c6595f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0161-lean436-20261121/packet-result.json"
+}

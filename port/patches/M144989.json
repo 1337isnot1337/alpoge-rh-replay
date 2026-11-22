@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GL3MeanSquares.HookFormulaTorsion.OrthogonalMinorBound",
+  "source_sha256": "ad259ed426c96ee3be5f77157b59aa1b389f21e50abb60acb31c607489123d4d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the finite-product inequality with the existing nonnegativity premises. Disambiguate matrix multiplication from pointwise function multiplication. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}

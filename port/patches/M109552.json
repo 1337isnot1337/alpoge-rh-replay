@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsMonicFactorOfRootSubsetProductEquation",
+  "source_sha256": "fee1b351f43f7c30ed23d5c801a5d9c88b9672ee991bcdcdd108e4a4bcdc3e6d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed polynomial coefficient-of-finite-sum lemma. Use the renamed polynomial evaluation-of-finite-sum lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0201-lean436-20261121/packet-result.json"
+}

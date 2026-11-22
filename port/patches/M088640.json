@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.LocModuleUnit",
+  "source_sha256": "80b10e2b79e99a80a5fc20486c56983b91c2850f535b7f908e16ddfc31897324",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

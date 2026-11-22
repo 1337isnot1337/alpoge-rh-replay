@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.IsSMulRegularQuotIffMemNonZeroDivisors",
+  "source_sha256": "8b26f339973c893dc6ac68aa5c2dcd88711a4230fed58a934dea3268f1d25e72",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0098-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PolynomialDifferentialWords.KappaCoeff",
+  "source_sha256": "9946ffec1b52d72d8ec68ed11fda8d0217d7ec067491b1d75dc4369dfaf717ed",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed injective domain-map lemma and the equivalent multivariate polynomial coefficient projections."
+}

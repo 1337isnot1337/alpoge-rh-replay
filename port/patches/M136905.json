@@ -1,0 +1,8 @@
+{
+  "module": "Development.ResolutionOfSingularities.Foundations.Schemes.IdealSheafData",
+  "source_sha256": "530606e3577146e00d2022a74381360d8f4e4c2b39efbda0cd49d68759971d01",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0144-lean436-20261121/packet-result.json"
+}

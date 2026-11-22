@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SatakeParameters.SegmentEigenvalueSumFormulaStatement",
+  "source_sha256": "d7c772cdd9dfe45cc608349cd4bc3f930d2a150cd5a014c635f5bff5c0c56cad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
