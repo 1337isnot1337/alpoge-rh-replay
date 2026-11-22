@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GrowthSums.StatementG",
+  "source_sha256": "416409d9318365786d27a73796ac693cfef8b07e0858713a5e31a428294dfefc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.KernelNonzeroModulusDeterminantEq",
+  "source_sha256": "e5dbe8de5d6cfb92b78bb97e3ee04a4a9a12800fe51580092fd15a62e1287f92",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use continuity of constant multiplication from the existing topological group structure. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}
