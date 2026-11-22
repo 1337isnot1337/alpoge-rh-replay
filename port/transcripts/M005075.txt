@@ -1,0 +1,125 @@
+Packet P0174, partial submission
+Upstream base 161ac3c38bbdfaf28515017c306f516c5ec550a6
+Port record commit a02077d288b880c66a5215b2b829cbf0fce4a569
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M005075
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Definitions.ThetaValues.ExistsMemRowHighestTotalDegreeEqTwo
+islattice-audit: 1 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+
+Build verification on the upstream base
+Building 1 explicitly requested module(s).
+Resolved 2 transitive project import(s) (3 total module(s) to materialize).
+[FETCH] Materializing 3 SHA-256-verified source file(s)...
+[FETCH] Verified 3/3 source file(s).
+[KEEP]  M005061: unchanged (verified against archive source)
+[PATCH] M005075: applied M005075.patch
+[KEEP]  M006459: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 1 module(s) with `lake build`...
+        IDs: M005075
+⚠ [18250/18254] Built Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsWeightedHomogeneousOfMemOrbitSpan (14s)
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/IsWeightedHomogeneousOfMemOrbitSpan.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/IsWeightedHomogeneousOfMemOrbitSpan.lean:86:67: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp +contextual
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/IsWeightedHomogeneousOfMemOrbitSpan.lean:121:33: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [xForm_apply, pderiv_X]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/IsWeightedHomogeneousOfMemOrbitSpan.lean:201:16: `Finset.Ioi_insert` has been deprecated: Use `Finset.insert_Ioi` instead
+
+Hint: Replace the deprecated name:
+  F̵i̵n̵s̵e̵t̵.̵I̵o̵i̵_̵i̵n̵s̵e̵r̵t̵F̲i̲n̲s̲e̲t̲.̲i̲n̲s̲e̲r̲t̲_̲I̲o̲i̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/IsWeightedHomogeneousOfMemOrbitSpan.lean:299:0: automatically included section variable(s) unused in theorem `GlobalTheory.Harm.colSubst_comp`:
+  [Fintype κ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype κ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/IsWeightedHomogeneousOfMemOrbitSpan.lean:449:28: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [baseCovec, baseVec, this]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/IsWeightedHomogeneousOfMemOrbitSpan.lean:518:10: This simp argument is unused:
+  eval_yForm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [baseVec, Pi.single_apply, Matrix.one_apply, eq_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/IsWeightedHomogeneousOfMemOrbitSpan.lean:523:10: This simp argument is unused:
+  eval_xForm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [baseCovec, Pi.single_apply, Matrix.one_apply, eq_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/IsWeightedHomogeneousOfMemOrbitSpan.lean:572:68: This simp argument is unused:
+  diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Matrix.GeneralLinearGroup.scalar, Pi.single_apply, eq_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/IsWeightedHomogeneousOfMemOrbitSpan.lean:574:76: This simp argument is unused:
+  diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [vecAct, Matrix.GeneralLinearGroup.scalar, Pi.single_apply, eq_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18251/18254] Ran Development.AbelianVarietyTheory.Definitions.ThetaMetrics.IsWeightedHomogeneousOfMemOrbitSpan:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/IsWeightedHomogeneousOfMemOrbitSpan.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsHarmonicProdOfDisjointColumns (13s)
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IsHarmonicProdOfDisjointColumns.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IsHarmonicProdOfDisjointColumns.lean:123:39: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IsHarmonicProdOfDisjointColumns.lean:129:39: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IsHarmonicProdOfDisjointColumns.lean:130:39: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IsHarmonicProdOfDisjointColumns.lean:292:52: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IsHarmonicProdOfDisjointColumns.lean:310:52: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18253/18254] Ran Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IsHarmonicProdOfDisjointColumns:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IsHarmonicProdOfDisjointColumns.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built Development.AbelianVarietyTheory.Definitions.ThetaValues.ExistsMemRowHighestTotalDegreeEqTwo (27s)
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaValues/ExistsMemRowHighestTotalDegreeEqTwo.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaValues/ExistsMemRowHighestTotalDegreeEqTwo.lean:62:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Definitions/ThetaValues/ExistsMemRowHighestTotalDegreeEqTwo.lean:265:8: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+Build completed successfully (18254 jobs).
+[PASS]  M005075 (Development.AbelianVarietyTheory.Definitions.ThetaValues.ExistsMemRowHighestTotalDegreeEqTwo)
+
+PORT_BUILD_PASSED all 1 module(s).

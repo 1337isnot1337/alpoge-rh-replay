@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Definitions/ThetaValues/ExistsMemRowHighestTotalDegreeEqTwo.lean
++++ b/src/Development/AbelianVarietyTheory/Definitions/ThetaValues/ExistsMemRowHighestTotalDegreeEqTwo.lean
+@@ -253,7 +253,7 @@
+     | mul_X P v hP =>
+       obtain ⟨t', r'', k⟩ := v
+       rw [map_mul, map_mul, Polynomial.eval_mul, hP, rowAdd_X]
+-      congr 1
++      apply congrArg (fun Q : Poly R T p q κ => rowAdd t r r' s P * Q)
+       simp only [Φ, aeval_X]
+       split_ifs
+       · rw [mul_comm (C s)]; simp
