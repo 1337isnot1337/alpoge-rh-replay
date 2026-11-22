@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.HalfPowerSpherical",
+  "source_sha256": "1b5586691e1a73e6cf7b6fc9b310c66ffd7a9513777ad60aeb3aa453e42e1634",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use IsFullLattice to retain the original spanning and finite-generation assumptions."
+}

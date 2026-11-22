@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.ExponentTerms",
+  "source_sha256": "5471ae57c5423954ad122a4954f96e3e6927b6dec76aa54eab3ab0579e7919f7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use IsFullLattice to retain the original spanning and finite-generation assumptions."
+}

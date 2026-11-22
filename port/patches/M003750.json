@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.KerIdealCompOfSurjective",
+  "source_sha256": "03a678ea9185a8eaedc56c5cea45164a661068b7cdd197fdd44d988bad60adae",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

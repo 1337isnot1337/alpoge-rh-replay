@@ -1,0 +1,63 @@
+--- a/src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/HalfPowerSpherical.lean
++++ b/src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/HalfPowerSpherical.lean
+@@ -128,7 +128,7 @@
+   ∀ (n n' : Type) [Fintype n] [DecidableEq n] [Fintype n'] [DecidableEq n'] (c : ℕ) (α α' : kˣ)
+     (L : Submodule 𝒪[k] (n → k)) (L' : Submodule 𝒪[k] (n' → k)) (Λ₀ : Submodule 𝒪[k] (n ⊕ Fin c → k))
+     (b' : ℕ → kˣ) (ν : Measure k),
+-    L.IsLattice k → L'.IsLattice k → Λ₀.IsLattice k → HasRatio (α * α') (c + 1) b' → ν.IsAddHaarMeasure →
++    L.IsFullLattice k → L'.IsFullLattice k → Λ₀.IsFullLattice k → HasRatio (α * α') (c + 1) b' → ν.IsAddHaarMeasure →
+     let Λ := monLat c L fun i => α⁻¹ * b' i
+     let Φ := sph α (monLat (c + 1) L' b') Λ₀
+     (∀ p, 1 ≤ p → p ≤ c →
+@@ -154,7 +154,7 @@
+     (∀ j, Even j → j + 2 ≤ m → idl (b j ((m - j) / 2)) = idl (b 0 (m / 2) * (α' / α) ^ (j / 2))) ∧
+     ∀ (n n' : Type) [Fintype n] [DecidableEq n] [Fintype n'] [DecidableEq n']
+       (Λ : Submodule 𝒪[k] (n → k)) (L' : Submodule 𝒪[k] (n' → k)) (ψ : AddChar k Circle) (ν : Measure k) (ε : ℤˣ),
+-      Λ.IsLattice k → L'.IsLattice k → HasConductor ψ (α * α') → ν.IsAddHaarMeasure →
++      Λ.IsFullLattice k → L'.IsFullLattice k → HasConductor ψ (α * α') → ν.IsAddHaarMeasure →
+       ReceivesZ ψ ν ε α L' Λ (b (m - 2) 1) (b 0 (m / 2) * (α' / α) ^ (m / 2)) ∧
+       (Nonempty n → ∀ bz, ReceivesZ ψ ν ε α L' Λ (b (m - 2) 1) bz →
+         idl bz = idl (b 0 (m / 2) * (α' / α) ^ (m / 2))) ∧
+@@ -173,7 +173,7 @@
+ def Rescale : Prop :=
+   ∀ (n n' : Type) [Fintype n] [DecidableEq n] [Fintype n'] [DecidableEq n'] (c : ℕ) (α α' : kˣ)
+     (L : Submodule 𝒪[k] (n → k)) (L' : Submodule 𝒪[k] (n' → k)) (b' : ℕ → kˣ),
+-    L.IsLattice k → L'.IsLattice k → (∀ i, 1 ≤ i → i ≤ c → b' i / b' (i + 1) = α * α') →
++    L.IsFullLattice k → L'.IsFullLattice k → (∀ i, 1 ≤ i → i ≤ c → b' i / b' (i + 1) = α * α') →
+     let β₀ : k := ((α * α' : kˣ) : k)
+     let b : ℕ → kˣ := fun i => α⁻¹ * b' i
+     let D := frame n c b
+@@ -219,7 +219,7 @@
+   ∀ (n n' n'' : Type) [Fintype n] [DecidableEq n] [Fintype n'] [DecidableEq n'] [Fintype n''] [DecidableEq n'']
+     (c ρ : ℕ) (α α' : kˣ) (Λ : Submodule 𝒪[k] (n ⊕ Fin c → k)) (L' : Submodule 𝒪[k] (n' → k))
+     (L'' : Submodule 𝒪[k] (n'' → k)) (b'' : ℕ → kˣ) (ψ : AddChar k Circle) (ν : Measure k),
+-    c + 1 = 2 * ρ → Λ.IsLattice k → L'.IsLattice k → L''.IsLattice k → HasRatio (α * α') (c + 1 + 1) b'' →
++    c + 1 = 2 * ρ → Λ.IsFullLattice k → L'.IsFullLattice k → L''.IsFullLattice k → HasRatio (α * α') (c + 1 + 1) b'' →
+     HasConductor ψ (α * α') → IsSelfDual ψ ν →
+     let b' : ℕ → kˣ := fun i => α⁻¹ * b'' i
+     (∃ C : ℝ, 0 < C ∧ IsHalfPow k C ∧ ∀ (μ : kˣ →* ℂˣ) x β,
+@@ -239,12 +239,12 @@
+     IsChain α α' m (chainGen α α' m) ∧
+     (∀ i, 1 ≤ i → i + 1 ≤ m → chainGen α α' m 0 i = α ^ (m - i) * α' ^ (-(i : ℤ)) ∧
+       (chainGen α' α m 0 i)⁻¹ = chainGen α α' m 0 (m - i)) ∧
+-    (∀ (n : Type) [DecidableEq n] (j c : ℕ) (L : Submodule 𝒪[k] (n → k)), m = j + c + 1 → L.IsLattice k →
+-      (chainLat α α' j c L).IsLattice k ∧ HasRatio (α * α') c (chainGen α α' m j) ∧
++    (∀ (n : Type) [DecidableEq n] (j c : ℕ) (L : Submodule 𝒪[k] (n → k)), m = j + c + 1 → L.IsFullLattice k →
++      (chainLat α α' j c L).IsFullLattice k ∧ HasRatio (α * α') c (chainGen α α' m j) ∧
+       ∀ ψ : AddChar k Circle, HasConductor ψ (α * α') → IsPrimitive ψ (chainLat α α' j c L)) ∧
+     (∀ (n n' : Type) [Fintype n] [DecidableEq n] [Fintype n'] [DecidableEq n'] (j c : ℕ)
+       (L : Submodule 𝒪[k] (n → k)) (L' : Submodule 𝒪[k] (n' → k)) (ν : Measure k),
+-      m = j + c + 1 → 1 ≤ j → 1 ≤ c → L.IsLattice k → L'.IsLattice k → ν.IsAddHaarMeasure →
++      m = j + c + 1 → 1 ≤ j → 1 ≤ c → L.IsFullLattice k → L'.IsFullLattice k → ν.IsAddHaarMeasure →
+       let Λ := chainLat α α' j c L
+       let Φ := sph α (chainLat α α' (j - 1) (c + 1) L') Λ
+       (∀ p, 1 ≤ p → p ≤ c →
+@@ -263,7 +263,7 @@
+     idl (chainGen α α' m (m - 2) 1 * α' / α) = idl 1 ∧
+     ∀ (n n' : Type) [Fintype n] [DecidableEq n] [Fintype n'] [DecidableEq n']
+       (Λ : Submodule 𝒪[k] (n → k)) (L' : Submodule 𝒪[k] (n' → k)) (ψ : AddChar k Circle) (ν : Measure k) (ε : ℤˣ),
+-      Λ.IsLattice k → L'.IsLattice k → HasConductor ψ (α * α') → ν.IsAddHaarMeasure →
++      Λ.IsFullLattice k → L'.IsFullLattice k → HasConductor ψ (α * α') → ν.IsAddHaarMeasure →
+       ReceivesZ ψ ν ε α L' Λ (chainGen α α' m (m - 2) 1) 1
+ end Chain
+ 

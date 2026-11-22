@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.BottomMinor",
+  "source_sha256": "814fabb2bfff2053f96e0f80dff1089096d7c7ea2129e182e02a4ce404dbc8d3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

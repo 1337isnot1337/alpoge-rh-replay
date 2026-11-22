@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.AbelianSchemeLaw.SemiAbelianModels",
+  "source_sha256": "cf021ff8c4f71772e176a45f1948ecd90d3bb1b73d67cf3a484e1666f98cb31d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,29 @@
+--- a/src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/PositiveTwistAverage.lean
++++ b/src/Development/AbelianVarietyTheory/BlockTheory/TwistedDiscreteSeries/PositiveTwistAverage.lean
+@@ -69,7 +69,7 @@
+     (b : P →ₗ[ℂ] A →ₗ[ℂ] ℂ) (φ : P') (F : A),
+     IsSmoothRep π → IsSmoothRep π' → IsSmoothRep σ → IsColLift μ π' π θ → IsPosTw ψ η p π σ b →
+     (∀ u ∈ U, σ u F = F) →
+-    (∀ C : Submodule 𝒪[k] (n' → k), C.IsLattice k → C₀ ≤ C → ∃ z,
++    (∀ C : Submodule 𝒪[k] (n' → k), C.IsFullLattice k → C₀ ≤ C → ∃ z,
+       RrIs ψ ν μX μG μ η' η (p + 1) σ θ (fun φ₁ v => exUp ν p σ (b φ₁) v) φ F Φ z ∧
+       RrIs ψ ν μX μG μ η' η p σ θ (fun φ₁ v => b φ₁ v) φ F (avg ν μ η' η p C Φ) z) ∧
+     (∀ T : Finset (n' → k), IsReps (perp ψ U₀) B₁.toAddSubgroup T → ∃ w : (n' → k) → ℂ,
+@@ -88,7 +88,7 @@
+     (b' : P' →ₗ[ℂ] A' →ₗ[ℂ] ℂ) (φ : P') (F : A),
+     IsSmoothRep π' → IsSmoothRep σ → IsSmoothRep σ' → IsRowLift μ η' η σ σ' ϑ → IsPosTw ψ η' p π' σ' b' →
+     (∀ u ∈ U, σ u F = F) →
+-    (∀ C : Submodule 𝒪[k] (n' → k), C.IsLattice k → C₀ ≤ C →
++    (∀ C : Submodule 𝒪[k] (n' → k), C.IsFullLattice k → C₀ ≤ C →
+       exUp ν p σ' (b' φ) (ϑ F Φ) = b' φ (ϑ F (avg ν μ η' η p C Φ))) ∧
+     (∀ T : Finset (n' → k), IsReps (perp ψ U₀) B₁.toAddSubgroup T →
+       b' φ (ϑ F Φ) = (((Measure.pi fun _ : n' => ν).real (B₁ : Set (n' → k)) : ℝ) : ℂ) *
+@@ -103,7 +103,7 @@
+   ∀ (μ η' η : kˣ →* ℂˣ), Continuous μ → IsUnramUnitary η' → IsUnramUnitary η →
+   ∀ Φ ∈ SB (Matrix (n ⊕ Fin c) (n' ⊕ Fin (c + 1)) k),
+   ∀ U : Subgroup (GL (n ⊕ Fin c) k), IsOpen (U : Set (GL (n ⊕ Fin c) k)) →
+-  ∃ C₀ U₀ B₁ : Submodule 𝒪[k] (n' → k), C₀.IsLattice k ∧ U₀.IsLattice k ∧ B₁.IsLattice k ∧
++  ∃ C₀ U₀ B₁ : Submodule 𝒪[k] (n' → k), C₀.IsFullLattice k ∧ U₀.IsFullLattice k ∧ B₁.IsFullLattice k ∧
+     (∀ u ∈ U₀, omTw μ η' η (rowE (c + 1) p u) 1 Φ = Φ) ∧
+     (∀ β ∈ B₁, omTw μ η' η (colE (c + 1) (p + 1) β) 1 Φ = Φ) ∧
+     B₁.toAddSubgroup ≤ perp ψ U₀ ∧ (∃ T, IsReps (perp ψ U₀) B₁.toAddSubgroup T) ∧

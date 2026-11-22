@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.IsHermND",
+  "source_sha256": "aa5e9b680667b45d8c0cf789ee3eca02553e2a8b7d261c23b8f5b98969cbcdd9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.IntegralLocallyConstCochainModPow",
+  "source_sha256": "cbc0eddd6ade14bd4b27877434ef78ebabe54f243e6ae895a524ff0e96c80d99",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.GlobalSignature.SelfDualLatticeActions",
+  "source_sha256": "7143b159ea91a449fe61f7f0aa4a088b11faaf8d017461caa4f29bd99a133b93",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

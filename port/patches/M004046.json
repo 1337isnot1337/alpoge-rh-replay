@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.ExistsRootOfIsAlgClosed",
+  "source_sha256": "b35e3d9ac22e21309bcde95953cfc73b8823d93ec4d3e452adcf4f9d4a34d9e4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

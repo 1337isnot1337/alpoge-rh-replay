@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.SamePartIffOfNeZero",
+  "source_sha256": "42a53713aef630afe981e394640f6cf9cf236122b25ad1f4343216e3b2faf372",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite the p-adic valuation through multiplicity and use the current coprimality lemma."
+}

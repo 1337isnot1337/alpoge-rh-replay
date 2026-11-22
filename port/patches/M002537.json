@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.SiegelWeilLocal.FullySplitStabilizers",
+  "source_sha256": "3d16fb57ca8ca0cc1634dddab79debbabca8d3f647be4a5dfa7f2346c9ca07be",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

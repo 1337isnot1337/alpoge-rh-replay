@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.TwistedDiscreteSeries.FourierJacobiAverage",
+  "source_sha256": "d379240a58949483a702b4785175037110caf0c908811323c03bae50930aa90c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Project the two submodule elements to their underlying functions explicitly."
+}

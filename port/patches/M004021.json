@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.CyclotomicDvdExpandOfCoprime",
+  "source_sha256": "3bed4d8e02e5e56f2bc1a6c3ee92e7e8d8425ea4aa50989d1d5986fc057e96a3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the coefficient ring by name to the power series derivative."
+}

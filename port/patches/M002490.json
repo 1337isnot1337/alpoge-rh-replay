@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.EtaDualPairing",
+  "source_sha256": "e39579b3c7b094f77fa1769e6250785772cb736448ed815574ec9e64ef840274",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

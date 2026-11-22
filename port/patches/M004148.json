@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.SimpleSumRowCol",
+  "source_sha256": "23bf1c3b7a4bc9a010639537958db9c9d8f741a70f00f8dd1280512f12652c24",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Measurable.of_eval for the measurable coordinate maps."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.RepL",
+  "source_sha256": "90c4c890b3fb4d52b444f5bd37470c4f8d0a6971237a8cefaf3e408bc0a433bc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.TorusNoLeClassNoRankOne",
+  "source_sha256": "ebf1fb29051aedb6e78c3843604de2d6b17bc27ce6d61f052bcc1fb9ce98de6a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

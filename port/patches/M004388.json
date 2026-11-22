@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.LatIntZero",
+  "source_sha256": "76b5413cb71a6a93a7983ee3babbc5d7b5404722b31479b0bfc7c26d2f8780b5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
