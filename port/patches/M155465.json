@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.JetIntegrality.GlueHoldsVar",
+  "source_sha256": "a746c8762342af8abb427c9d18ccb3a05d43bc0bebe8c23cd588ed506c610a5c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0218-lean436-20261121/packet-result.json"
+}

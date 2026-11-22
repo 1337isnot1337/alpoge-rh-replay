@@ -1,0 +1,62 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/JetIntegrality/ExpLog.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/JetIntegrality/ExpLog.lean
+@@ -59,7 +59,7 @@
+   _root_.UpperTheory.Reformulated.B.IntegralPolynomialOverPadicAlgCl.intMv_X i
+ 
+ theorem intMv_pderiv {F : MvPowerSeries σ ℂ_[p]} (i : σ) (hF : IntegralMv F) :
+-    IntegralMv (pderiv ℂ_[p] i F) :=
++    IntegralMv (pderiv i F) :=
+   _root_.UpperTheory.Reformulated.B.Gwb7.intMv_pderiv i hF
+ 
+ theorem intMv_inv {F : MvPowerSeries σ ℂ_[p]} (hF : IntegralMv F) (h1 : constantCoeff F = 1) :
+@@ -92,7 +92,7 @@
+     rw [coeff_pow_eq_zero hf (by omega), zero_div]
+ 
+ theorem pderiv_expT (f : MvPowerSeries σ ℂ_[p]) (i : σ) (N : ℕ) :
+-    pderiv ℂ_[p] i (expT f (N + 1)) = pderiv ℂ_[p] i f * expT f N := by
++    pderiv i (expT f (N + 1)) = pderiv i f * expT f N := by
+   simp only [expT, map_sum, Derivation.map_smul, Finset.mul_sum]
+   rw [Finset.sum_range_succ']
+   simp only [pow_zero, Derivation.map_one_eq_zero, smul_zero, add_zero]
+@@ -103,16 +103,16 @@
+     have h1 : ((n + 1 : ℕ) : ℂ_[p]) ≠ 0 := by exact_mod_cast n.succ_ne_zero
+     rw [Nat.factorial_succ, Nat.cast_mul, mul_inv, mul_comm, ← mul_assoc, mul_inv_cancel₀ h1, one_mul]
+   rw [hn]
+-  calc C ((n + 1).factorial : ℂ_[p])⁻¹ * (C ((n + 1 : ℕ) : ℂ_[p]) * f ^ n * pderiv ℂ_[p] i f)
+-      = C (((n + 1).factorial : ℂ_[p])⁻¹ * ((n + 1 : ℕ) : ℂ_[p])) * (f ^ n * pderiv ℂ_[p] i f) := by
++  calc C ((n + 1).factorial : ℂ_[p])⁻¹ * (C ((n + 1 : ℕ) : ℂ_[p]) * f ^ n * pderiv i f)
++      = C (((n + 1).factorial : ℂ_[p])⁻¹ * ((n + 1 : ℕ) : ℂ_[p])) * (f ^ n * pderiv i f) := by
+         rw [map_mul]; ring
+-    _ = pderiv ℂ_[p] i f * (C (n.factorial : ℂ_[p])⁻¹ * f ^ n) := by rw [key]; ring
++    _ = pderiv i f * (C (n.factorial : ℂ_[p])⁻¹ * f ^ n) := by rw [key]; ring
+ 
+ theorem pderiv_expMv {f : MvPowerSeries σ ℂ_[p]} (hf : constantCoeff f = 0) (i : σ) :
+-    pderiv ℂ_[p] i (expMv f) = pderiv ℂ_[p] i f * expMv f := by
++    pderiv i (expMv f) = pderiv i f * expMv f := by
+   ext α
+-  have h1 : coeff α (pderiv ℂ_[p] i (expMv f)) =
+-      coeff α (pderiv ℂ_[p] i (expT f (Finsupp.degree α + 1 + 1))) := by
++  have h1 : coeff α (pderiv i (expMv f)) =
++      coeff α (pderiv i (expT f (Finsupp.degree α + 1 + 1))) := by
+     rw [coeff_pderiv, coeff_pderiv, coeff_expMv_eq_expT hf]
+     rw [map_add, Finsupp.degree_single]; omega
+   rw [h1, pderiv_expT, coeff_mul, coeff_mul]
+@@ -127,15 +127,15 @@
+   simp
+ 
+ theorem L0 {f c : MvPowerSeries σ ℂ_[p]} (i : σ) (hf : constantCoeff f = 0)
+-    (hE : IntegralMv (expMv f)) (hc : IntegralMv c) : IntegralMv (c * pderiv ℂ_[p] i f) := by
++    (hE : IntegralMv (expMv f)) (hc : IntegralMv c) : IntegralMv (c * pderiv i f) := by
+   obtain ⟨G, hG, hEG⟩ := intMv_inv hE (constantCoeff_expMv f)
+-  have : c * pderiv ℂ_[p] i f = c * pderiv ℂ_[p] i (expMv f) * G := by
++  have : c * pderiv i f = c * pderiv i (expMv f) * G := by
+     rw [pderiv_expMv hf, mul_assoc, mul_assoc, hEG, mul_one]
+   rw [this]
+   exact intMv_mul (intMv_mul hc (intMv_pderiv i hE)) hG
+ 
+ theorem integral_of_simeq_alt {F G c : MvPowerSeries σ ℂ_[p]} (i : σ) (h : Simeq F G) (hc : IntegralMv c) :
+-    IntegralMv (c * pderiv ℂ_[p] i (F - G)) :=
++    IntegralMv (c * pderiv i (F - G)) :=
+   L0 i h.1 h.2 hc
+ 
+ end PI.JetsPhW.W

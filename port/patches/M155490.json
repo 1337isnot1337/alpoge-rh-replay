@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeArea.ImConjMulCombo",
+  "source_sha256": "8b4fc3962b9c7f9c606b958cad74fcfb705b02846e9f21c6b87ec6c39324bf59",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0218-lean436-20261121/packet-result.json"
+}

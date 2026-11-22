@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.HaarFibreUniqueness.UniqGen",
+  "source_sha256": "aaa1b5baf228bf57e87b3a0fa7af5f55d7334ff3be67b5828705a27f6eb86eef",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Use the renamed space parameter and explicitly indexed open unions. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0218-lean436-20261121/packet-result.json"
+}
