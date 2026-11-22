@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.IwahoriEigenvaluesOfNewton",
+  "source_sha256": "53b6a12dbd1bbc6758695bb6208ff3a9df0d68d5ed75ddac43701c21c5c34f5f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Evaluate monomial coefficients as finitely supported singles and specify the unchanged ring/monoid homomorphisms in root and value-group transport. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0188-lean436-20261121-r2/packet-result.json"
+}

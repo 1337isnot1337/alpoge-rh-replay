@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.MapOneDirichlet",
+  "source_sha256": "2ca14cc111ff68e19f5a11c48dde8193e05d3fc159c62e7fcd1094651ed6588c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0188-lean436-20261121-r2/packet-result.json"
+}
