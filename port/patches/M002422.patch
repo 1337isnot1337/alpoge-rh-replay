@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/TraceFormDualSystem.lean
++++ b/src/Development/AbelianVarietyTheory/BlockTheory/JetGauges/TraceFormDualSystem.lean
+@@ -152,7 +152,7 @@
+   rw [pairing_eq_dualSystem D]
+   exact D.pairing_of_sum l β x x' h
+ 
+-def pairingValues (β : balancedForms E Y) : Set ℝ := Set.range fun l : Exponent E Y => pairing l β
++noncomputable def pairingValues (β : balancedForms E Y) : Set ℝ := Set.range fun l : Exponent E Y => pairing l β
+ 
+ def IsPhiC (β : balancedForms E Y) (r : ℝ) : Prop := IsLeast (pairingValues β) r
+ 
