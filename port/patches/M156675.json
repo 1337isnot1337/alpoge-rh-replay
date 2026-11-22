@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SquarePairGluing.ConjTransposeMemLam",
+  "source_sha256": "bfab2684f73417aa87cd9ee97a20d3564ebb0700aa409486e67dcb0051d545df",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
