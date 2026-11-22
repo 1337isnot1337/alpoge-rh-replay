@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PieriBlockIdeals.MertensReciprocalElementary",
+  "source_sha256": "b98103775faf5707bae824525b24115474a09873ab4381faec05ae1715ade494",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}

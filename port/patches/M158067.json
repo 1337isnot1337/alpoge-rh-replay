@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.ResultantValuation.ResultantAdjugateProofs.Parabolic",
+  "source_sha256": "6ce40a44896d0094a9c4813c9a1eaa1d99c6e690fa64a048f7406420b9f30a5e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}

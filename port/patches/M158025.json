@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.RealPlaceAnalysis.RealPlaceTaylor.HWDiag",
+  "source_sha256": "2aad5ca5fef395ebec6508314d08e8855a347bb6a69913882aa00d2fff7c7722",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}

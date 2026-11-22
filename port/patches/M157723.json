@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittUnramified.WittUnramMain",
+  "source_sha256": "42aeed1716b8605445c683ecd462492d50517b0c2f242bd83311fb3a1287d51a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}

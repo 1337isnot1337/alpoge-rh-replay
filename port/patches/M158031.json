@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.RealPlaceAnalysis.RealPlaceTaylor.KoszulLowersPower",
+  "source_sha256": "97bf03a00f550a6fba44bd3d2eea8434d00c8c8f77fec484ce51a766f8320c60",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.RealPlaceAnalysis.StatementC",
+  "source_sha256": "e40068f616d30a79c9693e46cea24baaa5f33dc991e39f381161db3e10b7cbc0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}

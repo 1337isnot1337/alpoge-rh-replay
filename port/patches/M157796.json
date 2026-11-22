@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PieriBlockIdeals.LatticeInclusionFormsInjective",
+  "source_sha256": "6460e8fe0913e02a6e3ea2181053d8128b6b945542f2f9a9d2c9fb8cefbfa154",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}

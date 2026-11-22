@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ZeroWindow.Transfer",
+  "source_sha256": "0c661ec40fbb8565bacac8cbb7da22acc0be7a42cfc4c3d82ee625696cdd60aa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Expose the typed intersection of the two open half planes. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0221-lean436-20261121/packet-result.json"
+}
