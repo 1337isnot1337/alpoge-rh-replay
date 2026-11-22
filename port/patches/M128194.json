@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TorsQuot",
+  "source_sha256": "8473a9d05c98cb574f023253f2c5f87f14b3461c6d7a6e898fdbdf9ad66950e2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the quotient homomorphism explicitly when transporting the root."
+}

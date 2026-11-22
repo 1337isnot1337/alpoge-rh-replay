@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/EigenComponentMapCompat.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/EigenComponentMapCompat.lean
+@@ -52,7 +52,7 @@
+     · exact hs t ht
+ 
+ theorem iSupIndep_eigSp (ρ : O →+* Module.End k V) : iSupIndep (fun σ : O →+* k => eigSp ρ σ) :=
+-  (iSupIndep_iff_finset_sum_eq_zero_imp_eq_zero _).2 fun s v hv h0 i hi =>
++  (iSupIndep_iff_finsetSum_eq_zero_imp_eq_zero _).2 fun s v hv h0 i hi =>
+     eigSp_sum_eq_zero ρ s v hv h0 i hi
+ 
+ theorem eq_zero_of_mem_eigSp_of_mem_iSup (ρ : O →+* Module.End k V) (σ : O →+* k) {y : V}

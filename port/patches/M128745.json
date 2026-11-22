@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VecInnerOfKerBasic",
+  "source_sha256": "b9fe327788c28b00e636dcc720659f05feb5f47ad816764f3eab35c85e5822f9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

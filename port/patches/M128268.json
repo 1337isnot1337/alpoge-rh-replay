@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingSmulDualStatement",
+  "source_sha256": "ba297ffeb9310b9ff26a0cd17f4954504624214b4ef10da6bb585af32f73567e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

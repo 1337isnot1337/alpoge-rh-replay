@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ValuationPowerIffStatement",
+  "source_sha256": "12974af297b03c91295a274af6cd2b439684787fb43c7445754eb69afe4df7c9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

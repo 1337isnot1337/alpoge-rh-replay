@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwistOfSectionLaw",
+  "source_sha256": "05c552b246055c9fed75e3b39392225c19fe7ac55ae4128558d2041d763e9754",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

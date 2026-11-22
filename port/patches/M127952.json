@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.SurjectivePreservesClosednessComparabilityStatement",
+  "source_sha256": "46f4403034c91341b8b8619b9f4ddd6a9a40f3a04a23a2ff0f07e3dfdad18782",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VandermondeSquaresStatement",
+  "source_sha256": "a7ac6f737d0be1b6ba4b570e7e431dc458ac591d81f943a23a3ce14fc9b7ed07",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

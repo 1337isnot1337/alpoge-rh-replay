@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ShufflePermFlattenStatement",
+  "source_sha256": "e92d77ad1aa92f122d5a8b6cdedbed60bb56addc8f7d6f2a873d6404f06a9d07",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TwistedJacquetExactSmooth",
+  "source_sha256": "d7461a023a7cffb2b96e229411dc642a66a35e47d01ab138f0aa2da2e6e95e23",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

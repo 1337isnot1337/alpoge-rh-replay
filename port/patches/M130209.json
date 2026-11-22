@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.ExistsDenominatorRegular",
+  "source_sha256": "80b24ff21787fc6ebad7aaf233c1be191292e6b279fddd46530ecdb327f73221",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

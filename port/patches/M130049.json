@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.DiscriminantValuationDifferent",
+  "source_sha256": "48071ad7698d421cecc484d214dd2439d7e28f546267c09b62ff3cb1d90e736d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Relate the integer and natural valuations through multiplicity."
+}

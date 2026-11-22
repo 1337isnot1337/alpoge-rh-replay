@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.DerRingInjective",
+  "source_sha256": "f8fe6464966d8a1a110d6fcaa8f8f06526b231d233e343df5fb6684f913bfeda",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

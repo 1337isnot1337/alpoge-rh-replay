@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.GeometryProofs.EpiRingHomFieldClosureStatement",
+  "source_sha256": "703ba918cf1f9c8456bafd772d31f6bce814b55b670eb434720be258046ffaae",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

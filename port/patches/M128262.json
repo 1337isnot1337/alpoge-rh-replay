@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TracePairingFrobeniusCompatStatement",
+  "source_sha256": "71a36c9abfcba9e0bd38eb225ed329b9ba6d5dd4dc4377e06477a4b895a9a3bb",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

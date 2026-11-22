@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.VecNormOfVecClose",
+  "source_sha256": "32a0701b3e17565af9e6d26faea7a472edd84ddfe2a6e547605549895ccab1ae",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

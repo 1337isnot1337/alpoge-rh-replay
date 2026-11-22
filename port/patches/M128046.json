@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.TensorIdealMapInjective",
+  "source_sha256": "cde56c86c3569e9c54c8c88f99ca697f532642bb1c1b4d9dae9720dcbb6f54b9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
