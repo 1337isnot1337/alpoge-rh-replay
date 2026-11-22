@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ClmSupBound",
+  "source_sha256": "1d59d8c12c479b0ce3061789a847d7069f4ab3fbf1780c9eec316240568448fc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

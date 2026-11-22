@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.ExistsStrictAnti",
+  "source_sha256": "bb02f3e9f0376879253bc16b2ec2bfeda625ba7af38c55d3215788d694e44efd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

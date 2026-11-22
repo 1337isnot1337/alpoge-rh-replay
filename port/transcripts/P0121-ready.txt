@@ -1,0 +1,437 @@
+Packet P0121, partial submission
+Upstream base 5043bdb319f7733aec21f2a91ff9518d8051a73e
+Port record commit 8a25e04fcc426dfaea3f6debaeb4ea41ebc6fd2c
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M066841 M066868 M067422 M067591 M067691 M068207 M068758 M068766 M069191 M069261
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AssociatedTraceAndLvlDvd Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BaseChangePolynomialAnnihilatesDescentStatement Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CloseVectorNeZero Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CompanionMatrixOfCoeffsPowMulVecFirstBasisVector Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ConjTransposeVecMulVecSelf Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DetSuccEqSubSumUpdateRow Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsConstOfLvlInvariant Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsContinuousCongruenceNearSymmetricMatrix Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIndepSpan Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralSolutionFrobeniusSubMulVecEq
+islattice-audit: 10 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+⚠ [18266/18275] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralSolutionFrobeniusSubMulVecEq (14s)
+⚠ [18267/18275] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DetSuccEqSubSumUpdateRow (18s)
+⚠ [18268/18275] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CompanionMatrixOfCoeffsPowMulVecFirstBasisVector (20s)
+⚠ [18269/18275] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsContinuousCongruenceNearSymmetricMatrix (21s)
+⚠ [18271/18275] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BaseChangePolynomialAnnihilatesDescentStatement (12s)
+⚠ [18272/18275] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CloseVectorNeZero (28s)
+⚠ [18273/18275] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIndepSpan (23s)
+⚠ [18274/18275] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AssociatedTraceAndLvlDvd (16s)
+⚠ [18274/18275] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsConstOfLvlInvariant (11s)
+⚠ [18275/18275] Built Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ConjTransposeVecMulVecSelf (12s)
+
+Build verification on the upstream base
+Building 10 explicitly requested module(s).
+Resolved 8 transitive project import(s) (18 total module(s) to materialize).
+[FETCH] Materializing 18 SHA-256-verified source file(s)...
+[FETCH] Verified 18/18 source file(s).
+[KEEP]  M004742: unchanged (verified against archive source)
+[KEEP]  M004779: unchanged (verified against archive source)
+[KEEP]  M004824: unchanged (verified against archive source)
+[KEEP]  M004846: unchanged (verified against archive source)
+[KEEP]  M066841: unchanged (verified against archive source)
+[KEEP]  M066867: unchanged (verified against archive source)
+[KEEP]  M066868: unchanged (verified against archive source)
+[KEEP]  M067422: unchanged (verified against archive source)
+[KEEP]  M067591: unchanged (verified against archive source)
+[PATCH] M067691: applied M067691.patch
+[KEEP]  M068207: unchanged (verified against archive source)
+[KEEP]  M068334: unchanged (verified against archive source)
+[PATCH] M068758: applied M068758.patch
+[KEEP]  M068766: unchanged (verified against archive source)
+[KEEP]  M069191: unchanged (verified against archive source)
+[KEEP]  M069261: unchanged (verified against archive source)
+[PATCH] M073057: applied M073057.patch
+[KEEP]  M170125: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 10 module(s) with `lake build`...
+        IDs: M066841, M066868, M067422, M067591, M067691, M068207, M068758, M068766, M069191, M069261
+⚠ [18250/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.OneAddXMulDerivativeBin
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/OneAddXMulDerivativeBin.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/OneAddXMulDerivativeBin.lean:339:66: `Ideal.mem_jacobson_bot` has been deprecated: Use `Ring.mem_jacobson_iff` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u} [inst : CommRing R] {x : R}, x ∈ Ring.jacobson R ↔ ∀ (y : R), IsUnit (x * y + 1)
+instead of
+  ∀ {R : Type u} [inst : CommRing R] {x : R}, x ∈ ⊥.jacobson ↔ ∀ (y : R), IsUnit (x * y + 1)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mem_jacobson_bot` to `Ring.mem_jacobson_iff x`).
+⚠ [18251/18275] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.OneAddXMulDerivativeBin:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/OneAddXMulDerivativeBin.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AssociatedTraceAndLvlDvd
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/AssociatedTraceAndLvlDvd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/AssociatedTraceAndLvlDvd.lean:27:40: `emultiplicity_zero` has been deprecated: Use `emultiplicity_zero_right` instead
+
+Hint: Replace the deprecated name:
+  emultiplicity_zero_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/AssociatedTraceAndLvlDvd.lean:33:42: `ENat.coe_ne_top` has been deprecated: Use `ENat.natCast_ne_top` instead
+
+Hint: Replace the deprecated name:
+  E̵N̵a̵t̵.̵c̵o̵e̵_̵n̵e̵_̵t̵o̵p̵E̲N̲a̲t̲.̲n̲a̲t̲C̲a̲s̲t̲_̲n̲e̲_̲t̲o̲p̲
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/AssociatedTraceAndLvlDvd.lean:79:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/AssociatedTraceAndLvlDvd.lean:162:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18253/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BaseChangePolynomialAnnihilatesDescent
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescent.lean:27:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescent.lean:36:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescent.lean:46:30: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescent.lean:46:52: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescent.lean:54:17: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescent.lean:66:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+⚠ [18254/18275] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BaseChangePolynomialAnnihilatesDescent:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BaseChangePolynomialAnnihilatesDescentStatement
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescentStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescentStatement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescentStatement.lean:14:68: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescentStatement.lean:14:125: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescentStatement.lean:14:68: Unused tactic linter: `exact GlobalTheory.baseChange_polynomial_kills_descent` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/BaseChangePolynomialAnnihilatesDescentStatement.lean:14:125: Unused tactic linter: `(intros;
+  apply GlobalTheory.baseChange_polynomial_kills_descent <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18256/18275] Replayed Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.PowerSeriesOneAddConstMulXMulInv
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/PowerSeriesOneAddConstMulXMulInv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/PowerSeriesOneAddConstMulXMulInv.lean:153:0: automatically included section variable(s) unused in theorem `GlobalTheory.PhiGam.pull_le_pull`:
+  [Module k⸨X⸩ V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module k⸨X⸩ V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/PowerSeriesOneAddConstMulXMulInv.lean:182:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/PowerSeriesOneAddConstMulXMulInv.lean:183:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/PowerSeriesOneAddConstMulXMulInv.lean:291:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18257/18275] Ran Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.PowerSeriesOneAddConstMulXMulInv:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/PowerSeriesOneAddConstMulXMulInv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CloseVectorNeZero
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/CloseVectorNeZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/CloseVectorNeZero.lean:101:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/CloseVectorNeZero.lean:155:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/CloseVectorNeZero.lean:156:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/CloseVectorNeZero.lean:164:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18259/18275] Replayed Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FourierMatch
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/FourierMatch.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18260/18275] Ran Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.FourierMatch:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/FourierMatch.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18261/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CompanionMatrixOfCoeffsPowMulVecFirstBasisVector
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/CompanionMatrixOfCoeffsPowMulVecFirstBasisVector.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/CompanionMatrixOfCoeffsPowMulVecFirstBasisVector.lean:111:31: This simp argument is unused:
+  Matrix.transpose_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.col_apply, Matrix.map_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/CompanionMatrixOfCoeffsPowMulVecFirstBasisVector.lean:153:0: automatically included section variable(s) unused in theorem `GlobalTheory.JR.ImgSec.bm_actU`:
+  [Unram F E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Unram F E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18262/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ConjTransposeVecMulVecSelf
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ConjTransposeVecMulVecSelf.lean:8:0: automatically included section variable(s) unused in theorem `GlobalTheory.UnitWitt.vecMulVec_mulVec_eq`:
+  [StarRing E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ConjTransposeVecMulVecSelf.lean:20:4: This simp argument is unused:
+  Finset.mul_sum
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Matrix.mul_apply, vecMulVec_apply, Matrix.smul_apply, smul_eq_mul, dotProduct, Pi.star_apply,
+    Finset.sum_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ConjTransposeVecMulVecSelf.lean:87:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18263/18275] Replayed Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsPsCharOne
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsPsCharOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18264/18275] Ran Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.IsPsCharOne:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/IsPsCharOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18265/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DetSuccEqSubSumUpdateRow
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/DetSuccEqSubSumUpdateRow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18266/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DvdSubOfDvdSubX
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/DvdSubOfDvdSubX.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18267/18275] Ran Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DvdSubOfDvdSubX:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/DvdSubOfDvdSubX.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18268/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsConstOfLvlInvariant
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsConstOfLvlInvariant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsConstOfLvlInvariant.lean:141:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsConstOfLvlInvariant.lean:166:66: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+⚠ [18269/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsContinuousCongruenceNearSymmetricMatrix
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsContinuousCongruenceNearSymmetricMatrix.lean:11:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsContinuousCongruenceNearSymmetricMatrix.lean:12:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsContinuousCongruenceNearSymmetricMatrix.lean:13:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsContinuousCongruenceNearSymmetricMatrix.lean:14:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsContinuousCongruenceNearSymmetricMatrix.lean:15:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsContinuousCongruenceNearSymmetricMatrix.lean:16:88: `FiniteDimensional.complete` has been deprecated: Use `FiniteDimensional.completeSpace` instead
+
+Hint: Replace the deprecated name:
+  FiniteDimensional.completeS̲p̲a̲c̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsContinuousCongruenceNearSymmetricMatrix.lean:16:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsContinuousCongruenceNearSymmetricMatrix.lean:21:36: This simp argument is unused:
+  inv_mul_cancel₀ h2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsContinuousCongruenceNearSymmetricMatrix.lean:21:87: This simp argument is unused:
+  mul_inv_cancel₀ h2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [smul_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18270/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIndepSpan
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsIndepSpan.lean:15:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsIndepSpan.lean:19:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsIndepSpan.lean:16:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsIndepSpan.lean:27:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18271/18275] Replayed Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MooreNorm
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/MooreNorm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18272/18275] Ran Development.AbelianVarietyTheory.Definitions.NonGaloisDescent.MooreNorm:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/NonGaloisDescent/MooreNorm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18273/18275] Replayed GroundTheory.PAdicHodge.SemilinearResidue
+warning: src/GroundTheory/PAdicHodge/SemilinearResidue.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/PAdicHodge/SemilinearResidue.lean:80:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/PAdicHodge/SemilinearResidue.lean:80:55: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/PAdicHodge/SemilinearResidue.lean:183:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/PAdicHodge/SemilinearResidue.lean:193:56: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18274/18275] Ran GroundTheory.PAdicHodge.SemilinearResidue:irArts
+warning: src/GroundTheory/PAdicHodge/SemilinearResidue.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18275/18275] Replayed Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralSolutionFrobeniusSubMulVecEq
+warning: src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsIntegralSolutionFrobeniusSubMulVecEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18275 jobs).
+[PASS]  M066841 (Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.AssociatedTraceAndLvlDvd)
+[PASS]  M066868 (Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.BaseChangePolynomialAnnihilatesDescentStatement)
+[PASS]  M067422 (Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CloseVectorNeZero)
+[PASS]  M067591 (Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.CompanionMatrixOfCoeffsPowMulVecFirstBasisVector)
+[PASS]  M067691 (Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ConjTransposeVecMulVecSelf)
+[PASS]  M068207 (Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.DetSuccEqSubSumUpdateRow)
+[PASS]  M068758 (Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsConstOfLvlInvariant)
+[PASS]  M068766 (Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsContinuousCongruenceNearSymmetricMatrix)
+[PASS]  M069191 (Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIndepSpan)
+[PASS]  M069261 (Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsIntegralSolutionFrobeniusSubMulVecEq)
+
+PORT_BUILD_PASSED all 10 module(s).

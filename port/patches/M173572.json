@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SemiabelianSchemes.SplitTori.SplitTorusIsCommMonObjSt",
+  "source_sha256": "76a2a64d943e6a3160beaa576176bb1ba5dda8eda0ea1764eb65319ac978b2d0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0170-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianUniqueness.MulMApply",
+  "source_sha256": "a5b54721fd46cab4c8f87a3cc042f9f1432e5507daff1f142b9b83ca6ee7fb1f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

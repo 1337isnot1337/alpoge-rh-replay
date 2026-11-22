@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.MeasureEqZeroOfFiniteInterLinesStatement",
+  "source_sha256": "b24ca244ddc1a79ec2d1c6fd1869944f214951b3fa809696ece6ff5c6b582ebe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0120-lean436-20261121/packet-result.json"
+}

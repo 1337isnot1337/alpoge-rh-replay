@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ProfiniteCohomology.DiscreteModules.IsDiscreteRepIffForallExistsOpenNormalSubgroup",
+  "source_sha256": "f9538b4fc1a47da506d9ff66c0cb355e4499cb427ff41fdeb873706342fd1c0f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Representation.isTrivial_apply is no longer a simp lemma, so pass it to simp, and Rep.isZero_iff now takes the representation explicitly. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}

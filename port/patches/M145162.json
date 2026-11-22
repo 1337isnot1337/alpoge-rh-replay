@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GaussValuationBounds.KapBound3",
+  "source_sha256": "7c5386c79afc7e1188076803a1ffff8065cb3802884f6a86c6bdc0765d512909",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}

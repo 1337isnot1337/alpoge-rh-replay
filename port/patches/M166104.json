@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightKernels.PChartMassInvariant",
+  "source_sha256": "9b19016ee8e7fdbe804367cbed87f27f166a6bf6e066ddc991a455ab941b4631",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current lower-triangular property of the same LDL inverse matrix. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0229-lean436-20261121/packet-result.json"
+}

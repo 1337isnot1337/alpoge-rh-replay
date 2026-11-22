@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.GeometryOfNumbers.LatticeCovolumes.DegStB",
+  "source_sha256": "59256bf97288fd70559eac8e38dadda24a7e0d44037e5a3953d2213bcf3596a1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

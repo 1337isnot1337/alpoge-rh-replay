@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterExtension.UnitsComplexExistsZpow",
+  "source_sha256": "f0159505bfe98464ab082b752928ca88ac389e3dc50fbd48f9d0ab931fe5fa33",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PSimpleRootBranch",
+  "source_sha256": "a3e7235e452c74a15034aed403c77ff33a7ac08972fe38f73595c592e1ac81c0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

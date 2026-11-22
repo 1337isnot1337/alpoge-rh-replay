@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGenericPrimitive",
+  "source_sha256": "a23fabfa771cd745b5a8b91499e90ba07e6089969b07f975ed3e0add5a9ac851",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

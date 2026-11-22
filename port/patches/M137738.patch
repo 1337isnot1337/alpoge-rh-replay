@@ -1,0 +1,11 @@
+--- a/src/Development/WeilBound/CoreStatements/AutomorphicKernels/SiegelWeilFormula/UnfoldingCompactness/AbsUnfB.lean
++++ b/src/Development/WeilBound/CoreStatements/AutomorphicKernels/SiegelWeilFormula/UnfoldingCompactness/AbsUnfB.lean
+@@ -20,7 +20,7 @@
+   obtain ⟨S, hS_def⟩ : ∃ S : V → ℝ≥0∞, S = fun β => ∑' q, ‖A q β‖ₑ := ⟨_, rfl⟩
+   have hSm : Measurable S := by
+     rw [hS_def]
+-    exact Measurable.ennreal_tsum fun q => hAm q
++    exact Measurable.tsum fun q => hAm q
+   have hSper : ∀ (ν : Λ) β, S (β + ν) = S β := by
+     intro ν β
+     let e : Q ≃ Q := ⟨fun q => act q ν, fun q => act q (-ν),

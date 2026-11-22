@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PPrincipalReductionOfBoundedGens",
+  "source_sha256": "6d2220a3c0c1bacab3d0b9e6b5a7a25d67b0cdb4b5349a1233d0e57562e7983b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: evaluate the finitely supported singleton at its own index before using ideal closure under negation. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0163-lean436-20261121/packet-result.json"
+}

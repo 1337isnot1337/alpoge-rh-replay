@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.IsSatFrame",
+  "source_sha256": "ed1ce3f2c5753abacf5984d7aeb6e5fe6a06e2e451893c0c310fdecd19ea3ae4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.ULimConst",
+  "source_sha256": "30a50e180ed73c559f11d6013f9657e6a302e74629f5ab023e9cd51d5275c45f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0197-lean436-20261121/packet-result.json"
+}

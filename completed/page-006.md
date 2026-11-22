@@ -2,6 +2,21 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M003634 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IndEtOfForallFinset` | wave-reused |
+| M003636 | P1271 | `Development.AbelianVarietyTheory.Definitions.Divisors.InstCMHostS` | volunteer-build-reviewed |
+| M003641 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.IotaScalarOne` | wave-reused |
+| M003642 | P0238 | `Development.AbelianVarietyTheory.Definitions.Divisors.IrreducibleOfIrreducibleMap` | wave-reused |
+| M003643 | P2417 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsActIffIsDiagEnd` | volunteer-build-reviewed |
+| M003644 | P1084 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAddHaarMeasureVolumeLie` | build-observed |
+| M003646 | P0475 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAdmDOne` | volunteer-build-reviewed |
+| M003647 | P0347 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAdmissibleIntegralBasisChangeOne` | volunteer-build-reviewed |
+| M003648 | P2645 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAffCoverSpec` | volunteer-build-reviewed |
+| M003649 | P1444 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAffineOpenAndIsPushout` | build-observed |
+| M003650 | P2266 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAlgAtlasAtlasOf` | build-observed |
+| M003651 | P0173 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAlgLowZero` | volunteer-build-reviewed |
+| M003652 | P2504 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsAmbOfIsArithVar` | volunteer-build-reviewed |
+| M003653 | P1218 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasOpens` | wave-reused |
+| M003654 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsBasisOfBot` | wave-reused |
 | M003657 | P2079 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsCompactIsOpenUnitsAt` | volunteer-build-reviewed |
 | M003659 | P0294 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsCorrOpOfAvg` | volunteer-build-reviewed |
 | M003660 | P1472 | `Development.AbelianVarietyTheory.Definitions.Divisors.IsCuspSpaceBot` | volunteer-build-reviewed |
@@ -355,6 +370,7 @@
 | M004253 | P1472 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsWeight` | volunteer-build-reviewed |
 | M004254 | P0295 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsZeroFreeSchOfIsEmpty` | volunteer-build-reviewed |
 | M004255 | P0705 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsobaricDiscreteSelfDualStrongMultiplicityOne` | volunteer-build-reviewed |
+| M004256 | P2662 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IwahoriAdmissibleSet` | volunteer-build-reviewed |
 | M004258 | P1472 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.JetSplitAmb` | volunteer-build-reviewed |
 | M004262 | P0731 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.JumpWindow` | volunteer-build-reviewed |
 | M004263 | P0435 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.KaehlerOneFormsToExtensionDeRhamMulSelf` | build-observed |
@@ -375,6 +391,7 @@
 | M004307 | P0002 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ReductionUniformizerPoint` | volunteer-build-reviewed |
 | M004309 | P1901 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.RegPolOfRepOf` | volunteer-build-reviewed |
 | M004310 | P2120 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ResidualIrreducibilityFormsEquivalent` | build-observed |
+| M004318 | P2654 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.SortSign` | volunteer-build-reviewed |
 | M004321 | P0705 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.SplitRep` | build-observed |
 | M004323 | P0946 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.StdBases` | volunteer-build-reviewed |
 | M004324 | P0549 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.SurjectiveOfLocallySurjective` | build-observed |
@@ -385,20 +402,3 @@
 | M004329 | P0810 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ThickLetterWordLatticeSurjectionHypotheses` | volunteer-build-reviewed |
 | M004330 | P0615 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.ToPtIdPtBijective` | build-observed |
 | M004331 | P1029 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.TrueWtAddSSNonneg` | volunteer-build-reviewed |
-| M004335 | P1956 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.UnderTie` | volunteer-build-reviewed |
-| M004337 | P1272 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.VerticalBoundHeightCompare` | build-observed |
-| M004338 | P2198 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.APerTw` | build-observed |
-| M004340 | P1993 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.AndLeft` | volunteer-build-reviewed |
-| M004342 | P1114 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.AuxiliaryPrimeMemAvoidedPrimes` | build-observed |
-| M004343 | P0002 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.BasicForm` | volunteer-build-reviewed |
-| M004344 | P1056 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.BelowFiniteNonempty` | build-observed |
-| M004349 | P1880 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ColumnCompatibleSelection` | build-observed |
-| M004351 | P2187 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.CountsIrreducibilityConstants` | build-observed |
-| M004352 | P2235 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DRS` | build-observed |
-| M004353 | P1218 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DecayZero` | volunteer-build-reviewed |
-| M004355 | P1029 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DifferentiableAtChart` | volunteer-build-reviewed |
-| M004359 | P1029 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DisjointExceptional` | build-observed |
-| M004360 | P2198 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DivRows3GIff` | build-observed |
-| M004362 | P1736 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.EventuallyAllScaleContextsAndOfBoth` | volunteer-build-reviewed |
-| M004364 | P1001 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ExistsBranchingCoordinatesIff` | volunteer-build-reviewed |
-| M004369 | P1193 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.FamilyClassSevenDutiesAndStableLattices` | build-observed |

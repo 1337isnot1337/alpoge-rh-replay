@@ -1,0 +1,11 @@
+--- a/src/Development/EtaleCohomology/CohomologicalPurity/LeafColHensPf.lean
++++ b/src/Development/EtaleCohomology/CohomologicalPurity/LeafColHensPf.lean
+@@ -24,7 +24,7 @@
+     exact ⟨(Δ.leg c k).comp ρ, by rw [RingHom.comp_assoc, hρ, Δ.leg_comp_map]⟩
+   refine ⟨?_, ?_⟩
+   · intro z hz
+-    rw [Ideal.mem_jacobson_bot]
++    rw [Ring.mem_jacobson_iff]
+     intro y
+     have hzy : z * y ∈ I.map η := Ideal.mul_mem_right y _ hz
+     obtain ⟨j, hj⟩ := st.1 {z * y}

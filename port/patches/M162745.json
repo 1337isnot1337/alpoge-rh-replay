@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.HarishChandraCentre.RhoOneEqZeroOfRhoZeroEqZero",
+  "source_sha256": "cb198dcc2c4bcb461c6113bef60c1b374431437c10b500936f1d0aa7e43a4813",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the polynomial coefficient projection in geDeg and its statements, definitionally the same pinned coefficient map. The filtration still requires exactly the same low-degree coefficients to vanish.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

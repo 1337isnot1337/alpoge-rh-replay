@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/UnfoldZn.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/SquareIntegrability/UnfoldZn.lean
+@@ -78,7 +78,7 @@
+   have hGm : Measurable G := by
+     refine (Continuous.measurable ?_)
+     exact ENNReal.continuous_ofReal.comp (Real.continuous_exp.comp
+-      (continuous_const.mul ((PiLp.continuous_toLp 2 _).norm.pow 2)))
++      (continuous_const.mul ((PiLp.continuous_toLp 2 (fun _ : Fin d => ℝ)).norm.pow 2)))
+   have hL : (fun a : Fin d → ℝ =>
+       ENNReal.ofReal (Real.exp (-(2 * Real.pi) * ‖∑ j, a j • u j‖ ^ 2))) =
+       fun a => G (Matrix.toLin' M a) := by

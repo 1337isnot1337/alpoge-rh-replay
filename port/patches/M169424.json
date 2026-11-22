@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PowerSums",
+  "source_sha256": "78f114037b4370edaacb6b77bc28edc293a5dde0bcc31d3b15ce007bd2a25e67",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

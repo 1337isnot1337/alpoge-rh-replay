@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PRegularSequenceLengthLeDim",
+  "source_sha256": "011e52c2f62e59b23967ff236984e4da9fe4412a1c08d3f64a64c2da1b6b2d71",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

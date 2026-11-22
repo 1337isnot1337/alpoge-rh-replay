@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PieriBlockIdeals.PieriColumnMinors.CountLeftInvSeqAlternatingWordEven",
+  "source_sha256": "7066433d13b210961276a6df04d192c13b5e2fb3533b2558687033b10f611290",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

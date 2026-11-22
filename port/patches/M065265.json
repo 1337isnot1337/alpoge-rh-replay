@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.MemOfFiniteDimensionalSpanRightTranslates",
+  "source_sha256": "80e7e80fa5081e35dbaee076e9fe768a7fa1657a9fb5036977b92a5b0b25a488",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Proof-only: use the renamed finite-sum integral and continuity lemmas. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0120-lean436-20261121/packet-result.json"
+}

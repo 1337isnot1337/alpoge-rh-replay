@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CharacterColumnKernels.StatementN",
+  "source_sha256": "c6469915c3ea292c2ebe12a8c34abf8bad6935435984d65e6dd8096d01cc2574",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MvPolynomial.coeff was removed and p.coeff m now elaborates to AddMonoidAlgebra.coeff p applied to m, which is exactly what the old MvPolynomial.coeff m p unfolded to. The statement writes (Matrix.det (...) : MvPolynomial (Fin m) (FractionRing O)).coeff s in place of MvPolynomial.coeff s (Matrix.det (...)); the ascription names the polynomial type the old function fixed, so the proposition is unchanged.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

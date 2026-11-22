@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaloisTorsionConjugacy.WpBridge",
+  "source_sha256": "be225e462161d0d303a56a5a5db8d7f24ccdd809d1fcfda6c50d8e22339d2491",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

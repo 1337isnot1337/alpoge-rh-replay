@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.OddDualWeylJacobian.JacRev",
+  "source_sha256": "9002422a8021b2841c3b3bf8d82be390b800ec8460a219b7e0a7e7a2e5ea5e3b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

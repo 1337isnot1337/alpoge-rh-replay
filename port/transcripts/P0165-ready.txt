@@ -1,0 +1,780 @@
+Packet P0165, partial submission
+Upstream base 67be0d3a90f3d5df3291a2452a12ed387d2080e0
+Port record commit 4b1fefc2e3b58521d55dee6e57268b7786f7a9c3
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M167348 M167351 M167577 M167808 M167901 M167902 M168029 M168151 M168314 M168359 M168711 M168728 M168735 M168737 M168739 M168833 M168937 M168961 M168974 M168990 M169076 M169182 M169219 M169246 M169264 M169270 M169271 M169272 M169279 M169282 M169284 M169423 M169424
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuOneCoeff GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuProdSlice GroundTheory.HeightsAndTheta.Heights.IntegralModels.FiniteIntegralClosureCharZero GroundTheory.HeightsAndTheta.Heights.Intersections.PAdjoinIndepRelfinrank GroundTheory.HeightsAndTheta.Heights.Intersections.PRelAlgClosureFinite GroundTheory.HeightsAndTheta.Heights.Intersections.PRelBaseChange GroundTheory.HeightsAndTheta.Heights.Intersections.StatementsFibreLocal GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.GraphEquiv GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.Objects GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.PDedekindFibreRank GroundTheory.HeightsAndTheta.Heights.LocalDensities.LeviLine GroundTheory.HeightsAndTheta.Heights.LocalDensities.PKrullHeightOne GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsClosedPointGenericFibre GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsFSDensity GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsIntegralPointAlgebraic GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.ImportsBis GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PCovolumeRelIndex GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PEmbeddingSumPlaces GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PLatticeCountVolume GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PMixedBoxCount GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StComponentsGenericCount GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsNumberFieldBoxCount GroundTheory.HeightsAndTheta.Heights.ReducedTensors.PBaseChangeReduced GroundTheory.HeightsAndTheta.Heights.Regularisation.PPuncturedExpOrder GroundTheory.HeightsAndTheta.Heights.RemainderTerms.AltCoeff GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Elementary GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Expand GroundTheory.HeightsAndTheta.Heights.RemainderTerms.FlagBasic GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Inhabitants GroundTheory.HeightsAndTheta.Heights.RemainderTerms.IsFlagIntegralOne GroundTheory.HeightsAndTheta.Heights.RemainderTerms.JacobiTrudi GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Pluecker GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PowerSums
+islattice-audit: 33 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+⚠ [18338/18398] Built GroundTheory.HeightsAndTheta.Heights.Regularisation.PPuncturedExpOrder (8.9s)
+⚠ [18339/18398] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Elementary (4.6s)
+⚠ [18340/18398] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Expand (6.1s)
+⚠ [18343/18398] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.JacobiTrudi (47s)
+⚠ [18345/18398] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PowerSums (8.2s)
+⚠ [18346/18398] Built GroundTheory.HeightsAndTheta.Heights.ReducedTensors.PBaseChangeReduced (11s)
+⚠ [18347/18398] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsNumberFieldBoxCount (4.0s)
+⚠ [18348/18398] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StComponentsGenericCount (5.0s)
+⚠ [18349/18398] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PMixedBoxCount (6.6s)
+⚠ [18350/18398] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PLatticeCountVolume (4.5s)
+⚠ [18351/18398] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PEmbeddingSumPlaces (4.9s)
+⚠ [18352/18398] Built GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PCovolumeRelIndex (4.7s)
+⚠ [18353/18398] Built GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.ImportsBis (3.7s)
+⚠ [18354/18398] Built GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsClosedPointGenericFibre (3.0s)
+⚠ [18355/18398] Built GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsIntegralPointAlgebraic (3.9s)
+⚠ [18357/18398] Built GroundTheory.HeightsAndTheta.Heights.LocalDensities.PKrullHeightOne (4.6s)
+⚠ [18358/18398] Built GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.GraphEquiv (5.6s)
+⚠ [18359/18398] Built GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.PDedekindFibreRank (3.4s)
+⚠ [18391/18398] Built GroundTheory.HeightsAndTheta.Heights.LocalDensities.LeviLine (5.3s)
+⚠ [18392/18398] Built GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsFSDensity (3.0s)
+⚠ [18339/18398] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.IsFlagIntegralOne (27s)
+⚠ [18340/18398] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.FlagBasic (27s)
+⚠ [18342/18398] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Inhabitants (3.5s)
+⚠ [18362/18398] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Pluecker (3.7s)
+⚠ [18363/18398] Built GroundTheory.HeightsAndTheta.Heights.RemainderTerms.AltCoeff (3.8s)
+⚠ [18364/18398] Built GroundTheory.HeightsAndTheta.Heights.Intersections.PRelAlgClosureFinite (4.8s)
+⚠ [18371/18398] Built GroundTheory.HeightsAndTheta.Heights.Intersections.StatementsFibreLocal (3.5s)
+⚠ [18373/18398] Built GroundTheory.HeightsAndTheta.Heights.Intersections.PRelBaseChange (4.5s)
+⚠ [18382/18398] Built GroundTheory.HeightsAndTheta.Heights.Intersections.PAdjoinIndepRelfinrank (13s)
+⚠ [18389/18398] Built GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuOneCoeff (5.2s)
+⚠ [18397/18398] Built GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuProdSlice (3.5s)
+⚠ [18398/18398] Built GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.Objects (20s)
+⚠ [18398/18398] Built GroundTheory.HeightsAndTheta.Heights.IntegralModels.FiniteIntegralClosureCharZero (35s)
+
+Build verification on the upstream base
+Building 33 explicitly requested module(s).
+Resolved 27 transitive project import(s) (60 total module(s) to materialize).
+[FETCH] Materializing 60 SHA-256-verified source file(s)...
+[FETCH] Verified 60/60 source file(s).
+[KEEP]  M115809: unchanged (verified against archive source)
+[PATCH] M164921: applied M164921.patch
+[PATCH] M165052: applied M165052.patch
+[PATCH] M167304: applied M167304.patch
+[PATCH] M167348: applied M167348.patch
+[KEEP]  M167349: unchanged (verified against archive source)
+[PATCH] M167351: applied M167351.patch
+[PATCH] M167577: applied M167577.patch
+[KEEP]  M167578: unchanged (verified against archive source)
+[PATCH] M167808: applied M167808.patch
+[PATCH] M167901: applied M167901.patch
+[PATCH] M167902: applied M167902.patch
+[KEEP]  M167950: unchanged (verified against archive source)
+[KEEP]  M167953: unchanged (verified against archive source)
+[KEEP]  M167995: unchanged (verified against archive source)
+[PATCH] M168029: applied M168029.patch
+[KEEP]  M168065: unchanged (verified against archive source)
+[KEEP]  M168067: unchanged (verified against archive source)
+[KEEP]  M168151: unchanged (verified against archive source)
+[KEEP]  M168285: unchanged (verified against archive source)
+[PATCH] M168314: applied M168314.patch
+[KEEP]  M168359: unchanged (verified against archive source)
+[KEEP]  M168585: unchanged (verified against archive source)
+[KEEP]  M168711: unchanged (verified against archive source)
+[KEEP]  M168728: unchanged (verified against archive source)
+[KEEP]  M168735: unchanged (verified against archive source)
+[KEEP]  M168737: unchanged (verified against archive source)
+[KEEP]  M168738: unchanged (verified against archive source)
+[KEEP]  M168739: unchanged (verified against archive source)
+[KEEP]  M168740: unchanged (verified against archive source)
+[KEEP]  M168829: unchanged (verified against archive source)
+[KEEP]  M168833: unchanged (verified against archive source)
+[KEEP]  M168937: unchanged (verified against archive source)
+[KEEP]  M168961: unchanged (verified against archive source)
+[KEEP]  M168974: unchanged (verified against archive source)
+[KEEP]  M168990: unchanged (verified against archive source)
+[KEEP]  M169076: unchanged (verified against archive source)
+[PATCH] M169136: applied M169136.patch
+[KEEP]  M169161: unchanged (verified against archive source)
+[PATCH] M169166: applied M169166.patch
+[KEEP]  M169173: unchanged (verified against archive source)
+[KEEP]  M169182: unchanged (verified against archive source)
+[KEEP]  M169217: unchanged (verified against archive source)
+[KEEP]  M169219: unchanged (verified against archive source)
+[KEEP]  M169246: unchanged (verified against archive source)
+[KEEP]  M169257: unchanged (verified against archive source)
+[PATCH] M169264: applied M169264.patch
+[KEEP]  M169270: unchanged (verified against archive source)
+[KEEP]  M169271: unchanged (verified against archive source)
+[PATCH] M169272: applied M169272.patch
+[PATCH] M169279: applied M169279.patch
+[PATCH] M169282: applied M169282.patch
+[KEEP]  M169284: unchanged (verified against archive source)
+[PATCH] M169423: applied M169423.patch
+[KEEP]  M169424: unchanged (verified against archive source)
+[PATCH] M169429: applied M169429.patch
+[KEEP]  M169517: unchanged (verified against archive source)
+[KEEP]  M171369: unchanged (verified against archive source)
+[PATCH] M172535: applied M172535.patch
+[KEEP]  M172631: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in /var/tmp/alpoge-rh-port-1337/workspace-P0165
+
+[BUILD] Building 33 module(s) with `lake build`...
+        IDs: M167348, M167351, M167577, M167808, M167901, M167902, M168029, M168151, M168314, M168359, M168711, M168728, M168735, M168737, M168739, M168833, M168937, M168961, M168974, M168990, M169076, M169182, M169219, M169246, M169264, M169270, M169271, M169272, M169279, M169282, M169284, M169423, M169424
+⚠ [18250/18336] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.PermFinTwoUniv
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/PermFinTwoUniv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/PermFinTwoUniv.lean:80:33: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [rhoMono]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/PermFinTwoUniv.lean:102:17: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coeff_C, Equiv.swap_apply_of_ne_of_ne]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/PermFinTwoUniv.lean:102:39: This simp argument is unused:
+  Equiv.swap_apply_of_ne_of_ne
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coeff_C, Finsupp.single_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18251/18336] Ran GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.PermFinTwoUniv:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/FrameDefinitions/PermFinTwoUniv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18336] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuOneDet
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneDet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneDet.lean:113:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneDet.lean:115:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneDet.lean:115:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneDet.lean:116:14: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneDet.lean:116:33: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneDet.lean:119:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneDet.lean:119:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneDet.lean:123:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18253/18336] Ran GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuOneDet:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneDet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18336] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuOneCoeff
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:61:22: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:63:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:63:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:65:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:65:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:66:22: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:68:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:68:22: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:69:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:69:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:113:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:113:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:116:13: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuOneCoeff.lean:119:61: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18255/18336] Replayed GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuProdSlice
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuProdSlice.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/HodgeLowerBound/PFlagIntMuProdSlice.lean:33:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.LowerBoundFree.FlagIntMuProd.sum_mapDomain_sliceEmb`:
+  [DecidableEq Ψ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Ψ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18256/18336] Replayed GroundTheory.HeightsAndTheta.Heights.IntegralModels.FiniteIntegralClosureLocal
+warning: src/GroundTheory/HeightsAndTheta/Heights/IntegralModels/FiniteIntegralClosureLocal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18257/18336] Ran GroundTheory.HeightsAndTheta.Heights.IntegralModels.FiniteIntegralClosureLocal:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/IntegralModels/FiniteIntegralClosureLocal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18336] Replayed GroundTheory.HeightsAndTheta.Heights.IntegralModels.FiniteIntegralClosureCharZero
+warning: src/GroundTheory/HeightsAndTheta/Heights/IntegralModels/FiniteIntegralClosureCharZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18259/18336] Replayed GroundTheory.HeightsAndTheta.Heights.Intersections.StAdjoinIndepRelfinrank
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/StAdjoinIndepRelfinrank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18260/18336] Ran GroundTheory.HeightsAndTheta.Heights.Intersections.StAdjoinIndepRelfinrank:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/StAdjoinIndepRelfinrank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18261/18336] Replayed GroundTheory.HeightsAndTheta.Heights.Intersections.PAdjoinIndepRelfinrank
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PAdjoinIndepRelfinrank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18262/18336] Replayed GroundTheory.HeightsAndTheta.Heights.Intersections.StRelAlgClosureFinite
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/StRelAlgClosureFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18263/18336] Ran GroundTheory.HeightsAndTheta.Heights.Intersections.StRelAlgClosureFinite:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/StRelAlgClosureFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18264/18336] Replayed GroundTheory.HeightsAndTheta.Heights.Intersections.PRelAlgClosureFinite
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PRelAlgClosureFinite.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18265/18336] Replayed GroundTheory.HeightsAndTheta.Heights.Intersections.RelBaseChangeSt
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/RelBaseChangeSt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18266/18336] Ran GroundTheory.HeightsAndTheta.Heights.Intersections.RelBaseChangeSt:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/RelBaseChangeSt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18267/18336] Replayed GroundTheory.HeightsAndTheta.Heights.Intersections.PRelBaseChange
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/PRelBaseChange.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18268/18336] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.KappaSt
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/KappaSt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18269/18336] Ran ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.KappaSt:irArts
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ArithmeticIntersection/KappaSt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18270/18336] Replayed GroundTheory.HeightsAndTheta.Heights.Intersections.StatementsFibreLocal
+warning: src/GroundTheory/HeightsAndTheta/Heights/Intersections/StatementsFibreLocal.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18271/18336] Replayed GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.KerAltSucc
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/KerAltSucc.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/KerAltSucc.lean:49:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/KerAltSucc.lean:49:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/KerAltSucc.lean:51:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/KerAltSucc.lean:51:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18272/18336] Ran GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.KerAltSucc:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/KerAltSucc.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18273/18336] Replayed GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.GraphEquiv
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/GraphEquiv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18274/18336] Replayed GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.Objects
+warning: src/GroundTheory/HeightsAndTheta/Heights/DiscreteValuationNumbers/Objects.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/DiscreteValuationNumbers/Objects.lean:145:6: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18275/18336] Ran GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.Objects:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/DiscreteValuationNumbers/Objects.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18276/18336] Replayed ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsSemipositiveOn
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/IsSemipositiveOn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18277/18336] Ran ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsSemipositiveOn:irArts
+warning: src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/BirationalGeometry/IsSemipositiveOn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18278/18336] Replayed GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.Objects
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/Objects.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/Objects.lean:82:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.Kleiman.locRes_mk`:
+  [Module S M]
+  [IsScalarTower S (Poly S N) M]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module S M] [IsScalarTower S (Poly S N) M] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/Objects.lean:321:0: automatically included section variable(s) unused in theorem `GroundTheory.Heights₂.Heights.Kleiman.locMap_mk`:
+  [Module S M]
+  [IsScalarTower S (Poly S N) M]
+  [Module S M']
+  [IsScalarTower S (Poly S N) M']
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Module S M] [IsScalarTower S (Poly S N) M] [Module S M'] [IsScalarTower S (Poly S N) M'] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/Objects.lean:381:47: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/Objects.lean:411:46: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/Objects.lean:508:10: This simp argument is unused:
+  aeval_C
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18279/18336] Replayed GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.StatementsDedekindFibreRank
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/StatementsDedekindFibreRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18280/18336] Ran GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.StatementsDedekindFibreRank:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/StatementsDedekindFibreRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18281/18336] Replayed GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.PDedekindFibreRank
+warning: src/GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/PDedekindFibreRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18282/18336] Replayed ReciprocityTheory.AnalyticForms.MaIntEmpty
+warning: src/ReciprocityTheory/AnalyticForms/MaIntEmpty.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18283/18336] Ran ReciprocityTheory.AnalyticForms.MaIntEmpty:irArts
+warning: src/ReciprocityTheory/AnalyticForms/MaIntEmpty.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18284/18336] Replayed GroundTheory.HeightsAndTheta.Heights.LocalDensities.LeviLine
+warning: src/GroundTheory/HeightsAndTheta/Heights/LocalDensities/LeviLine.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18285/18336] Replayed GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsKrullHeightOne
+warning: src/GroundTheory/HeightsAndTheta/Heights/LocalDensities/StatementsKrullHeightOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18286/18336] Ran GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsKrullHeightOne:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/LocalDensities/StatementsKrullHeightOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18287/18336] Replayed GroundTheory.HeightsAndTheta.Heights.LocalDensities.PKrullHeightOne
+warning: src/GroundTheory/HeightsAndTheta/Heights/LocalDensities/PKrullHeightOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18288/18336] Replayed GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsIntegralPoint
+warning: src/GroundTheory/HeightsAndTheta/Heights/LocalDensities/StatementsIntegralPoint.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18289/18336] Ran GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsIntegralPoint:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/LocalDensities/StatementsIntegralPoint.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18290/18336] Replayed GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsClosedPointGenericFibre
+warning: src/GroundTheory/HeightsAndTheta/Heights/LocalDensities/StatementsClosedPointGenericFibre.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18291/18336] Replayed GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsFSDensity
+warning: src/GroundTheory/HeightsAndTheta/Heights/LocalDensities/StatementsFSDensity.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18292/18336] Replayed GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsIntegralPointAlgebraic
+warning: src/GroundTheory/HeightsAndTheta/Heights/LocalDensities/StatementsIntegralPointAlgebraic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18293/18336] Replayed GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.RecordEigenInputs
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigenInputs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigenInputs.lean:65:17: `FractionalIdeal.count_coe` has been deprecated: Use `FractionalIdeal.count_coeIdeal` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.count_coeI̲d̲e̲a̲l̲
+⚠ [18294/18336] Ran GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.RecordEigenInputs:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/StabilizerCovolume/RecordEigenInputs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18295/18336] Replayed GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.ExampleLimitPolynomialHypothesis
+warning: src/GroundTheory/HeightsAndTheta/Heights/MultinomialWeights/ExampleLimitPolynomialHypothesis.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/MultinomialWeights/ExampleLimitPolynomialHypothesis.lean:483:48: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/MultinomialWeights/ExampleLimitPolynomialHypothesis.lean:499:50: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+⚠ [18296/18336] Ran GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.ExampleLimitPolynomialHypothesis:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/MultinomialWeights/ExampleLimitPolynomialHypothesis.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18297/18336] Replayed GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.ImportsBis
+warning: src/GroundTheory/HeightsAndTheta/Heights/MultinomialWeights/ImportsBis.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18298/18336] Replayed GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsCovolumeRelIndex
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/StatementsCovolumeRelIndex.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18299/18336] Ran GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsCovolumeRelIndex:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/StatementsCovolumeRelIndex.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18300/18336] Replayed GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PCovolumeRelIndex
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/PCovolumeRelIndex.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18301/18336] Replayed GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsEmbeddingSumPlaces
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/StatementsEmbeddingSumPlaces.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18302/18336] Ran GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsEmbeddingSumPlaces:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/StatementsEmbeddingSumPlaces.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18303/18336] Replayed GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PEmbeddingSumPlaces
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/PEmbeddingSumPlaces.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18304/18336] Replayed GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsLatticeCountVolume
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/StatementsLatticeCountVolume.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18305/18336] Ran GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsLatticeCountVolume:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/StatementsLatticeCountVolume.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18306/18336] Replayed GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PLatticeCountVolume
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/PLatticeCountVolume.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18307/18336] Replayed GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsMixedBoxCount
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/StatementsMixedBoxCount.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18308/18336] Ran GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsMixedBoxCount:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/StatementsMixedBoxCount.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18309/18336] Replayed GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PMixedBoxCount
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/PMixedBoxCount.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/PMixedBoxCount.lean:28:8: `AddSubgroup.isClosed_of_discrete` has been deprecated: Use `AddSubgroup.isClosed_of_discreteTopology` instead
+
+Hint: Replace the deprecated name:
+  AddSubgroup.isClosed_of_discreteT̲o̲p̲o̲l̲o̲g̲y̲
+⚠ [18310/18336] Replayed GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18311/18336] Ran GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18312/18336] Replayed GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StComponentsGenericCount
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/StComponentsGenericCount.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18313/18336] Replayed GroundTheory.HeightsAndTheta.Heights.KernelsLattice
+warning: src/GroundTheory/HeightsAndTheta/Heights/KernelsLattice.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18314/18336] Ran GroundTheory.HeightsAndTheta.Heights.KernelsLattice:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/KernelsLattice.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18315/18336] Replayed GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsNumberFieldBoxCount
+warning: src/GroundTheory/HeightsAndTheta/Heights/OrbitLimits/StatementsNumberFieldBoxCount.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18316/18336] Replayed GroundTheory.HeightsAndTheta.Heights.ReducedTensors.Imports
+warning: src/GroundTheory/HeightsAndTheta/Heights/ReducedTensors/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18317/18336] Ran GroundTheory.HeightsAndTheta.Heights.ReducedTensors.Imports:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/ReducedTensors/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18318/18336] Replayed GroundTheory.HeightsAndTheta.Heights.ReducedTensors.PBaseChangeReduced
+warning: src/GroundTheory/HeightsAndTheta/Heights/ReducedTensors/PBaseChangeReduced.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/ReducedTensors/PBaseChangeReduced.lean:22:22: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+⚠ [18319/18336] Replayed GroundTheory.HeightsAndTheta.Heights.Regularisation.StPuncturedExpOrder
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/StPuncturedExpOrder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18320/18336] Ran GroundTheory.HeightsAndTheta.Heights.Regularisation.StPuncturedExpOrder:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/StPuncturedExpOrder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18321/18336] Replayed GroundTheory.HeightsAndTheta.Heights.Regularisation.PPuncturedExpOrder
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/PPuncturedExpOrder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/Regularisation/PPuncturedExpOrder.lean:36:38: `AnalyticAt.exists_eventuallyEq_pow_smul_nonzero_iff` has been deprecated: Use `AnalyticAt.exists_eventuallyEq_pow_smul_ne_zero_iff` instead
+⚠ [18322/18336] Replayed GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Statements
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18323/18336] Ran GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Statements:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Statements.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18324/18336] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.VandermondeOfEqDet
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/VandermondeOfEqDet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/VandermondeOfEqDet.lean:8:30: Variable name `inst` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _inst
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18325/18336] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.VandermondeOfEqDet:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/VandermondeOfEqDet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18326/18336] Replayed GroundTheory.HeightsAndTheta.Heights.RemainderTerms.AltCoeff
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/AltCoeff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/AltCoeff.lean:91:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/AltCoeff.lean:91:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/AltCoeff.lean:137:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/AltCoeff.lean:165:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/AltCoeff.lean:165:28: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/AltCoeff.lean:171:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/AltCoeff.lean:171:42: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/AltCoeff.lean:249:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/AltCoeff.lean:249:18: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18327/18336] Replayed GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Elementary
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Elementary.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18328/18336] Replayed GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Expand
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Expand.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Expand.lean:217:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Expand.lean:246:80: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Expand.lean:339:15: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Expand.lean:347:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Expand.lean:348:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Expand.lean:376:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Expand.lean:376:65: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Expand.lean:377:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Expand.lean:377:79: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Expand.lean:383:15: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18329/18336] Replayed GroundTheory.HeightsAndTheta.Heights.RemainderTerms.FlagBasic
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:164:48: This simp argument is unused:
+  Fin.mk.injEq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [yIndex, Prod.mk.injEq, Fin.ext_iff]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:164:75: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:164:75: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:168:48: This simp argument is unused:
+  Fin.mk.injEq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [zIndex, Prod.mk.injEq, Fin.ext_iff]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:168:75: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:168:75: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:211:35: This simp argument is unused:
+  map_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_mul, map_natCast, map_one]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:211:44: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [map_mul, map_natCast, map_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:290:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:297:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:327:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:340:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:328:62: This simp argument is unused:
+  Finset.mem_filter
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [zIndex, SmallBlock.jIndex, h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:328:150: This simp argument is unused:
+  SmallBlock.jIndex
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:339:62: This simp argument is unused:
+  Finset.mem_filter
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [yIndex, SmallBlock.jIndex, h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:339:150: This simp argument is unused:
+  SmallBlock.jIndex
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:328:175: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:339:175: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:328:84: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:339:84: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:328:84: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:328:89: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:328:171: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:328:175: Unused tactic linter: `(try
+    (rw [if_neg]; intro hh; have hh2 := (Finset.mem_filter.mp hh.2).2;
+      simp [SmallBlock.jIndex] at hh2))` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:339:84: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:339:89: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:339:171: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/FlagBasic.lean:339:175: Unused tactic linter: `(try
+    (rw [if_neg]; intro hh; have hh2 := (Finset.mem_filter.mp hh.2).2;
+      simp [SmallBlock.jIndex] at hh2))` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18330/18336] Replayed GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Inhabitants
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Inhabitants.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Inhabitants.lean:48:47: `MvPolynomial.coeff_X'` has been deprecated: Use `MvPolynomial.coeff_X` instead
+
+Hint: Replace the deprecated name:
+  coeff_X'̵
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Inhabitants.lean:51:10: `MvPolynomial.coeff_X'` has been deprecated: Use `MvPolynomial.coeff_X` instead
+
+Hint: Replace the deprecated name:
+  coeff_X'̵
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Inhabitants.lean:51:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Inhabitants.lean:55:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp at h
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Inhabitants.lean:56:47: `MvPolynomial.coeff_X'` has been deprecated: Use `MvPolynomial.coeff_X` instead
+
+Hint: Replace the deprecated name:
+  coeff_X'̵
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Inhabitants.lean:48:87: This simp argument is unused:
+  hne.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [flagTwoFirstRoot, flagTwoSecondRoot, coeff_X', Finsupp.single_left_inj, hne,
+    Finsupp.single_eq_single_iff]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Inhabitants.lean:48:97: This simp argument is unused:
+  Finsupp.single_eq_single_iff
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [flagTwoFirstRoot, flagTwoSecondRoot, coeff_X', Finsupp.single_left_inj, hne, hne.symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Inhabitants.lean:56:92: This simp argument is unused:
+  hne.symm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [flagTwoFirstRoot, flagTwoSecondRoot, coeff_X', Finsupp.single_eq_single_iff, hne] at this
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18331/18336] Replayed GroundTheory.HeightsAndTheta.Heights.KernelsRest
+warning: src/GroundTheory/HeightsAndTheta/Heights/KernelsRest.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18332/18336] Ran GroundTheory.HeightsAndTheta.Heights.KernelsRest:irArts
+warning: src/GroundTheory/HeightsAndTheta/Heights/KernelsRest.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18333/18336] Replayed GroundTheory.HeightsAndTheta.Heights.RemainderTerms.IsFlagIntegralOne
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/IsFlagIntegralOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18334/18336] Replayed GroundTheory.HeightsAndTheta.Heights.RemainderTerms.JacobiTrudi
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/JacobiTrudi.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/JacobiTrudi.lean:195:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/JacobiTrudi.lean:198:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/JacobiTrudi.lean:280:36: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [18335/18336] Replayed GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Pluecker
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/Pluecker.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18336/18336] Replayed GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PowerSums
+warning: src/GroundTheory/HeightsAndTheta/Heights/RemainderTerms/PowerSums.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18336 jobs).
+[PASS]  M167348 (GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuOneCoeff)
+[PASS]  M167351 (GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuProdSlice)
+[PASS]  M167577 (GroundTheory.HeightsAndTheta.Heights.IntegralModels.FiniteIntegralClosureCharZero)
+[PASS]  M167808 (GroundTheory.HeightsAndTheta.Heights.Intersections.PAdjoinIndepRelfinrank)
+[PASS]  M167901 (GroundTheory.HeightsAndTheta.Heights.Intersections.PRelAlgClosureFinite)
+[PASS]  M167902 (GroundTheory.HeightsAndTheta.Heights.Intersections.PRelBaseChange)
+[PASS]  M168029 (GroundTheory.HeightsAndTheta.Heights.Intersections.StatementsFibreLocal)
+[PASS]  M168151 (GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.GraphEquiv)
+[PASS]  M168314 (GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.Objects)
+[PASS]  M168359 (GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.PDedekindFibreRank)
+[PASS]  M168711 (GroundTheory.HeightsAndTheta.Heights.LocalDensities.LeviLine)
+[PASS]  M168728 (GroundTheory.HeightsAndTheta.Heights.LocalDensities.PKrullHeightOne)
+[PASS]  M168735 (GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsClosedPointGenericFibre)
+[PASS]  M168737 (GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsFSDensity)
+[PASS]  M168739 (GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsIntegralPointAlgebraic)
+[PASS]  M168833 (GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.ImportsBis)
+[PASS]  M168937 (GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PCovolumeRelIndex)
+[PASS]  M168961 (GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PEmbeddingSumPlaces)
+[PASS]  M168974 (GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PLatticeCountVolume)
+[PASS]  M168990 (GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PMixedBoxCount)
+[PASS]  M169076 (GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StComponentsGenericCount)
+[PASS]  M169182 (GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsNumberFieldBoxCount)
+[PASS]  M169219 (GroundTheory.HeightsAndTheta.Heights.ReducedTensors.PBaseChangeReduced)
+[PASS]  M169246 (GroundTheory.HeightsAndTheta.Heights.Regularisation.PPuncturedExpOrder)
+[PASS]  M169264 (GroundTheory.HeightsAndTheta.Heights.RemainderTerms.AltCoeff)
+[PASS]  M169270 (GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Elementary)
+[PASS]  M169271 (GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Expand)
+[PASS]  M169272 (GroundTheory.HeightsAndTheta.Heights.RemainderTerms.FlagBasic)
+[PASS]  M169279 (GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Inhabitants)
+[PASS]  M169282 (GroundTheory.HeightsAndTheta.Heights.RemainderTerms.IsFlagIntegralOne)
+[PASS]  M169284 (GroundTheory.HeightsAndTheta.Heights.RemainderTerms.JacobiTrudi)
+[PASS]  M169423 (GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Pluecker)
+[PASS]  M169424 (GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PowerSums)
+
+PORT_BUILD_PASSED all 33 module(s).

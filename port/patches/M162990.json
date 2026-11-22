@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.Brauer.IsBrauerEquivalentIffNonemptyAlgEquiv",
+  "source_sha256": "9bba4457c967fe4d2ba25c0cb11e804fa51604712c539b2af463eca0f7afffcf",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

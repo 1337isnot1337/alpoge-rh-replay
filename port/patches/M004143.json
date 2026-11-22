@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.SecondCountableAndT2LocalField",
+  "source_sha256": "0df6902f8b42b8dcabcf7935ca9a24067e39850268fe9edf846f4cb325aa7b8a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

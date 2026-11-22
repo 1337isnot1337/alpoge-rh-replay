@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.IsotypicAveragingStatement",
+  "source_sha256": "80f85b4c7255817ce318796799e47c07154a7fccbd42db45bfab26bc54717da6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

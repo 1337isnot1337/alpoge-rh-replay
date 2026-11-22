@@ -1,0 +1,18 @@
+--- a/src/Formalism/GL3MeanSquares/HookFormulaTorsion/SumLogFactorialRowsBounds.lean
++++ b/src/Formalism/GL3MeanSquares/HookFormulaTorsion/SumLogFactorialRowsBounds.lean
+@@ -142,13 +142,13 @@
+   have hle : weylDim lam ≤ (Wnum lam : ℝ) ^ ((n + 1) * (n + 1)) := by
+     unfold weylDim
+     calc _ ≤ ∏ _i : Fin (n + 1), (Wnum lam : ℝ) ^ (n + 1) := by
+-          apply prod_le_prod
++          apply prod_le_prod₀
+           · intro i _; apply prod_nonneg; intro j hj
+             have := (hfac i j (by simpa using hj)).1
+             linarith
+           · intro i _
+             calc _ ≤ ∏ _j ∈ univ.filter (fun j : Fin (n + 1) => i < j), (Wnum lam : ℝ) := by
+-                  apply prod_le_prod
++                  apply prod_le_prod₀
+                   · intro j hj
+                     have := (hfac i j (by simpa using hj)).1
+                     linarith

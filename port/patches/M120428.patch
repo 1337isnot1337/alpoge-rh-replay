@@ -1,0 +1,10 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/LocallyFreeOfFiniteProjective.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/AlgebraProofs/LocallyFreeOfFiniteProjective.lean
+@@ -93,7 +93,6 @@
+     rw [eq_top_iff]
+     intro e _
+     induction e using hb.inductionOn with
+-    | zero => exact Submodule.zero_mem _
+     | tmul x =>
+       obtain ⟨a, ha⟩ := key x
+       rw [← Submodule.smul_mem_iff _ hs0]

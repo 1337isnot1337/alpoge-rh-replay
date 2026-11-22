@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.PAdicHodge.ExtRobbaBounded",
+  "source_sha256": "6b8f43cfccba6177099e15810921f8fb960023b78e79f2b56a851d3d2be1f3cc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}

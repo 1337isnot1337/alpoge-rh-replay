@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.PAdicHodge.LogMul",
+  "source_sha256": "93ee9b8b987b4ce3f3267ff2da3381dfe1e030d03553d32b8e36d90a3cabccd9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "PowerSeries.derivative takes its coefficient ring implicitly, so write d⁄dX F for d⁄dX ℚ F, and close the derivative of the substitution with rfl now that deriv_log no longer states its result with algebraMap. Proof-only change.",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}

@@ -1,0 +1,22 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/StickelbergerElements/GroupRingIntAtDivSmulOfPadicValNatLe.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/StickelbergerElements/GroupRingIntAtDivSmulOfPadicValNatLe.lean
+@@ -12,8 +12,8 @@
+     simp [Stk.cf]
+   rw [hcoef]
+   have hdvdM : l ^ (padicValNat l D + t) ∣ M :=
+-    (pow_dvd_pow l (by omega)).trans pow_padicValNat_dvd
+-  have hdvdD : l ^ padicValNat l D ∣ D := pow_padicValNat_dvd
++    (pow_dvd_pow l (show padicValNat l D + t ≤ padicValNat l M by omega)).trans (by simpa only [Nat.padicValNat_def] using (pow_multiplicity_dvd l M))
++  have hdvdD : l ^ padicValNat l D ∣ D := by simpa only [Nat.padicValNat_def] using (pow_multiplicity_dvd l D)
+   obtain ⟨k, hk⟩ := hdvdM
+   obtain ⟨E, hE⟩ := hdvdD
+   have hnd : ¬ l ∣ E := by
+@@ -21,7 +21,7 @@
+     apply pow_succ_padicValNat_not_dvd (p := l) hD.ne'
+     conv_rhs => rw [hE]
+     rw [pow_succ]
+-    exact Nat.mul_dvd_mul_left _ hl
++    simpa only [Nat.padicValNat_def] using (Nat.mul_dvd_mul_left (l ^ padicValNat l D) hl)
+   have hE0 : E ≠ 0 := by
+     rintro rfl
+     simp at hE

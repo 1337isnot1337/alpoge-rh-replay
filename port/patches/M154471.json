@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BiadditivePadicLinear.Cont2",
+  "source_sha256": "98820b93d57cffa8022982d9a6e4c5041e1709bef98cded58f59e24ca323036e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPushoutThickeningsOfIsPullbackSectionsStatement",
+  "source_sha256": "e46ad7a593e934c1715ae85ca07ad4af32ad6e161559b87a1449171050faeed2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "local full-packet verification: lake build over all 64 P0109 targets on the port toolchain, Build completed successfully, exit 0"
+}

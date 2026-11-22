@@ -1,0 +1,20 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/KernelRowsColumnsSquareIntegrable.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/KernelRowsColumnsSquareIntegrable.lean
+@@ -11,7 +11,7 @@
+     (hφ : Tst φ) (y : X.G) : MemLp (fun x => ker X.Γ φ x y) 2 X.ν := by
+   have hcont : Continuous fun x => ker X.Γ φ x y :=
+     (hK X φ hφ).2.1.comp (continuous_id.prodMk continuous_const)
+-  refine ⟨hcont.aestronglyMeasurable, ?_⟩
++  change eLpNorm (fun x => ker X.Γ φ x y) 2 X.ν < ⊤
+   obtain ⟨B, hB⟩ := hφ.1.bounded_above_of_compact_support hφ.2
+   have hΩ : IsCompact (tsupport φ) := hφ.2
+   have hbound := hS X φ B (tsupport φ) hφ hB hΩ (subset_tsupport φ) y
+@@ -22,7 +22,7 @@
+       cnt X.Γ ((tsupport φ)⁻¹ * tsupport φ) y < ⊤ :=
+     ENNReal.mul_lt_top
+       (ENNReal.mul_lt_top (ENNReal.pow_lt_top ENNReal.ofReal_lt_top) hμ.lt_top) hcnt.lt_top
+-  rw [eLpNorm_lt_top_iff_lintegral_rpow_enorm_lt_top (by norm_num) (by norm_num)]
++  rw [eLpNorm_lt_top_iff_lintegral_rpow_eNorm_lt_top (by norm_num) (by norm_num) hcont.aestronglyMeasurable]
+   simp only [ENNReal.toReal_ofNat, ENNReal.rpow_ofNat]
+   exact hbound.trans_lt hfin
+ 

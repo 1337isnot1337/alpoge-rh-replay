@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.KerInfMapLeMapMulKerOfFlatTargetStatement",
+  "source_sha256": "c62f679dbe5fa5efdd501fbd0f427a2e0b30b4b333abfd920f35fe59b6a7b621",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "local full-packet verification: lake build over all 64 P0109 targets on the port toolchain, Build completed successfully, exit 0"
+}

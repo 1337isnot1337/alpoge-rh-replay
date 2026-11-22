@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Expand",
+  "source_sha256": "64bc1a6ad9a0d59d2041a4e6227f39619b291847a6539ee7dfcc8ebb71396fb7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

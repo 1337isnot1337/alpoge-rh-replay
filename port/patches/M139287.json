@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.PadicHodgeComparison.GoodCoverEigenspaces.CubeCechEquivalences.CoordsOfCommonEigenvector",
+  "source_sha256": "b8f2fa30669ebed41248010ee9965d7853d12a26070d589e195bbc8bee528a26",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the target lemma names or updated explicit map argument for the same operations and hypotheses. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0145-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GL3MeanSquares.HookFormulaTorsion.ExpNegLeDivPowFour",
+  "source_sha256": "d70579d175b72dc2e3aff84a25a6130bc29b095d90a8b902a5c2159aab0b530e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use pow_nonneg explicitly for the exponent 800 instead of recursively expanding its positivity proof. Abstract the large power for the ceiling bound and use explicit real-power congruence. Disable only the constructor-name style linter for bound2 because it exceeds recursion depth after proof elaboration; kernel checking and all resource limits are unchanged. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}

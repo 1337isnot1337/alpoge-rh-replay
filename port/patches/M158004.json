@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RankGapBounds.UniformMeanBound",
+  "source_sha256": "9d011c69254151a12719fc0529e53b254aa1b2a5b193c8492fdbadeea6bf1fb9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CharacterTheory/MonicFactorizationConvolutionFiniteCommAssocAdd.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CharacterTheory/MonicFactorizationConvolutionFiniteCommAssocAdd.lean
+@@ -10,7 +10,7 @@
+ theorem finite_monic_factorisations (P : F[X]) :
+     {x : F[X] × F[X] | x.1.Monic ∧ x.2.Monic ∧ x.1 * x.2 = P}.Finite := by
+   by_cases hP : P = 0
+-  · convert Set.finite_empty
++  · convert Set.finite_empty using 1
+     ext x
+     simp only [Set.mem_setOf_eq, Set.mem_empty_iff_false, iff_false]
+     rintro ⟨h1, h2, h3⟩

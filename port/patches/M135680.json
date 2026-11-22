@@ -1,0 +1,8 @@
+{
+  "module": "Development.EtaleCohomology.EtaleSheaves.LeafOrdInfLocalPf",
+  "source_sha256": "b9b1ada5fd63d3c0d97d4c686f08bf341f513fe87c600fba780ab4de89e03b89",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0143-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.CommutativeAlgebra.SaturatedChains.AlgStep",
+  "source_sha256": "cd57d860807cdd0f7ba237d25598158a039e51b2fd2cc2db2f32230a89ffc581",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed localization lemmas under_map_of_isPrime_disjoint and height_under for the contraction and height of the same localized prime ideals."
+}

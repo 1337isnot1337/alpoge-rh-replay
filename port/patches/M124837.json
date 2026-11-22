@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.KerLinOfKerBasic",
+  "source_sha256": "3458676c4ff2d3c64d17929ed97c14eda1e80a6315279c3e329949eae2a284a0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0139-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.CyclotomicCharacters.Character",
+  "source_sha256": "869a79567ec0f7231fe65c87e585110fb8328895b12dc4031f7abefbd26b4584",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove a redundant tactic after conversion has already closed the algebraic-closure instance goal. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

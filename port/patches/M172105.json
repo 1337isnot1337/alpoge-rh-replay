@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.Mollifiers.MollEnormSqLe",
+  "source_sha256": "674ca7ce1a268329fe858f9f4bb63d50b358b0b1804807f772050eba53ce3cd4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Supply a.e. strong measurability of the convolution for the new norm formula and use the finite-norm definition of MemLp."
+}

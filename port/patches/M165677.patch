@@ -1,0 +1,50 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/FieldsOfNumbers/PPFContractedDim.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/FieldsOfNumbers/PPFContractedDim.lean
+@@ -27,7 +27,7 @@
+     ringKrullDim (MRing ι F ⧸ Q) < ⊤ := by
+   refine lt_of_le_of_lt (ringKrullDim_quotient_le Q) ?_
+   rw [MvPolynomial.ringKrullDim_of_isNoetherianRing, ringKrullDim_eq_zero_of_field, zero_add]
+-  exact WithBot.coe_lt_coe.mpr (ENat.natCast_lt_top _)
++  exact WithBot.coe_lt_coe.mpr (by simpa only [ENat.card_eq_coe_natCard] using (ENat.natCast_lt_top (Nat.card (Σ k, ι k))))
+ 
+ end Drop
+ 
+@@ -71,17 +71,17 @@
+     rw [if_pos hT, zero_pow (Finsupp.mem_support_iff.mp hv)]
+ 
+ theorem coeff_killBlocks (T : Finset K) (q : MRing ι F) (d : (Σ k, ι k) →₀ ℕ) :
+-    coeff d (killBlocks T q) = if ∀ v ∈ d.support, v.1 ∉ T then coeff d q else 0 := by
++    ((killBlocks T q)).coeff d = if ∀ v ∈ d.support, v.1 ∉ T then (q).coeff d else 0 := by
+   classical
+   induction q using MvPolynomial.induction_on' with
+   | monomial d' c =>
+-    rw [killBlocks_monomial, apply_ite (coeff d), coeff_zero, coeff_monomial]
++    rw [killBlocks_monomial, apply_ite (fun p : MvPolynomial _ _ => p.coeff d), AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply, coeff_monomial]
+     by_cases hd : d' = d
+     · subst hd
+       simp
+     · simp [hd]
+   | add p q hp hq =>
+-    rw [map_add, coeff_add, hp, hq, coeff_add]
++    rw [map_add, AddMonoidAlgebra.coeff_add, Finsupp.add_apply, hp, hq, AddMonoidAlgebra.coeff_add, Finsupp.add_apply]
+     split_ifs <;> simp
+ 
+ theorem weight_apply_eq_zero_iff (d : (Σ k, ι k) →₀ ℕ) (k : K) :
+@@ -101,7 +101,7 @@
+     (hp : IsMultiHomog p b) : killBlocks T p = if ∀ k ∈ T, b k = 0 then p else 0 := by
+   ext d
+   rw [coeff_killBlocks]
+-  by_cases hd : coeff d p = 0
++  by_cases hd : (p).coeff d = 0
+   · split_ifs <;> simp [hd]
+   · have hw : Finsupp.weight (blockWeight ι) d = b := hp hd
+     have key : (∀ v ∈ d.support, v.1 ∉ T) ↔ ∀ k ∈ T, b k = 0 := by
+@@ -116,7 +116,7 @@
+         exact this v hv rfl
+     by_cases hb : ∀ k ∈ T, b k = 0
+     · rw [if_pos (key.mpr hb), if_pos hb]
+-    · rw [if_neg (fun h => hb (key.mp h)), if_neg hb, coeff_zero]
++    · rw [if_neg (fun h => hb (key.mp h)), if_neg hb, AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply]
+ 
+ theorem killBlocks_mem_of_isMultiHomogIdeal {Q : Ideal (MRing ι F)} (hQ : IsMultiHomogIdeal Q)
+     (T : Finset K) {q : MRing ι F} (hq : q ∈ Q) : killBlocks T q ∈ Q := by

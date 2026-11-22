@@ -1,0 +1,12 @@
+--- a/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/TaylorDiscriminants/DiscriminantEstimates/DiscriminantLemmas/UniformDiscreteness/FgOfUnifDiscrete.lean
++++ b/src/ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/TaylorDiscriminants/DiscriminantEstimates/DiscriminantLemmas/UniformDiscreteness/FgOfUnifDiscrete.lean
+@@ -119,6 +119,8 @@
+ 
+ theorem fGOfDisc : FGOfDiscSt := fun _ _ _ _ _ _ _ _ _ Nf M hM => fg_of_unifDiscrete Nf M hM
+ 
+-theorem isLatticeOfDisc : IsLatticeOfDiscSt := fun _ _ _ _ _ _ _ _ _ Nf M hM hsp => ⟨fg_of_unifDiscrete Nf M hM, hsp⟩
++theorem isLatticeOfDisc : IsLatticeOfDiscSt := fun _ _ _ _ _ _ _ _ _ Nf M hM hsp =>
++  { toIsLattice := Submodule.IsLattice.of_fg _ (fg_of_unifDiscrete Nf M hM)
++    span_eq_top := hsp }
+ 
+ end PI.UnitaryGroupMassFormula.TBDisc

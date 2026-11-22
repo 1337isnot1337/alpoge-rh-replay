@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/GlobalFields/LocalFieldAtPlace.lean
++++ b/src/GroundTheory/GlobalFields/LocalFieldAtPlace.lean
+@@ -57,7 +57,7 @@
+     rintro (_ | a) hy
+     · exact absurd rfl hy
+     · rfl
+-  rw [normalizedAbv_eq_toNNReal, WithZeroMulInt.toNNReal_neg_apply _ hx', key]
++  rw [normalizedAbv_eq_toNNReal, WithZeroMulInt.toNNReal_neg_apply _ hx']
+   simp
+ 
+ theorem normalizedAbv_of_irreducible {ϖ : v.adicCompletionIntegers K} (hϖ : Irreducible ϖ) :

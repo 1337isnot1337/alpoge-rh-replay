@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.DiscreteTopologySpanOfLinearIndependent",
+  "source_sha256": "ca65ea91471c6396d21faaa994bb4cefd42901263f85dfce56cbdfa3039fe2b0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Proof-only: use HasUniqueDiv, the renamed pinned additive torsion-free injectivity property, supplied by the existing real vector space. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0099-lean436-20261121/packet-result.json"
+}

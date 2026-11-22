@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RealPlaceAnalysis.StatementB",
+  "source_sha256": "ba17ff1d2ea97838d1a475dedde5041a5e7cb6dd3e8596c1e42e24b78645f335",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

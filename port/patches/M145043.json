@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.LemmaAOf",
+  "source_sha256": "4238dd3a9a487af4239e3563a9f46f34af9ae8ee8588445f5b1b52255996eea7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}

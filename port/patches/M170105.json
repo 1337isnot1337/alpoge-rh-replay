@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.PAdicHodge.NormalizedTraceClosure",
+  "source_sha256": "c97ed4a4877f06073ef554499ff2ab2b106d7075839b2a0a2d3e75c52d6be460",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}

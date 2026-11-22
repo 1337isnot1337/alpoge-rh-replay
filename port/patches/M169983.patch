@@ -1,0 +1,63 @@
+--- a/src/GroundTheory/PAdicHodge/AxLemma.lean
++++ b/src/GroundTheory/PAdicHodge/AxLemma.lean
+@@ -12,7 +12,7 @@
+     (h2 : d < p ^ (k + 1)) : ¬ p ∣ Nat.choose d (p ^ k) := by
+   have hlog : Nat.log p d = k := Nat.log_eq_of_pow_le_of_lt_pow h1 h2
+   have hv : padicValNat p (Nat.choose d (p ^ k)) = 0 := by
+-    rw [padicValNat_choose h1 (b := k + 1) (by omega), Finset.card_eq_zero,
++    rw [Nat.padicValNat_def, multiplicity_choose h1 (b := k + 1) (by omega), Finset.card_eq_zero,
+       Finset.filter_eq_empty_iff]
+     intro i hi
+     rw [Finset.mem_Ico] at hi
+@@ -20,7 +20,7 @@
+     rw [Nat.mod_eq_zero_of_dvd hdvd, zero_add, not_le]
+     exact Nat.mod_lt _ (pow_pos hp.out.pos i)
+   have hne : Nat.choose d (p ^ k) ≠ 0 := (Nat.choose_pos h1).ne'
+-  rcases (padicValNat.eq_zero_iff.1 hv) with h | h | h
++  rcases (Nat.multiplicity_eq_zero_iff.1 (by rwa [Nat.padicValNat_def] at hv)) with h | h | h
+   · exact absurd h hp.out.one_lt.ne'
+   · exact absurd h hne
+   · exact h
+@@ -34,7 +34,7 @@
+     obtain ⟨j, rfl⟩ : ∃ j, k = j + 1 := ⟨k - 1, by omega⟩
+     simp only [Nat.add_sub_cancel, pow_succ, Nat.mul_sub, mul_one]
+   have hv : padicValNat p (Nat.choose (p ^ k) (p ^ (k - 1))) ≤ 1 := by
+-    rw [padicValNat_choose hle (b := k + 1) (by omega)]
++    rw [Nat.padicValNat_def, multiplicity_choose hle (b := k + 1) (by omega)]
+     calc _ ≤ ({k} : Finset ℕ).card := by
+           refine Finset.card_le_card fun i hi => ?_
+           rw [Finset.mem_filter, Finset.mem_Ico] at hi
+@@ -52,6 +52,7 @@
+   intro hdvd
+   have hne : Nat.choose (p ^ k) (p ^ (k - 1)) ≠ 0 := (Nat.choose_pos hle).ne'
+   have := (padicValNat_dvd_iff_le hne).1 hdvd
++  rw [Nat.padicValNat_def] at hv
+   omega
+ 
+ section Norms
+@@ -65,21 +66,22 @@
+   rw [h1]
+   refine (PadicAlgCl.norm_extends p _).trans ?_
+   rw [Padic.eq_padicNorm, padicNorm.eq_zpow_of_nonzero (by exact_mod_cast hn),
+-    padicValRat.of_nat]
++    padicValRat.of_nat, Nat.padicValNat_def]
+   push_cast
+   rfl
+ 
+ theorem norm_natCast_padicAlgCl_of_not_dvd {n : ℕ} (h : ¬ p ∣ n) :
+     ‖(n : PadicAlgCl p)‖ = 1 := by
+   have hn : n ≠ 0 := by rintro rfl; exact h (dvd_zero p)
+-  rw [norm_natCast_padicAlgCl hn, padicValNat.eq_zero_of_not_dvd h]
++  rw [norm_natCast_padicAlgCl hn, Nat.padicValNat_def, padicValNat.eq_zero_of_not_dvd h]
+   simp
+ 
+ theorem inv_le_norm_natCast_padicAlgCl {n : ℕ} (hn : n ≠ 0) (h : ¬ p ^ 2 ∣ n) :
+     (p : ℝ)⁻¹ ≤ ‖(n : PadicAlgCl p)‖ := by
+   have hv : padicValNat p n ≤ 1 := by
+     by_contra hv
+-    exact h ((pow_dvd_pow p (by omega)).trans pow_padicValNat_dvd)
++    rw [Nat.padicValNat_def] at hv
++    exact h ((pow_dvd_pow p (by omega)).trans (pow_padicValNat_dvd p n))
+   rw [norm_natCast_padicAlgCl hn, ← zpow_neg_one]
+   have hp1 : (1 : ℝ) ≤ p := by exact_mod_cast hp.out.one_lt.le
+   exact zpow_le_zpow_right₀ hp1 (by omega)

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.WeakShimuraTheory.SpaceMap",
+  "source_sha256": "7d37c88f0410fcaa5de01565526409b42733b0eba088804a9b0c920df569f0b3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Apply congrArg to the characteristic-polynomial coefficient explicitly, preventing congr from unfolding determinant expressions. The changed proof passed its reduced-heartbeat diagnostic; final evidence restores the original compiler limit. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0201-lean436-20261121/packet-result.json"
+}

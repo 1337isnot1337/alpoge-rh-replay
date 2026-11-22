@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.MemShaKernelIffLocallyTrivial",
+  "source_sha256": "7278e2e8671a91e1354d77491f0f13e0e8dea43fdd091ac844ee3d56af0e58bd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

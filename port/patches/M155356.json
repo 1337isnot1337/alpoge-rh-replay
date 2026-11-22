@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.IntegralSpanAlgebra.Burnside",
+  "source_sha256": "e59b555a94a3d743f94920b3a100840cd97124cae68e3d7fbd20ad2e4fed9b05",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Give the ring and module explicitly to avoid typeclass search inferring the scalar action through a function type."
+}

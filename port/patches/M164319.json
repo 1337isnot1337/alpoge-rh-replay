@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PProperSheetedFibreEsymm",
+  "source_sha256": "561b545934b8e0749e9c5a43a4f4f8a6eb0d4eb9b42d41e8dfed05ea7976f04e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod\u2080, the target lemma retaining the original nonnegativity and pointwise-bound hypotheses. Specify the source set U \u00d7\u02e2 {s : \u2102 | s \u2260 0} in DifferentiableOn.comp so the existing product-membership proof has a known conjunction type. These are the same bound and composition on the same source set. Only proofs change; definitions and theorem statements are unchanged."
+}

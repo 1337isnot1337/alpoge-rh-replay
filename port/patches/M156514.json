@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RootSubgroupJacobian.SUpPowEqZero",
+  "source_sha256": "ae11ef5106342942176d769b442a42222ea9ff5b33f6d8ff321924eb43d5cbd5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed Mathlib continuity lemma for finite sums."
+}

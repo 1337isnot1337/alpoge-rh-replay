@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ExistsMaximalAbelianHermitianStatement",
+  "source_sha256": "3b781fac73ca7572129c1c62102222a2422a594fd84bf79a3f15fd82d7dde18e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0138-lean436-20261121/packet-result.json"
+}

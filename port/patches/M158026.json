@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.RealPlaceAnalysis.RealPlaceTaylor.HalfSumRootsStandard",
+  "source_sha256": "1888d263cc08f546227246aa477b674aa79e19f1e67c7234c89a1818e8f96c4f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

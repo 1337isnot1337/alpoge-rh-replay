@@ -2,6 +2,23 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M004335 | P1956 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.UnderTie` | volunteer-build-reviewed |
+| M004337 | P1272 | `Development.AbelianVarietyTheory.Definitions.GaloisGeometry.VerticalBoundHeightCompare` | build-observed |
+| M004338 | P2198 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.APerTw` | build-observed |
+| M004340 | P1993 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.AndLeft` | volunteer-build-reviewed |
+| M004342 | P1114 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.AuxiliaryPrimeMemAvoidedPrimes` | build-observed |
+| M004343 | P0002 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.BasicForm` | volunteer-build-reviewed |
+| M004344 | P1056 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.BelowFiniteNonempty` | build-observed |
+| M004349 | P1880 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ColumnCompatibleSelection` | build-observed |
+| M004351 | P2187 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.CountsIrreducibilityConstants` | build-observed |
+| M004352 | P2235 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DRS` | build-observed |
+| M004353 | P1218 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DecayZero` | volunteer-build-reviewed |
+| M004355 | P1029 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DifferentiableAtChart` | volunteer-build-reviewed |
+| M004359 | P1029 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DisjointExceptional` | build-observed |
+| M004360 | P2198 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DivRows3GIff` | build-observed |
+| M004362 | P1736 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.EventuallyAllScaleContextsAndOfBoth` | volunteer-build-reviewed |
+| M004364 | P1001 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.ExistsBranchingCoordinatesIff` | volunteer-build-reviewed |
+| M004369 | P1193 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.FamilyClassSevenDutiesAndStableLattices` | build-observed |
 | M004371 | P1001 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.FormsStable` | volunteer-build-reviewed |
 | M004375 | P0295 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.GoodTopBot` | volunteer-build-reviewed |
 | M004376 | P0891 | `Development.AbelianVarietyTheory.Definitions.GlobalTwisting.IdxMatNF` | build-observed |
@@ -385,20 +402,3 @@
 | M005022 | P0295 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.MulLeftCompOfPullbackPointEquivMul` | wave-reused |
 | M005023 | P0096 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.OpensRangeChartYSupOpensRangeChartZ` | wave-reused |
 | M005025 | P0758 | `Development.AbelianVarietyTheory.Definitions.ShimuraVarieties.PowObjGeometricallyConnected` | wave-reused |
-| M005028 | P0347 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.FirstCoordinateAdmissible` | wave-reused |
-| M005030 | P0003 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IMemSiegel` | wave-reused |
-| M005031 | P0096 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IntMIffInt` | volunteer-build-reviewed |
-| M005032 | P1001 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsBaseClassLevelAdapted` | volunteer-build-reviewed |
-| M005033 | P0393 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsHeatZero` | wave-reused |
-| M005034 | P0974 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsStabForm` | build-observed |
-| M005035 | P0946 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsSystem` | wave-reused |
-| M005036 | P1169 | `Development.AbelianVarietyTheory.Definitions.SpanningFamilies.IsWeakOfDatum` | build-observed |
-| M005040 | P0731 | `Development.AbelianVarietyTheory.Definitions.TeichmullerDepth.HasTeich` | wave-reused |
-| M005041 | P0678 | `Development.AbelianVarietyTheory.Definitions.TeichmullerDepth.IsEigBasisIff` | wave-reused |
-| M005042 | P0891 | `Development.AbelianVarietyTheory.Definitions.TeichmullerDepth.PsJetEqToJetOfNonempty` | build-observed |
-| M005043 | P0174 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.AevalEqZeroOfHomogeneousComponent` | wave-reused |
-| M005044 | P0239 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.AwayToSectionFromZero` | wave-reused |
-| M005045 | P0475 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.CoeNonzeroLocusCanonicalEqComplRange` | wave-reused |
-| M005046 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.EqZeroOrSingleOfDegreeLtTwo` | wave-reused |
-| M005047 | P0003 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.EventuallyDifferentiableAtOfContDiffAtTwo` | volunteer-build-reviewed |
-| M005048 | P0239 | `Development.AbelianVarietyTheory.Definitions.ThetaMetrics.ExistsAlgebraicIndependentGenericPoint` | volunteer-build-reviewed |

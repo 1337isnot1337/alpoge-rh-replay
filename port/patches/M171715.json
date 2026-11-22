@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.CokernelsAgreeEquivariantly",
+  "source_sha256": "1614e2ce76147632003835aaf703c7eb4462aa684698895ce02acda68fbfec22",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

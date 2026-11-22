@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.FormalExpMulFormalExpNeg",
+  "source_sha256": "62873e5876ac0902410de4b9f7fb6ed973ede569def1f12852a345383468ba31",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged The coefficient ring is now implicit in the same formal power-series derivatives, including statement occurrences; these are identical derivatives. Proof-local torsion instances use HasUniqueDiv, the renamed pinned injectivity property, supplied by the existing rational algebra.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0099-lean436-20261121/packet-result.json"
+}

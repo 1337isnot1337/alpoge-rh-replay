@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.QuasicoherentCohomology.ToAbSheafPreservesFiniteLimits",
+  "source_sha256": "09b376d471b446e382c01b1592c91fe29388c7d041f4c6ef34fbed106320f912",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The target scalar-multiplication endomorphism wrapper exposes its categorical morphism via asHom. smulHom still has the identical component x \u21a6 restrictGlobal X U r \u2022 x, so its definition and induced action are equivalent to the pinned ones. End is now a structure wrapping the same categorical endomorphism. Explicit End.of/asHom transports smulEnd, functorEndRingHom and endAction through End.homEquiv, preserving the identical maps, addition and reversed-composition multiplication. The endAction_apply statement projects the same underlying morphism.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0096-lean436-20261121/packet-result.json"
+}

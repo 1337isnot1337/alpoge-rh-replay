@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularIffIsQuasiRegularSeqOfIsLocalRing.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/IsWeaklyRegularIffIsQuasiRegularSeqOfIsLocalRing.lean
+@@ -40,7 +40,7 @@
+           ext o
+           cases o with
+           | none => rw [Finsupp.mapDomain_of_notMem_range _ _ (by simp), h0]
+-          | some i => rw [Finsupp.mapDomain_apply (Option.some_injective _), Finsupp.some_apply]
++          | some i => rw [Finsupp.mapDomain_apply_of_injective (Option.some_injective _), Finsupp.some_apply]
+         refine ⟨Sum.inl ⟨α.some, ?_⟩, Subtype.ext h1⟩
+         rw [← hα, ← h1, Finsupp.degree_mapDomain, h1]
+       · have h1 : α - Finsupp.single none 1 + Finsupp.single none 1 = α :=
+@@ -320,6 +320,8 @@
+       ih h.quotSMulTop_tail fun i => hf _⟩
+     rw [Ideal.span_le]
+     rintro _ ⟨i, rfl⟩
++    change f i ∈ Ring.jacobson R
++    rw [← Ideal.jacobson_bot]
+     exact hf i
+ 
+ example : IsQuasiRegularSeq ℤ ![(2 : ℤ)] :=

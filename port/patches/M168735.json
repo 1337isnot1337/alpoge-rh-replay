@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsClosedPointGenericFibre",
+  "source_sha256": "17d758b88941c2f94961c05eadbd81353eb8634a13880fc46c4e607532b6b7e1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

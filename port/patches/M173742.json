@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.TaylorDiscriminants.DiscriminantEstimates.DiscriminantLemmas.IdempotentEvaluation.IdemEval",
+  "source_sha256": "472fe56c43f4d53b0efd60a14c66e98c19ad8c396ee5b7355d089cc1fc80e992",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0170-lean436-20261121/packet-result.json"
+}

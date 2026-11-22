@@ -1,0 +1,12 @@
+--- a/src/Formalism/WachModuleLifts/WachModuleProofs/LemmaHLift.lean
++++ b/src/Formalism/WachModuleLifts/WachModuleProofs/LemmaHLift.lean
+@@ -10,7 +10,8 @@
+   obtain ⟨q, rfl⟩ : ∃ q, p = q + 1 := ⟨p - 1, by have := hp.out.one_lt; omega⟩
+   have hq : 0 < q := by have := hp.out.one_lt; omega
+   have key : q * padicValNat (q + 1) m.factorial ≤ m := by
+-    have h := sub_one_mul_padicValNat_factorial (p := q + 1) m
++    have h := hp.out.sub_one_mul_multiplicity_factorial (n := m)
++    rw [Nat.padicValNat_def]
+     rw [Nat.add_sub_cancel] at h
+     omega
+   have hN : (m + padicValNat (q + 1) m.factorial) * q ≤ m * (q + 1) := by nlinarith [key]

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FrobeniusContraction.FrobeniusContractionProofs.EulerCharacteristicHolds",
+  "source_sha256": "ac5026824c3538a3a1aefc160e1acaf21f26970e69f5a3e5f8b3cb7cdc8d067a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

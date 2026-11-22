@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/WeakShimuraTheory/SpaceMap.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/WeakShimuraTheory/SpaceMap.lean
+@@ -101,7 +101,7 @@
+         rw [Matrix.charpoly_map, Polynomial.coeff_map]
+         rfl
+       rw [e f, e f']
+-      congr 2
++      apply congrArg (fun A : Matrix (Fin 4) (Fin 4) R => A.charpoly.coeff n)
+       ext i j
+       exact hr g i j
+     · intro v i s hs

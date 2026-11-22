@@ -1,0 +1,1455 @@
+Packet P0152, partial submission
+Upstream base 67be0d3a90f3d5df3291a2452a12ed387d2080e0
+Port record commit 97e95967d7651ba4123f4e8a9f588e79c46cdb31
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M154253 M154334 M154345 M154400 M154409 M154418 M154439 M154468 M154471 M154472 M154475 M154500 M154524 M154527 M154534 M154539 M154542 M154548 M154550 M154555 M154585 M154586 M154603 M154614 M154748 M154751 M154781 M154783 M154785 M154791 M154793 M154808 M154809 M154810 M154811 M154814 M154838 M154839 M154849 M154863 M154883 M154888 M154889 M154895 M154899 M154908 M154909 M154915 M154917 M154918 M154919 M154940 M154977 M155004 M155005 M155008 M155012 M155017 M155040 M155050 M155052 M155055
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AlgebraicValuesFinite.NormEqOneOfForallZpow Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.GrpTube Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.IsUnimodular Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.SdTest Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.TupPlace Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArtinSchreierRoots.ExistsRootOC Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BesselDerivatives.ContDiffOnDirectionalDerivative Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BiadditiveCubes.ConstantCoeffLogEqZero Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BiadditivePadicLinear.Cont2 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BigCellConjugation.Monomial Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BochnerTheorem.RMKComplex Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CMTraceSurjective.IsTrMulConjOfMem Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterExtension.UnitsComplexExistsZpow Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterIdempotents.Development Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ChebyshevPrimeBounds.PrimeCountBoundOf Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CircleGaugeAction.DglApplyOff Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CoefficientBaseChange.CoordBaseChange Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CommutingMultiplicity.SchurStep Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGelfandAverage.AvgStep Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGroupIntegrability.InstCompactUG Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ConstantCoefficientKernel.RingHomCoeffZero Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ConvolutionProjection.ConvProjOf Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountNonIntegrality.T2SpaceOfNonarchimedeanLocalField Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.CTEqConjTranspose Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CubeFormalIdentities.CoeffPowMulPowEqZero Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CubicExponentialFactor.NormAddLeOne Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantIdentity.StNormOne Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelFiniteness.ExistsNatMulMemFracFam Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelOrder.ValNatCastEqOne Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DiagonalPadicSubstitution.SubstOps Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DiagonalRank.DetOneSubPNe Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run1 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run2 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run3 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run4 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.ThetaDiff Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EmbeddingPermutations.CjEq Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EmbeddingTraceSum.Imports Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.GoodHeightExists Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.LogDerivBoundOfZeroFree Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialIntegrality.Development Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorLower.RealStep Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorRays.DetOfOffdiag Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialTriangular.SortedSpec Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiltrationLength.LengthQuotLeOfKerLe Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteExtensionTopology.Imports Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteOrderReduction.Bridge Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.ConjTMulMulApply Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.HasSignatureExistsNonneg Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.NatAddZeroFinOne Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.SumMulCommMulVec Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockHarmonicSplitting.FockInnerSelfReNonneg Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockRaisingLowering.SameSign Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupPoints.ConstantCoeffLogEqZero Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupPoints.ConstantCoeffPsubst Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupSplitting.Development Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupTriangles.CoeffSubstUpdZero Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FourSquareQuaternions.FourSqOf Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FunctionalEquationSeries.Development Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaloisTorsionConjugacy.WpBridge Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianDualMeasure.DualMeasure Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianUniqueness.MulMApply
+islattice-audit: 62 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+⚠ [18351/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianDualMeasure.DualMeasure (3.8s)
+⚠ [18352/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaloisTorsionConjugacy.WpBridge (4.0s)
+✔ [18354/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupSplitting.Development (4.3s)
+⚠ [18355/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FunctionalEquationSeries.Development (3.6s)
+⚠ [18356/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupPoints.ConstantCoeffPsubst (3.0s)
+⚠ [18357/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupTriangles.CoeffSubstUpdZero (5.0s)
+✔ [18358/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupPoints.ConstantCoeffLogEqZero (5.1s)
+⚠ [18359/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockRaisingLowering.SameSign (4.5s)
+⚠ [18361/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.SumMulCommMulVec (5.3s)
+⚠ [18362/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.NatAddZeroFinOne (4.7s)
+✔ [18363/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.HasSignatureExistsNonneg (4.4s)
+✔ [18364/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteOrderReduction.Bridge (6.1s)
+⚠ [18366/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiltrationLength.LengthQuotLeOfKerLe (5.6s)
+✔ [18367/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteExtensionTopology.Imports (6.4s)
+⚠ [18368/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialTriangular.SortedSpec (4.0s)
+⚠ [18369/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorLower.RealStep (5.2s)
+⚠ [18370/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorRays.DetOfOffdiag (4.0s)
+⚠ [18371/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.LogDerivBoundOfZeroFree (5.6s)
+✔ [18372/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialIntegrality.Development (3.7s)
+⚠ [18373/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.GoodHeightExists (3.9s)
+⚠ [18374/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EmbeddingTraceSum.Imports (4.4s)
+⚠ [18375/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EmbeddingPermutations.CjEq (4.2s)
+⚠ [18376/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.ThetaDiff (3.6s)
+⚠ [18377/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run1 (17s)
+⚠ [18378/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run2 (17s)
+⚠ [18379/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run3 (18s)
+⚠ [18380/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run4 (18s)
+✔ [18381/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DiagonalPadicSubstitution.SubstOps (5.4s)
+⚠ [18383/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantIdentity.StNormOne (5.1s)
+⚠ [18384/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CubicExponentialFactor.NormAddLeOne (6.4s)
+⚠ [18385/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CubeFormalIdentities.CoeffPowMulPowEqZero (5.9s)
+⚠ [18386/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountNonIntegrality.T2SpaceOfNonarchimedeanLocalField (5.2s)
+⚠ [18387/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.CTEqConjTranspose (5.4s)
+⚠ [18388/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ConvolutionProjection.ConvProjOf (5.4s)
+⚠ [18389/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ConstantCoefficientKernel.RingHomCoeffZero (5.0s)
+⚠ [18390/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelFiniteness.ExistsNatMulMemFracFam (5.4s)
+⚠ [18392/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FourSquareQuaternions.FourSqOf (4.4s)
+⚠ [18393/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CommutingMultiplicity.SchurStep (3.0s)
+⚠ [18395/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGelfandAverage.AvgStep (4.4s)
+⚠ [18396/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CoefficientBaseChange.CoordBaseChange (6.1s)
+⚠ [18397/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CircleGaugeAction.DglApplyOff (4.5s)
+⚠ [18398/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ChebyshevPrimeBounds.PrimeCountBoundOf (3.8s)
+⚠ [18399/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterIdempotents.Development (3.1s)
+⚠ [18400/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterExtension.UnitsComplexExistsZpow (3.6s)
+⚠ [18401/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CMTraceSurjective.IsTrMulConjOfMem (3.9s)
+⚠ [18402/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BochnerTheorem.RMKComplex (7.4s)
+⚠ [18403/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianUniqueness.MulMApply (6.9s)
+⚠ [18404/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BigCellConjugation.Monomial (14s)
+✔ [18405/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BiadditivePadicLinear.Cont2 (4.2s)
+⚠ [18406/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BiadditiveCubes.ConstantCoeffLogEqZero (4.1s)
+✔ [18407/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BesselDerivatives.ContDiffOnDirectionalDerivative (3.6s)
+⚠ [18408/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArtinSchreierRoots.ExistsRootOC (4.3s)
+⚠ [18409/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.TupPlace (3.9s)
+✔ [18410/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.IsUnimodular (4.4s)
+⚠ [18411/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.SdTest (5.7s)
+⚠ [18412/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AlgebraicValuesFinite.NormEqOneOfForallZpow (3.4s)
+⚠ [18413/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.GrpTube (7.1s)
+✔ [18375/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.ConjTMulMulApply (4.6s)
+⚠ [18389/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockHarmonicSplitting.FockInnerSelfReNonneg (5.0s)
+✔ [18390/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DiagonalRank.DetOneSubPNe (5.9s)
+⚠ [18411/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGroupIntegrability.InstCompactUG (6.0s)
+⚠ [18413/18413] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelOrder.ValNatCastEqOne (4.3s)
+
+Build verification on the upstream base
+Building 62 explicitly requested module(s).
+Resolved 51 transitive project import(s) (113 total module(s) to materialize).
+[FETCH] Materializing 113 SHA-256-verified source file(s)...
+[FETCH] Verified 113/113 source file(s).
+[KEEP]  M115152: unchanged (verified against archive source)
+[KEEP]  M115158: unchanged (verified against archive source)
+[KEEP]  M153450: unchanged (verified against archive source)
+[KEEP]  M153454: unchanged (verified against archive source)
+[KEEP]  M153461: unchanged (verified against archive source)
+[KEEP]  M153462: unchanged (verified against archive source)
+[KEEP]  M153467: unchanged (verified against archive source)
+[KEEP]  M153470: unchanged (verified against archive source)
+[KEEP]  M153471: unchanged (verified against archive source)
+[KEEP]  M153478: unchanged (verified against archive source)
+[KEEP]  M153486: unchanged (verified against archive source)
+[KEEP]  M153487: unchanged (verified against archive source)
+[KEEP]  M153489: unchanged (verified against archive source)
+[KEEP]  M153497: unchanged (verified against archive source)
+[KEEP]  M153498: unchanged (verified against archive source)
+[KEEP]  M153502: unchanged (verified against archive source)
+[KEEP]  M153503: unchanged (verified against archive source)
+[KEEP]  M153504: unchanged (verified against archive source)
+[KEEP]  M153505: unchanged (verified against archive source)
+[KEEP]  M153518: unchanged (verified against archive source)
+[KEEP]  M153519: unchanged (verified against archive source)
+[KEEP]  M153520: unchanged (verified against archive source)
+[KEEP]  M153522: unchanged (verified against archive source)
+[KEEP]  M153524: unchanged (verified against archive source)
+[KEEP]  M153526: unchanged (verified against archive source)
+[KEEP]  M153527: unchanged (verified against archive source)
+[KEEP]  M153533: unchanged (verified against archive source)
+[KEEP]  M153540: unchanged (verified against archive source)
+[KEEP]  M153542: unchanged (verified against archive source)
+[PATCH] M153591: applied M153591.patch
+[KEEP]  M153593: unchanged (verified against archive source)
+[KEEP]  M153621: unchanged (verified against archive source)
+[KEEP]  M154032: unchanged (verified against archive source)
+[KEEP]  M154043: unchanged (verified against archive source)
+[KEEP]  M154045: unchanged (verified against archive source)
+[KEEP]  M154127: unchanged (verified against archive source)
+[KEEP]  M154148: unchanged (verified against archive source)
+[KEEP]  M154253: unchanged (verified against archive source)
+[KEEP]  M154334: unchanged (verified against archive source)
+[KEEP]  M154341: unchanged (verified against archive source)
+[KEEP]  M154345: unchanged (verified against archive source)
+[KEEP]  M154353: unchanged (verified against archive source)
+[KEEP]  M154400: unchanged (verified against archive source)
+[KEEP]  M154409: unchanged (verified against archive source)
+[KEEP]  M154418: unchanged (verified against archive source)
+[KEEP]  M154439: unchanged (verified against archive source)
+[KEEP]  M154441: unchanged (verified against archive source)
+[KEEP]  M154468: unchanged (verified against archive source)
+[KEEP]  M154471: unchanged (verified against archive source)
+[KEEP]  M154472: unchanged (verified against archive source)
+[KEEP]  M154475: unchanged (verified against archive source)
+[KEEP]  M154476: unchanged (verified against archive source)
+[KEEP]  M154500: unchanged (verified against archive source)
+[KEEP]  M154524: unchanged (verified against archive source)
+[KEEP]  M154527: unchanged (verified against archive source)
+[KEEP]  M154534: unchanged (verified against archive source)
+[KEEP]  M154539: unchanged (verified against archive source)
+[KEEP]  M154542: unchanged (verified against archive source)
+[KEEP]  M154544: unchanged (verified against archive source)
+[KEEP]  M154548: unchanged (verified against archive source)
+[KEEP]  M154550: unchanged (verified against archive source)
+[PATCH] M154555: applied M154555.patch
+[KEEP]  M154585: unchanged (verified against archive source)
+[KEEP]  M154586: unchanged (verified against archive source)
+[KEEP]  M154590: unchanged (verified against archive source)
+[KEEP]  M154603: unchanged (verified against archive source)
+[KEEP]  M154614: unchanged (verified against archive source)
+[KEEP]  M154748: unchanged (verified against archive source)
+[KEEP]  M154751: unchanged (verified against archive source)
+[KEEP]  M154781: unchanged (verified against archive source)
+[KEEP]  M154783: unchanged (verified against archive source)
+[PATCH] M154785: applied M154785.patch
+[KEEP]  M154791: unchanged (verified against archive source)
+[PATCH] M154793: applied M154793.patch
+[KEEP]  M154808: unchanged (verified against archive source)
+[KEEP]  M154809: unchanged (verified against archive source)
+[KEEP]  M154810: unchanged (verified against archive source)
+[KEEP]  M154811: unchanged (verified against archive source)
+[KEEP]  M154812: unchanged (verified against archive source)
+[KEEP]  M154814: unchanged (verified against archive source)
+[KEEP]  M154838: unchanged (verified against archive source)
+[KEEP]  M154839: unchanged (verified against archive source)
+[KEEP]  M154849: unchanged (verified against archive source)
+[KEEP]  M154863: unchanged (verified against archive source)
+[KEEP]  M154883: unchanged (verified against archive source)
+[KEEP]  M154888: unchanged (verified against archive source)
+[KEEP]  M154889: unchanged (verified against archive source)
+[KEEP]  M154895: unchanged (verified against archive source)
+[KEEP]  M154899: unchanged (verified against archive source)
+[KEEP]  M154908: unchanged (verified against archive source)
+[KEEP]  M154909: unchanged (verified against archive source)
+[KEEP]  M154910: unchanged (verified against archive source)
+[PATCH] M154915: applied M154915.patch
+[KEEP]  M154917: unchanged (verified against archive source)
+[KEEP]  M154918: unchanged (verified against archive source)
+[KEEP]  M154919: unchanged (verified against archive source)
+[PATCH] M154940: applied M154940.patch
+[KEEP]  M154977: unchanged (verified against archive source)
+[KEEP]  M155004: unchanged (verified against archive source)
+[KEEP]  M155005: unchanged (verified against archive source)
+[KEEP]  M155008: unchanged (verified against archive source)
+[KEEP]  M155012: unchanged (verified against archive source)
+[KEEP]  M155017: unchanged (verified against archive source)
+[KEEP]  M155040: unchanged (verified against archive source)
+[KEEP]  M155050: unchanged (verified against archive source)
+[KEEP]  M155052: unchanged (verified against archive source)
+[KEEP]  M155055: unchanged (verified against archive source)
+[KEEP]  M157781: unchanged (verified against archive source)
+[KEEP]  M158005: unchanged (verified against archive source)
+[KEEP]  M158150: unchanged (verified against archive source)
+[KEEP]  M159034: unchanged (verified against archive source)
+[KEEP]  M170827: unchanged (verified against archive source)
+[KEEP]  M170858: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 62 module(s) with `lake build`...
+        IDs: M154253, M154334, M154345, M154400, M154409, M154418, M154439, M154468, M154471, M154472, M154475, M154500, M154524, M154527, M154534, M154539, M154542, M154548, M154550, M154555, M154585, M154586, M154603, M154614, M154748, M154751, M154781, M154783, M154785, M154791, M154793, M154808, M154809, M154810, M154811, M154814, M154838, M154839, M154849, M154863, M154883, M154888, M154889, M154895, M154899, M154908, M154909, M154915, M154917, M154918, M154919, M154940, M154977, M155004, M155005, M155008, M155012, M155017, M155040, M155050, M155052, M155055
+⚠ [18249/18313] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EqOneOfForallZpow
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/EqOneOfForallZpow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18250/18313] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EqOneOfForallZpow:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/EqOneOfForallZpow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AlgebraicValuesFinite.NormEqOneOfForallZpow
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:154: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:241: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:321: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:409: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:514: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:581: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:136: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:10: Unused tactic linter: `exact UpperTheory.Reformulated.B.Qk23.eq_one_of_forall_zpow ..` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:136: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:154: Unused tactic linter: `(intros;
+  apply UpperTheory.Reformulated.B.Qk23.eq_one_of_forall_zpow <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:241: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.Qk23.eq_one_of_forall_zpow <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:321: Unused tactic linter: `(intros;
+  apply @UpperTheory.Reformulated.B.Qk23.eq_one_of_forall_zpow <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:409: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.Qk23.eq_one_of_forall_zpow <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:514: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk23.eq_one_of_forall_zpow z h` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AlgebraicValuesFinite/NormEqOneOfForallZpow.lean:9:581: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qk23.eq_one_of_forall_zpow z` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18252/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.LintegralMulRightOfMem
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:47:0: automatically included section variable(s) unused in theorem `PI.AprimeInfA.map_mul_right_eq`:
+  [T2Space G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [T2Space G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:69:15: `MeasureTheory.Measure.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  M̵e̵a̵s̵u̵r̵e̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:61:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:62:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:61:6: Unused tactic linter: `exact (MeasureTheory.measure_pos_of_mem_nhds μ hK1).ne'` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:62:6: Unused tactic linter: `exact
+  ((isOpen_interior.measure_pos μ ⟨1, mem_interior_iff_mem_nhds.2 hK1⟩).trans_le
+      (measure_mono interior_subset)).ne'` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:82:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:138:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:85:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:85:6: Unused tactic linter: `exact
+  ⟨fun c => ((measurable_const_mul (c : G)).comp measurable_subtype_coe).subtype_mk, fun c =>
+    ((measurable_mul_const (c : G)).comp measurable_subtype_coe).subtype_mk⟩` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:174:0: automatically included section variable(s) unused in theorem `PI.AprimeInfA.meas_avg`:
+  [LocallyCompactSpace G]
+  [T2Space G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [LocallyCompactSpace G] [T2Space G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:182:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:179:0: automatically included section variable(s) unused in theorem `PI.AprimeInfA.avg_mul_mem`:
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [SecondCountableTopology G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [LocallyCompactSpace G] [T2Space G] [SecondCountableTopology G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:185:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:185:6: Unused tactic linter: `exact
+  ⟨fun c => ((measurable_const_mul (c : G)).comp measurable_subtype_coe).subtype_mk, fun c =>
+    ((measurable_mul_const (c : G)).comp measurable_subtype_coe).subtype_mk⟩` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:209:0: automatically included section variable(s) unused in theorem `PI.AprimeInfA.orb_mk`:
+  [TopologicalSpace G]
+  [IsTopologicalGroup G]
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [SecondCountableTopology G]
+  [MeasurableSpace G]
+  [BorelSpace G]
+  [TopologicalSpace X]
+  [T2Space X]
+  [MeasurableSpace X]
+  [BorelSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace
+  G] [IsTopologicalGroup
+  G] [LocallyCompactSpace
+  G] [T2Space
+  G] [SecondCountableTopology
+  G] [MeasurableSpace
+  G] [BorelSpace G] [TopologicalSpace X] [T2Space X] [MeasurableSpace X] [BorelSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:224:0: automatically included section variable(s) unused in theorem `PI.AprimeInfA.orb_inj`:
+  [TopologicalSpace G]
+  [IsTopologicalGroup G]
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [SecondCountableTopology G]
+  [MeasurableSpace G]
+  [BorelSpace G]
+  [TopologicalSpace X]
+  [T2Space X]
+  [MeasurableSpace X]
+  [BorelSpace X]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace
+  G] [IsTopologicalGroup
+  G] [LocallyCompactSpace
+  G] [T2Space
+  G] [SecondCountableTopology
+  G] [MeasurableSpace
+  G] [BorelSpace G] [TopologicalSpace X] [T2Space X] [MeasurableSpace X] [BorelSpace X] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:238:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:239:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:246:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:247:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:248:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:257:6: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:258:6: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:251:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:274:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:275:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:276:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:277:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:274:6: Unused tactic linter: `exact measurable_quotient_mk'` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:275:6: Unused tactic linter: `exact (QuotientGroup.continuous_mk).measurable` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:276:6: Unused tactic linter: `exact continuous_quot_mk.measurable` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean:277:6: Unused tactic linter: `fun_prop` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18253/18313] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.LintegralMulRightOfMem:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/LintegralMulRightOfMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.GrpTube
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/GrpTube.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/GrpTube.lean:18:0: automatically included section variable(s) unused in theorem `PI.AprimeInfG.mem_tubeS_mul_iff`:
+  [TopologicalSpace G]
+  [IsTopologicalGroup G]
+  [LocallyCompactSpace G]
+  [T2Space G]
+  [SecondCountableTopology G]
+  [MeasurableSpace G]
+  [BorelSpace G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace
+  G] [IsTopologicalGroup
+  G] [LocallyCompactSpace G] [T2Space G] [SecondCountableTopology G] [MeasurableSpace G] [BorelSpace G] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18255/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.Imports
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18313] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.Imports:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18313] Replayed Lemmata.GeneralBFactThirdFurther.Imports
+warning: src/Lemmata/GeneralBFactThirdFurther/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18259/18313] Ran Lemmata.GeneralBFactThirdFurther.Imports:irArts
+warning: src/Lemmata/GeneralBFactThirdFurther/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18260/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.SdTest
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/SdTest.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/SdTest.lean:19:122: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/SdTest.lean:19:10: Unused tactic linter: `exact Bl.general_b_fact_third_further.goal1 ..` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/SdTest.lean:19:122: Unused tactic linter: `(intros; apply Bl.general_b_fact_third_further.goal1 <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/SdTest.lean:47:0: automatically included section variable(s) unused in theorem `PI.AprimeInfW.ST.IsBichar.zero_left`:
+  [InnerProductSpace ℝ W]
+  [FiniteDimensional ℝ W]
+  [MeasurableSpace W]
+  [BorelSpace W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [InnerProductSpace ℝ W] [FiniteDimensional ℝ W] [MeasurableSpace W] [BorelSpace W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/SdTest.lean:53:0: automatically included section variable(s) unused in theorem `PI.AprimeInfW.ST.IsBichar.freq`:
+  [FiniteDimensional ℝ W]
+  [MeasurableSpace W]
+  [BorelSpace W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ W] [MeasurableSpace W] [BorelSpace W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/SdTest.lean:62:0: automatically included section variable(s) unused in theorem `PI.AprimeInfW.ST.measurable_freq`:
+  [FiniteDimensional ℝ W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/SdTest.lean:78:0: automatically included section variable(s) unused in theorem `PI.AprimeInfW.ST.freq_add`:
+  [FiniteDimensional ℝ W]
+  [MeasurableSpace W]
+  [BorelSpace W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ W] [MeasurableSpace W] [BorelSpace W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18261/18313] Replayed Formalism.RealPlaceAnalysis.Complexify
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18262/18313] Ran Formalism.RealPlaceAnalysis.Complexify:irArts
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18263/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.TupPlace
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArchimedeanOrbitMeasures/TupPlace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18264/18313] Replayed Formalism.PeriodIntegrals.ArtSch
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean:17:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean:18:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean:17:10: Unused tactic linter: `norm_cast` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean:18:10: Unused tactic linter: `simp` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18265/18313] Ran Formalism.PeriodIntegrals.ArtSch:irArts
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18266/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArtinSchreierRoots.ExistsRootOC
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ArtinSchreierRoots/ExistsRootOC.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18267/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BesselDerivatives.LiftAOneZero
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BesselDerivatives/LiftAOneZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18268/18313] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BesselDerivatives.LiftAOneZero:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BesselDerivatives/LiftAOneZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18270/18313] Replayed Formalism.PeriodIntegrals.BiaddOfCube
+warning: src/Formalism/PeriodIntegrals/BiaddOfCube.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18271/18313] Ran Formalism.PeriodIntegrals.BiaddOfCube:irArts
+warning: src/Formalism/PeriodIntegrals/BiaddOfCube.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18272/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BiadditiveCubes.ConstantCoeffLogEqZero
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BiadditiveCubes/ConstantCoeffLogEqZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18273/18313] Replayed Formalism.PeriodIntegrals.BiaddZpLin
+warning: src/Formalism/PeriodIntegrals/BiaddZpLin.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18274/18313] Ran Formalism.PeriodIntegrals.BiaddZpLin:irArts
+warning: src/Formalism/PeriodIntegrals/BiaddZpLin.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18276/18313] Replayed Formalism.PeriodIntegrals.LongWeylElementSquare
+warning: src/Formalism/PeriodIntegrals/LongWeylElementSquare.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/LongWeylElementSquare.lean:76:36: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/PeriodIntegrals/LongWeylElementSquare.lean:76:36: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18277/18313] Ran Formalism.PeriodIntegrals.LongWeylElementSquare:irArts
+warning: src/Formalism/PeriodIntegrals/LongWeylElementSquare.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18278/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BigCellConjugation.Monomial
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:20:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:20:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:20:31: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:23:10: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:23:49: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:23:61: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:23:72: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:23:111: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:26:12: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:26:30: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:26:60: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:27:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:29:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:38:10: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:38:49: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:38:92: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:39:8: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:39:47: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:41:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:41:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:42:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:42:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:66:52: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:67:63: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:72:10: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:72:49: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:74:52: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:74:71: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:75:63: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:80:10: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:80:49: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:83:51: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:83:71: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:64:40: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:64:40: Unused tactic linter: `simp at hz` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BigCellConjugation/Monomial.lean:92:62: This simp argument is unused:
+  Finset.sum_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [apply_ite star, Finset.sum_ite_eq', ite_mul, mul_ite]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18279/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BochnerTheorem.StepGelfand
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BochnerTheorem/StepGelfand.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18280/18313] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BochnerTheorem.StepGelfand:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BochnerTheorem/StepGelfand.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18281/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BochnerTheorem.RMKComplex
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BochnerTheorem/RMKComplex.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BochnerTheorem/RMKComplex.lean:94:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BochnerTheorem/RMKComplex.lean:95:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BochnerTheorem/RMKComplex.lean:94:8: Unused tactic linter: `exact ContinuousMap.integrable f` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/BochnerTheorem/RMKComplex.lean:95:8: Unused tactic linter: `exact
+  (integrableOn_univ).1 (f.continuous.continuousOn.integrableOn_compact isCompact_univ)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18282/18313] Replayed Formalism.PeriodIntegrals.CMTraceOnto
+warning: src/Formalism/PeriodIntegrals/CMTraceOnto.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18283/18313] Ran Formalism.PeriodIntegrals.CMTraceOnto:irArts
+warning: src/Formalism/PeriodIntegrals/CMTraceOnto.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18284/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CMTraceSurjective.IsTrMulConjOfMem
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CMTraceSurjective/IsTrMulConjOfMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18285/18313] Replayed Formalism.PeriodIntegrals.CharExtend
+warning: src/Formalism/PeriodIntegrals/CharExtend.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18286/18313] Ran Formalism.PeriodIntegrals.CharExtend:irArts
+warning: src/Formalism/PeriodIntegrals/CharExtend.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18287/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterExtension.UnitsComplexExistsZpow
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CharacterExtension/UnitsComplexExistsZpow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CharacterExtension/UnitsComplexExistsZpow.lean:28:8: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CharacterExtension/UnitsComplexExistsZpow.lean:23:0: Definition `PI.CharExtendWork.divisibleUnitsComplex` of class type is semireducible. Most type class instances should be instance-reducible, so consider marking this
+definition with `@[instance_reducible]`. If it is intentionally semireducible, this warning can be disabled with `set_option warn.classDefReducibility false`.
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CharacterExtension/UnitsComplexExistsZpow.lean:33:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18288/18313] Replayed Formalism.PeriodIntegrals.CharIdem
+warning: src/Formalism/PeriodIntegrals/CharIdem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/CharIdem.lean:15:4: The namespace `CharIdem` is duplicated in the declaration `PI.CharIdem.CharIdem`.
+
+Note: This linter can be disabled with `set_option linter.dupNamespace false`
+⚠ [18289/18313] Ran Formalism.PeriodIntegrals.CharIdem:irArts
+warning: src/Formalism/PeriodIntegrals/CharIdem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18290/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterIdempotents.Development
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CharacterIdempotents/Development.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18291/18313] Replayed Formalism.PeriodIntegrals.PrimeCount
+warning: src/Formalism/PeriodIntegrals/PrimeCount.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18292/18313] Ran Formalism.PeriodIntegrals.PrimeCount:irArts
+warning: src/Formalism/PeriodIntegrals/PrimeCount.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18293/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ChebyshevPrimeBounds.PrimeCountBoundOf
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ChebyshevPrimeBounds/PrimeCountBoundOf.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18294/18313] Replayed Formalism.PeriodIntegrals.ExistsGaugeMeasureForEachRank
+warning: src/Formalism/PeriodIntegrals/ExistsGaugeMeasureForEachRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/ExistsGaugeMeasureForEachRank.lean:65:4: The namespace `ExistsGaugeMeasureForEachRank` is duplicated in the declaration `PI.ExistsGaugeMeasureForEachRank.ExistsGaugeMeasureForEachRank`.
+
+Note: This linter can be disabled with `set_option linter.dupNamespace false`
+⚠ [18295/18313] Ran Formalism.PeriodIntegrals.ExistsGaugeMeasureForEachRank:irArts
+warning: src/Formalism/PeriodIntegrals/ExistsGaugeMeasureForEachRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18296/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CircleGaugeAction.DglApplyOff
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CircleGaugeAction/DglApplyOff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CircleGaugeAction/DglApplyOff.lean:54:23: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CircleGaugeAction/DglApplyOff.lean:66:57: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CircleGaugeAction/DglApplyOff.lean:72:57: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CircleGaugeAction/DglApplyOff.lean:124:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CircleGaugeAction/DglApplyOff.lean:126:17: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+⚠ [18297/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CoefficientBaseChange.InvBaseChange
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CoefficientBaseChange/InvBaseChange.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18298/18313] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CoefficientBaseChange.InvBaseChange:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CoefficientBaseChange/InvBaseChange.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18299/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CoefficientBaseChange.CoordBaseChange
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CoefficientBaseChange/CoordBaseChange.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CoefficientBaseChange/CoordBaseChange.lean:16:20: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CoefficientBaseChange/CoordBaseChange.lean:69:24: `TensorProduct.induction_on` has been deprecated: Use `TensorProduct.inductionOn` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+instead of
+  ∀ {R : Type u_1} [inst : CommSemiring R] {M : Type u_5} {N : Type u_6} [inst_1 : AddCommMonoid M]
+    [inst_2 : AddCommMonoid N] [inst_3 : Module R M] [inst_4 : Module R N] {motive : M ⊗[R] N → Prop} (z : M ⊗[R] N),
+    motive 0 →
+      (∀ (x : M) (y : N), motive (x ⊗ₜ[R] y)) → (∀ (x y : M ⊗[R] N), motive x → motive y → motive (x + y)) → motive z
+⚠ [18300/18313] Replayed Formalism.PeriodIntegrals.UMultOne
+warning: src/Formalism/PeriodIntegrals/UMultOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18301/18313] Ran Formalism.PeriodIntegrals.UMultOne:irArts
+warning: src/Formalism/PeriodIntegrals/UMultOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18302/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CommutingMultiplicity.SchurStep
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CommutingMultiplicity/SchurStep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18303/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGelfandAverage.AvgStep
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGelfandAverage/AvgStep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18304/18313] Replayed Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EvalDet
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/EvalDet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18305/18313] Ran Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.EvalDet:irArts
+warning: src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/EvalDet.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18306/18313] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGroupIntegrability.InstCompactUG
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:118: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:187: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:249: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:319: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:406: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:462: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:515: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:566: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:615: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:100: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:10: Unused tactic linter: `exact UpperTheory.Reformulated.B.Qi25.sum ..` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:100: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:118: Unused tactic linter: `(intros; apply UpperTheory.Reformulated.B.Qi25.sum <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:187: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.Qi25.sum <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:249: Unused tactic linter: `(intros; apply @UpperTheory.Reformulated.B.Qi25.sum <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:319: Unused tactic linter: `(apply @UpperTheory.Reformulated.B.Qi25.sum <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:406: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi25.sum N ι s F hF` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:462: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi25.sum N ι s F` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:515: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi25.sum N ι s` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:566: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi25.sum N ι` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean:72:615: Unused tactic linter: `exact @UpperTheory.Reformulated.B.Qi25.sum N` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18307/18313] Replayed Formalism.PeriodIntegrals.KerIso
+warning: src/Formalism/PeriodIntegrals/KerIso.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18308/18313] Ran Formalism.PeriodIntegrals.KerIso:irArts
+warning: src/Formalism/PeriodIntegrals/KerIso.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18309/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ConstantCoefficientKernel.RingHomCoeffZero
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ConstantCoefficientKernel/RingHomCoeffZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18310/18386] Replayed Formalism.PeriodIntegrals.PhConvProj
+warning: src/Formalism/PeriodIntegrals/PhConvProj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18311/18386] Ran Formalism.PeriodIntegrals.PhConvProj:irArts
+warning: src/Formalism/PeriodIntegrals/PhConvProj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18312/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ConvolutionProjection.ConvProjOf
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ConvolutionProjection/ConvProjOf.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18313/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountNonIntegrality.DSurjDef
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountNonIntegrality/DSurjDef.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18314/18386] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountNonIntegrality.DSurjDef:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountNonIntegrality/DSurjDef.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18315/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountNonIntegrality.T2SpaceOfNonarchimedeanLocalField
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountNonIntegrality/T2SpaceOfNonarchimedeanLocalField.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountNonIntegrality/T2SpaceOfNonarchimedeanLocalField.lean:44:39: `Submodule.closed_of_finiteDimensional` has been deprecated: Use `Submodule.isClosed_of_finiteDimensional` instead
+⚠ [18316/18386] Replayed Formalism.SatakeDualWeyl.Statement
+warning: src/Formalism/SatakeDualWeyl/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SatakeDualWeyl/Statement.lean:23:0: automatically included section variable(s) unused in theorem `Formalism.UG.cT_one`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18317/18386] Ran Formalism.SatakeDualWeyl.Statement:irArts
+warning: src/Formalism/SatakeDualWeyl/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18318/18386] Replayed Lemmata.MiscLemmasI.Imports
+warning: src/Lemmata/MiscLemmasI/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18319/18386] Ran Lemmata.MiscLemmasI.Imports:irArts
+warning: src/Lemmata/MiscLemmasI/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18320/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.CTEqConjTranspose
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean:49:2: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean:84:100: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean:84:160: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean:84:213: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean:84:274: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean:84:82: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean:84:10: Unused tactic linter: `exact Bl.SecondBlockLemmaJ.goal1 ..` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean:84:82: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean:84:100: Unused tactic linter: `(intros; apply Bl.SecondBlockLemmaJ.goal1 <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean:84:160: Unused tactic linter: `(apply @Bl.SecondBlockLemmaJ.goal1 <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean:84:213: Unused tactic linter: `(intros; apply @Bl.SecondBlockLemmaJ.goal1 <;> assumption)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CountingFormula/CTEqConjTranspose.lean:84:274: Unused tactic linter: `(apply @Bl.SecondBlockLemmaJ.goal1 <;>
+    first
+    | assumption
+    | infer_instance)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18321/18386] Replayed Formalism.PeriodIntegrals.FglGram
+warning: src/Formalism/PeriodIntegrals/FglGram.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18322/18386] Ran Formalism.PeriodIntegrals.FglGram:irArts
+warning: src/Formalism/PeriodIntegrals/FglGram.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18323/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CubeFormalIdentities.CoeffPowMulPowEqZero
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CubeFormalIdentities/CoeffPowMulPowEqZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18324/18386] Replayed Formalism.PeriodIntegrals.CubicExponentialFactor
+warning: src/Formalism/PeriodIntegrals/CubicExponentialFactor.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18325/18386] Ran Formalism.PeriodIntegrals.CubicExponentialFactor:irArts
+warning: src/Formalism/PeriodIntegrals/CubicExponentialFactor.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18326/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CubicExponentialFactor.NormAddLeOne
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CubicExponentialFactor/NormAddLeOne.lean:30:12: `mul_le_one₀` has been deprecated: No replacement, use constituent lemmas from proof.
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CubicExponentialFactor/NormAddLeOne.lean:40:10: `mul_le_one₀` has been deprecated: No replacement, use constituent lemmas from proof.
+⚠ [18327/18386] Replayed Formalism.PeriodIntegrals.DetIdPG
+warning: src/Formalism/PeriodIntegrals/DetIdPG.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18328/18386] Ran Formalism.PeriodIntegrals.DetIdPG:irArts
+warning: src/Formalism/PeriodIntegrals/DetIdPG.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18329/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantIdentity.StNormOne
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DeterminantIdentity/StNormOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18330/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelFiniteness.ExistsNatMulMemFracFam
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DeterminantKernelFiniteness/ExistsNatMulMemFracFam.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DeterminantKernelFiniteness/ExistsNatMulMemFracFam.lean:50:8: `FractionalIdeal.mem_coe` has been deprecated: Use `FractionalIdeal.mem_coeToSubmodule` instead
+
+Hint: Replace the deprecated name:
+  FractionalIdeal.mem_coeT̲o̲S̲u̲b̲m̲o̲d̲u̲l̲e̲
+⚠ [18331/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelOrder.ValNatCastEqOne
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DeterminantKernelOrder/ValNatCastEqOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DeterminantKernelOrder/ValNatCastEqOne.lean:100:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+⚠ [18332/18386] Replayed Formalism.PeriodIntegrals.BeDiagZp
+warning: src/Formalism/PeriodIntegrals/BeDiagZp.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18333/18386] Ran Formalism.PeriodIntegrals.BeDiagZp:irArts
+warning: src/Formalism/PeriodIntegrals/BeDiagZp.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18335/18386] Replayed Formalism.PeriodIntegrals.DiagRank
+warning: src/Formalism/PeriodIntegrals/DiagRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18336/18386] Ran Formalism.PeriodIntegrals.DiagRank:irArts
+warning: src/Formalism/PeriodIntegrals/DiagRank.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18338/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.SmallLoop
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DyadicPrimeIntervals/SmallLoop.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18339/18386] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.SmallLoop:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DyadicPrimeIntervals/SmallLoop.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18340/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run1
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DyadicPrimeIntervals/Run1.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18341/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run2
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DyadicPrimeIntervals/Run2.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18342/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run3
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DyadicPrimeIntervals/Run3.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18343/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run4
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DyadicPrimeIntervals/Run4.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18344/18386] Replayed Formalism.PeriodIntegrals.PrimesDyadicRS
+warning: src/Formalism/PeriodIntegrals/PrimesDyadicRS.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18345/18386] Ran Formalism.PeriodIntegrals.PrimesDyadicRS:irArts
+warning: src/Formalism/PeriodIntegrals/PrimesDyadicRS.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18346/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.ThetaDiff
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/DyadicPrimeIntervals/ThetaDiff.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18347/18386] Replayed Formalism.PeriodIntegrals.EmbPerm
+warning: src/Formalism/PeriodIntegrals/EmbPerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18348/18386] Ran Formalism.PeriodIntegrals.EmbPerm:irArts
+warning: src/Formalism/PeriodIntegrals/EmbPerm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18349/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EmbeddingPermutations.CjEq
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/EmbeddingPermutations/CjEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/EmbeddingPermutations/CjEq.lean:8:54: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18350/18386] Replayed Formalism.PeriodIntegrals.EmbTraceSum
+warning: src/Formalism/PeriodIntegrals/EmbTraceSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18351/18386] Ran Formalism.PeriodIntegrals.EmbTraceSum:irArts
+warning: src/Formalism/PeriodIntegrals/EmbTraceSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18352/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EmbeddingTraceSum.Imports
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/EmbeddingTraceSum/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18353/18386] Replayed Formalism.PeriodIntegrals.ExplicitFormula
+warning: src/Formalism/PeriodIntegrals/ExplicitFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18354/18386] Ran Formalism.PeriodIntegrals.ExplicitFormula:irArts
+warning: src/Formalism/PeriodIntegrals/ExplicitFormula.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18355/18386] Replayed Formalism.PeriodIntegrals.ZerosWindow
+warning: src/Formalism/PeriodIntegrals/ZerosWindow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18356/18386] Ran Formalism.PeriodIntegrals.ZerosWindow:irArts
+warning: src/Formalism/PeriodIntegrals/ZerosWindow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18357/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.GoodHeightExists
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ExplicitFormula/GoodHeightExists.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18358/18386] Replayed Formalism.PeriodIntegrals.DiscIn
+warning: src/Formalism/PeriodIntegrals/DiscIn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18359/18386] Ran Formalism.PeriodIntegrals.DiscIn:irArts
+warning: src/Formalism/PeriodIntegrals/DiscIn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18360/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.LogDerivBoundOfZeroFree
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ExplicitFormula/LogDerivBoundOfZeroFree.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18361/18386] Replayed Formalism.PeriodIntegrals.ExpIntW
+warning: src/Formalism/PeriodIntegrals/ExpIntW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18362/18386] Ran Formalism.PeriodIntegrals.ExpIntW:irArts
+warning: src/Formalism/PeriodIntegrals/ExpIntW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18364/18386] Replayed Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.UnitTraceSumBounds.CBFiLower
+warning: src/Formalism/SharpRestriction/GlobalSchurBounds/GlobalRankLatticeProofs/UnitTraceSumBounds/CBFiLower.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SharpRestriction/GlobalSchurBounds/GlobalRankLatticeProofs/UnitTraceSumBounds/CBFiLower.lean:20:8: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SharpRestriction/GlobalSchurBounds/GlobalRankLatticeProofs/UnitTraceSumBounds/CBFiLower.lean:20:20: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SharpRestriction/GlobalSchurBounds/GlobalRankLatticeProofs/UnitTraceSumBounds/CBFiLower.lean:20:32: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SharpRestriction/GlobalSchurBounds/GlobalRankLatticeProofs/UnitTraceSumBounds/CBFiLower.lean:22:10: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/SharpRestriction/GlobalSchurBounds/GlobalRankLatticeProofs/UnitTraceSumBounds/CBFiLower.lean:22:22: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/SharpRestriction/GlobalSchurBounds/GlobalRankLatticeProofs/UnitTraceSumBounds/CBFiLower.lean:22:34: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18365/18386] Ran Formalism.SharpRestriction.GlobalSchurBounds.GlobalRankLatticeProofs.UnitTraceSumBounds.CBFiLower:irArts
+warning: src/Formalism/SharpRestriction/GlobalSchurBounds/GlobalRankLatticeProofs/UnitTraceSumBounds/CBFiLower.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18366/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorLower.RealStep
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ExponentialMinorLower/RealStep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18367/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorRays.DetOfOffdiag
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ExponentialMinorRays/DetOfOffdiag.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18368/18386] Replayed Formalism.PeriodIntegrals.ExpTri
+warning: src/Formalism/PeriodIntegrals/ExpTri.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18369/18386] Ran Formalism.PeriodIntegrals.ExpTri:irArts
+warning: src/Formalism/PeriodIntegrals/ExpTri.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18370/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialTriangular.SortedSpec
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ExponentialTriangular/SortedSpec.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18371/18386] Replayed Formalism.PeriodIntegrals.FiltLen
+warning: src/Formalism/PeriodIntegrals/FiltLen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18372/18386] Ran Formalism.PeriodIntegrals.FiltLen:irArts
+warning: src/Formalism/PeriodIntegrals/FiltLen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18373/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiltrationLength.LengthQuotLeOfKerLe
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FiltrationLength/LengthQuotLeOfKerLe.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18374/18386] Replayed Formalism.PeriodIntegrals.FinExtTop
+warning: src/Formalism/PeriodIntegrals/FinExtTop.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18375/18386] Ran Formalism.PeriodIntegrals.FinExtTop:irArts
+warning: src/Formalism/PeriodIntegrals/FinExtTop.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18377/18386] Replayed Formalism.PeriodIntegrals.FinOrdRedOne
+warning: src/Formalism/PeriodIntegrals/FinOrdRedOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18378/18386] Ran Formalism.PeriodIntegrals.FinOrdRedOne:irArts
+warning: src/Formalism/PeriodIntegrals/FinOrdRedOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18379/18386] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteOrderReduction.EqOneOfIsOfFinOrder
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FiniteOrderReduction/EqOneOfIsOfFinOrder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FiniteOrderReduction/EqOneOfIsOfFinOrder.lean:14:0: automatically included section variable(s) unused in theorem `PI.FinOrdRedOne.Core.pdvd_add`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FiniteOrderReduction/EqOneOfIsOfFinOrder.lean:20:0: automatically included section variable(s) unused in theorem `PI.FinOrdRedOne.Core.pdvd_zero`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FiniteOrderReduction/EqOneOfIsOfFinOrder.lean:22:0: automatically included section variable(s) unused in theorem `PI.FinOrdRedOne.Core.pdvd_neg`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FiniteOrderReduction/EqOneOfIsOfFinOrder.lean:26:0: automatically included section variable(s) unused in theorem `PI.FinOrdRedOne.Core.pdvd_mono`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FiniteOrderReduction/EqOneOfIsOfFinOrder.lean:32:0: automatically included section variable(s) unused in theorem `PI.FinOrdRedOne.Core.pdvd_smul`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FiniteOrderReduction/EqOneOfIsOfFinOrder.lean:58:0: automatically included section variable(s) unused in theorem `PI.FinOrdRedOne.Core.smul_cancel`:
+  [Fintype n]
+  [DecidableEq n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FiniteOrderReduction/EqOneOfIsOfFinOrder.lean:159:0: automatically included section variable(s) unused in theorem `PI.FinOrdRedOne.Core.pdvd_of_map_residue`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18380/18386] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteOrderReduction.EqOneOfIsOfFinOrder:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FiniteOrderReduction/EqOneOfIsOfFinOrder.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18383/18413] Replayed Formalism.PeriodIntegrals.FlagGramNonneg
+warning: src/Formalism/PeriodIntegrals/FlagGramNonneg.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18384/18413] Ran Formalism.PeriodIntegrals.FlagGramNonneg:irArts
+warning: src/Formalism/PeriodIntegrals/FlagGramNonneg.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18387/18413] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.NatAddZeroFinOne
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FlagGramNonnegativity/NatAddZeroFinOne.lean:14:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FlagGramNonnegativity/NatAddZeroFinOne.lean:31:79: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FlagGramNonnegativity/NatAddZeroFinOne.lean:31:75: Unused tactic linter: `<;>` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FlagGramNonnegativity/NatAddZeroFinOne.lean:31:79: Unused tactic linter: `rfl` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FlagGramNonnegativity/NatAddZeroFinOne.lean:36:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FlagGramNonnegativity/NatAddZeroFinOne.lean:42:6: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [18388/18413] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.SumMulCommMulVec
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FlagGramNonnegativity/SumMulCommMulVec.lean:34:0: automatically included section variable(s) unused in theorem `PI.UnitaryGroupMassFormula.FlagGramNonneg.sum_mul_comm_mulVec`:
+  [StarRing E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FlagGramNonnegativity/SumMulCommMulVec.lean:39:0: automatically included section variable(s) unused in theorem `PI.UnitaryGroupMassFormula.FlagGramNonneg.sum_mul_vecMul`:
+  [StarRing E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [StarRing E] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FlagGramNonnegativity/SumMulCommMulVec.lean:46:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FlagGramNonnegativity/SumMulCommMulVec.lean:46:6: Unused tactic linter: `exact (hS y x).symm` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18389/18413] Replayed Formalism.PeriodIntegrals.JointBlockShapes.MinusPart
+warning: src/Formalism/PeriodIntegrals/JointBlockShapes/MinusPart.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18390/18413] Ran Formalism.PeriodIntegrals.JointBlockShapes.MinusPart:irArts
+warning: src/Formalism/PeriodIntegrals/JointBlockShapes/MinusPart.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18391/18413] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockHarmonicSplitting.FockInnerSelfReNonneg
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FockHarmonicSplitting/FockInnerSelfReNonneg.lean:28:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FockHarmonicSplitting/FockInnerSelfReNonneg.lean:30:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FockHarmonicSplitting/FockInnerSelfReNonneg.lean:179:49: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FockHarmonicSplitting/FockInnerSelfReNonneg.lean:246:8: Unused tactic linter: `exact hdeg` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FockHarmonicSplitting/FockInnerSelfReNonneg.lean:260:8: Unused tactic linter: `exact hdeg` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18392/18413] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockRaisingLowering.SameSign
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FockRaisingLowering/SameSign.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18393/18413] Replayed Formalism.PeriodIntegrals.FglPtW
+warning: src/Formalism/PeriodIntegrals/FglPtW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18394/18413] Ran Formalism.PeriodIntegrals.FglPtW:irArts
+warning: src/Formalism/PeriodIntegrals/FglPtW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18396/18413] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdditiveIntegralGroups.SubstMem
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AdditiveIntegralGroups/SubstMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18397/18413] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AdditiveIntegralGroups.SubstMem:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/AdditiveIntegralGroups/SubstMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18398/18413] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupPoints.ConstantCoeffPsubst
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupPoints/ConstantCoeffPsubst.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupPoints/ConstantCoeffPsubst.lean:21:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupPoints/ConstantCoeffPsubst.lean:21:6: Unused tactic linter: `simp [MvPowerSeries.coeff_map]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18399/18413] Replayed Formalism.PeriodIntegrals.FglPhSplit
+warning: src/Formalism/PeriodIntegrals/FglPhSplit.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18400/18413] Ran Formalism.PeriodIntegrals.FglPhSplit:irArts
+warning: src/Formalism/PeriodIntegrals/FglPhSplit.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18402/18413] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupTriangles.CoeffSubstUpdZero
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean:14:0: automatically included section variable(s) unused in theorem `PI.FglTriFactor.Wk.upd_const`:
+  [Finite σ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Finite σ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean:25:0: automatically included section variable(s) unused in theorem `PI.FglTriFactor.Wk.upd_self`:
+  [Finite σ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Finite σ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean:28:0: automatically included section variable(s) unused in theorem `PI.FglTriFactor.Wk.upd_ne`:
+  [Finite σ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Finite σ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean:31:0: automatically included section variable(s) unused in theorem `PI.FglTriFactor.Wk.X_mem_SerS'`:
+  [Finite σ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Finite σ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean:49:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean:55:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean:57:8: Unused tactic linter: `dsimp only` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean:65:23: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean:64:8: Unused tactic linter: `dsimp only` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean:67:8: Unused tactic linter: `dsimp only` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean:73:0: automatically included section variable(s) unused in theorem `PI.FglTriFactor.Wk.coeff_X_mul_shift`:
+  [Finite σ]
+  [DecidableEq σ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Finite σ] [DecidableEq σ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FormalGroupTriangles/CoeffSubstUpdZero.lean:84:6: Unused tactic linter: `dsimp only` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18403/18413] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FourSquareQuaternions.FourSqOf
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FourSquareQuaternions/FourSqOf.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18404/18413] Replayed Formalism.PeriodIntegrals.FunEqAll
+warning: src/Formalism/PeriodIntegrals/FunEqAll.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18405/18413] Ran Formalism.PeriodIntegrals.FunEqAll:irArts
+warning: src/Formalism/PeriodIntegrals/FunEqAll.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18406/18413] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FunctionalEquationSeries.Development
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/FunctionalEquationSeries/Development.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18407/18413] Replayed Formalism.PeriodIntegrals.GalTorsConj
+warning: src/Formalism/PeriodIntegrals/GalTorsConj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18408/18413] Ran Formalism.PeriodIntegrals.GalTorsConj:irArts
+warning: src/Formalism/PeriodIntegrals/GalTorsConj.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18409/18413] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaloisTorsionConjugacy.WpBridge
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/GaloisTorsionConjugacy/WpBridge.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18410/18413] Replayed Formalism.PeriodIntegrals.GaussIntegral
+warning: src/Formalism/PeriodIntegrals/GaussIntegral.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18411/18413] Ran Formalism.PeriodIntegrals.GaussIntegral:irArts
+warning: src/Formalism/PeriodIntegrals/GaussIntegral.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18412/18413] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianDualMeasure.DualMeasure
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/GaussianDualMeasure/DualMeasure.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18413/18413] Replayed Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianUniqueness.MulMApply
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/GaussianUniqueness/MulMApply.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/GaussianUniqueness/MulMApply.lean:201:61: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/GaussianUniqueness/MulMApply.lean:214:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/GaussianUniqueness/MulMApply.lean:218:45: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/GaussianUniqueness/MulMApply.lean:225:56: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+Build completed successfully (18413 jobs).
+[PASS]  M154253 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.AlgebraicValuesFinite.NormEqOneOfForallZpow)
+[PASS]  M154334 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.GrpTube)
+[PASS]  M154345 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.IsUnimodular)
+[PASS]  M154400 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.SdTest)
+[PASS]  M154409 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArchimedeanOrbitMeasures.TupPlace)
+[PASS]  M154418 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ArtinSchreierRoots.ExistsRootOC)
+[PASS]  M154439 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BesselDerivatives.ContDiffOnDirectionalDerivative)
+[PASS]  M154468 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BiadditiveCubes.ConstantCoeffLogEqZero)
+[PASS]  M154471 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BiadditivePadicLinear.Cont2)
+[PASS]  M154472 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BigCellConjugation.Monomial)
+[PASS]  M154475 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.BochnerTheorem.RMKComplex)
+[PASS]  M154500 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CMTraceSurjective.IsTrMulConjOfMem)
+[PASS]  M154524 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterExtension.UnitsComplexExistsZpow)
+[PASS]  M154527 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CharacterIdempotents.Development)
+[PASS]  M154534 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ChebyshevPrimeBounds.PrimeCountBoundOf)
+[PASS]  M154539 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CircleGaugeAction.DglApplyOff)
+[PASS]  M154542 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CoefficientBaseChange.CoordBaseChange)
+[PASS]  M154548 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CommutingMultiplicity.SchurStep)
+[PASS]  M154550 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGelfandAverage.AvgStep)
+[PASS]  M154555 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGroupIntegrability.InstCompactUG)
+[PASS]  M154585 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ConstantCoefficientKernel.RingHomCoeffZero)
+[PASS]  M154586 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ConvolutionProjection.ConvProjOf)
+[PASS]  M154603 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountNonIntegrality.T2SpaceOfNonarchimedeanLocalField)
+[PASS]  M154614 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CountingFormula.CTEqConjTranspose)
+[PASS]  M154748 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CubeFormalIdentities.CoeffPowMulPowEqZero)
+[PASS]  M154751 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CubicExponentialFactor.NormAddLeOne)
+[PASS]  M154781 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantIdentity.StNormOne)
+[PASS]  M154783 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelFiniteness.ExistsNatMulMemFracFam)
+[PASS]  M154785 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DeterminantKernelOrder.ValNatCastEqOne)
+[PASS]  M154791 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DiagonalPadicSubstitution.SubstOps)
+[PASS]  M154793 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DiagonalRank.DetOneSubPNe)
+[PASS]  M154808 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run1)
+[PASS]  M154809 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run2)
+[PASS]  M154810 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run3)
+[PASS]  M154811 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run4)
+[PASS]  M154814 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.ThetaDiff)
+[PASS]  M154838 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EmbeddingPermutations.CjEq)
+[PASS]  M154839 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.EmbeddingTraceSum.Imports)
+[PASS]  M154849 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.GoodHeightExists)
+[PASS]  M154863 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExplicitFormula.LogDerivBoundOfZeroFree)
+[PASS]  M154883 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialIntegrality.Development)
+[PASS]  M154888 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorLower.RealStep)
+[PASS]  M154889 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialMinorRays.DetOfOffdiag)
+[PASS]  M154895 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ExponentialTriangular.SortedSpec)
+[PASS]  M154899 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiltrationLength.LengthQuotLeOfKerLe)
+[PASS]  M154908 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteExtensionTopology.Imports)
+[PASS]  M154909 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FiniteOrderReduction.Bridge)
+[PASS]  M154915 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.ConjTMulMulApply)
+[PASS]  M154917 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.HasSignatureExistsNonneg)
+[PASS]  M154918 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.NatAddZeroFinOne)
+[PASS]  M154919 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FlagGramNonnegativity.SumMulCommMulVec)
+[PASS]  M154940 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockHarmonicSplitting.FockInnerSelfReNonneg)
+[PASS]  M154977 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FockRaisingLowering.SameSign)
+[PASS]  M155004 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupPoints.ConstantCoeffLogEqZero)
+[PASS]  M155005 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupPoints.ConstantCoeffPsubst)
+[PASS]  M155008 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupSplitting.Development)
+[PASS]  M155012 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FormalGroupTriangles.CoeffSubstUpdZero)
+[PASS]  M155017 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FourSquareQuaternions.FourSqOf)
+[PASS]  M155040 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.FunctionalEquationSeries.Development)
+[PASS]  M155050 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaloisTorsionConjugacy.WpBridge)
+[PASS]  M155052 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianDualMeasure.DualMeasure)
+[PASS]  M155055 (Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianUniqueness.MulMApply)
+
+PORT_BUILD_PASSED all 62 module(s).
