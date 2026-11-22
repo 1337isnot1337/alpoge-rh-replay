@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.DedekindLFunctions.LandauTheorems.LandauCauchy",
+  "source_sha256": "fdd3d3cdebfe075a825bd3249713b362daef806e79e4a10341cdc1104a023b39",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121/packet-result.json"
+}

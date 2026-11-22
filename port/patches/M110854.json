@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.Foundations.Convolution.HermitianDescent.NmPoly",
+  "source_sha256": "a893ccf139850b30013db0470942b78d49ec2afc019fc736eaf5d692b7349f15",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the same explicitly typed polynomial coefficient function inside congrArg. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0202-lean436-20261121/packet-result.json"
+}
