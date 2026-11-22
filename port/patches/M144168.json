@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CoboundaryTransfers.GammaStableTransfers.DepthPageFirstZetaFactorEqPrimePower",
+  "source_sha256": "3cbf91359ae473fc5a3c073baa2cd16e80e53b760fba81d06c2f4e99420e958f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0270-lean436-20261121/packet-result.json"
+}

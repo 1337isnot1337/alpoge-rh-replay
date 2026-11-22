@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CharacterColumnKernels.IdempotentNormalForms.RightMulEpsAlgebraMap",
+  "source_sha256": "d263a172ba00f2c8a2a7ed5c50c5695f6b13b23f861933807edd690d82e28810",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0270-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CharacterColumnKernels.IdempotentNormalForms.IsUnitDetOfConst",
+  "source_sha256": "dfc10905bfa161f93460f59f39f61f8654f4252896d83acdaefdcd4ba3cde591",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the same polynomial coefficient projection in its current argument order. The exported HypDet predicate uses AddMonoidAlgebra.coeff explicitly on the same multivariate determinant, preserving the coefficient and mathematical condition.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0270-lean436-20261121/packet-result.json"
+}

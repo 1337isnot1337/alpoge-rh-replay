@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CoboundaryTransfers.GammaStableTransfers.BridgeLIFT",
+  "source_sha256": "a85dd2512c1d57ce8efc7d31fc8b16a2584502b9196306376bedfcdf3c772a4d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0270-lean436-20261121/packet-result.json"
+}
