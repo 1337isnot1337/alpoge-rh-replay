@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Jets.CmLatticeCommutatorPairingPowEqOneOfGoodLift",
+  "source_sha256": "2201be29415e02cf4d7a74d80bc7135cb45d959c9dea052b0837649b6f589098",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The coefficient ring argument of PowerSeries.derivative is now implicit. DT remains multiplication of the same formal derivative by 1 + X; its definition is equivalent to the pinned one.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0096-lean436-20261121/packet-result.json"
+}

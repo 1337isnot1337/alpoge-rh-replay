@@ -1,0 +1,29 @@
+--- a/src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/WeightedHomogeneousComponentMemElimIdeal.lean
++++ b/src/Development/AbelianVarietyTheory/Definitions/ThetaMetrics/WeightedHomogeneousComponentMemElimIdeal.lean
+@@ -313,7 +313,7 @@
+   obtain ⟨c, hc, rfl⟩ := hd
+   rw [Function.comp_apply, ← h c hc]
+   refine Finset.sum_congr rfl fun j _ => ?_
+-  have := Finsupp.mapDomain_apply hinj c (e.symm i, j)
++  have := Finsupp.mapDomain_apply_of_injective hinj c (e.symm i, j)
+   simpa using this
+ 
+ theorem IsBlockHomogeneous.aeval_smul [Fintype σ] [Fintype β] {G : Type*} [CommRing G]
+@@ -373,7 +373,7 @@
+   rw [totalDegree_mul_of_isDomain hf hq] at hd
+   have h0 : q.totalDegree = 0 := by omega
+   rw [totalDegree_eq_zero_iff_eq_C] at h0
+-  refine ⟨coeff 0 q, fun hc => hq ?_, ?_⟩
++  refine ⟨q.coeff 0, fun hc => hq ?_, ?_⟩
+   · rw [h0, hc, C_0]
+   · rw [← h0, mul_comm]
+ 
+@@ -386,7 +386,7 @@
+   have hne : weightedHomogeneousComponent w (Finsupp.weight w d) f ≠ 0 := by
+     intro h0
+     have := coeff_weightedHomogeneousComponent (w := w) (Finsupp.weight w d) f d
+-    rw [h0, if_pos rfl, coeff_zero] at this
++    rw [h0, if_pos rfl, AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply] at this
+     exact hd this.symm
+   have hle : (weightedHomogeneousComponent w (Finsupp.weight w d) f).totalDegree ≤
+       f.totalDegree := by
