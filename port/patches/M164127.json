@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGenericNoetherNormalisation",
+  "source_sha256": "23449b41e92f236a9d7da0c55d67f6a060477333a47e1a4590b4410549541016",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use polynomial-first coefficient projections, keeping the same polynomial and index in the exported identities and their proofs.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0226-lean436-20261121/packet-result.json"
+}

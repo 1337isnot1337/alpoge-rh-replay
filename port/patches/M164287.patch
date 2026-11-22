@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPowerUnitCount.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPowerUnitCount.lean
+@@ -171,7 +171,7 @@
+         exact ha'
+     have hcons : Function.Injective (fun a : ℂ => (vecCons a w : Fin (d + 1) → ℂ)) :=
+       fun a b hab => (vecCons_inj.mp hab).1
+-    rw [← (hinjΦ.mono fun τ hτ => (hPP hτ.1).1).encard_image, himg, hcons.encard_image,
++    rw [← (hinjΦ.mono (s₁ := {τ | τ ∈ P ∧ F τ = w ∧ τ 0 ^ m * H τ = t}) (fun τ hτ => (hPP hτ.1).1)).encard_image, himg, hcons.encard_image,
+       encard_pow_eq_of_ne_zero hm (norm_pos_iff.mp ht0)]
+ 
+ theorem PowerUnitCount.proof : PowerUnitCount.Statement := by

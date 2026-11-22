@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPrimitiveElementFibres.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPrimitiveElementFibres.lean
+@@ -99,6 +99,8 @@
+       exact h
+   ·
+     intro τ hτ
++    letI : SMul (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J) :=
++      ((projHom J A).toRingHom.toAlgebra).toSMul
+     let _ : Algebra (Polynomial (MvPolynomial (Fin d) ℂ)) (MvPolynomial (Fin n) ℂ ⧸ J) := (Polynomial.aeval ℓ).toRingHom.toAlgebra
+     have : IsScalarTower (MvPolynomial (Fin d) ℂ) (Polynomial (MvPolynomial (Fin d) ℂ)) (MvPolynomial (Fin n) ℂ ⧸ J) :=
+       IsScalarTower.of_algebraMap_eq fun r => (Polynomial.aeval_C ℓ r).symm

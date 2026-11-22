@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PPowerUnitCount",
+  "source_sha256": "866946d5be4e56abb28d142c32876327136c8d5033d943ee697ec9030e0b0f88",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the proof-local restricted set before projecting its membership conjunction. Use the current restricted-set parameter name of injectivity monotonicity. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0226-lean436-20261121/packet-result.json"
+}
