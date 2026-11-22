@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CapelliPolynomialCoefficientsIdeal",
+  "source_sha256": "a7f4d2d38e7f11eeb4441cf82edbb1b9e65274be19e2523d86420b9a2026e0ac",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target commutativity-of-adjoin instance and its scoped commutative-ring construction, with the same pairwise commutation proof. Use renamed polynomial finite-sum lemmas. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0204-lean436-20261121/packet-result.json"
+}
