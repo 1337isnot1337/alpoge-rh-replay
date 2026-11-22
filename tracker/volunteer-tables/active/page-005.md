@@ -4,8 +4,6 @@
 
 | Contributor | Task | Status |
 |---|---|---|
-| [@rohanarun](https://github.com/rohanarun) | [M028125](https://github.com/rohanarun/alpoge-rh-replay/issues/16329) | Claimed |
-| [@rohanarun](https://github.com/rohanarun) | [M031086](https://github.com/rohanarun/alpoge-rh-replay/issues/16330) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M045235](https://github.com/rohanarun/alpoge-rh-replay/issues/16331) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M049068](https://github.com/rohanarun/alpoge-rh-replay/issues/16332) | Claimed |
 | [@rohanarun](https://github.com/rohanarun) | [M081007](https://github.com/rohanarun/alpoge-rh-replay/issues/16333) | Claimed |
@@ -254,3 +252,5 @@
 | [@maugomez77](https://github.com/maugomez77) | [M118930](https://github.com/rohanarun/alpoge-rh-replay/issues/25886) | Claimed |
 | [@gilad12-coder](https://github.com/gilad12-coder) | [M131258](https://github.com/rohanarun/alpoge-rh-replay/issues/25970) | Claimed |
 | [@maugomez77](https://github.com/maugomez77) | [M168980](https://github.com/rohanarun/alpoge-rh-replay/issues/26195) | Claimed |
+| [@UnityChaos](https://github.com/UnityChaos) | [P2410](https://github.com/rohanarun/alpoge-rh-replay/issues/26207) | Claimed |
+| [@maugomez77](https://github.com/maugomez77) | [M135328](https://github.com/rohanarun/alpoge-rh-replay/issues/26210) | Claimed |
