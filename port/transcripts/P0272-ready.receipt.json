@@ -1,0 +1,1042 @@
+{
+  "target": "P0272",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/28767",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "5614bb0434d21120bb76a7a249f74869cacde986",
+  "port_record_commit": "ce12d11d9b75fc05e144c7f8630f2c9744985b20",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "863ced0f183cffca3f73252b336cdc9c8bf10b39034431f9ffcaee59efe2d6aa",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Formalism.GaloisIrreducibility.NoSolvableTransitive Formalism.GaussJetBounds.GaussJetProofs.ExistsNeZeroOfFinsumNeZero Formalism.GaussJetBounds.GaussJetProofs.MinorProductSupportTop Formalism.GaussJetBounds.GaussJetProofs.NormDetLeOneOfEntries Formalism.GaussJetBounds.GaussJetProofs.OneLetterRadiusIdentity Formalism.GaussJetBounds.GaussJetProofs.Special Formalism.GaussJetBounds.GaussJetProofs.SubstitutionWeightBound Formalism.GaussJetBounds.OneLetterGaussJets.StatementA Formalism.GaussJetBounds.OneLetterGaussJets.StatementN Formalism.GaussJetBounds.StatementE Formalism.GaussJetBounds.StatementO Formalism.GaussValuationBounds.GaussValueContraction.GaussBasic Formalism.GaussValuationBounds.GaussValueContraction.GaussMul Formalism.GaussValuationBounds.GaussValueContraction.LemmaCVal Formalism.GrowthSums.FactorialBaseGrowth.LogCoef Formalism.GrowthSums.FactorialBaseGrowth.PathBasisOfCount Formalism.HarderNarasimhan.HarderNarasimhanProofs.FinSup Formalism.HermitianCurvature.HermitianCurvatureProofs.AdicNeighbourhood Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedKernelSums Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedVectorChoices Formalism.HermitianCurvature.HermitianCurvatureProofs.BasePointMemHalfPlane Formalism.HermitianCurvature.HermitianCurvatureProofs.CriticalThresholdLowerBound Formalism.HermitianCurvature.HermitianCurvatureProofs.CuspidalIrreducibleSubrep Formalism.HermitianCurvature.HermitianCurvatureProofs.EqZeroOfIdealCompact Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteClassesPositiveSums Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteSumSwap Formalism.HermitianCurvature.HermitianCurvatureProofs.GermExpansionOfSteps Formalism.HermitianCurvature.HermitianCurvatureProofs.GermSumLattices Formalism.HermitianCurvature.HermitianCurvatureProofs.GramKernelHermitian Formalism.HermitianCurvature.HermitianCurvatureProofs.HenselRootsBounded Formalism.HermitianCurvature.HermitianCurvatureProofs.HessianScalingIntegrals Formalism.HermitianCurvature.HermitianCurvatureProofs.IntegralLatticeRefinementIdentity",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 32 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M145053",
+      "module": "Formalism.GaloisIrreducibility.NoSolvableTransitive",
+      "source_sha256": "2c2ee1c1bcb03953fd3317f351ee20d825e8a11236963ad178382699df7f36ad",
+      "patch_sha256": null,
+      "built_source_sha256": "2c2ee1c1bcb03953fd3317f351ee20d825e8a11236963ad178382699df7f36ad",
+      "olean_sha256": "7aa8acac0005fafb231bcdc3960799488c8497cf0a4c24270f92d0bf1f1ce5e1",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145068",
+      "module": "Formalism.GaussJetBounds.GaussJetProofs.ExistsNeZeroOfFinsumNeZero",
+      "source_sha256": "f1ad9c128f35faa1ee21726a3501904fd9782caf98c73f16e920bf7f44f58836",
+      "patch_sha256": null,
+      "built_source_sha256": "f1ad9c128f35faa1ee21726a3501904fd9782caf98c73f16e920bf7f44f58836",
+      "olean_sha256": "56ac3bee550daad252ce880bd874e182af894a1b38a73b8c0a5278e316df3c89",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145082",
+      "module": "Formalism.GaussJetBounds.GaussJetProofs.MinorProductSupportTop",
+      "source_sha256": "b7c69f4aacc4e0fd9489901532a9a9246679d60a13d523da49a350540316da7f",
+      "patch_sha256": null,
+      "built_source_sha256": "b7c69f4aacc4e0fd9489901532a9a9246679d60a13d523da49a350540316da7f",
+      "olean_sha256": "c829eb560ee921705050eeef96bc2a7b084f5f2692d28073651a59d60e027b79",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145083",
+      "module": "Formalism.GaussJetBounds.GaussJetProofs.NormDetLeOneOfEntries",
+      "source_sha256": "2f69256c15d892cdc9bac2e2a3281e8349da9dcd9b033df3f39853dfeecc419f",
+      "patch_sha256": "71a47afdbc00ed4d24cd45ec1e8440b1852fea8f96b8cbb3e0841e73d1f15308",
+      "built_source_sha256": "20c068d4cb510ec3bdae9741bf0cbc7a0d0c773add3bd54febc649f1b5b9f91c",
+      "olean_sha256": "f04e6e236cd10093ef6f0074206873cfa924cf6f008a787e37de5ac1ff8916e3",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M145086",
+      "module": "Formalism.GaussJetBounds.GaussJetProofs.OneLetterRadiusIdentity",
+      "source_sha256": "32d01b4b931944f7d5368c336537a525390ddef2adabf5f26def3171b96ebca8",
+      "patch_sha256": null,
+      "built_source_sha256": "32d01b4b931944f7d5368c336537a525390ddef2adabf5f26def3171b96ebca8",
+      "olean_sha256": "22ed0b217732c5cf5673cfded18345f7c5244a40efe415bf15de12e9e13042be",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145091",
+      "module": "Formalism.GaussJetBounds.GaussJetProofs.Special",
+      "source_sha256": "390f2dffb8061a86501f13ca77c5393148029e55aa9de82c82b14ba4377c83a1",
+      "patch_sha256": "0bc6ecfd976f60ae3a847ae6b59c3fe36135d4d999eee6fd93d37dbcec7ab74a",
+      "built_source_sha256": "7e2bb932f4a2a7a52d994d79534385339efe5fe10d009e8bcc44a7161af95c32",
+      "olean_sha256": "48d30b3fb76b3eee4bd745e8aeb9218491d120c0c46de8db616688b4bfe2a619",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M145092",
+      "module": "Formalism.GaussJetBounds.GaussJetProofs.SubstitutionWeightBound",
+      "source_sha256": "a1ceaa5d109e857c479171cab6b89a62b6b432962c816773cad81365629d9f48",
+      "patch_sha256": null,
+      "built_source_sha256": "a1ceaa5d109e857c479171cab6b89a62b6b432962c816773cad81365629d9f48",
+      "olean_sha256": "7d3f85a782aec6b2c6c1efc3e975c584418b59e7a8d16f83bb67b93e259cd221",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145117",
+      "module": "Formalism.GaussJetBounds.OneLetterGaussJets.StatementA",
+      "source_sha256": "14e6dbb90b0617f034f3a6192e475f02e69485fed1629da957180cd9de94df71",
+      "patch_sha256": null,
+      "built_source_sha256": "14e6dbb90b0617f034f3a6192e475f02e69485fed1629da957180cd9de94df71",
+      "olean_sha256": "47f4165c98eb6f377bc52b370a55849b2a3984ad3e51578ffe947ac796014ca9",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145121",
+      "module": "Formalism.GaussJetBounds.OneLetterGaussJets.StatementN",
+      "source_sha256": "55f6bac388a9d3e2f59becd154f50b38a4ab4b79d4f9dd8eb853331bde5ec355",
+      "patch_sha256": null,
+      "built_source_sha256": "55f6bac388a9d3e2f59becd154f50b38a4ab4b79d4f9dd8eb853331bde5ec355",
+      "olean_sha256": "6ed5358cd3e391b644850d480659776bc807626d6b1fc22e08250f1fca02d521",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145129",
+      "module": "Formalism.GaussJetBounds.StatementE",
+      "source_sha256": "73219dbdb3aea969777b11d390d8de2d7b012bda0220d018005979b6875dabc5",
+      "patch_sha256": null,
+      "built_source_sha256": "73219dbdb3aea969777b11d390d8de2d7b012bda0220d018005979b6875dabc5",
+      "olean_sha256": "62dc2d71d4bb6394f6c00a801fe44a9cbd6dd613ae04c73c0cb31fa6b7b24117",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145137",
+      "module": "Formalism.GaussJetBounds.StatementO",
+      "source_sha256": "4e4deb154cae4ef95855d304da2378697d749b7895c6ea7f578f15c87c2adb17",
+      "patch_sha256": null,
+      "built_source_sha256": "4e4deb154cae4ef95855d304da2378697d749b7895c6ea7f578f15c87c2adb17",
+      "olean_sha256": "c10b6d8b15e53a421aaa6c51cccf0e43b87612b79cd105237756a69d61043731",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145151",
+      "module": "Formalism.GaussValuationBounds.GaussValueContraction.GaussBasic",
+      "source_sha256": "1d0bcdfdb54678ac25a5f0382e4922b0876931732721291d2724c29c0321ea88",
+      "patch_sha256": null,
+      "built_source_sha256": "1d0bcdfdb54678ac25a5f0382e4922b0876931732721291d2724c29c0321ea88",
+      "olean_sha256": "6db79c01a3beda4628da1f0f0096ce56c9001800da45d8ca6ccb7a7d7ccad6cc",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145152",
+      "module": "Formalism.GaussValuationBounds.GaussValueContraction.GaussMul",
+      "source_sha256": "55d279dfb1d5bf3ca5dfd0fe5c46ed82b771bd46792e562b0a3691fd64aec880",
+      "patch_sha256": null,
+      "built_source_sha256": "55d279dfb1d5bf3ca5dfd0fe5c46ed82b771bd46792e562b0a3691fd64aec880",
+      "olean_sha256": "e7e6ff034c08f5ea4933901e76b9a778faf007119c7dbf0c0c449daa29c70409",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145156",
+      "module": "Formalism.GaussValuationBounds.GaussValueContraction.LemmaCVal",
+      "source_sha256": "08e68781a455efc95927a783f6ac8897bad707d33d3eae3aa03f1d99362d92e5",
+      "patch_sha256": null,
+      "built_source_sha256": "08e68781a455efc95927a783f6ac8897bad707d33d3eae3aa03f1d99362d92e5",
+      "olean_sha256": "4295cafd666ea9e19fbe515f9db8c0e55ab179dedd12acb78fb3fe6862c87f17",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145279",
+      "module": "Formalism.GrowthSums.FactorialBaseGrowth.LogCoef",
+      "source_sha256": "c4506df1fb1a71c973b87151b233bbdf05af253e55c07bb0215be17d44135655",
+      "patch_sha256": "0323be6d402d5b5c5b8038a7483df3b23b8b0b80491bc007ed68039e4bf5f8e1",
+      "built_source_sha256": "e689e7dd677c80e19b87b9e4b0122403edd1939e3348fea823b0d88d28255ab8",
+      "olean_sha256": "2407c90877d4504036f3f6481330f2d083e1d13c34a38f8161abe9700e4840ec",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M145281",
+      "module": "Formalism.GrowthSums.FactorialBaseGrowth.PathBasisOfCount",
+      "source_sha256": "f7b7e33bd9344abb1af4437dc34beba7b2c57844ce9e39f00a4b223ef85deb66",
+      "patch_sha256": null,
+      "built_source_sha256": "f7b7e33bd9344abb1af4437dc34beba7b2c57844ce9e39f00a4b223ef85deb66",
+      "olean_sha256": "77aaaeb614663f5f71954f51778b10e6cc107f22fb64d8f6e68d7ea1c4fee361",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145300",
+      "module": "Formalism.HarderNarasimhan.HarderNarasimhanProofs.FinSup",
+      "source_sha256": "2910a49cbf2532d727abbe372ceb7826c8b77c54f7ef97b169f2ad1718f8423d",
+      "patch_sha256": "815ab3a17ed7d993e3d87a98c1083f0025d32c08742c11487441a91a02b790dc",
+      "built_source_sha256": "88dd220cb7c38e26c2b9d843315d9c24f3e477452fbf05eb25b0f8977f7efa10",
+      "olean_sha256": "37730bc5175bbd121267acc870a1b14b5f924be2082ece5d57c950bccff9eba1",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M145352",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.AdicNeighbourhood",
+      "source_sha256": "5547dfdc6de6b126a6ac4c232735d99e279250376f5a8df63057d941891e1c30",
+      "patch_sha256": "1163c48049b5cd33b201c7d0ee7a37816dab9a63923151c73ab2f3235b14e515",
+      "built_source_sha256": "0d678541059ec2c0e190eaf4d335419b7b26d6fe8b3a960672f05bb7232abb36",
+      "olean_sha256": "1dc893c3410509fe241012621e872b6734f93d8515cb0fcc9bdfc219894b62ed",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M145381",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedKernelSums",
+      "source_sha256": "48f56ee9a0853663a8b8740caff57eb03336093f33f6e020bcbe2150fc5fc65b",
+      "patch_sha256": null,
+      "built_source_sha256": "48f56ee9a0853663a8b8740caff57eb03336093f33f6e020bcbe2150fc5fc65b",
+      "olean_sha256": "b3eb056823dcf868a5e8ec665a9f911bae21ae2e968000208c0a52ee47ceafb0",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145382",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.AveragedVectorChoices",
+      "source_sha256": "e063aada19d4c76eb7dca79e89457122beee140c336e1ed2757ea23275acbe13",
+      "patch_sha256": null,
+      "built_source_sha256": "e063aada19d4c76eb7dca79e89457122beee140c336e1ed2757ea23275acbe13",
+      "olean_sha256": "57038da9796ca8d0e140d7cd4735db3a45ea9c4e8cab2c48aac31e2d9dd2e044",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145390",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.BasePointMemHalfPlane",
+      "source_sha256": "56b5ef65f2ae3efc4b1a240e184985b3fc81048846d95bdcaa238d1e0ab8b01b",
+      "patch_sha256": null,
+      "built_source_sha256": "56b5ef65f2ae3efc4b1a240e184985b3fc81048846d95bdcaa238d1e0ab8b01b",
+      "olean_sha256": "baba1eebd74deb2a7c6af6096fb61f12e7b882867e5018a637a65aa07365d91d",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M145577",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.CriticalThresholdLowerBound",
+      "source_sha256": "8165cd5cfbb987b5aae11319531c699b56678c76c563cb782bb0afef9a5ffe2f",
+      "patch_sha256": "4938b31cb7f007b3705ca818160627321630a2f0956fc1c09aa802cd3f79e3af",
+      "built_source_sha256": "c492ef19635db2cc210923d3894eab313a77623f8ee5c20833901eaa33e13af6",
+      "olean_sha256": "8523f86f125fb9845e4a2b956b7353a558f4a69836a2e2c7b75fc27e47574420",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M145580",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.CuspidalIrreducibleSubrep",
+      "source_sha256": "5359639cd8cb8490826b0444b82bf2756c6df0c8599389f54ec1a8725f0773c7",
+      "patch_sha256": null,
+      "built_source_sha256": "5359639cd8cb8490826b0444b82bf2756c6df0c8599389f54ec1a8725f0773c7",
+      "olean_sha256": "d1e4f197f35bfce932c9aa16658554ed42d1cb0e2058199c3f8750a80bbe684b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M146265",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.EqZeroOfIdealCompact",
+      "source_sha256": "14e29e1e8ac3be01b6ad452b18d2bbf6e81af64632d651f8d390ff566baed74e",
+      "patch_sha256": null,
+      "built_source_sha256": "14e29e1e8ac3be01b6ad452b18d2bbf6e81af64632d651f8d390ff566baed74e",
+      "olean_sha256": "7fc469a79e09d6ba5fc2e2208f97d86ef4aadb37a91f22f61ad4416a545839f7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M146288",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteClassesPositiveSums",
+      "source_sha256": "4eebbd384d4fe0452fb6afa4eef35f289ee331b72865d8c7407acad6f49e0165",
+      "patch_sha256": null,
+      "built_source_sha256": "4eebbd384d4fe0452fb6afa4eef35f289ee331b72865d8c7407acad6f49e0165",
+      "olean_sha256": "b9352944c375f5a0f650b5cbfb12ec486ac8498aac0170c651e177ebeda82712",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M146291",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.FiniteSumSwap",
+      "source_sha256": "e21b866364c59fc47a84f135e8f581c8fa9870a0aea130727558cfa54e7d69da",
+      "patch_sha256": null,
+      "built_source_sha256": "e21b866364c59fc47a84f135e8f581c8fa9870a0aea130727558cfa54e7d69da",
+      "olean_sha256": "247d9d890113c513b2bb88e524171c5afabe24504eade4b4c12b56d75c6b7051",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M146359",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.GermExpansionOfSteps",
+      "source_sha256": "18d8fd9373924769e5cbd988cc930713d9cfe72520232f9260140fe272295ff8",
+      "patch_sha256": null,
+      "built_source_sha256": "18d8fd9373924769e5cbd988cc930713d9cfe72520232f9260140fe272295ff8",
+      "olean_sha256": "56affcae47c2f63f23e5cd2007dacaaf2355d2d10c1daca6cadabcfd6ba13a44",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M146371",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.GermSumLattices",
+      "source_sha256": "0f298b385da7d02b24bb0adc6f23d651c810efbde3ec9ebd05f8d94534c6cf82",
+      "patch_sha256": null,
+      "built_source_sha256": "0f298b385da7d02b24bb0adc6f23d651c810efbde3ec9ebd05f8d94534c6cf82",
+      "olean_sha256": "d5999473130d0d3adaad83aabc69a4d39370b72f86123e6d2fb5f5734e488a1e",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M146375",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.GramKernelHermitian",
+      "source_sha256": "494f990bb582cd41421183c7b4f636b3061c60be8af0d19010ff8dbce78a6232",
+      "patch_sha256": "d92deaa81c706a2dbcc2a3b7915d7e73e4b540721f1468d12ad2ed9ba81d3ea7",
+      "built_source_sha256": "776c409f58ae2167cdd1cfee80ca0edfb142c2884a57b18b1bf8a47ed4c42b6f",
+      "olean_sha256": "fb0b1d65e99f199eef1927e17eed42331520d83ba4b24b1e1aea17708e437756",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    },
+    {
+      "id": "M146415",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.HenselRootsBounded",
+      "source_sha256": "d6f98dad1d017e0c9b8a5b205805ad46376df9e4e46ac34b527bfc97e7fbd64a",
+      "patch_sha256": null,
+      "built_source_sha256": "d6f98dad1d017e0c9b8a5b205805ad46376df9e4e46ac34b527bfc97e7fbd64a",
+      "olean_sha256": "9fda9ceb5be1b46f4fb4eea39ae3230fd7472beeb28764058d7af514d4e2ba52",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M146441",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.HessianScalingIntegrals",
+      "source_sha256": "b163a1d8c054c48f04ff110791fbecdaa13780cea552fed832391307035d90ff",
+      "patch_sha256": null,
+      "built_source_sha256": "b163a1d8c054c48f04ff110791fbecdaa13780cea552fed832391307035d90ff",
+      "olean_sha256": "7f2501e2e4fe89ce90bbd99961bd8cc90dfdf9cc81eea6dc258b37f352d2826e",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M146475",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.IntegralLatticeRefinementIdentity",
+      "source_sha256": "1f62a75214447e8ac1ed271c2e35ca510b3ed126197dac99a17651f659b90e6e",
+      "patch_sha256": null,
+      "built_source_sha256": "1f62a75214447e8ac1ed271c2e35ca510b3ed126197dac99a17651f659b90e6e",
+      "olean_sha256": "55a34d1742487a41f3aa5e3571d92fa1df5baa18b4890f0ac9f3b2a52c7c9f47",
+      "exit_code": 0,
+      "validated_output": "reused"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M115314",
+      "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.HomWProd",
+      "source_sha256": "f99156cab2145638b9ea976859c6fd7de93e8bb32de9e0788adce98cda2c28af",
+      "patch_sha256": null,
+      "built_source_sha256": "f99156cab2145638b9ea976859c6fd7de93e8bb32de9e0788adce98cda2c28af",
+      "port_record_sha256": "2f18d4885aeae04a9edcca8ae707920a40ffbaf64ae4d9ef19c440093aaae9c7"
+    },
+    {
+      "id": "M115821",
+      "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.WtGeProd",
+      "source_sha256": "0d9a2cc71475521822288c61f0f15d6ca438e1288e4481d68fb66c2f0df4a4cc",
+      "patch_sha256": null,
+      "built_source_sha256": "0d9a2cc71475521822288c61f0f15d6ca438e1288e4481d68fb66c2f0df4a4cc",
+      "port_record_sha256": "723ad54ce6bfea2641e539a2f5eeba1c6e74085b173ed816c9ec839e69e09d99"
+    },
+    {
+      "id": "M144279",
+      "module": "Formalism.DoubleCosetMeasures.LowerUnipotentOrbits.LowUniMulVecELast",
+      "source_sha256": "c8564979f9926720de0079de4559848c5fb1ecc031322069073409337d3f23d8",
+      "patch_sha256": null,
+      "built_source_sha256": "c8564979f9926720de0079de4559848c5fb1ecc031322069073409337d3f23d8",
+      "port_record_sha256": "5508e7bc3288fd48777efda490f8045156627cb6a6a52f28c588cfbb9337ccbf"
+    },
+    {
+      "id": "M144281",
+      "module": "Formalism.DoubleCosetMeasures.LowerUnipotentOrbits.MulInvBlockDiagApplySameBlock",
+      "source_sha256": "52236547bf222b6f971ed9d386bdf410467cfe7f954479b5494368fbaf7a47ad",
+      "patch_sha256": null,
+      "built_source_sha256": "52236547bf222b6f971ed9d386bdf410467cfe7f954479b5494368fbaf7a47ad",
+      "port_record_sha256": "5f4eccec1cf70621931d3fdad54207109d86909fb63d9103eb57890a7e214f87"
+    },
+    {
+      "id": "M144284",
+      "module": "Formalism.DoubleCosetMeasures.Statement",
+      "source_sha256": "02eab37f3d4d4ba211fc3ff70c478ecff9d86e9ecb996209b29be2e4d7be488a",
+      "patch_sha256": null,
+      "built_source_sha256": "02eab37f3d4d4ba211fc3ff70c478ecff9d86e9ecb996209b29be2e4d7be488a",
+      "port_record_sha256": "c2708ab4c3148154f5984e37d2fcb14fee49f74ee208e8ca6caca55a54412a5f"
+    },
+    {
+      "id": "M144557",
+      "module": "Formalism.FrobeniusContraction.Statement",
+      "source_sha256": "951844b053e215265e982d2a73a84cbfefbcdbd0a618be83f93768b3381d35a2",
+      "patch_sha256": null,
+      "built_source_sha256": "951844b053e215265e982d2a73a84cbfefbcdbd0a618be83f93768b3381d35a2",
+      "port_record_sha256": "dd1d3aeb3ac6e29ebb551d3374af5e077a2e65d8211e0028ce606cb24ed13da1"
+    },
+    {
+      "id": "M145038",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.AltNotSolvable",
+      "source_sha256": "920dd7c5c01da9fb3de4b42e4c00554ab2eac3bdebcfaf575f6ef8e52f2a500d",
+      "patch_sha256": null,
+      "built_source_sha256": "920dd7c5c01da9fb3de4b42e4c00554ab2eac3bdebcfaf575f6ef8e52f2a500d",
+      "port_record_sha256": "a2c9230e399048f6805776640c9cd9154090ad91acd999796f42410442c71320"
+    },
+    {
+      "id": "M145039",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.BlockBoundOfOrbits",
+      "source_sha256": "0ec34929f99cb53891784c7fead087208e51849da361b36313a1ecd7b82192b8",
+      "patch_sha256": null,
+      "built_source_sha256": "0ec34929f99cb53891784c7fead087208e51849da361b36313a1ecd7b82192b8",
+      "port_record_sha256": "d7bc756ecc3209dbe9b836c6a20dfe9b9e07138a39f3ae68c967ebb23430c458"
+    },
+    {
+      "id": "M145040",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.FewLargeParts",
+      "source_sha256": "affe3bf9a7a422352656b402769809ffa66996b6e261f740716fe460639a67c0",
+      "patch_sha256": "1531477bf6ae450d487365c12d968ea5fb903bf9ecd6a4820c2faff2afda2c2e",
+      "built_source_sha256": "512ff2e14ca05ef636f6830d48a44f349e902126ec85112b834502ae9f7ba58e",
+      "port_record_sha256": "d363ed96fab958065f2673268ff96de050da2b0867f3eddb5f9096502b1f6f47"
+    },
+    {
+      "id": "M145041",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.IrredOf",
+      "source_sha256": "8e1f0e93be0c11cec2b2c6c211383f45526b5d9abab138f814358b33d1df0952",
+      "patch_sha256": null,
+      "built_source_sha256": "8e1f0e93be0c11cec2b2c6c211383f45526b5d9abab138f814358b33d1df0952",
+      "port_record_sha256": "b5e6c4d6acbab65d06a6c618a3ec6c00cd0b7a122b39a6872c7f87d60a74c4d1"
+    },
+    {
+      "id": "M145042",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.JordanPrime",
+      "source_sha256": "eaea73c34dc0c63215eb82cccb89df0f5c62f835cccfb0e538662c30844c82fb",
+      "patch_sha256": null,
+      "built_source_sha256": "eaea73c34dc0c63215eb82cccb89df0f5c62f835cccfb0e538662c30844c82fb",
+      "port_record_sha256": "cb8da3edee938ad6afc98af871e1c6b10590f50f442b0b504d813fb5630d7786"
+    },
+    {
+      "id": "M145043",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.LemmaAOf",
+      "source_sha256": "4238dd3a9a487af4239e3563a9f46f34af9ae8ee8588445f5b1b52255996eea7",
+      "patch_sha256": null,
+      "built_source_sha256": "4238dd3a9a487af4239e3563a9f46f34af9ae8ee8588445f5b1b52255996eea7",
+      "port_record_sha256": "3cc203793188986cc5a37a1f7940673a347f065e306c3bd11ed0380aa90dfee2"
+    },
+    {
+      "id": "M145044",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.NoSolvableOf",
+      "source_sha256": "6cd79c06d8cf1d940d3ffabead31fb3c66218a0b39b5de7adec4ae23fd820c27",
+      "patch_sha256": null,
+      "built_source_sha256": "6cd79c06d8cf1d940d3ffabead31fb3c66218a0b39b5de7adec4ae23fd820c27",
+      "port_record_sha256": "13ebc2ffcf26ea1ea254ba723023d4e36aed94451ba6dfb3e0d173a29fd2d139"
+    },
+    {
+      "id": "M145045",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.OneNonUnit",
+      "source_sha256": "71f43e246c9ce857d20d28071aac448c71f30cda6a0dee66f00507b0fb29ead3",
+      "patch_sha256": null,
+      "built_source_sha256": "71f43e246c9ce857d20d28071aac448c71f30cda6a0dee66f00507b0fb29ead3",
+      "port_record_sha256": "7613add493b2c1ba2508e4a7ae80f2ab17805e6f4303a1ef6df714dacef692a6"
+    },
+    {
+      "id": "M145046",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.OrbitSubSum",
+      "source_sha256": "31ea3c828504908fff3eefbc7eb5d51be293b3cc30b3b6950be8fa1bc7426b63",
+      "patch_sha256": null,
+      "built_source_sha256": "31ea3c828504908fff3eefbc7eb5d51be293b3cc30b3b6950be8fa1bc7426b63",
+      "port_record_sha256": "85341f72ecf4e712b1b70d36a31e8d4b627e91076f5f0fb9bfc36c700c8a29eb"
+    },
+    {
+      "id": "M145047",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.PermSubSumInv",
+      "source_sha256": "b1aac0022d9c2683973059eac1a4fe50f3a46126877fcd2330efaee41730b407",
+      "patch_sha256": null,
+      "built_source_sha256": "b1aac0022d9c2683973059eac1a4fe50f3a46126877fcd2330efaee41730b407",
+      "port_record_sha256": "c070beeb27c2bf19335a6045f3c670cc44c91b1c409b354a934fe80a503a49f1"
+    },
+    {
+      "id": "M145048",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.PowerPCycle",
+      "source_sha256": "e6c3a71e4d9619b837e9e411458025a5240fc4a6caa4b2033265673170f98a93",
+      "patch_sha256": null,
+      "built_source_sha256": "e6c3a71e4d9619b837e9e411458025a5240fc4a6caa4b2033265673170f98a93",
+      "port_record_sha256": "4c65a8636e8535d19ee684f471a7851d1e00d59730618507ea62ba4536c0fb14"
+    },
+    {
+      "id": "M145049",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.PrimitiveOfPCycle",
+      "source_sha256": "1b79dd266022c4f8dc615b1a87516f0e8a99ce69908646772f355ce72d358037",
+      "patch_sha256": null,
+      "built_source_sha256": "1b79dd266022c4f8dc615b1a87516f0e8a99ce69908646772f355ce72d358037",
+      "port_record_sha256": "7577c1f5e4580e3c8c851d68a3c4f088bd45ee2c6715b29165d5ac1d77c3d7f2"
+    },
+    {
+      "id": "M145050",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.ResiduesLe",
+      "source_sha256": "ecd7e07e0c6f0b46ff0dc53c7c1cf820a0320801710332257c200e262264a561",
+      "patch_sha256": null,
+      "built_source_sha256": "ecd7e07e0c6f0b46ff0dc53c7c1cf820a0320801710332257c200e262264a561",
+      "port_record_sha256": "0c5f7a994ef99e27a46a5be4a705ac8615548542660d8b99fe6dbe785c34cef0"
+    },
+    {
+      "id": "M145051",
+      "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.RestrictRoots",
+      "source_sha256": "35fd4ba57a96c067311ffc1c66abf5854ba0a2e96f4ec34ff2103ca9c1016c61",
+      "patch_sha256": null,
+      "built_source_sha256": "35fd4ba57a96c067311ffc1c66abf5854ba0a2e96f4ec34ff2103ca9c1016c61",
+      "port_record_sha256": "9e41671548e5cd7d00dafef7c92b642333eb99d0e52898239999923bfceb741c"
+    },
+    {
+      "id": "M145052",
+      "module": "Formalism.GaloisIrreducibility.NoSolvableOf",
+      "source_sha256": "c8de70d1ad8fbccaa507280f71fae1acb2c6c72fef02ab6ab145c2f1c0badb73",
+      "patch_sha256": null,
+      "built_source_sha256": "c8de70d1ad8fbccaa507280f71fae1acb2c6c72fef02ab6ab145c2f1c0badb73",
+      "port_record_sha256": "9a15d72e19ef7f55f59bf9e5eb0f0529187aead31b8729aac00f63324b6980a1"
+    },
+    {
+      "id": "M145054",
+      "module": "Formalism.GaloisIrreducibility.Statement",
+      "source_sha256": "244b5f98f549c2a203f27b65c8ea717f4202b7d13eea7923d3d3aed34b73ba26",
+      "patch_sha256": null,
+      "built_source_sha256": "244b5f98f549c2a203f27b65c8ea717f4202b7d13eea7923d3d3aed34b73ba26",
+      "port_record_sha256": "ba1cdde7b618bcc5bfa7453bbaf93d09043ce40f1bfd1989487ee33a037c3eca"
+    },
+    {
+      "id": "M145103",
+      "module": "Formalism.GaussJetBounds.GenLogInverse",
+      "source_sha256": "0bcf2408a60abc9bed289d5e9d713d489050869494d7421af48ab1ee8bd98aaa",
+      "patch_sha256": null,
+      "built_source_sha256": "0bcf2408a60abc9bed289d5e9d713d489050869494d7421af48ab1ee8bd98aaa",
+      "port_record_sha256": "113fab9e349f8b44dd1237bc110dfde7d5b072afd160a06a51c66960978e7f91"
+    },
+    {
+      "id": "M145108",
+      "module": "Formalism.GaussJetBounds.OneLetterGaussJets.OddLevelGainSum",
+      "source_sha256": "9431f64738ef8a851a5655fd4e0632d08c9c9c3845362e79e726ef7f00e67706",
+      "patch_sha256": null,
+      "built_source_sha256": "9431f64738ef8a851a5655fd4e0632d08c9c9c3845362e79e726ef7f00e67706",
+      "port_record_sha256": "4a636a8a02c9b14e7006bbae065fbb885c82a1c48523fa54ad2831253f1a15ff"
+    },
+    {
+      "id": "M145124",
+      "module": "Formalism.GaussJetBounds.Statement",
+      "source_sha256": "5db560c0efb876e30b084b6480501338be2250b1e694cb2cb8e881aa678a137b",
+      "patch_sha256": null,
+      "built_source_sha256": "5db560c0efb876e30b084b6480501338be2250b1e694cb2cb8e881aa678a137b",
+      "port_record_sha256": "6db4c1a8edb699b2f4e59987a441624cc26a8116544e9a40efe08082a203c522"
+    },
+    {
+      "id": "M145125",
+      "module": "Formalism.GaussJetBounds.StatementA",
+      "source_sha256": "6b58eb979c6e9441bcd7f22112e9668a9be73cce9f6fff5379b676aea591ec91",
+      "patch_sha256": null,
+      "built_source_sha256": "6b58eb979c6e9441bcd7f22112e9668a9be73cce9f6fff5379b676aea591ec91",
+      "port_record_sha256": "a1755e4b1dfa1d91138e5bd978c883010ab5fe8b850a394eed32e2928c45d3e2"
+    },
+    {
+      "id": "M145126",
+      "module": "Formalism.GaussJetBounds.StatementB",
+      "source_sha256": "32e2a91010dc2453d3dc31f355398cba0824546267591efb0f34296fea8e8046",
+      "patch_sha256": null,
+      "built_source_sha256": "32e2a91010dc2453d3dc31f355398cba0824546267591efb0f34296fea8e8046",
+      "port_record_sha256": "16446fc82e883433fcb6266287af1f15b857dd081829053a0165566a01263c4a"
+    },
+    {
+      "id": "M145127",
+      "module": "Formalism.GaussJetBounds.StatementC",
+      "source_sha256": "12a37b3882ca770ea9845db6ad7a34f7b8eded7f4d56b4eac09614dc59af69cc",
+      "patch_sha256": null,
+      "built_source_sha256": "12a37b3882ca770ea9845db6ad7a34f7b8eded7f4d56b4eac09614dc59af69cc",
+      "port_record_sha256": "8ae83430576b5b03408793afaa1937d3b31d553cc242fc8397a880e8301ba378"
+    },
+    {
+      "id": "M145128",
+      "module": "Formalism.GaussJetBounds.StatementD",
+      "source_sha256": "85d0dba7385b1d9e67bff6e58691ee42e6c545a0098260414285ee8d77a1eb98",
+      "patch_sha256": null,
+      "built_source_sha256": "85d0dba7385b1d9e67bff6e58691ee42e6c545a0098260414285ee8d77a1eb98",
+      "port_record_sha256": "41c7557aafe199c7ba5639c489682a3d2eacef0703f1fc70e0b4024e99245648"
+    },
+    {
+      "id": "M145131",
+      "module": "Formalism.GaussJetBounds.StatementH",
+      "source_sha256": "501187e7669b7efe4588daacb445c8d0b70f334b20575ca4c598a684691ee528",
+      "patch_sha256": null,
+      "built_source_sha256": "501187e7669b7efe4588daacb445c8d0b70f334b20575ca4c598a684691ee528",
+      "port_record_sha256": "1e5ff51babe07e3b797f672aca218b572ae44b332ced380c19f8fcbbe439a40e"
+    },
+    {
+      "id": "M145149",
+      "module": "Formalism.GaussValuationBounds.GaussUnit",
+      "source_sha256": "b1b876037e1fffd3b8666d0046d731d08998358232d89bb741f0bc1d328b0410",
+      "patch_sha256": null,
+      "built_source_sha256": "b1b876037e1fffd3b8666d0046d731d08998358232d89bb741f0bc1d328b0410",
+      "port_record_sha256": "379bc0f4ac9e86bc9389195b72c462e9dbeceb91f230b38330810a9985cc9a0e"
+    },
+    {
+      "id": "M145164",
+      "module": "Formalism.GaussValuationBounds.Statement",
+      "source_sha256": "ddb3e09856d0ccb0c236e9a610dd187ec0e212050cc94686e57f7e952d01f0c6",
+      "patch_sha256": null,
+      "built_source_sha256": "ddb3e09856d0ccb0c236e9a610dd187ec0e212050cc94686e57f7e952d01f0c6",
+      "port_record_sha256": "887e7e562df57946080326e8cc14096133753c3665e3d2d3a1425cdf30fa6148"
+    },
+    {
+      "id": "M145276",
+      "module": "Formalism.GrowthSums.FactorialBaseGrowth.Harmonic",
+      "source_sha256": "ca44ac7894786edab30554146f799c4309c576262092679a88d9db1dd452b0e4",
+      "patch_sha256": "683e53f4dab1e3656752b2ea89da8f901facf6d2fbc09c011985b5afd9651972",
+      "built_source_sha256": "dd6ada1692bbae3443d21fa906edad7cc98009b89edcd983859da45444043ec7",
+      "port_record_sha256": "8d1612b7cc6de220939a3ead95544a11015fbcde90ad5709b3de9ab2d9882a03"
+    },
+    {
+      "id": "M145285",
+      "module": "Formalism.GrowthSums.StatementA",
+      "source_sha256": "aab9406bfdc7083cc0685ba7a3e7382252350aaa2a00bbff4b13f543080ec3b5",
+      "patch_sha256": null,
+      "built_source_sha256": "aab9406bfdc7083cc0685ba7a3e7382252350aaa2a00bbff4b13f543080ec3b5",
+      "port_record_sha256": "adf2a9d530973a686f3c90975efcbd7188c7d5429a550b96c96e55a642fe8473"
+    },
+    {
+      "id": "M145287",
+      "module": "Formalism.GrowthSums.StatementC",
+      "source_sha256": "adce009ee1e7482dcfdaad340d795f7df38f85b160734a8b7b5cc152de67782a",
+      "patch_sha256": null,
+      "built_source_sha256": "adce009ee1e7482dcfdaad340d795f7df38f85b160734a8b7b5cc152de67782a",
+      "port_record_sha256": "db5c78391721a44f220ab2be5a624a2e97c29a7cd1730a56ee7cef44c338ee5d"
+    },
+    {
+      "id": "M145288",
+      "module": "Formalism.GrowthSums.StatementG",
+      "source_sha256": "416409d9318365786d27a73796ac693cfef8b07e0858713a5e31a428294dfefc",
+      "patch_sha256": null,
+      "built_source_sha256": "416409d9318365786d27a73796ac693cfef8b07e0858713a5e31a428294dfefc",
+      "port_record_sha256": "3b24b79012cf81458fda6509546bf6923fa791a27072a15aa739e308d6d8c7c0"
+    },
+    {
+      "id": "M145291",
+      "module": "Formalism.HarderNarasimhan.DegSupermodZ",
+      "source_sha256": "0e3313c15208e0013ab41bb029c5f4251de89fb9978ed3489495235d40736997",
+      "patch_sha256": null,
+      "built_source_sha256": "0e3313c15208e0013ab41bb029c5f4251de89fb9978ed3489495235d40736997",
+      "port_record_sha256": "b88796bb779b0d83a3dd1e5d969de92edf21c8886620f9a49d39fc8ce82d019a"
+    },
+    {
+      "id": "M145327",
+      "module": "Formalism.HarderNarasimhan.Statement",
+      "source_sha256": "2d5b72c777c27d48bf40a7a4adf902585ed3a41841ced2e95e6ec95c44c9a33e",
+      "patch_sha256": null,
+      "built_source_sha256": "2d5b72c777c27d48bf40a7a4adf902585ed3a41841ced2e95e6ec95c44c9a33e",
+      "port_record_sha256": "8b21c1b501027f72ad1fb0ab84b6c50e10585d3c3f3e7ce78d1f496d05800d36"
+    },
+    {
+      "id": "M145337",
+      "module": "Formalism.HermitianCurvature.BlockKernelPropertiesOfSteps",
+      "source_sha256": "b91f98f2740e656a565a9d0946c6033e23c15676b1fc8920b7e20eddb28acb47",
+      "patch_sha256": null,
+      "built_source_sha256": "b91f98f2740e656a565a9d0946c6033e23c15676b1fc8920b7e20eddb28acb47",
+      "port_record_sha256": "408f5e41a59915f259f77d796e88b417c288b9d689b98627c376a08500fa2619"
+    },
+    {
+      "id": "M145351",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.AdditiveCharacterPsi",
+      "source_sha256": "9570811eb6fd4b3147229716dbe5b6d7a67e7d6de342b2f663967260dd9eea92",
+      "patch_sha256": null,
+      "built_source_sha256": "9570811eb6fd4b3147229716dbe5b6d7a67e7d6de342b2f663967260dd9eea92",
+      "port_record_sha256": "98fed9b95c9cbed9bc22c42cc3ccfd0540a8dd6b68ef394b57fc8ffe770e27c9"
+    },
+    {
+      "id": "M145372",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.AffineChangeOfVariables",
+      "source_sha256": "588fa3342bb5b1c084c67b99ef769816022744fb1d41383da6f2368cc198d541",
+      "patch_sha256": "080b0ceb641fa69a66360d5059231e58b9ed98ad0fc49b2c043dabec9abbcf5d",
+      "built_source_sha256": "cad7a402a5ecefc84eb8999948f84e587b00a6cc3e9f0309f81606d3ab888703",
+      "port_record_sha256": "94c483ee1c7c8eab9a81131e57a250a76f0908781ee13824dfd55ff61931453b"
+    },
+    {
+      "id": "M145572",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.CorollaryAOfPropositionA",
+      "source_sha256": "374f091fb806ae78ae6e8ea2d95a3c771093f8d72c73d95051ac3adecbe36c41",
+      "patch_sha256": null,
+      "built_source_sha256": "374f091fb806ae78ae6e8ea2d95a3c771093f8d72c73d95051ac3adecbe36c41",
+      "port_record_sha256": "56556c023f7096c1a82b24974fbcde1d6a2e1359bdd2248d5a7046fd0a7bebba"
+    },
+    {
+      "id": "M146285",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.FderivDecomp",
+      "source_sha256": "6e76a709cc1be1e3ca05d7d38bebc864a1a11c0c4259d8a449c487e74619941f",
+      "patch_sha256": null,
+      "built_source_sha256": "6e76a709cc1be1e3ca05d7d38bebc864a1a11c0c4259d8a449c487e74619941f",
+      "port_record_sha256": "5e306ce43935d88ed1cdc17879f9e200e8f42312388ee28cad793bd31c191008"
+    },
+    {
+      "id": "M146299",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.FirstKernelPropertiesOfHypotheses",
+      "source_sha256": "84ef695a733d00da2790e557aefdbdc38231b77999a9f5d1737bf47241eccdd7",
+      "patch_sha256": null,
+      "built_source_sha256": "84ef695a733d00da2790e557aefdbdc38231b77999a9f5d1737bf47241eccdd7",
+      "port_record_sha256": "e7ca3b302439e1825cc54e023c41f1ef2f3ba2b79b628fc7e30b923f4a9530c6"
+    },
+    {
+      "id": "M146390",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.HasDerivAtTMul",
+      "source_sha256": "be9c968b9a9136dea263495d43eb05d15ad10374586d2635a7987f5560b98494",
+      "patch_sha256": null,
+      "built_source_sha256": "be9c968b9a9136dea263495d43eb05d15ad10374586d2635a7987f5560b98494",
+      "port_record_sha256": "becc71030c8525b760662be2a542ae874dd870aa706a310a6c35c33ceb4fbb9f"
+    },
+    {
+      "id": "M146395",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.HasFDerivAtPrim",
+      "source_sha256": "7282644342d5300c0ceb479aacae2701876350296f66baa751f96a3d54ce7e66",
+      "patch_sha256": null,
+      "built_source_sha256": "7282644342d5300c0ceb479aacae2701876350296f66baa751f96a3d54ce7e66",
+      "port_record_sha256": "5dbea2de473b77ff42fd86ad4f8c67ab12fb343e0ff979f86a97d9769f83e708"
+    },
+    {
+      "id": "M146511",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.KernelNonzeroModulusDeterminantEq",
+      "source_sha256": "e5dbe8de5d6cfb92b78bb97e3ee04a4a9a12800fe51580092fd15a62e1287f92",
+      "patch_sha256": "08da2213a1a73e0d47dc58e2602c35108bc6807666c35d92d7835d5f21f47578",
+      "built_source_sha256": "12b0e49890de2e4b191688a4c6fda75565cc4bf2ad00cc52046c0784372ef961",
+      "port_record_sha256": "66060c4b593e8c51388f69f7ccf6cec5ec7ee9bb9666e214764942493fff8d03"
+    },
+    {
+      "id": "M146619",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.MassRatioFormula",
+      "source_sha256": "910dad04f6d28f2c12e34fea4d706386d06607073840d3194cd1da7049c68267",
+      "patch_sha256": null,
+      "built_source_sha256": "910dad04f6d28f2c12e34fea4d706386d06607073840d3194cd1da7049c68267",
+      "port_record_sha256": "527f86b873c64b41131c08bd17bab69e7a1d7ae790393fb7f7f90cf4f4af9d44"
+    },
+    {
+      "id": "M146727",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.OrbitalIntegralConvergesAbs",
+      "source_sha256": "efd4cfd08d8a5a8b535b9fcb2d30ba81fb98998ee50c067e5f1bda044987b1e6",
+      "patch_sha256": "45e72c1bb8f0d5322a17c4afa11e199adcdebd61bf47cf467f851f094f03d76f",
+      "built_source_sha256": "c711e58bab85afa795783799527db9c364c337972281e7938e737dae83cdc042",
+      "port_record_sha256": "7169e89e22fbcfa001243736c1e1e65d22b53161488a4b2866af76a6f208db94"
+    },
+    {
+      "id": "M146795",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.PhaseFunctionCriticalPoints",
+      "source_sha256": "4bb48c936aa8952768f8691ffadde31239a39154453ab999cff7295483c5ac5e",
+      "patch_sha256": null,
+      "built_source_sha256": "4bb48c936aa8952768f8691ffadde31239a39154453ab999cff7295483c5ac5e",
+      "port_record_sha256": "3db6e2552d789bf531ee4f182f8bcc991c19f4790a81af39d01035f6e4665d8e"
+    },
+    {
+      "id": "M147035",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.SumInvSqLeSub",
+      "source_sha256": "3629f5d722b5394876b75bbf08b88b851ab6bd375afe0dc4d7f8e0e8e1ffa545",
+      "patch_sha256": "7948f7fbb3e2d2ba4737f6f50fa7ca2370e3f7ef1423208018ed3369d2e35796",
+      "built_source_sha256": "e0804978f510603a014c22e14b3f651eac649415fc9ae25afc6766ce5db0dbd1",
+      "port_record_sha256": "32166c9003281a9fc4771756d50631cb501d6c92ec48198a9f9cc51dc34729fc"
+    },
+    {
+      "id": "M147219",
+      "module": "Formalism.HermitianCurvature.StatementG",
+      "source_sha256": "d41a30622cc580ec30a006df65d2caf4ec6e632dd28de0947f982b12798c0abb",
+      "patch_sha256": null,
+      "built_source_sha256": "d41a30622cc580ec30a006df65d2caf4ec6e632dd28de0947f982b12798c0abb",
+      "port_record_sha256": "099acb0ff9f0c643baa76bb0fcd216d6f23b82c5ee1f2410ff098c7f3840ade2"
+    },
+    {
+      "id": "M147240",
+      "module": "Formalism.HermitianCurvature.StatementSz",
+      "source_sha256": "365f07668bac14514dfd4dae081f5065c409f819f4c21836291fa147c3c0242b",
+      "patch_sha256": null,
+      "built_source_sha256": "365f07668bac14514dfd4dae081f5065c409f819f4c21836291fa147c3c0242b",
+      "port_record_sha256": "7288abe4d49144552dc543f089e812138bfe5c2eaa89a713aeb2af8cbf94889f"
+    },
+    {
+      "id": "M147251",
+      "module": "Formalism.HermitianCurvature.ThetaExistenceInductiveFromPieces",
+      "source_sha256": "774ed1c6403ef49ab1fc05cc392db51e0ea330f49f0a91af8895711ff462bbac",
+      "patch_sha256": null,
+      "built_source_sha256": "774ed1c6403ef49ab1fc05cc392db51e0ea330f49f0a91af8895711ff462bbac",
+      "port_record_sha256": "b3709e5080255b71a70c3f6167abcdbf2dd46249dd7208e6051b1a028c64d925"
+    },
+    {
+      "id": "M147326",
+      "module": "Formalism.IncomingBounds.IncomingBound",
+      "source_sha256": "201476c18ccbb46a0022e76b63901c7feea2a565b8f9802910d9c36285791ba6",
+      "patch_sha256": null,
+      "built_source_sha256": "201476c18ccbb46a0022e76b63901c7feea2a565b8f9802910d9c36285791ba6",
+      "port_record_sha256": "4bddf41d87a22debb0c7c551b39731761ae24f11e7b28b68ec52e172921b1d46"
+    },
+    {
+      "id": "M147452",
+      "module": "Formalism.LatticeSlopes.CovolAntiSameRank",
+      "source_sha256": "c142eef2ce50d1e0c517ae7494ad455d7cf2dd2c6eaf28eb207830cdaaf8c2a6",
+      "patch_sha256": null,
+      "built_source_sha256": "c142eef2ce50d1e0c517ae7494ad455d7cf2dd2c6eaf28eb207830cdaaf8c2a6",
+      "port_record_sha256": "063b4e06976874596f393005f43566b688063052ffc2dab2bf9e18fff169c367"
+    },
+    {
+      "id": "M147469",
+      "module": "Formalism.LatticeSlopes.Statement",
+      "source_sha256": "47403840eb948e942a67eedcd09e82de9c1f5a32870b7bb52dc8253773e30f43",
+      "patch_sha256": null,
+      "built_source_sha256": "47403840eb948e942a67eedcd09e82de9c1f5a32870b7bb52dc8253773e30f43",
+      "port_record_sha256": "d9574829d76ba634bf37885fd7d240cec50c90d84661ce79c5fb20d91d9c7278"
+    },
+    {
+      "id": "M161347",
+      "module": "Formalism.SubspaceCounting.StatementB",
+      "source_sha256": "5118b67dcbfb14424d56c1eb44dbc290b9d94a386bf5027c46557e1fc51e4017",
+      "patch_sha256": null,
+      "built_source_sha256": "5118b67dcbfb14424d56c1eb44dbc290b9d94a386bf5027c46557e1fc51e4017",
+      "port_record_sha256": "f5bbaceb3244e7fde55fc4ca62ac0165558f60b4876ac7a2b1c2ce99f318aa99"
+    },
+    {
+      "id": "M162144",
+      "module": "Formalism.WindowSums.Statement",
+      "source_sha256": "09adc6cd40691a98858be12d66bdb593f3dba13eae17037281657c3938a7a591",
+      "patch_sha256": null,
+      "built_source_sha256": "09adc6cd40691a98858be12d66bdb593f3dba13eae17037281657c3938a7a591",
+      "port_record_sha256": "59ea34b739b252d8e6375d9b00d55dc218d5b31538f477f44f3a77cd7980b2ed"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M145063",
+      "module": "Formalism.GaussJetBounds.GaussJetProofs.CapacityLeReachCapacity",
+      "missing_imports": [
+        "M147320"
+      ]
+    },
+    {
+      "id": "M145158",
+      "module": "Formalism.GaussValuationBounds.GaussValueContraction.ScaledPowMemSpanCeil",
+      "missing_imports": [
+        "M145160"
+      ]
+    },
+    {
+      "id": "M145168",
+      "module": "Formalism.GelfandTransference.HadamardGelfand.Hadamard",
+      "missing_imports": [
+        "M170734"
+      ]
+    },
+    {
+      "id": "M145184",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.DomPow",
+      "missing_imports": [
+        "M145270"
+      ]
+    },
+    {
+      "id": "M145196",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.FockHerm",
+      "missing_imports": [
+        "M145270",
+        "M158038"
+      ]
+    },
+    {
+      "id": "M145206",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.FockWeightOrth",
+      "missing_imports": [
+        "M145270"
+      ]
+    },
+    {
+      "id": "M145213",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LBidetLemmas",
+      "missing_imports": [
+        "M145270"
+      ]
+    },
+    {
+      "id": "M145215",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LBidetdomLemmas",
+      "missing_imports": [
+        "M145270"
+      ]
+    },
+    {
+      "id": "M145227",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LFockbLemmas",
+      "missing_imports": [
+        "M145270",
+        "M158038"
+      ]
+    },
+    {
+      "id": "M145229",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LFocksLemmas",
+      "missing_imports": [
+        "M145270",
+        "M158038"
+      ]
+    },
+    {
+      "id": "M145233",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LHwrowLemmas",
+      "missing_imports": [
+        "M145270"
+      ]
+    },
+    {
+      "id": "M145234",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LNondomLemmas",
+      "missing_imports": [
+        "M145270"
+      ]
+    },
+    {
+      "id": "M145235",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LRowdivLemmas",
+      "missing_imports": [
+        "M145270"
+      ]
+    },
+    {
+      "id": "M145236",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LRowstLemmas",
+      "missing_imports": [
+        "M145270"
+      ]
+    },
+    {
+      "id": "M145237",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.LSatLemmas",
+      "missing_imports": [
+        "M145270"
+      ]
+    },
+    {
+      "id": "M145256",
+      "module": "Formalism.GradedWeylDivisibility.FockSpaceTableaux.RowNuSum",
+      "missing_imports": [
+        "M145270"
+      ]
+    },
+    {
+      "id": "M145271",
+      "module": "Formalism.GradedWeylDivisibility.StatementB",
+      "missing_imports": [
+        "M145270"
+      ]
+    },
+    {
+      "id": "M145272",
+      "module": "Formalism.GradedWeylDivisibility.StatementC",
+      "missing_imports": [
+        "M145270"
+      ]
+    },
+    {
+      "id": "M145286",
+      "module": "Formalism.GrowthSums.StatementB",
+      "missing_imports": [
+        "M161345"
+      ]
+    },
+    {
+      "id": "M145458",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.Block32EqZeroOfUnipotent",
+      "missing_imports": [
+        "M147206"
+      ]
+    },
+    {
+      "id": "M145467",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.BlockStartPoints",
+      "missing_imports": [
+        "M147242"
+      ]
+    },
+    {
+      "id": "M145478",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.BudgetLiftSquareRoot",
+      "missing_imports": [
+        "M147241"
+      ]
+    },
+    {
+      "id": "M145507",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.CentreBlockStructure",
+      "missing_imports": [
+        "M147206"
+      ]
+    },
+    {
+      "id": "M145708",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.CutGCoreGTRTopActAlg",
+      "missing_imports": [
+        "M158054"
+      ]
+    },
+    {
+      "id": "M146236",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.DiagonalTopBlock",
+      "missing_imports": [
+        "M147241"
+      ]
+    },
+    {
+      "id": "M146289",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.FinitePointSets",
+      "missing_imports": [
+        "M147242"
+      ]
+    },
+    {
+      "id": "M146295",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.FirstEmbeddingOne",
+      "missing_imports": [
+        "M147248"
+      ]
+    },
+    {
+      "id": "M146308",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.FmSmulLeft",
+      "missing_imports": [
+        "M147242"
+      ]
+    },
+    {
+      "id": "M146311",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.FormDomination",
+      "missing_imports": [
+        "M147242"
+      ]
+    },
+    {
+      "id": "M146327",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.FrameIntegralJacobian",
+      "missing_imports": [
+        "M147205"
+      ]
+    },
+    {
+      "id": "M146374",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.GramConjugationNorm",
+      "missing_imports": [
+        "M147241"
+      ]
+    },
+    {
+      "id": "M146433",
+      "module": "Formalism.HermitianCurvature.HermitianCurvatureProofs.HermitianFrameCount",
+      "missing_imports": [
+        "M147206"
+      ]
+    }
+  ],
+  "pruned": []
+}
