@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.HeightProofs.SmoothInExponentialCoordsIffFirstSecondKind",
+  "source_sha256": "f09b3aa6740854381b5a521a889757688e310403c9717e799ea8c0de38f46840",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the coordinate family and abstract the two derivative arguments over a finite coordinate index to stay within the standard heartbeat budget."
+}

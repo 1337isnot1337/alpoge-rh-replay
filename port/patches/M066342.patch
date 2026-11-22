@@ -1,0 +1,116 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HeightProofs/SmoothInExponentialCoordsIffFirstSecondKind.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HeightProofs/SmoothInExponentialCoordsIffFirstSecondKind.lean
+@@ -172,7 +172,7 @@
+     funext t
+     rw [map_smul]
+   rw [h]
+-  exact _root_.GlobalTheory.SmoothForms.SecondKind.contDiff_exp.comp ((contDiff_apply ℝ ℝ i).smul contDiff_const)
++  exact _root_.GlobalTheory.SmoothForms.SecondKind.contDiff_exp.comp ((contDiff_apply ℝ (fun _ : Fin k => ℝ) i).smul contDiff_const)
+ 
+ open NumberField Matrix in
+ open scoped ContDiff Topology in
+@@ -214,6 +214,54 @@
+ open NormedSpace in
+ variable {𝔸 L G : Type} [NormedRing 𝔸] [NormedAlgebra ℝ 𝔸] [FiniteDimensional ℝ 𝔸] [NormedAddCommGroup L]
+   [NormedSpace ℝ L] [Group G] {σ : 𝔸 →ₗ[ℝ] 𝔸} {j : L →ₗ[ℝ] 𝔸} {s : 𝔸 → G} in
++variable {P : Type} [NormedAddCommGroup P] [NormedSpace ℝ P] in
++
++private theorem hasFDerivAt_of_pi_single {k : ℕ} (f : (Fin k → ℝ) → P)
++    (e : (Fin k → ℝ) →L[ℝ] P) (Y : Fin k → P)
++    (hDiff : DifferentiableAt ℝ f 0)
++    (he : ∀ i x, e (Pi.single i x) = x • Y i)
++    (hsingle : ∀ i x, fderiv ℝ f 0 (Pi.single i x) = x • Y i) :
++    HasFDerivAt f e 0 := by
++  have hd := hDiff.hasFDerivAt
++  have heq : e = fderiv ℝ f 0 := by
++    ext1 v
++    rw [← Finset.univ_sum_single v, map_sum, map_sum]
++    simp only [ContinuousLinearMap.coe_coe, he, hsingle]
++  rw [heq]
++  exact hd
++
++private theorem fderiv_list_exp_pi_single {k : ℕ} (Y : Fin k → L) (Λ : 𝔸 → L)
++    (hΛexp : ∀ᶠ X in 𝓝 (0 : L), Λ (exp (j X)) = X)
++    (hDiff : DifferentiableAt ℝ
++      (fun t : Fin k → ℝ => Λ ((List.ofFn fun m => exp (j (t m • Y m))).prod)) 0)
++    (i : Fin k) (x : ℝ) :
++    fderiv ℝ (fun t : Fin k → ℝ => Λ ((List.ofFn fun m => exp (j (t m • Y m))).prod))
++      0 (Pi.single i x) = x • Y i := by
++  let v : Fin k → ℝ := Pi.single i x
++  have hd := hDiff.hasFDerivAt
++  have hline : HasDerivAt (fun r : ℝ => r • v) v 0 := by
++    simpa only [v, id_eq, one_smul] using ((hasDerivAt_id (0 : ℝ)).smul_const v)
++  have h1 := hd.comp_hasDerivAt_of_eq (0 : ℝ) hline (zero_smul ℝ _).symm
++  have h2 : HasDerivAt (fun r : ℝ => r • (x • Y i)) (x • Y i) 0 := by
++    simpa only [id_eq, one_smul] using ((hasDerivAt_id (0 : ℝ)).smul_const (x • Y i))
++  have hprod (r : ℝ) :
++      (List.ofFn fun m => exp (j ((r • v) m • Y m))).prod = exp (j ((r * x) • Y i)) := by
++    rw [list_prod_ofFn_eq_of_eq_one_of_ne _ _ i]
++    · have hvi : v i = x := by simp [v]
++      rw [Pi.smul_apply, hvi, smul_eq_mul]
++    · intro m hm
++      have hvm : v m = 0 := by simp [v, Pi.single_eq_of_ne hm]
++      rw [Pi.smul_apply, hvm]
++      simp
++  have ht : Filter.Tendsto (fun r : ℝ => (r * x) • Y i) (𝓝 0) (𝓝 0) := by
++    have hc : Continuous fun r : ℝ => (r * x) • Y i := by fun_prop
++    simpa using hc.tendsto 0
++  have hev : (fun r : ℝ => r • (x • Y i)) =ᶠ[𝓝 0]
++      (fun r => Λ ((List.ofFn fun m => exp (j ((r • v) m • Y m))).prod)) := by
++    filter_upwards [ht.eventually hΛexp] with r hr
++    rw [hprod, ← mul_smul, hr]
++  exact h1.unique (h2.congr_of_eventuallyEq hev.symm)
++
+ variable {P : Type} [NormedAddCommGroup P] [NormedSpace ℝ P] in
+ 
+ theorem _root_.GlobalTheory.SmoothForms.SecondKind.sm_iff (H : _root_.GlobalTheory.SmoothForms.IsLieData σ j s)
+@@ -265,40 +313,22 @@
+       show Λ (Φ 0) = 0
+       rw [hΦ0, this]
+ 
+-    have hsingle : ∀ (i : Fin (Fintype.card b)) (x : ℝ), fderiv ℝ Ψ 0 (Pi.single i x) = x • Y i := by
++    have hsingle : ∀ (i : Fin (Fintype.card b)) (x : ℝ),
++        fderiv ℝ Ψ 0 (Pi.single i x : Fin (Fintype.card b) → ℝ) = x • Y i := by
+       intro i x
+-      have hd := (hΨ.differentiableAt (by simp)).hasFDerivAt
+-      have h1 := hd.comp_hasDerivAt_of_eq (0 : ℝ) ((hasDerivAt_id (0 : ℝ)).smul_const (Pi.single i x))
+-        (by simp)
+-      have h2 := (hasDerivAt_id (0 : ℝ)).smul_const (x • Y i)
+-      have hev : (fun r : ℝ => r • (x • Y i)) =ᶠ[𝓝 0] Ψ ∘ fun r => id r • Pi.single i x := by
+-        have ht : Filter.Tendsto (fun r : ℝ => (r * x) • Y i) (𝓝 0) (𝓝 0) := by
+-          have : Continuous fun r : ℝ => (r * x) • Y i := by fun_prop
+-          simpa using this.tendsto 0
+-        filter_upwards [ht.eventually hΛexp] with r hr
+-        have hprod : Φ (id r • Pi.single i x) = exp (j ((r * x) • Y i)) := by
+-          simp only [Φ]
+-          rw [list_prod_ofFn_eq_of_eq_one_of_ne _ _ i]
+-          · simp
+-          · intro m hm
+-            simp [Pi.single_apply, hm]
+-        show r • (x • Y i) = Λ (Φ (id r • Pi.single i x))
+-        rw [hprod, hr, mul_smul]
+-      have := h1.unique (h2.congr_of_eventuallyEq hev.symm)
+-      simpa using this
++      change fderiv ℝ (fun t : Fin (Fintype.card b) → ℝ =>
++        Λ ((List.ofFn fun m => exp (j (t m • Y m))).prod)) 0
++        (Pi.single i x : Fin (Fintype.card b) → ℝ) = x • Y i
++      exact fderiv_list_exp_pi_single Y Λ hΛexp
++        (hΨ.differentiableAt (by simp)) i x
+     let e : (Fin (Fintype.card b) → ℝ) ≃L[ℝ] L :=
+       (B.reindex (Fintype.equivFin b)).equivFun.symm.toContinuousLinearEquiv
+     have he : ∀ (i : Fin (Fintype.card b)) (x : ℝ), e (Pi.single i x) = x • Y i := by
+       intro i x
+       simp [e, Y, Module.Basis.equivFun_symm_apply, Pi.single_apply]
+     have hd : HasFDerivAt Ψ (e : (Fin (Fintype.card b) → ℝ) →L[ℝ] L) 0 := by
+-      have hd := (hΨ.differentiableAt (by simp)).hasFDerivAt
+-      have heq : (e : (Fin (Fintype.card b) → ℝ) →L[ℝ] L) = fderiv ℝ Ψ 0 := by
+-        ext1 v
+-        rw [← Finset.univ_sum_single v, map_sum, map_sum]
+-        simp only [ContinuousLinearEquiv.coe_coe, he, hsingle]
+-      rw [heq]
+-      exact hd
++      apply hasFDerivAt_of_pi_single Ψ (e : (Fin (Fintype.card b) → ℝ) →L[ℝ] L) Y
++        (hΨ.differentiableAt (by simp)) he hsingle
+     have hs := hΨ.hasStrictFDerivAt' hd (by simp)
+     let Ψinv := hs.localInverse Ψ e 0
+     have hinv0 : Ψinv 0 = 0 := by
