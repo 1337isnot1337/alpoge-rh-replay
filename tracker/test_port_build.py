@@ -219,6 +219,14 @@ class PortBuildTest(unittest.TestCase):
                 "#check eLpNorm f 2 μ\n")
         self.assertEqual(port_build.reused_names(text), [(1, 'eLpNorm'), (3, 'eLpNorm')])
 
+    def test_reused_names_multiplicity_and_no_atoms(self):
+        text = ("def v : ℕ := multiplicity P I\n"
+                "#check emultiplicity P I\n"
+                "#check multiplicity_eq_zero_of_not_dvd\n"
+                "instance : MeasureTheory.NoAtoms μ := inferInstance\n"
+                "instance : NullSingletonClass μ := inferInstance\n")
+        self.assertEqual(port_build.reused_names(text), [(1, 'multiplicity'), (4, 'NoAtoms')])
+
     def test_check_warns_about_unchanged_modules_with_reused_names(self):
         (self.tree / 'src/Base.lean').write_text('def L : Prop := Submodule.IsLattice K M\n')
         self.rows[0]['source_sha256'] = sha((self.tree / 'src/Base.lean').read_bytes())

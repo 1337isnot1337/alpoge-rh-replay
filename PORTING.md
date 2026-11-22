@@ -111,6 +111,30 @@ One source declaration can produce several hits, because a structure field also 
 
 Run it on every module of a packet before submitting. Run it as well before landing `unchanged` records in bulk from triage: build the modules whose pinned source mentions `IsLattice`, then audit them.
 
+## Reused-name audit
+
+`IsLattice` is not the only reused name. A comparison of every constant present under the same name in both the pinned and the target environments found these other names whose meaning changed:
+
+| Constant | Pinned meaning | Target meaning |
+|---|---|---|
+| `MeasureTheory.NoAtoms` | alias of `NullSingletonClass`: singletons are null | a new class: the measure has no atoms |
+| `multiplicity` | `(emultiplicity a b).untopD 1` | `(emultiplicity a b).toNat`: 0 instead of 1 when the multiplicity is infinite |
+| `MeasureTheory.Measure.map` | `0` for a map that is not a.e. measurable | a Dirac measure in that case, for a nonzero measure |
+| `MeasureTheory.Measure.prod` | the bind formula | `0` when the second measure is not s-finite |
+| `MeasureTheory.eLpNorm` | the integral formula | `∞` for a function that is not a.e. strongly measurable |
+| `IsAddTorsionFree`, `IsMulTorsionFree` | `n • ·` (resp. `· ^ n`) injective for `n ≠ 0` | the same, but only for commuting pairs; equal in commutative monoids |
+| `ModularForm.L` | `Λ s * (2 / Gammaℂ s)`, which is `0` at `s = 0` | the same except `L 0 = -valueAtInfty f` |
+
+`port/reused_audit.lean` generalizes the `IsLattice` audit to all of these, plus `Submodule.IsLattice` itself. It reports each declaration whose type, or whose definition body, uses one of them, with the reason. It is run the same way, with the same exit codes:
+
+```
+lake env lean --run /path/to/port/reused_audit.lean Module.One Module.Two ...
+```
+
+Unlike an `IsLattice` hit, most hits are review prompts, not errors. `NoAtoms` must become `NullSingletonClass`. For the others, the meaning is unchanged whenever the side condition holds in the declaration's own hypotheses: the map is measurable, the second factor is s-finite, the multiplicity is finite, the function is a.e. strongly measurable, the monoid is commutative. When it holds, say so in the record's notes. When it does not, the statement changed meaning: restore the pinned meaning and explain the change.
+
+`tracker/port_build.py` also lists `NoAtoms` and `multiplicity` in `REUSED_NAMES` for its text check. `Measure.map` and `Measure.prod` are usually written `μ.map f` and `μ.prod ν`, which the text check cannot see, so use the audit for them.
+
 ## When the port is complete
 
 When every module has a patch or an `unchanged` record, a maintainer assembles the ported tree from the pinned archive plus the patches. They then build `Main`, run the axiom audit, the `IsLattice` audit over all project modules (any remaining hits must be ones the records' notes explain) and the Mathlib-only statement comparison, and run the independent checkers on the target toolchain. That result is reported **separately** from the replay's own verdict.

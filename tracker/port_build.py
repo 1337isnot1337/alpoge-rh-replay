@@ -44,6 +44,10 @@ REUSED_NAMES = {
                         'so the meaning is kept in commutative monoids)',
     'eLpNorm': "eLpNorm' at finite nonzero exponents without a.e. strong measurability "
                "(the target eLpNorm returns ∞ for functions that are not a.e. strongly measurable)",
+    'NoAtoms': 'NullSingletonClass (the pinned NoAtoms was an alias of NullSingletonClass, '
+               'singletons are null; the target NoAtoms is a new class that forbids atoms)',
+    'multiplicity': '(emultiplicity a b).untopD 1 (the target multiplicity is (emultiplicity a b).toNat, '
+                    'so it is 0 instead of 1 when the multiplicity is infinite)',
 }
 REUSED_RE = re.compile(r"(?<![\w.'])(?:[A-Z]\w*\.)*(" + '|'.join(REUSED_NAMES) + r")(?![\w'])")
 
