@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.NormGaussianConvolutionSeriesCoefficientLeIntegr",
+  "source_sha256": "1ba865f3468a5832fcfaa10ca7a077747818cb9c3ac93e6bdf53e0c0300572fe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Finset.prod_le_prod₀, the target lemma retaining the original nonnegativity premise.",
+  "evidence": "https://github.com/rohanarun/alpoge-rh-replay/blob/main/port/transcripts/P0111.receipt.json"
+}
