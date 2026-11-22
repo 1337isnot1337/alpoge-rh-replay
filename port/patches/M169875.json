@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.LocalFields.FormalGroups.Inverse",
+  "source_sha256": "74ce6d2b67608ce3810b3f0524e02ca2a40cf9222c3719fd69665dd3a366e591",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

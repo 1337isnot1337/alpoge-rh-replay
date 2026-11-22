@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.PAdicHodge.ExtRobbaLimit",
+  "source_sha256": "dc8351d1b66c8a1d99ff807da9910b54c06b8daa172e65291e739bb8fbcbb1d0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

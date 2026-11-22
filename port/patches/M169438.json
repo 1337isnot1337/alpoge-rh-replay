@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.VandermondeEqVandermondeOf",
+  "source_sha256": "74f540a5b747757974a5a3a5363e8fe91709e42502a7ca63cd17b5f1652f2cce",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.CfunOmClassPeriodInvConj",
+  "source_sha256": "cd97fb722f172616a6bf63894756671ae028c1192f674262fba23eff71937e9c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

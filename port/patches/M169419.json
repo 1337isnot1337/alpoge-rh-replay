@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PSchurSignCoefficient",
+  "source_sha256": "28906d49467ef850b1c689b28302a5d3cfd2c071e0189cf3fd33ae91c022de56",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the equivalent multivariate coefficient projections at the same index and qualifies the coefficient addition lemma."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.Slopes.StatementsSupInf",
+  "source_sha256": "7ad0f2ace3a17a7adbb532669fb729ea3842c95d77151ee5bd90c8a7ffa05ee4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

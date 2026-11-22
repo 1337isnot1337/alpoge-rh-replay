@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.PAdicHodge.RobbaBounded",
+  "source_sha256": "18bb57efb4149584710680b6015ad432af8399235b876efd2d3430868e3d916a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

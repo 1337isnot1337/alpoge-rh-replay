@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PHookSumBound",
+  "source_sha256": "3ee30864887d25bfb67f70f33178ec05f44598b93f43d58e0aaf75c6458c1275",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

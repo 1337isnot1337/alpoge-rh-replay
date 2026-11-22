@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PRestPrimeBound",
+  "source_sha256": "5c4335ee0cce73de1b5fea62642491aa1c3dafbd42d0269bbdc16af6c4c9239f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

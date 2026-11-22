@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.PAdicHodge.ExtRobbaFrob",
+  "source_sha256": "91b5f024ae17ca82307e6bbb7d024412dc9a39ba6a8fbfe3f14b82538b08f53a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

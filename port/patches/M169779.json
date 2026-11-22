@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Theta.GaussianExample",
+  "source_sha256": "6202acaa62ee47b1935ffae7fb24c5ac41c27f77c6aeb66640f6bdaffb54e733",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The current simplifier closes the same quadratic-algebra basis equality directly."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.ProfiniteCohomology.BridgeDefs",
+  "source_sha256": "f4bc914e566116f6a91db77a96726c3e235eeebacc5ce9419c4e9d3afde52890",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
