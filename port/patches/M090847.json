@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.SndFDerivAddSndFDerivIEqZeroOfHarmonicAtLine",
+  "source_sha256": "fb825eb7dcb3d66629e7d93c1d807db908a52472bcd4976fe8178365dc265ce1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Unfold Function.swap before simplifying the entries of the symmetrization map."
+}
