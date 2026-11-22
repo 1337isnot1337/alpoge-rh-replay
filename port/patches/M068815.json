@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsCyclotomicCrossingFieldDecidingFrobenius",
+  "source_sha256": "25820e3badaf830b5f37418c3eba936f282b41a1872846d3123aad40dae1b1ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: explicitly select DivisionSemiring.to_moduleIsTorsionFree locally in irreducible_of_onto for the existing intermediate-field module. This supplies the already available vector-space torsion-free fact directly and avoids instance-search timeout at Polynomial.mem_aroots. All five theorem statements, assumptions, scalar actions, automorphism maps, imports, options and limits are unchanged."
+}

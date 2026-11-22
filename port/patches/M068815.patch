@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsCyclotomicCrossingFieldDecidingFrobenius.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsCyclotomicCrossingFieldDecidingFrobenius.lean
+@@ -48,6 +48,7 @@
+     exact hζ.isRoot_cyclotomic hm
+   have hint : IsIntegral Z ζ := ⟨_, cyclotomic.monic m Z, h0⟩
+   have hdvd := minpoly.dvd Z ζ h0
++  haveI : Module.IsTorsionFree Z Ω := DivisionSemiring.to_moduleIsTorsionFree
+   have hsub : primitiveRoots m Ω ⊆ ((minpoly Z ζ).aroots Ω).toFinset := by
+     intro μ hμ
+     rw [mem_primitiveRoots hm] at hμ
