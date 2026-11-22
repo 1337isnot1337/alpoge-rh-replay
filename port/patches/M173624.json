@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.SquareIntegrability.IntegralMulConjGaussianEqCoeffNormSq",
+  "source_sha256": "b0c38dd90aba530e7122b8ae8f57741f5aa09bcd5a70423896b84b69af01305c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Equivalent coefficient API adaptation: p.coeff \u03b1 denotes the same coefficient as the former MvPolynomial.coeff \u03b1 p, including in fa1N and the expansion statement. The norm sum, factorial weights, indices and quantifiers are unchanged. Also use the renamed finite-sum integral lemma.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0170-lean436-20261121/packet-result.json"
+}

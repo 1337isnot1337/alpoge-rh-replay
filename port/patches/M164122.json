@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PGenericFibreRadicalPrime",
+  "source_sha256": "f3880890e32208adaf58b27dd4806ba63b9c0f4f15b6f6b91961d62e49683293",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Replace the removed coefficient function with the same polynomial coefficient projection; coefficient values, including any occurrences in statements, are definitionally unchanged. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0161-lean436-20261121/packet-result.json"
+}

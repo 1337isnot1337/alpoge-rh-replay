@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.AltCoeff",
+  "source_sha256": "f12e67f856af6c194763b6b4a245e5876195102f36268cc9d586a94cd6c27fc5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use target coefficient accessors and the renamed mapDomain lemma for the same exponent under permutation."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.MinkowskiBound.CharpolyDvdOfPowEqOne",
+  "source_sha256": "442fb3a136f2dd71812b35101048f37480bac3c4d7c11b85371de29a171de9d0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the constant argument to natDegree_X_pow_sub_C positionally."
+}

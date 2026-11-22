@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ExistsUnitBasePointAdjoinTwistedSigma",
+  "source_sha256": "11f1ec98ca35f118488c5aaa286d53c1db04914769ff61330978567e61cff9a2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed algebra-specialized theorem Ideal.isMaximal_under_of_isIntegral_of_isMaximal, with its base ring K.O explicit. Ideal.under is an abbreviation for comap along the existing algebraMap, so the conclusion is definitionally the same maximality assertion. The existing finite-module fact supplies integrality, and the same local maximality fact is used. Only this proof call changes; every definition, theorem statement and assumption is unchanged. The former comap theorem name now denotes the general ring-homomorphism version."
+}

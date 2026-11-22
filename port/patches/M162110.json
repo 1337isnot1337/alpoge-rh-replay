@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.WachModuleLifts.WachModuleProofs.LemmaHLift",
+  "source_sha256": "136aa7f863181d48e536c986cffdebd6d0df88c0667dd3cf4e7d4ca34549f04f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: instantiate Legendre's identity with the existing primality hypothesis and rewrite the local natural-valuation expression via Nat.padicValNat_def. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0159-lean436-20261121/packet-result.json"
+}

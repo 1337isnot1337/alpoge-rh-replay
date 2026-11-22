@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.PoincareCuspForms.TorusMarkingPhase",
+  "source_sha256": "ae84eaa724c91d1b091c37319d71f109b970bf62d57b295f567d206d7e36545d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.KernelRowsColumnsSquareIntegrable",
+  "source_sha256": "b302b817b7fc32acda851998098b18eabff61b0523e6709a9058f263a6f99b7b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: unfold the target MemLp predicate and give the original continuity-derived measurability to the finite-integral equivalence. The exported MemLp statement is unchanged. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0139-lean436-20261121/packet-result.json"
+}

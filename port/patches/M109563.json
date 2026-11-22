@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.CommutativeAlgebra.ExistsRootSubsetProductEquationOfHenselianReduct",
+  "source_sha256": "f8152043a062bfa3b105482b7eb7566942bfbeee0c63464eda4053149d88c095",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed polynomial evaluation-of-finite-sum lemma. Identify the bottom ideal Jacobson radical with the ring radical in the existing Henselian hypothesis. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0201-lean436-20261121/packet-result.json"
+}

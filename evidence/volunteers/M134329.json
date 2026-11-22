@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M134329"
+  ],
+  "started_utc": "2026-11-21T08:50:24.028480+00:00",
+  "ended_utc": "2026-11-21T08:50:37.786280+00:00",
+  "elapsed_seconds": 13.8,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5728300
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3fd577a46b9ec4cc446bc78caf651d5ebab73c7ec8eaa11ac288454db009f500",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.FcIndepDetNeZeroOfRank",
+    "Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBound"
+  ],
+  "objects": {
+    "M134329": "c52edec85790a3df793fd11fa9f0a69a3e26138be608a08b130ec2fe263566c3"
+  },
+  "bundle_sha256": "d698ba093541c2db69cf9959bf140b7b889ba35726c52c010abe9cb7b068795e",
+  "packet": "M134329",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18257#issuecomment-7060185354",
+  "reviewed_utc": "2026-11-22T00:54:27.735153+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AutomorphicSpectrum.Proofs.MetricProofs.RiemannFormPeriodDeterminantBoundStatement"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.PieceEqPieceT",
+  "source_sha256": "ba2b78e606a8a837f93d7ea54afa423fa0859b1b9cccdd25f720ff5c69a21e61",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,11 @@
+--- a/src/Formalism/WachModuleLifts/WachModuleProofs/LemmaCSharpG.lean
++++ b/src/Formalism/WachModuleLifts/WachModuleProofs/LemmaCSharpG.lean
+@@ -128,7 +128,7 @@
+   rw [norm_inv, Padic.norm_p, inv_inv]
+ 
+ lemma norm_p_pow_r (n : ℕ) : ‖(p : ℚ_[p]) ^ n‖ = (p : ℝ) ^ (-(n : ℝ)) := by
+-  rw [Padic.norm_p_pow, ← Real.rpow_intCast]; congr 1; push_cast; ring
++  rw [Padic.norm_p_pow, ← Real.rpow_intCast]; congr 1 <;> push_cast <;> ring
+ 
+ lemma km1 : (((p - 1 : ℕ) : ℝ)) = (p : ℝ) - 1 := by
+   rw [Nat.cast_sub hp.out.one_le, Nat.cast_one]

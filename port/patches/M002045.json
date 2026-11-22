@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.AdelicCMFields.SupportedAtSplit",
+  "source_sha256": "522aae3f986c4777a02596935e7e6a91cb33fdf77471051689c9d2da522e3e20",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0094-lean436-20261121/packet-result.json"
+}

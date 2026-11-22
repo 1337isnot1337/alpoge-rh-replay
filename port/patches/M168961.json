@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PEmbeddingSumPlaces",
+  "source_sha256": "ca9c45a9c471fe6bf81664fe2bf2fdc23d541ce77e40348dad9b0b6f91e3adbe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

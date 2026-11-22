@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IteratedFDerivWeightedIntegralStatement",
+  "source_sha256": "77e6260484f16804f602808933e075a1d8beae8ad469ad6d199606c94335b649",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "local full-packet verification: lake build over all 64 P0109 targets on the port toolchain, Build completed successfully, exit 0"
+}

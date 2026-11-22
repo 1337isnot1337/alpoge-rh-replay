@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CompositumIntermediateFieldExistsPlaceValuationE",
+  "source_sha256": "807bc84715fb89870df7dc1fcc8e52e7bd283c3e8e8de82d28b3e5d912afc622",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Adapt two proof calls to the target ramification API: supply the scalar ring before the prime ideal to Ideal.ramificationIdx_pos, and remove the obsolete ramificationIdx'_eq_ramificationIdx rewrite because HeightOneSpectrum.valuation_liesOver now already returns an exponent expressed with ramificationIdx. The original change step and he/pow_one finish are retained. Every definition, theorem statement, hypothesis and remaining proof term is unchanged."
+}

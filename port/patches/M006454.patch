@@ -1,0 +1,20 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IntegrableOnOfNormLeSumAbsLogAddLogLog.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/IntegrableOnOfNormLeSumAbsLogAddLogLog.lean
+@@ -11,7 +11,7 @@
+ theorem log_norm_le_circleAverage_log_norm {g : ℂ → ℂ} (hg : AnalyticOnNhd ℂ g (closedBall 0 1))
+     (h0 : g 0 ≠ 0) : Real.log ‖g 0‖ ≤ Real.circleAverage (fun z => Real.log ‖g z‖) 0 1 := by
+   have hg' : AnalyticOnNhd ℂ g (closedBall 0 |(1 : ℝ)|) := by simpa using hg
+-  rw [hg'.circleAverage_log_norm one_ne_zero h0, le_add_iff_nonneg_left]
++  rw [hg'.circleAverage_log_norm h0, le_add_iff_nonneg_left]
+   refine finsum_nonneg fun u => ?_
+   by_cases hu : u ∈ closedBall (0 : ℂ) |(1 : ℝ)|
+   · refine mul_nonneg (by exact_mod_cast MeromorphicOn.AnalyticOnNhd.divisor_nonneg hg' u) ?_
+@@ -131,7 +131,7 @@
+   rw [hA] at hB
+   have hC : ∫⁻ z in ball 0 r, logGap M (F z) ∂μ < ∞ :=
+     (ENNReal.lt_top_of_mul_ne_top_left hB.ne (ENNReal.ofReal_pos.2 h2).ne')
+-  have hFf : F =ᵐ[μ.restrict (ball 0 r)] f := piecewise_ae_eq_restrict measurableSet_ball
++  have hFf : F =ᵐ[μ.restrict (ball 0 r)] f := piecewise_ae_eq_restrict (s := ball (0 : E) r) measurableSet_ball.nullMeasurableSet
+   have hne : ∀ᵐ z ∂(μ.restrict (ball 0 r)), f z ≠ 0 := by
+     filter_upwards [ae_lt_top ((measurable_logGap M).comp hFm) hC.ne, hFf] with z hz hz' h
+     simp [hz', logGap, h] at hz

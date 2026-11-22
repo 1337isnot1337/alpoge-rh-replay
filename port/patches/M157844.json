@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PieriBlockIdeals.PieriColumnMinors.MinorValuationBoundHolds",
+  "source_sha256": "a00d02931ebba28d887509e7295965a62d79eea5e82ac4eb0a58e5baa95f057a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

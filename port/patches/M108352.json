@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.TensorHomCubes.SimplexFace",
+  "source_sha256": "58af0ce1d753627dafb1e18235578737cb8db9e2093cf0aa3bef247197e9f7a1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Keep the pinned subtype-of-coordinate-functions simplex domains. The target singular-chain API uses Convexity.StdSimplex, so sing precomposes with the canonical weight map to the old subtype. On a finite index set these are the same nonnegative coordinates summing to one, with the same induced topology; the inverse is Finsupp.equivFunOnFinite. This preserves the pinned singular simplex and cube-chain construction.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0200-lean436-20261121/packet-result.json"
+}

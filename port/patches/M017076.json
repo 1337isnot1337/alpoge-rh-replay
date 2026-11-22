@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CechComplexDirectLimit",
+  "source_sha256": "91337e3c647e33e02387aca330d4f5ee2abda2bf5af142bb34d2eaaa5308df3f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

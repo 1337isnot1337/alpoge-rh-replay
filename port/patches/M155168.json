@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GreenLabelSurjective.Simple",
+  "source_sha256": "8ab37b5144801e59b23179166b99a55e99d4652a238dbf07d9c2517a11bddf3e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

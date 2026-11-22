@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.CloudPair",
+  "source_sha256": "bd93186093ed8b1a84d69c21221a9ba4c5bf0280466f6b5c2c466de318cb15b0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the ordered-ring finite-product comparison with the original nonnegativity hypotheses. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0094-lean436-20261121/packet-result.json"
+}

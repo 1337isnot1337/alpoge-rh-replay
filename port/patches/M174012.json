@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.ReductiveGroups.DiscreteSeries.DiscreteSeriesExistence.CayleyChartDomainIsOpen",
+  "source_sha256": "9cc04a06f936086180af12943faf4e5e281916fec4689b9061fbfa38f3c14e48",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Preserve the unconditional integral formula in the private helper using eLpNorm', which is exactly the pinned eLpNorm at exponent 2 (including nonmeasurable functions). The target eLpNorm is infinite for nonmeasurable functions, so its two uses are reduced to this formula using measurability: the given jointly measurable D gives measurable slices and a measurable parameter integral r. All public statements, including slm_eLpNorm_le, are unchanged. Explicitly instantiate exponent 2 in the norm equality used as a simplifier.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0170-lean436-20261121/packet-result.json"
+}

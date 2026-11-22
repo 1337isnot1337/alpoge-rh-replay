@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.CommutativeAlgebra.EtaleCohomology.SumTransport",
+  "source_sha256": "4f96aa50e61b4e952416e76b183de7c52c98e2de8551b88bbe9e4c6ef8c4d2da",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current elementwise naturality theorem for functors to types. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0201-lean436-20261121/packet-result.json"
+}

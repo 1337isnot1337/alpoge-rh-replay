@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.MinimalSolutions.OntoWithBoundTop",
+  "source_sha256": "76f742fd546f2ad45707fad5660c9f7aa69cbca93663ec68ff2ad1e5fcc3fe5d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

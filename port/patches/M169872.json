@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.LocalFields.FiniteExtension",
+  "source_sha256": "d06117634537042eb4d4bd322af435deed5574437309e15f7c2a76f009c6377b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}

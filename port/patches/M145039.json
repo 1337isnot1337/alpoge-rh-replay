@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GaloisIrreducibility.GaloisIrreducibilityProofs.BlockBoundOfOrbits",
+  "source_sha256": "0ec34929f99cb53891784c7fead087208e51849da361b36313a1ecd7b82192b8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}

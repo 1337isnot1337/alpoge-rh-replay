@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.DistinguishedUnitIdeals.DistinguishedOrderProofs.LevelsModConstIffOfNoDown",
+  "source_sha256": "2c5fe34e63e50fb3e23d9be0b8f691596042279c5a1e043bed0b28044ee3a7e4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/BlockTheory/HeightDefect/SchurLatticeConjugates.lean
++++ b/src/Development/AbelianVarietyTheory/BlockTheory/HeightDefect/SchurLatticeConjugates.lean
+@@ -76,7 +76,7 @@
+     (σ : E →+* K) (n' : ℕ+) (a : ℕ) (la : HeightOneSpectrum (𝓞 K))
+     (h : ((n' : ℕ) : 𝓞 K) ∈ la.asIdeal) : a ≤ defectAt_vw σ n' a la := by
+   have h1 : 0 < ord_vw la (Ideal.span {((n' : ℕ) : 𝓞 K)}) :=
+-    dvd_iff_multiplicity_pos.mpr (Ideal.dvd_span_singleton.mpr h)
++    (dvd_iff_multiplicity_pos (Ideal.finiteMultiplicity la.isPrime.ne_top (span_natCast_ne_bot n'))).mpr (Ideal.dvd_span_singleton.mpr h)
+   exact Nat.le_mul_of_pos_right _ (lt_of_lt_of_le h1 (le_max_right _ _))
+ 
+ end GlobalTheory.IndefiniteRowSideFullHecke.DifferentConjugateDefects

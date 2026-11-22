@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightComparison.PPlacesRingQuot",
+  "source_sha256": "ccf1fe0e7cd5c547524183fa0fc43cfa977f79bd5e968ea21472876e24aaca09",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove the obsolete unzero/toAdd rewrite: the valuation conversion already returns WithZero.log, to which the existing log_exp lemma applies. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0228-lean436-20261121/packet-result.json"
+}

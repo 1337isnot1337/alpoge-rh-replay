@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PCovolumeRelIndex",
+  "source_sha256": "1fdaa32a8432bc1ca346f52007e1007741bf7f34b69261a68141256bf98ceed6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

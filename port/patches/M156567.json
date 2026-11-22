@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SelfDualLocalBasis.Nondeg",
+  "source_sha256": "2f66839e878b61a98737b99b50de1353463a99c1937d494b552bd51826475729",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the updated integrality equivalence whose faithful scalar action supplies injectivity."
+}

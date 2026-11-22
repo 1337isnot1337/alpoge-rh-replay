@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightKernels.StatementsChartDensityIntegrable",
+  "source_sha256": "d04db91882814e21c16125ce7500a7e5e42585a64ac9b5283090c86cdfd95912",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0229-lean436-20261121/packet-result.json"
+}

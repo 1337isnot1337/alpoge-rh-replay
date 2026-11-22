@@ -1,0 +1,19 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/LegendreBoundsFactorialMultiIndexCapelli.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/UnramifiedDepth/LegendreBoundsFactorialMultiIndexCapelli.lean
+@@ -23,7 +23,7 @@
+     (padicValNat l N.factorial : ℝ) = ((N : ℝ) - ((Nat.digits l N).sum : ℕ)) / (l - 1) := by
+   have := Fact.mk hl
+   have h1 : (l - 1) * padicValNat l N.factorial = N - (Nat.digits l N).sum :=
+-    sub_one_mul_padicValNat_factorial N
++    by simpa only [Nat.padicValNat_def] using hl.sub_one_mul_multiplicity_factorial (n := N)
+   have h2 : (Nat.digits l N).sum ≤ N := Nat.digit_sum_le l N
+   have hl1 : (1 : ℝ) < l := by exact_mod_cast hl.one_lt
+   have h3 := congrArg (Nat.cast : ℕ → ℝ) h1
+@@ -90,6 +90,7 @@
+       = ∑ j ∈ s, (padicValNat l (A j).factorial : ℝ) := by
+   have := Fact.mk hl
+   classical
++  simp only [Nat.padicValNat_def]
+   refine Finset.induction_on s ?_ ?_
+   · simp
+   · intro a t ha ih

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FilteredPoleLength.LocalDescentLevels.BCount",
+  "source_sha256": "79fe35f9b34118af08f2bdfc8f24460b6bbfc04684c7698afffeb426d7e46cd7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

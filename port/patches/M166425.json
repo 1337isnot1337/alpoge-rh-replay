@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.Statements",
+  "source_sha256": "84c4fd5ec64e9e5671f5a39056d2104b96c7aa1f374be255f7f5a90557a716e1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the finite-product inequality with the existing nonnegativity premises. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0229-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,2613 @@
+P0156 complete audited port build transcript
+CI run: https://github.com/1337isnot1337/alpoge-rh-replay/actions/runs/44961884720
+CI commit: 885d71e85e2087afacc066c4c8c946dbed47fcc3
+Lean: Lean (version 4.36.0, x86_64-unknown-linux-gnu, commit 611c117bfaf7b7ae1cfcf246ce6fba31e8f509e9, Release)
+Mathlib: fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+Dependency pins: {"Cli": "50810f72af7618bee62fe9800dc26e806c188703", "LeanSearchClient": "4fb58e749ef3fc0395fe274f6cab70c2ea85f1c9", "Qq": "ff055a2fcc835935e0ae607339b455a5f5896b4b", "aesop": "66ff77cf0c4c898799e4b94d14db55f7a02d0c5a", "batteries": "b4b25a3886a16daacaf6615c2eea7170a6e8f458", "importGraph": "8370c640afcd1cc3fb1cb9bf1560cc66eafee5e0", "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842", "plausible": "054b228ce0ac61d767c6e71ba73a24728f191b72", "proofwidgets": "2f0f3520daeac2d9310ff25b7a877a0e5cdaa203"}
+Coverage: 64 live / 64 original packet members; no pruned exclusions.
+Pinned project source closure: 99 files.
+Original artifact ID: 14730149571
+Original artifact size: 175008 bytes
+Original artifact SHA-256: b9ff847680377ed4d21dc660f86cf9bc1bf9246f8c9109bc318db7a5b6617daa
+Build result SHA-256: adad1c809291f74b591da81940d89af927db0f5a48ca982793d14ff4cb16b3d7
+Source manifest SHA-256: 5513852865f324ff6d858868d91d47c310435798547a58298c72b17eef5287b1
+Detailed immutable evidence: https://github.com/1337isnot1337/alpoge-rh-replay/tree/09de5f1c0e3a52397c979a58d7403364519f66e7/port/evidence/P0156-islattice-audit
+
+========================================================================
+M157636
+========================================================================
+Module: M157636 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensSAInt
+Started: 2026-11-21T23:29:07.878278+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensSAInt:olean"]
+Pinned source SHA-256: 1b7e71a9ab6ee4402303a6e65054a10b0ccbd3618c1ade5c5b5c61b604401bb3
+Compiled source SHA-256: 1b7e71a9ab6ee4402303a6e65054a10b0ccbd3618c1ade5c5b5c61b604401bb3
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensSAChar (2.0s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/LocDensSAChar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensSAChar:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/LocDensSAChar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensSAInt (2.7s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/LocDensSAInt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 10.233
+Timed out: False
+Module log SHA-256: 470e5176ce1e7fa26d3640fdeb3bca3066bdadab0bae6a2693038ac2fcac4c53
+Output object SHA-256: b9b547b97ef7ba2faaeedc928bfd584bc6b7f8f1a0563da3561e4d7058bc9453
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157649
+========================================================================
+Module: M157649 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.MeasureEqOfCos
+Started: 2026-11-21T23:29:18.112513+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.MeasureEqOfCos:olean"]
+Pinned source SHA-256: 00a62e367f1da5501f3a7a78f1d0ad59ec091a1fa79fd0e4e9ed3e0dc2411c27
+Compiled source SHA-256: 00a62e367f1da5501f3a7a78f1d0ad59ec091a1fa79fd0e4e9ed3e0dc2411c27
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.CosDens (2.2s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/CosDens.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.CosDens:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/CosDens.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.MeasureEqOfCos (2.4s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/MeasureEqOfCos.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/MeasureEqOfCos.lean:37:48: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/MeasureEqOfCos.lean:41:22: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/MeasureEqOfCos.lean:80:15: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/MeasureEqOfCos.lean:112:8: `MeasureTheory.Measure.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  M̵e̵a̵s̵u̵r̵e̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/MeasureEqOfCos.lean:122:38: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeilStabilizerVolume/MeasureEqOfCos.lean:135:12: `MeasureTheory.Measure.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  M̵e̵a̵s̵u̵r̵e̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.73
+Timed out: False
+Module log SHA-256: 006b73f01609c3aae7e82bc382fd652768cadd54d5103e587c0573afe2157472
+Output object SHA-256: 3ec25a8790847e5d80b7eb213f2fb2e50f04d3356bb74618a8cb52b2be08a5a2
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157705
+========================================================================
+Module: M157705 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeylProduct.WeylProd
+Started: 2026-11-21T23:29:26.844004+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeylProduct.WeylProd:olean"]
+Pinned source SHA-256: eb64710f540c660da7a52093633386a985ef8b9c9a9120b3b8771311f74589dd
+Compiled source SHA-256: eb64710f540c660da7a52093633386a985ef8b9c9a9120b3b8771311f74589dd
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.WeylProd (2.2s)
+warning: src/Formalism/PeriodIntegrals/WeylProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.WeylProd:irArts
+warning: src/Formalism/PeriodIntegrals/WeylProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeylProduct.WeylProd (2.3s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeylProduct/WeylProd.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeylProduct/WeylProd.lean:38:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeylProduct/WeylProd.lean:53:10: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeylProduct/WeylProd.lean:53:20: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeylProduct/WeylProd.lean:62:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WeylProduct/WeylProd.lean:62:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.631
+Timed out: False
+Module log SHA-256: 55b416b1c211d116fde5dd724b5885f41b4e682020d8253f8226ecf6a765fa78
+Output object SHA-256: bb4d29b6374710b49bf6f353472716e50a9980edc9487d949d24fa3bcaa1262d
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157707
+========================================================================
+Module: M157707 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittCoefficients.CoeffEqOfSubMem
+Started: 2026-11-21T23:29:35.476158+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittCoefficients.CoeffEqOfSubMem:olean"]
+Pinned source SHA-256: 66803996324bfa00e6aab311e95be2326f15fd8b07b2b112ef09286ea2b766c7
+Compiled source SHA-256: 66803996324bfa00e6aab311e95be2326f15fd8b07b2b112ef09286ea2b766c7
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.ArtSch (2.5s)
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean:17:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean:18:10: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean:17:10: Unused tactic linter: `norm_cast` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean:18:10: Unused tactic linter: `simp` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.ArtSch:irArts
+warning: src/Formalism/PeriodIntegrals/ArtSch.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittCoefficients.CoeffEqOfSubMem (2.6s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittCoefficients/CoeffEqOfSubMem.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittCoefficients/CoeffEqOfSubMem.lean:14:6: Unused tactic linter: `exact WittVector.mem_ker_truncate x` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittCoefficients/CoeffEqOfSubMem.lean:15:6: Unused tactic linter: `exact WittVector.mem_ker_truncate` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittCoefficients/CoeffEqOfSubMem.lean:112:8: automatically included section variable(s) unused in theorem `_private.Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittCoefficients.CoeffEqOfSubMem.0.PI.ArtSch.WittLiftWork.eq_iterate_verschiebung_mk_shift`:
+  [CharP k p]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharP k p] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.184
+Timed out: False
+Module log SHA-256: 23ac1fe031d7993aa01718a0c1f3a1cc1a29d0fc015474ed7bbc515f6c1a190e
+Output object SHA-256: 06fee82745dbb6ca30869666230ca871515c36eab65a5104f91a3bc400214c9e
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157708
+========================================================================
+Module: M157708 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittDecomposition.Anisotropic
+Started: 2026-11-21T23:29:44.661221+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittDecomposition.Anisotropic:olean"]
+Pinned source SHA-256: a5008d9a5c223b4a6a4427ab8248fee16d9fb865a15d322d45f4fa1c3dc2345b
+Compiled source SHA-256: a5008d9a5c223b4a6a4427ab8248fee16d9fb865a15d322d45f4fa1c3dc2345b
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.WittExtension (2.2s)
+warning: src/Formalism/PeriodIntegrals/WittExtension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.WittExtension:irArts
+warning: src/Formalism/PeriodIntegrals/WittExtension.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittDecomposition.Anisotropic (2.2s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittDecomposition/Anisotropic.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.53
+Timed out: False
+Module log SHA-256: eed03bc92a0a0c3f7e20523766708fcde745a11db6ada5a37e5df93dff5327b2
+Output object SHA-256: c8b5c4bf621a46d22dc14acf89dc479a150f70890f0a0eb508e15dfde9c2a0b4
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157721
+========================================================================
+Module: M157721 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittUnramified.GhostComponentG
+Started: 2026-11-21T23:29:53.192353+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittUnramified.GhostComponentG:olean"]
+Pinned source SHA-256: a04a1c95486bc945c0acd7ab186ec230639a5afa421551e4a988dc0ac5f0957f
+Compiled source SHA-256: a04a1c95486bc945c0acd7ab186ec230639a5afa421551e4a988dc0ac5f0957f
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.WittUnram (2.2s)
+warning: src/Formalism/PeriodIntegrals/WittUnram.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.WittUnram:irArts
+warning: src/Formalism/PeriodIntegrals/WittUnram.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittUnramified.GhostComponentG (3.2s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/GhostComponentG.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/GhostComponentG.lean:18:0: automatically included section variable(s) unused in theorem `PI.WittUnramWork.sigF_spec`:
+  hp
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit hp in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/GhostComponentG.lean:178:8: automatically included section variable(s) unused in theorem `_private.Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittUnramified.GhostComponentG.0.PI.WittUnramWork.map_frobenius'`:
+  [Algebra W Qq]
+  [Invertible ↑p]
+  hF
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Algebra W Qq] [Invertible ↑p] hF in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/GhostComponentG.lean:185:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/GhostComponentG.lean:186:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/GhostComponentG.lean:193:17: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/GhostComponentG.lean:185:8: Unused tactic linter: `exact DFunLike.congr_fun (MvPolynomial.comp_aeval w.coeff f.toIntAlgHom) P` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/GhostComponentG.lean:186:8: Unused tactic linter: `(induction P using MvPolynomial.induction_on with
+  | C a => simp [MvPolynomial.aeval_C, algebraMap_int_eq, eq_intCast, map_intCast]
+  | add P Q hP hQ => simp only [map_add, hP, hQ]
+  | mul_X P i hP => simp only [map_mul, hP, MvPolynomial.aeval_X])` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/GhostComponentG.lean:193:2: Unused tactic linter: there are no goals left for `try (funext i; exact (WittVector.map_coeff f w i).symm)`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/GhostComponentG.lean:204:2: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.483
+Timed out: False
+Module log SHA-256: a03a72946997bfa75e39e62b9686040e8e9d7c5ddd460598feafb8bff01e4b15
+Output object SHA-256: e65766d87bd2439e255ddcdc314a41a8da675e9ff0659a8b7e0daf8ccb0b5f64
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157722
+========================================================================
+Module: M157722 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittUnramified.PsiStep
+Started: 2026-11-21T23:30:02.677416+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittUnramified.PsiStep:olean"]
+Pinned source SHA-256: 97e7f67f83f69199c55d81d2b4fc2bbcce29d96f42211134ce5599731a925c57
+Compiled source SHA-256: 97e7f67f83f69199c55d81d2b4fc2bbcce29d96f42211134ce5599731a925c57
+
+⚠ [18250/18252] Replayed Formalism.PeriodIntegrals.WittUnram
+warning: src/Formalism/PeriodIntegrals/WittUnram.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.WittUnram:irArts
+warning: src/Formalism/PeriodIntegrals/WittUnram.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittUnramified.PsiStep (2.7s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/PsiStep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/PsiStep.lean:22:23: `WittVector.p_nonzero` has been deprecated: Use `WittVector.p_ne_zero` instead
+
+Hint: Replace the deprecated name:
+  W̵i̵t̵t̵V̵e̵c̵t̵o̵r̵.̵p̵_̵n̵o̵n̵z̵e̵r̵o̵p̲_̲n̲e̲_̲z̲e̲r̲o̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/PsiStep.lean:13:0: automatically included section variable(s) unused in theorem `PI.WittUnramWork.psi_injective`:
+  [PerfectRing k p]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [PerfectRing k p] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/PsiStep.lean:24:0: automatically included section variable(s) unused in theorem `PI.WittUnramWork.psi_step`:
+  [IsDomain W]
+  [IsDiscreteValuationRing W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain W] [IsDiscreteValuationRing W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/PsiStep.lean:92:61: `WittVector.p_nonzero` has been deprecated: Use `WittVector.p_ne_zero` instead
+
+Hint: Replace the deprecated name:
+  W̵i̵t̵t̵V̵e̵c̵t̵o̵r̵.̵p̵_̵n̵o̵n̵z̵e̵r̵o̵p̲_̲n̲e̲_̲z̲e̲r̲o̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/PsiStep.lean:98:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/WittUnramified/PsiStep.lean:98:6: Unused tactic linter: `simp` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.827
+Timed out: False
+Module log SHA-256: ef01a137290571610f0b7a990525ee262ef73f634a89e50e5bdf0ee63675f4c6
+Output object SHA-256: 08934d4f07b3fa6aa8ed033dbc5662b8e1b5fbc39c6258da8799bc02e3e3d61d
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157734
+========================================================================
+Module: M157734 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ZeroWindow.RightHalfWith
+Started: 2026-11-21T23:30:09.505305+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ZeroWindow.RightHalfWith:olean"]
+Pinned source SHA-256: 21f6803fde8204a12cb31f43fc2c9d7bbe1e972a22c713afc756a783d228ce41
+Compiled source SHA-256: 21f6803fde8204a12cb31f43fc2c9d7bbe1e972a22c713afc756a783d228ce41
+
+⚠ [18250/18254] Built Formalism.PeriodIntegrals.ZerosWindow (2.3s)
+warning: src/Formalism/PeriodIntegrals/ZerosWindow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran Formalism.PeriodIntegrals.ZerosWindow:irArts
+warning: src/Formalism/PeriodIntegrals/ZerosWindow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built Formalism.PeriodIntegrals.ZerosWindowIn (2.3s)
+warning: src/Formalism/PeriodIntegrals/ZerosWindowIn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran Formalism.PeriodIntegrals.ZerosWindowIn:irArts
+warning: src/Formalism/PeriodIntegrals/ZerosWindowIn.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ZeroWindow.RightHalfWith (2.2s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/ZeroWindow/RightHalfWith.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.63
+Timed out: False
+Module log SHA-256: 0cb00b8eb716870db0b1d803a3fb655df33e0025c852e87435df8214dc9a0c2f
+Output object SHA-256: c58be20cb895a98c4ef7d92e3c2af62185dd76ee0122f315998bdf56457ae7d1
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157750
+========================================================================
+Module: M157750 Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.KappaZero
+Started: 2026-11-21T23:30:18.136722+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.KappaZero:olean"]
+Pinned source SHA-256: cbd52d17451760c0e4eeb0ec47d76b921ec40fbc23d5de8971cf2416fa6c5bf0
+Compiled source SHA-256: cbd52d17451760c0e4eeb0ec47d76b921ec40fbc23d5de8971cf2416fa6c5bf0
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.OneCosetSharp (2.7s)
+warning: src/Formalism/PeriodIntegrals/OneCosetSharp.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/OneCosetSharp.lean:181:4: The namespace `OneCosetSharp` is duplicated in the declaration `PI.OneCosetSharp.OneCosetSharp`.
+
+Note: This linter can be disabled with `set_option linter.dupNamespace false`
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.OneCosetSharp:irArts
+warning: src/Formalism/PeriodIntegrals/OneCosetSharp.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.KappaZero (2.3s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.031
+Timed out: False
+Module log SHA-256: c81b6f01cad8729b4c1fd78bdef132a418f0cbab5c877dbcf8a230946d0ae15a
+Output object SHA-256: 49db1834160caf205f8d71e38b9cfae4914c18d3e0e18612f17d69320122791e
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157759
+========================================================================
+Module: M157759 Formalism.PeriodIntegrals.W2pair
+Started: 2026-11-21T23:30:27.169006+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.W2pair:olean"]
+Pinned source SHA-256: 0523325ed2f9986d2f87eb657e69a2706caa1a6df2fa36a48bf0673061dfa154
+Compiled source SHA-256: 0523325ed2f9986d2f87eb657e69a2706caa1a6df2fa36a48bf0673061dfa154
+
+⚠ [18250/18254] Built Formalism.PeriodIntegrals.ExpIntW (2.4s)
+warning: src/Formalism/PeriodIntegrals/ExpIntW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran Formalism.PeriodIntegrals.ExpIntW:irArts
+warning: src/Formalism/PeriodIntegrals/ExpIntW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built Formalism.PeriodIntegrals.AddIntG (2.4s)
+warning: src/Formalism/PeriodIntegrals/AddIntG.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran Formalism.PeriodIntegrals.AddIntG:irArts
+warning: src/Formalism/PeriodIntegrals/AddIntG.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18254/18254] Built Formalism.PeriodIntegrals.W2pair (2.2s)
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.732
+Timed out: False
+Module log SHA-256: 28fd27ec3844777a1f4812c46b722b8bfa14b5fc4e6a86a591df96593d944871
+Output object SHA-256: e1e69c71bfdfd82c1fbe144e3e31801e63492f7d98dd29f0f88a8bf61c1ece8b
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157764
+========================================================================
+Module: M157764 Formalism.PeriodIntegrals.WeierUnif
+Started: 2026-11-21T23:30:35.902197+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.WeierUnif:olean"]
+Pinned source SHA-256: 18a4db9d6ce1e101070dfc57b801836bcde00465cf0f8eaad2eccac3bbfa440a
+Compiled source SHA-256: 18a4db9d6ce1e101070dfc57b801836bcde00465cf0f8eaad2eccac3bbfa440a
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.LatDefs (2.2s)
+warning: src/Formalism/PeriodIntegrals/LatDefs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.LatDefs:irArts
+warning: src/Formalism/PeriodIntegrals/LatDefs.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PeriodIntegrals.WeierUnif (2.2s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.48
+Timed out: False
+Module log SHA-256: 10bef1ff4ffb253ab4ef4b3ae093c023b972ca27c4bbcbe27aa22d4da3bcc56c
+Output object SHA-256: 448de7548855fdb25bf3cd13ab2ea3240cc97f010a7c8a44d6fabc2dd93dc773
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157766
+========================================================================
+Module: M157766 Formalism.PeriodIntegrals.WeylForK
+Started: 2026-11-21T23:30:44.382913+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.WeylForK:olean"]
+Pinned source SHA-256: 8b0a5748e76065c2b01ad650b37353fce114bf5ef83e3e4dfcdb448a0e95552d
+Compiled source SHA-256: 8b0a5748e76065c2b01ad650b37353fce114bf5ef83e3e4dfcdb448a0e95552d
+
+⚠ [18250/18252] Built Formalism.PeriodIntegrals.UpqRep (2.9s)
+warning: src/Formalism/PeriodIntegrals/UpqRep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UpqRep.lean:141:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.UpqRep:irArts
+warning: src/Formalism/PeriodIntegrals/UpqRep.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PeriodIntegrals.WeylForK (2.2s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.183
+Timed out: False
+Module log SHA-256: bc84a71c7b6200697a0983c89f1583ebb2ff7ab42b10821d756f71dd59805c64
+Output object SHA-256: b43323d0c68e8915d1195634f4f10c718ede4cc1fc7cb1e41cbe65a1d106eae9
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157769
+========================================================================
+Module: M157769 Formalism.PeriodIntegrals.WfRing
+Started: 2026-11-21T23:30:53.567127+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.WfRing:olean"]
+Pinned source SHA-256: 320d66671ec815b0201ae291d3ac880f7b643765fb007821deea2c8e7460d8d4
+Compiled source SHA-256: 320d66671ec815b0201ae291d3ac880f7b643765fb007821deea2c8e7460d8d4
+
+⚠ [18250/18252] Replayed Formalism.PeriodIntegrals.ExpIntW
+warning: src/Formalism/PeriodIntegrals/ExpIntW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.ExpIntW:irArts
+warning: src/Formalism/PeriodIntegrals/ExpIntW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PeriodIntegrals.WfRing (2.2s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.276
+Timed out: False
+Module log SHA-256: 536da2085b975c2856c4f667b53d9441c775e52b90cbb0e20fa47feb2f164a60
+Output object SHA-256: dcd6c14bf2653d0bf5fd4fc5fbc8637999f8d3aaf744499afe5304e30883f4eb
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157770
+========================================================================
+Module: M157770 Formalism.PeriodIntegrals.WfSubst
+Started: 2026-11-21T23:30:59.844101+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PeriodIntegrals.WfSubst:olean"]
+Pinned source SHA-256: 7f4d4eb3b9a8baf3b09ac5155900ab2a579cbb877ef7cdc70e9130a834974288
+Compiled source SHA-256: 7f4d4eb3b9a8baf3b09ac5155900ab2a579cbb877ef7cdc70e9130a834974288
+
+⚠ [18250/18252] Replayed Formalism.PeriodIntegrals.ExpIntW
+warning: src/Formalism/PeriodIntegrals/ExpIntW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PeriodIntegrals.ExpIntW:irArts
+warning: src/Formalism/PeriodIntegrals/ExpIntW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PeriodIntegrals.WfSubst (2.2s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.225
+Timed out: False
+Module log SHA-256: d9f025af15e43df11b477ae563c26b4ea925e51bf706ec7a1a13cc74f5eaad41
+Output object SHA-256: b1d5588ada36187d225a17d06162c2d177a6572f443837dec5eb03b5923dd8fc
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157787
+========================================================================
+Module: M157787 Formalism.PieriBlockIdeals.ContentDistanceBounds
+Started: 2026-11-21T23:31:06.070249+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.ContentDistanceBounds:olean"]
+Pinned source SHA-256: 9b428ec2cbc24fee6fe549f2f032ce4abdda66e55a9b85ffe35c8a6fdb948fef
+Compiled source SHA-256: 9b428ec2cbc24fee6fe549f2f032ce4abdda66e55a9b85ffe35c8a6fdb948fef
+
+⚠ [18250/18252] Built Formalism.PieriBlockIdeals.Statement (2.5s)
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.Statement:irArts
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.ContentDistanceBounds (2.3s)
+warning: src/Formalism/PieriBlockIdeals/ContentDistanceBounds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.881
+Timed out: False
+Module log SHA-256: 1787052aada7e486856976295c9b5f16b2a83a960eadd86a5826701442770d62
+Output object SHA-256: f0440bd04d19d29a69362ab0b04ae456e81fbd26ffb1dd25560ecad57855215e
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157805
+========================================================================
+Module: M157805 Formalism.PieriBlockIdeals.ParamsWindow
+Started: 2026-11-21T23:31:14.952920+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.ParamsWindow:olean"]
+Pinned source SHA-256: 0fdc36c0de2b6e22229465787cc29df21f995309da55ad6f63457a1575fffe2a
+Compiled source SHA-256: 0fdc36c0de2b6e22229465787cc29df21f995309da55ad6f63457a1575fffe2a
+
+⚠ [18250/18252] Built Formalism.RankGapBounds.CloudMinFalse (2.2s)
+warning: src/Formalism/RankGapBounds/CloudMinFalse.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RankGapBounds.CloudMinFalse:irArts
+warning: src/Formalism/RankGapBounds/CloudMinFalse.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.ParamsWindow (2.2s)
+warning: src/Formalism/PieriBlockIdeals/ParamsWindow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.43
+Timed out: False
+Module log SHA-256: 039cfbf406cd74a80aea8d072c3f941a74887c81df10908d46ef60143d78ec7b
+Output object SHA-256: 72b832707bbfdef4ddc4304d4315fb9e9835da96752306919503e3532dcfbd5a
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157809
+========================================================================
+Module: M157809 Formalism.PieriBlockIdeals.PieriColumnMinors.ContentLinkageHolds
+Started: 2026-11-21T23:31:23.384338+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.PieriColumnMinors.ContentLinkageHolds:olean"]
+Pinned source SHA-256: 5d1af3f44a13c0e3d1eb1b3a994f11d386764475ebcc3a8d20c7840700c0bf65
+Compiled source SHA-256: 5d1af3f44a13c0e3d1eb1b3a994f11d386764475ebcc3a8d20c7840700c0bf65
+
+⚠ [18250/18252] Replayed Formalism.PieriBlockIdeals.Statement
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.Statement:irArts
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.PieriColumnMinors.ContentLinkageHolds (2.5s)
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/ContentLinkageHolds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/ContentLinkageHolds.lean:25:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/ContentLinkageHolds.lean:38:13: This simp argument is unused:
+  map_intCast
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [ψ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/ContentLinkageHolds.lean:43:26: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.578
+Timed out: False
+Module log SHA-256: 6772d3a5c2ca96c329bbb93469d84b6087abd8046c0504057ca8dbce728a2b65
+Output object SHA-256: 329d5ad9b2d055e726d33ba08b8b7e5775ecdd7d868b109646ac39c27fe76c1f
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157813
+========================================================================
+Module: M157813 Formalism.PieriBlockIdeals.PieriColumnMinors.CountLeftInvSeqAlternatingWordEven
+Started: 2026-11-21T23:31:29.963520+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.PieriColumnMinors.CountLeftInvSeqAlternatingWordEven:olean"]
+Pinned source SHA-256: 7066433d13b210961276a6df04d192c13b5e2fb3533b2558687033b10f611290
+Compiled source SHA-256: 7066433d13b210961276a6df04d192c13b5e2fb3533b2558687033b10f611290
+
+⚠ [18250/18252] Built Formalism.PieriBlockIdeals.StatementW (2.3s)
+warning: src/Formalism/PieriBlockIdeals/StatementW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.StatementW:irArts
+warning: src/Formalism/PieriBlockIdeals/StatementW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.PieriColumnMinors.CountLeftInvSeqAlternatingWordEven (2.8s)
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/CountLeftInvSeqAlternatingWordEven.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/CountLeftInvSeqAlternatingWordEven.lean:95:23: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.183
+Timed out: False
+Module log SHA-256: fa0541cf5a8f092b6e7f8749bca88bc13663aba7bfa33820a9d6dfc830c74c20
+Output object SHA-256: e230449cfecf7a94faf0260d45472236701ca4d5cc7f6bab3f8d6ba5ca0f4077
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157820
+========================================================================
+Module: M157820 Formalism.PieriBlockIdeals.PieriColumnMinors.HeightDescentMinors
+Started: 2026-11-21T23:31:39.148756+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.PieriColumnMinors.HeightDescentMinors:olean"]
+Pinned source SHA-256: 397d784dc54488930e83bc19cf3b5556f3fd668ade7ce7698bde7c9e6791976f
+Compiled source SHA-256: b4991fed269b3ce182e6f011783859dfb373d45d6e98ff87b00456025386b578
+
+⚠ [18250/18252] Built Formalism.PieriBlockIdeals.CapelliCentralEnveloping (3.1s)
+warning: src/Formalism/PieriBlockIdeals/CapelliCentralEnveloping.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.CapelliCentralEnveloping:irArts
+warning: src/Formalism/PieriBlockIdeals/CapelliCentralEnveloping.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.PieriColumnMinors.HeightDescentMinors (706s)
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:25:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:102:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:103:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:102:6: Unused tactic linter: `simp [PowerSeries.binomialSeries, Algebra.smul_def]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:103:6: Unused tactic linter: `simp [PowerSeries.binomialSeries]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:113:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:114:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:113:8: Unused tactic linter: `exact PowerSeries.map_subst hs (algebraMap R A) _` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:114:8: Unused tactic linter: `exact PowerSeries.map_subst (h := algebraMap R A) hs _` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:135:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:135:6: Unused tactic linter: `(
+  simp only [br, map_sub, map_one, sub_eq_zero, ← PowerSeries.coeff_zero_eq_constantCoeff_apply]
+  simp [PowerSeries.binomialSeries])` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:184:0: automatically included section variable(s) unused in theorem `Formalism.CohomologicalDescent.HeightDescentMinors.X_mul_q_eq_one_add_X_pow_sub_one`:
+  [Fact (Nat.Prime l)]
+  [Algebra ℤ_[l] O]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fact (Nat.Prime l)] [Algebra ℤ_[l] O] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:187:10: This simp argument is unused:
+  coeff_one_add_X_pow_alt
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:267:102: Variable name `d` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _d
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:334:50: This simp argument is unused:
+  Ring.choose_one_right
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [br, PowerSeries.binomialSeries_coeff, Algebra.smul_def]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:335:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:336:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:335:6: Unused tactic linter: `simp [br, PowerSeries.binomialSeries, Ring.choose_one_right,
+  Algebra.smul_def]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:336:6: Unused tactic linter: `simp [br, PowerSeries.binomialSeries, Ring.choose_one_right]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:429:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:430:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:431:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:429:6: Unused tactic linter: `exact PowerSeries.map_subst ha h f` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:430:6: Unused tactic linter: `exact PowerSeries.map_subst (R := R) (S := S) ha (h := h) f` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:431:6: Unused tactic linter: `exact (PowerSeries.map_subst ha).symm` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:779:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:782:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:786:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:789:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:852:42: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:857:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:915:46: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:917:48: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:922:31: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1111:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1165:37: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1167:29: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1210:31: Variable name `hm` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hm
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1577:9: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1577:27: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1592:38: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1592:56: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1623:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1624:45: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1632:45: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1633:45: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1661:0: automatically included section variable(s) unused in theorem `Formalism.CohomologicalDescent.HeightDescentMinors.X_sub_C_isDistinguished`:
+  [IsAdicComplete I O]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsAdicComplete I O] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1668:0: automatically included section variable(s) unused in theorem `Formalism.CohomologicalDescent.HeightDescentMinors.coe_X_sub_C_polynomial_powerSeries`:
+  [IsDomain O]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain O] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1673:10: `IsAdicComplete.le_jacobson_bot` has been deprecated: Use `IsAdicComplete.le_jacobson` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} [inst : CommRing R] (I : Ideal R) [IsAdicComplete I R], I ≤ Ring.jacobson R
+instead of
+  ∀ {R : Type u_1} [inst : CommRing R] (I : Ideal R) [IsAdicComplete I R], I ≤ ⊥.jacobson
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1820:12: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1825:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1830:13: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1881:4: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1907:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/HeightDescentMinors.lean:1918:16: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 713.367
+Timed out: False
+Module log SHA-256: 76b3b12b1e1b11efcfa424b985a09c0457086d78d80757eabbf358bd2414c5e4
+Output object SHA-256: 4161ca8212c2e3aef729b4ac0327ce77c0cb084b8486972965a567df402d3016
+Applied patch SHA-256: d050f3ee4fa64931db1fb8544edf815f84f317cb2e48fe876db0b7502edc2d45
+
+========================================================================
+M157829
+========================================================================
+Module: M157829 Formalism.PieriBlockIdeals.PieriColumnMinors.LabelSumNeedsLeFalse
+Started: 2026-11-21T23:43:32.527170+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.PieriColumnMinors.LabelSumNeedsLeFalse:olean"]
+Pinned source SHA-256: 7631adfb2ca63d8a5653c6cdb87e7195f38fad63e2b877b9bd3344ccc9ce6f1d
+Compiled source SHA-256: 3ce773c0243c193db3131796deb2d83b273d79c83eb03ffb33522d01bd8df510
+
+⚠ [18250/18252] Replayed Formalism.PieriBlockIdeals.Statement
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.Statement:irArts
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.PieriColumnMinors.LabelSumNeedsLeFalse (9.1s)
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/LabelSumNeedsLeFalse.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/LabelSumNeedsLeFalse.lean:20:6: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp [Nat.padicValNat_def]
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/LabelSumNeedsLeFalse.lean:210:14: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/LabelSumNeedsLeFalse.lean:238:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/LabelSumNeedsLeFalse.lean:254:71: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 18.307
+Timed out: False
+Module log SHA-256: 9ffdb800e32228bf7deabd89278af8874d5f2fc56cd99d83097356cba8ff896c
+Output object SHA-256: ba8bcac90dc1b48f12c2379f2848ae8650478980f66ae016aadc5224fc9f6792
+Applied patch SHA-256: c834bd1b035db43a657afb24795042e5d2a428eb5045d7156dec69299e1d57d4
+
+========================================================================
+M157844
+========================================================================
+Module: M157844 Formalism.PieriBlockIdeals.PieriColumnMinors.MinorValuationBoundHolds
+Started: 2026-11-21T23:43:50.836620+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.PieriColumnMinors.MinorValuationBoundHolds:olean"]
+Pinned source SHA-256: a00d02931ebba28d887509e7295965a62d79eea5e82ac4eb0a58e5baa95f057a
+Compiled source SHA-256: a00d02931ebba28d887509e7295965a62d79eea5e82ac4eb0a58e5baa95f057a
+
+⚠ [18250/18252] Built Formalism.PieriBlockIdeals.StatementLW (2.4s)
+warning: src/Formalism/PieriBlockIdeals/StatementLW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.StatementLW:irArts
+warning: src/Formalism/PieriBlockIdeals/StatementLW.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.PieriColumnMinors.MinorValuationBoundHolds (2.5s)
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/MinorValuationBoundHolds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.034
+Timed out: False
+Module log SHA-256: 1a4eb82e6618880bf7466ee7b17814d1b2f76601347999236de1faac41dd5077
+Output object SHA-256: 1d9b638c2d14e97c791ea7d4e9865c71f4f71ed7aefc0e2c7ab8e1c404e5c53c
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157845
+========================================================================
+Module: M157845 Formalism.PieriBlockIdeals.PieriColumnMinors.PadicValIntProdElevenMultiples
+Started: 2026-11-21T23:43:59.872593+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.PieriColumnMinors.PadicValIntProdElevenMultiples:olean"]
+Pinned source SHA-256: 7d317f80d8b3c455e9c973825020a366cf431d928be7333c6a17f5931a4d76c5
+Compiled source SHA-256: 7d317f80d8b3c455e9c973825020a366cf431d928be7333c6a17f5931a4d76c5
+
+⚠ [18250/18252] Replayed Formalism.PieriBlockIdeals.Statement
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.Statement:irArts
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.PieriColumnMinors.PadicValIntProdElevenMultiples (2.4s)
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/PadicValIntProdElevenMultiples.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.532
+Timed out: False
+Module log SHA-256: 744ab5b0ecd35ac6f81451dcf4a939f4da16f817fd43ce39fdd6212d2af8fc83
+Output object SHA-256: 865f4391835a206d8ae964c1d60f3a34becdb3ed9133ca85ecac78e3ae2fa7dc
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157857
+========================================================================
+Module: M157857 Formalism.PieriBlockIdeals.PieriColumnMinors.SharperSizeNeedsMleKFalse
+Started: 2026-11-21T23:44:06.405351+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.PieriColumnMinors.SharperSizeNeedsMleKFalse:olean"]
+Pinned source SHA-256: 91ec7bec04be73a68104f096997a03bff196679cb101bbec3266365cab3c864f
+Compiled source SHA-256: 91ec7bec04be73a68104f096997a03bff196679cb101bbec3266365cab3c864f
+
+⚠ [18250/18252] Replayed Formalism.PieriBlockIdeals.Statement
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.Statement:irArts
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.PieriColumnMinors.SharperSizeNeedsMleKFalse (3.1s)
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/SharperSizeNeedsMleKFalse.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/SharperSizeNeedsMleKFalse.lean:131:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/SharperSizeNeedsMleKFalse.lean:131:19: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/SharperSizeNeedsMleKFalse.lean:137:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/SharperSizeNeedsMleKFalse.lean:137:32: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/SharperSizeNeedsMleKFalse.lean:152:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/SharperSizeNeedsMleKFalse.lean:152:32: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/SharperSizeNeedsMleKFalse.lean:204:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.183
+Timed out: False
+Module log SHA-256: e24d9bf4f5b433f183c1218aa39176a26e7bf616b60e5bf6a58228d8d556dfa0
+Output object SHA-256: e5c7b31392a4ff67ec4319850fb18d31f69f7db55c019df5375f87f4bfe35037
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157861
+========================================================================
+Module: M157861 Formalism.PieriBlockIdeals.PieriColumnMinors.WeightExchangeBoundHolds
+Started: 2026-11-21T23:44:13.589774+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.PieriColumnMinors.WeightExchangeBoundHolds:olean"]
+Pinned source SHA-256: 6b0ec4663e3a256de1bba7a057d4f30c6dc9bf427aa604b2b964a8f80d17f0e4
+Compiled source SHA-256: 6b0ec4663e3a256de1bba7a057d4f30c6dc9bf427aa604b2b964a8f80d17f0e4
+
+⚠ [18250/18252] Replayed Formalism.PieriBlockIdeals.Statement
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.Statement:irArts
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PieriBlockIdeals.PieriColumnMinors.WeightExchangeBoundHolds (3.3s)
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/WeightExchangeBoundHolds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PieriBlockIdeals/PieriColumnMinors/WeightExchangeBoundHolds.lean:55:6: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.483
+Timed out: False
+Module log SHA-256: 65b553ef9eb9bb0326b672de813c0344350e49cc5f6ab75d2de65fed67aa7633
+Output object SHA-256: bdba4fa7cb080e24125cead726d8f7f2cb37978b8693f71a6bf57398b3c58c62
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157866
+========================================================================
+Module: M157866 Formalism.PieriBlockIdeals.StatementC
+Started: 2026-11-21T23:44:21.074899+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.StatementC:olean"]
+Pinned source SHA-256: 842088672a78c3e5e326559fb185f48638e710a38a5469323cac970aa74de322
+Compiled source SHA-256: 842088672a78c3e5e326559fb185f48638e710a38a5469323cac970aa74de322
+
+⚠ [18250/18252] Built Formalism.RankGapBounds.LargePrimeFactor (2.6s)
+warning: src/Formalism/RankGapBounds/LargePrimeFactor.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RankGapBounds.LargePrimeFactor:irArts
+warning: src/Formalism/RankGapBounds/LargePrimeFactor.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PieriBlockIdeals.StatementC (2.5s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.236
+Timed out: False
+Module log SHA-256: 70e965d2bd9a4a3affc2f882462ff114cffcc1667ba1933d3690bf8ece09b92d
+Output object SHA-256: 6928cc3f3d5fac944d1a9594772af539a48c8c6e8e5f52a0de346e0a16372718
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157881
+========================================================================
+Module: M157881 Formalism.PieriBlockIdeals.WEChain
+Started: 2026-11-21T23:44:30.312234+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PieriBlockIdeals.WEChain:olean"]
+Pinned source SHA-256: 37b17f055673b191ee1d425f1cfcb750b43c6ff790b31a3aaf9d9f9905647b90
+Compiled source SHA-256: 37b17f055673b191ee1d425f1cfcb750b43c6ff790b31a3aaf9d9f9905647b90
+
+⚠ [18250/18252] Replayed Formalism.PieriBlockIdeals.Statement
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PieriBlockIdeals.Statement:irArts
+warning: src/Formalism/PieriBlockIdeals/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PieriBlockIdeals.WEChain (2.5s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.63
+Timed out: False
+Module log SHA-256: ed58b2cb9345017319a422c2e1f97d3cf242e39d3863cfbd70703757fa7b28a6
+Output object SHA-256: a2760e740e25049c04451046528b93b3c72270b6db9c27de318a2f06ff8db095
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157882
+========================================================================
+Module: M157882 Formalism.PolynomialDimension.ApolarComparisonExponent
+Started: 2026-11-21T23:44:36.943025+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.ApolarComparisonExponent:olean"]
+Pinned source SHA-256: 1569e54bb366dff5650512fd6720c0b2a891ab5c3df5763f343a723da2f468ad
+Compiled source SHA-256: 1569e54bb366dff5650512fd6720c0b2a891ab5c3df5763f343a723da2f468ad
+
+⚠ [18250/18252] Built Formalism.PolynomialDimension.WeylDim (2.4s)
+warning: src/Formalism/PolynomialDimension/WeylDim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PolynomialDimension.WeylDim:irArts
+warning: src/Formalism/PolynomialDimension/WeylDim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PolynomialDimension.ApolarComparisonExponent (2.6s)
+warning: src/Formalism/PolynomialDimension/ApolarComparisonExponent.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.186
+Timed out: False
+Module log SHA-256: 7e8a28231f3398243c094f01e39541bf4da89dd9785289028e2eecec709638a3
+Output object SHA-256: a4a86f45889e8773c1f401dcc17bb04ab1cbddb422bc40e10f1049443fd02f57
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157887
+========================================================================
+Module: M157887 Formalism.PolynomialDimension.DigitClassSize
+Started: 2026-11-21T23:44:46.130907+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.DigitClassSize:olean"]
+Pinned source SHA-256: 72de03f41130bd0d7065458908dcd3b65a495b2d50c06c752903fe719d8a6440
+Compiled source SHA-256: 72de03f41130bd0d7065458908dcd3b65a495b2d50c06c752903fe719d8a6440
+
+⚠ [18250/18254] Replayed Formalism.PolynomialDimension.WeylDim
+warning: src/Formalism/PolynomialDimension/WeylDim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18254] Ran Formalism.PolynomialDimension.WeylDim:irArts
+warning: src/Formalism/PolynomialDimension/WeylDim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18254] Built Formalism.SubspaceCounting.Statement (2.6s)
+warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18254] Ran Formalism.SubspaceCounting.Statement:irArts
+warning: src/Formalism/SubspaceCounting/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18254] Built Formalism.PolynomialDimension.DigitClassSize (2.7s)
+warning: src/Formalism/PolynomialDimension/DigitClassSize.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18254 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.487
+Timed out: False
+Module log SHA-256: ce6bfe44056902ee19f7480cbf1ccb23e4310db5e4dd0e509a3a95d2168891c3
+Output object SHA-256: a001c1650e4c88b05eba3dac4c94b46f277aea2b1d3ebbf3c8720dc699174918
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157895
+========================================================================
+Module: M157895 Formalism.PolynomialDimension.MultinomialDepth.DiagLaplacianDivPowMemSqrtFockLattice
+Started: 2026-11-21T23:44:55.619456+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.MultinomialDepth.DiagLaplacianDivPowMemSqrtFockLattice:olean"]
+Pinned source SHA-256: 08abad9b909ae0bc0143f83b1296f5c3c517ff1037356baa9ed336c835ddbe66
+Compiled source SHA-256: b013047fb6f74bc9b691de0a2858f93a1fe1fcacb5be44112ff2a6354da39362
+
+⚠ [18250/18252] Built Formalism.PolynomialDimension.StatementHar (2.0s)
+warning: src/Formalism/PolynomialDimension/StatementHar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PolynomialDimension.StatementHar:irArts
+warning: src/Formalism/PolynomialDimension/StatementHar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PolynomialDimension.MultinomialDepth.DiagLaplacianDivPowMemSqrtFockLattice (7.2s)
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:122:50: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:131:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.diagLaplacian_apply`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:137:55: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+
+Hint: Replace the deprecated name:
+  monomial_mul_̲m̲o̲n̲o̲m̲i̲a̲l̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:134:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.diagMul_pow_apply`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:151:18: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:144:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.coeff_diagLaplacian_pow`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:167:13: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:165:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.diagMul_commute`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:173:13: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:170:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.diagLaplacian_commute`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:184:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.pairingDivPow_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:190:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.laplacianDivPow_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:198:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.descFactorial_cast_eq`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:202:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.zero_mem_fockLattice`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:208:6: `MvPolynomial.coeff_add` has been deprecated: Use `AddMonoidAlgebra.coeff_add` instead
+
+Note: The updated constant has a different type:
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] (x y : AddMonoidAlgebra R M), (x + y).coeff = x.coeff + y.coeff
+instead of
+  ∀ {R : Type u} {σ : Type u_1} [inst : CommSemiring R] (m : σ →₀ ℕ) (p q : MvPolynomial σ R),
+    (p + q).coeff m = p.coeff m + q.coeff m
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.coeff_add` to `AddMonoidAlgebra.coeff_add x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:205:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.add_mem_fockLattice`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:211:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.smul_mem_fockLattice`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:267:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.linearSubst_pairing`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:285:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.pderiv_aeval_eq_sum_chain_rule`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:324:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.laplacian_apply'`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:354:40: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:354:62: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:367:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.zero_mem_translateLattice`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:370:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.add_mem_translateLattice`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/DiagLaplacianDivPowMemSqrtFockLattice.lean:376:0: automatically included section variable(s) unused in theorem `Formalism.CountingSumsFrames.smul_mem_translateLattice`:
+  [CharZero K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [CharZero K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 14.304
+Timed out: False
+Module log SHA-256: e0966cf75004826d879a52712bbc0d94c52a53c69d759ada53aee6f69cc67654
+Output object SHA-256: 51fe87de6b3f5565269eaccbf70451be3632e569e9427d0b0b4036812104bace
+Applied patch SHA-256: 8f2e428f086229d46ff193b65b3b338cb9afef7657635090e401c94d1172fa8b
+
+========================================================================
+M157897
+========================================================================
+Module: M157897 Formalism.PolynomialDimension.MultinomialDepth.ExistsNonzeroExchangedMinorHolds
+Started: 2026-11-21T23:45:09.925555+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.MultinomialDepth.ExistsNonzeroExchangedMinorHolds:olean"]
+Pinned source SHA-256: 3ce8124b8fb832ab23d7e125583b8d902fafafcdd38090bbf0de449feaea8fd0
+Compiled source SHA-256: 3ce8124b8fb832ab23d7e125583b8d902fafafcdd38090bbf0de449feaea8fd0
+
+⚠ [18250/18252] Built Formalism.PolynomialDimension.FrameSum (2.6s)
+warning: src/Formalism/PolynomialDimension/FrameSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PolynomialDimension.FrameSum:irArts
+warning: src/Formalism/PolynomialDimension/FrameSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PolynomialDimension.MultinomialDepth.ExistsNonzeroExchangedMinorHolds (2.5s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.236
+Timed out: False
+Module log SHA-256: 551644c3adac20d4dccc228d47a332ec6f201f500a8ecf9a7e19e1cecaf29263
+Output object SHA-256: b38a02f5a122efed871cec61fa86168ee7efd6f45ceeb5e6c771dbc1e7128d00
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157898
+========================================================================
+Module: M157898 Formalism.PolynomialDimension.MultinomialDepth.FockGaussComparisonHolds
+Started: 2026-11-21T23:45:19.163270+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.MultinomialDepth.FockGaussComparisonHolds:olean"]
+Pinned source SHA-256: f9aa8e958b0e3151e79d94bb3f2cab8345e02ab3ac8d9ddef1e43570241eec40
+Compiled source SHA-256: d78b1faf1c6d30071afdc031c1feb2d739949fe466ca063ace35e3196146874a
+
+⚠ [18250/18252] Replayed Formalism.PolynomialDimension.FrameSum
+warning: src/Formalism/PolynomialDimension/FrameSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PolynomialDimension.FrameSum:irArts
+warning: src/Formalism/PolynomialDimension/FrameSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PolynomialDimension.MultinomialDepth.FockGaussComparisonHolds (2.8s)
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/FockGaussComparisonHolds.lean:66:113: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.931
+Timed out: False
+Module log SHA-256: 6a2cd06ff30f40e4101281658b01aff3991e1277e5c901656d4e728e4b04f02a
+Output object SHA-256: 20ec5dde815953f60033fe4de42def23a6dbcbf7318d4e9e1b7400bf68826998
+Applied patch SHA-256: c521ddebed0a2e0da70b560e3db2906ec375296159bb80b1240daf07e5027962
+
+========================================================================
+M157900
+========================================================================
+Module: M157900 Formalism.PolynomialDimension.MultinomialDepth.FrobeniusDetVanishingHolds
+Started: 2026-11-21T23:45:26.095867+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.MultinomialDepth.FrobeniusDetVanishingHolds:olean"]
+Pinned source SHA-256: b68a409c7bd93c0ab2c61e8e3c6724905390c7ee164a6f37aa09fa7491973f06
+Compiled source SHA-256: b68a409c7bd93c0ab2c61e8e3c6724905390c7ee164a6f37aa09fa7491973f06
+
+⚠ [18250/18252] Replayed Formalism.PolynomialDimension.FrameSum
+warning: src/Formalism/PolynomialDimension/FrameSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PolynomialDimension.FrameSum:irArts
+warning: src/Formalism/PolynomialDimension/FrameSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PolynomialDimension.MultinomialDepth.FrobeniusDetVanishingHolds (2.7s)
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/FrobeniusDetVanishingHolds.lean:53:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/FrobeniusDetVanishingHolds.lean:94:6: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.88
+Timed out: False
+Module log SHA-256: a714d0b8c90e92cef877718dce72a743186b75a86aafe125b0399b701f32aeed
+Output object SHA-256: a888527303af2548030d9ab7e1f720dc6aac42578efc15c933a21119a9aa3a7e
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157901
+========================================================================
+Module: M157901 Formalism.PolynomialDimension.MultinomialDepth.HarmonicDecompositionHolds
+Started: 2026-11-21T23:45:32.977793+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.MultinomialDepth.HarmonicDecompositionHolds:olean"]
+Pinned source SHA-256: d58ccbf0e15764753cf2cbf4be5288506a539e8edbccd69d8477df23ab3a5f97
+Compiled source SHA-256: d58ccbf0e15764753cf2cbf4be5288506a539e8edbccd69d8477df23ab3a5f97
+
+⚠ [18250/18252] Replayed Formalism.PolynomialDimension.StatementHar
+warning: src/Formalism/PolynomialDimension/StatementHar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PolynomialDimension.StatementHar:irArts
+warning: src/Formalism/PolynomialDimension/StatementHar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PolynomialDimension.MultinomialDepth.HarmonicDecompositionHolds (4.0s)
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:43:14: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [yDeg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:45:14: This simp argument is unused:
+  Finsupp.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [xDeg]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:55:8: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+
+Hint: Replace the deprecated name:
+  monomial_mul_̲m̲o̲n̲o̲m̲i̲a̲l̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:65:8: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+
+Hint: Replace the deprecated name:
+  monomial_mul_̲m̲o̲n̲o̲m̲i̲a̲l̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:166:19: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:172:15: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:172:48: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:195:75: `MvPolynomial.monomial_mul` has been deprecated: Use `MvPolynomial.monomial_mul_monomial` instead
+
+Hint: Replace the deprecated name:
+  monomial_mul_̲m̲o̲n̲o̲m̲i̲a̲l̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:266:18: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:318:2: Unused tactic linter: `all_goals` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:336:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:336:2: Unused tactic linter: there are no goals left for `all_goals (congr 1; ring)`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:348:40: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:387:34: `Module.End.one_apply` has been deprecated: Use `one_apply_eq_self` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : One F} [self : IsOneApplyEqSelf F]
+    (x : α), 1 x = x
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M] (x : M), 1 x = x
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.one_apply` to `one_apply_eq_self x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:394:41: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:520:27: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:522:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:532:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:531:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:531:4: Unused tactic linter: there are no goals left for `all_goals ring`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:553:55: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:575:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:575:28: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:632:26: This simp argument is unused:
+  Finsupp.fst_sumFinsuppEquivProdFinsupp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [xDeg, yDeg, Finsupp.snd_sumFinsuppEquivProdFinsupp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:633:10: This simp argument is unused:
+  Finsupp.snd_sumFinsuppEquivProdFinsupp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [xDeg, yDeg, Finsupp.fst_sumFinsuppEquivProdFinsupp]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PolynomialDimension/MultinomialDepth/HarmonicDecompositionHolds.lean:654:2: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.138
+Timed out: False
+Module log SHA-256: 0458170c8b9f7d9d91756860080585fb0eee42a3b665cd30d53a834ee89b9013
+Output object SHA-256: ca6094ced1aa467f8f871d0c28146c93e97359b144f64cdc88dead71e96c591d
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157908
+========================================================================
+Module: M157908 Formalism.PolynomialDimension.MultinomialDepth.PairingAdjointLaplacianHolds
+Started: 2026-11-21T23:45:42.119238+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.MultinomialDepth.PairingAdjointLaplacianHolds:olean"]
+Pinned source SHA-256: 03536da8f5b9a61e7708f81ac3a34a2ed1dc73f03f921dfcc6bb86901a0d395b
+Compiled source SHA-256: 8a3966b2cc48b9e0eeb475144cac169cfa5bc27152dbda4305f1d1cd3e8bbad1
+
+⚠ [18250/18252] Replayed Formalism.PolynomialDimension.StatementHar
+warning: src/Formalism/PolynomialDimension/StatementHar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PolynomialDimension.StatementHar:irArts
+warning: src/Formalism/PolynomialDimension/StatementHar.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.PolynomialDimension.MultinomialDepth.PairingAdjointLaplacianHolds (2.8s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.98
+Timed out: False
+Module log SHA-256: 10fee3614a611c11f0a16433c3cd008175a577a6faf2638f94577ad07631c928
+Output object SHA-256: 5aa6112f83dbde66ec36d6d011edffd51a03f17c57a8ac8eb4acf35344c3f284
+Applied patch SHA-256: 3646051fd451004c3d3a925eff051dba89603dd6ba7eefbd19e055ec4aa67f96
+
+========================================================================
+M157921
+========================================================================
+Module: M157921 Formalism.PolynomialDimension.StatementNum
+Started: 2026-11-21T23:45:49.100637+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PolynomialDimension.StatementNum:olean"]
+Pinned source SHA-256: 732e3c85cbf7e87ee9ae13eff08bcbb05c09058060051b53e5360442616c26d5
+Compiled source SHA-256: 732e3c85cbf7e87ee9ae13eff08bcbb05c09058060051b53e5360442616c26d5
+
+⚠ [18250/18252] Replayed Formalism.PolynomialDimension.WeylDim
+warning: src/Formalism/PolynomialDimension/WeylDim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.PolynomialDimension.WeylDim:irArts
+warning: src/Formalism/PolynomialDimension/WeylDim.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PolynomialDimension.StatementNum (3.3s)
+warning: src/Formalism/PolynomialDimension/StatementNum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.431
+Timed out: False
+Module log SHA-256: 7dc69922b05c232d99ac52e99eafc7b71940ed6b64ceaa414595c511e9349873
+Output object SHA-256: 85f0888962957fed5092b78d4bd184798c6cc3447bff10b0d271ab8a242b1de6
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157923
+========================================================================
+Module: M157923 Formalism.PrimeAboveExistence.LenEqPlaces
+Started: 2026-11-21T23:45:56.533708+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.PrimeAboveExistence.LenEqPlaces:olean"]
+Pinned source SHA-256: c78d8390cad9be91519a9536750b6e600ca36cec3f61b242499c485b0198c381
+Compiled source SHA-256: c78d8390cad9be91519a9536750b6e600ca36cec3f61b242499c485b0198c381
+
+⚠ [18250/18252] Built Formalism.ConjugateSelfDual.Statement (2.4s)
+warning: src/Formalism/ConjugateSelfDual/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.ConjugateSelfDual.Statement:irArts
+warning: src/Formalism/ConjugateSelfDual/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.PrimeAboveExistence.LenEqPlaces (2.0s)
+warning: src/Formalism/PrimeAboveExistence/LenEqPlaces.lean:11:0: automatically included section variable(s) unused in theorem `Formalism.VB.Cmp.val_le_one`:
+  [NumberField K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NumberField K] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PrimeAboveExistence/LenEqPlaces.lean:34:99: `zero_le'` has been deprecated: Use `zero_le` instead
+
+Hint: Replace the deprecated name:
+  zero_le'̵
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.585
+Timed out: False
+Module log SHA-256: d23a82e20a104cf5d25942251170cd2362cbdeae1ddcf020e68281478ecad65b
+Output object SHA-256: bd0fc3650bff7c78e1af3f963b29d24d03d3a46c7227865527fb1743f0eac399
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157990
+========================================================================
+Module: M157990 Formalism.RankGapBounds.GridNumericalHypotheses
+Started: 2026-11-21T23:46:06.120886+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.GridNumericalHypotheses:olean"]
+Pinned source SHA-256: 060f70cfaf69d0056c721ccfdd322c3ae693b0b96c40ef7bd2a894bd273e4e88
+Compiled source SHA-256: 060f70cfaf69d0056c721ccfdd322c3ae693b0b96c40ef7bd2a894bd273e4e88
+
+⚠ [18250/18256] Built Formalism.RankGapBounds.ConjInOrbit (2.3s)
+warning: src/Formalism/RankGapBounds/ConjInOrbit.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18256] Built Formalism.RankGapBounds.RandomSubsetCounterexample (2.6s)
+warning: src/Formalism/RankGapBounds/RandomSubsetCounterexample.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18256] Ran Formalism.RankGapBounds.RandomSubsetCounterexample:irArts
+warning: src/Formalism/RankGapBounds/RandomSubsetCounterexample.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18256] Ran Formalism.RankGapBounds.ConjInOrbit:irArts
+warning: src/Formalism/RankGapBounds/ConjInOrbit.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18256] Built Formalism.RankGapBounds.RankAndGapBounds (2.7s)
+warning: src/Formalism/RankGapBounds/RankAndGapBounds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18256] Ran Formalism.RankGapBounds.RankAndGapBounds:irArts
+warning: src/Formalism/RankGapBounds/RankAndGapBounds.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18256/18256] Built Formalism.RankGapBounds.GridNumericalHypotheses (2.4s)
+Build completed successfully (18256 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.542
+Timed out: False
+Module log SHA-256: 098fe475e34093e780916a3659b3b9bcbe04d4f47d3bf6d2884192ff48469f70
+Output object SHA-256: dc405c2a399b52f6fa87a62403aed92cc4f36983fe734d68245d38c9487aeb94
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157995
+========================================================================
+Module: M157995 Formalism.RankGapBounds.RankGapProofs.CardLargePrimeFactorsLeOneHolds
+Started: 2026-11-21T23:46:17.664395+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.RankGapProofs.CardLargePrimeFactorsLeOneHolds:olean"]
+Pinned source SHA-256: 37b0b886e7b366b36813820aa8af399d53ceaa5b00d47d7b8beceaaf60ec29e9
+Compiled source SHA-256: 37b0b886e7b366b36813820aa8af399d53ceaa5b00d47d7b8beceaaf60ec29e9
+
+⚠ [18250/18252] Replayed Formalism.RankGapBounds.LargePrimeFactor
+warning: src/Formalism/RankGapBounds/LargePrimeFactor.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RankGapBounds.LargePrimeFactor:irArts
+warning: src/Formalism/RankGapBounds/LargePrimeFactor.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RankGapBounds.RankGapProofs.CardLargePrimeFactorsLeOneHolds (3.3s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.483
+Timed out: False
+Module log SHA-256: 15e109fd6ad2c0cfb6be422c643c19e80c07d7848bae9ce3b1945bf3db8ed0b2
+Output object SHA-256: d47eb7e585a960b6832d8a7dc4704b8223b1e2e07bf5e2459d1286afa672f470
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157997
+========================================================================
+Module: M157997 Formalism.RankGapBounds.RankGapProofs.FourNotDvdOddSqAddOne
+Started: 2026-11-21T23:46:25.149363+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.RankGapProofs.FourNotDvdOddSqAddOne:olean"]
+Pinned source SHA-256: 8288ef1ffa5472a903b111c4e0f5712c5886d9365632caa8984cbcdab7f29f1d
+Compiled source SHA-256: 8288ef1ffa5472a903b111c4e0f5712c5886d9365632caa8984cbcdab7f29f1d
+
+⚠ [18250/18252] Replayed Formalism.RankGapBounds.RandomSubsetCounterexample
+warning: src/Formalism/RankGapBounds/RandomSubsetCounterexample.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RankGapBounds.RandomSubsetCounterexample:irArts
+warning: src/Formalism/RankGapBounds/RandomSubsetCounterexample.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RankGapBounds.RankGapProofs.FourNotDvdOddSqAddOne (2.9s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.029
+Timed out: False
+Module log SHA-256: cc2c0b6663d379de4a1199f20baa6116c73affbea85c1200b9d88af061fea1d7
+Output object SHA-256: f95213d779e23e5d667dac309e5a8949eb9fd67a350273ba664b0744845abf98
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157998
+========================================================================
+Module: M157998 Formalism.RankGapBounds.RankGapProofs.PmModulusFacts
+Started: 2026-11-21T23:46:32.180451+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.RankGapProofs.PmModulusFacts:olean"]
+Pinned source SHA-256: 091ea52dd47a21c139fcde10cf947a294efe689a040a2e23bc87a0162d26fc05
+Compiled source SHA-256: 091ea52dd47a21c139fcde10cf947a294efe689a040a2e23bc87a0162d26fc05
+
+⚠ [18250/18252] Replayed Formalism.RankGapBounds.RandomSubsetCounterexample
+warning: src/Formalism/RankGapBounds/RandomSubsetCounterexample.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RankGapBounds.RandomSubsetCounterexample:irArts
+warning: src/Formalism/RankGapBounds/RandomSubsetCounterexample.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RankGapBounds.RankGapProofs.PmModulusFacts (4.4s)
+warning: src/Formalism/RankGapBounds/RankGapProofs/PmModulusFacts.lean:79:4: Unused tactic linter: `exact (div_le_div_iff_of_pos hb hd).mpr h` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RankGapBounds/RankGapProofs/PmModulusFacts.lean:80:4: Unused tactic linter: `exact (div_le_div_iff hb hd).mpr h` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RankGapBounds/RankGapProofs/PmModulusFacts.lean:178:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 8.585
+Timed out: False
+Module log SHA-256: 0eae5f5595fe147d305f2f222ce2bb51b6621518312d346885a93514d46f363b
+Output object SHA-256: 50e6dd8179f0ebc5204a2dc11a2bf5b11930583ec48f5a90e8097ba21f011d94
+Applied patch SHA-256: unchanged
+
+========================================================================
+M157999
+========================================================================
+Module: M157999 Formalism.RankGapBounds.RankGapProofs.RandomSubsetLemmaCounterexample
+Started: 2026-11-21T23:46:40.768273+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.RankGapProofs.RandomSubsetLemmaCounterexample:olean"]
+Pinned source SHA-256: 509ebcbcf89b761bf5495fbff82c2992b9a91629a1ab9afa84812630b2cf5af6
+Compiled source SHA-256: 509ebcbcf89b761bf5495fbff82c2992b9a91629a1ab9afa84812630b2cf5af6
+
+⚠ [18250/18252] Replayed Formalism.RankGapBounds.RandomSubsetCounterexample
+warning: src/Formalism/RankGapBounds/RandomSubsetCounterexample.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RankGapBounds.RandomSubsetCounterexample:irArts
+warning: src/Formalism/RankGapBounds/RandomSubsetCounterexample.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RankGapBounds.RankGapProofs.RandomSubsetLemmaCounterexample (2.9s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.98
+Timed out: False
+Module log SHA-256: 0b8c73cbc7b0e2d62141281c11ed94371906ea18b41da06009c57e0270eb0f04
+Output object SHA-256: 0cab455051630df84d06a14725001f57a871a583b0281fcfebb785f4fb79de07
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158002
+========================================================================
+Module: M158002 Formalism.RankGapBounds.RankGapProofs.WeightedMeanData
+Started: 2026-11-21T23:46:47.750386+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.RankGapProofs.WeightedMeanData:olean"]
+Pinned source SHA-256: 09a43ceb6bb6c35febfb8d280b2e83c8d923733bd9152640789ded33153462f8
+Compiled source SHA-256: 09a43ceb6bb6c35febfb8d280b2e83c8d923733bd9152640789ded33153462f8
+
+⚠ [18250/18252] Built Formalism.RankGapBounds.MeanBoundSecondForm (2.7s)
+warning: src/Formalism/RankGapBounds/MeanBoundSecondForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RankGapBounds.MeanBoundSecondForm:irArts
+warning: src/Formalism/RankGapBounds/MeanBoundSecondForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RankGapBounds.RankGapProofs.WeightedMeanData (3.1s)
+warning: src/Formalism/RankGapBounds/RankGapProofs/WeightedMeanData.lean:149:0: automatically included section variable(s) unused in theorem `Formalism.RankGapBounds.WeightedMeanData.Data.nT_nonneg`:
+  [Fintype U0]
+  [(u0 : U0) → Fintype (W u0)]
+  [∀ (u0 : U0), Nonempty (W u0)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U0] [(u0 : U0) → Fintype (W u0)] [∀ (u0 : U0), Nonempty (W u0)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/RankGapBounds/RankGapProofs/WeightedMeanData.lean:152:0: automatically included section variable(s) unused in theorem `Formalism.RankGapBounds.WeightedMeanData.Data.sumA_nonneg`:
+  [Fintype U0]
+  [(u0 : U0) → Fintype (W u0)]
+  [∀ (u0 : U0), Nonempty (W u0)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U0] [(u0 : U0) → Fintype (W u0)] [∀ (u0 : U0), Nonempty (W u0)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/RankGapBounds/RankGapProofs/WeightedMeanData.lean:156:0: automatically included section variable(s) unused in theorem `Formalism.RankGapBounds.WeightedMeanData.Data.sum_aT_mul`:
+  [Fintype U0]
+  [(u0 : U0) → Fintype (W u0)]
+  [∀ (u0 : U0), Nonempty (W u0)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U0] [(u0 : U0) → Fintype (W u0)] [∀ (u0 : U0), Nonempty (W u0)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/RankGapBounds/RankGapProofs/WeightedMeanData.lean:159:0: automatically included section variable(s) unused in theorem `Formalism.RankGapBounds.WeightedMeanData.Data.uF_nonneg`:
+  [Fintype U0]
+  [Fintype Top]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U0] [Fintype Top] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/RankGapBounds/RankGapProofs/WeightedMeanData.lean:170:0: automatically included section variable(s) unused in theorem `Formalism.RankGapBounds.WeightedMeanData.Data.key_identity`:
+  [Fintype U0]
+  [(u0 : U0) → Fintype (W u0)]
+  [∀ (u0 : U0), Nonempty (W u0)]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype U0] [(u0 : U0) → Fintype (W u0)] [∀ (u0 : U0), Nonempty (W u0)] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.938
+Timed out: False
+Module log SHA-256: f1f8cda0a6315e87579e2e895b9f78b3cc13dcd1be04ba4e67fabf4bfc1a680d
+Output object SHA-256: bef7e8db1ad99138427d59090669c58099a42b26a753bacad66909ad99c3068d
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158003
+========================================================================
+Module: M158003 Formalism.RankGapBounds.TheoremALocOfLemmaA
+Started: 2026-11-21T23:46:57.690152+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.TheoremALocOfLemmaA:olean"]
+Pinned source SHA-256: b950e37e7a1d932412fd9a042b4ca8589d1f7a9a29e5cd53f93844b55dc09142
+Compiled source SHA-256: b950e37e7a1d932412fd9a042b4ca8589d1f7a9a29e5cd53f93844b55dc09142
+
+⚠ [18250/18252] Built Formalism.SatakeDualWeyl.Statement (4.7s)
+warning: src/Formalism/SatakeDualWeyl/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/SatakeDualWeyl/Statement.lean:23:0: automatically included section variable(s) unused in theorem `Formalism.UG.cT_one`:
+  [Fintype n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [18251/18252] Ran Formalism.SatakeDualWeyl.Statement:irArts
+warning: src/Formalism/SatakeDualWeyl/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RankGapBounds.TheoremALocOfLemmaA (3.1s)
+warning: src/Formalism/RankGapBounds/TheoremALocOfLemmaA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 11.942
+Timed out: False
+Module log SHA-256: 73df6da9bca85ff623b941dbcc200762fd1352c3d1a2c0cff12af5628be753c3
+Output object SHA-256: 9d2b154309b0ecf74a3020f7be289feb75c3ae7117bbcab533c86b57464c6c92
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158004
+========================================================================
+Module: M158004 Formalism.RankGapBounds.UniformMeanBound
+Started: 2026-11-21T23:47:09.633929+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RankGapBounds.UniformMeanBound:olean"]
+Pinned source SHA-256: 9d011c69254151a12719fc0529e53b254aa1b2a5b193c8492fdbadeea6bf1fb9
+Compiled source SHA-256: 9d011c69254151a12719fc0529e53b254aa1b2a5b193c8492fdbadeea6bf1fb9
+
+⚠ [18250/18252] Replayed Formalism.RankGapBounds.MeanBoundSecondForm
+warning: src/Formalism/RankGapBounds/MeanBoundSecondForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RankGapBounds.MeanBoundSecondForm:irArts
+warning: src/Formalism/RankGapBounds/MeanBoundSecondForm.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RankGapBounds.UniformMeanBound (2.4s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.579
+Timed out: False
+Module log SHA-256: 1497eb381c4f013195fbb2c7d8295e663f8fe12368c276feeb0d0861f77b2cec
+Output object SHA-256: 32f9a9784b2f7040e6385628a5774a91aaeef1aaed6354201dc19bc8b6a77724
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158007
+========================================================================
+Module: M158007 Formalism.RealPlaceAnalysis.FockPairGl
+Started: 2026-11-21T23:47:16.214301+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.FockPairGl:olean"]
+Pinned source SHA-256: 78f113e12b44d0172f0165e5b3abb33f6f30eec8333e4d7a758d21f7c9454391
+Compiled source SHA-256: 78f113e12b44d0172f0165e5b3abb33f6f30eec8333e4d7a758d21f7c9454391
+
+⚠ [18250/18252] Built Formalism.RealPlaceAnalysis.StatementA (2.8s)
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.StatementA:irArts
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RealPlaceAnalysis.FockPairGl (2.5s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.436
+Timed out: False
+Module log SHA-256: 86fda1f4f80445a78ccd67d2b4a0a890519d2aac93d475a2eb8aab0c912a70c4
+Output object SHA-256: 8fc14419b4f50b5639e0d6663d54b41f7b6e0fb2e900131f8d318197a968c354
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158010
+========================================================================
+Module: M158010 Formalism.RealPlaceAnalysis.LminorPos
+Started: 2026-11-21T23:47:25.651618+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.LminorPos:olean"]
+Pinned source SHA-256: c448ff273861bcbdc088158a70046e46ef0bad08b4d9c3ce69cd8c5788508031
+Compiled source SHA-256: c448ff273861bcbdc088158a70046e46ef0bad08b4d9c3ce69cd8c5788508031
+
+⚠ [18250/18252] Built Formalism.RealPlaceAnalysis.Complexify (2.6s)
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.Complexify:irArts
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RealPlaceAnalysis.LminorPos (2.4s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.184
+Timed out: False
+Module log SHA-256: f5dc94ab32c6da53e0295c4ab9765635818bc18f0b948c8ccebce099fc346f21
+Output object SHA-256: df6cf5bd6c0a519dbc9087b96f26e1ad3cd03003c17156ce152df4bfdb74f2e7
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158014
+========================================================================
+Module: M158014 Formalism.RealPlaceAnalysis.RealPlaceTaylor.CasKHW
+Started: 2026-11-21T23:47:34.837206+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.RealPlaceTaylor.CasKHW:olean"]
+Pinned source SHA-256: 73dbf7cc73989cbb7507a9fe0b68f64f12237c120856098b337f4057c6f23043
+Compiled source SHA-256: 73dbf7cc73989cbb7507a9fe0b68f64f12237c120856098b337f4057c6f23043
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.StatementA
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.StatementA:irArts
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RealPlaceAnalysis.RealPlaceTaylor.CasKHW (2.6s)
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CasKHW.lean:24:18: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CasKHW.lean:27:22: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CasKHW.lean:27:37: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CasKHW.lean:29:17: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CasKHW.lean:29:47: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CasKHW.lean:32:10: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CasKHW.lean:35:17: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CasKHW.lean:35:26: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CasKHW.lean:39:22: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/CasKHW.lean:40:10: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.78
+Timed out: False
+Module log SHA-256: f7a4341c74764346006b310b63d4f7a3b5550460fc122bef22d3a672dac59848
+Output object SHA-256: 8b90961bef3372bd95f2daf9cec11f641025f59efa25328594422139e7c66f64
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158019
+========================================================================
+Module: M158019 Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexificationHolds
+Started: 2026-11-21T23:47:41.619202+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexificationHolds:olean"]
+Pinned source SHA-256: d6c602772eee6c38a957206f839285aa955cd64da6e270705d365cfd2f8d8f93
+Compiled source SHA-256: 263f63b2a2f93b2fb4d0fd64a5d62872ecc52ac55a2bad03bd3c2ac181308b22
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.Complexify
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.Complexify:irArts
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexificationHolds (3.4s)
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/ComplexificationHolds.lean:27:8: This simp argument is unused:
+  Complex.star_def
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Complex.mul_re]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.533
+Timed out: False
+Module log SHA-256: 6a24653d3d135a86319cef3398c6847fe03f91f144ef5f6f24403853ed9e6686
+Output object SHA-256: 850b87896d7e5af01a0c60ce0aef382b08fec2e2e8cd17a3bb21c2bf7dea6b94
+Applied patch SHA-256: 4d8bcc292a39439dc8f826b509ac7383d832562507fa18cd64ef82a4a29febec
+
+========================================================================
+M158026
+========================================================================
+Module: M158026 Formalism.RealPlaceAnalysis.RealPlaceTaylor.HalfSumRootsStandard
+Started: 2026-11-21T23:47:49.155544+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.RealPlaceTaylor.HalfSumRootsStandard:olean"]
+Pinned source SHA-256: 1888d263cc08f546227246aa477b674aa79e19f1e67c7234c89a1818e8f96c4f
+Compiled source SHA-256: 1888d263cc08f546227246aa477b674aa79e19f1e67c7234c89a1818e8f96c4f
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.StatementA
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.StatementA:irArts
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RealPlaceAnalysis.RealPlaceTaylor.HalfSumRootsStandard (2.0s)
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HalfSumRootsStandard.lean:60:20: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h1, h2, hab, Ne.symm hab]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HalfSumRootsStandard.lean:63:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HalfSumRootsStandard.lean:60:63: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/HalfSumRootsStandard.lean:63:25: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.132
+Timed out: False
+Module log SHA-256: adfbffc1f1efb949c35b36ddc5e0a663039eb1826b7d19a074c78fa3b5452ce1
+Output object SHA-256: 1862cbe6f467e59caf5071a8f03e55f343ee223c2c9f147c4538e5d4088643bd
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158027
+========================================================================
+Module: M158027 Formalism.RealPlaceAnalysis.RealPlaceTaylor.IndefiniteUnitaryPreservesForm
+Started: 2026-11-21T23:47:56.290025+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.RealPlaceTaylor.IndefiniteUnitaryPreservesForm:olean"]
+Pinned source SHA-256: 6b6f24f2e5c3e1f874e6649e274bf846cd1975ab670530525d28aa524c323d97
+Compiled source SHA-256: 6b6f24f2e5c3e1f874e6649e274bf846cd1975ab670530525d28aa524c323d97
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.Complexify
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.Complexify:irArts
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RealPlaceAnalysis.RealPlaceTaylor.IndefiniteUnitaryPreservesForm (2.9s)
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:36:4: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:36:4: Unused tactic linter: `rwa [CFC.log_exp A, CFC.log_exp B] at h1` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:45:10: Unused tactic linter: `exact Matrix.exp_zero` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:50:10: Unused tactic linter: `exact Matrix.exp_zero` does not change the goal.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:68:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:73:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:68:6: Unused tactic linter: `exact spectrum_nonneg_of_nonneg hP.nonneg hx` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:73:6: Unused tactic linter: `exact (spectrum.zero_not_mem_iff ℝ).mpr hu hx` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:95:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:96:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:95:6: Unused tactic linter: `exact (Matrix.mul_eq_one_comm).mp h1` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:96:6: Unused tactic linter: `exact Matrix.mul_eq_one_comm.1 h1` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:109:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:109:6: Unused tactic linter: `exact CFC.log_isSelfAdjoint` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:160:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:161:8: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:160:8: Unused tactic linter: `exact (Matrix.mul_eq_one_comm).mp h1` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:161:8: Unused tactic linter: `exact Matrix.mul_eq_one_comm.1 h1` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/IndefiniteUnitaryPreservesForm.lean:202:6: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.08
+Timed out: False
+Module log SHA-256: 64803e5ee30d0d7eb696835157ede519496b1bde78a27b57e749c462cd596572
+Output object SHA-256: b7ea6fa58bc3c4d62690df6cff98dc22e904d0929dd394f653019030a126c360
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158034
+========================================================================
+Module: M158034 Formalism.RealPlaceAnalysis.RealPlaceTaylor.MemUnitaryGroupIffMulConjTranspose
+Started: 2026-11-21T23:48:03.371574+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.RealPlaceTaylor.MemUnitaryGroupIffMulConjTranspose:olean"]
+Pinned source SHA-256: b9eeeebb549a55e4f03c8c1933f3b7051df22d1c7d2532bc482d86796255b00f
+Compiled source SHA-256: b9eeeebb549a55e4f03c8c1933f3b7051df22d1c7d2532bc482d86796255b00f
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.Complexify
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.Complexify:irArts
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RealPlaceAnalysis.RealPlaceTaylor.MemUnitaryGroupIffMulConjTranspose (2.8s)
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/MemUnitaryGroupIffMulConjTranspose.lean:171:25: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.93
+Timed out: False
+Module log SHA-256: bdcff86460878bf1f94d36dda4bf8e9fa224262a67088bdb16693874fe2574a0
+Output object SHA-256: e91cf6abfec44504ec6d0c9a36a524ef51df11c685d0edcc2978af63c80bef7d
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158039
+========================================================================
+Module: M158039 Formalism.RealPlaceAnalysis.RealPlaceTaylor.QuadraticInequalityBoundHolds
+Started: 2026-11-21T23:48:10.303257+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.RealPlaceTaylor.QuadraticInequalityBoundHolds:olean"]
+Pinned source SHA-256: 9626e1c5ec67792ebd6fab5c4515c42fb04e095acb5ebed8164458c08164acac
+Compiled source SHA-256: 9626e1c5ec67792ebd6fab5c4515c42fb04e095acb5ebed8164458c08164acac
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.StatementA
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.StatementA:irArts
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RealPlaceAnalysis.RealPlaceTaylor.QuadraticInequalityBoundHolds (2.7s)
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/QuadraticInequalityBoundHolds.lean:26:65: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.778
+Timed out: False
+Module log SHA-256: aa75310ee602ec51680e4aaf8a4d195195343a7315663e0d6c2be64313900e7f
+Output object SHA-256: ddf84557038f621927c38226af5bdd637547d62fa4978df9e3a7dd76a46cf301
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158044
+========================================================================
+Module: M158044 Formalism.RealPlaceAnalysis.RealPlaceTaylor.SumOfSquaresIdentityHolds
+Started: 2026-11-21T23:48:17.083626+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.RealPlaceTaylor.SumOfSquaresIdentityHolds:olean"]
+Pinned source SHA-256: af1f1f9df7ed39b09ed7a7a20f6bf277b06f0933960e85f3f02c76460f15e44a
+Compiled source SHA-256: af1f1f9df7ed39b09ed7a7a20f6bf277b06f0933960e85f3f02c76460f15e44a
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.StatementA
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.StatementA:irArts
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.RealPlaceAnalysis.RealPlaceTaylor.SumOfSquaresIdentityHolds (2.6s)
+warning: src/Formalism/RealPlaceAnalysis/RealPlaceTaylor/SumOfSquaresIdentityHolds.lean:38:56: `Module.End.mul_apply` has been deprecated: Use `mul_apply_eq_comp` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {inst : FunLike F α α} {inst_1 : Mul F} [self : IsMulApplyEqComp F]
+    (f g : F) (x : α), (f * g) x = f (g x)
+instead of
+  ∀ {R : Type u_1} {M : Type u_4} [inst : Semiring R] [inst_1 : AddCommMonoid M] [inst_2 : Module R M]
+    (f g : Module.End R M) (x : M), (f * g) x = f (g x)
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.mul_apply` to `mul_apply_eq_comp x`).
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.678
+Timed out: False
+Module log SHA-256: a016b833b2d233b3a23dcb8abf891d9f5535e5e782ad7324a1a7ead294d90aa0
+Output object SHA-256: bd98a260cb266cb4c0459e3aded087d9b6e5531cb2061d3c3ed3d5b623701ee2
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158047
+========================================================================
+Module: M158047 Formalism.RealPlaceAnalysis.SmoothOnG
+Started: 2026-11-21T23:48:23.763601+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.SmoothOnG:olean"]
+Pinned source SHA-256: babd5c059699836044794b7ff0667cd733d98491e5325ad3bbbecd4218a47846
+Compiled source SHA-256: babd5c059699836044794b7ff0667cd733d98491e5325ad3bbbecd4218a47846
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.Complexify
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.Complexify:irArts
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RealPlaceAnalysis.SmoothOnG (2.4s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.578
+Timed out: False
+Module log SHA-256: 773ebe5a13a087ec0d152d68d71eb7e921dc9ecf8cbde3a355c49088311f2af8
+Output object SHA-256: 10afd09d2fa924ffda9d0c91d3b10c5fd383cd308a5428d2e0fb8a52c037c31d
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158051
+========================================================================
+Module: M158051 Formalism.RealPlaceAnalysis.StatementB
+Started: 2026-11-21T23:48:30.343259+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.StatementB:olean"]
+Pinned source SHA-256: ba17ff1d2ea97838d1a475dedde5041a5e7cb6dd3e8596c1e42e24b78645f335
+Compiled source SHA-256: ba17ff1d2ea97838d1a475dedde5041a5e7cb6dd3e8596c1e42e24b78645f335
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.StatementA
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.StatementA:irArts
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RealPlaceAnalysis.StatementB (2.5s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.628
+Timed out: False
+Module log SHA-256: cab84e63fa422d54675eaf65a61206f56a188c024856436efa8b7f646442b414
+Output object SHA-256: 4ccf3eab3f7ce7f1392e06b5172e3fa3aac885d9c27b0ebc36db6f734ab05e46
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158053
+========================================================================
+Module: M158053 Formalism.RealPlaceAnalysis.StatementD
+Started: 2026-11-21T23:48:36.973445+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.StatementD:olean"]
+Pinned source SHA-256: 77d8dc774ab04c06454bfc8be0d2bf453eba2c834e1d439da2baa5aee44599d2
+Compiled source SHA-256: 77d8dc774ab04c06454bfc8be0d2bf453eba2c834e1d439da2baa5aee44599d2
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.StatementA
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.StatementA:irArts
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RealPlaceAnalysis.StatementD (2.4s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.528
+Timed out: False
+Module log SHA-256: 81abe01e17d4baa9abbfa45d5bac8eaa8afaa158a313e9676644faaae6cd3824
+Output object SHA-256: d28d552a98f433318e3ecdcaca728468451f1bf5ac4be70f7f1a6c7275138ded
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158055
+========================================================================
+Module: M158055 Formalism.RealPlaceAnalysis.StatementKT
+Started: 2026-11-21T23:48:43.503130+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.StatementKT:olean"]
+Pinned source SHA-256: ff9560bd884d966291b66ec2db74d4dea99ce60faaeacff0a6d744564d7fab8c
+Compiled source SHA-256: ff9560bd884d966291b66ec2db74d4dea99ce60faaeacff0a6d744564d7fab8c
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.StatementA
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.StatementA:irArts
+warning: src/Formalism/RealPlaceAnalysis/StatementA.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RealPlaceAnalysis.StatementKT (2.6s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.779
+Timed out: False
+Module log SHA-256: 8bfd27f64405a230f943751c8c34d12af04deece9a8aac20ef6dc34b4ef92b61
+Output object SHA-256: 81c74706389b1807a9d8d9a665ec0d0b0660b63762be3b660c827c5b078e409a
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158058
+========================================================================
+Module: M158058 Formalism.RealPlaceAnalysis.UJLocCompact
+Started: 2026-11-21T23:48:50.283586+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.RealPlaceAnalysis.UJLocCompact:olean"]
+Pinned source SHA-256: 36732d3e1b0bf5cadfa90b60d86eea2c989a3c4f09138af8ae0ad7ffb6d5023c
+Compiled source SHA-256: 36732d3e1b0bf5cadfa90b60d86eea2c989a3c4f09138af8ae0ad7ffb6d5023c
+
+⚠ [18250/18252] Replayed Formalism.RealPlaceAnalysis.Complexify
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.RealPlaceAnalysis.Complexify:irArts
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.RealPlaceAnalysis.UJLocCompact (2.3s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.478
+Timed out: False
+Module log SHA-256: 8c5d936732396ba3e942a478694d34363120efd0917002f9c4e6f500ef273a6e
+Output object SHA-256: f4dffa47be172a5ec3385ad9ce51b4a39053bc54d60de855dad187bb71d2ce2d
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158061
+========================================================================
+Module: M158061 Formalism.ResultantValuation.PrimePairDisjointBB
+Started: 2026-11-21T23:48:56.763123+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.ResultantValuation.PrimePairDisjointBB:olean"]
+Pinned source SHA-256: f6854c3890cb97b028de39eda8bf962568ec79723f9322032dac7f8e14e92a5f
+Compiled source SHA-256: f6854c3890cb97b028de39eda8bf962568ec79723f9322032dac7f8e14e92a5f
+
+⚠ [18250/18252] Built Formalism.CyclotomicNorms.StatementI (2.7s)
+warning: src/Formalism/CyclotomicNorms/StatementI.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.CyclotomicNorms.StatementI:irArts
+warning: src/Formalism/CyclotomicNorms/StatementI.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.ResultantValuation.PrimePairDisjointBB (2.3s)
+warning: src/Formalism/ResultantValuation/PrimePairDisjointBB.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.184
+Timed out: False
+Module log SHA-256: a6f23f95f1cec8295d976742481beaa1670deb1aefcdcf649b482fc070f501b8
+Output object SHA-256: 37408d016bdd3095aba724ae25f413a3a560eb63e9d331c517837e3d13fa83d2
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158063
+========================================================================
+Module: M158063 Formalism.ResultantValuation.ResultantAdjugateProofs.Adjugate
+Started: 2026-11-21T23:49:05.948919+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.ResultantValuation.ResultantAdjugateProofs.Adjugate:olean"]
+Pinned source SHA-256: eb81d5d70b6b79d0d45e3b636fb7c51361a7a7e4812705327e4e9d001f401ef3
+Compiled source SHA-256: b9cb031fa006071090264f032c8861a7c3b92c7a2a18763452fa02ea3599a335
+
+⚠ [18250/18252] Built Formalism.ResultantValuation.KoszulSecondDifferential (2.8s)
+warning: src/Formalism/ResultantValuation/KoszulSecondDifferential.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.ResultantValuation.KoszulSecondDifferential:irArts
+warning: src/Formalism/ResultantValuation/KoszulSecondDifferential.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.ResultantValuation.ResultantAdjugateProofs.Adjugate (2.7s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.635
+Timed out: False
+Module log SHA-256: e140e157180b2a70767e3e439caf1bb5abc807110a7265f6e770a8a633ca80ea
+Output object SHA-256: ef062f5bc62fd55b8be168cf5659021fcc3d25f4a3d51fe4a08bdf1820d1fe21
+Applied patch SHA-256: c1a5b992a09499255dd17362a7e7a7481963c8637db86d1d2097b72fffececae
+
+========================================================================
+M158064
+========================================================================
+Module: M158064 Formalism.ResultantValuation.ResultantAdjugateProofs.Koszul
+Started: 2026-11-21T23:49:15.585376+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.ResultantValuation.ResultantAdjugateProofs.Koszul:olean"]
+Pinned source SHA-256: e26923ef495b4decf1185ea50c587798ae2cc913422f44f312c348cf0f997031
+Compiled source SHA-256: e26923ef495b4decf1185ea50c587798ae2cc913422f44f312c348cf0f997031
+
+⚠ [18250/18252] Replayed Formalism.ResultantValuation.KoszulSecondDifferential
+warning: src/Formalism/ResultantValuation/KoszulSecondDifferential.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.ResultantValuation.KoszulSecondDifferential:irArts
+warning: src/Formalism/ResultantValuation/KoszulSecondDifferential.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.ResultantValuation.ResultantAdjugateProofs.Koszul (3.9s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 7.982
+Timed out: False
+Module log SHA-256: 68048509f9bba011dd95e2b86ef4c461d7711296529957f13ef79ba1e118878d
+Output object SHA-256: 409d0c87eff30be574f8eb55ddc31c91e15a95a47002c63bd8a8bf9fc43e2cfc
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158065
+========================================================================
+Module: M158065 Formalism.ResultantValuation.ResultantAdjugateProofs.Laplace
+Started: 2026-11-21T23:49:23.568989+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.ResultantValuation.ResultantAdjugateProofs.Laplace:olean"]
+Pinned source SHA-256: a71f7b5f9c32e8ae1c4ba27ea180ab4df1c36c0e405819b84023cdb60a9b9abb
+Compiled source SHA-256: a71f7b5f9c32e8ae1c4ba27ea180ab4df1c36c0e405819b84023cdb60a9b9abb
+
+⚠ [18250/18252] Built Formalism.ResultantValuation.ResultantConjugate (2.4s)
+warning: src/Formalism/ResultantValuation/ResultantConjugate.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.ResultantValuation.ResultantConjugate:irArts
+warning: src/Formalism/ResultantValuation/ResultantConjugate.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.ResultantValuation.ResultantAdjugateProofs.Laplace (2.8s)
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Laplace.lean:90:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Laplace.lean:90:2: Unused tactic linter: there are no goals left for `all_goals rfl`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Laplace.lean:103:57: `Fin.lt_iff_val_lt_val` has been deprecated: Use `Fin.lt_def` instead
+
+Hint: Replace the deprecated name:
+  F̵i̵n̵.̵l̵t̵_̵i̵f̵f̵_̵v̵a̵l̵_̵l̵t̵_̵v̵a̵l̵F̲i̲n̲.̲l̲t̲_̲d̲e̲f̲
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Laplace.lean:103:80: `Fin.coe_castAdd` has been deprecated: Use `Fin.val_castAdd` instead
+
+Hint: Replace the deprecated name:
+  F̵i̵n̵.̵c̵o̵e̵_̵c̵a̵s̵t̵A̵d̵d̵F̲i̲n̲.̲v̲a̲l̲_̲c̲a̲s̲t̲A̲d̲d̲
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Laplace.lean:104:4: `Fin.coe_natAdd` has been deprecated: Use `Fin.val_natAdd` instead
+
+Hint: Replace the deprecated name:
+  F̵i̵n̵.̵c̵o̵e̵_̵n̵a̵t̵A̵d̵d̵F̲i̲n̲.̲v̲a̲l̲_̲n̲a̲t̲A̲d̲d̲
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Laplace.lean:104:87: This simp argument is unused:
+  mul_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Fin.prod_univ_add, Finset.prod_mul_distrib, Fin.lt_iff_val_lt_val, Fin.coe_castAdd, Fin.coe_natAdd,
+    add_lt_add_iff_left, hlt, hnlt, ↓reduceIte, Finset.prod_const_one, one_mul, mul_assoc]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.336
+Timed out: False
+Module log SHA-256: 6403e69ca5bab1d3904d1384eb5773f35b2ed1053baad6917cfae092bff8068e
+Output object SHA-256: 8f5e49af1437fe79653b12e5ae1043f52638b8897a18c33252ae44be7a3b706e
+Applied patch SHA-256: unchanged
+
+========================================================================
+M158068
+========================================================================
+Module: M158068 Formalism.ResultantValuation.ResultantAdjugateProofs.Window
+Started: 2026-11-21T23:49:32.906759+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.ResultantValuation.ResultantAdjugateProofs.Window:olean"]
+Pinned source SHA-256: e295ed23d055e6354f6adda7973803bb21897eb5c4016e7fa8c5ac2ba2c850a9
+Compiled source SHA-256: 95e1a92f64c1c7a797c25f99a4c1ec7c1359771d696c25a668cf22d07019536f
+
+⚠ [18250/18252] Built Formalism.ResultantValuation.WindowValuation (2.4s)
+warning: src/Formalism/ResultantValuation/WindowValuation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.ResultantValuation.WindowValuation:irArts
+warning: src/Formalism/ResultantValuation/WindowValuation.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18252] Built Formalism.ResultantValuation.ResultantAdjugateProofs.Window (2.6s)
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Window.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/ResultantValuation/ResultantAdjugateProofs/Window.lean:101:11: `emultiplicity_zero` has been deprecated: Use `emultiplicity_zero_right` instead
+
+Hint: Replace the deprecated name:
+  emultiplicity_zero_̲r̲i̲g̲h̲t̲
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 9.186
+Timed out: False
+Module log SHA-256: 633b8b12827a0a50d07a4049c9f9d1c13f3e7426178b4df7c3a67269246a4810
+Output object SHA-256: 00decf878055f639cb2db841357a0957a330359486f198d115df55c67ff0ef05
+Applied patch SHA-256: 69b3288298263ee4bfe03af192a4ce2f2e691c261e376494c16444704b8ade66
+
+========================================================================
+M158070
+========================================================================
+Module: M158070 Formalism.ResultantValuation.SubspaceCount
+Started: 2026-11-21T23:49:42.095015+00:00
+Command: ["lake", "--no-cache", "build", "+Formalism.ResultantValuation.SubspaceCount:olean"]
+Pinned source SHA-256: c1e943ac6645f308ecb3eaf9865391bf80e7f95a2e39724de0967f031a46f1c8
+Compiled source SHA-256: c1e943ac6645f308ecb3eaf9865391bf80e7f95a2e39724de0967f031a46f1c8
+
+⚠ [18250/18252] Replayed Formalism.ResultantValuation.KoszulSecondDifferential
+warning: src/Formalism/ResultantValuation/KoszulSecondDifferential.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18252] Ran Formalism.ResultantValuation.KoszulSecondDifferential:irArts
+warning: src/Formalism/ResultantValuation/KoszulSecondDifferential.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18252/18252] Built Formalism.ResultantValuation.SubspaceCount (2.4s)
+Build completed successfully (18252 jobs).
+
+Exit status: 0
+Elapsed seconds: 6.529
+Timed out: False
+Module log SHA-256: 761a0dfb9522912443bad9eff845f2160f1bb2ca670f597c2294e8d0190d76db
+Output object SHA-256: d8b48dac1754cc7b25d96be6c4f1d89e9098120a06505877d04d0546551e9877
+Applied patch SHA-256: unchanged
+
+========================================================================
+IsLattice audit
+========================================================================
+Command: ["lake", "env", "lean", "--run", "/home/runner/work/alpoge-rh-replay/alpoge-rh-replay/port-audit-completed-results/P0156/islattice-audit.lean", "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.LocDensSAInt", "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeilStabilizerVolume.MeasureEqOfCos", "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WeylProduct.WeylProd", "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittCoefficients.CoeffEqOfSubMem", "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittDecomposition.Anisotropic", "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittUnramified.GhostComponentG", "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.WittUnramified.PsiStep", "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ZeroWindow.RightHalfWith", "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.KappaZero", "Formalism.PeriodIntegrals.W2pair", "Formalism.PeriodIntegrals.WeierUnif", "Formalism.PeriodIntegrals.WeylForK", "Formalism.PeriodIntegrals.WfRing", "Formalism.PeriodIntegrals.WfSubst", "Formalism.PieriBlockIdeals.ContentDistanceBounds", "Formalism.PieriBlockIdeals.ParamsWindow", "Formalism.PieriBlockIdeals.PieriColumnMinors.ContentLinkageHolds", "Formalism.PieriBlockIdeals.PieriColumnMinors.CountLeftInvSeqAlternatingWordEven", "Formalism.PieriBlockIdeals.PieriColumnMinors.HeightDescentMinors", "Formalism.PieriBlockIdeals.PieriColumnMinors.LabelSumNeedsLeFalse", "Formalism.PieriBlockIdeals.PieriColumnMinors.MinorValuationBoundHolds", "Formalism.PieriBlockIdeals.PieriColumnMinors.PadicValIntProdElevenMultiples", "Formalism.PieriBlockIdeals.PieriColumnMinors.SharperSizeNeedsMleKFalse", "Formalism.PieriBlockIdeals.PieriColumnMinors.WeightExchangeBoundHolds", "Formalism.PieriBlockIdeals.StatementC", "Formalism.PieriBlockIdeals.WEChain", "Formalism.PolynomialDimension.ApolarComparisonExponent", "Formalism.PolynomialDimension.DigitClassSize", "Formalism.PolynomialDimension.MultinomialDepth.DiagLaplacianDivPowMemSqrtFockLattice", "Formalism.PolynomialDimension.MultinomialDepth.ExistsNonzeroExchangedMinorHolds", "Formalism.PolynomialDimension.MultinomialDepth.FockGaussComparisonHolds", "Formalism.PolynomialDimension.MultinomialDepth.FrobeniusDetVanishingHolds", "Formalism.PolynomialDimension.MultinomialDepth.HarmonicDecompositionHolds", "Formalism.PolynomialDimension.MultinomialDepth.PairingAdjointLaplacianHolds", "Formalism.PolynomialDimension.StatementNum", "Formalism.PrimeAboveExistence.LenEqPlaces", "Formalism.RankGapBounds.GridNumericalHypotheses", "Formalism.RankGapBounds.RankGapProofs.CardLargePrimeFactorsLeOneHolds", "Formalism.RankGapBounds.RankGapProofs.FourNotDvdOddSqAddOne", "Formalism.RankGapBounds.RankGapProofs.PmModulusFacts", "Formalism.RankGapBounds.RankGapProofs.RandomSubsetLemmaCounterexample", "Formalism.RankGapBounds.RankGapProofs.WeightedMeanData", "Formalism.RankGapBounds.TheoremALocOfLemmaA", "Formalism.RankGapBounds.UniformMeanBound", "Formalism.RealPlaceAnalysis.FockPairGl", "Formalism.RealPlaceAnalysis.LminorPos", "Formalism.RealPlaceAnalysis.RealPlaceTaylor.CasKHW", "Formalism.RealPlaceAnalysis.RealPlaceTaylor.ComplexificationHolds", "Formalism.RealPlaceAnalysis.RealPlaceTaylor.HalfSumRootsStandard", "Formalism.RealPlaceAnalysis.RealPlaceTaylor.IndefiniteUnitaryPreservesForm", "Formalism.RealPlaceAnalysis.RealPlaceTaylor.MemUnitaryGroupIffMulConjTranspose", "Formalism.RealPlaceAnalysis.RealPlaceTaylor.QuadraticInequalityBoundHolds", "Formalism.RealPlaceAnalysis.RealPlaceTaylor.SumOfSquaresIdentityHolds", "Formalism.RealPlaceAnalysis.SmoothOnG", "Formalism.RealPlaceAnalysis.StatementB", "Formalism.RealPlaceAnalysis.StatementD", "Formalism.RealPlaceAnalysis.StatementKT", "Formalism.RealPlaceAnalysis.UJLocCompact", "Formalism.ResultantValuation.PrimePairDisjointBB", "Formalism.ResultantValuation.ResultantAdjugateProofs.Adjugate", "Formalism.ResultantValuation.ResultantAdjugateProofs.Koszul", "Formalism.ResultantValuation.ResultantAdjugateProofs.Laplace", "Formalism.ResultantValuation.ResultantAdjugateProofs.Window", "Formalism.ResultantValuation.SubspaceCount"]
+Upstream script commit: 749aefb802680024c33d06c58ad4b2ed75a1d3a1
+Audit script SHA-256: aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b
+Audit runner SHA-256: 96fff7b0b1dd4c31c761f81e09fca3670ac6e49f638cc8d00bd5da00a6cb37b7
+Audit receipt SHA-256: 8e92aec339026b3f31cf32fc26d73bb061ac74a80431aee3a3837dd41cd03bb2
+Audit log SHA-256: 229e3b3ba9fbb0d00303b29512ba11bc530fcb70afee630af36decd25e11e35b
+islattice-audit: 64 module(s), 0 hit(s)
+Exit status: 0
+Source hashes unchanged during audit: True
+Object hashes unchanged during audit: True

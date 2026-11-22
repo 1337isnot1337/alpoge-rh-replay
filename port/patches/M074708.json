@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.TotalDegreeCMulXMulX",
+  "source_sha256": "096df5b814913f0430414cc58b0c51a93988f4635e135913ec67f1e52b3a24c1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Simplify with the multivariate polynomial evaluation lemmas directly."
+}

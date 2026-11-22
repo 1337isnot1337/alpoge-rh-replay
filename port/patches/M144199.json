@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.CyclotomicNorms.NonsquarefreeBounds.RestrictionOfBlocksAndJordan",
+  "source_sha256": "e577c5dc0bd61f7314181a48e928640e68e07120eac39343087e4b70895b0c26",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

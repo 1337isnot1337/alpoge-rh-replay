@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.EulerFin",
+  "source_sha256": "b598dc9b78bdcebcbec6dde8ff9ad115eb4e827db9fe984f68566e7d53e737aa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

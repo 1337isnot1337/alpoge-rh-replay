@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.IntegralSymplectic.AbsSympl",
+  "source_sha256": "d999e526f2fc3ee77d8c882e509a4cd11ac7dbb8042d065704190ee83e490ee4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

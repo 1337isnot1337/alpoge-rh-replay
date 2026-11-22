@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.PlurisubharmonicCharts.GROWCountStatement",
+  "source_sha256": "238d4b56550ce08b2f847ff21f3ce23486b5eeb734b71bd89d13ce58f0167c21",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

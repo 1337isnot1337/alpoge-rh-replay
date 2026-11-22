@@ -1,0 +1,13 @@
+--- a/src/Development/WeilBound/CoreStatements/PadicHodgeComparison/EtaleCohomologyComparison/PerfectoidPullbacks/ConeSectionRestriction/ResidResPf.lean
++++ b/src/Development/WeilBound/CoreStatements/PadicHodgeComparison/EtaleCohomologyComparison/PerfectoidPullbacks/ConeSectionRestriction/ResidResPf.lean
+@@ -76,8 +76,8 @@
+     have h1 := hbound m hm j
+     have h2 := hbound m' hm' j
+     omega
+-  have hc := congrArg (MvPolynomial.coeff (e m0)) hpoly
+-  rw [MvPolynomial.coeff_sum, MvPolynomial.coeff_zero, Finset.sum_eq_single m0] at hc
++  have hc := congrArg (fun p : MvPolynomial (Fin (n + 1)) K => p.coeff (e m0)) hpoly
++  rw [MvPolynomial.coeff_sum, AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply, Finset.sum_eq_single m0] at hc
+   · simpa [MvPolynomial.coeff_monomial] using hc
+   · intro m hm hne
+     rw [MvPolynomial.coeff_monomial, if_neg (fun h => hne (hinj m hm m0 hm0 h))]

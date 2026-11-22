@@ -1,0 +1,11 @@
+--- a/src/ReciprocityTheory/SemistableReduction/MeasurePreservingSphereMap.lean
++++ b/src/ReciprocityTheory/SemistableReduction/MeasurePreservingSphereMap.lean
+@@ -48,7 +48,7 @@
+     MeasurePreserving (sphereMap U) (sphereProb n) (sphereProb n) := by
+   refine ⟨(continuous_sphereMap U).measurable, ?_⟩
+   unfold sphereProb ProbabilityTheory.cond
+-  rw [Measure.restrict_univ, Measure.map_smul, toSphere_map_sphereMap]
++  rw [Measure.restrict_univ, Measure.map_smul _ (continuous_sphereMap U).measurable.aemeasurable, toSphere_map_sphereMap]
+ 
+ def rotCL {n : ℕ} (u : EuclideanSpace ℂ (Fin n)) (t : ℂ) :
+     EuclideanSpace ℂ (Fin n) →L[ℂ] EuclideanSpace ℂ (Fin n) :=

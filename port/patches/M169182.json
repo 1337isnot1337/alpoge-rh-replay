@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsNumberFieldBoxCount",
+  "source_sha256": "af06738a035ab8be26f14c5f53de8f9ddb6876c03051c7be79d6964b54083895",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

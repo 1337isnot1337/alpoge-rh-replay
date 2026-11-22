@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PolynomialDimension.ApolarComparisonExponent",
+  "source_sha256": "1569e54bb366dff5650512fd6720c0b2a891ab5c3df5763f343a723da2f468ad",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

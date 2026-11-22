@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.GeometryOfNumbers.SphericalMonomials.MonomStA",
+  "source_sha256": "bf1546b05292064cefb20a54d8893e12b4922cf68bed14e431eb46ec534c6536",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed continuity lemmas for finite sums and products."
+}

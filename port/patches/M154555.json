@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.CompactGroupIntegrability.InstCompactUG",
+  "source_sha256": "cd220fe8b6f77f5d3748c81f72911936b43da14c6e7b13f79ba3957eea8496c4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Open the Pointwise scope for the star operation on sets."
+}

@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/SignedLengthEqLogOrdFracDet.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/SignedLengthEqLogOrdFracDet.lean
+@@ -118,7 +118,7 @@
+     {K : Type*} [Field K] [Algebra R K] [IsFractionRing R K] {x : R} (hx : x ≠ 0) {n : ℕ}
+     (hn : Ring.ord R x = n) :
+     Ring.ordFrac R (algebraMap R K x) = WithZero.exp (n : ℤ) := by
+-  rw [Ring.ordFrac_eq_ord R hx,
++  rw [Ring.ordFrac_eq_ord R,
+     Ring.ordMonoidWithZeroHom_eq_coe R (mem_nonZeroDivisors_of_ne_zero hx) hn]
+   rfl
+ 

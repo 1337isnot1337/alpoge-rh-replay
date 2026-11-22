@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PolydiscIntegrality.Lemmas",
+  "source_sha256": "600349537d84b815c2c768b6acaf3828bb2553c0fe608162e3250b230046b266",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

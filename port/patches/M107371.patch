@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/TraceFormula/OrbitalIntegrals/TwistedOrbitalIntegrals/QuotScale.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/TraceFormula/OrbitalIntegrals/TwistedOrbitalIntegrals/QuotScale.lean
+@@ -19,7 +19,7 @@
+       constructor
+       have h1 : μ.inv = μ := Measure.inv_eq_self μ
+       rw [Measure.inv] at h1 ⊢
+-      rw [hsm, Measure.map_smul, h1]
++      rw [hsm, Measure.map_smul _ measurable_inv.aemeasurable, h1]
+     rw [hI G μG hμG H μ hs hinv F hF hFH ρ hρ,
+       hI G μG hμG H (c • μ) hs' hinv' F hF hFH _ hρ', ← integral_const_mul]
+     refine integral_congr_ae (Filter.Eventually.of_forall fun g => ?_)

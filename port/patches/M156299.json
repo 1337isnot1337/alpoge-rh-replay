@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PolynomialDifferentialWords.IsWeightedHomogeneousPairingLeft",
+  "source_sha256": "a11ded94afc838755bb3978a670b0d66e1662f08e07c8d0091eb14d55566c0ce",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the multivariate polynomial coefficient projection and the separate zero finitely supported function rewrite."
+}

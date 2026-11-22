@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.GardingBump",
+  "source_sha256": "364795188ad0895c16c39e70d74ec77e82adf2a36c525905e36c3162ef37b53c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: infer the scalar-valued matrix-entry type in the updated two-coordinate smoothness lemma. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0094-lean436-20261121/packet-result.json"
+}

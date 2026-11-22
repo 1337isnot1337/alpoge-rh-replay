@@ -1,0 +1,20 @@
+--- a/src/Development/AutomorphicArithmetic/CommutativeAlgebra/ExistsMonicFactorOfRootSubsetProductEquation.lean
++++ b/src/Development/AutomorphicArithmetic/CommutativeAlgebra/ExistsMonicFactorOfRootSubsetProductEquation.lean
+@@ -165,7 +165,7 @@
+     (ε : ι → S) (s : ι → Finset (Fin N)) (x : Fin N → S) (d : ℕ)
+     (hd : ∀ J ∈ Λ, (s J).card = d) :
+     (∑ J ∈ Λ, C (ε J) * ∏ i ∈ s J, (X - C (x i))).coeff d = ∑ J ∈ Λ, ε J := by
+-  rw [finset_sum_coeff]
++  rw [finsetSum_coeff]
+   refine Finset.sum_congr rfl fun J hJ => ?_
+   rw [coeff_C_mul]
+   have hm : (∏ i ∈ s J, (X - C (x i))).Monic :=
+@@ -179,7 +179,7 @@
+     (s : ι → Finset (Fin N)) (x : Fin N → S) (a : S) (d : ℕ) (h1 : ∑ J ∈ Λ, ε J = 1)
+     (hd : ∀ J ∈ Λ, (s J).card = d) (h3 : ∀ J ∈ Λ, ε J * (a - ∏ i ∈ s J, x i) = 0) :
+     (∑ J ∈ Λ, C (ε J) * ∏ i ∈ s J, (X - C (x i))).eval 0 = (-1) ^ d * a := by
+-  rw [eval_finset_sum]
++  rw [eval_finsetSum]
+   have key : ∀ J ∈ Λ, (C (ε J) * ∏ i ∈ s J, (X - C (x i))).eval 0 = (-1) ^ d * (ε J * a) := by
+     intro J hJ
+     have h := h3 J hJ

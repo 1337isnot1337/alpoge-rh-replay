@@ -1,0 +1,16 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/TnIdem.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/TnIdem.lean
+@@ -14,9 +14,11 @@
+   haveI : Module.Finite R S := by
+     haveI : IsNoetherian R (Subalgebra.toSubmodule S) := inferInstance
+     exact (inferInstance : Module.Finite R (Subalgebra.toSubmodule S))
+-  letI : CommRing S := Algebra.adjoinCommRingOfComm R (by
+-    rintro _ ⟨i, rfl⟩ _ ⟨j, rfl⟩
++  letI : IsMulCommutative S := Algebra.isMulCommutative_adjoin R (by
++    rintro _ ⟨i, rfl⟩ _ ⟨j, rfl⟩ _
+     exact hT i j)
++  letI : CommRing S := by
++    open scoped IsMulCommutative in infer_instance
+   let t : κ → S := fun i => ⟨T i, Algebra.subset_adjoin ⟨i, rfl⟩⟩
+   obtain ⟨e, he, -, hx⟩ := topNil_eq_idem R S κ t
+   have hfun : (fun i => (Algebra.lsmul R R M) (t i)) = T := by

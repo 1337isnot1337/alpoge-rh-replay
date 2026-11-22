@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitBasePointAdjoinTwistedSigma.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/ExistsUnitBasePointAdjoinTwistedSigma.lean
+@@ -162,7 +162,7 @@
+   intro M hM
+   have hM' : M.IsMaximal := hM
+   have hc : (M.comap (algebraMap K.O (Algebra.adjoin K.O {B.g}))).IsMaximal :=
+-    Ideal.isMaximal_comap_of_isIntegral_of_isMaximal M
++    Ideal.isMaximal_under_of_isIntegral_of_isMaximal (R := K.O) M
+   exact ⟨hM'.isPrime, ⟨(IsLocalRing.eq_maximalIdeal hc).symm⟩⟩
+ 
+ theorem exists_unit_base : ∀ (K : UQ) (B : InvAlg K), B.g * B.σ B.g = 1 → B.P.Separable → IsIntegral K.O B.g →

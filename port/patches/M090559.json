@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.CubeCutRegularSequence",
+  "source_sha256": "e7d03777e01628fbe9d491ab1a2549bcdb317ac692677fff781f52d9c530641b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

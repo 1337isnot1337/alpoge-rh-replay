@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.HermitianSpaces",
+  "source_sha256": "5260d1460b82e0ae47f92a6cd28920d839e7f663c6344ab84f13fc085c1311a4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

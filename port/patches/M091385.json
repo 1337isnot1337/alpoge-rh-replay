@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.DifferentiableOnDoublingIterate",
+  "source_sha256": "ea3f4a2260fd05c8a185c6e082bb31b750702ea0814047449ef18d91342848e1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

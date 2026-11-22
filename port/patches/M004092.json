@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.IsTopWTopWOfExists",
+  "source_sha256": "9a794e90aff37613a59f3b26291c84634d2ce2c7d0543a379326836aa8192a88",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/EffectiveHilbertSamuel/PLocUnifAnalytic.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/EffectiveHilbertSamuel/PLocUnifAnalytic.lean
+@@ -93,7 +93,7 @@
+           simp [Fin.prod_univ_succ, Fin.tail]
+           ring
+ 
+-def torusSet {D : ℕ} (c : Fin D → ℂ) (r : ℝ) : Set (Fin D → ℂ) :=
++noncomputable def torusSet {D : ℕ} (c : Fin D → ℂ) (r : ℝ) : Set (Fin D → ℂ) :=
+   Set.pi univ fun j => sphere (c j) r
+ 
+ instance {D : ℕ} (c : Fin D → ℂ) (r : ℝ) : CompactSpace (torusSet c r) :=

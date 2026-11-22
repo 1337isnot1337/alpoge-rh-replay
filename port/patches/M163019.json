@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.Adele.WeakApproxUnits",
+  "source_sha256": "58729c0c7325cc960b5d105c65fa3d89eb1c763c67b6179986f963cef3031715",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,31 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/FieldsOfNumbers/StatementsExamples.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/FieldsOfNumbers/StatementsExamples.lean
+@@ -17,7 +17,7 @@
+   unfold relDim
+   rw [ringKrullDim_eq_of_ringEquiv (RingEquiv.quotientBot _),
+     MvPolynomial.ringKrullDim_of_isNoetherianRing, ringKrullDim_eq_zero_of_field, zero_add,
+-    Nat.card_eq_fintype_card]
++    ENat.card_eq_coe_natCard, Nat.card_eq_fintype_card]
+   rfl
+ 
+ abbrev ProjIdx (N : ℕ) : Unit → Type := fun _ => Fin (N + 1)
+@@ -257,7 +257,7 @@
+ 
+ theorem eq_monomial_of_isMultiHomog_point {F : Type*} [Field F] (f : MRing (ProjIdx 0) F)
+     (b : Unit → ℕ) (hf : IsMultiHomog f b) :
+-    f = monomial (Finsupp.single ⟨(), 0⟩ (b ())) (coeff (Finsupp.single ⟨(), 0⟩ (b ())) f) := by
++    f = monomial (Finsupp.single ⟨(), 0⟩ (b ())) ((f).coeff (Finsupp.single ⟨(), 0⟩ (b ()))) := by
+   ext d
+   rw [coeff_monomial]
+   split_ifs with h
+@@ -287,8 +287,8 @@
+     have ef := eq_monomial_of_isMultiHomog_point f b hf
+     have eg := eq_monomial_of_isMultiHomog_point g b hg
+     rw [← C_mul_X_pow_eq_monomial] at ef eg
+-    generalize coeff (Finsupp.single ⟨(), 0⟩ (b ())) f = a at ef
+-    generalize coeff (Finsupp.single ⟨(), 0⟩ (b ())) g = c at eg
++    generalize (f).coeff (Finsupp.single ⟨(), 0⟩ (b ())) = a at ef
++    generalize (g).coeff (Finsupp.single ⟨(), 0⟩ (b ())) = c at eg
+     generalize b () = n at ef eg
+     set v : (Σ _ : Unit, ProjIdx 0 ()) := ⟨(), 0⟩
+     have hc : c ≠ 0 := by

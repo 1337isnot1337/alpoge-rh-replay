@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.JetGauges.TraceFormDualSystem",
+  "source_sha256": "d34971b4de53fdd9562e7e2d0ca260cf79555f71fd74c9645de47a7fd7cdb4dd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Mark pairingValues noncomputable because its existing body uses the noncomputable pairing. The body and mathematical definition are unchanged.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0001-lean436-20261121/packet-result.json"
+}

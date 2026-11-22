@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.UnitaryRepresentations.Integrated",
+  "source_sha256": "e2cf54c12973fe497fc078078a04f6c9c11347e219a21fe99e4cb60f32c1622a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

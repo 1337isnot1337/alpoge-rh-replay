@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.IntegralModels.FiniteIntegralClosureCharZero",
+  "source_sha256": "7e4e894cc0d1c745f7058a2fd5dde86232954e679096ec35a988e2cb09ceec8a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target integral-comap signature and polynomial coefficient accessor, preserving the original maximality and divisibility arguments."
+}

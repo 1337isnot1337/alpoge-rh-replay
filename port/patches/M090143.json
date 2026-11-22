@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.SiegelThetaTransformation.ExistsSymplecticActionOfPeriodLatticeMap",
+  "source_sha256": "f1d8f131747a88775f3e0c6c95b208662e20bf0091751e8d0b85f0e4134c955a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Add Function.swap to the existing simp set in the proof of the matrix-product identity e1, so the remaining transposed-matrix applications reduce definitionally to their swapped arguments. The identity, definitions, theorem statements, imports and Lean options are unchanged. The complete exists_symplectic_rows theorem passes a narrow-import diagnostic; the full original-header module must also pass the fresh packet build."
+}

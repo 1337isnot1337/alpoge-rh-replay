@@ -1,0 +1,38 @@
+--- a/src/CompanionTheory/HarishChandraModules/KFiniteAnalyticVectors/FundamentalDomainCusps/IntegrableMulBc.lean
++++ b/src/CompanionTheory/HarishChandraModules/KFiniteAnalyticVectors/FundamentalDomainCusps/IntegrableMulBc.lean
+@@ -84,7 +84,7 @@
+   have kb : ∀ s F x y, ‖k s F x y‖ ≤ ‖F‖ := fun s F x y => by
+     simp only [k, norm_mul, norm_eI, mul_one]; exact F.norm_coe_le_norm _
+   have ki : ∀ s F x, Integrable (fun y => φ y * k s F x y) μ := fun s F x =>
+-    integrable_mul_bc hφ ((kc s F).comp (continuous_const.prodMk continuous_id)) (kb s F x)
++    integrable_mul_bc hφ ((kc s F).comp (f := fun y : G => (x, y)) (continuous_const.prodMk continuous_id)) (kb s F x)
+   let q : ℝ → (G →ᵇ ℂ) → G → ℂ := fun s F x => ∫ y, φ y * k s F x y ∂μ
+   have qb : ∀ s F x, ‖q s F x‖ ≤ (∫ y, ‖φ y‖ ∂μ) * ‖F‖ := fun s F x => by
+     rw [← integral_mul_const]
+@@ -95,7 +95,7 @@
+       (fun x => Eventually.of_forall fun y => by
+         rw [norm_mul]; exact mul_le_mul_of_nonneg_left (kb s F x y) (norm_nonneg _))
+       (hφ.norm.mul_const _) (Eventually.of_forall fun y =>
+-        continuous_const.mul ((kc s F).comp (continuous_id.prodMk continuous_const)))
++        continuous_const.mul ((kc s F).comp (f := fun x : G => (x, y)) (continuous_id.prodMk continuous_const)))
+   let Ql : ℝ → (X →ₗ[ℂ] X) := fun s =>
+     { toFun := fun F => ⟨ofNormedAddCommGroup (q s F) (qc s F) _ (qb s F), fun m hm x => by
+           show q s F (m * x) = q s F x
+@@ -147,7 +147,7 @@
+   have hQi : ∀ s, Q s * Q s = Q s := fun s => ContinuousLinearMap.ext fun F => Subtype.ext
+     (BoundedContinuousFunction.ext fun x => by
+       show ∫ y, φ y * (q s F (x * y) * eI (s * (Ht (x * y) - Ht x))) ∂μ = q s F x
+-      refine Eq.trans ?_ (reprod hφ hi ((kc s F).comp (continuous_const.prodMk continuous_id)) (kb s F x))
++      refine Eq.trans ?_ (reprod hφ hi ((kc s F).comp (f := fun y : G => (x, y)) (continuous_const.prodMk continuous_id)) (kb s F x))
+       refine integral_congr_ae (Eventually.of_forall fun y => ?_)
+       simp only [q, k, Function.comp_apply]
+       rw [← integral_mul_const]
+@@ -176,7 +176,7 @@
+       refine (integral_mul_left_eq_self (fun y => φ y * k s F x y) u).symm.trans ?_
+       simp only [h1, mul_neg]
+     have hi2 : Integrable (fun y => φ (u * y) * k s F x y) μ :=
+-      integrable_mul_bc (hφ.comp_mul_left u) ((kc s F).comp (continuous_const.prodMk continuous_id)) (kb s F x)
++      integrable_mul_bc (hφ.comp_mul_left u) ((kc s F).comp (f := fun y : G => (x, y)) (continuous_const.prodMk continuous_id)) (kb s F x)
+     have h3 : 2 * q s F x = ∫ y, (φ y - φ (u * y)) * k s F x y ∂μ := by
+       simp only [sub_mul]
+       rw [integral_sub (ki s F x) hi2, two_mul]

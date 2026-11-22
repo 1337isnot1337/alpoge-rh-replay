@@ -4,6 +4,12 @@
 
 | Contributor | Task | Review |
 |---|---|---|
+| [@dga471](https://github.com/dga471) | [M167667](https://github.com/rohanarun/alpoge-rh-replay/issues/19053#issuecomment-7060805669) | Pending review |
+| [@zediir](https://github.com/zediir) | [M063512](https://github.com/rohanarun/alpoge-rh-replay/issues/19057#issuecomment-7060698249) | Pending review |
+| [@sp20262026](https://github.com/sp20262026) | [M102597](https://github.com/rohanarun/alpoge-rh-replay/issues/19058#issuecomment-7060737787) | Pending review |
+| [@dhudakk](https://github.com/dhudakk) | [M101655](https://github.com/rohanarun/alpoge-rh-replay/issues/19061#issuecomment-7060720431) | Pending review |
+| [@gilad12-coder](https://github.com/gilad12-coder) | [M126145](https://github.com/rohanarun/alpoge-rh-replay/issues/19062#issuecomment-7060719457) | Pending review |
+| [@gilad12-coder](https://github.com/gilad12-coder) | [M067368](https://github.com/rohanarun/alpoge-rh-replay/issues/19063#issuecomment-7060720638) | Pending review |
 | [@maugomez77](https://github.com/maugomez77) | [M144291](https://github.com/rohanarun/alpoge-rh-replay/issues/19064#issuecomment-7060858807) | Pending review |
 | [@nicu-chiciuc](https://github.com/nicu-chiciuc) | [M034613](https://github.com/rohanarun/alpoge-rh-replay/issues/19065#issuecomment-7060721026) | Pending review |
 | [@amrehan](https://github.com/amrehan) | [M142805](https://github.com/rohanarun/alpoge-rh-replay/issues/19066#issuecomment-7060720254) | Pending review |
@@ -248,9 +254,3 @@
 | [@HITEYY](https://github.com/HITEYY) | [M126399](https://github.com/rohanarun/alpoge-rh-replay/issues/19478#issuecomment-7061060853) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M126772](https://github.com/rohanarun/alpoge-rh-replay/issues/19479#issuecomment-7061074071) | Pending review |
 | [@HITEYY](https://github.com/HITEYY) | [M126404](https://github.com/rohanarun/alpoge-rh-replay/issues/19480#issuecomment-7061063611) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M126224](https://github.com/rohanarun/alpoge-rh-replay/issues/19481#issuecomment-7061057010) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M124674](https://github.com/rohanarun/alpoge-rh-replay/issues/19482#issuecomment-7061050533) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M126647](https://github.com/rohanarun/alpoge-rh-replay/issues/19483#issuecomment-7061066798) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M126981](https://github.com/rohanarun/alpoge-rh-replay/issues/19484#issuecomment-7061078653) | Pending review |
-| [@HITEYY](https://github.com/HITEYY) | [M126770](https://github.com/rohanarun/alpoge-rh-replay/issues/19485#issuecomment-7061070743) | Pending review |
-| [@jdenwood](https://github.com/jdenwood) | [M136006](https://github.com/rohanarun/alpoge-rh-replay/issues/19487#issuecomment-7061035687) | Pending review |

@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PLatticeCountVolume",
+  "source_sha256": "26776f81c722e7cd27674169f3f9acc01299d1d5cdd854007d1bcc55ad18de6d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

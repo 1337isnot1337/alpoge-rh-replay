@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.IntegralClosureRankAndResidueTrdegLe",
+  "source_sha256": "bdbc6caae64581b2f597ca866d4c5ca3bb7fe859e3439344fa6b009c572bb504",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current polynomial coefficient projection inside the residue-field proof. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0171-lean436-20261121/packet-result.json"
+}

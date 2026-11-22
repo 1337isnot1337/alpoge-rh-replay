@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuasiRegularSequence.RegularSequencePowerExists",
+  "source_sha256": "a3c72efd408cbb5fd973515d419fca8274d65d9bd5f32baa829050b3dd85b478",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify the multivariate polynomial coefficient addition lemma."
+}

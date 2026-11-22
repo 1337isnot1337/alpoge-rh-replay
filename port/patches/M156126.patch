@@ -1,0 +1,24 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/MinkowskiBound/Assemble.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/MinkowskiBound/Assemble.lean
+@@ -15,8 +15,8 @@
+   set m := N / (ℓ - 1) with hm
+   have hmN : m ≤ N := Nat.div_le_self _ _
+   have hlog : Nat.log ℓ m < N + 1 := lt_of_le_of_lt (Nat.log_le_self _ _) (Nat.lt_succ_of_le hmN)
+-  rw [padicValNat.mul (pow_ne_zero _ hℓ.ne_zero) (Nat.factorial_ne_zero _), padicValNat.prime_pow,
+-    padicValNat_factorial hlog]
++  rw [Nat.padicValNat_def, Nat.multiplicity_mul (pow_ne_zero _ hℓ.ne_zero) (Nat.factorial_ne_zero _),
++    Nat.multiplicity_prime_pow, multiplicity_factorial hlog]
+   unfold PI.minkowskiExp
+   simp_rw [term_eq, ← hm]
+   rw [Finset.range_eq_Ico, Finset.sum_eq_sum_Ico_succ_bot (Nat.succ_pos N)]
+@@ -55,8 +55,8 @@
+   have hne : ℓ ^ (N / (ℓ - 1)) * (N / (ℓ - 1)).factorial ≠ 0 :=
+     mul_ne_zero (pow_ne_zero _ hℓ.ne_zero) (Nat.factorial_ne_zero _)
+   have hle : k ≤ PI.minkowskiExp N ℓ := by
+-    rw [← padicValNat_pow_mul_factorial N ℓ hℓ]
+-    exact (padicValNat_dvd_iff_le hne).1 hdvd
++    rw [← padicValNat_pow_mul_factorial N ℓ hℓ, Nat.padicValNat_def]
++    exact (multiplicity_dvd_iff_le hne).1 hdvd
+   exact (pow_dvd_pow ℓ hle).trans (pow_minkowskiExp_dvd N ℓ hℓ)
+ 
+ end PI.Mk

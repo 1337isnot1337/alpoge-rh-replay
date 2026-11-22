@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.TameInertiaTowers.CentralOrderTwo.TwoAdic",
+  "source_sha256": "142d56ed64156395ac3d20b4afafb317ee4d3c2b6ac5714d2cb77e8ba932e53a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target multiplicity lemmas in the existing two-adic proofs, inserting Nat.padicValNat_def where the computational padicValNat expression must be rewritten to multiplicity. Unfold the target padicValInt definition in vEq instead of relying on its old definitional equality with padicValNat. Nat.padicValNat_def proves that both natural-number expressions have the same value. Only proofs change; definitions and theorem statements are unchanged."
+}

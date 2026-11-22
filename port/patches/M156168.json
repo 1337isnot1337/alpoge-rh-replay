@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.NonzeroDiscriminants.DiscLat",
+  "source_sha256": "9c0e31f3535fec469aa95f244bf765165f21ba3058e207c540977b760319cb4f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

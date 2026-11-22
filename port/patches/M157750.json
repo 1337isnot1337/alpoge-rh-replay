@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.projection2.KappaZero",
+  "source_sha256": "cbd52d17451760c0e4eeb0ec47d76b921ec40fbc23d5de8971cf2416fa6c5bf0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
