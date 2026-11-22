@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CardFixedLowerRightBlock",
+  "source_sha256": "68cb51170c1f0faba4b003c11d96d2fa67fbc6fb7b6785bcdf6a267c288a2d2a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0204-lean436-20261121/packet-result.json"
+}

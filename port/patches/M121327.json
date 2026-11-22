@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.CharacterAnnihilatorIntegerLattice",
+  "source_sha256": "9e20bd84db842ce750c4069747842c4505d65e14e9498840e9b766dd9949591e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0204-lean436-20261121/packet-result.json"
+}

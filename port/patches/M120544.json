@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.AlgebraProofs.ProIsometryOfLocalIsometries",
+  "source_sha256": "0bbe3a9e7140bbe60f53c6bf5889d5a7b4081eaf5f0622cf2e69bc953c3adcd2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0204-lean436-20261121/packet-result.json"
+}

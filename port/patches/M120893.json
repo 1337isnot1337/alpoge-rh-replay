@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.AnnihilatorIntersectionCard",
+  "source_sha256": "2f9afbc1d6a96f335c5a7ab407c1a74458a17e1d5bac94494d7a3f53f00dd39d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0204-lean436-20261121/packet-result.json"
+}
