@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.GaussianDualMeasure.DualMeasure",
+  "source_sha256": "2f9e51fbbe079f4e97da99e584d950be0df342bf6073d853fe3e10a2b28a430d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
