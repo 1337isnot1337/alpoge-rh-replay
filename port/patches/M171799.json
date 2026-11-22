@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.LinPairStatement",
+  "source_sha256": "085d3d85a746828e59b1d0a27f5125adf10148088fb5a0651779dd5b351a6914",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0289-lean436-20261122/P0289-receipt.json"
+}

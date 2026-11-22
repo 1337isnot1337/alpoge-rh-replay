@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.DualLattices.ColengthCotangentBoundStatementOfClaim",
+  "source_sha256": "6a07b7b1cdc4eb37574f9bd1d717dfc1ecd988d951344526d3e5d2bda3bbf9e2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0289-lean436-20261122/P0289-receipt.json"
+}

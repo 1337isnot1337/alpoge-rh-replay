@@ -1,0 +1,8 @@
+{
+  "module": "Lemmata.DetMonotoneStarMulSelf.OneLeReDetOneAdd",
+  "source_sha256": "56a22148a77bf269ed5e1513db622ec36039269dfa39dd4bb1948311be071ba5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only rename: the nonnegative-factor product monotonicity lemma is now Finset.prod_le_prod₀ (as in merged patches). No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0289-lean436-20261122/P0289-receipt.json"
+}

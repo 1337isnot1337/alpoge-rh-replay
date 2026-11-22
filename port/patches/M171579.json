@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.SplitEA",
+  "source_sha256": "bbec66c73de2f8d23621ac93ab964ed50805bb076f21cb1726f78b2bec441e4b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only renames: FiniteField.X_pow_card_sub_X_natDegree_eq and X_pow_card_sub_X_ne_zero are now deprecated aliases with changed argument order for Polynomial.natDegree_X_pow_sub_X and Polynomial.X_pow_sub_X_ne_zero, so call those with the ring given as (R := 𝓞 K ⧸ Q). No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0289-lean436-20261122/P0289-receipt.json"
+}

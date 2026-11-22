@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.Chebotarev.IdealLat",
+  "source_sha256": "08029a2160c880c0cf0b08f1da4fb97c3d1bccea4d96c864fba8344be55f47e8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only adaptation: Summable.subtype now takes a predicate p : β → Prop, so pass (· ∈ S); Subtype (· ∈ S) is the type ↥S. No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0289-lean436-20261122/P0289-receipt.json"
+}
