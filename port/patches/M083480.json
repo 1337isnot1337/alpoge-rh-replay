@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.ConstantCoeffShiftS",
+  "source_sha256": "732d3bd9c5d26f7e378aa3856b4244ef74ae3ec7c47b14facd188a1c1c003d82",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Infer the coefficient ring of the same proof-local power-series derivative. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0194-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/JetHarmonics/ConstantCoeffShiftS.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/JetHarmonics/ConstantCoeffShiftS.lean
+@@ -147,7 +147,7 @@
+     DT (sS ζ ^ m) = C (m : ℂ_[q]) * (sS ζ ^ (m - 1) + sS ζ ^ m) := by
+   unfold DT
+   rw [Derivation.leibniz_pow]
+-  have hd : derivative ℂ_[q] (sS ζ) = C ζ := by simp [sS]
++  have hd : derivative (sS ζ) = C ζ := by simp [sS]
+   have h1 : (1 + X) * C ζ = sS ζ + 1 := by
+     unfold sS
+     ring

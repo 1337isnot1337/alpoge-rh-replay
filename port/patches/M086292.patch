@@ -1,0 +1,40 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/RingsOfIntegers/ExpSNegMulExpS.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/RingsOfIntegers/ExpSNegMulExpS.lean
+@@ -30,7 +30,7 @@
+   FormalCalc.subst_sum' (liftX_hasSubst k) s f
+ 
+ theorem pderiv_inl_liftX (f : PS k 1 d) (j : Fin d) :
+-    pderiv k (Sum.inl j) (liftX k f) = liftX k (pderiv k ((0 : Fin 1), j) f) := by
++    pderiv (Sum.inl j) (liftX k f) = liftX k (pderiv ((0 : Fin 1), j) f) := by
+   unfold liftX
+   rw [FormalCalc.pderiv_subst (liftX_hasSubst k), Finset.sum_eq_single ((0 : Fin 1), j)]
+   · rw [pderiv_X_self, mul_one]
+@@ -39,7 +39,7 @@
+     rw [pderiv_X_of_ne (fun h => hb (Sum.inl_injective h)), mul_zero]
+   · intro h; exact absurd (Finset.mem_univ _) h
+ 
+-theorem pderiv_inr_liftX (f : PS k 1 d) (i : Fin d) : pderiv k (Sum.inr i) (liftX k f) = 0 := by
++theorem pderiv_inr_liftX (f : PS k 1 d) (i : Fin d) : pderiv (Sum.inr i) (liftX k f) = 0 := by
+   unfold liftX
+   rw [FormalCalc.pderiv_subst (liftX_hasSubst k)]
+   refine Finset.sum_eq_zero fun p _ => ?_
+@@ -69,8 +69,8 @@
+     (G : AA k d) :
+     nabla k B h m u φ (liftX k f * G) =
+       liftX k f * nabla k B h m u φ G + liftX k (Dof (B.FK k) u f) * G := by
+-  have e : ∀ c : Fin d → AA k d, ∑ i : Fin d, c i * pderiv k (Sum.inr i) (liftX k f * G) =
+-      liftX k f * ∑ i : Fin d, c i * pderiv k (Sum.inr i) G := by
++  have e : ∀ c : Fin d → AA k d, ∑ i : Fin d, c i * pderiv (Sum.inr i) (liftX k f * G) =
++      liftX k f * ∑ i : Fin d, c i * pderiv (Sum.inr i) G := by
+     intro c
+     rw [Finset.mul_sum]
+     refine Finset.sum_congr rfl fun i _ => ?_
+@@ -82,7 +82,7 @@
+ 
+ theorem Dof_expS (F : Fin d → PS k 2 d) (u : Fin d → k) {g : PS k 1 d}
+     (hg : constantCoeff g = 0) : Dof F u (FB.expS k g) = FB.expS k g * Dof F u g := by
+-  have e : ∀ i, pderiv k i (FB.expS k g) = FB.expS k g * pderiv k i g :=
++  have e : ∀ i, pderiv i (FB.expS k g) = FB.expS k g * pderiv i g :=
+     FormalCalc.pderiv_formalExp hg
+   unfold Dof
+   rw [Finset.mul_sum]

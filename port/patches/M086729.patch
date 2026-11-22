@@ -1,0 +1,10 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/CharConstOnTranslatesTrivial.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/SatakeParameters/CharConstOnTranslatesTrivial.lean
+@@ -114,7 +114,6 @@
+     convert this using 1
+     · funext m
+       simp [shift, realUnits, div_eq_mul_inv]
+-    · simp
+   have heq := eq_of_tendsto ψ hψ (X' := fun _ => shift θ hθ a₀) (w' := shift θ hθ a₀)
+     (fun m => by rw [map_mul, map_inv, hD, hc _ (hA m), hc _ ha₀, inv_one, mul_one]) hlim
+     (fun i => tendsto_const_nhds)

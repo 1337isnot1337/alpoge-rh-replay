@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.ExistsIntegralPolyOfCharacterStatement",
+  "source_sha256": "945d887dfd84cc047eaffe7e38b8f8142972d5ea9cfc79cfeb5d3d2b2bdc6fa6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0194-lean436-20261121/packet-result.json"
+}
