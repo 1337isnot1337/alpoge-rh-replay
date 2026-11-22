@@ -1,0 +1,13 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/ExistsGlIsometryCompEqOfNondegenerate.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/HermitianTraceForms/ExistsGlIsometryCompEqOfNondegenerate.lean
+@@ -363,7 +363,9 @@
+       (∀ z w, ((γ : Matrix n n E) *ᵥ z) ⬝ᵥ G *ᵥ (c ∘ ((γ : Matrix n n E) *ᵥ w)) =
+         z ⬝ᵥ G *ᵥ (c ∘ w)) ∧ ∀ a : U, (γ : Matrix n n E) *ᵥ (a : n → E) = f a :=
+   exists_gl_isometry_comp_eq h2 hc hG hdet (g := U.subtype) (f := U'.subtype ∘ₗ f.toLinearMap)
+-    (fun a => by simp) hf
++    (fun a => by
++      change (a : n → E) = 0 ↔ ((f a : U') : n → E) = 0
++      simpa only [Submodule.coe_eq_zero] using (f.map_eq_zero_iff (x := a)).symm) hf
+ 
+ theorem exists_gl_isometry_mul_eq (h2 : (2 : E) ≠ 0) (hc : ∀ t, c (c t) = t)
+     {G : Matrix n n E} (hG : ∀ a b, c (G a b) = G b a) (hdet : G.det ≠ 0)
