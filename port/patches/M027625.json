@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsMultilinearFormOfPicTorsion",
+  "source_sha256": "c18b8884dcf31307f0e09f57d9a9c68353d20e6bd325a6613d9ba03147711665",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "MultilinearMap now takes the ring homomorphism explicitly; the statement of exists_form uses MultilinearMap (RingHom.id B) ..., which is exactly Mathlib's linear multilinear-map type (the notation →ₘₗ[B] unfolds to it), so the statement is equivalent to the pinned one. In the proof, add simp only [RingHom.id_apply] after MultilinearMap.map_smul_univ, whose result now carries RingHom.id.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0104-lean436-20261122/P0104-receipt.json"
+}
