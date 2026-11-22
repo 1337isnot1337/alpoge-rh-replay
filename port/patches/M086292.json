@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.ExpSNegMulExpS",
+  "source_sha256": "976a0c1a1cae562aca9b5cbb02c4377630dfdbcf63a9d7679acb93de3beb0dda",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The coefficient ring of MvPowerSeries.pderiv is now implicit and inferred from the same power series. Exported derivative expressions retain their mathematical meaning.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0194-lean436-20261121/packet-result.json"
+}

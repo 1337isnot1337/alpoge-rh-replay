@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.RingsOfIntegers.IntAASubstOfHasSubst",
+  "source_sha256": "6fd36a5caca683ab434b17c429e17af52b31fe24d2ca9e203679aab0b109298a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The coefficient ring of MvPowerSeries.pderiv is now implicit and inferred from the same power series. Exported derivative expressions retain their mathematical meaning.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0194-lean436-20261121/packet-result.json"
+}

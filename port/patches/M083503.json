@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.JetHarmonics.CpTransportedTaylorSeriesInChartRingHomLaws",
+  "source_sha256": "cfb135df3169fbfd5a5b2c45f1475bcc39b95eb4356c03de004e1a6c40b62ec0",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The power-series derivative now infers its coefficient ring from the input. Exported derivative identities keep the same rings, functions and mathematical meaning.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0194-lean436-20261121/packet-result.json"
+}
