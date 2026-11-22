@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FlagDegreeVandermonde",
+  "source_sha256": "4a6e87e6e069be555149542931e49f049ec6edf67759b148552a5c6f3ce3a51c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
