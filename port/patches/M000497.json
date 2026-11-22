@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.HarishChandraModules.BesselParameterIntegrals.InPCommutatorOfInK",
+  "source_sha256": "e956255c4c8af0ff4ecbf1d16f8ab688474531be7dca85ffa6c937d1f7c66090",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Expose the definition of Kset as a typed intersection before applying closedness of an intersection. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0172-lean436-20261121/packet-result.json"
+}

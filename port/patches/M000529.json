@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.HarishChandraModules.KFiniteAnalyticVectors.AdmissibleSmoothVectors.MapStdPoly",
+  "source_sha256": "fee9518ea355233ce752c2709f219a4f20cb058b9eb89a1e9dddb4725cbe549d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0172-lean436-20261121/packet-result.json"
+}

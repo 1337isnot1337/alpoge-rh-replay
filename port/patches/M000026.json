@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.AutomorphicTheory.BesselWaveGrids.InterlacingGrids.Bracket",
+  "source_sha256": "54da9c3c04fef34a6528841554e5489aedcf13dadec16e28d484016b3b8e8af2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the corresponding target API with the same mathematical inputs: prod_le_prod (fun to prod_le_prod\u2080 (fun. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0172-lean436-20261121/packet-result.json"
+}

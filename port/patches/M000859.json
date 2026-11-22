@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.DisintegrationDensityContinuous",
+  "source_sha256": "9f1cbb496183a916ceacf5dc7b0d8d853063945920c94427642a6fc961b881a8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0172-lean436-20261121/packet-result.json"
+}

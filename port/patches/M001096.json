@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.AdelicAnalysis.LatticeBallCountRatioBoundStatement",
+  "source_sha256": "ba39200c14eed5b8be289e7a0b2477773bb2408239173e6c9165753ccdbb392e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0172-lean436-20261121/packet-result.json"
+}

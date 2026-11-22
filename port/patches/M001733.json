@@ -1,0 +1,8 @@
+{
+  "module": "CompanionTheory.SpectralGeometry.LocalGlobalProofs.StableLattices.HermitianAdjointExists",
+  "source_sha256": "31cd12a0cd96fa0a275d55a50124953ae8013dbb27811e73e7dbeb95ec58d1ce",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0172-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,11 @@
+--- a/src/CompanionTheory/HarishChandraModules/BesselParameterIntegrals/InPCommutatorOfInK.lean
++++ b/src/CompanionTheory/HarishChandraModules/BesselParameterIntegrals/InPCommutatorOfInK.lean
+@@ -75,6 +75,8 @@
+ 
+ theorem isCompact_Kset : IsCompact (Kset ε) := by
+   have hcl : IsClosed (Kset ε) := by
++    change IsClosed ((Matrix.unitaryGroup (Fin n) ℂ : Set (Matrix (Fin n) (Fin n) ℂ)) ∩
++      {g : Matrix (Fin n) (Fin n) ℂ | g * Jm ε = Jm ε * g})
+     refine IsClosed.inter ?_ ?_
+     · have : (Matrix.unitaryGroup (Fin n) ℂ : Set (Matrix (Fin n) (Fin n) ℂ)) =
+           {u | star u * u = 1} := by ext u; exact Matrix.mem_unitaryGroup_iff'
