@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousOnCosSq",
+  "source_sha256": "ab4d9d6e819a2fe2a539152b5ac1857fc35793a8afe5ef7f5f4775d02a3f2660",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rename the two proof-only continuousOn_finset_sum calls to continuousOn_finsetSum. The target lemma is the generated additive counterpart of continuousOn_finsetProd in Mathlib/Topology/Algebra/Monoid.lean and has the same finite-set argument and elementwise continuity premise. Both nested finite sums and the original continuation proof are retained. No definition, theorem statement, hypothesis, import, or option changes."
+}

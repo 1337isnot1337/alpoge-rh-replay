@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ConjugateLinearTensorModuleDecompositionStatement",
+  "source_sha256": "73dad2f0066d43ecfade74a4a9dbfcea7d275902518b5ee249617ce62c29086d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

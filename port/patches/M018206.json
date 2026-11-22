@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CoeffAllOnesSumAlgEquivMkDerivationStatement",
+  "source_sha256": "65d6af6c5bb3eee69ef5ba01a3ce32ef045e1dbcb1fbbb64930e28b9527b71b8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the two removed MvPolynomial.coeff applications in coeff_allOnes_sumAlgEquiv_derivation_eq with field notation. The replay-pinned Mathlib accessor MvPolynomial.coeff e p is defined as @DFunLike.coe ((σ →₀ ℕ) →₀ R) _ _ _ (AddMonoidAlgebra.coeff p) e; target notation p.coeff e is exactly that application. Thus the changed theorem-statement spellings are definitionally equivalent. Coefficient rings, polynomial operands, indices, binders, hypotheses and conclusions are preserved, and the proof, imports and Lean options are unchanged. The exact old accessor body was independently checked against Mathlib commit 0df444a360eaa60ab8c11dca51a86af692955474/Mathlib/Algebra/MvPolynomial/Basic.lean, and its equality to field notation was proved by rfl in the existing coefficient compatibility probe. The resulting wrapper type equals the already landed prerequisite theorem GlobalTheory.coeff_allOnes_sumAlgEquiv_mkDerivation after whitespace normalization."
+}

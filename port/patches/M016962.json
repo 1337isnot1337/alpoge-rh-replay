@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CartanInvolutionConjOfPosDef",
+  "source_sha256": "dd612a40aeabca7a3470ba2f314aac8560ac0716cec5d4051db13eda4c8c3400",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
