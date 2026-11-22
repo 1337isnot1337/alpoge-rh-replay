@@ -1,0 +1,132 @@
+Packet P0196, partial submission
+Upstream base c5e8f5500e2145ed4685f689dedd65cc7687ac67
+Port record commit c4be40429e1f71c95dce3e92e7c3f4461e2ac63d
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M095397
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.TwistedOperators.IwasawaBlockTriangular
+islattice-audit: 1 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+
+Build verification on the upstream base
+Building 1 explicitly requested module(s).
+Resolved 3 transitive project import(s) (4 total module(s) to materialize).
+[FETCH] Materializing 4 SHA-256-verified source file(s)...
+[FETCH] Verified 4/4 source file(s).
+[KEEP]  M004105: unchanged (verified against archive source)
+[KEEP]  M004147: unchanged (verified against archive source)
+[KEEP]  M095397: unchanged (verified against archive source)
+[KEEP]  M150331: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 1 module(s) with `lake build`...
+        IDs: M095397
+⚠ [18250/18256] Built Formalism.LocalToGlobal.ProjectiveLattices.ExistsOfValILeOne (24s)
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:21:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:21:6: Unused tactic linter: `(ext1; exact IsLocalRing.eq_maximalIdeal w.isMaximal)` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:56:12: `Matrix.det_of_lowerTriangular` has been deprecated: Use `Matrix.det_of_isLowerTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵l̵o̵w̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲L̲o̲w̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:61:41: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:61:65: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:71:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:72:15: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:74:17: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:81:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:72:51: This simp argument is unused:
+  map_one
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [if_true, Fin.succ_ne_zero, map_neg, map_zero, zero_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:72:60: This simp argument is unused:
+  map_zero
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [if_true, Fin.succ_ne_zero, map_neg, map_one, zero_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:72:70: This simp argument is unused:
+  zero_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [if_true, Fin.succ_ne_zero, map_neg, map_one, map_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:143:8: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵u̵p̵p̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲U̲p̲p̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean:146:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18251/18256] Built Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace (8.0s)
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.lean:13:14: Variable name `f` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _f
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18252/18256] Ran Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18256] Ran Formalism.LocalToGlobal.ProjectiveLattices.ExistsOfValILeOne:irArts
+warning: src/Formalism/LocalToGlobal/ProjectiveLattices/ExistsOfValILeOne.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18256] Built Development.AbelianVarietyTheory.Definitions.Foundations.SimpleSum (10s)
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SimpleSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18256] Ran Development.AbelianVarietyTheory.Definitions.Foundations.SimpleSum:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SimpleSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18256] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.IwasawaBlockTriangular (12s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/IwasawaBlockTriangular.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/IwasawaBlockTriangular.lean:98:15: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/IwasawaBlockTriangular.lean:108:17: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/IwasawaBlockTriangular.lean:137:90: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/IwasawaBlockTriangular.lean:245:88: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+Build completed successfully (18256 jobs).
+[PASS]  M095397 (Development.AbelianVarietyTheory.Proofs.TwistedOperators.IwasawaBlockTriangular)
+
+PORT_BUILD_PASSED all 1 module(s).
