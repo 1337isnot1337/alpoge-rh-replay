@@ -1,0 +1,371 @@
+{
+  "target": "P0196",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/29524",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "f9159417b7732369c6d44bdea2f0cbe57fc33290",
+  "port_record_commit": "da9ddc98ca9e3eaf152cf5b86bad40f600f2ab89",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "89ec592134aff219adf329fb4c3ff6c5b1ce7c09765434318f33fba0b43ca6fa",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsOpenNsmulAdelicCompletionOfVectorSet",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 1 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M099858",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IsOpenNsmulAdelicCompletionOfVectorSet",
+      "source_sha256": "60bfca724de7035c4bd1a39e8b796fe098c45c700ace4e4886a3033ce172a77c",
+      "patch_sha256": "fe51419ce79791b956863009a04430a2b49027a9edaf8fcc8f6f0a6244cd8aa2",
+      "built_source_sha256": "29ce5cec68e7a31ff0944fc9d8a8e7183ebda119e7bdd73380d957936f357bbe",
+      "olean_sha256": "8cf555d6fbb35a1f823c99e3812071d2eb74b3717d723e41bdfe7e0129e81a53",
+      "exit_code": 0,
+      "validated_output": "rebuilt"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M003986",
+      "module": "Development.AbelianVarietyTheory.Definitions.ExistenceOfLattices.Hat1",
+      "source_sha256": "b8b81fad2cb8a62803316f546d364a19b25a31de4d43958977a01498074a7998",
+      "patch_sha256": null,
+      "built_source_sha256": "b8b81fad2cb8a62803316f546d364a19b25a31de4d43958977a01498074a7998",
+      "port_record_sha256": "b3e795eb99031d85af9b130d598f6f066935129915f4734483c8662bc1a78e52"
+    },
+    {
+      "id": "M099607",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsNatMulMem",
+      "source_sha256": "e16876057f48cdfba14ed9115bce9a5d7ff1afb4267bfdb03285d19ca2291bb3",
+      "patch_sha256": null,
+      "built_source_sha256": "e16876057f48cdfba14ed9115bce9a5d7ff1afb4267bfdb03285d19ca2291bb3",
+      "port_record_sha256": "83ea7be7a979118ddaf975abf0f0e0507f9d6ec05fca2842ffb5e92d5771409d"
+    },
+    {
+      "id": "M099612",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsNsmulIntegersMem",
+      "source_sha256": "4b33f09ada20f64ad06960f357098d08d99a39378426d68520f488393148e470",
+      "patch_sha256": null,
+      "built_source_sha256": "4b33f09ada20f64ad06960f357098d08d99a39378426d68520f488393148e470",
+      "port_record_sha256": "2a0a2841fa9caa3337d8c84c1a0de8e8cfe814c323b4f663fcb9b715a8673119"
+    },
+    {
+      "id": "M099817",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ImportsBis",
+      "source_sha256": "6b86f2a897c11bf59ece1e22ddc776f2f730727d46ab9ab6ded94fb00dff5938",
+      "patch_sha256": null,
+      "built_source_sha256": "6b86f2a897c11bf59ece1e22ddc776f2f730727d46ab9ab6ded94fb00dff5938",
+      "port_record_sha256": "d2d665a8c955147f8cc09825678f65aa214379b7c6e571e50e06d57100010360"
+    },
+    {
+      "id": "M099818",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ImportsTer",
+      "source_sha256": "b7fb5b210c1227830da1cf0347c234d5df73da2108246232a38bc483ba63e261",
+      "patch_sha256": null,
+      "built_source_sha256": "b7fb5b210c1227830da1cf0347c234d5df73da2108246232a38bc483ba63e261",
+      "port_record_sha256": "a04469c7b1aaceb86d5a7a20bf11716f6bbfab46254d88f1c2bc5ed8ff4dc71f"
+    },
+    {
+      "id": "M099962",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.NsmulIntegralMemNhdsZero",
+      "source_sha256": "d0ff0819cc8097fd9147eeee81292e7681623901389e236363ad3b4d98e7a536",
+      "patch_sha256": null,
+      "built_source_sha256": "d0ff0819cc8097fd9147eeee81292e7681623901389e236363ad3b4d98e7a536",
+      "port_record_sha256": "7f07bbb6ef7ccaaeebdac2f1ae6bfd7e4e4df0e44f65ba99e4419c4020f170c8"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M093877",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ExistsWeakIntegralOfIsLocallyConstantOfIsCompact",
+      "missing_imports": []
+    },
+    {
+      "id": "M094249",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.FourierCoeffMulCharConvAndHasDerivAt",
+      "missing_imports": []
+    },
+    {
+      "id": "M094364",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.GaussBinomMulProd",
+      "missing_imports": []
+    },
+    {
+      "id": "M094555",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HaarMapConjNormalizingLatticeEqSelfStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M094557",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HaarMapMulRightEqOfFiniteFundamentalDomainStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M094590",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HarmonicColumnOperatorEndMemOfUnitaryStable",
+      "missing_imports": []
+    },
+    {
+      "id": "M094626",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HasSignatureFstUniqueSylvesterStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M094655",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HasSumTupleProdOfSummableNormComplex",
+      "missing_imports": []
+    },
+    {
+      "id": "M094777",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.HeisenbergSmoothRapidSuperpositionTranslatesStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M095147",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsClosedEmbeddingAffPtUncurry",
+      "missing_imports": []
+    },
+    {
+      "id": "M095226",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsIrreducibleOuterTprod",
+      "missing_imports": []
+    },
+    {
+      "id": "M095317",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IsSubAug",
+      "missing_imports": []
+    },
+    {
+      "id": "M095397",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.IwasawaBlockTriangular",
+      "missing_imports": []
+    },
+    {
+      "id": "M095605",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.LeKerOfLocalFiniteLengthToSimpleStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M095612",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.LeftMulMatrixTransfer",
+      "missing_imports": []
+    },
+    {
+      "id": "M095857",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MapDomainFstEqOfCoeffMatrixFamilyBilateralSubsti",
+      "missing_imports": [
+        "M082759"
+      ]
+    },
+    {
+      "id": "M095862",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MapSwapShearedProductMeasureUnimodularStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M095923",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MatrixConjTransposeBySymmetricTausskyZassenhausStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M095926",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MatrixFamilyBilateralSubstitutionCompEqMul",
+      "missing_imports": [
+        "M082759"
+      ]
+    },
+    {
+      "id": "M095928",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MatrixFamilyBilateralSubstitutionScalarMonomial",
+      "missing_imports": [
+        "M082759"
+      ]
+    },
+    {
+      "id": "M096062",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MetaplecticOneParameterSchwartzIntertwining",
+      "missing_imports": []
+    },
+    {
+      "id": "M096147",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MultilinearSumEqOfProdFunEq",
+      "missing_imports": []
+    },
+    {
+      "id": "M096149",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.MultilinearZeroOfKillsTranslatesTensor",
+      "missing_imports": []
+    },
+    {
+      "id": "M096230",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.NonarchimedeanLocalFieldSecondCountableT2Space",
+      "missing_imports": []
+    },
+    {
+      "id": "M096301",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.NormalizedAbsCharacterization",
+      "missing_imports": []
+    },
+    {
+      "id": "M096361",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.OperatorStablePiTensorPureKernelSpanStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M096480",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.PeriodicThetaNormMeanFactorLe",
+      "missing_imports": []
+    },
+    {
+      "id": "M096569",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ProdNBlockTriangular",
+      "missing_imports": []
+    },
+    {
+      "id": "M096637",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.QuadBaseChangeIsFieldOrSplit",
+      "missing_imports": []
+    },
+    {
+      "id": "M096717",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.RealIsotropicOrOneClass",
+      "missing_imports": []
+    },
+    {
+      "id": "M096894",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.RightConvEqSmulOfInnerTranslates",
+      "missing_imports": []
+    },
+    {
+      "id": "M096909",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.RootExchangeSupportAndFourierRelation",
+      "missing_imports": []
+    },
+    {
+      "id": "M097044",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.SchwartzBruhatMatrixExistsOpenAddSubgroupInvaria",
+      "missing_imports": []
+    },
+    {
+      "id": "M097203",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ShuffleCountLinearIndependentClassesStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M097226",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.SimpleTensorProductOperatorStableCountableStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M097266",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.SmulInvariantMeasureShearedProductPairGroupStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M097484",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.SupLatticeLocalisationOfUnitBall",
+      "missing_imports": []
+    },
+    {
+      "id": "M098042",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnipotentRadicalBasic",
+      "missing_imports": []
+    },
+    {
+      "id": "M098082",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnitaryCharacterKillsUnitaryTransvections",
+      "missing_imports": []
+    },
+    {
+      "id": "M098097",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.UnitaryGeneratedByQuasiReflectionsAndWitt",
+      "missing_imports": []
+    },
+    {
+      "id": "M098456",
+      "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.ZetaEulerProductNeZeroOneAddMulI",
+      "missing_imports": []
+    },
+    {
+      "id": "M098912",
+      "module": "Development.AbelianVarietyTheory.Proofs.UniformizationProofs.FlatCokerOfComplexExactModMaximalIdeal",
+      "missing_imports": []
+    },
+    {
+      "id": "M099335",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.AdelicCompletionFractionalIdealPropertiesStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M099428",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.DetCharacterReductionInvariantStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M099460",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsAdeleRingTensorEquivInfiniteProdFiniteStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M099549",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsIdempotentIsUnitOneAddOrSubAdeleStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M099557",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.ExistsIntegralUnitRootNormOneAdele",
+      "missing_imports": []
+    },
+    {
+      "id": "M099726",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.FiniteAdeleStrongApproximationModNat",
+      "missing_imports": []
+    },
+    {
+      "id": "M099827",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.IntegralFiniteAdeleCompleteSeparated",
+      "missing_imports": []
+    },
+    {
+      "id": "M099838",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.InvariantProbabilityLatticeQuotientUniqueStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M099904",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.LintegralUnfoldArithmeticQuotientDoubleCosetsStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M099921",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnitaryExistence.MemAdelicCompletionPseudoBasisIffStatement",
+      "missing_imports": []
+    },
+    {
+      "id": "M100170",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ConstantCoeffSubst",
+      "missing_imports": []
+    },
+    {
+      "id": "M100182",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.DetFrobeniusSubPowSupport",
+      "missing_imports": []
+    },
+    {
+      "id": "M100239",
+      "module": "Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.ExistsFiniteDvrExtensionEmbeddingResidueField",
+      "missing_imports": []
+    }
+  ],
+  "pruned": [
+    "M093706",
+    "M093913",
+    "M094360",
+    "M094476",
+    "M096591",
+    "M096904",
+    "M096918",
+    "M097255"
+  ]
+}
