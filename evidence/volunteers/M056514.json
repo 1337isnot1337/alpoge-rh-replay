@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M056514"
+  ],
+  "started_utc": "2026-11-21T09:32:25.576682+00:00",
+  "ended_utc": "2026-11-21T09:32:36.054374+00:00",
+  "elapsed_seconds": 10.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6877864
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.WittVectorExistsUniqueSubMatrixFrobeniusEqStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "66b31898dca565236d30163ed3733bc58382072beb2958e125b7db0f5fbe1684",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.WittVectorExistsUniqueSubMatrixFrobeniusEq"
+  ],
+  "objects": {
+    "M056514": "0222ceab4c85f91d67bc84f5960b5b8d4cdc47e5497a9f4092a5c0b41b90007f"
+  },
+  "bundle_sha256": "4f4d4fa5d71e044034aa20fd83869fcf5e1b533d2566829d19f8c0805aa9f009",
+  "packet": "M056514",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18939#issuecomment-7060650146",
+  "reviewed_utc": "2026-11-22T07:41:41.990081+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.WittVectorExistsUniqueSubMatrixFrobeniusEqStatement"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M016857"
+  ],
+  "started_utc": "2026-11-21T09:11:39.569771+00:00",
+  "ended_utc": "2026-11-21T09:11:49.584015+00:00",
+  "elapsed_seconds": 10.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6852356
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardFiberDoubleCosetMapEqCardInfConjStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "cd7fa394f9daab6cc205ada2a9285df0dfd7060cbb861cc959b305d9026695cc",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardFiberDoubleCosetMapEqCardInfConj"
+  ],
+  "objects": {
+    "M016857": "538a30e6ccbb5b9fa5ad98ff87a0961d023988dfa101efffe3fdd794e35a4696"
+  },
+  "bundle_sha256": "c33431dff7c510d28b3054e01b9d0db5c9aadd7e50f911cfd176550e2f6d9579",
+  "packet": "M016857",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18541#issuecomment-7060410273",
+  "reviewed_utc": "2026-11-22T07:39:01.280112+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CardFiberDoubleCosetMapEqCardInfConjStatement"
+    ]
+  }
+}

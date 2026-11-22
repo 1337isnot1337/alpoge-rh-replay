@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M005489"
+  ],
+  "started_utc": "2026-11-21T09:11:51.847041+00:00",
+  "ended_utc": "2026-11-21T09:12:11.598910+00:00",
+  "elapsed_seconds": 19.8,
+  "host": {
+    "cpu_count": 64,
+    "mem_total_kib": 65772436,
+    "peak_child_rss_kib": 6797368
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsotropicBasisNonorthogonalTwoVectorsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "eae94b6d19bbde6083f503df9f86fbfd35c49f85c47a9d26b1064f15b6f47001",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M005489": "e3bfac031e86a50f7e34b6b236d13e3292029555a4158c9fe419072867e4fb33"
+  },
+  "bundle_sha256": "4e78bee3a1b9a635f2f494c78dfe1546d7ca4b0f0487caa8e02cfd651b988839",
+  "packet": "M005489",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18542#issuecomment-7060432297",
+  "reviewed_utc": "2026-11-22T07:39:02.449625+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsotropicBasisNonorthogonalTwoVectorsStatement"
+    ]
+  }
+}

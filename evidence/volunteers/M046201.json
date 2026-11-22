@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M046201"
+  ],
+  "started_utc": "2026-11-21T09:12:20.082743+00:00",
+  "ended_utc": "2026-11-21T09:12:29.429786+00:00",
+  "elapsed_seconds": 9.3,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5789880
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialMultipleInSubmoduleStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e8b18a7e4a0a496151bfe83fcf0abd799ce99eb65d6b9656973b214a2099229c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialMultipleInSubmodule"
+  ],
+  "objects": {
+    "M046201": "e7b86d057e8a97474e1aa4251318abb08fc8f31096f3148f45dddbb0c36fa396"
+  },
+  "bundle_sha256": "0dff10aec0cb650a15a223a2424c95e8257d99f46144b981a7c845b086a34d53",
+  "packet": "M046201",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18586#issuecomment-7060417901",
+  "reviewed_utc": "2026-11-22T07:39:23.651723+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PolynomialMultipleInSubmoduleStatement"
+    ]
+  }
+}

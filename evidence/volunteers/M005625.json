@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M005625"
+  ],
+  "started_utc": "2026-11-21T09:17:30.503768+00:00",
+  "ended_utc": "2026-11-21T09:17:42.658165+00:00",
+  "elapsed_seconds": 12.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6657956
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.GramMinorSwapAdjacentColumnsStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8411d0536b5babf6fb94023ee7df2070631c88698c93018d6a8331e3e61c747c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.GramMinorSwapAdjacentColumns"
+  ],
+  "objects": {
+    "M005625": "845f8747390c6a8ad5e89f335a6f084ea55a59625ab787eee5331cb2898b465a"
+  },
+  "bundle_sha256": "d18eeccc11293df71660c7a3b1a24449b789e080911715cb42ba28af59daed61",
+  "packet": "M005625",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18705#issuecomment-7060479078",
+  "reviewed_utc": "2026-11-22T07:39:53.261792+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.GramMinorSwapAdjacentColumnsStatement"
+    ]
+  }
+}

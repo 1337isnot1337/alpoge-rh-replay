@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M028881"
+  ],
+  "started_utc": "2026-11-21T09:13:09.387664+00:00",
+  "ended_utc": "2026-11-21T09:13:20.680095+00:00",
+  "elapsed_seconds": 11.3,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6868792
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsRootOfUnitZeroDimensional:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "34e213abc9ff1a54af95ca11a96bcb3764bafcbbe42dcf95f7c6fd4743353c95",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PicEqOneOfForallPrimeMaximal"
+  ],
+  "objects": {
+    "M028881": "8cabcf5f8625dc8019c57918588b4765a2c95ff4c8f355301511b92ad79fabbd"
+  },
+  "bundle_sha256": "fca080bf6911d7b1bea171925aaaeeb1e53caffe0e01cf3a8d6a3166f533245f",
+  "packet": "M028881",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18567#issuecomment-7060427862",
+  "reviewed_utc": "2026-11-22T07:39:09.667153+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsRootOfUnitZeroDimensional"
+    ]
+  }
+}

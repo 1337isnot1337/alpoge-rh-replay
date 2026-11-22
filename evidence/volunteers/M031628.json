@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M031628"
+  ],
+  "started_utc": "2026-11-21T09:02:17.439986+00:00",
+  "ended_utc": "2026-11-21T09:02:28.406992+00:00",
+  "elapsed_seconds": 11.0,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5732904
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankIntEqFinrankRingOfIntegersMulStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "fa20895a4fd4dc0c2b01e541586aeb9aebe574125d881808cd4e25fe3e95f2da",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankIntEqFinrankRingOfIntegersMul"
+  ],
+  "objects": {
+    "M031628": "5a0fa0c9524fda9d87f2598c002787e99af11380b19ac25b3296fa308139c508"
+  },
+  "bundle_sha256": "49ad669b876b5c6a771b33bc37316c35eb70576885bb7229b32a15702f4104fb",
+  "packet": "M031628",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18431#issuecomment-7060308251",
+  "reviewed_utc": "2026-11-22T07:37:53.945521+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FinrankIntEqFinrankRingOfIntegersMulStatement"
+    ]
+  }
+}

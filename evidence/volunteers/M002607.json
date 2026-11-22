@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M002607"
+  ],
+  "started_utc": "2026-11-21T09:11:02.169964+00:00",
+  "ended_utc": "2026-11-21T09:11:13.125042+00:00",
+  "elapsed_seconds": 11.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6861880
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.GL2CharacterZeros:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "f43f331c4da68ed1bec98e5d9b0116c6eae2c04b7d831f19c36566ba37ba0086",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace"
+  ],
+  "objects": {
+    "M002607": "bce37141ec0378282a38feaa34fce3553c87800e25cc4585588b2c1a54dbc306"
+  },
+  "bundle_sha256": "56ada0d81f7a362723c3198fcedb11f4da059ad4e7e76f69967205e6251493e0",
+  "packet": "M002607",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18539#issuecomment-7060403624",
+  "reviewed_utc": "2026-11-22T07:39:00.208759+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.BlockTheory.TorsionBlocks.GL2CharacterZeros"
+    ]
+  }
+}

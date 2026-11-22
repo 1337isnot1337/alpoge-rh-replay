@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M129153"
+  ],
+  "started_utc": "2026-11-21T09:00:46.922810+00:00",
+  "ended_utc": "2026-11-21T09:01:04.120157+00:00",
+  "elapsed_seconds": 17.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6644260
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.ExistsFlagDegreeOnePolys:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "59ffed12ec26eb585b7b4ff0cb888ce102a79879813be8e98fc37aa5e15713fe",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Definitions.DivisibilityTowers.CompactGapsGE",
+    "Development.WeilBound.CoreStatements.FlagImmersions.ExistsDegreeOneClass"
+  ],
+  "objects": {
+    "M129153": "3296ab142040291b607fc5fe989b46048f01f7c3e153e1de49c6fca9fafaacda"
+  },
+  "bundle_sha256": "a3bcead7e99e50dbf81e8fe82844d53dfe5f4920ed62e987c34811ad6fb119c3",
+  "packet": "M129153",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18396#issuecomment-7060295156",
+  "reviewed_utc": "2026-11-22T07:37:22.356020+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AutomorphicSpectrum.Proofs.DivisibilityProofs.ExistsFlagDegreeOnePolys"
+    ]
+  }
+}

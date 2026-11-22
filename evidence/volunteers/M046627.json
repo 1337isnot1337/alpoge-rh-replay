@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M046627"
+  ],
+  "started_utc": "2026-11-21T09:09:55.448044+00:00",
+  "ended_utc": "2026-11-21T09:10:06.163712+00:00",
+  "elapsed_seconds": 10.7,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5776852
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdClassGroupMk0EqOfLinearEquivPiStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e09a3f6f5aa84e76d88e29d7c34abd5bd4f83b3696939d2efeb4720d0ab1fd1f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdClassGroupMk0EqOfLinearEquivPi"
+  ],
+  "objects": {
+    "M046627": "7fc8434d571806f27e893af22ed747e9fa03a7b9bf695e51750430d43795cbc6"
+  },
+  "bundle_sha256": "2fdac59ca6d316bade753fc8861b791ddcb663526548185c6ecb3baa3203774e",
+  "packet": "M046627",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18517#issuecomment-7060395591",
+  "reviewed_utc": "2026-11-22T07:38:42.498230+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ProdClassGroupMk0EqOfLinearEquivPiStatement"
+    ]
+  }
+}

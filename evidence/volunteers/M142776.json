@@ -1,0 +1,41 @@
+{
+  "tasks": [
+    "M142776"
+  ],
+  "started_utc": "2026-11-21T09:07:22.816925+00:00",
+  "ended_utc": "2026-11-21T09:07:31.294852+00:00",
+  "elapsed_seconds": 8.5,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6703672
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.PolynomialDerivatives.BoxLeFirstFamily:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3e939d7cc4cdbe28fb18352382ae41ffbf1e3020969dd58932936b2cf892c6d5",
+  "rebuilt_project_modules": [],
+  "objects": {
+    "M142776": "a4556ec2ac1fa09881dea64ae328fedc982a66af1f29d53e3bcbabdd1e2c4f01"
+  },
+  "bundle_sha256": "eebf08310bba4faf9ff3b8a0eaa39618f3aba41e0d1236ca8fa655f289ef727d",
+  "packet": "M142776",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18502#issuecomment-7060363630",
+  "reviewed_utc": "2026-11-22T07:38:27.792030+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.WeilBound.RepresentationTheoryGL.SiegelWeilProof.HolomorphicContinuation.PolynomialDerivatives.BoxLeFirstFamily"
+    ]
+  }
+}

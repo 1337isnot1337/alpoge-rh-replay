@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M121324"
+  ],
+  "started_utc": "2026-11-21T09:01:58.580572+00:00",
+  "ended_utc": "2026-11-21T09:02:15.165012+00:00",
+  "elapsed_seconds": 16.6,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6773536
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ChangeVariablesZeroCountStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "66418d49624ebb961b099d43291749262711ef9661e534ac408c439decc25f2a",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.CovolumeBounds.IntegrableMonomialMulConjComplexGaussian",
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ChangeVariablesZeroCount"
+  ],
+  "objects": {
+    "M121324": "e39708304e54662b9d7ca518c6adf3ebbccbaebece833170842699b923e9c2cc"
+  },
+  "bundle_sha256": "27656c41ecaaa0cabea5cdffae48be1c1f9aa869eea66ba854aa1097cd4fc243",
+  "packet": "M121324",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18425#issuecomment-7060305335",
+  "reviewed_utc": "2026-11-22T07:37:48.667934+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.ChangeVariablesZeroCountStatement"
+    ]
+  }
+}

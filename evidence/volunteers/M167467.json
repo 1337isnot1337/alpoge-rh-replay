@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M167467"
+  ],
+  "started_utc": "2026-11-21T09:06:03.225895+00:00",
+  "ended_utc": "2026-11-21T09:06:17.375325+00:00",
+  "elapsed_seconds": 14.1,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6699252
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.StatementsFlagIntMuOne:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "c8ea266992aa826e2bb51318284a5a9941a62c5fbc0c8ba03de6d7577fdac94d",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.PermFinTwoUniv",
+    "GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.StatementsGrassProdGeomDeg"
+  ],
+  "objects": {
+    "M167467": "f7c311a5ecb8a13dc807772d1043eb5f901f8f0d783a55286289d3e6351b24ab"
+  },
+  "bundle_sha256": "94737c1938af2c523ca450dda122971faf7d374c0bffd4e607130fd343ee29f0",
+  "packet": "M167467",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18474#issuecomment-7060353424",
+  "reviewed_utc": "2026-11-22T07:38:09.710057+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.StatementsFlagIntMuOne"
+    ]
+  }
+}

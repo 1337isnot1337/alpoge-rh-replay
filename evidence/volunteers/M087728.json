@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    "M087728"
+  ],
+  "started_utc": "2026-11-21T09:19:53.768333+00:00",
+  "ended_utc": "2026-11-21T09:20:16.773570+00:00",
+  "elapsed_seconds": 23.0,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16377412,
+    "peak_child_rss_kib": 6729664
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.SatakeParameters.FinrankGroupCohomologyFunRep:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "9c0ab84bfa66d99ab5cdd1d8f3fcbf7dddb686f625606eecb4c5e6f784985814",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.GlobalTwisting.BasicForm",
+    "GroundTheory.ProfiniteCohomology.FilteredHomology",
+    "GroundTheory.ProfiniteCohomology.GlobalClassFormation.IdeleCohomology.Product"
+  ],
+  "objects": {
+    "M087728": "69a200c769224a8aeb49a7d85815a360e226732146c71f36adac48e83d9b4f53"
+  },
+  "bundle_sha256": "71e7f7fd9d060be50226192e9a01ad79fdb9071e250a12a71b5fa094b1a3d737",
+  "packet": "M087728",
+  "contributor": "maugomez77",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18721#issuecomment-7060594921",
+  "reviewed_utc": "2026-11-22T07:39:56.875026+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.SatakeParameters.FinrankGroupCohomologyFunRep"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "tasks": [
+    "M168696"
+  ],
+  "started_utc": "2026-11-21T09:29:55.653090+00:00",
+  "ended_utc": "2026-11-21T09:40:46.136042+00:00",
+  "elapsed_seconds": 650.5,
+  "host": {
+    "cpu_count": 24,
+    "mem_total_kib": 24607688,
+    "peak_child_rss_kib": 6937460
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.LatticeLemmas.StatementsBundles:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "2ffe949374842553ef11f5087d7fb5745ae2858d2635e6cb2c17527cde9a306f",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ArithDegree",
+    "GroundTheory.HeightsAndTheta.Heights.ArithDegreeExact",
+    "GroundTheory.HeightsAndTheta.Heights.ArithDegreeIdeal",
+    "GroundTheory.HeightsAndTheta.Heights.HeightsOfSets.Slopes",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianDual",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianEuclidean",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianLattice",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianSum",
+    "GroundTheory.HeightsAndTheta.Heights.HermitianTensor"
+  ],
+  "objects": {
+    "M168696": "878fafb21909865d61b4bf38c6cc1890cd2ba1f3f52ca913cc13768afdc24df6"
+  },
+  "bundle_sha256": "04d7c1eb0e25fc1232c09ef4f36f746ccbf91da5e48939d5077687518a885da7",
+  "packet": "M168696",
+  "contributor": "dga471",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18917#issuecomment-7060737785",
+  "reviewed_utc": "2026-11-22T07:41:25.037252+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "GroundTheory.HeightsAndTheta.Heights.LatticeLemmas.StatementsBundles"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M033002"
+  ],
+  "started_utc": "2026-11-21T09:14:58.440596+00:00",
+  "ended_utc": "2026-11-21T09:15:20.372568+00:00",
+  "elapsed_seconds": 21.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6989556
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeAwayMulOfFiniteType:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "d877280668d9e66baea0f1bef9e99019f36a2911c8bd7d72b1c55d622506d53c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.ExistsPowSmulMemRangeOfSurjectiveBaseChange"
+  ],
+  "objects": {
+    "M033002": "bb0af545bc64c788131a1073c870fa25f2202fb9812ab15d1944ad3d35626db8"
+  },
+  "bundle_sha256": "25dc903a56334fb6e9e1182611046a1ee7ef413511bd0e48dfdac63cd72dd593",
+  "packet": "M033002",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18571#issuecomment-7060449637",
+  "reviewed_utc": "2026-11-22T07:39:14.328138+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FreeAwayMulOfFiniteType"
+    ]
+  }
+}

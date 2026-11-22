@@ -1,0 +1,45 @@
+{
+  "tasks": [
+    "M164346"
+  ],
+  "started_utc": "2026-11-21T09:28:37.951365+00:00",
+  "ended_utc": "2026-11-21T09:28:57.581401+00:00",
+  "elapsed_seconds": 19.6,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16377412,
+    "peak_child_rss_kib": 6728072
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PRootSumHolomorphic:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "39ea6af1f0283feb514d27ed83d4d81e3a46eaef84cdaafbd47e6705587cc502",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PSimpleRootBranch",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StRootSumHolomorphic",
+    "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSimpleRootBranch"
+  ],
+  "objects": {
+    "M164346": "431382b67e9d97ef2050e1877b9faadbf65ab6a018e2c4bcc27b59f66a1d6332"
+  },
+  "bundle_sha256": "37f01de9e58d15f12bf7fabe554b9eab6e52d2073f7c876581b7b533b8ce2168",
+  "packet": "M164346",
+  "contributor": "maugomez77",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18839#issuecomment-7060686283",
+  "reviewed_utc": "2026-11-22T07:40:40.251511+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PRootSumHolomorphic"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M163718"
+  ],
+  "started_utc": "2026-11-21T09:10:03.309564+00:00",
+  "ended_utc": "2026-11-21T09:10:25.799696+00:00",
+  "elapsed_seconds": 22.5,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 16423848,
+    "peak_child_rss_kib": 6898872
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.SphereMean:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "95ea5e74fcb96efea473b745fe6c950bcfad9df75b8aca299038a7e7a899b0da",
+  "rebuilt_project_modules": [
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.SphereMeanDisc",
+    "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.SphereMeanSlice"
+  ],
+  "objects": {
+    "M163718": "3b47819488624c34a5572c666e37429b56bb21958fdd842daf8877da144c02a4"
+  },
+  "bundle_sha256": "693c0c836981fbab45c1e3517b55bcd682cc2ecd3e29c773be2a002d27005af4",
+  "packet": "M163718",
+  "contributor": "nicu-chiciuc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18522#issuecomment-7060399445",
+  "reviewed_utc": "2026-11-22T07:38:46.020747+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.SphereMean"
+    ]
+  }
+}

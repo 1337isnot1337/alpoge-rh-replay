@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M031489"
+  ],
+  "started_utc": "2026-11-21T09:14:41.349317+00:00",
+  "ended_utc": "2026-11-21T09:14:51.231499+00:00",
+  "elapsed_seconds": 9.9,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6850680
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteSublevelOfIntQuadraticGeOneStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "917b03ef9de3e521f143eff6dc1ad861c8a4e8728aeeedb11f6542d8fad9c981",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteSublevelOfIntQuadraticGeOne"
+  ],
+  "objects": {
+    "M031489": "c4bddc5f5eb78d96a64076575e9504c9ddb186cf5d085a984ba94db239091b7c"
+  },
+  "bundle_sha256": "74b55cdc400f747a654f773ffbb7c7aa335332a466e5def0c4ac1e8d42a3405b",
+  "packet": "M031489",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18568#issuecomment-7060444173",
+  "reviewed_utc": "2026-11-22T07:39:10.792541+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.FiniteSublevelOfIntQuadraticGeOneStatement"
+    ]
+  }
+}

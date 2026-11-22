@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M040473"
+  ],
+  "started_utc": "2026-11-21T09:24:46.107069+00:00",
+  "ended_utc": "2026-11-21T09:24:56.498343+00:00",
+  "elapsed_seconds": 10.4,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6847216
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.LaurentSeriesAdaptedBasisCoordsVanishBeyondFinraStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "baa11c9424da2f427796fbe075783f1a222584f6bf1c84a909878729ebe9590c",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LaurentSeriesAdaptedBasisCoordsVanishBeyondFinra"
+  ],
+  "objects": {
+    "M040473": "07e1f0c4c1da94f96112ce75425308c874988dec862e82262d41a4e9db0f0e89"
+  },
+  "bundle_sha256": "a63efc5f5d2a54f5084a0d4ec58daeec1de91fbfa055d8602a06c9bec835e9a3",
+  "packet": "M040473",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18816#issuecomment-7060554412",
+  "reviewed_utc": "2026-11-22T07:40:18.075285+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.LaurentSeriesAdaptedBasisCoordsVanishBeyondFinraStatement"
+    ]
+  }
+}

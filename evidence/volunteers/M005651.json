@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M005651"
+  ],
+  "started_utc": "2026-11-21T09:22:43.219438+00:00",
+  "ended_utc": "2026-11-21T09:22:56.286111+00:00",
+  "elapsed_seconds": 13.1,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6649020
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HilbertFinitenessLeftInvariantMatrixPolyStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "5d5915d23ff628456617ef74853c383915975376f2f27e5c2bec4f63bca16ae4",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HilbertFinitenessLeftInvariantMatrixPoly"
+  ],
+  "objects": {
+    "M005651": "b68a653b8a6f3cbab2234165cc918f4a7d09f3051c8fca0a1aa5d907b223203e"
+  },
+  "bundle_sha256": "4764b64c27351878ebb96a76bb775924258bee50d272974193a931e356e986ff",
+  "packet": "M005651",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18810#issuecomment-7060533870",
+  "reviewed_utc": "2026-11-22T07:40:12.172235+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.HilbertFinitenessLeftInvariantMatrixPolyStatement"
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    "M152630"
+  ],
+  "started_utc": "2026-11-21T09:36:09.157534+00:00",
+  "ended_utc": "2026-11-21T09:36:28.338130+00:00",
+  "elapsed_seconds": 19.2,
+  "host": {
+    "cpu_count": 4,
+    "mem_total_kib": 16377408,
+    "peak_child_rss_kib": 6717212
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.LocalToGlobal.ThetaOperatorCommutation.RealTh:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6a07f47cfb4a7c774ab10b001153005accae4aff41dd7d6d01273e1c393d87b2",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.JointBlockShapes.JointShape",
+    "Formalism.PeriodIntegrals.JointBlockShapes.MinusPart",
+    "ReciprocityTheory.ThetaSummability.RealCoinvariants.CoinvSubLeComap",
+    "ReciprocityTheory.ThetaSummability.RealCoinvariants.GlRelZero"
+  ],
+  "objects": {
+    "M152630": "f14274476c4294a545a400582acd13847b28407886dd6bf91d44eebd9f4416a3"
+  },
+  "bundle_sha256": "5bfadc8ed707571329e7595b768a4a7fff1f5235a0a2d59e89ca58c67e7fe589",
+  "packet": "M152630",
+  "contributor": "maugomez77",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18945#issuecomment-7060779521",
+  "reviewed_utc": "2026-11-22T07:41:44.235113+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Formalism.LocalToGlobal.ThetaOperatorCommutation.RealTh"
+    ]
+  }
+}

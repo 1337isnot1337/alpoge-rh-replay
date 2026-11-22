@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M005477"
+  ],
+  "started_utc": "2026-11-21T08:55:17.267921+00:00",
+  "ended_utc": "2026-11-21T08:55:36.913503+00:00",
+  "elapsed_seconds": 19.6,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6622800
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsHermitianLogOfPosDefGramStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "8294f8d1428fdd14de580ac52e4eba85d032bac0fb7b548ac8ffad6083a0b334",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Definitions.AdelicHermitianForms.AdelicPair",
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsHermitianLogOfPosDefGram"
+  ],
+  "objects": {
+    "M005477": "4873e9ec688af7dba63a0cf8044a76c77eb8ce5e1dbfc0ec8700dc01e57e05a5"
+  },
+  "bundle_sha256": "de351d439a0c086b28e6e4204fa82d645b8d63916299988b5b2e19e193fc4f43",
+  "packet": "M005477",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18320#issuecomment-7060238801",
+  "reviewed_utc": "2026-11-22T07:36:43.084285+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsIsHermitianLogOfPosDefGramStatement"
+    ]
+  }
+}

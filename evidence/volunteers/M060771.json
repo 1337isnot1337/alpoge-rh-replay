@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M060771"
+  ],
+  "started_utc": "2026-11-21T09:24:21.955370+00:00",
+  "ended_utc": "2026-11-21T09:24:31.381855+00:00",
+  "elapsed_seconds": 9.4,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5739364
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.IsAdicCompleteOfFgOfNatCastMemStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "656b72c1005795df2d57161c841d9db7ac1c7c1a1e68f48e7385adb48d224213",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.IsAdicCompleteOfFgOfNatCastMem"
+  ],
+  "objects": {
+    "M060771": "5cdbf1f1a2c955fd458ff95df2c56e631da480fd8806270c5904eed70b2f1974"
+  },
+  "bundle_sha256": "058eee72633063ddffa66bc9f8c7e9b6c0b4d9c11d0b2e8ab0f846de5c53cafb",
+  "packet": "M060771",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18846#issuecomment-7060551250",
+  "reviewed_utc": "2026-11-22T07:40:47.375545+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.FormalGroupCharts.IsAdicCompleteOfFgOfNatCastMemStatement"
+    ]
+  }
+}

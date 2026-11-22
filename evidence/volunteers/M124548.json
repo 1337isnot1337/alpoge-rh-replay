@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M124548"
+  ],
+  "started_utc": "2026-11-21T08:57:35.156968+00:00",
+  "ended_utc": "2026-11-21T08:57:48.656797+00:00",
+  "elapsed_seconds": 13.5,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6622528
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IsComplNonZeroDivisor:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "6dca2f798160d35b1d0ab6b9a2afbee547c4da1f28ee7f2bd0a2b5f3efe79c31",
+  "rebuilt_project_modules": [
+    "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.NonZeroDivisorOfDenseOfStrict",
+    "Development.WeilBound.CoreStatements.PadicHodgeComparison.EtaleCohomologyComparison.WittExactSequences.IsCompl"
+  ],
+  "objects": {
+    "M124548": "0733bf95c66da3d4451ee7e8ea8062c0bdaf5239c826f9b931b12b5ff4d2de0d"
+  },
+  "bundle_sha256": "2564e01b9f61122f5f2d2789a63605e9b8523bb3c0607859ff6c13885e704664",
+  "packet": "M124548",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18351#issuecomment-7060259695",
+  "reviewed_utc": "2026-11-22T07:37:08.577023+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.IsComplNonZeroDivisor"
+    ]
+  }
+}

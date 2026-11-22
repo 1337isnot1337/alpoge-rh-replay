@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M035955"
+  ],
+  "started_utc": "2026-11-21T09:15:46.487345+00:00",
+  "ended_utc": "2026-11-21T09:15:56.534944+00:00",
+  "elapsed_seconds": 10.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6847200
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousComponentsOfConeIntegralEquationStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "38541e704c0ff57627f59000fbeeda02f42bfd64d869c838d5da367eba248a7f",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousComponentsOfConeIntegralEquation"
+  ],
+  "objects": {
+    "M035955": "2082e9aa262e9aa6a59159019957a8e624be255ee4be635a1dcb749164703306"
+  },
+  "bundle_sha256": "a10fcbccfcc36eb3030f593b126cb0c24123e61eaf24899bf8c6751c69f16b2e",
+  "packet": "M035955",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18569#issuecomment-7060456486",
+  "reviewed_utc": "2026-11-22T07:39:11.958824+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HomogeneousComponentsOfConeIntegralEquationStatement"
+    ]
+  }
+}

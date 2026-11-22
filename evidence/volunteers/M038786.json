@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M038786"
+  ],
+  "started_utc": "2026-11-21T09:16:03.871957+00:00",
+  "ended_utc": "2026-11-21T09:16:14.709160+00:00",
+  "elapsed_seconds": 10.8,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6871080
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPullbackAppOfIsBasisOpensStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "558dda77890ccd8ad63f7816162912f299ee8ed4be5d8aab5c096fe844817362",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPullbackAppOfIsBasisOpens"
+  ],
+  "objects": {
+    "M038786": "cbeccc1af3671d1ba12916bacdbf78bebd8f283759ad0c20eb82302f59148272"
+  },
+  "bundle_sha256": "3465233d0d1a520313140a1d751e758d2aa189b3a10f09e7712230c72cf24c61",
+  "packet": "M038786",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18572#issuecomment-7060459795",
+  "reviewed_utc": "2026-11-22T07:39:15.466202+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.IsPullbackAppOfIsBasisOpensStatement"
+    ]
+  }
+}

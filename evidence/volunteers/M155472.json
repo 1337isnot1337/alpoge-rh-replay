@@ -1,0 +1,44 @@
+{
+  "tasks": [
+    "M155472"
+  ],
+  "started_utc": "2026-11-21T09:27:53.351899+00:00",
+  "ended_utc": "2026-11-21T09:28:10.266304+00:00",
+  "elapsed_seconds": 16.9,
+  "host": {
+    "cpu_count": 6,
+    "mem_total_kib": 12236376,
+    "peak_child_rss_kib": 6781100
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.KFiniteSmoothVectors.Garding:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "e4b775d71a2fb27157014c26745febc7a438a537fbcb952762be85fc109a86ff",
+  "rebuilt_project_modules": [
+    "Formalism.PeriodIntegrals.KFinSmooth",
+    "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.KFiniteSmoothVectors.UnitaryModelOfMultiplicityGardingDensity"
+  ],
+  "objects": {
+    "M155472": "4ec81870d645d45fc4bea608e2c84fa4821b14a0d2533ec532477e530ceddd6c"
+  },
+  "bundle_sha256": "0ec885027eba5119e2f7dacdc93635376461cc7d2a1c13c195130f56e0c026ca",
+  "packet": "M155472",
+  "contributor": "amrehan",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18880#issuecomment-7060596122",
+  "reviewed_utc": "2026-11-22T07:41:14.618777+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.KFiniteSmoothVectors.Garding"
+    ]
+  }
+}

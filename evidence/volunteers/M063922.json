@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M063922"
+  ],
+  "started_utc": "2026-11-21T09:07:29.089137+00:00",
+  "ended_utc": "2026-11-21T09:07:40.071673+00:00",
+  "elapsed_seconds": 11.0,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5743808
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.FoundationProofs.TensorProductNondegeneratePairingStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1c93d719f75ee9667790aa2f7d378ad4d85f7b6f6380d72727d05584fc76c795",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.FoundationProofs.TensorProductNondegeneratePairing"
+  ],
+  "objects": {
+    "M063922": "d51fa05391e6c1032b71d0b807443ee335956243ac20195e525d2acfb2acb982"
+  },
+  "bundle_sha256": "97fd2f18704e8379013e289840cdce29cb65204229e56650503f4bab4508c690",
+  "packet": "M063922",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18506#issuecomment-7060364987",
+  "reviewed_utc": "2026-11-22T07:38:32.310393+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.FoundationProofs.TensorProductNondegeneratePairingStatement"
+    ]
+  }
+}

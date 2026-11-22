@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M030121"
+  ],
+  "started_utc": "2026-11-21T09:14:02.640357+00:00",
+  "ended_utc": "2026-11-21T09:14:16.191973+00:00",
+  "elapsed_seconds": 13.6,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6896464
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnimodularPosDefAdjointAction:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3faed6efd9a01f72a4127e096d6a7493c74f1b51d6961ae044abfec58b195de6",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsIntMatrixTransposeMulEqSmulOne"
+  ],
+  "objects": {
+    "M030121": "d8c888e96a0c4e1546472a1c392a31b21b4cac3f10cfa06e6a92b7ebb452d057"
+  },
+  "bundle_sha256": "f60c4652cec1c0bf8c47b782740fb1b4bbc338b002f2d25388371ff9bb67c44c",
+  "packet": "M030121",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18566#issuecomment-7060437963",
+  "reviewed_utc": "2026-11-22T07:39:08.452607+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsUnimodularPosDefAdjointAction"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M005756"
+  ],
+  "started_utc": "2026-11-21T09:29:23.185682+00:00",
+  "ended_utc": "2026-11-21T09:29:30.092968+00:00",
+  "elapsed_seconds": 6.9,
+  "host": {
+    "cpu_count": 16,
+    "mem_total_kib": 16423848,
+    "peak_child_rss_kib": 6811300
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MinNormTensorStabilizerConjTransposeInvariantStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "de0ebc0efdce22b26db2587ab5839cf5a358c5082321616fd7af03bcad24e941",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MinNormTensorStabilizerConjTransposeInvariant"
+  ],
+  "objects": {
+    "M005756": "c8d445ac6f23f796d45984eec42659ae857e1adfd589b4c4726ce14b3834293e"
+  },
+  "bundle_sha256": "28debb52c7ce365877d84bf8dc9c7344563f86f504577fd2330d5d5909c44660",
+  "packet": "M005756",
+  "contributor": "nicu-chiciuc",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18895#issuecomment-7060607619",
+  "reviewed_utc": "2026-11-22T07:41:20.561777+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MinNormTensorStabilizerConjTransposeInvariantStatement"
+    ]
+  }
+}

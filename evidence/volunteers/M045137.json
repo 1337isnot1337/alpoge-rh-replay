@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M045137"
+  ],
+  "started_utc": "2026-11-21T09:22:34.548570+00:00",
+  "ended_utc": "2026-11-21T09:22:46.093098+00:00",
+  "elapsed_seconds": 11.5,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5645252
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.PAdicEmbeddingsSameNormConjugateStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "896be1a6e894e68311a7facc5481787bf4cee04e7f9403b0df82510d52ee00ea",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PAdicEmbeddingsSameNormConjugate"
+  ],
+  "objects": {
+    "M045137": "1b0018bafdde017536e4a4f9a1f9341a48673ebb0f3798370f1c3b581abb94a8"
+  },
+  "bundle_sha256": "1f55d0d6c5424cadc734f174c345afb4a63018ecac2e4a069ff8a013e9e4baab",
+  "packet": "M045137",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18809#issuecomment-7060532713",
+  "reviewed_utc": "2026-11-22T07:40:10.987457+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.PAdicEmbeddingsSameNormConjugateStatement"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M164832"
+  ],
+  "started_utc": "2026-11-21T08:57:46.498199+00:00",
+  "ended_utc": "2026-11-21T08:58:15.568170+00:00",
+  "elapsed_seconds": 29.1,
+  "host": {
+    "cpu_count": 10,
+    "mem_total_kib": 16424796,
+    "peak_child_rss_kib": 6790708
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSliceBranchInt:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "3242941be2265bf3c6660dfb3fdac55a3e0e7ced69c3ffc0ee10a26ea4e12181",
+  "rebuilt_project_modules": [
+    "ReciprocityTheory.AnalyticForms.PlurisubharmonicFunctions.GreenOfPoincareLelongHyperplane"
+  ],
+  "objects": {
+    "M164832": "6c882b4cef135ae361b1fc8016e346799d6e4b8f8d451129a0d51d996d426a27"
+  },
+  "bundle_sha256": "297594b7d9bbe8518786eb478be11c9209bd8c1db7c22a49637855271e7b1dc6",
+  "packet": "M164832",
+  "contributor": "jdenwood",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18348#issuecomment-7060264154",
+  "reviewed_utc": "2026-11-22T07:37:05.137177+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.StSliceBranchInt"
+    ]
+  }
+}

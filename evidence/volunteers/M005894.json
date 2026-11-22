@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M005894"
+  ],
+  "started_utc": "2026-11-21T09:22:43.935981+00:00",
+  "ended_utc": "2026-11-21T09:22:57.183293+00:00",
+  "elapsed_seconds": 13.2,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6664692
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TensorSLOrbitMapProperOfIsClosedStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "66e2a5cf20733728078f86476de70c8a5d43f2a7c70d9df9631db20b9244f417",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TensorSLOrbitMapProperOfIsClosed"
+  ],
+  "objects": {
+    "M005894": "c34e33f15af8002a71422bb8b929f1d1c7f48dec14e3dd6e67aed51d2bf263bf"
+  },
+  "bundle_sha256": "fc6595b4d5c9337b528d25748ab4a1397ae3159d0ba9b47f65945ba3ad440e5c",
+  "packet": "M005894",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18821#issuecomment-7060535256",
+  "reviewed_utc": "2026-11-22T07:40:23.779922+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.TensorSLOrbitMapProperOfIsClosedStatement"
+    ]
+  }
+}

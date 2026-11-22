@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M044987"
+  ],
+  "started_utc": "2026-11-21T09:25:36.953892+00:00",
+  "ended_utc": "2026-11-21T09:25:47.989803+00:00",
+  "elapsed_seconds": 11.0,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6878768
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.OrbitMassFormulaFiniteIndexSubgroupStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b9543d15232a72f549ab341d45be70ee51d80451e18085de11d143ae189e2851",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.OrbitMassFormulaFiniteIndexSubgroup"
+  ],
+  "objects": {
+    "M044987": "f4eaa77dc2beca837871b23472eb101943e49c9d68c124223f955bab01e92d96"
+  },
+  "bundle_sha256": "168a2ee489de8395344c8808f7ede8b550b5a9366cee9d8f2f15b5ededb76737",
+  "packet": "M044987",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18826#issuecomment-7060564083",
+  "reviewed_utc": "2026-11-22T07:40:29.262658+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.OrbitMassFormulaFiniteIndexSubgroupStatement"
+    ]
+  }
+}

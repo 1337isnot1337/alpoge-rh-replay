@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M005442"
+  ],
+  "started_utc": "2026-11-21T09:17:05.928301+00:00",
+  "ended_utc": "2026-11-21T09:17:21.807771+00:00",
+  "elapsed_seconds": 15.9,
+  "host": {
+    "cpu_count": 8,
+    "mem_total_kib": 16349216,
+    "peak_child_rss_kib": 6632988
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsCommonDenominatorNilpotentCoboundary:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "4cde28f36cee7fd0500ff0e8768322db97c6805c7655338db5772d8e66502db0",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.MemRangeAlgebraMapOfIsNilpotentTmulSub"
+  ],
+  "objects": {
+    "M005442": "3a6b39e35c134a536989d07062bbe88912b2dae85c1e48bf0568e3aa9ffde053"
+  },
+  "bundle_sha256": "b75fb97692ef9612ce6168d139c21831dd9617d9557c3b48152bf9c2d1aa6d55",
+  "packet": "M005442",
+  "contributor": "zediir",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18688#issuecomment-7060477698",
+  "reviewed_utc": "2026-11-22T07:39:44.164122+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.AdelicLatticeProofs.ExistsCommonDenominatorNilpotentCoboundary"
+    ]
+  }
+}

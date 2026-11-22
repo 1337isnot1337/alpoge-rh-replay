@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M021052"
+  ],
+  "started_utc": "2026-11-21T09:12:14.729644+00:00",
+  "ended_utc": "2026-11-21T09:12:25.237938+00:00",
+  "elapsed_seconds": 10.5,
+  "host": {
+    "cpu_count": 12,
+    "mem_total_kib": 61594916,
+    "peak_child_rss_kib": 6855332
+  },
+  "toolchain": "Lean (version 4.33.1, x86_64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetBlockChangeOfBasisViaTwoFamiliesImplicitStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "1776f3cf6b0a3593ae6703cb9507d234c45df03c9c538d0018b850cdb0082cbc",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetBlockChangeOfBasisViaTwoFamiliesImplicit"
+  ],
+  "objects": {
+    "M021052": "51ed5d14dfdb89fa5844f8f78a81049a8b46649b1ad1573616444d1a130adf7c"
+  },
+  "bundle_sha256": "f5f8620e1764eabdba2b2c30369008ba9b5c5a0d7e967d986806c73204178fa5",
+  "packet": "M021052",
+  "contributor": "HITEYY",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18538#issuecomment-7060416930",
+  "reviewed_utc": "2026-11-22T07:38:59.082222+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44998286407",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.DetBlockChangeOfBasisViaTwoFamiliesImplicitStatement"
+    ]
+  }
+}
