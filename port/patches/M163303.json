@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.SemilocalAlgebras.Infinite",
+  "source_sha256": "af307ca65a6cd95f63e1a9782fc53d9709b5528354edc96381251e1c62c91e52",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Unfold the completion algebra map in tensor product evaluations.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}

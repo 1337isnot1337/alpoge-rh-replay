@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/GlobalFields/AnalyticClassNumber/QuadraticHurwitzZero.lean
++++ b/src/GroundTheory/GlobalFields/AnalyticClassNumber/QuadraticHurwitzZero.lean
+@@ -232,7 +232,7 @@
+     norm_num
+   refine hf.eqOn_of_preconnected_of_eventuallyEq hg (convex_ball _ _).isPreconnected h2 ?_ hs
+   filter_upwards [(isOpen_lt continuous_const Complex.continuous_re).mem_nhds
+-    (show (1 : ℝ) < (2 : ℂ).re by norm_num)] with z hz
++    (show (2 : ℂ) ∈ {z : ℂ | (1 : ℝ) < z.re} by norm_num)] with z hz
+   exact (hasSum_hurwitzCombTerm hx0.le hx1.le hz).tsum_eq
+ 
+ theorem hurwitzZeta_one_zero : hurwitzZeta ((1 : ℝ) : UnitAddCircle) 0 = -1 / 2 := by

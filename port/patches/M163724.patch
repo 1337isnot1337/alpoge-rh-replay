@@ -1,0 +1,17 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/ArithmeticBezout/Statements.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/ArithmeticBezout/Statements.lean
+@@ -273,12 +273,12 @@
+   rw [X_dvd_iff_modMonomial_eq_zero]
+   constructor
+   · intro h
+-    have h0 := congrArg (coeff 0) h
++    have h0 := congrArg (fun p => p.coeff 0) h
+     rw [coeff_modMonomial_of_not_le _ (by simp)] at h0
+     simpa [constantCoeff_eq] using h0
+   · intro h
+     ext s
+-    rw [coeff_zero]
++    rw [MvPolynomial.coeff_zero]
+     by_cases hs : Finsupp.single ((0 : Fin 1), (0 : Fin 1)) 1 ≤ s
+     · exact coeff_modMonomial_of_le _ hs
+     · rw [coeff_modMonomial_of_not_le _ hs]

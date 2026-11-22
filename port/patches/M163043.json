@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.Artin.LogCharpoly",
+  "source_sha256": "892c0a87cb91f0106f06928e26b72dca9851b5338e8295465dbc9e64b7b7cf19",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the current power series derivative arguments.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}

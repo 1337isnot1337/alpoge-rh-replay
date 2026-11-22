@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.ZeroLocusDimHAlg",
+  "source_sha256": "1076e0eb761f04db276cdcd5edc06e5f5aeb7fb1f3d9460ed85b8a03334dddb1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Unfold ideal contraction before rewriting the kernel.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}

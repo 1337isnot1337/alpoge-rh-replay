@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ArithmeticBezout.Statements",
+  "source_sha256": "1ca22aba20d153dd99591291d480746c26f14cb8d420baced7d300ad0fdd59c9",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the polynomial-first coefficient API in the divisibility proof.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}

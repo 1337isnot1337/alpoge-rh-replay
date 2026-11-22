@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.LocallyProfinite",
+  "source_sha256": "682197845214748526dacb132bf68bc0c6771e708f7de3ea01020b9ecc628508",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Remove tactics after convert closes the goal.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}

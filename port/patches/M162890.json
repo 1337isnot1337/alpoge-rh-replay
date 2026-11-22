@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.RestrictedHaarProduct",
+  "source_sha256": "df9e4089e8314fe2bb6f097c713f63e73bf30e40eb96366aa18a531ddff8b9c4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Make set membership explicit for the restricted product compactness argument.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}

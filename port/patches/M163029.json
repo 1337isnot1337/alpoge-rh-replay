@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.AnalyticClassNumber.QuadraticHurwitzZero",
+  "source_sha256": "1545dae45bfb3f172486f8a6e30d1cb51a97d0f8af0a1e786d0be51e77678720",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "State membership in the real-part half-plane explicitly.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.SemilocalAlgebras.ContinuousCompletionMap",
+  "source_sha256": "ae2e6af20571dacb78e68389f6339c9aaca02e9bbf040eca12af3b6f2dff80e2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Update ramification index positivity and rewrite the valuation equality using the current lemma orientation.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}

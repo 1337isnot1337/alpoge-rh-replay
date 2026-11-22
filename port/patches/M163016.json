@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.Adele.IntegersLattice",
+  "source_sha256": "2425c46191a2a5717bace2c546fc6e5881e6bd2dc49f82991d40365a6c07dc76",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the completion norm lemma for the infinite adele algebra map.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}

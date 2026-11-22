@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.HarishChandraCentre.Symmetric",
+  "source_sha256": "19df71a254dde292e0a0bef9c5fdb0a28467fdca9036ab86bb24b494e94bf090",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the polynomial-first coefficient API.",
+  "evidence": "https://github.com/WorldianAI/alpoge-rh-replay/releases/download/port-p0081-lean436/packet-result.json"
+}
