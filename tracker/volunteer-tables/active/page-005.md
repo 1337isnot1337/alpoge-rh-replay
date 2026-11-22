@@ -221,6 +221,5 @@
 | [@user42245](https://github.com/user42245) | [M164325](https://github.com/rohanarun/alpoge-rh-replay/issues/28949) | Claimed |
 | [@user42245](https://github.com/user42245) | [M163709](https://github.com/rohanarun/alpoge-rh-replay/issues/28973) | Claimed |
 | [@user42245](https://github.com/user42245) | [M168805](https://github.com/rohanarun/alpoge-rh-replay/issues/28987) | Claimed |
-| [@hipotures](https://github.com/hipotures) | [P2724](https://github.com/rohanarun/alpoge-rh-replay/issues/29486) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P2726](https://github.com/rohanarun/alpoge-rh-replay/issues/29534) | Claimed |
 | [@hipotures](https://github.com/hipotures) | [P2730](https://github.com/rohanarun/alpoge-rh-replay/issues/29576) | Claimed |
