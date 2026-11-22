@@ -1,0 +1,7 @@
+{
+ "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsInjectiveNormLeOneOfFinitePadicIntDomainStatement",
+ "source_sha256": "92a10791482f32b1fd7bbe1c4d9c95521b4993fcca0aa9cbf4c2fb340bb3df0b",
+ "lean": "leanprover/lean4:v4.36.0",
+ "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+ "notes": "unchanged"
+}
