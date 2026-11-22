@@ -336,11 +336,13 @@ class WorkerTests(unittest.TestCase):
                     patch.object(worker_github, 'urlopen', return_value=io.BytesIO(payload)):
                 with self.assertRaisesRegex(ValueError, 'Public download digest mismatch'):
                     github.publish_assets(7, 'M000001', [path])
-        error = HTTPError(url, 404, 'Not Found', None, None)
+        response = io.BytesIO(b'Not Found')
+        error = HTTPError(url, 404, 'Not Found', None, response)
         with patch.object(subprocess, 'run', return_value=existing), \
                 patch.object(worker_github, 'urlopen', side_effect=error):
             with self.assertRaisesRegex(ValueError, 'Could not download published build.log'):
                 github.publish_assets(7, 'M000001', [path])
+        self.assertTrue(response.closed)
 
     def test_receiver_checks_installed_objects_and_platform_before_lake(self):
         out = self.artifacts('M000001', 1)

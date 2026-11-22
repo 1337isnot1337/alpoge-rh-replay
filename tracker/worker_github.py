@@ -3,6 +3,7 @@ from hashlib import sha256
 from http.client import HTTPException
 import json
 import subprocess
+from urllib.error import HTTPError
 from urllib.request import urlopen
 
 from submissions import gh_output, pages
@@ -29,6 +30,8 @@ def verify_download(url, path, expected_digest):
                     break
                 digest.update(block)
     except (OSError, HTTPException) as exc:
+        if isinstance(exc, HTTPError):
+            exc.close()
         raise ValueError(f'Could not download published {path.name}: {exc}') from exc
     if remaining != 0 or digest.hexdigest() != expected_digest:
         raise ValueError('Public download digest mismatch: ' + path.name)
