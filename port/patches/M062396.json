@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.HasQExpansionSmoothedEisensteinFxWeightOne",
+  "source_sha256": "69b1a399efe64c82d1df8a9b7d6641ce6579dc0b74cbe22bfb0058e11e0931b7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Bound elaboration to 200000 heartbeats to diagnose the interrupted expensive proof; the interrupted attempt is not credited. Replace generic congruence with explicit multiplication, power and exponential congruence so elaboration does not unfold the complex exponential implementation. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0188-lean436-20261121-r2/packet-result.json"
+}

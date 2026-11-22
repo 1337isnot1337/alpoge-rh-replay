@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.NormDegreeBoundPolynomialCombinationStatement",
+  "source_sha256": "932525f867b1ac5e3e9504d4f7ddf7bb121711122ab894c5c4bec89ec5619003",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0188-lean436-20261121-r2/packet-result.json"
+}

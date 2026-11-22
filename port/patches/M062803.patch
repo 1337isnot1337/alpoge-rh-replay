@@ -1,0 +1,29 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IwahoriEigenvaluesOfNewton.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IwahoriEigenvaluesOfNewton.lean
+@@ -91,7 +91,7 @@
+       (monomial i (u * ϖ ^ e) + monomial (i + 1) (w * ϖ ^ e)) := by
+     rw [C_dvd_iff_dvd_coeff]
+     intro j
+-    rw [coeff_sub, comp_C_mul_X_coeff, coeff_add, coeff_monomial, coeff_monomial]
++    rw [coeff_sub, comp_C_mul_X_coeff, coeff_add, coeff_monomial, coeff_monomial, Finsupp.single_apply, Finsupp.single_apply]
+     by_cases hj : j = i
+     · subst hj
+       simp [h0]
+@@ -235,7 +235,7 @@
+     rw [Valued.cauchy_iff]
+     refine ⟨map_neBot, fun γ => ?_⟩
+     obtain ⟨n, hn⟩ := exists_pow_lt₀ hπ1 (Units.map (MonoidWithZeroHom.ValueGroup₀.embedding
+-      (f := (.ofClass (Valued.v : Valuation F ℤᵐ⁰)))) γ)
++      (f := (.ofClass (Valued.v : Valuation F ℤᵐ⁰)))).toMonoidHom γ)
+     refine ⟨g '' Set.Ici n, image_mem_map (Ici_mem_atTop n), ?_⟩
+     rintro _ ⟨a, ha, rfl⟩ _ ⟨b, hb, rfl⟩
+     rw [Valuation.restrict_lt_iff_lt_embedding]
+@@ -359,7 +359,7 @@
+   have hx : ∀ i, g.charpoly.IsRoot (x i) := fun i => by
+     have h1 : ((G.map (Int F).subtype).charpoly).IsRoot ((π ^ b i * y i : Int F) : F) := by
+       rw [Matrix.charpoly_map]
+-      exact (hyr i).map
++      exact (hyr i).map (Int F).subtype
+     rw [IsRoot.def, Matrix.eval_charpoly] at h1 ⊢
+     have : Matrix.scalar (Fin r) (x i) - g =
+         ϖ ^ N • (Matrix.scalar (Fin r) ((π ^ b i * y i : Int F) : F) - G.map (Int F).subtype) := by

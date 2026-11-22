@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.FoundationProofs.IntegralDensEqZero",
+  "source_sha256": "5ecba44de6958c91358faf04e473502c97c369a154c09ac29f83e1f2ca57c5f4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use renamed finite-sum integration and integrability lemmas. Bound elaboration to 200000 heartbeats to diagnose the interrupted expensive proof; the interrupted attempt is not credited. Use explicit multiplication congruence and the subgroup finite-generation characterization, avoiding reduction through the new semigroup-based representation. Let the finite-generation equivalence infer its implicit subgroup from the existing hypothesis. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0188-lean436-20261121-r2/packet-result.json"
+}

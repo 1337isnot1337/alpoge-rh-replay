@@ -1,0 +1,30 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/HasQExpansionSmoothedEisensteinFxWeightOne.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/HasQExpansionSmoothedEisensteinFxWeightOne.lean
+@@ -4,6 +4,8 @@
+ import Development.AbelianVarietyTheory.Definitions.Foundations.MultipliableAndSgNeZero
+ import Development.AbelianVarietyTheory.Definitions.Divisors.HasQIff
+ import Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasQExpansionOfLevelLinearOperations
++
++set_option maxHeartbeats 200000
+ 
+ noncomputable section
+ 
+@@ -89,13 +91,13 @@
+   simp only [Matrix.cons_val_zero, Matrix.cons_val_one, hc]
+   split_ifs with h
+   · rw [← ee_int_mul', mul_right_comm]
+-    congr 1
+-    · congr 1
+-      · congr 2
++    apply congrArg₂ (fun x y : ℂ => x * y)
++    · apply congrArg₂ (fun x y : ℂ => x * y)
++      · apply congrArg (fun z : ℂ => (Int.sign p.2 : ℂ) * z ^ (j - 1))
+         push_cast; field_simp
+-      · congr 1
++      · apply congrArg ee
+         push_cast; ring
+-    · congr 1
++    · apply congrArg ee
+       push_cast; field_simp
+   · rfl
+ 

@@ -1,0 +1,45 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IntegralDensEqZero.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/IntegralDensEqZero.lean
+@@ -1,6 +1,8 @@
+ import Mathlib
+ import Formalism.LocalToGlobal.TorsionIntegrality.QuadraticSemicharacters.IsSemiChar
+ import Development.AbelianVarietyTheory.Proofs.CuspFormEvaluations.IntegrableOnFundamentalDomainOfContinuous
++
++set_option maxHeartbeats 200000
+ 
+ noncomputable section
+ 
+@@ -119,7 +121,7 @@
+   have := Fintype.ofFinite (A₂ ⧸ A₁.addSubgroupOf A₂)
+   intro y hy z
+   rw [inter_eq, opU_mul, opU_sum, mul_left_comm, Finset.mul_sum]
+-  congr 1
++  apply congrArg (fun t : ℂ => ((Real.sqrt (Fintype.card (A₂ ⧸ A₁.addSubgroupOf A₂)) : ℝ) : ℂ)⁻¹ * t)
+   rw [← sum_out_shift (A₁.addSubgroupOf A₂) (fun a : A₂ => α (a : V) * opU H (a : V) F z) ?_ ⟨y, hy⟩]
+   · refine Finset.sum_congr rfl fun c _ => ?_
+     rw [opU_mul, AddSubgroup.coe_add, alpha_opU_add hH hd₂ hs₂ hy (Quotient.out c).2]
+@@ -314,8 +316,8 @@
+ 
+ theorem discrete_of_selfDual (hH : IsHerm H) {A : AddSubgroup W} (hd : IsSelfDual H A) (hfg : A.FG) :
+     DiscreteTopology A := by
+-  obtain ⟨s, hs⟩ := hfg
+-  have hfg' : AddGroup.FG A := (AddGroup.fg_iff_addSubgroup_fg A).2 ⟨s, hs⟩
++  obtain ⟨s, hs⟩ := AddSubgroup.isAddFG_iff.1 hfg
++  have hfg' : AddGroup.FG A := (AddGroup.fg_iff_addSubgroup_fg A).2 hfg
+   have : Module.Finite ℤ A := Module.Finite.iff_addGroup_fg.2 hfg'
+   have hc : Countable A := Finsupp.Countable.of_moduleFinite (R := ℤ)
+   refine discreteTopology_iff_isOpen_singleton_zero.2 ⟨⋂ y ∈ s, {x | |altE H x y| < 1}, ?_, ?_⟩
+@@ -495,11 +497,11 @@
+         (continuous_const.mul (continuous_dens hH (differentiable_opU hc _).continuous
+           (differentiable_opU hc _).continuous))
+     rw [integral_congr_ae (Filter.Eventually.of_forall hpt), integral_const_mul,
+-      integral_finset_sum _ fun y _ => integrable_finset_sum _ fun y' _ => hint y y',
++      integral_finsetSum _ fun y _ => integrable_finsetSum _ fun y' _ => hint y y',
+       Complex.ofReal_mul, Complex.ofReal_sum]
+     congr 1
+     refine Finset.sum_congr rfl fun c _ => ?_
+-    rw [integral_finset_sum _ fun y' _ => hint c y', Finset.sum_eq_single_of_mem c (Finset.mem_univ _)]
++    rw [integral_finsetSum _ fun y' _ => hint c y', Finset.sum_eq_single_of_mem c (Finset.mem_univ _)]
+     · rw [alpha_sq hs₂ (hrm c), ← integral_complex_ofReal]
+       simp only [one_mul, ← rho_eq hH, rho_opU hH]
+     · intro c' _ hne
