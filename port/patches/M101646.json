@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.TnIdem",
+  "source_sha256": "c54aff0e2d8eefb93ce24262e038c0121f13cda249c7545acbeef45a575b6868",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Construct the local commutative ring from the same adjoin Ring operations and original pairwise commutativity proof. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0197-lean436-20261121/packet-result.json"
+}

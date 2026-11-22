@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.AlgebraTools.AlmostSelfdual",
+  "source_sha256": "d2679c93ba49df78433f0e677ce4eb7a0995333979f667a9d523ddd4e7f0431e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Meaning preservation: the pinned Submodule.IsLattice means finite generation and full span over F. Target IsFullLattice retains both conditions; its additional independence condition follows from finite generation over the fraction field by Submodule.IsLattice.of_fg. The quantified submodules, group action, duals and containments are unchanged. Use the corresponding full-lattice containment lemma.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0197-lean436-20261121/packet-result.json"
+}

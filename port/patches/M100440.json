@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.LegendreBoundsFactorialMultiIndexCapelli",
+  "source_sha256": "ba661974f6d728aec147a16873305d2f106b5296fd2efa77dce6500420871bd2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Expose the equality of the old padicValNat function with multiplicity and pass the existing primality proof to Legendre's formula. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0197-lean436-20261121/packet-result.json"
+}

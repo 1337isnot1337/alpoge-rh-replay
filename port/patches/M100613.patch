@@ -1,0 +1,13 @@
+--- a/src/Development/AbelianVarietyTheory/PublishedTheorems/AdelicLattices₂/ThreeNeSqAddSq.lean
++++ b/src/Development/AbelianVarietyTheory/PublishedTheorems/AdelicLattices₂/ThreeNeSqAddSq.lean
+@@ -84,8 +84,8 @@
+       rw [Nat.mem_primeFactors]
+       exact ⟨by norm_num, dvd_mul_right _ _, by positivity⟩) (by norm_num)
+   haveI : Fact (Nat.Prime 3) := ⟨by norm_num⟩
+-  rw [padicValNat.mul (by norm_num) (pow_ne_zero _ hD0), padicValNat.pow,
+-    padicValNat_self] at h2
++  rw [Nat.padicValNat_def, Nat.multiplicity_mul (by norm_num) (pow_ne_zero _ hD0), Nat.multiplicity_pow,
++    Nat.Prime.multiplicity_self] at h2
+   rw [Nat.even_add] at h2
+   simp at h2
+ 

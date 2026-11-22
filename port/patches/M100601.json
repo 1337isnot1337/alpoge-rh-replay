@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.UnramifiedDepth.WtAddSingle",
+  "source_sha256": "aabfd3c053da491cb4bf2d1adf93fe993e7834fe23d0143e2d2fe164fc565669",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Replace the removed degree-first polynomial coefficient function by the same coefficient projection with polynomial first. The coefficient value is definitionally unchanged, including every occurrence in definitions and theorem statements.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0197-lean436-20261121/packet-result.json"
+}
