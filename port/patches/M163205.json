@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.HerbrandQuotients.CycTate",
+  "source_sha256": "4406a4762c6ee454ee5a52e9ada3442276d76228df50a3977eb35af4473d55b6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

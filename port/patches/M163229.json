@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.IdeleGroups.IdeleNorms",
+  "source_sha256": "c3c4299496b4db89261c42bf2a602a08973563247bb87a76e20724d6977a9b38",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Expose restricted-product evaluation at one and specify the idele-domain continuity proof to avoid unconstrained elaboration. Rewrite the fixed multiplication identity in a local equality instead of rewriting backwards by a cancellation lemma throughout the continuity goal. Use direct Filter.Eventually.mono and an explicit multiplicativity calculation instead of filter_upwards, which exhausted the reduced diagnostic budget. Final proof has the original heartbeat limit and no diagnostic traces. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

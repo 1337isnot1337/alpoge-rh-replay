@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.TraceClass",
+  "source_sha256": "48b8330a87e1134a3a058e5b20ea3240d93130c3627383fda5b555e6a87895f5",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Infer the now-implicit operator argument. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

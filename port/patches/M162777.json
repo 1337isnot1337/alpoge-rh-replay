@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.HilbertSchmidtKernel",
+  "source_sha256": "b410541933fbdde8bdef01376ce753b67bd8e9af6d7c350db40ae75ebbb6708a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "The pinned eLpNorm at p = 2 was the unconditional integral expression, whereas target eLpNorm assigns infinity to non-AEStronglyMeasurable functions. Preserve the unconditional public helper with target eLpNorm' at real exponent 2, definitionally the old expression. Do not add a measurability hypothesis to that helper. A private bridge applies target eLpNorm only where the existing Lp/kernel measurability proofs justify equality. MemLp proof construction uses the target equivalent finite-norm characterization.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

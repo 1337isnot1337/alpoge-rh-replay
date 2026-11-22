@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.ComplexMultiplication.GoodReductionAlmostAll",
+  "source_sha256": "9168e7309a39555116fad64c39da6f189849382edf501d6e6bb85101ac1d957e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}
