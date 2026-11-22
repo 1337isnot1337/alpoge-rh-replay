@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.Graded",
+  "source_sha256": "204660c30fe09be8874fb49dcaa9bd5fdf8c1d9f7669d889727d5435466fb8f2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

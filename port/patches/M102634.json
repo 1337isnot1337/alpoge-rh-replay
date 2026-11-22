@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.HhSmall",
+  "source_sha256": "9372bef01d3a3b18bca612a10424accff31a070d600924705af284bc979acf50",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualifies the protected matrix multiplication lemma so the proofs expand matrix products into entrywise sums."
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.HeckeAlgebras.HeckeCommRing",
+  "source_sha256": "ee1ff6cea45efc9ca4c7db4afba1ef6f2d7f34770b6bc02419a0ebef39cbfb7c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Derives commutativity of the same Hecke algebra from its commuting generators using the current adjoin lemma."
+}

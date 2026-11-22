@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.AcycUnion",
+  "source_sha256": "8785f9229677d0d8331e03b31b615c8067999f63634ea36a955e078836e818e6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.GaloisLibrary.FerreroWashingtonIndex.ThetaFull",
+  "source_sha256": "f7dc0b7f934463759a216a6fc8d6a93d78fbaa77252cde2468690c7489a17a8e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the renamed lemma for evaluating a finite sum of finitely supported functions."
+}

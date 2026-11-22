@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.CommutativeAlgebra.TactVanish",
+  "source_sha256": "996a44cb1ecca1a9c0bc498b58cd5e25afc5d86afe3a25e29ffbe1e416d2444e",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Uses the equivalent multivariate coefficient projection at the same index in the weight hypothesis."
+}

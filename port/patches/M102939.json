@@ -1,0 +1,7 @@
+{
+  "module": "Development.AutomorphicArithmetic.AutomorphicVarieties.ConvexNerveComplexes.ExistsVert",
+  "source_sha256": "6eec9ff53dbf4a46f94bf7e87219a04691572b8b05ba491282cbe28b2864f34c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
