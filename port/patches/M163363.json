@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.TateThesis.LatticePoisson",
+  "source_sha256": "cd3da49139f49ac541864e23373b7683097b69d6bbce07375ee0e93ee7b41c6b",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

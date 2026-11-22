@@ -1,0 +1,101 @@
+--- a/src/GroundTheory/AutomorphicForms/HarishChandraCentre/Fischer.lean
++++ b/src/GroundTheory/AutomorphicForms/HarishChandraCentre/Fischer.lean
+@@ -76,10 +76,10 @@
+     rw [add_tsub_cancel_of_le hle]
+ 
+ theorem coeff_rowOp_self (i : Fin n) (m : Fin n × Fin n →₀ ℕ) (f : Poly n) :
+-    coeff m (rowOp i i f) = (rowWt m i : ℂ) * coeff m f := by
++    (rowOp i i f).coeff m = (rowWt m i : ℂ) * f.coeff m := by
+   classical
+   induction f using MvPolynomial.induction_on' with
+-  | add p q hp hq => rw [map_add, coeff_add, coeff_add, hp, hq, mul_add]
++  | add p q hp hq => rw [map_add, AddMonoidAlgebra.coeff_add, Finsupp.add_apply, AddMonoidAlgebra.coeff_add, Finsupp.add_apply, hp, hq, mul_add]
+   | monomial s c =>
+     rw [rowOp_self_monomial, coeff_monomial, coeff_monomial]
+     by_cases h : s = m
+@@ -88,19 +88,19 @@
+ 
+ theorem rowWt_eq_of_eigen {h : Poly n} {c : Fin n → ℂ} (hc : ∀ a, rowOp a a h = c a • h)
+     {m : Fin n × Fin n →₀ ℕ} (hm : m ∈ h.support) (a : Fin n) : (rowWt m a : ℂ) = c a := by
+-  have := congrArg (coeff m) (hc a)
++  have := congrArg (fun p : Poly n => p.coeff m) (hc a)
+   rw [coeff_rowOp_self, coeff_smul, smul_eq_mul] at this
+   exact mul_right_cancel₀ (MvPolynomial.mem_support_iff.1 hm) this
+ 
+ noncomputable def wtProj (μ : Fin n → ℕ) : Module.End ℂ (Poly n) where
+-  toFun f := ∑ m ∈ f.support with rowWt m = μ, monomial m (coeff m f)
++  toFun f := ∑ m ∈ f.support with rowWt m = μ, monomial m (f.coeff m)
+   map_add' f g := by
+     classical
+     ext m
+-    simp only [coeff_sum, coeff_monomial, coeff_add]
+-    simp only [Finset.sum_ite_eq', Finset.mem_filter, MvPolynomial.mem_support_iff, coeff_add]
++    simp only [coeff_sum, coeff_monomial, AddMonoidAlgebra.coeff_add, Finsupp.add_apply]
++    simp only [Finset.sum_ite_eq', Finset.mem_filter, MvPolynomial.mem_support_iff, AddMonoidAlgebra.coeff_add, Finsupp.add_apply]
+     by_cases hm : rowWt m = μ <;> simp only [hm, and_true, and_false, if_false]
+-    · by_cases h1 : coeff m f = 0 <;> by_cases h2 : coeff m g = 0 <;> by_cases h3 : coeff m f + coeff m g = 0 <;>
++    · by_cases h1 : f.coeff m = 0 <;> by_cases h2 : g.coeff m = 0 <;> by_cases h3 : f.coeff m + g.coeff m = 0 <;>
+         simp_all
+     · simp
+   map_smul' c f := by
+@@ -110,17 +110,17 @@
+     simp only [Finset.sum_ite_eq', Finset.mem_filter, MvPolynomial.mem_support_iff, coeff_smul,
+       smul_eq_mul]
+     by_cases hm : rowWt m = μ <;> simp only [hm, and_true, and_false, if_false]
+-    · by_cases h1 : coeff m f = 0 <;> by_cases h2 : c * coeff m f = 0 <;> simp_all
++    · by_cases h1 : f.coeff m = 0 <;> by_cases h2 : c * f.coeff m = 0 <;> simp_all
+     · simp
+ 
+ theorem coeff_wtProj (μ : Fin n → ℕ) (m : Fin n × Fin n →₀ ℕ) (f : Poly n) :
+-    coeff m (wtProj μ f) = if rowWt m = μ then coeff m f else 0 := by
+-  classical
+-  change coeff m (∑ m ∈ f.support with rowWt m = μ, monomial m (coeff m f)) = _
++    (wtProj μ f).coeff m = if rowWt m = μ then f.coeff m else 0 := by
++  classical
++  change (∑ m ∈ f.support with rowWt m = μ, monomial m (f.coeff m)).coeff m = _
+   simp only [coeff_sum, coeff_monomial, Finset.sum_ite_eq', Finset.mem_filter,
+     MvPolynomial.mem_support_iff]
+   by_cases hm : rowWt m = μ
+-  · by_cases h1 : coeff m f = 0 <;> simp [hm, h1]
++  · by_cases h1 : f.coeff m = 0 <;> simp [hm, h1]
+   · simp [hm]
+ 
+ theorem wtProj_eq_self_iff (μ : Fin n → ℕ) (f : Poly n) :
+@@ -128,7 +128,7 @@
+   constructor
+   · intro h m hm
+     by_contra hne
+-    have := congrArg (coeff m) h
++    have := congrArg (fun p : Poly n => p.coeff m) h
+     rw [coeff_wtProj, if_neg hne] at this
+     exact MvPolynomial.mem_support_iff.1 hm this.symm
+   · intro h
+@@ -149,7 +149,7 @@
+     split_ifs <;> rfl
+   · rw [if_neg h]
+     ext m
+-    rw [coeff_wtProj, coeff_wtProj, coeff_zero]
++    rw [coeff_wtProj, coeff_wtProj, AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply]
+     split_ifs with h1 h2
+     · exact absurd (h1.symm.trans h2) h
+     · rfl
+@@ -210,7 +210,7 @@
+   · intro hμ
+     have h0 : wtProj μ f = 0 := by
+       ext m
+-      rw [coeff_wtProj, coeff_zero]
++      rw [coeff_wtProj, AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply]
+       split_ifs with hm
+       · by_contra hc
+         exact hμ (Finset.mem_image.2 ⟨m, MvPolynomial.mem_support_iff.2 hc, hm⟩)
+@@ -311,8 +311,8 @@
+   set μ₀ := rowWt m₀
+   have hμ₀ : wtProj μ₀ g ≠ 0 := by
+     intro h
+-    have := congrArg (coeff m₀) h
+-    rw [coeff_wtProj, if_pos rfl, coeff_zero] at this
++    have := congrArg (fun p : Poly n => p.coeff m₀) h
++    rw [coeff_wtProj, if_pos rfl, AddMonoidAlgebra.coeff_zero, Finsupp.zero_apply] at this
+     exact MvPolynomial.mem_support_iff.1 hm₀ this
+   set d := ∑ a, μ₀ a
+   set W : Finset (Fin n → ℕ) :=
