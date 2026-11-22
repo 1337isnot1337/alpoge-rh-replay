@@ -1,0 +1,208 @@
+Packet P0196, partial submission
+Upstream base c8d873a99eae652ef9417cb492cb96a591079c69
+Port record commit 0437c83f3bd9173284177d639924790c6bd7e8d1
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M096301
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Development.AbelianVarietyTheory.Proofs.TwistedOperators.NormalizedAbsCharacterization
+islattice-audit: 1 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+
+Build verification on the upstream base
+Building 1 explicitly requested module(s).
+Resolved 3 transitive project import(s) (4 total module(s) to materialize).
+[FETCH] Materializing 4 SHA-256-verified source file(s)...
+[FETCH] Verified 4/4 source file(s).
+[KEEP]  M004105: unchanged (verified against archive source)
+[KEEP]  M004147: unchanged (verified against archive source)
+[KEEP]  M063391: unchanged (verified against archive source)
+[KEEP]  M096301: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 1 module(s) with `lake build`...
+        IDs: M096301
+⚠ [18250/18256] Built Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace (22s)
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.lean:13:14: Variable name `f` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _f
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [18251/18256] Ran Development.AbelianVarietyTheory.Definitions.Foundations.MatrixMeasurableSpace:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/MatrixMeasurableSpace.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18256] Built Development.AbelianVarietyTheory.Definitions.Foundations.SimpleSum (8.1s)
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SimpleSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18256] Ran Development.AbelianVarietyTheory.Definitions.Foundations.SimpleSum:irArts
+warning: src/Development/AbelianVarietyTheory/Definitions/Foundations/SimpleSum.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18256] Built Development.AbelianVarietyTheory.Proofs.FoundationProofs.PadicIsNonarchimedeanLocalField (9.0s)
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:51:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:52:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:53:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:58:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:62:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:63:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:84:20: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:81:0: automatically included section variable(s) unused in theorem `GlobalTheory.SplitWeil.cball_eq_smul`:
+  [TopologicalSpace k]
+  [IsNonarchimedeanLocalField k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace k] [IsNonarchimedeanLocalField k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:124:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:125:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:145:59: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:180:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:282:0: automatically included section variable(s) unused in theorem `GlobalTheory.SplitWeil.HasConductor.eq_one`:
+  [TopologicalSpace k]
+  [IsNonarchimedeanLocalField k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace k] [IsNonarchimedeanLocalField k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:314:17: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:317:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:304:0: automatically included section variable(s) unused in theorem `GlobalTheory.SplitWeil.HasConductor.exists_ne_one`:
+  [TopologicalSpace k]
+  [IsNonarchimedeanLocalField k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace k] [IsNonarchimedeanLocalField k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:322:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:322:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:322:13: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:321:0: automatically included section variable(s) unused in theorem `GlobalTheory.SplitWeil.add_mem_cball`:
+  [TopologicalSpace k]
+  [IsNonarchimedeanLocalField k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace k] [IsNonarchimedeanLocalField k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:325:0: automatically included section variable(s) unused in theorem `GlobalTheory.SplitWeil.neg_mem_cball`:
+  [TopologicalSpace k]
+  [IsNonarchimedeanLocalField k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [TopologicalSpace k] [IsNonarchimedeanLocalField k] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:391:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:392:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean:434:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18255/18256] Ran Development.AbelianVarietyTheory.Proofs.FoundationProofs.PadicIsNonarchimedeanLocalField:irArts
+warning: src/Development/AbelianVarietyTheory/Proofs/FoundationProofs/PadicIsNonarchimedeanLocalField.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18256] Built Development.AbelianVarietyTheory.Proofs.TwistedOperators.NormalizedAbsCharacterization (5.3s)
+warning: src/Development/AbelianVarietyTheory/Proofs/TwistedOperators/NormalizedAbsCharacterization.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18256 jobs).
+[PASS]  M096301 (Development.AbelianVarietyTheory.Proofs.TwistedOperators.NormalizedAbsCharacterization)
+
+PORT_BUILD_PASSED all 1 module(s).

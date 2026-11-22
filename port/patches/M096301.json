@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.TwistedOperators.NormalizedAbsCharacterization",
+  "source_sha256": "f2d0d61ea6e81781a689ce889f9d0977e36d2fd49c91c66dbe8bc11534ed9440",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
