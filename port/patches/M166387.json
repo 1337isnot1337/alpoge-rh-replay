@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightKernels.StatementsRest",
+  "source_sha256": "ee755b2a0db7ef759ba341c2941c7b20b2647d2e862d209adc303a69e58e4b47",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the polynomial coefficient projection with polynomial first. The realFlagIntegral definition retains exactly the same coefficient values, sum and arithmetic.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0229-lean436-20261121-r2/packet-result.json"
+}

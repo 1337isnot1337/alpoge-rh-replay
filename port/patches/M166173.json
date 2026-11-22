@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightKernels.PGaussPoissonBound",
+  "source_sha256": "3e9b796ed203b5cc084ab51f783d92dca62c055b8cf7395b34a510f2811e2709",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0229-lean436-20261121-r2/packet-result.json"
+}
