@@ -1,0 +1,56 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PolynomialDifferentialWords/IsWeightedHomogeneousPairingLeft.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PolynomialDifferentialWords/IsWeightedHomogeneousPairingLeft.lean
+@@ -20,7 +20,7 @@
+     split_ifs with hd
+     · refine Finset.sum_congr rfl fun x hx => ?_
+       rw [coeff_weightedHomogeneousComponent]
+-      by_cases h0 : coeff x.1 s = 0
++      by_cases h0 : s.coeff x.1 = 0
+       · simp [h0]
+       · have hx0 := hs h0
+         have hsum : x.1 + x.2 = d := by simpa using hx
+@@ -31,7 +31,7 @@
+     · symm
+       refine Finset.sum_eq_zero fun x hx => ?_
+       rw [coeff_weightedHomogeneousComponent]
+-      by_cases h0 : coeff x.1 s = 0
++      by_cases h0 : s.coeff x.1 = 0
+       · simp [h0]
+       · have hx0 := hs h0
+         have hsum : x.1 + x.2 = d := by simpa using hx
+@@ -43,14 +43,14 @@
+   by_contra hne
+   have hc : weightedHomogeneousComponent w (Finsupp.weight w m) g ≠ 0 := by
+     intro h0
+-    have h3 := congrArg (coeff m) h0
+-    rw [coeff_weightedHomogeneousComponent, if_pos rfl, coeff_zero] at h3
++    have h3 := congrArg (fun p : MvPolynomial σ K => p.coeff m) h0
++    rw [coeff_weightedHomogeneousComponent, if_pos rfl, MvPolynomial.coeff_zero, Finsupp.zero_apply] at h3
+     exact hm h3
+   apply hc
+   have h4 : s * weightedHomogeneousComponent w (Finsupp.weight w m) g = 0 := by
+     rw [← hA]
+     ext d
+-    rw [coeff_weightedHomogeneousComponent, coeff_zero]
++    rw [coeff_weightedHomogeneousComponent, MvPolynomial.coeff_zero, Finsupp.zero_apply]
+     split_ifs with hd
+     · by_contra hne2
+       have h5 := h hne2
+@@ -217,7 +217,7 @@
+     rw [hs, Finsupp.le_def]
+     intro v
+     rcases v with i | i <;> obtain rfl := Subsingleton.elim i 0 <;> simp <;> omega
+-  have key : monomial m (coeff m f) = tt K 1 * monomial (m - s) (coeff m f) := by
++  have key : monomial m (f.coeff m) = tt K 1 * monomial (m - s) (f.coeff m) := by
+     simp only [tt, Fin.sum_univ_one, X, monomial_mul, one_mul]
+     rw [← hs, add_tsub_cancel_of_le hsm]
+   rw [key]
+@@ -237,7 +237,7 @@
+     refine ⟨0, Submodule.zero_mem _, ?_⟩
+     rw [mul_zero]
+     ext m
+-    rw [coeff_zero]
++    rw [MvPolynomial.coeff_zero, Finsupp.zero_apply]
+     by_contra h
+     have h1 := hfx h
+     have h2 : m = 0 := by

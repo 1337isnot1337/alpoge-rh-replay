@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PairCountNoncommuting.OtherFalse",
+  "source_sha256": "55cca3f936cd42323ffac550c864eea7864b3a7ff2f5de6556adb53979237132",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuadraticDedekindZeta.SpanNatCastSupEqTop",
+  "source_sha256": "f41fc2d90c5480d704d45a2c3ed19e9c799a15eb12d3f72d89f5bf52ebc4326c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
