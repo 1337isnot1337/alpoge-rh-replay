@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.EllipticTorsion.EllipticTorsionProofs.WChord",
+  "source_sha256": "261f8e56771abfde79bdebbf5932a079a1ee2537e3a0e970d3c04007d9ae1f67",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

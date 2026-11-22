@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.DistinguishedUnitIdeals.DistinguishedOrderProofs.CutPlace",
+  "source_sha256": "761bd86999b6aca612b638998b971fc25156ac56bbed24097f8089e0adc92eca",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}
