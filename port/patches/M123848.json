@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.HaarProductClosedCompactHolds",
+  "source_sha256": "d9c5fd4df8d55892f939961a09f4a6581a6cd4dfd9f739a35f6f859d0d8e1912",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: obtain probability of the same measurable pushforward from the target instance, use Measurable.tsum, and supply subtype measurability to map_smul. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0139-lean436-20261121/packet-result.json"
+}

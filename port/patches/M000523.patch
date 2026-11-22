@@ -1,0 +1,11 @@
+--- a/src/CompanionTheory/HarishChandraModules/KFiniteAnalyticVectors/AdmissibleSmoothVectors/GardingBump.lean
++++ b/src/CompanionTheory/HarishChandraModules/KFiniteAnalyticVectors/AdmissibleSmoothVectors/GardingBump.lean
+@@ -14,7 +14,7 @@
+ variable {n : ℕ}
+ 
+ theorem contDiff_entry (i j : Fin n) : ContDiff ℝ ∞ fun y : Matrix (Fin n) (Fin n) ℂ => y i j :=
+-  contDiff_apply_apply ℝ ℂ i j
++  contDiff_apply_apply ℝ i j
+ 
+ theorem contDiff_hs : ContDiff ℝ ∞ (hs : Matrix (Fin n) (Fin n) ℂ → ℝ) := by
+   unfold hs

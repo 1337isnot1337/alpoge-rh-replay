@@ -1,0 +1,11 @@
+--- a/src/Formalism/GL3MeanSquares/HookFormulaTorsion/MinkowskiDivisorBound.lean
++++ b/src/Formalism/GL3MeanSquares/HookFormulaTorsion/MinkowskiDivisorBound.lean
+@@ -22,7 +22,7 @@
+   have : Fact p.Prime := ⟨hp⟩
+   have hlog : Nat.log p (2 * n) < 2 * n + 2 :=
+     lt_of_le_of_lt (Nat.log_le_self _ _) (by omega)
+-  rw [padicValNat_factorial hlog]
++  rw [Nat.padicValNat_def, padicValNat_factorial hlog]
+   calc ∑ i ∈ range (n + 1), n / (p ^ i * (p - 1))
+       ≤ ∑ i ∈ range (n + 1), 2 * n / p ^ (1 + i) :=
+         Finset.sum_le_sum (fun i _ => mink_term n p i hp.two_le)

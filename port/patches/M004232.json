@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsDPMorphismBot",
+  "source_sha256": "c7533b6febacdd9b4b82855a5cb9c84e6a6fe5b1c29e095664dcfbc7193a65a2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.LintegralTsumOrbitUnfoldStatement",
+  "source_sha256": "82104c59c9ad7b356fa017aa683a1d54ca54f0de944c65d0e195311a3994adb7",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0120-lean436-20261121/packet-result.json"
+}

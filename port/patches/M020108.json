@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CubicalFunctionOfHomomorphismStatement",
+  "source_sha256": "87edee6b0e775e19b369c8b04c3fba8358cfee64dc7a77c3ba93bd133df64a88",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

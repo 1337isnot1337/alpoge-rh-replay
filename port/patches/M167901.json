@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.Intersections.PRelAlgClosureFinite",
+  "source_sha256": "88155111f1ee4ae3d05863a6f1caec28491c34207d03fe6fbb934ffd8f5dc713",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target coefficient accessor and its zero simplification rules in the linear-independence proof."
+}

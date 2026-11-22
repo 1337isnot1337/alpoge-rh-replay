@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicArithmetic.CyclotomicBounds.ClassNumberBounds.IdealValuations.ExistsUnitDivConj",
+  "source_sha256": "cb4655aa42cc4c4be89c8352743067df19c32f2210ee38a406dcf472f352f563",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0201-lean436-20261121/packet-result.json"
+}

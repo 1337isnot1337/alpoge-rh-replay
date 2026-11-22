@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.ClassFieldTheory.LocalClassField.MemZmultiplesOfAddOrderOf",
+  "source_sha256": "5642ef0b1ff86e1f777ec9ed59f5b43f40335a94e062d03a3b032146d3167aba",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

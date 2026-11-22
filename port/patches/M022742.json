@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EtaleChartLocalizationFiniteTypeFormallyUnramifi",
+  "source_sha256": "1f9e5fa3bb906650fa127652f76d2afbad5cc0a372bcbf1a4a84eb846f9f31e2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Name the quotient and localization homomorphisms in the additivity step."
+}

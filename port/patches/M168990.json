@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PMixedBoxCount",
+  "source_sha256": "bf109a8eafa4a5f39fe9cb74adb7a46832276396ecd5718a68870ebf8b229bbd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

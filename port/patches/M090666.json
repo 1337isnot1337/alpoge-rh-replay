@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.ExistsPowSpanXLeOfDense",
+  "source_sha256": "cb842a07c3243aae06f834cb31eca938c641447dddcaaed6264e169dad5f1874",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.JetIntegrality.TwoUnit",
+  "source_sha256": "71679bcdb7e43a2383727c865fe63b24288064ad71962f7cfaf7271dc7b64d6f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Pass the coefficient ring as a named argument to the partial derivative."
+}

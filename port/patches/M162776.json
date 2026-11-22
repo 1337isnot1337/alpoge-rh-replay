@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.HilbertSchmidtCompact",
+  "source_sha256": "b02b68d087c7350ca7ce21cf57c722e7badf4b08b0f2856841270ef4cde98b4f",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Specify the summation subtype and Hilbert-basis summand, avoiding expensive underconstrained elaboration of the tail estimate. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

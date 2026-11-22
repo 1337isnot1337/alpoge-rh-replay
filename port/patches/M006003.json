@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CharacterTheory.ExistsInducedIntPrimeTo",
+  "source_sha256": "6e9f2ed8494adfa0771a102d7b361ff2d3d285edd4a086b5a6a575deee20bcb6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Project the p-group proof from the maximality predicate of the Sylow subgroup. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0098-lean436-20261121/packet-result.json"
+}

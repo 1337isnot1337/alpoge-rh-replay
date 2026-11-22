@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.CoreStatements.AutomorphicKernels.SiegelWeilFormula.LagrangianDecomposition.IteratedFDerivIntegral",
+  "source_sha256": "bfd211153dd6fc341eed27809ddb1a32fef77a081641c478c5cfd8b779214733",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0144-lean436-20261121/packet-result.json"
+}

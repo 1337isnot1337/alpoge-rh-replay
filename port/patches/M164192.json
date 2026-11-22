@@ -1,0 +1,7 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PLengthCutLocalizedModule",
+  "source_sha256": "7871ac90d50fb2afd8523b20776fc97c972aefa5baef8b0710a6518ace01b874",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Change TFAE.out indices from 0,4 to 1,5 to match the target one-based convention. The selected propositions remain IsPrincipalIdealRing and principality of the maximal ideal, and the same reverse implication proves hpir. Only the proof changes; definitions and theorem statements are unchanged."
+}

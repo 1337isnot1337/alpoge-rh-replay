@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ThetaLawProofs.IsUnitDetOfProductMapNeZero",
+  "source_sha256": "ecfc580515c63cadd7237cfdf310249df8d6880156bfc47bd6f51ce8d581badd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the target algebra-specialized integral ideal theorems isMaximal_under_of_isIntegral_of_isMaximal and isMaximal_of_isIntegral_of_isMaximal_under, supplying the already existing base ring explicitly. Ideal.under is the same comap along the existing algebraMap, so all three proof calls retain their original hypotheses and conclusions. Supply the now-implicit coefficient ring to MvPowerSeries.pderiv as (R := R) at all four occurrences. The public associated_discr_norm_jacobian statement therefore applies the same formal partial derivative to the same variable and power series over the same ring; only argument syntax changes. No theorem names, binders, assumptions, other conclusions, definitions, imports or options change. See port/evidence/P0128/statement-scan.md."
+}

@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/RegularLocus.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/RegularLocus.lean
+@@ -30,7 +30,7 @@
+   · rintro ⟨hzY, hzV⟩
+     exact ⟨⟨hzY, d, A, O, V, g, hO, hV, hzV, hg, hAg, hYV⟩, hzV⟩
+ 
+-def seqWithLimit : Set (Fin 1 → ℂ) :=
++noncomputable def seqWithLimit : Set (Fin 1 → ℂ) :=
+   insert 0 (Set.range fun n : ℕ => fun _ : Fin 1 => ((1 / ((n : ℝ) + 1) : ℝ) : ℂ))
+ 
+ end GroundTheory.Heights₂.Heights.IndefiniteRowSideFullHecke.ComplexSets

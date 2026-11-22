@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.SymmetricSections.LineFinite",
+  "source_sha256": "8fa95292ffc9160cbf3a3b8c6804fbc8c90c795fd1584615ae4b1b012ca83a0a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

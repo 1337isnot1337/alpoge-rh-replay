@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.JetGauges.PerfectPairings",
+  "source_sha256": "73c8eb75f29ca8dff0709df1ea823abbf33254bc7305fed3f77fc418f465c506",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

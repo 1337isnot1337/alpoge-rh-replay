@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.MetricProofs.LojasiewiczInequalityAnalyticStatement",
+  "source_sha256": "ec5fa7c684b0aaa37111b70770e32a47689a0f6c997845b0d1c04a6a0e215419",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0143-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.LatticeIndices.GenOfTwo",
+  "source_sha256": "e5d5a4cec2017a1826be93db3794940ab730bc9f4259a81b3a75689e315bd71c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

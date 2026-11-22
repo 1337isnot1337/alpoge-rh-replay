@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.DualLattices.ValuationFourierLeOne",
+  "source_sha256": "5a4c0258ed7b92db10146fe29e9b72659e525439df743d6b94f5efed099379ab",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

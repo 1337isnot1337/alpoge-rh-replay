@@ -1,0 +1,64 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PolynomialDifferentialWords/PolarizationBihomogeneous.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PolynomialDifferentialWords/PolarizationBihomogeneous.lean
+@@ -61,7 +61,7 @@
+   · exact iwh_X_pderiv _ _ _ (by simp [wxi]) h2
+ 
+ theorem coeff_X_pderiv_self {σ : Type} {K : Type} [Field K] (i : σ) (f : MvPolynomial σ K)
+-    (m : σ →₀ ℕ) : coeff m (X i * pderiv i f) = coeff m f * (m i : K) := by
++    (m : σ →₀ ℕ) : (X i * pderiv i f).coeff m = f.coeff m * (m i : K) := by
+   classical
+   induction f using MvPolynomial.induction_on'
+   next u a =>
+@@ -80,13 +80,13 @@
+         rfl
+       · simp
+   next p q hp hq =>
+-    simp only [map_add, mul_add, coeff_add, hp, hq, add_mul]
++    simp only [map_add, mul_add, MvPolynomial.coeff_add, hp, hq, add_mul]
+ 
+ theorem weightOfEigenvector : WtOfEig := by
+   intro K _ _ k a w f h m hm
+-  have h1 := congrArg (coeff m) h
++  have h1 := congrArg (fun p : Pol K k => p.coeff m) h
+   rw [rop_apply_eq, coeff_sub, coeff_X_pderiv_self, coeff_X_pderiv_self, coeff_smul] at h1
+-  have hc : coeff m f ≠ 0 := MvPolynomial.mem_support_iff.1 hm
++  have hc : f.coeff m ≠ 0 := MvPolynomial.mem_support_iff.1 hm
+   have h2 : (((m (Sum.inl a) : ℤ) - m (Sum.inr a) : ℤ) : K) = (w : K) := by
+     apply mul_left_cancel₀ hc
+     push_cast
+@@ -118,7 +118,7 @@
+   split_ifs with hd
+   · refine Finset.sum_congr rfl fun x hx => ?_
+     rw [coeff_weightedHomogeneousComponent]
+-    by_cases h0 : coeff x.1 φ = 0
++    by_cases h0 : φ.coeff x.1 = 0
+     · simp [h0]
+     · have hx0 := hφ h0
+       have hsum := by simpa using hx
+@@ -128,7 +128,7 @@
+   · symm
+     refine Finset.sum_eq_zero fun x hx => ?_
+     rw [coeff_weightedHomogeneousComponent]
+-    by_cases h0 : coeff x.1 φ = 0
++    by_cases h0 : φ.coeff x.1 = 0
+     · simp [h0]
+     · have hx0 := hφ h0
+       have hsum := by simpa using hx
+@@ -152,7 +152,7 @@
+   have hk : 0 < k := Fin.pos a
+   have hcomp : weightedHomogeneousComponent (va k a) n g ≠ 0 := by
+     intro h0
+-    have h3 := congrArg (coeff m) h0
++    have h3 := congrArg (fun p : Pol K k => p.coeff m) h0
+     rw [coeff_weightedHomogeneousComponent, if_pos hwm] at h3
+     exact (MvPolynomial.mem_support_iff.1 hm) (by simpa using h3)
+   have hprod : weightedHomogeneousComponent (va k a) n (tt K k * g) ≠ 0 := by
+@@ -160,7 +160,7 @@
+     exact mul_ne_zero (tt_ne_zero K k hk) hcomp
+   apply hprod
+   ext m'
+-  rw [coeff_weightedHomogeneousComponent, coeff_zero]
++  rw [coeff_weightedHomogeneousComponent, MvPolynomial.coeff_zero, Finsupp.zero_apply]
+   split_ifs with hw
+   · by_contra hne
+     have h4 := h m' (MvPolynomial.mem_support_iff.2 hne) a

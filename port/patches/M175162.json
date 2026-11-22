@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.TorusLexB",
+  "source_sha256": "ba27bd431027478116c6a1c1f5aea04f8a283ba58e50a27967bb6351563fc6da",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed continuous finite-product theorem. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0171-lean436-20261121/packet-result.json"
+}

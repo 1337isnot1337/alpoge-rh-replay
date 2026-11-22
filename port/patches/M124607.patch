@@ -1,0 +1,16 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/IsProperSpreadsOut.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/BlockDecomposition/IsProperSpreadsOut.lean
+@@ -368,11 +368,11 @@
+     exact map_one (β F)
+   · intro a b
+     filter_upwards [hmem a, hmem b, hmem (a + b)] with F ha hb hab
+-    rw [hv F _ hab, hv F _ ha, hv F _ hb, ← map_add]
++    rw [hv F _ hab, hv F _ ha, hv F _ hb, ← RingHom.map_add (β F)]
+     rfl
+   · intro a b
+     filter_upwards [hmem a, hmem b, hmem (a * b)] with F ha hb hab
+-    rw [hv F _ hab, hv F _ ha, hv F _ hb, ← map_mul]
++    rw [hv F _ hab, hv F _ ha, hv F _ hb, ← RingHom.map_mul (β F)]
+     rfl
+   · refine (ofFamily_apply U h _ _ _ (φ r)).trans ((mk_eq_mk_iff U).2 ?_)
+     refine Filter.Eventually.of_forall fun F => ?_

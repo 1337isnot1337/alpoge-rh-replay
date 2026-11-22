@@ -1,0 +1,11 @@
+--- a/src/Development/AutomorphicArithmetic/CommutativeAlgebra/EtaleCohomology/SumSecEqZero.lean
++++ b/src/Development/AutomorphicArithmetic/CommutativeAlgebra/EtaleCohomology/SumSecEqZero.lean
+@@ -21,7 +21,7 @@
+   have hnat : ∀ i, (F.map (S.f s)).hom (a i • c A ((u i).app A y)) =
+       a i • c (S.B s) ((u i).app _ (Q.map (S.f s) y)) := by
+     intro i
+-    rw [map_zsmul, hc' (S.f s) _, FunctorToTypes.naturality]
++    rw [map_zsmul, hc' (S.f s) _, NatTrans.naturality_apply]
+   rw [map_zero, map_sum]
+   simp only [hnat]
+   rcases hs s with h0 | h0

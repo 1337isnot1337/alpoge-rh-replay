@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/AutomorphicForms/TraceClass.lean
++++ b/src/GroundTheory/AutomorphicForms/TraceClass.lean
+@@ -25,7 +25,7 @@
+ section Abs
+ 
+ theorem isSelfAdjoint_of_nonneg {A : H →L[ℂ] H} (hA : 0 ≤ A) : IsSelfAdjoint A :=
+-  ((nonneg_iff_isPositive A).1 hA).isSelfAdjoint
++  ((nonneg_iff_isPositive).1 hA).isSelfAdjoint
+ 
+ theorem adjoint_eq_of_nonneg {A : H →L[ℂ] H} (hA : 0 ≤ A) : A† = A :=
+   (isSelfAdjoint_of_nonneg hA).adjoint_eq

@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.AutomorphicForms.UnitaryRepresentations.DirectSum",
+  "source_sha256": "55ae3ef2a87cd47d47cac570b3c33b81824c79eda89dc739b044daac0398cf68",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

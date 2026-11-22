@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PolynomialDimension.MultinomialDepth.FockGaussComparisonHolds",
+  "source_sha256": "f9aa8e958b0e3151e79d94bb3f2cab8345e02ab3ac8d9ddef1e43570241eec40",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Rewrite the computational padicValNat expressions using Nat.padicValNat_def before applying factorization and Nat.multiplicity_mul lemmas, then rewrite the product terms back where existing valuation lemmas expect padicValNat. The same equality also makes the empty-product simplification available. Only proofs change; every definition, theorem statement, hypothesis, and bound is unchanged."
+}

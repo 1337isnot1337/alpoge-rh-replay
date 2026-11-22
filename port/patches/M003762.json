@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Divisors.LeTwoMulOfForallScale",
+  "source_sha256": "46efd35d0a7f649bbc10017d054a12fab1948cb93621862aa743bc338bb6bacd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify matrix multiplication in the quotient Gram matrix example."
+}

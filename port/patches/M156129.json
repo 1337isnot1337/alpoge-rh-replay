@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.MinkowskiBound.PowerSum",
+  "source_sha256": "87208c9d12d246f4dfb6352deef7324ad2e66fba9301359e276f3964eb229447",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

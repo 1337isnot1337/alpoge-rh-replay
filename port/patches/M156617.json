@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SemilocalBasis.IsPID",
+  "source_sha256": "0b4382ac8ba4b30d9a1e9ac39f88471bf814983705b59fa8f3f3888a787e10e6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

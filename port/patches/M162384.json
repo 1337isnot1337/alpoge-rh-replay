@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.ArithmeticGeometry.SchemeCohomology.ProperCohomology.ReesScheme",
+  "source_sha256": "c55d44c5b7ba2080500792c51f322da47ab5bf2d618fe91d3def4e5fab2889fe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0159-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.WeilBound.ThetaLifts.EigenvalueEndgame.CuspidalAverages.KillCoef",
+  "source_sha256": "722a1c87a4a4f1e6fc281486a39e71c5dff446aad9f5405962abee40fabe304a",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0145-lean436-20261121/packet-result.json"
+}

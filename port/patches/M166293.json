@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightKernels.PSymplReduceMem",
+  "source_sha256": "f2230bf88985c4678742bf20847f2e960505988b442e1fcba505ca60f4a6d6bc",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Disambiguate the matrix identity entry lemma in the symplectic block calculation. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0229-lean436-20261121/packet-result.json"
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AutomorphicSpectrum.Proofs.BlockDecomposition.LatticeSumDecayBound",
+  "source_sha256": "746f6de791c90dd05c315fd5e3dd625ee72cab360d0bdcb0babd7ef8d50f2694",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: explicitly supply the nonnegative product function to the sum-over-injection inequality, avoiding expensive unconstrained function inference. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0139-lean436-20261121/packet-result.json"
+}

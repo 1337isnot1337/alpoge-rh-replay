@@ -1,0 +1,8 @@
+{
+  "module": "ReciprocityTheory.SemistableReduction.AeBlockSphereEvalNeZero",
+  "source_sha256": "8bbe534700a1448f8b082682da46fc56fe6c2a972746846f2fa2f4dc71d9fbda",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the coefficient projection and current componentwise measurability theorem, and remove the tactic after simp closes the goal. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0171-lean436-20261121/packet-result.json"
+}

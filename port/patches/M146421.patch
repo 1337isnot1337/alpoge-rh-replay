@@ -1,0 +1,29 @@
+--- a/src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HerglotzLowerSemicontinuous.lean
++++ b/src/Formalism/HermitianCurvature/HermitianCurvatureProofs/HerglotzLowerSemicontinuous.lean
+@@ -124,7 +124,7 @@
+   refine (norm_sum_le _ _).trans (Finset.sum_le_sum (fun σ' _ => ?_))
+   rw [norm_mul, norm_mul, RCLike.norm_conj]
+ 
+-def cube (d : ℕ) : Set (Fin d → ℝ) := Set.Icc (fun _ => -(1 / 2)) (fun _ => 1 / 2)
++noncomputable def cube (d : ℕ) : Set (Fin d → ℝ) := Set.Icc (fun _ => -(1 / 2)) (fun _ => 1 / 2)
+ 
+ lemma integral_one_dim (m : ℤ) :
+     ∫ t in Set.Icc (-(1 / 2) : ℝ) (1 / 2), Complex.exp (2 * π * Complex.I * (((m : ℝ) : ℂ) * (t : ℂ))) =
+@@ -279,7 +279,7 @@
+       by_contra hcon
+       push Not at hcon
+       exact hy0 (funext hcon)
+-    refine Finset.prod_lt_prod (fun i _ => lt_of_le_of_ne (by positivity) (hz i).symm)
++    refine Finset.prod_lt_prod₀ (fun i _ => lt_of_le_of_ne (by positivity) (hz i).symm)
+       (fun i _ => ?_) ⟨j, Finset.mem_univ j, ?_⟩
+     · rw [fac_eq]; linarith [Real.cos_le_one (2 * π * y i)]
+     · rw [fac_eq]
+@@ -305,7 +305,7 @@
+   have h4 : (4 : ℝ) ^ d = ∏ _j : Fin d, (4 : ℝ) := by simp
+   rw [h4]
+   unfold pk
+-  refine Finset.prod_le_prod (fun i _ => by positivity) (fun i _ => ?_)
++  refine Finset.prod_le_prod₀ (fun i _ => by positivity) (fun i _ => ?_)
+   rw [fac_eq]; linarith [Real.cos_le_one (2 * π * y i)]
+ 
+ lemma normSq_prod (n : ℕ) (y : Fin d → ℝ) :

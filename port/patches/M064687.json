@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.GlobalInterpolation.EnormSqLeLintegralDisc",
+  "source_sha256": "57ce3325d3e1d8999877cbc445ccf3d586b2dd0673e9a9142df70a9b71ccaaa3",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Proof-only: express the same pointwise set inclusion as an almost-everywhere inclusion. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0120-lean436-20261121/packet-result.json"
+}

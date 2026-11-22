@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/DiscreteTopologySpanOfLinearIndependent.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CovolumeBounds/DiscreteTopologySpanOfLinearIndependent.lean
+@@ -28,7 +28,7 @@
+ theorem free_of_fg {V : Type*} [AddCommGroup V] [Module ℝ V] {L : Submodule ℤ V} (h : L.FG) :
+     Module.Free ℤ L := by
+   have : Module.Finite ℤ L := .of_fg h
+-  have : IsAddTorsionFree V := .of_isTorsionFree ℝ V
++  have : HasUniqueDiv V := .of_isTorsionFree ℝ V
+   infer_instance
+ 
+ open Classical in

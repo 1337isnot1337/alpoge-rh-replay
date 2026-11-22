@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.GlobalFields.SUnits",
+  "source_sha256": "9a827b75b8349e2742f158f394ad0b8367a7662f425a0407c77158edfcc608f2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the nondivisibility-to-zero multiplicity theorem directly with the existing proof. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0160-lean436-20261121/packet-result.json"
+}

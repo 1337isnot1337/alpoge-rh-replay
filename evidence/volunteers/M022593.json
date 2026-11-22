@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    "M022593"
+  ],
+  "started_utc": "2026-11-21T08:52:29.244585+00:00",
+  "ended_utc": "2026-11-21T08:52:38.879336+00:00",
+  "elapsed_seconds": 9.6,
+  "host": {
+    "cpu_count": 11,
+    "mem_total_kib": 10172312,
+    "peak_child_rss_kib": 5774012
+  },
+  "toolchain": "Lean (version 4.33.1, aarch64-unknown-linux-gnu, commit 819816b2e0a3bf405af45ae5c7af2491d8f5bee6, Release)",
+  "mathlib": "0df444a360eaa60ab8c11dca51a86af692955474",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "command": [
+    "lake",
+    "build",
+    "+Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfForallResidueFieldFunctionalStatement:olean"
+  ],
+  "exit_code": 0,
+  "log_sha256": "b4ddbfa86bb7532b0dbedd96021a8e8af0a2ab6ea6c7c1e9a85a6d11787746b7",
+  "rebuilt_project_modules": [
+    "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfForallResidueFieldFunctional"
+  ],
+  "objects": {
+    "M022593": "b66a1881ad3825eaae954d51eb4a14189ea1443ab09d47b6923fbb4f63019926"
+  },
+  "bundle_sha256": "0d129d7c248fe656d6d0203ffeabce85344deb1f11c93c9c54493a66d230d6fe",
+  "packet": "M022593",
+  "contributor": "gilad12-coder",
+  "claim": "https://github.com/rohanarun/alpoge-rh-replay/issues/18272#issuecomment-7060206390",
+  "reviewed_utc": "2026-11-22T00:54:40.430888+00:00",
+  "review": "Verified the grant, receipt pins and exact targets, and matching successful build transcript. Verified the supplied bundle checksum and every target .olean checksum.",
+  "automation": {
+    "tool": "tracker/publish.py",
+    "run": "https://github.com/rohanarun/alpoge-rh-replay/actions/runs/44967790389",
+    "kernel_replayed_targets": [],
+    "built_targets": [
+      "Development.AbelianVarietyTheory.Proofs.DivisorProofs.EqZeroOfForallResidueFieldFunctionalStatement"
+    ]
+  }
+}

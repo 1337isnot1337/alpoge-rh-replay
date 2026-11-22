@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Counterexamples.LevelGroupExamples.JetTruncNotInjective",
+  "source_sha256": "ac7a2f4b857c3c689e87b1772529ed4ad459647b5ba9c596124f40c8b195a306",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

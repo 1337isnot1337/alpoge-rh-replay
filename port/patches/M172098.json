@@ -1,0 +1,7 @@
+{
+  "module": "ReciprocityTheory.L2DbarEstimates.MinimalSolutions.HormanderLemma",
+  "source_sha256": "dc2a002ea4096d1a3812cc05427a76ea5c4eedcb9c3a4e7082e4b1afbf909cbd",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

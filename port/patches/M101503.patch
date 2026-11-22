@@ -1,0 +1,15 @@
+--- a/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/HidaCompleteRings/HeckeModel.lean
++++ b/src/Development/AutomorphicArithmetic/AutomorphicVarieties/AlgebraTools/HidaCompleteRings/HeckeModel.lean
+@@ -11,8 +11,10 @@
+     change (s (t y) : M) = t (s y)
+     rw [hi, hj, hj, hi]
+     exact h.2 i j y y.2
+-  have hc : ∀ a b : heckeAlg Y op, a * b = b * a := fun a b =>
+-    (Algebra.adjoinCommSemiringOfComm A key).mul_comm a b
++  haveI : IsMulCommutative (heckeAlg Y op) :=
++    Algebra.isMulCommutative_adjoin A (fun a ha b hb _ => key a ha b hb)
++  have hc : ∀ a b : heckeAlg Y op, a * b = b * a := by
++    open scoped IsMulCommutative in exact mul_comm
+   let t : ι → heckeAlg Y op := fun i =>
+     ⟨(op i).restrict (h.1 i), Algebra.subset_adjoin ⟨i, fun _ => rfl⟩⟩
+   have htop : Algebra.adjoin A (Set.range t) = ⊤ := by

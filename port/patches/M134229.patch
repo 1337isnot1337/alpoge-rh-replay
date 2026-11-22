@@ -1,0 +1,20 @@
+--- a/src/Development/AutomorphicSpectrum/Proofs/MetricProofs/PolydiscPoissonSmooth.lean
++++ b/src/Development/AutomorphicSpectrum/Proofs/MetricProofs/PolydiscPoissonSmooth.lean
+@@ -42,7 +42,7 @@
+     rw [mem_ball_zero_iff] at hz ⊢
+     exact lt_of_le_of_lt (norm_le_pi_norm z i) hz
+   have hlin : ∀ i : Fin n, ContDiff ℝ ∞ (fun q : (Fin n → ℂ) × (Fin n → ℝ) => (q.1 i, q.2 i)) := fun i =>
+-    ((contDiff_apply ℝ ℂ i).comp contDiff_fst).prodMk ((contDiff_apply ℝ ℝ i).comp contDiff_snd)
++    ((contDiff_apply ℝ (fun _ : Fin n => ℂ) i).comp contDiff_fst).prodMk ((contDiff_apply ℝ (fun _ : Fin n => ℝ) i).comp contDiff_snd)
+   have hcomp : ∀ i : Fin n, ContDiffOn ℝ ∞
+       ((fun q : ℂ × ℝ => pker ρ q.1 q.2) ∘ (fun q : (Fin n → ℂ) × (Fin n → ℝ) => (q.1 i, q.2 i))) (Metric.ball (0 : Fin n → ℂ) ρ ×ˢ (Set.univ : Set (Fin n → ℝ))) :=
+     fun i => (contDiffOn_pker hρ).comp (hlin i).contDiffOn (hmaps i)
+@@ -155,6 +155,7 @@
+     rw [smul_eq_mul, mul_comm]
+   rw [e, contDiffOn_infty]
+   intro k
+-  exact contDiffOn_integral_angMeas _ hh k ℝ _ (contDiffOn_prod_pker hρ)
++  exact contDiffOn_integral_angMeas (fun θ : Fin n → ℝ => h (torusPt ρ θ)) hh k ℝ
++    (fun q : (Fin n → ℂ) × (Fin n → ℝ) => ∏ i, pker ρ (q.1 i) (q.2 i)) (contDiffOn_prod_pker hρ)
+ 
+ end GlobalTheory.CompanionTheory.Ar.PB.Flat.Smooth

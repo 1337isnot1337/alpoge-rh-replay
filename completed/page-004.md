@@ -2,6 +2,16 @@
 
 | Part ID | Packet | Module | Evidence |
 |---|---|---|---|
+| M002141 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HermitianCurvatureForms` | volunteer-build-reviewed |
+| M002142 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HermitianInterpolation` | volunteer-build-reviewed |
+| M002143 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HodgeFrameGram` | volunteer-build-reviewed |
+| M002144 | P0238 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.HodgePeriodGram` | volunteer-build-reviewed |
+| M002147 | P0001 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.IdeleNormTraceForm` | volunteer-build-reviewed |
+| M002152 | P0582 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LatticeNormTransport` | wave-reused |
+| M002153 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelLiftConditions` | volunteer-build-reviewed |
+| M002154 | P0945 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LevelLossDegreeBounds` | volunteer-build-reviewed |
+| M002156 | P0393 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LieAlgebraMaps` | volunteer-build-reviewed |
+| M002157 | P1244 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LiftFormsMainTerm` | volunteer-build-reviewed |
 | M002158 | P1217 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LiftedCharacterResidue` | volunteer-build-reviewed |
 | M002159 | P1193 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LinearCoefficientData` | build-observed |
 | M002160 | P1271 | `Development.AbelianVarietyTheory.BlockTheory.DivisorBase.LocalValuationColumns` | volunteer-build-reviewed |
@@ -392,13 +402,3 @@
 | M002803 | P1323 | `Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.NotVstdOfGramOne` | volunteer-build-reviewed |
 | M002805 | P0095 | `Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.PremisesModel` | volunteer-build-reviewed |
 | M002811 | P0838 | `Development.AbelianVarietyTheory.Counterexamples.HeckeCharacterExamples.SecondTwistCrystallineSmallOfJumpsOfCrys` | build-observed |
-| M002812 | P1114 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.BesselPeriodPositionOneEqZero` | build-observed |
-| M002813 | P0974 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.BlattnerShiftsSignedParameters` | build-observed |
-| M002815 | P0945 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.EmbRelExistsUnique` | volunteer-build-reviewed |
-| M002817 | P0917 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.ExistsExpoScalar` | build-observed |
-| M002818 | P1084 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.ExistsGoodFamily` | build-observed |
-| M002822 | P0678 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.FromTestIffOfValAtCx` | build-observed |
-| M002825 | P1056 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.IsTypeAtCentral` | build-observed |
-| M002827 | P0974 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.NotHasInfExpThird` | build-observed |
-| M002828 | P0615 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.NotOverAndTriv` | volunteer-build-reviewed |
-| M002832 | P1028 | `Development.AbelianVarietyTheory.Counterexamples.HeightSurvey.StarPurelyImaginaryEqNeg` | build-observed |

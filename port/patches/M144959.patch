@@ -1,0 +1,31 @@
+--- a/src/Formalism/GL3MeanSquares/HookFormulaTorsion/ExpNegLeDivPowFour.lean
++++ b/src/Formalism/GL3MeanSquares/HookFormulaTorsion/ExpNegLeDivPowFour.lean
+@@ -421,6 +421,7 @@
+     have h2 : Real.log X = 400 * Real.log x := by rw [hX, Real.log_rpow hx0]
+     linarith
+ 
++set_option linter.constructorNameAsVariable false in
+ lemma bound2 (L : ℝ) (hL : 3 ≤ L) :
+     3 ≤ ⌈L ^ 800⌉₊ ∧ ((⌈L ^ 800⌉₊ : ℕ) : ℝ) ^ (-((1 : ℝ) / 400)) ≤ 1 / L ^ 2 ∧
+       Real.log ((⌈L ^ 800⌉₊ : ℕ) : ℝ) ≤ 1 + 800 * Real.log L := by
+@@ -430,7 +431,10 @@
+     rw [pow_one] at this
+     linarith
+   have h1 : L ^ 800 ≤ ((⌈L ^ 800⌉₊ : ℕ) : ℝ) := Nat.le_ceil _
+-  have h2 : ((⌈L ^ 800⌉₊ : ℕ) : ℝ) < L ^ 800 + 1 := Nat.ceil_lt_add_one (by positivity)
++  have h2 : ((⌈L ^ 800⌉₊ : ℕ) : ℝ) < L ^ 800 + 1 := by
++    have hnonneg : 0 ≤ L ^ 800 := pow_nonneg hL0.le _
++    generalize L ^ 800 = y at hnonneg ⊢
++    exact Nat.ceil_lt_add_one hnonneg
+   set M := ⌈L ^ 800⌉₊
+   have hM3' : (3 : ℝ) ≤ M := by linarith
+   refine ⟨by exact_mod_cast hM3', ?_, ?_⟩
+@@ -439,7 +443,7 @@
+     have h4 : (L ^ 800) ^ (-((1 : ℝ) / 400)) = 1 / L ^ 2 := by
+       rw [one_div (L ^ 2), ← Real.rpow_natCast L 800, ← Real.rpow_mul hL0.le, ← Real.rpow_natCast L 2,
+         ← Real.rpow_neg hL0.le]
+-      congr 1
++      apply congrArg (fun x : ℝ => L ^ x)
+       norm_num
+     linarith
+   · have h3 : (M : ℝ) ≤ 2 * L ^ 800 := by linarith

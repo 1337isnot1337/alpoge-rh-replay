@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.CommutativeAlgebra.CompletionDVR",
+  "source_sha256": "e729b6aa1dc5c080ea35d6c62ecba213ea8c6e3a5b72f4a61cfd867a1737dda1",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

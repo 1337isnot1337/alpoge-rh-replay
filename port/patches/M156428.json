@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.Weight",
+  "source_sha256": "54f3977c89ea4294508212d60a11148906e342ef9600172ac83388cabef4e984",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the general measurability lemma for the nonnegative extended-real series."
+}

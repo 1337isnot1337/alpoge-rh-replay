@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PieriBlockIdeals.PieriColumnMinors.WeightExchangeBoundHolds",
+  "source_sha256": "6b0ec4663e3a256de1bba7a057d4f30c6dc9bf427aa604b2b964a8f80d17f0e4",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

@@ -1,0 +1,22 @@
+--- a/src/Development/WeilBound/RepresentationTheoryGL/ArchimedeanBaseChange/ArchimedeanBaseChangeProof/InfinitesimalCharacterLimits/LieSumDecompositions/PSepFacB.lean
++++ b/src/Development/WeilBound/RepresentationTheoryGL/ArchimedeanBaseChange/ArchimedeanBaseChangeProof/InfinitesimalCharacterLimits/LieSumDecompositions/PSepFacB.lean
+@@ -162,7 +162,7 @@
+     refine Finset.sum_congr rfl fun i _ => ?_
+     rw [eval_monomial, ← map_pow, ← Algebra.commutes, ← Algebra.smul_def, map_smul, smul_eq_mul, mul_comm]
+   have hc : q.coeff k = φ (D.coeff k) := by
+-    simp only [q, finsetSum_coeff, coeff_monomial]
++    simp only [q, finsetSum_coeff, coeff_monomial, Finsupp.single_apply]
+     by_cases hk : k ∈ Finset.range (D.natDegree + 1)
+     · rw [Finset.sum_ite_eq']
+       simp [hk]
+@@ -210,7 +210,9 @@
+     · exact (hcomm i j).2.1.eq
+     · exact ((hcomm j i).2.1.eq).symm
+     · exact (hcomm i j).2.2.eq
+-  letI : CommRing (Algebra.adjoin ℂ S) := Algebra.adjoinCommRingOfComm ℂ hS
++  letI : IsMulCommutative (Algebra.adjoin ℂ S) := Algebra.isMulCommutative_adjoin ℂ (fun a ha b hb _ => hS a ha b hb)
++  letI : CommRing (Algebra.adjoin ℂ S) := by
++    open scoped IsMulCommutative in infer_instance
+   let a' : ℕ → Algebra.adjoin ℂ S := fun i => ⟨a i, Algebra.subset_adjoin (Or.inl ⟨i, rfl⟩)⟩
+   let b' : ℕ → Algebra.adjoin ℂ S := fun i => ⟨b i, Algebra.subset_adjoin (Or.inr ⟨i, rfl⟩)⟩
+ 

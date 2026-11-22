@@ -1,0 +1,590 @@
+{
+  "target": "P0165",
+  "issue": "https://github.com/rohanarun/alpoge-rh-replay/issues/26971",
+  "toolchain": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "build_base_commit": "67be0d3a90f3d5df3291a2452a12ed387d2080e0",
+  "port_record_commit": "4b1fefc2e3b58521d55dee6e57268b7786f7a9c3",
+  "inputs_manifest_sha256": "d2a5f82a86712b08ff1923e93eabd3dafe9bdd9a7758893384a0e418580aa719",
+  "ledger_sha256": "c4e2032331f0da7fafe9dc6046ca9430e899041f77c1985167c92f5b0ee7ea74",
+  "build_log_sha256": "fa07767c6099054667424d817b51a0e4624b0c63385b3e51f97a8ff0650b1c32",
+  "audit": {
+    "command": "lake env lean --run <repository>/port/islattice_audit.lean GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuOneCoeff GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuProdSlice GroundTheory.HeightsAndTheta.Heights.IntegralModels.FiniteIntegralClosureCharZero GroundTheory.HeightsAndTheta.Heights.Intersections.PAdjoinIndepRelfinrank GroundTheory.HeightsAndTheta.Heights.Intersections.PRelAlgClosureFinite GroundTheory.HeightsAndTheta.Heights.Intersections.PRelBaseChange GroundTheory.HeightsAndTheta.Heights.Intersections.StatementsFibreLocal GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.GraphEquiv GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.Objects GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.PDedekindFibreRank GroundTheory.HeightsAndTheta.Heights.LocalDensities.LeviLine GroundTheory.HeightsAndTheta.Heights.LocalDensities.PKrullHeightOne GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsClosedPointGenericFibre GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsFSDensity GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsIntegralPointAlgebraic GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.ImportsBis GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PCovolumeRelIndex GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PEmbeddingSumPlaces GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PLatticeCountVolume GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PMixedBoxCount GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StComponentsGenericCount GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsNumberFieldBoxCount GroundTheory.HeightsAndTheta.Heights.ReducedTensors.PBaseChangeReduced GroundTheory.HeightsAndTheta.Heights.Regularisation.PPuncturedExpOrder GroundTheory.HeightsAndTheta.Heights.RemainderTerms.AltCoeff GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Elementary GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Expand GroundTheory.HeightsAndTheta.Heights.RemainderTerms.FlagBasic GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Inhabitants GroundTheory.HeightsAndTheta.Heights.RemainderTerms.IsFlagIntegralOne GroundTheory.HeightsAndTheta.Heights.RemainderTerms.JacobiTrudi GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Pluecker GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PowerSums",
+    "script_sha256": "aa5d944f11e687880959ea125061ef562594ba8352076da4b83e2f496cb9e39b",
+    "result": "islattice-audit: 33 module(s), 0 hit(s)"
+  },
+  "modules": [
+    {
+      "id": "M167348",
+      "module": "GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuOneCoeff",
+      "source_sha256": "b34cbd8d28d0ebb2426fb7ebd3d6c738c1b197a5e8418be7d38d2e11c8e71189",
+      "patch_sha256": "58139adecea62a5b7c4b8b10b40e1247aea94f59d231f281a0c6b22728905858",
+      "built_source_sha256": "bb2d9a5fe088b294f8415a64bac002ccbaddd9b22cc99e5f6bf7167e953f2d20",
+      "olean_sha256": "2b08a0ef885375cc8ecf6e9b48d804359b309b69c3de0fb2e83ca1b82cddad90",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M167351",
+      "module": "GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuProdSlice",
+      "source_sha256": "9ec237999047314e9049e626372694a510d01998d003050bb33caab4022b0862",
+      "patch_sha256": "7cd3e59b812c9e0d9309921591ec154d6580b3fc16259d15c3c54e469f9569d3",
+      "built_source_sha256": "7da0c9d6a9d0206d81b38161050e0f2c7bf78862eeb1b95250e03229ad64111e",
+      "olean_sha256": "fd0889fc235f44d2042c6ee178a689472fcd5b3bbf5b83a1c8fc30a14577c628",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M167577",
+      "module": "GroundTheory.HeightsAndTheta.Heights.IntegralModels.FiniteIntegralClosureCharZero",
+      "source_sha256": "7e4e894cc0d1c745f7058a2fd5dde86232954e679096ec35a988e2cb09ceec8a",
+      "patch_sha256": "772fb869356d0f0a9988b2ce2987de58c2a69fd3a79dc250a568d45f7a56f0d0",
+      "built_source_sha256": "cf3d790ec856611e747a3cb7cae0216eb435f95f314a1c5b77e97e5c48d279cc",
+      "olean_sha256": "b5faf07062a76d84d528b04a508fa3c2569d0dce1082143f3a2d67c7dfea31e3",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M167808",
+      "module": "GroundTheory.HeightsAndTheta.Heights.Intersections.PAdjoinIndepRelfinrank",
+      "source_sha256": "6d9eb8ed31ea319b3d1be6911142d2d825ff14baf6fcc419bb7e511a7431ce05",
+      "patch_sha256": "3367f788b3cf53742719e1b3f0fefd47d075ade4525ecb24a6c79c278a1a5737",
+      "built_source_sha256": "80aa6201b8f320d8f86051b1d3848277858a960deb151e6420a631a3d0864411",
+      "olean_sha256": "45e217dcfcfc3a37be4a4a2030081280b56aac5fb48419f82c3630a7627219aa",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M167901",
+      "module": "GroundTheory.HeightsAndTheta.Heights.Intersections.PRelAlgClosureFinite",
+      "source_sha256": "88155111f1ee4ae3d05863a6f1caec28491c34207d03fe6fbb934ffd8f5dc713",
+      "patch_sha256": "dc51840686e0589b60f38472b125f02dada0ccbfc9846ac560a91145eed0d66a",
+      "built_source_sha256": "7f1763b267142a30916fc121c57e50fde499612d4afb3db3c32645ea5081d149",
+      "olean_sha256": "52bd760eece46daa741fb8c868acb9549ef6f942d6a73298dea25b204f62db14",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M167902",
+      "module": "GroundTheory.HeightsAndTheta.Heights.Intersections.PRelBaseChange",
+      "source_sha256": "88d251d975d29e9deeeefc20de44c699e7812968ded6f325996ade8f765d8fca",
+      "patch_sha256": "d700b31dcea325fdd5d0e74353b92114edff635160a4e66c8868242b656beaaa",
+      "built_source_sha256": "f33fd3692983e053922ff3b0a84da19f188302f53f057649d5b4613966843c59",
+      "olean_sha256": "26cc0a60a22c210bf325c88cb1c1ecf207b3fecbbab86df826d56655689f9296",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168029",
+      "module": "GroundTheory.HeightsAndTheta.Heights.Intersections.StatementsFibreLocal",
+      "source_sha256": "c91c1c30b67d77dffb4b58f0ab4b8e408936053c3945d10722ea8ba3ace48f40",
+      "patch_sha256": "a88b6762276b19a775e4f9e77247f063500d8afb04fc8ae85a1b5fb2c4d43a69",
+      "built_source_sha256": "1bf3c4aac039dc7b83f91290e56b0ba68deae97f7baa30599e89c356faf71ae0",
+      "olean_sha256": "2955e50528682ccb7ee1098f8fe02a4952ca87a273d59ef0ba25a4bd81666673",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168151",
+      "module": "GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.GraphEquiv",
+      "source_sha256": "64557d023f92434d4de627525572497006430fdfde60e79dab720d14aa125981",
+      "patch_sha256": null,
+      "built_source_sha256": "64557d023f92434d4de627525572497006430fdfde60e79dab720d14aa125981",
+      "olean_sha256": "cc96d42d1e50dc44a6d43e46bc6991a7ca4201ac1eca565f288f0fdd8b60c3ab",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168314",
+      "module": "GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.Objects",
+      "source_sha256": "e36a87605183365f628ae84348bbf0df962ca8face7873aa72a092226b51998f",
+      "patch_sha256": "cc003d1ca7a52f05c5f078a9ef2b5ea2624dc1983b2e93f0b4db5e9188c6d4e9",
+      "built_source_sha256": "71bc1466b93fb3616c0f6e82f4d06537797a118792d8094b22e96dc1b6148710",
+      "olean_sha256": "fccdf988d8510c1a2609119510aa9c115d672c02b6f36ef28cf5d9ba870bdc28",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168359",
+      "module": "GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.PDedekindFibreRank",
+      "source_sha256": "dc5f000484ffff4203ca0ea9ffa035998f3eadb0747025b2f57cad71b0c84bf4",
+      "patch_sha256": null,
+      "built_source_sha256": "dc5f000484ffff4203ca0ea9ffa035998f3eadb0747025b2f57cad71b0c84bf4",
+      "olean_sha256": "eaeec05186f785a220cfefd8d1a77a45e7fc6e418f198140223cb14338e3c4b6",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168711",
+      "module": "GroundTheory.HeightsAndTheta.Heights.LocalDensities.LeviLine",
+      "source_sha256": "40ae2f3fc93ca0600b75b0952288f010cdcb4095835d617a726c14af56509e4f",
+      "patch_sha256": null,
+      "built_source_sha256": "40ae2f3fc93ca0600b75b0952288f010cdcb4095835d617a726c14af56509e4f",
+      "olean_sha256": "2fd59f5de034788fb7cdfc721f6c22e31a5ed99280258e0d0877b7a98f8de5a6",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168728",
+      "module": "GroundTheory.HeightsAndTheta.Heights.LocalDensities.PKrullHeightOne",
+      "source_sha256": "f46acc6c54dc4bb376f10360eab25f9add660fd38108d11c1ea431e84132ccd6",
+      "patch_sha256": null,
+      "built_source_sha256": "f46acc6c54dc4bb376f10360eab25f9add660fd38108d11c1ea431e84132ccd6",
+      "olean_sha256": "62f6c87883a8defd73cedcf229cd672cad29069e627c09687a226660aed082ec",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168735",
+      "module": "GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsClosedPointGenericFibre",
+      "source_sha256": "17d758b88941c2f94961c05eadbd81353eb8634a13880fc46c4e607532b6b7e1",
+      "patch_sha256": null,
+      "built_source_sha256": "17d758b88941c2f94961c05eadbd81353eb8634a13880fc46c4e607532b6b7e1",
+      "olean_sha256": "9fbe877aba03f5eab6da1ada1ba8071528ace4dd86aa11580bed07d77c224199",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168737",
+      "module": "GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsFSDensity",
+      "source_sha256": "6ea44c3a87c443e26e6a6240d29a55fc0fe3067b2397f908b6bec38a55aeb719",
+      "patch_sha256": null,
+      "built_source_sha256": "6ea44c3a87c443e26e6a6240d29a55fc0fe3067b2397f908b6bec38a55aeb719",
+      "olean_sha256": "9f27ffefdbefad455d5f58f230c850f2fd2b5cfadb79af9751d4a78603d3a01d",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168739",
+      "module": "GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsIntegralPointAlgebraic",
+      "source_sha256": "34942be147420d78a4f3e59017841f517b3d4c61335762725982ba6993e866f8",
+      "patch_sha256": null,
+      "built_source_sha256": "34942be147420d78a4f3e59017841f517b3d4c61335762725982ba6993e866f8",
+      "olean_sha256": "a9babee16330717199c1ba4a24f6bab6edda447ce485d776e922963d9aa0782f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168833",
+      "module": "GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.ImportsBis",
+      "source_sha256": "de0492b4f88eb2f006f702bc3b387c22358965f02e4c1421d80e06a309adb278",
+      "patch_sha256": null,
+      "built_source_sha256": "de0492b4f88eb2f006f702bc3b387c22358965f02e4c1421d80e06a309adb278",
+      "olean_sha256": "01e13898c96d0fd5f83a6e5cc01ee6b6ee8a2c324f512c0d79b6f70adc76024a",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168937",
+      "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PCovolumeRelIndex",
+      "source_sha256": "1fdaa32a8432bc1ca346f52007e1007741bf7f34b69261a68141256bf98ceed6",
+      "patch_sha256": null,
+      "built_source_sha256": "1fdaa32a8432bc1ca346f52007e1007741bf7f34b69261a68141256bf98ceed6",
+      "olean_sha256": "965af7c20a7722eb8b1222bcd0031142b1475c5f3e3ac9088f883dc88e04a256",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168961",
+      "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PEmbeddingSumPlaces",
+      "source_sha256": "ca9c45a9c471fe6bf81664fe2bf2fdc23d541ce77e40348dad9b0b6f91e3adbe",
+      "patch_sha256": null,
+      "built_source_sha256": "ca9c45a9c471fe6bf81664fe2bf2fdc23d541ce77e40348dad9b0b6f91e3adbe",
+      "olean_sha256": "1aee2d781e72a72742d1090ed6a205e4de3acd66ffa253da418a9ba94a2ea1d1",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168974",
+      "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PLatticeCountVolume",
+      "source_sha256": "26776f81c722e7cd27674169f3f9acc01299d1d5cdd854007d1bcc55ad18de6d",
+      "patch_sha256": null,
+      "built_source_sha256": "26776f81c722e7cd27674169f3f9acc01299d1d5cdd854007d1bcc55ad18de6d",
+      "olean_sha256": "dcd07334bcc1e411af7147d36fdb5a9f295b0d1aeaa1f05de09223da62141dff",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M168990",
+      "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.PMixedBoxCount",
+      "source_sha256": "bf109a8eafa4a5f39fe9cb74adb7a46832276396ecd5718a68870ebf8b229bbd",
+      "patch_sha256": null,
+      "built_source_sha256": "bf109a8eafa4a5f39fe9cb74adb7a46832276396ecd5718a68870ebf8b229bbd",
+      "olean_sha256": "5d60307ab68f8a468eb7e8d35afe9cc1f749c7af60fd996cd59c18694db06bbc",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169076",
+      "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StComponentsGenericCount",
+      "source_sha256": "9f565e66b7f34831da9d0e27d1d3d106f34cf3e96d36e32af2103f73a02b9895",
+      "patch_sha256": null,
+      "built_source_sha256": "9f565e66b7f34831da9d0e27d1d3d106f34cf3e96d36e32af2103f73a02b9895",
+      "olean_sha256": "31bf6f91ef3c4cb6a6a52a83bba0b7569e440f939031786cf519afee934c2cf1",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169182",
+      "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsNumberFieldBoxCount",
+      "source_sha256": "af06738a035ab8be26f14c5f53de8f9ddb6876c03051c7be79d6964b54083895",
+      "patch_sha256": null,
+      "built_source_sha256": "af06738a035ab8be26f14c5f53de8f9ddb6876c03051c7be79d6964b54083895",
+      "olean_sha256": "bfc2674cf44cfadc84a748ff7e8037cae58d440b5ad145dd2145923034291cc9",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169219",
+      "module": "GroundTheory.HeightsAndTheta.Heights.ReducedTensors.PBaseChangeReduced",
+      "source_sha256": "405b68616cce39fb36bfe6ff441bb0fc8eb8b6f452b5f928ce5e903c9dba5255",
+      "patch_sha256": null,
+      "built_source_sha256": "405b68616cce39fb36bfe6ff441bb0fc8eb8b6f452b5f928ce5e903c9dba5255",
+      "olean_sha256": "bda7a714b0d9e22cd1243c1f529de8f9981951a2bc4734a7141a92efde457e49",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169246",
+      "module": "GroundTheory.HeightsAndTheta.Heights.Regularisation.PPuncturedExpOrder",
+      "source_sha256": "74e23c304a0c50b84c9563f3eac2f7cae4e1a73f0b663b1c395f5cf8f9f073a4",
+      "patch_sha256": null,
+      "built_source_sha256": "74e23c304a0c50b84c9563f3eac2f7cae4e1a73f0b663b1c395f5cf8f9f073a4",
+      "olean_sha256": "1d61b6f051a4a0e5dae1ffd039c3bf7d9b2c6603cb62c30a3fc03d1df522031c",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169264",
+      "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.AltCoeff",
+      "source_sha256": "f12e67f856af6c194763b6b4a245e5876195102f36268cc9d586a94cd6c27fc5",
+      "patch_sha256": "e7db760820137354ed2d4ad5a0f49b5929b628a351991150821df1d3997d3001",
+      "built_source_sha256": "83e1e2a69f560706c252b9851100ad7bb7ab0a58edf7ae9c9e1d9a05067d641e",
+      "olean_sha256": "b52dd2b39dc6f696a52e48c0157eb96e59cd87495a28211a3d2d2e470a647b8f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169270",
+      "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Elementary",
+      "source_sha256": "5576c7a78172721642a0755f10e4f75c973f955578ff0ecb1b5f9d7bf4b6ecbd",
+      "patch_sha256": null,
+      "built_source_sha256": "5576c7a78172721642a0755f10e4f75c973f955578ff0ecb1b5f9d7bf4b6ecbd",
+      "olean_sha256": "cede406d32fa987003579a300d30d815257e3147d8a8da55dc9084cdd16ce9f7",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169271",
+      "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Expand",
+      "source_sha256": "64bc1a6ad9a0d59d2041a4e6227f39619b291847a6539ee7dfcc8ebb71396fb7",
+      "patch_sha256": null,
+      "built_source_sha256": "64bc1a6ad9a0d59d2041a4e6227f39619b291847a6539ee7dfcc8ebb71396fb7",
+      "olean_sha256": "f6bb3f2e5c11fab0438d28024775e7acafbfca9dc8dcb74f58d5e8a7f501ffe2",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169272",
+      "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.FlagBasic",
+      "source_sha256": "a8269c66b73f7a56c30a0f3414bdf145799dab8034bd9d5d1a21c8f6307f1d78",
+      "patch_sha256": "71a8cf43b1e5a7b34917d074e3430d5f75dafe42d479057b868f3a89d421b18d",
+      "built_source_sha256": "172d6654a14e8da0694e70f50dfbe487949a7509e2c7870cca8a7632e859605b",
+      "olean_sha256": "cf83e4be51d1230de0559eca0e1f1b62d994ee87c236d5f3551e2396d944131e",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169279",
+      "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Inhabitants",
+      "source_sha256": "02dc308e9851a955c3d6caa8d708939e3639446843b920adc7d33fa3e576782a",
+      "patch_sha256": "f5cdd9aa9285749a6c47efbe3b9c1b11e2fdb872bb9f34e2690a13de0501f335",
+      "built_source_sha256": "f20c2d4b551b073d446173030b6614a119397229f0c172f45bd12b0ea2cd97a1",
+      "olean_sha256": "f8b3f1a87f438154effdaff938f5734fc1093a9146f1091fdd0d3e561d62691b",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169282",
+      "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.IsFlagIntegralOne",
+      "source_sha256": "0f8649bffe1826aea0dbe91d95cebe1ef9ca36102cef3c02d672e2365573891b",
+      "patch_sha256": "e630b28848008b22aa50e1b46e3a03967db4b6549a00316a6d44d2fb0f7bd13a",
+      "built_source_sha256": "4f5c3c395acd3297c5a6485c59c6a425f61eacd9cc87cffac6f2e9fabb0e3b6e",
+      "olean_sha256": "897559fcf42fea851e4c1fe5a6b9b77d9a5b153dc37de1e5dbd3a4029d317eae",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169284",
+      "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.JacobiTrudi",
+      "source_sha256": "4109ce09e0280157da9de07dee9783be2b51a732f6a655abe62546c4fee926dd",
+      "patch_sha256": null,
+      "built_source_sha256": "4109ce09e0280157da9de07dee9783be2b51a732f6a655abe62546c4fee926dd",
+      "olean_sha256": "00b29b118f7b3b47b2b5e8e2642f123d97646b404f0caa4e2ebde99f20aee3de",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169423",
+      "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Pluecker",
+      "source_sha256": "27c1855a118f6c14774084b2ab72c1c9bcab523873436e007f64a3318e70fbff",
+      "patch_sha256": "d7112431288d944777ba13e9cc094e5a05781822d4dcc296dfbdc5c2699caa57",
+      "built_source_sha256": "e78bd2beb8c5c9a9a8f12295fa3a2f54b8ccc15f2cbe3b0cfe518d044c97ff09",
+      "olean_sha256": "933b2d2e7eb886e8d4cd9ccae11466ad62f7b154311b60fccf5056493bed937f",
+      "exit_code": 0,
+      "validated_output": "reused"
+    },
+    {
+      "id": "M169424",
+      "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.PowerSums",
+      "source_sha256": "78f114037b4370edaacb6b77bc28edc293a5dde0bcc31d3b15ce007bd2a25e67",
+      "patch_sha256": null,
+      "built_source_sha256": "78f114037b4370edaacb6b77bc28edc293a5dde0bcc31d3b15ce007bd2a25e67",
+      "olean_sha256": "044ec12b2ee4e030fb3d246e97ddfd2ba75ee6011d8f3b92d4b33441ac70e628",
+      "exit_code": 0,
+      "validated_output": "reused"
+    }
+  ],
+  "project_imports": [
+    {
+      "id": "M115809",
+      "module": "Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.VandermondeOfEqDet",
+      "source_sha256": "5dbb73c197887f0a825ddffaa2474c2498c311a57dfcfc3c28464793fa241339",
+      "patch_sha256": null,
+      "built_source_sha256": "5dbb73c197887f0a825ddffaa2474c2498c311a57dfcfc3c28464793fa241339",
+      "port_record_sha256": "0787d17f0715703a211ff1b47509e79f971b56fb23c1798521b34073cdc51bf8"
+    },
+    {
+      "id": "M164921",
+      "module": "GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Statements",
+      "source_sha256": "eedda4ea4ef53fed97a090a9ece778e3a5bd1e629d12b704c7839dbdc5e1bd9f",
+      "patch_sha256": "4fdfba8073ea56629162103e0efe0855f29a832b4531f25477f60565f1b8e2c2",
+      "built_source_sha256": "f419af33fdc1d6c2a26bfccfbd8bc8ec769b1d652d3bf0a122a37a42823b440c",
+      "port_record_sha256": "63e062d11c3db0338972823c8d97cc93d88f445d8957b3d839b8b667aff3856b"
+    },
+    {
+      "id": "M165052",
+      "module": "GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.Objects",
+      "source_sha256": "b33cc8f104cd365628634b199a045673bce7ed56f1d8c12db016744bab5e2c59",
+      "patch_sha256": "b4be3d014b173edbb2623bd3a87c0bfd4df410258bc2114eb2a8b7e175412d9b",
+      "built_source_sha256": "bc6bfe941982d4ea87dc2a78f871776866e3a623cd43ef0ebde7fdc38bb47242",
+      "port_record_sha256": "375b64cc492c563f57bc2c465235e078e6191f5808f47a506675f2910c9c77c4"
+    },
+    {
+      "id": "M167304",
+      "module": "GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.FrameDefinitions.PermFinTwoUniv",
+      "source_sha256": "c532d0eb3ca5939a64b376da671fec120976dccac107b5b8d8feddf9fdd63c7a",
+      "patch_sha256": "1ddfb8158667dbfe701d6e793e113a8d844cfd85fcf9771c5cb238ab05f10027",
+      "built_source_sha256": "807ae5056d09351ddee2eb538cde1d6bb5b247a9a4d6dfd62d0a05c95b954cca",
+      "port_record_sha256": "0e7fe9a4dce85120f52193fc8c411908c1844f162fc87c4b9b2ff328fa2db1f5"
+    },
+    {
+      "id": "M167349",
+      "module": "GroundTheory.HeightsAndTheta.Heights.HodgeLowerBound.PFlagIntMuOneDet",
+      "source_sha256": "ea0de06707f0d74ae992c2a10cc695a9214af35f703c24cd6b6a59e92d2d9a92",
+      "patch_sha256": null,
+      "built_source_sha256": "ea0de06707f0d74ae992c2a10cc695a9214af35f703c24cd6b6a59e92d2d9a92",
+      "port_record_sha256": "2573e8c0ab96fdf9cc9a469d435bce03fafaa1f09b1345cc56d08c240c984b37"
+    },
+    {
+      "id": "M167578",
+      "module": "GroundTheory.HeightsAndTheta.Heights.IntegralModels.FiniteIntegralClosureLocal",
+      "source_sha256": "fbf7d598eb60804294257abdbe7dcae0ca6d9adf5fe41a479c08c1f325b8bacb",
+      "patch_sha256": null,
+      "built_source_sha256": "fbf7d598eb60804294257abdbe7dcae0ca6d9adf5fe41a479c08c1f325b8bacb",
+      "port_record_sha256": "9b4d49e3f4d5d73342663f0463f5b242489079db0acb284e4d1fb699f43529ea"
+    },
+    {
+      "id": "M167950",
+      "module": "GroundTheory.HeightsAndTheta.Heights.Intersections.RelBaseChangeSt",
+      "source_sha256": "bae820022f58f44a01dafc6fdb9e9ae9d90b677a815e6ef5306692a5ff0fc5a4",
+      "patch_sha256": null,
+      "built_source_sha256": "bae820022f58f44a01dafc6fdb9e9ae9d90b677a815e6ef5306692a5ff0fc5a4",
+      "port_record_sha256": "02dc858903e97c510319da19041829fb0a150f408c0617be23003e0483c9d224"
+    },
+    {
+      "id": "M167953",
+      "module": "GroundTheory.HeightsAndTheta.Heights.Intersections.StAdjoinIndepRelfinrank",
+      "source_sha256": "15160e5a03e5ddbac56397a934e4ccde8066d78d152191e4c1c9fb68d56f560b",
+      "patch_sha256": null,
+      "built_source_sha256": "15160e5a03e5ddbac56397a934e4ccde8066d78d152191e4c1c9fb68d56f560b",
+      "port_record_sha256": "89957c9c4fc9393ff60e586930f15b4c91330e44790f123d1a4ff08900cf84e8"
+    },
+    {
+      "id": "M167995",
+      "module": "GroundTheory.HeightsAndTheta.Heights.Intersections.StRelAlgClosureFinite",
+      "source_sha256": "4a56f32902c71680a066dc597065eb5652bb4ac9a47e2a82e2ac6b8c6d45d3a7",
+      "patch_sha256": null,
+      "built_source_sha256": "4a56f32902c71680a066dc597065eb5652bb4ac9a47e2a82e2ac6b8c6d45d3a7",
+      "port_record_sha256": "d90da259aaa0a32d23a31656be678a50455619f991f054fed2a2551d58e94a93"
+    },
+    {
+      "id": "M168065",
+      "module": "GroundTheory.HeightsAndTheta.Heights.KernelsLattice",
+      "source_sha256": "17b1297ce3371b168d0dca6696640a040904cb9a0d7dd90e0071832e24df7b99",
+      "patch_sha256": null,
+      "built_source_sha256": "17b1297ce3371b168d0dca6696640a040904cb9a0d7dd90e0071832e24df7b99",
+      "port_record_sha256": "37d29bda89c3ff460ad32ee4e0b7ec55fb05670f20b403b7186601d923d2ca35"
+    },
+    {
+      "id": "M168067",
+      "module": "GroundTheory.HeightsAndTheta.Heights.KernelsRest",
+      "source_sha256": "53f4935bfadbf69644685d0ed2aaaab917b14030cc6ed633727b404cfb12bd2a",
+      "patch_sha256": null,
+      "built_source_sha256": "53f4935bfadbf69644685d0ed2aaaab917b14030cc6ed633727b404cfb12bd2a",
+      "port_record_sha256": "94695a242f88d04b92eea10e2609675efe60109ff715cabd7113680d937cb793"
+    },
+    {
+      "id": "M168285",
+      "module": "GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.KerAltSucc",
+      "source_sha256": "7e77d654b31cee14f5b2973e5e4305c3da9c38ad31e96164c1c8f959a2d8cec1",
+      "patch_sha256": null,
+      "built_source_sha256": "7e77d654b31cee14f5b2973e5e4305c3da9c38ad31e96164c1c8f959a2d8cec1",
+      "port_record_sha256": "3518abaa572c247f5acadd166f23f3b0d1270b2c7cb6b8ec77ad23525c415266"
+    },
+    {
+      "id": "M168585",
+      "module": "GroundTheory.HeightsAndTheta.Heights.KleimanAmpleness.StatementsDedekindFibreRank",
+      "source_sha256": "5762e34b1c3b458a21a0e477bbde925807afbd6486f2360129eb092fe6f894f7",
+      "patch_sha256": null,
+      "built_source_sha256": "5762e34b1c3b458a21a0e477bbde925807afbd6486f2360129eb092fe6f894f7",
+      "port_record_sha256": "2a4c3c16a56ed972cb3cbfee617151bf24f350622007a7e05b9761412c4e6fd8"
+    },
+    {
+      "id": "M168738",
+      "module": "GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsIntegralPoint",
+      "source_sha256": "f3b13dd14b9387c4bb01969d58c165bc02af577674cace7cf9bf9af34a9725ea",
+      "patch_sha256": null,
+      "built_source_sha256": "f3b13dd14b9387c4bb01969d58c165bc02af577674cace7cf9bf9af34a9725ea",
+      "port_record_sha256": "a47561a6a64da2bf5a1c85bfc0998b27ba55a7cf2c40ebf8f1f342e6492f61e0"
+    },
+    {
+      "id": "M168740",
+      "module": "GroundTheory.HeightsAndTheta.Heights.LocalDensities.StatementsKrullHeightOne",
+      "source_sha256": "740bc94f4dd4677fd6494cb2d4e26b9df243ded2d5bcd019a54a3c74055b5b2f",
+      "patch_sha256": null,
+      "built_source_sha256": "740bc94f4dd4677fd6494cb2d4e26b9df243ded2d5bcd019a54a3c74055b5b2f",
+      "port_record_sha256": "ffbe740c3f674c8a079c47c022aaeb946fab2e0f88238814b74d7fb269597f75"
+    },
+    {
+      "id": "M168829",
+      "module": "GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.ExampleLimitPolynomialHypothesis",
+      "source_sha256": "17d260fa5b29d200905d5cdea4987866675fdc8b65317cb132068890c96d941a",
+      "patch_sha256": null,
+      "built_source_sha256": "17d260fa5b29d200905d5cdea4987866675fdc8b65317cb132068890c96d941a",
+      "port_record_sha256": "66008f882656638938a3da0f4cb54f4b670e803d0353c34881529eb4c7863660"
+    },
+    {
+      "id": "M169136",
+      "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsCovolumeRelIndex",
+      "source_sha256": "a6a65a121aa678bbdd5c608f017f56fb8d13832f44a86609fd95b2e2199c02b1",
+      "patch_sha256": "609dc5a1de76a5179919fcc25a92eb0f45c44b4aa472669b5e4867f7b6a671f9",
+      "built_source_sha256": "cc17ee472d60af667ae6d1e3c27d449a63a8676e9cb5c8988f317ec2bf7c7ac0",
+      "port_record_sha256": "d02d76de4d4c95da849028c6c0a44801b6488bf6c62a51aa66b2400b26e0fd8a"
+    },
+    {
+      "id": "M169161",
+      "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsEmbeddingSumPlaces",
+      "source_sha256": "1c201681577d894316366d7a099dde2a2e157f73beb811af8df211b079e2c3cf",
+      "patch_sha256": null,
+      "built_source_sha256": "1c201681577d894316366d7a099dde2a2e157f73beb811af8df211b079e2c3cf",
+      "port_record_sha256": "32d76e42aec65071138b442d48a3e13564492fb675925dc60ea0e83bf246d6e3"
+    },
+    {
+      "id": "M169166",
+      "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsLatticeCountVolume",
+      "source_sha256": "379e073447d824c02c8c37c007decdcbbca5e5331d012c47d9a5b76871c906a8",
+      "patch_sha256": "84a30f0f5cebce9cf4d14263f2bd655650f66078e9b46e5ad80364659c6b7b2f",
+      "built_source_sha256": "b9f6f22b7ecaec1230c0193346effca211779003d955d1e35781507e700a8708",
+      "port_record_sha256": "0dd9006efd240192d49dd56da87e2420f5c8fcdde8bb5a78e8dc063020687f52"
+    },
+    {
+      "id": "M169173",
+      "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StatementsMixedBoxCount",
+      "source_sha256": "cee6b8cd58ba6632161a63f7c3d8be6e094f7cdd56d8be41edd3f45fb658cf51",
+      "patch_sha256": null,
+      "built_source_sha256": "cee6b8cd58ba6632161a63f7c3d8be6e094f7cdd56d8be41edd3f45fb658cf51",
+      "port_record_sha256": "82920039efb08032e3ef094b6aba950a5f2321894da89700d9e632eb2ef8c63e"
+    },
+    {
+      "id": "M169217",
+      "module": "GroundTheory.HeightsAndTheta.Heights.ReducedTensors.Imports",
+      "source_sha256": "73e5dda3852317b4b959916478b6419a08e868b0a24c342d2d0f607cc9a09b99",
+      "patch_sha256": null,
+      "built_source_sha256": "73e5dda3852317b4b959916478b6419a08e868b0a24c342d2d0f607cc9a09b99",
+      "port_record_sha256": "b4c795aa236eb098a9d79346f6c03ff53be02f047051950af98206d4252b04ed"
+    },
+    {
+      "id": "M169257",
+      "module": "GroundTheory.HeightsAndTheta.Heights.Regularisation.StPuncturedExpOrder",
+      "source_sha256": "14410ae55ea621326d80cedae73266118c64fd62795f9901839d3caf9491a952",
+      "patch_sha256": null,
+      "built_source_sha256": "14410ae55ea621326d80cedae73266118c64fd62795f9901839d3caf9491a952",
+      "port_record_sha256": "d3c8bcaa950322119f62126613e812b5741053fdb2e398f2a3fae13a506fe906"
+    },
+    {
+      "id": "M169429",
+      "module": "GroundTheory.HeightsAndTheta.Heights.RemainderTerms.Statements",
+      "source_sha256": "edafbe7902d2be3aa0b2d232aa7a5a64220d4f8010a474a14c9eb9095120e0e7",
+      "patch_sha256": "835ba1c0977eae62ad79a583b4f3c62b242eac3e79765446a3fe17c0a119513e",
+      "built_source_sha256": "9efde28573352b3a259f9b90e1f1ac9ad1af3cff136095c69f752fd6092544b5",
+      "port_record_sha256": "4f274c7c1d7de9a085ee17d2c4e44b0bf53abb2d3ff2464fd513e81c2b81976f"
+    },
+    {
+      "id": "M169517",
+      "module": "GroundTheory.HeightsAndTheta.Heights.StabilizerCovolume.RecordEigenInputs",
+      "source_sha256": "bdedf4db554baeae8a7d3e92de1ab1dccf085f8f41a6f6f724ac7eff1b055627",
+      "patch_sha256": null,
+      "built_source_sha256": "bdedf4db554baeae8a7d3e92de1ab1dccf085f8f41a6f6f724ac7eff1b055627",
+      "port_record_sha256": "402e54839b51efc98bce17b728ea75dac6bca8930649c33dcb22c905667d26d7"
+    },
+    {
+      "id": "M171369",
+      "module": "ReciprocityTheory.AnalyticForms.MaIntEmpty",
+      "source_sha256": "37297c42ce2b17dc42bca5d47c7a23a88e5a0295f59d8652a985829f3c2fd1c7",
+      "patch_sha256": null,
+      "built_source_sha256": "37297c42ce2b17dc42bca5d47c7a23a88e5a0295f59d8652a985829f3c2fd1c7",
+      "port_record_sha256": "a9c95ddbdaa7ac7e5bacc84b51a264dfc719be4f6ffb85b8cbb4be68033543d4"
+    },
+    {
+      "id": "M172535",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ArithmeticIntersection.KappaSt",
+      "source_sha256": "318eeab954ae5e55198a73ae809cd8093b2434931fe6eefdbb46db4bf6a96950",
+      "patch_sha256": "6ae4df1400d49177e5265c5ec363d2e0f8cf4aedb8b67b4a920888f1d84c457f",
+      "built_source_sha256": "147c09929bbef27996ab6d7804448493bfb61b45de0c58971bdb985702904ad8",
+      "port_record_sha256": "d316667d5d2fbc7751f3340876911be59252a3d12b41219fee436edc18a60e20"
+    },
+    {
+      "id": "M172631",
+      "module": "ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.IsSemipositiveOn",
+      "source_sha256": "27098cf294f00775745ad786cfe185a99bb2f17f020d084ea4f5b69fcbf487f2",
+      "patch_sha256": null,
+      "built_source_sha256": "27098cf294f00775745ad786cfe185a99bb2f17f020d084ea4f5b69fcbf487f2",
+      "port_record_sha256": "44a0c3f4a0afc469227bdb306ea1e052469b3f5e70bdecad225ba41e801a79a8"
+    }
+  ],
+  "remaining": [
+    {
+      "id": "M168862",
+      "module": "GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.SecondVolumeConstantNonneg",
+      "missing_imports": [
+        "M163509"
+      ]
+    },
+    {
+      "id": "M169078",
+      "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StConeSliceIdeal",
+      "missing_imports": [
+        "M163724"
+      ]
+    },
+    {
+      "id": "M169079",
+      "module": "GroundTheory.HeightsAndTheta.Heights.OrbitLimits.StConeVanishingHomog",
+      "missing_imports": [
+        "M163724"
+      ]
+    }
+  ],
+  "pruned": []
+}

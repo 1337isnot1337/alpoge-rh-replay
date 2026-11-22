@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.MetaplecticRepresentation",
+  "source_sha256": "607cd9fd54dfae2c8dada665046327cd4c8c5da40215cfd1f4d4ea21868c3d78",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0197-lean436-20261121/packet-result.json"
+}

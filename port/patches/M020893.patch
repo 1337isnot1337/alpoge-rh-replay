@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DenseRangeRealEmbeddings.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/DenseRangeRealEmbeddings.lean
+@@ -50,7 +50,7 @@
+     apply Complex.ofReal_injective
+     simp only [E, InfinitePlace.Completion.ringEquivRealOfIsReal_apply]
+     have e3 : ((InfinitePlace.Completion.extensionEmbeddingOfIsReal (IsTotallyReal.isReal (g σ)))
+-        { toCompletion := ↑(WithAbs.toAbs (g σ).1 x) } : ℂ) = (g σ).embedding x := by
++        ↑(WithAbs.toAbs (g σ).1 x) : ℂ) = (g σ).embedding x := by
+       rw [← e2]
+       simp only [RingEquiv.apply_symm_apply, WithAbs.equiv_symm_apply, WithAbs.equiv_apply] at e1
+       exact congrArg _ e1

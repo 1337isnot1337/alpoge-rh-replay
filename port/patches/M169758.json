@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Theta.EisensteinZeta.MirabolicInduction.CfunOmClassReducedParamsNonemptyPf",
+  "source_sha256": "9c24dcffe9db191c977d0fc64887bbfc1a84fa0a61b7ff317e568b1292f4098d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0166-issue-26976/P0166-receipt.json"
+}

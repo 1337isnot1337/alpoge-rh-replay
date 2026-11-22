@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.DiscreteValuationNumbers.PMaximalIdealHeightFG",
+  "source_sha256": "0811c3497a8d682444a9e25b85a4d150d4c137df0c9506b9069d3c5ab8abf46c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only: use the target maximality-of-under lemma and normalize ENat.card (Fin 0) in the zero-variable Krull-dimension bound. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0163-lean436-20261121/packet-result.json"
+}

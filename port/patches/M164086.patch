@@ -1,0 +1,40 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PFibreBound.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PFibreBound.lean
+@@ -29,8 +29,8 @@
+     intro x x' hne h
+     apply hne
+     funext j
+-    have hc := congrArg (fun q => Polynomial.coeff q (j : ℕ)) h
+-    simp only [p, Polynomial.finsetSum_coeff, Polynomial.coeff_monomial, Polynomial.coeff_zero] at hc
++    have hc := congrArg (fun q : Polynomial ℂ => q.coeff (j : ℕ)) h
++    simp only [p, Polynomial.finsetSum_coeff, Polynomial.coeff_monomial, Polynomial.coeff_zero, Finsupp.single_apply] at hc
+     rw [Finset.sum_eq_single j] at hc
+     · simpa [sub_eq_zero] using hc
+     · intro b _ hb; rw [if_neg]; exact fun h => hb (Fin.ext h)
+@@ -60,6 +60,8 @@
+       g.Monic ∧ g.natDegree ≤ projDegree J A ∧ Polynomial.aeval s g = 0 := by
+   let _ : Algebra (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J) :=
+     (projHom J A).toRingHom.toAlgebra
++  letI : SMul (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J) :=
++    (inferInstance : Algebra (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J)).toSMul
+   let _ : Module (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J) := Algebra.toModule
+   have : Module.Finite (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J) := hA.finite
+   have : Algebra.IsIntegral (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J) :=
+@@ -96,7 +98,7 @@
+       exact minpoly.aeval _ t
+     obtain ⟨c, hc⟩ := (IsLocalizedModule.eq_zero_iff (nonZeroDivisors (MvPolynomial (Fin d) ℂ))
+       (TensorProduct.mk _ (FractionRing (MvPolynomial (Fin d) ℂ)) _ 1)).mp h1
+-    rw [Submonoid.smul_def, Algebra.smul_def] at hc
++    rw [Submonoid.smul_def, Algebra.smul_def (R := MvPolynomial (Fin d) ℂ) (A := MvPolynomial (Fin n) ℂ ⧸ J)] at hc
+     refine (mul_eq_zero.mp hc).resolve_left ?_
+     intro h0
+     apply nonZeroDivisors.coe_ne_zero c
+@@ -109,6 +111,8 @@
+   have := hJ
+   let _ : Algebra (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J) :=
+     (projHom J A).toRingHom.toAlgebra
++  letI : SMul (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J) :=
++    (inferInstance : Algebra (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J)).toSMul
+   let _ : Module (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J) := Algebra.toModule
+   have : Module.Finite (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J) := hA.finite
+   have : Algebra.IsIntegral (MvPolynomial (Fin d) ℂ) (MvPolynomial (Fin n) ℂ ⧸ J) :=

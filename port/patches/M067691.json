@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.InertiaEigenvalues.ConjTransposeVecMulVecSelf",
+  "source_sha256": "8d497862b9e6c250ff21a93393d6c11e9e8e3c86bb6c64f2b8252939ace91308",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the matrix multiplication entry lemma explicitly."
+}

@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.GL3MeanSquares.HookFormulaTorsion.SmoothedRemainderRealIntegralFormula",
+  "source_sha256": "1583e0b85fe89dd80f940c93279dfdef1797673faed8d76a9a753ec099f78dc2",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0212-lean436-20261121/packet-result.json"
+}

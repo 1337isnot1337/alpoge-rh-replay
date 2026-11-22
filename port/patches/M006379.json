@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.CoherentCohomologyProofs.SignedLengthMapEqLogOrdFracDet",
+  "source_sha256": "2547801888038b4e87debe89291dd6e0818a43dc2bc80c41feedd9a9ee1905aa",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged Use IsFullLattice for the pinned full-lattice hypothesis in statements. Under the existing domain, fraction-field, and scalar-tower assumptions, the pinned finite-generation/full-span condition implies the added target independence condition by Submodule.IsLattice.of_fg; conversely IsFullLattice has the same finite-generation/full-span fields. Thus these hypotheses are equivalent. Proofs use the renamed basis extension and the order-of-vanishing identity without its former nonzero argument. Proof-only: explicitly install the existing lattice freeness and finiteness theorems, which are no longer inferred instances.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0099-lean436-20261121/packet-result.json"
+}

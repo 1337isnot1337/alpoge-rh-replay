@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.ToricGeometry.ExistsGlobalFrameOfLocal",
+  "source_sha256": "6b1aa38e267bcc4438523069ef4b06db23f7234c48fefd1620dfa5f6d04f3773",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

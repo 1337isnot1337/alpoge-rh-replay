@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/RestrictPullbackIsoHomAppPullbackSections.lean
++++ b/src/Development/AbelianVarietyTheory/Proofs/CoherentCohomologyProofs/RestrictPullbackIsoHomAppPullbackSections.lean
+@@ -554,7 +554,7 @@
+   have h₄ : Epi ((moduleSpecΓFunctor ⋙ tilde.functor Γ(X, U)).map ψ) := by
+     rw [← epi_comp_iff_of_isIso _ ((Scheme.Modules.fromTildeΓNatTrans (R := Γ(X, U))).app
+       (F'.restrict hU.fromSpec)), h]
+-    infer_instance
++    exact epi_comp' (IsIso.epi_of_iso _) h₃
+   have h₅ : Epi (moduleSpecΓFunctor.map ψ) := (tilde.functor Γ(X, U)).epi_of_epi_map h₄
+   have h₆ : Function.Surjective (φ.app (hU.fromSpec ''ᵁ ⊤)) :=
+     (ModuleCat.epi_iff_surjective (moduleSpecΓFunctor.map ψ)).mp h₅

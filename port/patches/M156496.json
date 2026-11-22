@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ResidueLatticeCount.SumRangeLe",
+  "source_sha256": "b4dd86a9d113cfc532f5780ace67450f08e6ddc7cd278600a1b3b0f16ab25c87",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

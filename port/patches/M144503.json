@@ -1,0 +1,8 @@
+{
+  "module": "Formalism.FormalDegreeBessel.StatementBF",
+  "source_sha256": "917720f5cf0f73eac5d4ae5aa6950d7fc0db6345583d389af9c78e162e6d5438",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/zediir/alpoge-rh-replay/releases/download/port-P0211-issue-27750/P0211-receipt.json"
+}

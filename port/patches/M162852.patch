@@ -1,0 +1,11 @@
+--- a/src/GroundTheory/AutomorphicForms/PartialDifferential/SobolevDuality.lean
++++ b/src/GroundTheory/AutomorphicForms/PartialDifferential/SobolevDuality.lean
+@@ -39,7 +39,7 @@
+     ‖(star f : Lp ℂ 2 (volume : Measure E))‖ = ‖f‖ := by
+   rw [Lp.norm_def, Lp.norm_def, eLpNorm_congr_ae (Lp.coeFn_star f)]
+   congr 1
+-  apply eLpNorm_congr_norm_ae
++  apply eLpNorm_congr_norm_ae (Lp.aestronglyMeasurable f).star (Lp.aestronglyMeasurable f)
+   exact ae_of_all _ fun x ↦ by simp
+ 
+ def dualPairing (v : SobolevSpace E ℂ (-s)) : StrongDual ℂ (SobolevSpace E ℂ s) :=

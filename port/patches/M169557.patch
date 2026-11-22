@@ -1,0 +1,13 @@
+--- a/src/GroundTheory/HeightsAndTheta/Heights/ThetaKeyFormula/ThetaThreeFamLinearIndependent.lean
++++ b/src/GroundTheory/HeightsAndTheta/Heights/ThetaKeyFormula/ThetaThreeFamLinearIndependent.lean
+@@ -328,7 +328,9 @@
+       funext i; fin_cases i; simp [tauI, Matrix.mulVec, dotProduct, intVec]
+     rw [hz] at this
+     rw [this, ← Complex.exp_add]
+-    congr 2
++    congr 1
++    simp only [autFactor]
++    congr 1
+     simp [autFactor, tauI, Matrix.mulVec, dotProduct, intVec, HalfChar.b, HalfChar.zero]
+     ring_nf
+   have hzero : F = 0 := by

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.ThetaMetrics.WeightedHomogeneousComponentMemElimIdeal",
+  "source_sha256": "f42c2665ce8cc9bbcc64405f64523233e1818053383c491f2983a98653041e10",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the injective mapDomain lemma and current coefficient projections inside proofs. No exported declaration statements, definitions or instances changed.",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0096-lean436-20261121/packet-result.json"
+}

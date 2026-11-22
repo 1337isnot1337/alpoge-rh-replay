@@ -1,0 +1,10 @@
+--- a/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean
++++ b/src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/CompactGroupIntegrability/InstCompactUG.lean
+@@ -160,6 +160,7 @@
+   rw [Matrix.mul_apply]
+   simp [Matrix.star_apply]
+ 
++open scoped Pointwise in
+ lemma sep_of_mem {N : ℕ} {f : C(UG N, ℂ)} (hf : f ∈ algA N) : Sep (⇑f) := by
+   have hf' : f ∈ Algebra.adjoin ℂ ((Set.range fun ij : Fin N × Fin N => coordC ij.1 ij.2) ∪
+       star (Set.range fun ij : Fin N × Fin N => coordC ij.1 ij.2)) := by

@@ -1,0 +1,8 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ExistsPrimeNotMemForallGtEqMaximalIdeal",
+  "source_sha256": "fda1304d406a1b0e3737407637b1cbd904026053525d72e8aacd2747e52390a8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Proof-only lemma renames: IsLocalization.comap_map_of_isPrime_disjoint -> under_map_of_isPrime_disjoint and IsLocalization.map_comap -> map_under (Ideal.under is an abbrev for comap along algebraMap). No statement or definition changed.",
+  "evidence": "https://github.com/jasonyandell/alpoge-rh-replay/releases/download/port-P0104-lean436-20261122/P0104-receipt.json"
+}
