@@ -1,0 +1,8 @@
+{
+  "module": "GroundTheory.HeightsAndTheta.Heights.HeightKernels.StatementsChartEnergyInvariant",
+  "source_sha256": "edc76c1690542b5a52efbf1e2ccb16abec3f879e4c8d91af4a6150be29f16e1d",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged",
+  "evidence": "https://github.com/emsi/alpoge-rh-replay/releases/download/port-P0286-lean436-20261121/packet-result.json"
+}
