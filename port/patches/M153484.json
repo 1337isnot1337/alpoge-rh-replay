@@ -1,0 +1,7 @@
+{
+  "module": "Formalism.PeriodIntegrals.DatumConjInv",
+  "source_sha256": "783537904e9ed2e19c0755223e3b8971e57ae2f4a4dc01510e51e54e817b5147",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

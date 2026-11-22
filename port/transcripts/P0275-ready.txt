@@ -1,0 +1,537 @@
+Packet P0275, partial submission
+Upstream base 5ca65658b35eb8861f6bb082e83a1f0f5f29909f
+Port record commit ed2a08a7b1d62fefba4661c40c741d05cc600b94
+Lean leanprover/lean4:v4.36.0, Mathlib fc4f59e577feb1a4956671bc04ac18aaaf8cd842
+python3 scripts/port-ci-build.py --workspace <workspace> --src <archive-source> --patch-ids M153464 M153483 M153484 M153548 M153875 M153917 M153918 M153925 M153948
+
+Elaborated IsLattice audit
+lake env lean --run <repository>/port/islattice_audit.lean Formalism.PeriodIntegrals.BordDefs Formalism.PeriodIntegrals.DatumBlockEigen Formalism.PeriodIntegrals.DatumConjInv Formalism.PeriodIntegrals.HaarDefs Formalism.PeriodIntegrals.OrbitalBoundsConclusion.PowBddInt Formalism.PeriodIntegrals.OrbitalBoundsConclusion.QuotInv Formalism.PeriodIntegrals.OrbitalBoundsConclusion.QuotMeasUniq Formalism.PeriodIntegrals.OrbitalBoundsConclusion.RowLetter Formalism.PeriodIntegrals.OrbitalBoundsConclusion.SmithMat
+islattice-audit: 9 module(s), 0 hit(s)
+
+Earlier source builds for reused outputs
+
+Build verification on the upstream base
+Building 9 explicitly requested module(s).
+Resolved 26 transitive project import(s) (35 total module(s) to materialize).
+[FETCH] Materializing 35 SHA-256-verified source file(s)...
+[FETCH] Verified 35/35 source file(s).
+[KEEP]  M144284: unchanged (verified against archive source)
+[KEEP]  M144285: unchanged (verified against archive source)
+[KEEP]  M144286: unchanged (verified against archive source)
+[KEEP]  M144503: unchanged (verified against archive source)
+[KEEP]  M144505: unchanged (verified against archive source)
+[KEEP]  M153464: unchanged (verified against archive source)
+[KEEP]  M153483: unchanged (verified against archive source)
+[KEEP]  M153484: unchanged (verified against archive source)
+[KEEP]  M153548: unchanged (verified against archive source)
+[KEEP]  M153875: unchanged (verified against archive source)
+[KEEP]  M153917: unchanged (verified against archive source)
+[KEEP]  M153918: unchanged (verified against archive source)
+[KEEP]  M153925: unchanged (verified against archive source)
+[KEEP]  M153948: unchanged (verified against archive source)
+[KEEP]  M154042: unchanged (verified against archive source)
+[KEEP]  M154058: unchanged (verified against archive source)
+[KEEP]  M154069: unchanged (verified against archive source)
+[KEEP]  M154091: unchanged (verified against archive source)
+[KEEP]  M156334: unchanged (verified against archive source)
+[KEEP]  M156335: unchanged (verified against archive source)
+[KEEP]  M156336: unchanged (verified against archive source)
+[KEEP]  M156424: unchanged (verified against archive source)
+[KEEP]  M156425: unchanged (verified against archive source)
+[KEEP]  M156426: unchanged (verified against archive source)
+[KEEP]  M156427: unchanged (verified against archive source)
+[PATCH] M156428: applied M156428.patch
+[KEEP]  M156429: unchanged (verified against archive source)
+[KEEP]  M156516: unchanged (verified against archive source)
+[KEEP]  M156517: unchanged (verified against archive source)
+[KEEP]  M156518: unchanged (verified against archive source)
+[KEEP]  M156519: unchanged (verified against archive source)
+[KEEP]  M156660: unchanged (verified against archive source)
+[KEEP]  M156661: unchanged (verified against archive source)
+[KEEP]  M157765: unchanged (verified against archive source)
+[KEEP]  M158005: unchanged (verified against archive source)
+[LAKE] Wrote lean-toolchain (leanprover/lean4:v4.36.0) and lakefile.toml (mathlib fc4f59e577fe) in <workspace>
+
+[BUILD] Building 9 module(s) with `lake build`...
+        IDs: M153464, M153483, M153484, M153548, M153875, M153917, M153918, M153925, M153948
+⚠ [18250/18310] Built Formalism.PeriodIntegrals.SmithMat (48s)
+warning: src/Formalism/PeriodIntegrals/SmithMat.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18251/18310] Ran Formalism.PeriodIntegrals.SmithMat:irArts
+warning: src/Formalism/PeriodIntegrals/SmithMat.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18252/18310] Built Formalism.PeriodIntegrals.RowLetter (49s)
+warning: src/Formalism/PeriodIntegrals/RowLetter.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18253/18310] Built Formalism.PeriodIntegrals.WeilQuotMeas (10s)
+warning: src/Formalism/PeriodIntegrals/WeilQuotMeas.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18254/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.QmuWeight (10s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/QmuWeight.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18255/18310] Built Formalism.PeriodIntegrals.QuotInv (5.7s)
+warning: src/Formalism/PeriodIntegrals/QuotInv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18256/18310] Built Formalism.PeriodIntegrals.PowBddInt (6.3s)
+warning: src/Formalism/PeriodIntegrals/PowBddInt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18257/18310] Built Formalism.RealPlaceAnalysis.Complexify (6.0s)
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18258/18310] Ran Formalism.RealPlaceAnalysis.Complexify:irArts
+warning: src/Formalism/RealPlaceAnalysis/Complexify.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18259/18310] Ran Formalism.PeriodIntegrals.PowBddInt:irArts
+warning: src/Formalism/PeriodIntegrals/PowBddInt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18260/18310] Ran Formalism.PeriodIntegrals.QuotInv:irArts
+warning: src/Formalism/PeriodIntegrals/QuotInv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18261/18310] Ran Formalism.PeriodIntegrals.WeilQuotMeas:irArts
+warning: src/Formalism/PeriodIntegrals/WeilQuotMeas.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18262/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.QmuWeight:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/QmuWeight.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18263/18310] Ran Formalism.PeriodIntegrals.RowLetter:irArts
+warning: src/Formalism/PeriodIntegrals/RowLetter.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18264/18310] Built Formalism.DoubleCosetMeasures.Statement (8.8s)
+warning: src/Formalism/DoubleCosetMeasures/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/DoubleCosetMeasures/Statement.lean:164:6: `Matrix.det_of_lowerTriangular` has been deprecated: Use `Matrix.det_of_isLowerTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵l̵o̵w̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲L̲o̲w̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Formalism/DoubleCosetMeasures/Statement.lean:168:6: `Matrix.det_of_upperTriangular` has been deprecated: Use `Matrix.det_of_isUpperTriangular` instead
+
+Hint: Replace the deprecated name:
+  M̵a̵t̵r̵i̵x̵.̵d̵e̵t̵_̵o̵f̵_̵u̵p̵p̵e̵r̵T̵r̵i̵a̵n̵g̵u̵l̵a̵r̵d̲e̲t̲_̲o̲f̲_̲i̲s̲U̲p̲p̲e̲r̲T̲r̲i̲a̲n̲g̲u̲l̲a̲r̲
+warning: src/Formalism/DoubleCosetMeasures/Statement.lean:174:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/DoubleCosetMeasures/Statement.lean:189:2: Try this:
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [18265/18310] Ran Formalism.DoubleCosetMeasures.Statement:irArts
+warning: src/Formalism/DoubleCosetMeasures/Statement.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18266/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SmithNormalForm.IsUnitOneAddVecMulVec (8.1s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SmithNormalForm/IsUnitOneAddVecMulVec.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18267/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowDerivationChainRule.Development (8.3s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/Development.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/Development.lean:59:27: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/Development.lean:61:41: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/Development.lean:61:50: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/Development.lean:69:25: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/Development.lean:73:75: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/Development.lean:74:19: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/Development.lean:70:30: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/Development.lean:70:30: Unused tactic linter: `<;>` can be replaced with `;`.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18268/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowDerivationChainRule.DetDer (7.7s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/DetDer.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/DetDer.lean:52:50: `Derivation.add_apply` has been deprecated: Use `add_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ {F : Type u_1} {α : outParam (Type u_2)} {β : outParam (Type u_3)} {inst : FunLike F α β} {inst_1 : Add β}
+    {inst_2 : Add F} [self : IsAddApply F] (f g : F) (x : α), (f + g) x = f x + g x
+instead of
+  ∀ {R : Type u_1} {A : Type u_2} {M : Type u_4} [inst : CommSemiring R] [inst_1 : CommSemiring A]
+    [inst_2 : AddCommMonoid M] [inst_3 : Algebra R A] [inst_4 : Module A M] [inst_5 : Module R M]
+    {D1 D2 : Derivation R A M} (a : A), (D1 + D2) a = D1 a + D2 a
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `add_apply x`).
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/DetDer.lean:70:13: `Derivation.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant has a different type:
+  ∀ {M : Type u_1} {F : Type u_2} {α : outParam (Type u_3)} {β : outParam (Type u_4)} {inst : FunLike F α β}
+    {inst_1 : SMul M β} {inst_2 : SMul M F} [self : IsSMulApply M F] (f : F) (n : M) (x : α), (n • f) x = n • f x
+instead of
+  ∀ {R : Type u_1} {A : Type u_2} {M : Type u_4} [inst : CommSemiring R] [inst_1 : CommSemiring A]
+    [inst_2 : AddCommMonoid M] [inst_3 : Algebra R A] [inst_4 : Module A M] [inst_5 : Module R M] (a : A) {S : Type u_5}
+    [inst_6 : Monoid S] [inst_7 : DistribMulAction S M] [inst_8 : SMulCommClass R S M] [inst_9 : SMulCommClass S A M]
+    (r : S) (D : Derivation R A M), (r • D) a = r • D a
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/DetDer.lean:74:10: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18269/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.WqUniqueOf (7.5s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/WqUniqueOf.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/WqUniqueOf.lean:15:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/WqUniqueOf.lean:18:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/WqUniqueOf.lean:19:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/WqUniqueOf.lean:20:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/WqUniqueOf.lean:64:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/WqUniqueOf.lean:64:16: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/WqUniqueOf.lean:64:30: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/WqUniqueOf.lean:64:45: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/WqUniqueOf.lean:66:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/WqUniqueOf.lean:82:6: `MeasureTheory.Measure.smul_apply` has been deprecated: Use `smul_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.smul_apply` to `smul_apply x`).
+
+Hint: Replace the deprecated name:
+  M̵e̵a̵s̵u̵r̵e̵.̵s̵m̵u̵l̵_̵a̵p̵p̵l̵y̵s̲m̲u̲l̲_̲a̲p̲p̲l̲y̲
+⚠ [18270/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.QLiftIsMulLeftInvariant (6.7s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/QLiftIsMulLeftInvariant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18271/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PowerBoundedIntegrality.Development (7.6s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PowerBoundedIntegrality/Development.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18272/18310] Built Formalism.FormalDegreeBessel.StatementG (8.1s)
+⚠ [18274/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PowerBoundedIntegrality.Development:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PowerBoundedIntegrality/Development.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18275/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.WqUniqueOf:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/WqUniqueOf.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18276/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.QLiftIsMulLeftInvariant:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/QLiftIsMulLeftInvariant.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18277/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowDerivationChainRule.Development:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/Development.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18278/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowDerivationChainRule.DetDer:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/DetDer.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18279/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SmithNormalForm.IsUnitOneAddVecMulVec:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SmithNormalForm/IsUnitOneAddVecMulVec.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18280/18310] Built Formalism.DoubleCosetMeasures.StatementZ (7.2s)
+⚠ [18282/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SmithNormalForm.ExistsMoveRow (7.5s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SmithNormalForm/ExistsMoveRow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SmithNormalForm/ExistsMoveRow.lean:15:8: automatically included section variable(s) unused in theorem `_private.Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SmithNormalForm.ExistsMoveRow.0.PI.SmithWork.sum_pairSingle_mul_eq_ite`:
+  [IsDomain R]
+  [IsPrincipalIdealRing R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain R] [IsPrincipalIdealRing R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SmithNormalForm/ExistsMoveRow.lean:22:12: This simp argument is unused:
+  hpi
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hpj, Ne.symm hij, Pi.single_apply, add_mul, Finset.sum_add_distrib, ite_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SmithNormalForm/ExistsMoveRow.lean:81:0: automatically included section variable(s) unused in theorem `PI.SmithWork.exists_move_row`:
+  [IsDomain R]
+  [IsPrincipalIdealRing R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain R] [IsPrincipalIdealRing R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SmithNormalForm/ExistsMoveRow.lean:88:0: automatically included section variable(s) unused in theorem `PI.SmithWork.exists_move_col`:
+  [IsDomain R]
+  [IsPrincipalIdealRing R]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsDomain R] [IsPrincipalIdealRing R] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SmithNormalForm/ExistsMoveRow.lean:216:26: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [(Fin.succ_ne_zero k).symm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SmithNormalForm/ExistsMoveRow.lean:219:24: This simp argument is unused:
+  Matrix.diagonal_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Fin.succ_ne_zero]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [18283/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowDerivationChainRule.ChainRule (22s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/ChainRule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/ChainRule.lean:41:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/ChainRule.lean:41:35: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/ChainRule.lean:63:21: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/ChainRule.lean:63:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/ChainRule.lean:64:12: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/ChainRule.lean:64:22: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/ChainRule.lean:67:52: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/ChainRule.lean:85:10: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/ChainRule.lean:85:37: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/ChainRule.lean:89:23: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+⚠ [18284/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowDerivationChainRule.NvFalseEq (8.1s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:29:33: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:33:48: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:55:18: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:55:28: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:58:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:58:20: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:66:6: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:69:8: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:78:8: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:32:14: This simp argument is unused:
+  Pi.single_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hj]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:55:37: This simp argument is unused:
+  eq_self_iff_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hbc, if_false, if_true, ite_true, ite_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:55:55: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hbc, if_false, if_true, eq_self_iff_true, ite_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:55:65: This simp argument is unused:
+  ite_false
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hbc, if_false, if_true, eq_self_iff_true, ite_true]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:64:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean:64:6: Unused tactic linter: `try` can be removed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18285/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.Weight (7.0s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/Weight.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/Weight.lean:69:34: `ENNReal.le_tsum` has been deprecated: Use `le_tsum` instead
+
+Note: The updated constant has a different type:
+  ∀ {ι : Type u_1} {α : Type u_3} [inst : AddCommMonoid α] [inst_1 : CompleteLattice α] [CanonicallyOrderedAdd α]
+    [inst_3 : TopologicalSpace α] [SupConvergenceClass α] [IsOrderedAddMonoid α] [OrderClosedTopology α] (f : ι → α)
+    (a : ι), f a ≤ ∑' (a : ι), f a
+instead of
+  ∀ {α : Type u_1} {f : α → ℝ≥0∞} (a : α), f a ≤ ∑' (a : α), f a
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.le_tsum` to `le_tsum x`).
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/Weight.lean:75:13: `ENNReal.tsum_le_tsum` has been deprecated: Use `tsum_le_tsum` instead
+
+Note: The updated constant has a different type:
+  ∀ {ι : Type u_1} {α : Type u_3} [inst : AddCommMonoid α] [inst_1 : CompleteLattice α] [CanonicallyOrderedAdd α]
+    [inst_3 : TopologicalSpace α] [SupConvergenceClass α] {f g : ι → α} [IsOrderedAddMonoid α] [OrderClosedTopology α],
+    f ≤ g → ∑' (a : ι), f a ≤ ∑' (a : ι), g a
+instead of
+  ∀ {α : Type u_1} {f g : α → ℝ≥0∞}, (∀ (a : α), f a ≤ g a) → ∑' (a : α), f a ≤ ∑' (a : α), g a
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.tsum_le_tsum` to `tsum_le_tsum x`).
+⚠ [18286/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PowerBoundedIntegrality.Imports (9.4s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PowerBoundedIntegrality/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PowerBoundedIntegrality/Imports.lean:26:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PowerBoundedIntegrality/Imports.lean:16:46: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PowerBoundedIntegrality/Imports.lean:16:46: Unused tactic linter: `simp [zsmul_eq_mul]` is never executed.
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+⚠ [18287/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientInvariantMeasurability.MeasurableMmRight (104s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientInvariantMeasurability/MeasurableMmRight.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18288/18310] Built Formalism.FormalDegreeBessel.StatementBF (10s)
+⚠ [18290/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PowerBoundedIntegrality.Imports:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PowerBoundedIntegrality/Imports.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18291/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientInvariantMeasurability.MeasurableMmRight:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientInvariantMeasurability/MeasurableMmRight.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18292/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientMeasureUniqueness.Weight:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientMeasureUniqueness/Weight.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18293/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowDerivationChainRule.ChainRule:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/ChainRule.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18294/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.RowDerivationChainRule.NvFalseEq:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/RowDerivationChainRule/NvFalseEq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18295/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.SmithNormalForm.ExistsMoveRow:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/SmithNormalForm/ExistsMoveRow.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+✔ [18296/18310] Built Formalism.DoubleCosetMeasures.StatementV (15s)
+⚠ [18298/18310] Built Formalism.PeriodIntegrals.OrbitalBoundsConclusion.SmithMat (11s)
+warning: src/Formalism/PeriodIntegrals/OrbitalBoundsConclusion/SmithMat.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18299/18310] Built Formalism.PeriodIntegrals.OrbitalBoundsConclusion.RowLetter (9.6s)
+warning: src/Formalism/PeriodIntegrals/OrbitalBoundsConclusion/RowLetter.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18300/18310] Built Formalism.PeriodIntegrals.OrbitalBoundsConclusion.QuotMeasUniq (7.1s)
+warning: src/Formalism/PeriodIntegrals/OrbitalBoundsConclusion/QuotMeasUniq.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18301/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.QuotientInvariantMeasurability.MeasurableAvgS (15s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientInvariantMeasurability/MeasurableAvgS.lean:45:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/QuotientInvariantMeasurability/MeasurableAvgS.lean:46:2: Try this:
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+✔ [18302/18310] Built Formalism.PeriodIntegrals.HaarDefs (6.7s)
+✔ [18303/18310] Built Formalism.PeriodIntegrals.BordDefs (6.6s)
+⚠ [18305/18310] Built Formalism.PeriodIntegrals.DatumBlockEigen (8.6s)
+warning: src/Formalism/PeriodIntegrals/DatumBlockEigen.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18306/18310] Built Formalism.PeriodIntegrals.DatumConjInv (8.3s)
+warning: src/Formalism/PeriodIntegrals/DatumConjInv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18307/18310] Built Formalism.PeriodIntegrals.OrbitalBoundsConclusion.QuotInv (5.7s)
+warning: src/Formalism/PeriodIntegrals/OrbitalBoundsConclusion/QuotInv.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18308/18310] Built Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PowerBoundedIntegrality.EvalIntMapEqZero (328s)
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PowerBoundedIntegrality/EvalIntMapEqZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18309/18310] Ran Formalism.PeriodIntegrals.UnitaryGroupMassFormula.PowerBoundedIntegrality.EvalIntMapEqZero:irArts
+warning: src/Formalism/PeriodIntegrals/UnitaryGroupMassFormula/PowerBoundedIntegrality/EvalIntMapEqZero.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+⚠ [18310/18310] Built Formalism.PeriodIntegrals.OrbitalBoundsConclusion.PowBddInt (7.9s)
+warning: src/Formalism/PeriodIntegrals/OrbitalBoundsConclusion/PowBddInt.lean: imports `Mathlib` from package `mathlib`, which is designed for use with the module system; consider adding `module` to the start of this file
+Build completed successfully (18310 jobs).
+[PASS]  M153464 (Formalism.PeriodIntegrals.BordDefs)
+[PASS]  M153483 (Formalism.PeriodIntegrals.DatumBlockEigen)
+[PASS]  M153484 (Formalism.PeriodIntegrals.DatumConjInv)
+[PASS]  M153548 (Formalism.PeriodIntegrals.HaarDefs)
+[PASS]  M153875 (Formalism.PeriodIntegrals.OrbitalBoundsConclusion.PowBddInt)
+[PASS]  M153917 (Formalism.PeriodIntegrals.OrbitalBoundsConclusion.QuotInv)
+[PASS]  M153918 (Formalism.PeriodIntegrals.OrbitalBoundsConclusion.QuotMeasUniq)
+[PASS]  M153925 (Formalism.PeriodIntegrals.OrbitalBoundsConclusion.RowLetter)
+[PASS]  M153948 (Formalism.PeriodIntegrals.OrbitalBoundsConclusion.SmithMat)
+
+PORT_BUILD_PASSED all 9 module(s).
