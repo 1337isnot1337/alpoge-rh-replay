@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.ContinuousIsBigORpowLipschitzProductKernel",
+  "source_sha256": "507ae9ff58c7f95b7046282eb1d54a5d440b091aa87d4ed4e9a6c10318944a68",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed `continuous_finsetProd`, and `Finset.prod_le_prod₀`, the target's name for the ordered-semiring product inequality with nonnegativity hypotheses. Proof bodies only."
+}

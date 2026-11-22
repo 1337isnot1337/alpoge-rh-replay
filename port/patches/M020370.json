@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.CyclotomicSumNormSqEqOneSingleNonzero",
+  "source_sha256": "6b91206ab31f0b04162cc6ce4a08d52bcae3b8e9213d4ac23edceafaf2f43a9c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use the renamed `Polynomial.finsetSum_coeff` (was `finset_sum_coeff`). Proof body only."
+}
