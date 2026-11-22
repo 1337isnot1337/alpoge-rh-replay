@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Proofs.DivisorProofs.HasLatticeRelativeLengthMapIff",
+  "source_sha256": "d06216ba17974e3b7eac11e6f91d7271e6a70e69b73d6193bd01024e5c4b80c6",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}
