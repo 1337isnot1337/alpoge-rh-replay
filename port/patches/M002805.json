@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Counterexamples.DegenerateExamples.PremisesModel",
+  "source_sha256": "2b33d355ff46be560ddfcb2a5c42296c1dd2a3739a8e9b4557b61a56d2d40314",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Qualify the matrix entry formula for multiplication."
+}

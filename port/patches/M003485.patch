@@ -1,0 +1,11 @@
+--- a/src/Development/AbelianVarietyTheory/Definitions/Divisors/EllFamNontrivial.lean
++++ b/src/Development/AbelianVarietyTheory/Definitions/Divisors/EllFamNontrivial.lean
+@@ -281,7 +281,7 @@
+ def perZ (per : Λ →+ Hol F.V) : Z1 K.Oc :=
+   ⟨fun _ T' f ↦ algebraMap (Hol F.V) T'.C (per f.deg), fun T T' T'' f f' ↦ by
+     change algebraMap _ T''.C (per (f.deg + f'.deg)) = f'.φ (algebraMap _ _ _) + algebraMap _ T''.C _
+-    rw [AlgHom.commutes, map_add, map_add]⟩
++    rw [AlgHom.commutes, per.map_add, (algebraMap (Hol F.V) T''.C).map_add]⟩
+ 
+ variable (K) in
+ 

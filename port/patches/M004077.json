@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.Foundations.IsIwasawaOfIsCompact",
+  "source_sha256": "a2d8cfd369305fddf19f0be0041ecc1b1ea32a1a20db72c20489c610a3e57dfe",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

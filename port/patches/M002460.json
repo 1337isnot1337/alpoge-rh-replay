@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.BlockTheory.NonGaloisCusps.OnePlusPowerAssembly",
+  "source_sha256": "89c97012277e84ac0773f84693ca670df5f62a3f545e7b8e2760722b00e0f70c",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "unchanged"
+}

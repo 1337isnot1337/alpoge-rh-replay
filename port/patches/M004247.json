@@ -1,0 +1,7 @@
+{
+  "module": "Development.AbelianVarietyTheory.Definitions.GaloisGeometry.IsStrictlySemistableAlt",
+  "source_sha256": "49b1ad40c69a7862a4b0b241d36eab4f0c7913740ff728fb08bc4c9e3861c4b8",
+  "lean": "leanprover/lean4:v4.36.0",
+  "mathlib": "fc4f59e577feb1a4956671bc04ac18aaaf8cd842",
+  "notes": "Use Set.singleton explicitly around the defining polynomial relation."
+}
